@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+/* //device/apps/common/assets/res/any/colors.xml
+**
+** Copyright 2006, The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+-->
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">  
+    <string name="text">نص</string>  
+    <string name="trafficassistant_app_name">مراقبة الوتيرة</string>
+    <string name="tabbar_name1">SIM فتحة 1</string>  
+    <string name="tabbar_name2">SIM فتحة 2</string>  
+    <string name="remained_flow_string">"فائض "</string>  
+    <string name="exceed_flow_string">تجاهل</string>  
+    <string name="used">استخدم</string>  
+    <string name="used_flow_string">تستخدم <xliff:g id="ID_1">%s</xliff:g> ﻿ميغابايت</string>  
+    <string name="total_flow_string">إجمالي 
+        <xliff:g id="ID_1">%s</xliff:g>M
+    </string>  
+    <string name="prompt_no_settings_traffic">لم يحدد</string>
+    <string name="no_settings">لم يحدد</string>
+    <string name="prompt_used_traffic">مستعملة\n 
+        <xliff:g id="ID_1">%s</xliff:g>M
+    </string>  
+    <string name="month">شهر</string>  
+    <string name="day">يوم</string>  
+    <string name="noti_today">"استهلاك البيانات لهذا اليوم "</string>
+    <string name="noti_surplus">" مجاني "</string>  
+    <string name="noti_exceed">تجاهل</string>  
+    <string name="noti_total">المجموع</string>  
+    <string name="noti_no_settings">لم يتم تعيين خطة بيانات</string>  
+    <string name="noti_no_card">لم يتم توصيل SIM في.</string>  
+    <string name="start_date_string">شهريا</string>  
+    <string name="limit_flow">تعيين خطة البيانات</string>
+    <string name="detail_flow">الرسوم البيانية</string>  
+    <string name="network_control">التحكم في الشبكات</string>  
+    <string name="more_settings">المزيد من التحكم في الإعدادات</string>
+    <string name="traffic_save">إنقاذ المرور</string>  
+    <string name="no_card_warning">الرجاء إدخال الشريحة</string>
+    <string name="action_known">تم</string>  
+    <string name="action_settings">إعداد</string>
+    <string name="action_cancel">الغاء</string>  
+    <string name="action_done">تم</string>  
+    <string name="action_save">حفظ</string>  
+    <string name="action_sure">موافق</string>
+    <string name="action_allow">السماح</string>  
+    <string name="action_prohibit">ممنوع</string>  
+    <string name="action_all_allow">السماح للكل</string>  
+    <string name="action_all_prohibit">تعطيل الكل</string>  
+    <string name="application_info">معلومات التطبيق</string>  
+    <string name="data_connect_allow">وصلات التحكم</string>  
+    <string name="total_flow_settings">حد استخدام البيانات الشهري</string>
+    <string name="input_hint">يرجى الإدخال</string>  
+    <string name="warning_settings">قيمة الإنذار</string>  
+    <string name="date_start_settings">تاريخ بدء استخدام البيانات</string>
+    <string name="used_flow_settings">البيانات المستهلكة</string>
+    <string name="flow_unit">﻿ميغابايت</string>  
+    <string name="percent_unit">%</string>  
+    <string name="mobile_data_stop_title">تنبيه وتيرة المرور</string>  
+    <string name="mobile_data_stop_contetn">نفد من وتيرة المرور الشهري، الاستمرار في استخدام اتصال البيانات سيكلف، هل تريد استخدامه؟</string>  
+    <string name="action_restart">الاستمرار في الاستخدام</string>  
+    <string name="action_stop">لا تستعمل</string>  
+    <string name="info_save_error_no_flow_input">الرجاء إدخال الحد الوتيرة الشهرية</string>  
+    <string name="info_prompt">يمكنك ضبط قيمة استخدام البيانات يدويا.</string>
+    <string name="popup_notification_title">لم تحدد خطة بيانات</string>  
+    <string name="popup_notification_ticker_title">تدفق التيار لم يحدد حماية حزمة</string>  
+    <string name="popup_notification_content">انقر لتعيين، في الوقت الحقيقي رصد وتيرة الاستخدام</string>  
+    <string name="popup_setting_title_dialog">تعيين خطة بيانات</string>  
+    <string name="popup_setting_content_dialog">تعيين خطة البيانات، وتوفير الأمن لقفل الهاتف.</string>  
+    <string name="notification_warn_exceed_warning_title">تحذير أحمر خطة بيانات</string>  
+    <string name="notification_warn_exceed_warning_content">بلغ التدفق التحذير الأحمر، المس للعرض</string>  
+    <string name="percent_value">80</string>  
+    <string name="warning_value">0.0</string>  
+    <string name="zero_percent">80%</string>  
+    <string name="total_percent">100%</string>  
+    <string name="process_kernel_labels">Android OS</string>  
+    <string name="data_usage_uninstalled_apps_users">تطبيقات ومستخدمين تم إزالتهم</string>  
+    <string name="data_usage_uninstalled_apps">تطبيقات تم ازالتها</string>  
+    <string name="tether_settings_title_all">إعدادات الربط</string>  
+    <string name="tether_settings_title_wifi">نقطة الاتصال المحمولة</string>
+    <string name="tether_settings_title_usb_bluetooth">الربط</string>  
+    <string name="tether_settings_title_usb">ربط USB</string>  
+    <string name="tether_settings_title_bluetooth">ربط بلوتوث</string>  
+    <string name="running_process_item_user_label">%1$S:المستخدم</string>  
+    <string name="data_usage_app_restricted">مقيد</string>  
+    <string name="usage_detail">تفاصيل وتيرة المرور</string>  
+    <string name="version_name">الإصدار:</string>  
+    <string name="traffic_time_week">هذا الاسبوع تدفق ( 
+        <xliff:g id="ID_1">%s</xliff:g>)
+    </string>  
+    <string name="traffic_time_month">تدفق شهري ( 
+        <xliff:g id="ID_2">%s</xliff:g>)
+    </string>  
+    <string name="network_selection">هذا الشهر مع تدفق البيانات</string>  
+    <string name="no_value">لا شيء</string>  
+    <string name="text_loading">تحميل ...</string>  
+    <string name="text_noti">معالجة…</string>  
+    <string name="traffic_monitor_display"> 
+        <xliff:g id="ID_1">%s</xliff:g> تدفق على النحو التالي 2G / 3G / 4G استخدام
+    </string>  
+    <string name="traffic_monitor_title">معظم استهلاك وتيرة هذا الأسبوع</string>  
+    <string name="traffic_monitor_message"> 
+        <xliff:g id="ID_1">%s</xliff:g> 
+    </string>  
+    <string name="traffic_settings_main_title">مركز عرض الإشعارات</string>
+    <string name="traffic_network_speed_title">عرض سرعة الشبكة</string>  
+    <string name="traffic_network_speed_summary">سيتم عرض سرعة الشبكة في شريط الاشعارات عند تفعيل الميزة</string>
+    <string name="traffic_notification_title">عرض معلومات عن الوتيرة</string>
+    <string name="traffic_notification_summary">تحقق من شريط الاشعارات لعرض معلومات استخدام البيانات</string>
+    <string name="traffic_netcontrol_bar_allow_text">الشبكات المسموحة (<xliff:g id="ID_1">%1$s</xliff:g></string>  
+    <string name="traffic_netcontrol_bar_prohibit_text">حظر الإنترنت (<xliff:g id="ID_1">%1$s</xliff:g>)</string>  
+    <string name="net_link_allowed_txt">لا تطبيق يسمح بالإنترنت</string>  
+    <string name="net_link_prohibited_txt">لا تطبيق من الإنترنت الممنوعة</string>  
+    <string name="traffic_save_setting">إعدادات توفير الوتيرة</string>  
+    <string name="switch_off">ايقاف</string>  
+    <string name="switch_on">تشغيل</string>  
+    <string name="traffic_save_off">وتيرة الحفظ غير مفتوحة</string>  
+    <string name="traffic_save_off_summary">هذه الوظيفة متوفرة فقط في ظل شبكة البيانات</string>  
+    <string name="traffic_save_total_title">لديك مدخرات متراكمة</string>  
+    <string name="traffic_save_total_num_string">328</string>  
+    <string name="total_volume_string">ميغابايت</string>
+    <string name="money_save_total_title">حول الرنمينبي</string>
+    <string name="money_save_total_num_string">32.8</string>  
+    <string name="total_money">يوان</string>
+    <string name="traffic_save_support_txt">مدعوم من OPERA</string>  
+    <string name="traffic_save_history">عرض تواريخ وتيرة التوفير</string>  
+    <string name="traffic_save_history_total">تدفق المدخرات المتراكمة</string>  
+    <string name="traffic_question1">1، كيف تصل إلى تدفق التوفير؟</string>  
+    <string name="traffic_question3">3، وظيفة التدفق نفسها تستخدم تدفق المدخرات؟</string>  
+    <string name="traffic_question4">4، استخدام الوتيرة بعد حفظ تأمين خصوصية الانترنت؟</string>  
+    <string name="traffican_answer1">تدفق يحفظ تحول الميزة، سوف تستخدم لتغيير حجم النص والصور والحركات الأخرى، وبالتالي تقليلQQ، و Taobaoلتطبيقات مثل استهلاك الوتيرة. نتائج مستدامة أفضل.</string>  
+    <string name="traffican_answer2">يأخذ تدفق المدخرات تأثيرا فقط لشبكة البيانات، لم يتم تفعيل الوايرلس. يحفظ التدفق تأثير النص والصورة فقط، أما الصوت، الفيديو وتحميل الملفات فلا يحفظ الوتيرة</string>  
+    <string name="traffican_answer3">التدفق نفسه يوفر أي وتيرة، بعد تفعيل هذه الميزة، كل وتيرة / 4G 2/3 على الإنترنت سوف تستخدم إدارة نظام تجميع وضغط، ;وبرامج الأمان الفردية سيلحظ Butler باستخدام تدفق النظام. ونحن لن تستهلك المرور الثمين، فلا تتردد في استخدامها.</string>  
+    <string name="traffican_answer4">هذه الميزة لا تعالج أي من المعلومات الخاصة بك، لا تتردد في استخدام</string>  
+    <string name="traffican_question_answer">مساعدة</string>  
+    <string name="traffican_whitelist_title">قائمة التطبيق لا تحتاج إلى حفظ المرور</string>  
+    <string name="text_no_traffic_whitelist">لا حاجة لحفظ الوتيرة</string>  
+    <string name="traffic_simcard_focus1">الشريحة 1</string>
+    <string name="traffic_simcard_focus2">الشريحة 2</string>
+    <string name="traffic_netcontrol_tab_bar_allow_text">شبكة الوايرلس</string>
+    <string name="traffic_netcontrol_tab_bar_prohibit_text">شبكة البيانات</string>
+    <string name="traffic_title_allow_text"> 
+        <xliff:g id="ID_1">%1$s</xliff:g> تطبيقات يسمح شبكة
+    </string>  
+    <string name="traffic_title_prohibit_text"> 
+        <xliff:g id="ID_1">%1$s</xliff:g> شبكة تطبيقات محظورة
+    </string>  
+    <string name="traffic_back_toast_text">تطبيق عملية التحكم في الشبكة في تقدم، يرجى الانتظار</string>  
+    <string name="traffic_time_day">"حركة بيانات اليوم( 
+        <xliff:g id="ID_1">%s</xliff:g>)"
+    </string>  
+    <!--Gionee baiyh 2015-01-14 modify for CR01430127 begin -->  
+    <string name="traffic_day">"استهلاك البيانات لهذا اليوم"</string>
+    <string name="traffic_week">التدفق الأسبوعي</string>  
+    <string name="traffic_month">التدفق الشهري</string>  
+    <!--Gionee baiyh 2015-01-14 modify for CR01430127 end -->  
+    <string name="traffic_day_no">"معدل التدفق غير المستخدم اليوم"</string>  
+    <string name="traffic_week_no">"حركة بيانات غير مستخدمة هذا الأسبوع"</string>  
+    <string name="traffic_month_no">حركة بيانات غير مستخدمة هذا الشهر</string>  
+    <string name="traffic_title_text"> 
+        <xliff:g id="ID_1">%1$s</xliff:g> تطبيق
+    </string>  
+    <string name="time_format">ش ش - س س س س</string>  
+    <string name="btn_try_again_txt">حاول مرة أخرى</string>  
+    <string name="data_load_txt">جارٍ التحميل الآن ...</string>  
+    <string name="calibrate_setting_province">ولاية</string>  
+    <string name="noti_softap_setting_cancel">إلغاء</string>  
+    <string name="noti_softap_setting_userDefine">مخصص</string>  
+    <string name="noti_softap_close_text">إيقاف تشغيل</string>  
+    <string name="noti_softap_group_title">إعداد بيانات نقطة ربط WLAN المحمول</string>  
+    <string name="noti_softap_setting_title">إشعار مشاركة البيانات</string>
+    <string name="noti_softap_setting_text">قم بعرض الإشعار عند الوصول إلى البيانات في 
+        <xliff:g id="ID_1">%s</xliff:g> في وقت واحد
+    </string>  
+    <!--Gionee chenyu 2016-06-01 add for CR01709765 begin -->  
+    <string name="noti_softap_no_warning_text">لا تذكير</string>  
+    <!--Gionee chenyu 2016-06-01 add for CR01709765 end -->  
+    <string name="traffic_origan_txt">البيانات العادية</string>
+    <string name="traffic_idle_txt">التدفق الحر</string>  
+    <string name="noti_softap_setting_commit">يلتزم</string>  
+    <string name="dialog_btn_cancel">إلغاء</string>  
+    <string name="dialog_know">موافق</string>
+    <string name="hotspot_restart">إعادة تشغيل</string>  
+    <string name="lockscreen_traffic_remind_close">لا تذكير</string>  
+    <string name="lockscreen_traffic_limit_three">5M</string>  
+    <string name="traffic_btn_calibration_text">معاينة</string>  
+    <string name="buy_step2_title">2 حدد قيمة الوجه</string>  
+    <string name="buy_step3_title">3 دفع وشراء</string>  
+    <string name="buy_step_title">رقم الإدخال 2 حدد قيمة الوجه  3 دفع وشراء1</string>  
+    <string name="order_info_title">معلومات النظام</string>  
+    <string name="traffic_packge_text"><xliff:g id="ID_1">%1$s</xliff:g> مجموعة الوتيرة</string>  
+    <string name="show_problem_title">مشكلة شائعة</string>  
+    <string name="buy_record_title">شراء سجل</string>  
+    <string name="problem4_content">آسف، بعد الرقم الخاطئ، متعاملو الهاتف (mobile, China Unicom, telecom) لا يمكن الاسترداد. يمكنك اختيار الطرق التالية التالية في محاولة لتعويض الخسارة: 1 الاتصال مع العدد الفعلي للآلات، والآخر سيعوض عن التدفق. 2 الاتصال بمتعامل خدمة العملاء، الاستشارات قادرة على استرداد حركة الشحن,</string>  
+    <string name="problem5_content">عادة نقوم بتعويضك في حالة الفضل. لمدة 24 ساعة، يمكنك الانضمام إلى مجموعة QQ الرسمية (188473978) للحصول على ردود الفعل.</string>  
+    <string name="mobile_invalid_text">الجوال غير صالح</string>  
+    <string name="sell_alipay">دفع بواسطة alipay</string>  
+    <string name="sell_weixin_pay">دفع بواسطة weixin</string>  
+    <string name="payment_failed_txt">فشل النظام!</string>  
+    <string name="payment_pre_txt">تعبئة</string>  
+    <string name="traffic_correctting_txt">معايرة</string>  
+    <string name="query_product_fail_txt">لا تتوفر حزم الاشتراك</string>  
+    <string name="no_install_weixin_txt">يرجى التأكد ما إذا كنت قد قمت بتثبيت الرسالة الصغيرة</string>  
+    <string name="buy_number_hint_txt">يرجى إدخال رقم الهاتف الخاص بك.</string>  
+    <string name="no_query_code_txt">أخفقت المعايرة، يرجى ضبط تدفق الحزم يدويا</string>  
+    <string name="buy_omitted_displayname"><xliff:g id="ID_1">%1$s</xliff:g>...</string>  
+    <string name="sell_baseinfo_symbol">/</string>  
+    <string name="calibrate_setting_txt">اعدادات المعايرة</string>  
+    <string name="buy_record_baseinfo_txt"><xliff:g id="ID_1">%1$s</xliff:g> أعادة شحا<xliff:g id="ID_2">%2$s</xliff:g> /<xliff:g id="ID_3">%3$s</xliff:g>يوان</string>  
+    <string name="buy_record_paytype_txt"><xliff:g id="ID_1">%1$s</xliff:g><xliff:g id="ID_2">%2$s</xliff:g></string>  
+    <string name="noti_softap_setting_units">M</string>  
+    <string name="noti_softap_warning_title">إشعار البيانات</string>  
+    <string name="error_phone_number_text">رقم الهاتف غير صحيح</string>  
+    <string name="dialog_btn_unlock">إطلاق</string>  
+    <string name="dialog_network_control_title">تنبيه إدارة النظام</string>  
+    <string name="net_type_mobile">شبكة الهاتف</string>  
+    <string name="net_type_wifi">شبكة الوايرلس</string>
+    <string name="dialog_not_alert_again">دون تحذير</string>  
+    <string name="noti_softap_use_agiain_txt">استخدم <xliff:g id="ID_1">%1$d</xliff:g> ميغابايت</string>  
+    <string name="hotspot_settingvalue_valid">عند مشاركة hotspot سيذكرك <xliff:g id="ID_1">%1$d</xliff:g>M مرة أخرى</string>  
+    <string name="lockscreen_traffic_limit_one">100k</string>  
+    <string name="lockscreen_traffic_limit_two">1M</string>  
+    <string name="lockscreen_traffic_remid_title">تذكير ببيانات حركة قفل الشاشة</string>  
+    <string name="lock_screen_traffic_content">المس للتحقق من التفاصيل</string>  
+    <string name="lock_screen_traffic_unknow_app">تطبيق غير معروف</string>
+    <string name="hotspot_auto_close_message">بلغ حد مشاركة البيانات <xliff:g id="ID_1">%d</xliff:g> ميغابايت، قم بإيقاف تشغيل نقطة اتصال الوايرلس لتجنب الاستهلاك المفرط </string>
+    <string name="traffic_remind_group_title">تذكير بالبيانات</string>
+    <string name="noti_softap_warning_message">بلغت مشاركة البيانات <xliff:g id="ID_1">%s</xliff:g> ميغابايت، هل تريد إيقاف نقطة اتصال الوايرلس؟</string>
+    <string name="hotspot_settingvalue_invalid">إستعملت <xliff:g id="ID_1">%1$1.2f</xliff:g> ميغا يرجى  إعادة البدء </string>
+    <string name="hotspot_userdefine_settingvalue_invalid">بيانات غير صالحة. يرجى إعادة تشغيل.</string>
+</resources>

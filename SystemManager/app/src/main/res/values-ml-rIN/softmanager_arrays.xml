@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!-- SoftManager begin -->
+  <string-array name="header_list">
+    <item>സക്രിയമാക്കുക</item>
+    <item>നിഷ്ക്രിയമാക്കുക</item>
+  </string-array>
+  <!-- 默认软件设置title 
+    <string-array name="ui_def_soft_title">
+        <item>Default inputMethod</item>
+        <item>Default browser</item>
+        <item>Default contacts</item>
+        <item>Default messaging</item>
+        <item>Default launcher</item>
+        <item>Default camera</item>
+        <item>Default image</item>
+        <item>Default music</item>
+        <item>Default video</item>
+        <item>Default reader</item>
+    </string-array> -->
+  <string-array name="listitem_soft_manager_activity">
+    <item>ആപ്ലിക്കേഷൻ ഓട്ടോ ആരംഭം</item>
+    <item>ആപ് അണ്‍ഇന്‍സ്റ്റാള്‍</item>
+    <item>ആപ്പ് ഫ്രീസ്</item>
+    <item>ആപ്പ് ലോക്ക്</item>
+  </string-array>
+  <!-- Software Permission Setting Title -->
+  <string-array name="listitem_permission_setting">
+    <item>എല്ലാ വിശ്വാസം</item>
+    <item>ഭാഗിക വിശ്വാസം</item>
+    <item>വിശ്വസിക്കരുത്</item>
+  </string-array>
+  <string-array name="listitem_permission_setting_summary">
+    <item>ആപ്ലിക്കേഷന്‍ എന്തെങ്കിലും അനുവാദം ആവശ്യപ്പെട്ടാല്‍ ബോംബ്‌ ബോക്സ് പ്രോംപ്റ്റ് ഉണ്ടായിരിക്കില്ല</item>
+    <item>ആപ്ലിക്കേഷൻ പ്രധാനപ്പെട്ട അനുമതികൾക്ക് ആവശ്യപ്പെടുമ്പോൾ മാത്രമാണ് ബോക്സ് ബോംബ് പ്രോംപ്റ്റ് ചെയ്യുക</item>
+    <item>ആപ്ലിക്കേഷന്‍ എന്തെങ്കിലും അനുവാദം ആവശ്യപ്പെട്ടാല്‍ ബോംബ്‌ ബോക്സ് നിര്‍ദ്ദേശം നല്‍കുന്നതാണ്</item>
+  </string-array>
+  <string-array name="listitem_freeze_app_summary">
+    <item> ആപ്പ്സിന് ഇഫെക്ട് ഇല്ല </item>
+    <item> ആപ്പ്സിന് ജാഗ്രത</item>
+  </string-array>
+  <!-- Gionee: mengdw <2016-08-01> modify for CR01739399 end -->
+  <string-array name="uninstall_sort">
+    <item>ആപ്പ് പേരു കൊണ്ട് സോർട്ട് ചെയ്യുക</item>
+    <item>ഇൻസ്റ്റോൾ ടൈം ഉപയോഗിച്ച് തരംതിരിക്കുക </item>
+    <item>നിരക്ക് ഉപയോഗിച്ചുകൊണ്ട് തരംതിരിക്കുക</item>
+    <item>ആപ്പ് വലിപ്പംകൊണ്ട് തരംതിരിക്കുക</item>
+  </string-array>
+  <string-array name="green_list_item">
+    <!-- Gionee <yangxinruo> <2016-1-13> modify for CR01621967 begin -->
+    <item>വൈറ്റ് ലിസ്റ്റ് ക്ലീൻ ചെയ്യുക</item>
+    <!-- Gionee <yangxinruo> <2016-1-13> modify for CR01621967 end -->
+  </string-array>
+  <string-array name="freeze_tab_item">
+    <item>ഫ്രീസബിൾ </item>
+    <item>മരവിപ്പിച്ചത്</item>
+  </string-array>
+  <string-array name="auto_start_tab_item">
+    <item>അനുവദിക്കുക</item>
+    <item>വിലക്കുക</item>
+  </string-array>
+  <string-array name="move_tab_item">
+    <item>സിസ്റ്റം സ്പേസ് </item>
+    <item>ആന്തരികം</item>
+  </string-array>
+  <string-array name="move_tab_item_sd">
+    <item>സിസ്റ്റം സ്പേസ് </item>
+    <item>SD കാർഡ്‎</item>
+  </string-array>
+  <!-- SoftManager end -->
+
+
+  <string-array name="app_lock_setting_items">
+    <item>@string/app_lock_setting_item_1</item>
+    <item>@string/app_lock_setting_item_2</item>
+  </string-array>
+
+
+
+</resources>

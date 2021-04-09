@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="security_wallet_title">Varstvo plačevanja</string>
+    <string name="security_wallet_empty">Ni najdena predložena aplikacija za plačevanje</string>
+    <string name="security_wallet_header">Zaščitne aplikacije</string>
+    <string name="security_wallet_header_on">Odpri</string>
+    <string name="security_wallet_header_off">Zprto</string>
+    <string name="security_wallet_mini_bar_tip">Potrjeno je, da naslednjim aplikacijam lahko zaupate</string>
+    <string name="security_wallet_support">Uporablja tehnologijo AVL</string>
+    <string name="security_wallet_mini_bar_tip_off">Varstvo plačevanja je zaprto</string>
+    <string name="security_wallet_mini_bar_tip_root">Rooten sistem obstaja- tveganje za plačilo</string>
+    <string name="security_wallet_off_info">Odprite varstvo plačevanja, ta bo skeniral okolje, odkril Wi-Fi povezave in prestregel zlonamerne kode da bi zaščitil plačevanje, ko je aplikacija plačevanja aktivna</string>
+    <string name="security_wallet_jump_to_app_store">pridobij več preverjenih aplikacij</string>
+    <string name="security_wallet_jump_to_app_store_not_found">ne morete odpreti trgovine za aplikacije</string>
+    <string name="security_safed_list_installed_toast">
+        <xliff:g>%1$s</xliff:g> nameščen kot zaščita ob plačevanju</string>
+    <string name="security_safed_list_updated_toast">Uspešna posodobitev seznama pravil finančne aplikacije \nrazličica:<xliff:g>%1$s</xliff:g></string>
+</resources>

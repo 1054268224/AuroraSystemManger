@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="security_wallet_title">చెల్లింపు రక్షణ</string>
+  <string name="security_wallet_empty">నిజమైన చెల్లింపు యాప్ కనుగొనబడలేదు</string>
+  <string name="security_wallet_header">యాప్లను రక్షిస్తోంది</string>
+  <string name="security_wallet_header_on">తెరవండి</string>
+  <string name="security_wallet_header_off">మూసివేయబడింది</string>
+  <string name="security_wallet_mini_bar_tip">ఈ క్రింది యాప్లు నిజమైనవని తనిఖీ చేయబడింది</string>
+  <string name="security_wallet_support">AVL ద్వారా ఆధారితమైంది</string>
+  <string name="security_wallet_mini_bar_tip_off">చెల్లింపు రక్షణ మూసివేయబడింది</string>
+  <string name="security_wallet_mini_bar_tip_root">చెల్లింపు ప్రమాదంలో రూటెడ్ సిస్టమ్ ఉనికిలో ఉంది</string>
+  <string name="security_wallet_off_info">ఓపెన్ చెల్లింపు రక్షణ పర్యావరణాన్ని స్కాన్ చేస్తుంది, WLAN కనెక్షన్లు గుర్తిస్తుంది మరియు and చెల్లింపు యాప్ అమలు అవుతున్నప్పుడు చెల్లింపు భద్రత రక్షించేందుకు అడ్డుకొనే హానికరమైన కోడ్లు ఉంటాయి</string>
+  <string name="security_wallet_jump_to_app_store">మరిన్ని తనిఖీ చేయబడిన యాప్స్ ని పొందండి</string>
+  <string name="security_wallet_jump_to_app_store_not_found">యాప్ స్టోర్‌ని ప్రారంభించలేము</string>
+  <string name="security_safed_list_installed_toast">చెల్లింపు రక్షణ కోసం <xliff:g>%1$s</xliff:g> ఇన్స్టాల్ చేయబడింది</string>
+</resources>

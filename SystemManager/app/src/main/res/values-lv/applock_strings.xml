@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="cancel">Atcelt</string>
+    <string name="lockpassword_confirm_your_pattern_header">Apstipriniet kombināciju</string>
+    <string name="lockpattern_need_to_unlock_wrong">Nepareiza kombinācija</string>
+    <string name="gn_securitypassword_retry">Mēģināt vēlreiz</string>
+    <string name="gn_lockpattern_recording_intro_header">Zīmēt atbloķēšanas kombināciju</string>
+    <string name="lockpassword_confirm_your_password_header">Apstipriniet paroli</string>
+    <string name="lockpattern_too_many_failed_confirmation_attempts">Pārāk daudz neveiksmīgu mēģinājumu. Mēģiniet vēlreiz pēc <xliff:g id="NUMBER">%d</xliff:g> sekundēm.</string>
+    <string name="lockpattern_tutorial_cancel_label">Atcelt</string>
+    <string name="lockpattern_tutorial_continue_label">Tālāk</string>
+    <string name="lockpassword_confirm_your_pin_header">PIN koda apstiprināšana</string>
+    <string name="lockpassword_confirm_your_pattern_generic">"Lai turpinātu, ievadiet ierīces kombināciju."</string>
+    <string name="gn_fingerprint_unlock_wrong">Parole ir nepareiza. </string>
+    <string name="lockpassword_confirm_your_password_generic">"Lai turpinātu, ievadiet ierīces paroli."</string>
+    <string name="lockpassword_confirm_your_pin_generic">"Lai turpinātu, ievadiet ierīces PIN kodu."</string>
+</resources>

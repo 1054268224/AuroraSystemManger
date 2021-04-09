@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">  
+    <string name="power_app_name">पॉवर प्रबंधक</string>
+    <string name="can_use_time">%s का उपयोग कर सकते हैं</string>
+    <string name="need_charging_time">%s चार्ज करने की आवश्यकता है</string>
+    <string name="is_charging_now">चार्ज हो रहा है</string>
+    <string name="charged_completely">चार्ज हो गया है</string>
+    <string name="power_mode_use_time">उपयोग समय: <xliff:g id="time">%s</xliff:g></string>
+    <string name="power_cannotget">पूर्व-सूचना देना में असमर्थ</string>
+    <string name="power_hours">घंटे</string>
+    <string name="power_minutes">मिनट</string>
+    <string name="none_power_mode">कोई नहीं</string>
+    <string name="normal_power_mode">सामान्य मोड</string>
+    <string name="super_power_mode">चरम मोड</string>
+    <string name="none_power_mode_summary">कोई पावर अनुकूलन प्रसंस्करण नहीं है</string>
+    <string name="normal_power_mode_summary">मोबाइल फोन के प्रदर्शन को कम करने और बैकस्टेज एप्लीकेशन गतिविधि को सीमित करने के लिए</string>
+    <string name="super_power_mode_summary">केवल फोन, कांटैक्ट, SMS और घड़ी का उपयोग कर सकते हैं</string>
+    <string name="time_use_inmode">%s का उपयोग कर सकते हैं</string>
+    <string name="time_use_in_supermode">स्टैंडबाय:%s</string>
+    <string name="mode_change_alert">स्विच हो रहा है...</string>
+    <string name="powersaver_mode_category_title">अन्य ऊर्जा सेविंग के आइटम</string>
+    <string name="close_gesture">सभी सोमैटोसेंसरी इशारों और बिना छुए इशारों को बंद करें</string>
+    <string name="close_bluetooth">ब्लूटूथ बंद करें</string>
+    <string name="close_gps">GPS बंद करें</string>
+    <string name="close_sync">सिंक्रनाइज़ेशन को ऑफ करें</string>
+    <string name="close_push_notification">पुश नोटीफिकेशन को बंद कर दें</string>
+    <string name="set_custom_screen_light">स्क्रीन चमक को समायोजित करता है</string>
+    <string name="set_custom_sleep_time">निष्क्रियता में प्रवेश करने 15 सेकंड के बाद कोई ऑपरेशन नहीं</string>
+    <string name="set_cpu_state">CPU इंटेलीजेंट फ्रीक्वेंसी रिडक्शन को खोलें</string>
+    <string name="set_screen_save_power">स्क्रीन सेविंग को खोलें</string>
+    <string name="close_wifi">WLAN बंद करें</string>
+    <string name="close_data_connection">डेटा कनेक्शन बंद हो रहा है</string>
+    <string name="screen_light_sumarry">पावर बचत की स्थिति के लिए स्क्रीन की चमक को ऑटोमेटिकली समायोजित करे</string>
+    <string name="set_sleep_time">स्क्रीन टाइमआउट</string>
+    <string name="sleep_time_summary">निष्क्रियता में प्रवेश करने के बाद 15 सेकंड के बाद कोई ऑपरेशन नहीं</string>
+    <string name="set_screen_light">स्क्रीन की चमक को समायोजित करें</string>
+    <string name="power_saving_mode_title">पावर-बचत की सेटिंग</string>
+    <string name="save_power_notifi">पावर-बचत की नोटिस</string>
+    <string name="save_power_notifi_title">नोटिफिकेशन सेंटर पावर-बचत की स्थिति को बताएगा</string>
+    <string name="smart_saving">सिस्टम बैकस्टेज पावर-बचत</string>
+    <string name="night_saving_title">नाइट पावर सेविंग मोड</string>
+    <string name="auto_clean_title">इंटेलिजेंट मेमोरी क्लीन अप</string>
+    <string name="auto_clean_summary">क्लीन पृष्ठभूमि एप्लीकेशन की पावर की खपत को कम करने के क्रम में</string>
+    <string name="other_powersaver">अन्य</string>
+    <string name="user_manual">ऊर्जा बचत के उपाय</string>
+    <string name="battery">बैटरी का रखरखाव</string>
+    <string name="daily_use">बैटरी बचत के सुझाव</string>
+    <string name="battery_use_desc">कृपया 0-35 डिग्री सेल्सियस पर चार्ज करें. हर माह कम से कम एक बार फुल चार्ज करना सुनिश्चित करें. बैटरी स्तर 20% से ऊपर होने पर किसी समय चार्ज करें.</string>
+    <string name="daily_use_desc">स्क्रीन की चमक जितनी हो सके कम करें, स्पेशल इफेक्ट और एनीमेशन बंद करें, स्थिर वॉलपेपर का उपयोग करें. केवल आवश्यक डेस्कटॉप विजेट चलाए रखें, मोबाइल स्पैम और बैकग्राउंड प्रक्रियाएं साफ करें, एप्लीकेशन बूट वर्जित करें.</string>
+    <string name="power_consumption_tab_title">पावर के उपयोग की अधिक जानकारी</string>
+    <string name="hardware">हार्डवेयर पावर की खपत</string>
+    <string name="software">सॉफ्टवेयर पावर की खपत</string>
+    <string name="process_kernel_label">एंड्राइड OS</string>
+    <string name="process_mediaserver_label">मीडिया सर्वर</string>
+    <string name="percentage"><xliff:g id="NUMBER">%.1f</xliff:g> %%</string>
+    <string name="battery_level_tab_title">बैटरी का स्तर</string>
+    <string name="power_usage_not_available">बैटरी उपयोग डेटा प्राप्त करने में असमर्थ</string>
+    <string name="power_phone">वॉयस कॉल</string>
+    <string name="power_screen">स्क्रीन</string>
+    <string name="power_cell">मोबाइल फोन RF</string>
+    <string name="power_wifi">WLAN</string>
+    <string name="power_idle">मोबाइल फोन स्टैंडबाय</string>
+    <string name="power_gps">जीपीएस</string>
+    <string name="power_sensors">अन्य (विभिन्न सेंसर)</string>
+    <string name="power_bluetooth">ब्लूटूथ</string>
+    <string name="usage_description">वर्णन</string>
+    <string name="shotcut_operation">तेज ऑपरेशन</string>
+    <string name="airplane">फ्लाइट मोड</string>
+    <string name="data_conn">डेटा कनेक्शन</string>
+    <string name="display">डिस्‍प्ले</string>
+    <string name="idle_descrip">मोबाइल फोन स्टैंडबाय प्रक्रिया, आवश्यक सिस्टम की प्रक्रिया को बनाए रखने के क्रम में, पावर का उपयोग होगा</string>
+    <string name="screen_descrip">स्क्रीन उपयोग की प्रक्रिया में है, अधिक पावर का उपयोग होगा</string>
+    <string name="wlan_descrip">मोबाइल फोन WLAN सिग्नलों के लिए अक्सर खोज करेगा और WLAN को ऑन करने के बाद बहुत सारी बैटरी पॉवर खर्च कर देगा</string>
+    <string name="bt_descrip">ब्लूटूथ ऑन करने से मोबाइल फोन अधिक पावर का उपयोग करेगा</string>
+    <string name="gps_descrip">GPS स्थान सेवा की एप्लीकेशन सक्रीय करने पर अधिक पावर का उपयोग करेगी</string>
+    <string name="radio_descrip">वॉयस कॉल फंक्‍शन का उपयोग अधिक पावर का उपयोग करेगा</string>
+    <string name="cell_descrip">खराब सिगनल, मोबाइल फोन लगातार संचार सिग्नल खोजेगा, जिससे अधिक ऊर्जा खराब होगी</string>
+    <string name="others_descrip">मोबाइल के सेंसर जैसे गुरुत्वाकर्षण सेंसर, प्रकाश सेंसर, कार्यशील अवस्था में होंगे तो अधिक पावर का उपयोग होगा</string>
+    <string name="idle_title">मोबाइल फोन स्टैंडबाय पावर उपयोग का विवरण</string>
+    <string name="screen_title">स्क्रीन पावर की खपत का विवरण</string>
+    <string name="wlan_title">WLAN पावर उपयोग का विवरण</string>
+    <string name="bt_title">ब्लूटूथ पावर की खपत का विवरण</string>
+    <string name="gps_title">GPS पावर की खपत का विवरण</string>
+    <string name="radio_title">वॉयस पावर उपयोग का विवरण</string>
+    <string name="cell_title">मोबाइल फोन RF पावर उपयोग का विवरण</string>
+    <string name="others_title">पावर की खपत के अन्य विवरण</string>
+    <string name="details_title">उपयोग का विवरण</string>
+    <string name="power_monitor_title">एप्लीकेशन जिन्होंने इस सप्ताह सबसे अधिक पावर का उपयोग किया</string>
+    <string name="power_monitor_message"><xliff:g id="name">%s</xliff:g></string>
+    <string name="daily_power_open_noti">सामान्य मोड ऑन है</string>
+    <string name="dialog_negativebutton_txt">रद्द करें</string>
+    <string name="dialog_neutralbutton_txt">विवरण देखें</string>
+    <string name="dialog_positivebutton_txt">खोलें</string>
+    <string name="dialog_dailypower_message">सामान्य मोड मोबाइल फोन <xliff:g id="ID_1">%s</xliff:g> के लिए सेवा की समयावधि को बढ़ा सकता है\n\nगहरे रंग वाली थीम का उपयोग पावर का उपयोग घटाता है\nहरी पृष्ठभूमि सेवा को खोलें,बिना अनुमति के पावर उपयोग करने वाली पृष्ठभूमि एप्लीकेशन प्रतिबंधित हैं\nब्लूटूथ, GPS और अन्य कार्यों के लिए बिजली की खपत को कम करें</string>
+    <string name="dialog_superpower_message">चरम मोड मोबाइल फोन <xliff:g id="ID_1">%s की सेवा को लंबा खींच सकता है\n\n चरम मोड में केवल फोन, कांटैक्ट, SMS और क्लॉक का उपयोग किया जा सकता है.\n मोबाइल फोन न्यूनतावादी डेस्कटॉप</xliff:g> में प्रविष्ट होगा</string>
+    <string name="super_power_save_label">चरम मोड</string>
+    <string name="super_power_mode_introduction_string1">चरम मोड में केवल <b>फोन, कांटैक्ट, SMS और </b>घड़ी का उपयोग कर सकते हैं</string>
+    <string name="super_power_mode_introduction_string2">मोबाइल फोन न्यूनतावादी डेस्कटॉप एंटर करेगा</string>
+    <string name="super_power_mode_introduction_string3">चरम मोड आपके मोबाइल फोन की सेवा की समयावधि को बढ़ा सकता है\n %s के बारे में</string>
+    <string name="super_power_mode_introduction_string4">चरम मोड डेस्कटॉप के विजेट को हटा देगा</string>
+    <string name="waiting_load">थोड़ी देर के लिए चरम मोड को शुरू या इससे बाहर निकलने की आवश्यकता है.</string>
+    <string name="waiting_load1">कृपया प्रतीक्षा करें, कुछ और न करें.</string>
+    <string name="super_mode_toast">पहले से ही चरम मोड में है</string>
+    <string name="power_consume_processed_kill">बंद करें</string>
+</resources>

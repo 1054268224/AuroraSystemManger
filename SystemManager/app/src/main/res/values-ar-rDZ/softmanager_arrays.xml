@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+/* //device/apps/common/assets/res/any/colors.xml
+**
+** Copyright 2006, The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+-->
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">  
+    <string-array name="title_group_move_package"> 
+        <item>تطبيقات على الداخلية</item>  
+        <item>تطبيقات على SDCARD</item> 
+    </string-array>  
+    <string-array name="title_group_move_package1"> 
+        <item>تطبيقات على مساحة النظام</item>  
+        <item>تطبيقات على الداخلية</item> 
+    </string-array>  
+    <string-array name="ui_privacy_policy"> 
+        <item>مكالمة هاتفية</item>  
+        <item>إرسال MSG</item>  
+        <item>إرسال MMS</item>  
+        <item>سجل المكالمات</item>  
+        <item>قراءة MSG</item>  
+        <item>قراءة MMS</item>  
+        <item>قراءة اتصالات</item>  
+        <item>الاحداثيات</item>  
+        <item>شبكة الموقع</item>  
+        <item>حالة الهاتف</item>  
+        <item>كتابة / حذف SMS</item>  
+        <item>كتابة / حذف MMS</item>  
+        <item>كتابة / حذف اتصالات</item>  
+        <item>كتابة / حذف Calllog</item>  
+        <item>تسجيل الصوت</item>  
+        <item>كاميرا</item>  
+        <item>شبكة المحمول</item>  
+        <item>WLAN شبكة</item>  
+        <item>بلوتوث</item>  
+        <item>بلوتوث الاقتران</item>  
+        <item>NFC</item> 
+    </string-array>  
+    <string-array name="permission_summary"> 
+        <item>يمكن للتطبيقات اجراء مكالمة هاتفية</item>  
+        <item>يمكن للتطبيقات ارسال رسالة</item>  
+        <item>يمكن للتطبيقات إرسال رسائل متعددة وسائط</item>  
+        <item>يمكن للتطبيقات الحصول على سجل المكالمات</item>  
+        <item>يمكن للتطبيقات قراءةالرسائل</item>  
+        <item>يمكن للتطبيقات قراءة رسائل الوسائط المتعددة</item>  
+        <item>يمكن للتطبيقات اجراء اتصالات</item>  
+        <item>يمكن للتطبيقات الحصول على الاحداثيات</item>  
+        <item>يمكن للتطبيقات الحصول على موقع شبكة</item>  
+        <item>يمكن للتطبيقات الحصول على حالة الهاتف</item>  
+        <item>يمكن للتطبيقات أن يكتب / حذف الرسائل القصيرة</item>  
+        <item>يمكن للتطبيقات أن يكتب / حذف رسائل الوسائط المتعددة</item>  
+        <item>يمكن للتطبيقات أن يكتب / حذف الأسماء</item>  
+        <item>يمكن للتطبيقات أن يكتب / حذف calllog</item>  
+        <item>يمكن للتطبيقات تسجيل الصوت</item>  
+        <item>يمكن استخدام تطبيقات الكاميرا</item>  
+        <item>يمكن استخدام تطبيقات شبكة للهاتف المحمول</item>  
+        <item>يمكن استخدام تطبيقات شبكة WLAN</item>  
+        <item>يمكن استخدام تطبيقات البلوتوث</item>  
+        <item>يمكن استخدام تطبيقات الاقتران بلوتوث</item>  
+        <item>يمكن استخدام تطبيقات NFC</item> 
+    </string-array>  
+    <string-array name="header_list"> 
+        <item>تفعيل</item>  
+        <item>تعطيل</item> 
+    </string-array>  
+    <string-array name="ui_def_soft"> 
+        <item>طريقة الإدخال الافتراضية</item>  
+        <item>تطبيق إنترنت افتراضي</item>  
+        <item>الاتصال افتراضي</item>  
+        <item>البادئ الافتراضي</item>  
+        <item>تطبيق الكاميرا الافتراضية</item>  
+        <item>تطبيق الصور الافتراضية</item>  
+        <item>تطبيق الأغاني الافتراضي</item>  
+        <item>تطبيق الفيديو الافتراضي</item>  
+        <item>قراءة التطبيق الافتراضي</item> 
+    </string-array>  
+    <string-array name="listitem_soft_manager_activity"> 
+        <item>بدء التطبيقات تلقائيا</item>  
+        <item>إلغاء تثبيت التطبيقات</item>  
+        <item>تجميد التطبيقات</item>  
+        <item>قفل التطبيقات</item>
+    </string-array>  
+    <string-array name="list_summary_soft_manager_activity"> 
+        <item>تطبيق إلغاء</item>  
+        <item>إيقاف وإخفاء التطبيقات</item>  
+        <item>تحسين الفضاء المحمول</item>  
+        <item>تعيين التطبيق الافتراضي</item> 
+    </string-array>  
+    <string-array name="listitem_permission_setting"> 
+        <item>كل الثقة</item>  
+        <item>ثقة جزئية</item>  
+        <item>لا تثق</item> 
+    </string-array>  
+    <string-array name="listitem_permission_setting_summary"> 
+        <item>#VALUE!</item>  
+        <item>فقط عندما يستدعي التطبيق ضوابط مهمة للتصريحات</item>  
+        <item>عندما يستدعي التطبيق أية تصريحات تظهر بمربع</item> 
+    </string-array>  
+    <string-array name="listitem_freeze_app_summary"> 
+        <item>تطبيقات بدون تأثير</item>  
+        <item>تطبيقات مع التحذير</item> 
+    </string-array>  
+    <string-array name="uninstall_sort"> 
+        <item>الترتيب حسب اسم التطبيق</item>  
+        <item>الترتيب حسب تاريخ الإستخدام</item>
+        <item>الترتيب حسب معدل استخدام</item>  
+        <item>الترتيب حسب حجم التطبيق</item> 
+    </string-array>  
+    <string-array name="green_list_item"> 
+        <item>القائمة البيضاء النظيفة</item>
+    </string-array>  
+    <string-array name="freeze_tab_item"> 
+        <item>قابلة للتجميد</item>  
+        <item>مجمدة</item> 
+    </string-array>  
+    <string-array name="auto_start_tab_item"> 
+        <item>سماح</item>  
+        <item>منع</item> 
+    </string-array>  
+    <string-array name="move_tab_item"> 
+        <item>نظام المساحة</item>  
+        <item>داخلي</item> 
+    </string-array>  
+    <string-array name="move_tab_item_sd"> 
+        <item>نظام المساحة</item>  
+        <item>بطاقة الذاكرة</item> 
+    </string-array>  
+
+</resources>

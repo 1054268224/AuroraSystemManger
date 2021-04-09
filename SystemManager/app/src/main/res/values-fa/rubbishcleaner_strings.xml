@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+  Copyright (C) 2012 The Android Open Source Project
+
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+  -->
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">  
+    <string name="rubbish_is_scanning">"درحال بررسی..."</string>
+    <string name="clean_deeply">پاکسازی عمقی</string>
+    <string name="rubbish_file_size">220 مگابایت</string>
+    <string name="quickly_clean_rubbish">تمیز/پاکسازی</string>
+    <string name="normal_clean_advice">پیشنهاد به پاکسازی</string>
+    <string name="deeplyclean_item_advice">پیشنهاد به نگه داشتن</string>
+    <string name="rubbish_cleaner">پاکسازی کننده حافظه موقت</string>
+    <string name="rubbish_was_cleaned">زباله‌ها پاکسازی شدند</string>
+    <string name="clean_end">تکمیل</string>
+    <string name="rubbish_clean_settings">تنظیمات پاکسازی زباله</string>
+    <string name="rubbish_clean_alert">یادآوری پاکسازی</string>
+    <string name="rubbish_size_alert">یادآوری اندازه زباله‌ها</string>
+    <string name="apk_delete_alert">یادآوری حذف بسته‌های نصبی</string>
+    <string name="apk_delete_alert_summary">یادآوری برای حذف بسته‌ها بعد از نصب</string>
+    <string name="residual_delete_alert">یادآوری برای حذف فایل‌های زباله</string>
+    <string name="residual_delete_alert_summary">یادآوری برای حذف فایل‌های زباله بعد از حذف برنامه</string>
+    <string name="deeply_clean_end">پاکسازی کامل شد</string>
+    <string name="deeply_clean_description">پاکسازی فایل‌ها</string>
+    <string name="apk_not_installed">نصب نشده</string>
+    <string name="apk_was_installed">نصب شده</string>
+    <string name="liebao_supply">راهنمایی‌های فنی داده شده از طرف Clean master</string>
+    <string name="deepclean_total_desc">کامل</string>
+    <string name="deepclean_selected_desc">انتخاب شده</string>
+    <string name="go_cancel">لغو</string>
+    <string name="go_install_apk">نصب</string>
+    <string name="go_clean">پاک سازی</string>
+    <string name="show_rubbish_size">"اندازه:"</string>
+</resources>

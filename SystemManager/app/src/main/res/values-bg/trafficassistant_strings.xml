@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="text">Текст</string>
+    <string name="trafficassistant_app_name">Контрол на трафика</string>
+    <string name="tabbar_name1">SIM слот 1</string>
+    <string name="tabbar_name2">SIM слот 2</string>
+    <string name="remained_flow_string">Излишък</string>
+    <string name="exceed_flow_string">Препълнено</string>
+    <string name="used">Използва се</string>
+    <string name="used_flow_string">Използва се <xliff:g id="ID_1">%s</xliff:g> MB</string>
+    <string name="total_flow_string">Общо <xliff:g id="ID_1">%s</xliff:g> M</string>
+    <string name="prompt_no_settings_traffic">Не е зададено</string>
+    <string name="no_settings">Не е зададено</string>
+    <string name="prompt_used_traffic">Използва се \n <xliff:g id="ID_1">%s</xliff:g> M</string>
+    <string name="month">Месец</string>
+    <string name="day">ден</string>
+    <string name="noti_surplus">Безплатно</string>
+    <string name="noti_exceed">Препъланео</string>
+    <string name="noti_today">Днешното използване на данни</string>
+    <string name="noti_no_settings">Планът за данни не е зададен</string>
+    <string name="noti_no_card">SIM картата не е включена.</string>
+    <string name="start_date_string">Месечно</string>
+    <string name="limit_flow">Задайте план за данни</string>
+    <string name="detail_flow">Графики на потока</string>
+    <string name="network_control">Контролирайте работата в мрежа</string>
+    <string name="more_settings">Повече настройки за настройка</string>
+    <string name="traffic_save">Запазване на данни</string>
+    <string name="no_card_warning">Моля, поставете SIM</string>
+    <string name="action_known">Свършен</string>
+    <string name="action_settings">За да зададете</string>
+    <string name="action_cancel">Отказ</string>
+    <string name="action_done">Свършен</string>
+    <string name="action_save">Запази</string>
+    <string name="action_sure">Добре</string>
+    <string name="action_allow">Позволява</string>
+    <string name="action_prohibit">забранено</string>
+    <string name="action_all_allow">Позволете на всички</string>
+    <string name="action_all_prohibit">Деактивирайте всичко</string>
+    <string name="application_info">Информация за приложението</string>
+    <string name="data_connect_allow">Контролирайте връзките</string>
+    <string name="total_flow_settings">Месечен лимит за използване на данни</string>
+    <string name="input_hint">Моля, въведете</string>
+    <string name="warning_settings">Предупредителна стойност</string>
+    <string name="date_start_settings">Начална дата на ползване на данните</string>
+    <string name="used_flow_settings">Консумирани данни</string>
+    <string name="flow_unit">МБ</string>
+    <string name="mobile_data_stop_title">Сигнал за данни</string>
+    <string name="mobile_data_stop_contetn">Използвахте месечната квота за мобилни данни. Продължаването на използването на мобилни данни ще доведе до допълнителни такси. Искаш ли да продължиш?</string>
+    <string name="action_restart">Продължете да го използвате</string>
+    <string name="action_stop">Не използвай</string>
+    <string name="info_save_error_no_flow_input">Моля, въведете лимита за месечните данни</string>
+    <string name="info_prompt">Можете ръчно да коригирате стойността на използването на данни</string>
+    <string name="popup_notification_title">Планът за данни не е зададен</string>
+    <string name="popup_notification_ticker_title">Не сте задали ограничение за потреблението на данни</string>
+    <string name="popup_notification_content">Кликнете, за да зададете монитор в реално време за използване на данните</string>
+    <string name="popup_setting_title_dialog">Задайте план за данни</string>
+    <string name="popup_setting_content_dialog">Задайте плана за данни и осигурете сигурност, за да заключите таксите на телефона.</string>
+    <string name="notification_warn_exceed_warning_title">Червено предупреждение за план за данни</string>
+    <string name="notification_warn_exceed_warning_content">Потреблението на данни достигна ограничението за предупреждение. Докоснете, за да видите използването.</string>
+    <string name="process_kernel_labels">Android OS</string>
+    <string name="data_usage_uninstalled_apps_users">Деинсталирани приложения и потребители</string>
+    <string name="data_usage_uninstalled_apps">Деинсталирани приложения</string>
+    <string name="tether_settings_title_all">настройките за тетъринг</string>
+    <string name="tether_settings_title_wifi">Преносима гореща точка</string>
+    <string name="tether_settings_title_usb_bluetooth">връзване</string>
+    <string name="tether_settings_title_usb">Свързване чрез USB</string>
+    <string name="tether_settings_title_bluetooth">Свързване чрез Bluetooth</string>
+    <string name="running_process_item_user_label">Потребител:%1$s</string>
+    <string name="data_usage_app_restricted">ограничен</string>
+    <string name="usage_detail">Данни за трафика</string>
+    <string name="version_name">Версия:</string>
+    <string name="traffic_time_day">Днешната употреба на данни (<xliff:g id="ID_1">%s</xliff:g>)</string>
+    <string name="traffic_time_week">Използването на данните в тази седмица (<xliff:g id="ID_1">%s</xliff:g>)</string>
+    <string name="traffic_time_month">Месечна употреба на данни (<xliff:g id="ID_2">%s</xliff:g>)</string>
+    <string name="traffic_day">Днес \n\n използване на данни</string>
+    <string name="traffic_week">Седмично използване на дата</string>
+    <string name="traffic_month">Месечно използване на \ndata</string>
+    <string name="traffic_day_no">Данни, останали от днес</string>
+    <string name="traffic_week_no">Неизползвани данни тази седмица</string>
+    <string name="traffic_month_no">Неизползвани данни този месец</string>
+    <string name="network_selection">Използването на данни за този месец</string>
+    <string name="no_value">Нито един</string>
+    <string name="text_loading">Зареждане…</string>
+    <string name="text_noti">Обработка ...</string>
+    <string name="traffic_monitor_display">
+        <xliff:g id="ID_1">%s</xliff:g> Консумацията на данни от 2G / 3G / 4G е, както следва:</string>
+    <string name="traffic_monitor_display_kr">
+        <xliff:g id="ID_1">%s</xliff:g> Консумацията на данни за 3G е, както следва:</string>
+    <string name="traffic_monitor_title">Повече консумирани данни за тази седмица</string>
+    <string name="traffic_monitor_message">
+        <xliff:g id="ID_1">%s</xliff:g>
+    </string>
+    <string name="traffic_settings_main_title">Център за известия за показване</string>
+    <string name="traffic_network_speed_title">Скорост на дисплейната мрежа</string>
+    <string name="traffic_network_speed_summary">Скоростта на мрежата ще се покаже на лентата на състоянието, когато тази функция е активирана</string>
+    <string name="traffic_notification_title">Показване на информация за трафика</string>
+    <string name="traffic_notification_summary">Проверете лентата за известия, за да видите информацията за използването на данни</string>
+    <string name="traffic_netcontrol_bar_allow_text">Разрешаване на мрежи (<xliff:g id="ID_1">%1$s</xliff:g>)</string>
+    <string name="traffic_netcontrol_bar_prohibit_text">Забранява интернет (<xliff:g id="ID_1">%1$s</xliff:g>)</string>
+    <string name="net_link_allowed_txt">Никакво приложение не е разрешено за достъп до интернет</string>
+    <string name="net_link_prohibited_txt">Всички приложения имат достъп до интернет</string>
+    <string name="traffic_save_setting">Настройки за запазване на данни</string>
+    <string name="switch_off">Изключи</string>
+    <string name="switch_on">Включи</string>
+    <string name="traffic_save_off">Режимът на спестяване на данни е изключен</string>
+    <string name="traffic_save_off_summary">Тази функция е валидна само в мрежата за данни</string>
+    <string name="traffic_save_total_title">Натрупахте спестявания</string>
+    <string name="total_volume_string">МБ</string>
+    <string name="money_save_total_title">За Renminbi</string>
+    <string name="total_money">юан</string>
+    <string name="traffic_save_support_txt">Осъществено от OPERA</string>
+    <string name="traffic_save_history">Преглеждайте историята на режима за спестяване на данни</string>
+    <string name="traffic_save_history_total">Запазените данни се използват общо</string>
+    <string name="traffic_question1">1. Как можем да намалим използването на данни?</string>
+    <string name="traffic_question2">2. защо не можете да осъзнаете използваната от вас информация, която сте запазили?</string>
+    <string name="traffic_question3">3. Намалява ли режимът за спестяване на данни консумацията на данни?</string>
+    <string name="traffic_question4">4. Дали е безопасно да сърфирате в интернет в режим на спестяване на данни?</string>
+    <string name="traffican_answer1">Когато Data Saver е включен, той ще преоразмерява вашите текстове, снимки и т.н. и ще намали данните, консумирани за приложения като QQ, Weixin, Taobao. Постоянното използване на тази функция ще покаже по-добри резултати.</string>
+    <string name="traffican_answer2">5. Режимът за спестяване на данни работи само по време на сърфиране по пакет данни, той ще бъде изключен под Wi-Fi. И работи само за думи и снимки, но не за сваляне на видео или други файлове.</string>
+    <string name="traffican_answer3">Режимът за спестяване на данни не само по себе си не консумира данни, след като се активира, всички данни за използване на 2G / 3G / 4G ще бъдат компресирани, няколко приложения за сигурност смятат, че са консумиращи данни сами, но всъщност не спечели Не се притеснявай.</string>
+    <string name="traffican_answer4">Тази функция не изисква вашата лична информация. Можете да го използвате, без да се притеснявате.</string>
+    <string name="traffican_question_answer">Помогне</string>
+    <string name="traffican_whitelist_title">Трафик бял списък</string>
+    <string name="text_no_traffic_whitelist">Няма нужда да запазвате данни</string>
+    <string name="traffic_simcard_focus1">SIM 1</string>
+    <string name="traffic_simcard_focus2">SIM 2</string>
+    <string name="traffic_netcontrol_tab_bar_allow_text">WiFi мрежа</string>
+    <string name="traffic_netcontrol_tab_bar_prohibit_text">Мрежа за данни</string>
+    <string name="traffic_title_text">
+        <xliff:g id="ID_1">%1$s</xliff:g> Приложения</string>
+    <string name="time_format">ГГГГ-ММ</string>
+    <string name="traffic_back_toast_text">Прилагането на операцията за управление на мрежата е в ход, моля изчакайте</string>
+    <string name="traffic_save_wait_text">данните се актуализират, моля изчакайте.</string>
+    <string name="traffic_btn_calibration_text">калибрирам</string>
+    <string name="traffic_limit_settings_title">Настройка на използването на данни</string>
+    <string name="traffic_origan">Нормален пакет с данни</string>
+    <string name="traffic_idle_show_title">Неактивни данни през нощта</string>
+    <string name="traffic_idle_available">Налични свободни данни</string>
+    <string name="traffic_idle_used">Консумирани неактивни данни</string>
+    <string name="traffic_buy_title">Купете данни</string>
+    <string name="buy_step1_title">1. Въведете номера</string>
+    <string name="buy_step2_title">2. Изберете номиналната стойност</string>
+    <string name="buy_step3_title">3. Платете и купувайте</string>
+    <string name="buy_step_title">1 входен номер &gt; 2 изберете номинална стойност &gt; 3 плати и купи</string>
+    <string name="temp_carrieroperator_title">Пекин Китай</string>
+    <string name="order_info_title">информация за поръчката</string>
+    <string name="traffic_packge_text">
+        <xliff:g id="ID_1">%1$s</xliff:g> пакети за трафик</string>
+    <string name="traffic_packge_default_money">2 YUAN</string>
+    <string name="traffic_packge_default_instruction">Работейки в цялата страна, незабавно си плащайте</string>
+    <string name="mobile_info_numble">Номер за зареждане: <xliff:g id="ID_1">%1$s</xliff:g></string>
+    <string name="pay_order_title">Плащане и поръчка</string>
+    <string name="pay_order_Immediately_title">Платете незабавно</string>
+    <string name="show_problem_title">Често срещан проблем</string>
+    <string name="buy_record_title">История на покупките</string>
+    <string name="problem1_title">1. Може ли да се използват зареждани данни в района на роуминг?</string>
+    <string name="problem1_content">Моля, обърнете внимание на изскачащите прозорци, например, страната, която се показва, може да се използва за национален роуминг.</string>
+    <string name="problem2_title">2. Каква е валидността на презареждането на данните?</string>
+    <string name="problem2_content">Презаредените данни могат да се използват само за месеца, който сте заредили, крайният срок е в края на месеца. Моля, проверете подробностите в съобщението от доставчика на услуги.</string>
+    <string name="problem3_title">Как да проверите дали това се случва в профила ви след презареждане?</string>
+    <string name="problem3_content">Моля, проверете подробностите в съобщението от оператора след презареждане, можете също така да се обадите на номера на доставчика на услуги, за да потвърдите дали той е в профила ви</string>
+    <string name="problem4_title">Какво ще стане, ако презаредите в грешна сметка?</string>
+    <string name="problem4_content">Съжалявам, след грешен номер операторите (мобилни, China Unicom, телеком) не възстановяват. Можете да изберете следните няколко начина да се опитате да компенсирате загубата: 1 контакт с реалния брой машини, а другият е готов да компенсира трафика; 2 се свържете с клиента на оператора, консултирането е в състояние да възстанови на трафика е успешно презареждане.</string>
+    <string name="problem5_title">След колко време можете да получите възстановяването, ако не сте презаредили?</string>
+    <string name="problem5_content">Обикновено ще ви възстановим сумата . За 24 часа можете да се присъедините към официалната група QQ (188473978) за обратна връзка.</string>
+    <string name="problem6_title">6) Как да проверя историята на поръчките и записите си за покупки?</string>
+    <string name="problem6_content">Можете да прегледате историята на зареждане чрез началната страница на презареждане на данни.</string>
+    <string name="mobile_invalid_text">мобилният телефон е невалиден</string>
+    <string name="sell_alipay">плащат от alipay</string>
+    <string name="sell_weixin_pay">плащат от weixin</string>
+    <string name="payment_success_txt">Поръчката е успешна // Поръчката е поставена успешно</string>
+    <string name="payment_failed_txt">поръчката не бе успешна!</string>
+    <string name="payment_pre_txt">презареждане</string>
+    <string name="btn_try_again_txt">Опитай пак</string>
+    <string name="no_record_txt">Няма записи</string>
+    <string name="query_record_falil_txt">заявката е неуспешна</string>
+    <string name="data_load_txt">Зареждане ...</string>
+    <string name="net_error_text">Моля, проверете връзката си за данни</string>
+    <string name="exit_Contacts_text">Тя не е в телефонният указател</string>
+    <string name="traffic_origan_txt">Нормални данни</string>
+    <string name="traffic_idle_txt">Данни за неактивност</string>
+    <string name="traffic_idle_set_title">Настройка на неактивните данни</string>
+    <string name="traffic_correctting_txt">Калибриране ...</string>
+    <string name="correctting_wait_txt">Моля Изчакай...</string>
+    <string name="correctting_fail_txt">Корекцията не бе успешна, опитайте отново по-късно</string>
+    <string name="correctting_success_txt">Потреблението на данни е потвърдено <xliff:g id="ID_1">%1$s</xliff:g>М остава</string>
+    <string name="query_traffic_txt">Търсене на данни ...</string>
+    <string name="query_product_fail_txt">Няма налични абонаментни пакети</string>
+    <string name="query_product_record_fail_txt">Проверката на продуктовите записи не бе успешна</string>
+    <string name="no_install_weixin_txt">Моля, потвърдете, ако сте инсталирали микро буквата</string>
+    <string name="no_correct_service_txt">Инициализиране, моля, опитайте отново по-късно ...</string>
+    <string name="buy_number_hint_txt">Моля, въведете телефонния си номер.</string>
+    <string name="no_query_code_txt">Калибрирането не бе успешно, моля, задайте ръчно подаване на пакетите</string>
+    <string name="buy_omitted_displayname">
+        <xliff:g id="ID_1">%1$s</xliff:g>...</string>
+    <string name="calibrate_setting_txt">Калибриране на настройката</string>
+    <string name="calibrate_setting_province">Провинция</string>
+    <string name="calibrate_setting_brand">Марка оператор</string>
+    <string name="calibrate_setting_province_choice">Изберете провинция</string>
+    <string name="calibrate_setting_brand_choice">Изберете вашия доставчик на услуги</string>
+    <string name="calibrate_send_msg_fail">Неуспешно изпращане на SMS. Моля, проверете мрежовите настройки.</string>
+    <string name="traffic_flaw_price_txt">
+        <xliff:g id="ID_1">%1$s</xliff:g>YUAN</string>
+    <string name="traffic_original_price_txt">
+        <xliff:g id="ID_1">%1$s</xliff:g>
+    </string>
+    <string name="buy_record_paytype_txt">
+        <xliff:g id="ID_1">%1$s</xliff:g>
+        <xliff:g id="ID_2">%2$s</xliff:g>
+    </string>
+    <string name="noti_softap_setting_title">Съобщението за обмен на данни за Hotspot</string>
+    <string name="noti_softap_setting_text">Показване на известието, когато <xliff:g id="ID_1">%s</xliff:g> данните се достигат еднократно</string>
+    <string name="noti_softap_group_title">Портативна настройка на данни за Wi-Fi hotspot</string>
+    <string name="noti_softap_setting_cancel">Отказ</string>
+    <string name="noti_softap_setting_userDefine">Персонализиран</string>
+    <string name="noti_softap_setting_commit">Поемане на ангажимент</string>
+    <string name="noti_softap_warning_title">Нотификация на данни</string>
+    <string name="noti_softap_warning_message">Данните за споделените Hotspot са достигнали <xliff:g id="ID_1">%s</xliff:g> Искате ли да изключите hotspot?</string>
+    <string name="noti_softap_close_text">Изключи</string>
+    <string name="noti_softap_no_warning_text">Няма напомняне</string>
+    <string name="error_phone_number_text">Невалиден телефонен номер</string>
+    <string name="nogi_entry_buy_text">Кликнете, за да купите пакети с данни</string>
+    <string name="info_save_error_no_used_input">Моля, въведете данните за използването на данните</string>
+    <string name="payment_sended_txt">Изпратени са поръчки, чакащи операторът да презареди ...</string>
+    <string name="payment_explain_txt">Данните, които сте презаредили, обикновено ще бъдат в профила Ви в рамките на един час, но това може да се забави и заради лошата мрежа, можете да направите обаждане или да изпратите съобщение до доставчика на услуги, за да проверите кога ще бъде в профила Ви. \n Може да бъде пропуснат и възстановен, ако профилът Ви е несъизменен, с несъвместими пакети или не е бил уреден от доставчика на услуги и т.н., може да бъде потвърден от съобщението на доставчика на услуги.</string>
+    <string name="payment_fail_reason_txt">Неуспех, може би поради мрежови проблеми, заета операционна система или други неизвестни причини</string>
+    <string name="weixin_freezed_txt">WeChat е деактивиран, не може да бъде използван</string>
+    <string name="dialog_btn_cancel">Отказ</string>
+    <string name="dialog_btn_unlock">пускане</string>
+    <string name="dialog_network_control_title">Аларма за управление на системата</string>
+    <string name="net_type_mobile">Мобилна мрежа</string>
+    <string name="net_type_wifi">Wi-Fi мрежа</string>
+    <string name="dialog_not_alert_again">Няма предупреждение</string>
+    <string name="dialog_network_control_content">
+        <xliff:g id="ID_1">%1$s</xliff:g> е забранено да използвате <xliff:g id="ID_1">%1$s</xliff:g>искате ли да го активирате отново?</string>
+    <string name="noti_softap_use_agiain_txt">Използвайте <xliff:g id="ID_1">%1$d </xliff:g> M</string>
+    <string name="dialog_know">Схванах го</string>
+    <string name="hotspot_restart">Рестартирам</string>
+    <string name="hotspot_settingvalue_valid">Когато горещи точки  споделят <xliff:g id="ID_1">%1$d </xliff:g> M, това ще ви напомня отново</string>
+    <string name="hotspot_settingvalue_invalid">Използва се <xliff:g id="ID_1">%1$1.2f </xliff:g> M. Моля, рестартирайте.</string>
+    <string name="hotspot_userdefine_settingvalue_invalid">Невалидни данни. Моля, рестартирайте.</string>
+    <string name="hotspot_auto_close_message">Ограничаване при споделяне на данни на Hotspot <xliff:g id="ID_1">%d </xliff:g> M, изключете гореща точка, за да избегнете прекомерната консумация</string>
+    <string name="traffic_pay_dialag_title">плащайте <xliff:g id="ID_1">%1$1.2f </xliff:g> YUAN, изберете тип заплащане</string>
+    <string name="traffic_packge_title">
+        <xliff:g id="ID_1">%1$s</xliff:g>
+        <xliff:g id="ID_2">%2$1.2f</xliff:g>YUAN<xliff:g id="ID_3">%3$s</xliff:g>пакет</string>
+    <string name="traffic_pay_mobile">мобилни: <xliff:g id="ID_1">%1$s</xliff:g></string>
+    <string name="traffic_pay_time">време за изплащане: <xliff:g id="ID_1">%1$s</xliff:g></string>
+    <string name="traffic_pay_type">тип заплащане: <xliff:g id="ID_1">%1$s</xliff:g></string>
+    <string name="traffic_pay_original_price">първоначална цена: <xliff:g id="ID_1">%1$1.2f </xliff:g> YUAN</string>
+    <string name="traffic_pay_price">плати цена: <xliff:g id="ID_1">%1$1.2f </xliff:g> YUAN</string>
+    <string name="traffic_pay_orider_id">поръчайD: <xliff:g id="ID_1">%1$s</xliff:g></string>
+    <string name="traffic_buy_open_fail">Неуспешна поради лоша мрежа или други причини, моля, опитайте отново по-късно</string>
+    <string name="traffic_buy_alipay">Alipay</string>
+    <string name="traffic_buy_weixin">WeChat</string>
+    <string name="product_description">Предлага се в цялата страна, валиден само този месец</string>
+    <string name="weixin_disenabled_txt">WeChat е деактивиран, не може да бъде използван</string>
+    <string name="lockscreen_traffic_remind_close">Няма напомняне</string>
+    <string name="lockscreen_traffic_limit_one">100k</string>
+    <string name="lockscreen_traffic_limit_two">1М</string>
+    <string name="lockscreen_traffic_limit_three">5M</string>
+    <string name="lockscreen_traffic_remid_title">Запомняне за трафика на данни за заключване на екрана</string>
+    <string name="traffic_remind_group_title">Напомняне за данни</string>
+    <string name="lockscreen_traffic_remid_txt">Използването на данни е достигнало <xliff:g id="ID_1">%1$s</xliff:g></string>
+    <string name="lock_screen_traffic_title">Използването на данни достигна <xliff:g id="ID_1">%s</xliff:g></string>
+    <string name="lock_screen_traffic_content">Докоснете, за да проверите подробностите</string>
+    <string name="lock_screen_traffic_unknow_app">Непознато приложение</string>
+    <string name="historyorder_title">История на поръчките</string>
+    <string name="historyorder_detail_title">История на поръчките детайлно</string>
+    <string name="historyorder_empty_txt">История на поръчките е празно</string>
+    <string name="historyorder_alipay">Alipay</string>
+    <string name="historyorder_wechat_pay">wechat pay</string>
+    <string name="historyorder_paying">изплащане</string>
+    <string name="historyorder_payed_success">плащането е успешно</string>
+    <string name="historyorder_payed_fail">плащането е неуспешно</string>
+    <string name="historyorder_chargeback_success">зареждането е успешно</string>
+    <string name="historyorder_payment_success">плащането е успешно</string>
+    <string name="historyorder_payment_fail">плащането не е успешно</string>
+    <string name="historyorder_supporttel">поддържа телефон</string>
+    <string name="historyorder_dial">циферблат</string>
+    <string name="historyorder_status">Статус на история: <xliff:g id="ID_1">%1$s</xliff:g></string>
+    <string name="historyorder_query_failed">заявката е неуспешна</string>
+    <string name="historyorder_retry">повторен опит</string>
+    <string name="noti_surplus_message">Този месец Безплатно <xliff:g id="ID_1">%1$s</xliff:g></string>
+    <string name="noti_exceed_message">Този месец Превишаване <xliff:g id="ID_1">%1$s</xliff:g></string>
+    <string name="unknow_app">Непознато приложение</string>
+</resources>

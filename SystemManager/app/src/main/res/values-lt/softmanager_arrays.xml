@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+/*
+**
+** Copyright 2008, The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+-->
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">  
+    <string-array name="title_group_move_package"> 
+        <item>Programos vidinėje atm.</item>
+        <item>Programos SD kortelėje</item>
+    </string-array>
+    <string-array name="title_group_move_package1"> 
+        <item>Programos sistemai skirtoje vietoje</item>
+        <item>Programos vidinėje atm.</item>
+    </string-array>
+    <string-array name="ui_privacy_policy"> 
+        <item>Skambinti telefonu</item>
+        <item>Siųsti žin.</item>
+        <item>Siųsti MMS</item>
+        <item>Skambučių žurnalas</item>
+        <item>Skaityti žin.</item>
+        <item>Skaityti MMS</item>
+        <item>Skaityti kontaktus</item>
+        <item>GPS vieta</item>
+        <item>Tinklo vieta</item>
+        <item>Telefono būsena</item>
+        <item>Rašyti/trinti SMS</item>
+        <item>Rašyti/trinti MMS</item>
+        <item>Rašyti/trinti kontaktus</item>
+        <item>Rašyti/trinti skambučių žurnalą</item>
+        <item>Garso įrašymas</item>
+        <item>Fotoaparatas</item>
+        <item>Mobilusis tinklas</item>
+        <item>Belaidžio ryšio tinklas</item>
+        <item>Bluetooth</item>
+        <item>Bluetooth susiejimas</item>
+        <item>NFC</item>
+    </string-array>
+    <string-array name="permission_summary"> 
+        <item>programos gali skambinti telefonu</item>
+        <item>programos gali siųsti žin.</item>
+        <item>programos gali siųsti MMS</item>
+        <item>programos gali gauti skambučių žurnalą</item>
+        <item>programos gali skaityti žin.</item>
+        <item>programos gali skaityti MMS</item>
+        <item>programos gali skaityti kontaktus</item>
+        <item>programos gali gauti GPS vietą</item>
+        <item>programos gali gauti tinklo vietą</item>
+        <item>programos gali gauti duomenis apie telefono būseną</item>
+        <item>programos gali rašyti/trinti SMS</item>
+        <item>programos gali rašyti/trinti MMS</item>
+        <item>programos gali rašyti/trinti kontaktus</item>
+        <item>programos gali rašyti/trinti skambučių žurnalą</item>
+        <item>programos gali įrašyti garsą</item>
+        <item>programos gali naudoti fotoaparatą</item>
+        <item>programos gali naudoti mobilųjį tinklą</item>
+        <item>programos gali naudoti belaidžio ryšio tinklą</item>
+        <item>programos gali naudoti Bluetooth</item>
+        <item>programos gali naudoti Bluetooth susiejimą</item>
+        <item>programos gali naudoti NFC</item>
+    </string-array>
+    <string-array name="header_list"> 
+        <item>Įjungti</item>
+        <item>Išjungti</item>
+    </string-array>
+    <string-array name="ui_def_soft"> 
+        <item>Numatytasis įvesties būdas</item>
+        <item>Numatytoji interneto programa</item>
+        <item>Numatytieji kontaktai</item>
+        <item>Numatytoji paleidyklė</item>
+        <item>Numatytoji fotoaparato programa</item>
+        <item>Numatytoji nuotraukų programa</item>
+        <item>Numatytoji dainų programa</item>
+        <item>Numatytoji vaizdo įrašų programa</item>
+        <item>Numatytoji skaitymo programa</item>
+    </string-array>
+    <string-array name="listitem_soft_manager_activity"> 
+        <item>Programos automatinis paleidimas</item>
+        <item>Programos išdiegimas</item>
+        <item>Programos sustojimas</item>
+        <item>Numatytieji programos nustatymai</item>
+    </string-array>
+    <string-array name="list_summary_soft_manager_activity"> 
+        <item>Išdiegti programą</item>
+        <item>Sustabdyti ir paslėpti programas</item>
+        <item>Optimizuoti vietą mobiliajame</item>
+        <item>Nustatyti numatytąją programą</item>
+    </string-array>
+    <string-array name="listitem_permission_setting"> 
+        <item>Visiškai patikima</item>
+        <item>Iš dalies patikima</item>
+        <item>Nepatikima</item>
+    </string-array>
+    <string-array name="listitem_permission_setting_summary"> 
+        <item>Nėra iškylančiųjų langų raginimų, kai programa prašo kokių nors leidimų</item>
+        <item>Tik tada, kai programa prašo svarbių leidimų, pateikiami iškylančiųjų langų raginimai</item>
+        <item>Kai programa prašo kokių nors leidimų, pasirodys iškylančiųjų langų raginimai</item>
+    </string-array>
+    <string-array name="listitem_freeze_app_summary"> 
+        <item>neturi įtakos</item>
+        <item>reikia atsargumo</item>
+    </string-array>
+    <string-array name="uninstall_sort"> 
+        <item>Rikiuoti pagal programų pavadinimą</item>
+        <item>Rikiuoti pagal diegimo laiką</item>
+        <item>Rikiuoti pagal naudojimo dažnumą</item>
+        <item>Rikiuoti pagal programų dydį</item>
+    </string-array>
+    <string-array name="green_list_item"> 
+        <item>Išvalyti baltąjį sąrašą</item>
+    </string-array>
+    <string-array name="freeze_tab_item"> 
+        <item>Gali sustoti</item>
+        <item>Sustojusi</item>
+    </string-array>
+    <string-array name="auto_start_tab_item"> 
+        <item>Leisti</item>
+        <item>Uždrausti</item>
+    </string-array>
+    <string-array name="move_tab_item"> 
+        <item>Sistemai skirta vieta</item>
+        <item>Vidinė atm.</item>
+    </string-array>
+    <string-array name="move_tab_item_sd"> 
+        <item>Sistemai skirta vieta</item>
+        <item>SD kortelė</item>
+    </string-array>
+
+</resources>

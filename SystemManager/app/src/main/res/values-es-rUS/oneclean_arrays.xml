@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">  
+    <string-array name="ui_phone_accelerate"> 
+    <item>Procesos a limpiar</item>
+    <item>Optimizador de arranque</item>
+    </string-array>
+    <string-array name="process_clean_group_title">
+  	<item>Ejecutándose</item>
+  	<item>Lista blanca</item>
+    </string-array>
+    <string-array name="boot_opt_group_title">
+  	<item>Puede ser optimizado</item>
+  	<item>Ha sido optimizado</item>
+    </string-array>
+</resources>

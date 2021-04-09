@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+**
+** Copyright 2008, The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+-->
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="power_app_name">Energijos tvarkyklė</string>
+    <string name="can_use_time">Prieinama:%s</string>
+    <string name="need_charging_time">Reikia įkrauti %s</string>
+    <string name="is_charging_now">Kraunasi...</string>
+    <string name="charged_completely">Įkrauta</string>
+    <string name="power_mode_use_time">(Prieinamas： <xliff:g id="time">%s</xliff:g>)</string>
+    <string name="power_cannotget">Negalima numatyti</string>
+    <string name="power_hours">Val.</string>
+    <string name="power_minutes">Min.</string>
+    <string name="none_power_mode">Įprastasis režimas</string>
+    <string name="normal_power_mode">Energijos taupymo režimas</string>
+    <string name="super_power_mode">Ekstremalusis energijos taupymo režimas</string>
+    <string name="none_power_mode_summary">Energijos optimizavimas neapdorojamas</string>
+    <string name="normal_power_mode_summary">Siekiant sumažinti mobiliojo telefono našumą ir apriboti fono programų darbą</string>
+    <string name="super_power_mode_summary">Galima naudoti tik telefoną, kontaktus, žinutes ir laikrodį</string>
+    <string name="time_use_inmode">Prieinama:%s</string>
+    <string name="time_use_in_supermode">Budėjimas:%s</string>
+    <string name="mode_change_alert">Perjungimas...</string>
+    <string name="powersaver_mode_category_title">Kiti energijos taupymo elementai</string>
+    <string name="close_gesture">Uždaryti visus gestus</string>
+    <string name="close_bluetooth">Išjungti Bluetooth</string>
+    <string name="close_gps">Išjungti GPS</string>
+    <string name="close_sync">Išjungti sinchronizavimą</string>
+    <string name="close_push_notification">Uždaryti siuntimo pranešimų programą</string>
+    <string name="set_custom_screen_light">Reguliuoti ekrano ryškumą</string>
+    <string name="set_custom_sleep_time">Nėra veiksmų po 15 sek. neveiklumo prisijungus</string>
+    <string name="set_cpu_state">Atidaryti centrinio procesoriaus išmanųjį dažnio mažinimą</string>
+    <string name="set_screen_save_power">Atidaryti ekrano užsklandą</string>
+    <string name="close_wifi">Išjungti belaidį ryšį</string>
+    <string name="close_wifi_ap">Išjungti belaidžio ryšio viešosios interneto prieigos tašką</string>
+    <string name="close_data_connection">Duomenų ryšio uždarymas</string>
+    <string name="screen_light_sumarry">Automatiškai reguliuoti ekrano ryškumą iki energijos taupymo būsenos</string>
+    <string name="set_sleep_time">Reguliuoti miego trukmę</string>
+    <string name="sleep_time_summary">Nėra veiksmų po 15 sek.</string>
+    <string name="set_screen_light">Reguliuoti ekrano ryškumą</string>
+    <string name="set_gpu_fps_limit">Atidaryti išmanujį centrinio procesoriaus dažnio mažinimą</string>
+    <string name="power_saving_mode_title">Energijos taupymo nustatymai</string>
+    <string name="save_power_notifi">Energijos taupymo pranešimas</string>
+    <string name="save_power_notifi_title">Pranešimų centro klausimas dėl energijos taupymo būsenos</string>
+    <string name="smart_saving">Sistemos energijos taupymas fone</string>
+    <string name="night_saving_title">Išmanusis energijos taupymas naktį</string>
+    <string name="night_saving_summary">Kai telefonas ilgą laiką nenaudojamas dėl to, kad išjungtas ekranas, bus išjungtas tinklas, BT, GPS, sinchronizavimas ir kt., kol ekranas bus įjungtas.</string>
+    <string name="auto_clean_title">Išmanusis atminties valymas</string>
+    <string name="auto_clean_summary">Kad būtų sumažintas energijos eikvojimas valant fono programą</string>
+    <string name="other_powersaver">Kita</string>
+    <string name="user_manual">Patarimai dėl energijos taupymo</string>
+    <string name="create_shortcut_title">Ypatingo energijos taupymo paleidimas</string>
+    <string name="create_shortcut_summary">Greitai įjungti ypatingo energijos taupymo režimą, jei atidaryta</string>
+    <string name="super_power_save">Ypatingas energijos taupymas</string>
+    <string name="battery">Akumuliatoriaus priežiūra</string>
+    <string name="daily_use">Patarimai dėl energijos taupymo priemonės</string>
+    <string name="battery_use_desc">Kraukite esant 0–35 ℃ temperatūrai. Visiškai įkraukite kartą per mėnesį, kad būtų palaikomas akumuliatoriaus energija. Rūpindamiesi akumuliatoriumi, įkraukite bet kada, kai yra 20 proc. energijos.</string>
+    <string name="daily_use_desc">Kai tik įmanoma, sumažinkite ekrano ryškumą, išjunkite animaciją ir specialiuosius efektus, naudokite statišką darbalaukio foną. Palikite tik būtinus darbalaukio valdiklius, mobilųjį šlamštą ir fono procesus išvalydami ir uždrausdami programos paleidimą.</string>
+    <string name="power_consumption_tab_title">Daugiau informacijos apie energijos vartojimą</string>
+    <string name="hardware">Techninės įrangos energijos vartojimas</string>
+    <string name="software">Programinės įrangos energijos vartojimas</string>
+    <string name="process_kernel_label">Android OS</string>
+    <string name="process_mediaserver_label">Medijos serveris</string>
+    <string name="percentage">
+        <xliff:g id="NUMBER">%.1f</xliff:g> %%</string>
+    <string name="battery_level_tab_title">Akumuliatoriaus lygis</string>
+    <string name="power_usage_not_available">Negalima gauti akumuliatoriaus naudojimo duomenų</string>
+    <string name="power_phone">Balso skambučiai</string>
+    <string name="power_screen">Ekranas</string>
+    <string name="power_cell">Mobiliojo telefono RD</string>
+    <string name="power_wifi">Belaidis ryšys</string>
+    <string name="power_idle">Mobiliojo telefono budėjimas</string>
+    <string name="power_gps">GPS</string>
+    <string name="power_sensors">Kita (įvairūs jutikliai)</string>
+    <string name="power_bluetooth">Bluetooth</string>
+    <string name="usage_description">Aprašas</string>
+    <string name="shotcut_operation">Greitas veikimas</string>
+    <string name="airplane">Lėktuvo režimas</string>
+    <string name="data_conn">Duomenų ryšys</string>
+    <string name="display">Ekranas</string>
+    <string name="idle_descrip">Mobiliojo telefono budėjimo procesas, kad būtų prižiūrimas būtinas sistemos procesas, bus vartojama dalis energijos</string>
+    <string name="screen_descrip">Procesas naudoja ekraną, bus vartojama daugiau energijos</string>
+    <string name="wlan_descrip">Atidarius belaidį ryšį mobilusis telefonas dažnai ieškos belaidžio ryšio signalą, dėl to bus išeikvojama energija</string>
+    <string name="bt_descrip">Mobiliajame telefone įjungus Bluetooth bus vartojama daugiau energijos</string>
+    <string name="gps_descrip">GPS programai įjungus vietos paslaugą bus vartojama daugiau energijos</string>
+    <string name="radio_descrip">Naudojant balso skambučio funkciją bus vartojama daugiau energijos</string>
+    <string name="cell_descrip">Esant silpnam signalui, mobiliajam telefonui nuolat ieškant ryšio signalo bus vartojama daug energijos</string>
+    <string name="others_descrip">Mobiliojo telefono jutikliams, pvz., gravitacijos jutikliams, šviesos jutikliams visada veikiant bus vartojama daugiau energijos</string>
+    <string name="idle_title">Išsami informacija apie mobiliojo telefono energijos vartojimą budėjimo režime</string>
+    <string name="screen_title">Išsami informacija apie ekrano energijos vartojimą</string>
+    <string name="wlan_title">Išsami informacija apie belaidžio ryšio energijos vartojimą</string>
+    <string name="bt_title">Išsami informacija apie Bluetooth energijos vartojimą</string>
+    <string name="gps_title">Išsami informacija apie GPS energijos vartojimą</string>
+    <string name="radio_title">Išsami informacija apie balso energijos vartojimą</string>
+    <string name="cell_title">Išsami informacija apie mobiliojo telefono RD energijos vartojimą</string>
+    <string name="others_title">Kita išsami informacija apie energijos suvartojimą</string>
+    <string name="details_title">Išsami naudojimo informacija</string>
+    <string name="power_monitor_title">Galingiausia šios savaitės programa</string>
+    <string name="power_monitor_message">
+        <xliff:g id="name">%s</xliff:g>
+    </string>
+    <string name="daily_power_open_noti">Energijos taupymo režimas įjungtas</string>
+    <string name="dialog_negativebutton_txt">Atšaukti</string>
+    <string name="dialog_neutralbutton_txt">Žiūrėti išsamią informaciją</string>
+    <string name="dialog_positivebutton_txt">Atidaryti</string>
+    <string name="dialog_dailypower_message">Įprastame režime galima prailginti mobiliojo telefono paslaugas <xliff:g id="ID_1">%s</xliff:g>\n\nNaudojant tamsias temas ekranas eikvoja mažiau energijos \nAtidaryti žalio fono paslaugą, Fono programoms eikvoti energiją be leidimo draudžiama\nSumažinti Bluetooth, GPS ir kitų funkcijų eikvojama energija</string>
+    <string name="dialog_superpower_message">Ekstremalusis režimas gali prailginti mobiliojo telefono paslaugas <xliff:g id="ID_1">%s\n\nEkstremaliajame režime galima naudoti tik telefoną, kontaktus, žinutes ir laikrodį.\nMobilusis telefonas įjungs minimalistinį darbalaukį </xliff:g></string>
+    <string name="super_power_save_label">Ekstremalusis energijos taupymo režimas</string>
+    <string name="super_power_mode_introduction_string1">Ekstremaliajame režime galima naudoti tik <b>telefoną, kontaktus, žinutes ir laikrodį</b>.</string>
+    <string name="super_power_mode_introduction_string2">Mobilusis telefonas įjungs minimalistinį darbalaukį</string>
+    <string name="super_power_mode_introduction_string3">Ekstremaliajame režime gali likti budėjimo režime \napie %s</string>
+    <string name="super_power_mode_introduction_string4">Ekstremaliajame režime bus išjungti darbalaukio valdikliai</string>
+    <string name="waiting_load">Ekstremaliojo režimo paleidimui ar išjungimui reikia tam tikro laiko.</string>
+    <string name="waiting_load1">Luktelėkite, nieko kito nedarykite.</string>
+    <string name="waiting_load2">Kitu atveju sąsaja gali būti nenormali</string>
+    <string name="super_mode_toast">Jau įjungtas ekstremalusis režimas</string>
+    <string name="power_ranking_noname">Android fonas</string>
+    <string name="in_lock_task_toast">Dabar įjungtas užrakto užduoties režimas, negalima perjungti ekstremaliojo režimo</string>
+    <string name="power_consume_notification_title">Vartojimo priminimas</string>
+    <string name="power_consume_notification_content">
+        <xliff:g>%1$s</xliff:g> vartojama energija fone, norėdami pamatyti išsamią informaciją pažymėkite</string>
+    <string name="power_consume_notification_kill">Uždaryti programą</string>
+    <string name="power_consume_processed_kill">Uždaryti</string>
+    <string name="power_consume_notification_ignore">Nepriminti</string>
+    <string name="power_consume_background_list_title">Energijos vartojimas fone</string>
+    <string name="power_consume_header">Fone veikiančių programų vartojama energija</string>
+    <string name="text_power_consume_empty">Nėra fone veikiančių programų</string>
+    <string name="power_consume_setting_summary">Pranešti man, kai aptinkamos intensyviai energiją eikvojančios programos</string>
+    <string name="power_consume_setting_title">Intensyvaus energijos vartojimo priminimas</string>
+    <string name="power_consume_clean">Uždaryti programą</string>
+    <string name="power_consume_whitelist_tip">Baltasis sąrašas</string>
+    <string name="power_about">%s</string>
+    <string name="close_nfc">ALR</string>
+    <string name="close_vibration">Vibracija</string>
+    <string name="mode_item_switch_on">Įjungti</string>
+    <string name="mode_item_switch_off">Išjungti</string>
+    <string name="mode_item_cancel">Atšaukti</string>
+    <string name="set_greenbackground">Eko režimas</string>
+    <string name="mode_item_brightness_perfix">%s%%</string>
+    <string name="battery_desc_voice">Balso skambučių akumuliatoriaus naudojimas</string>
+    <string name="battery_desc_standby">Sunaudota akumuliatoriaus, kai telefonas yra laukimo būsenoje</string>
+    <string name="battery_desc_flashlight">Žibintuvėlio naudojamas akumuliatorius</string>
+    <string name="battery_desc_display">Akumuliatorių naudoja pateiktis ir foninis apšvietimas</string>
+    <string name="battery_desc_wifi">Wi-Fi naudojamas akumuliatorius</string>
+    <string name="battery_desc_bluetooth">„Bluetooth“ naudojamas akumuliatorius</string>
+    <string name="battery_desc_apps">Programos naudojamas akumuliatorius</string>
+    <string name="battery_desc_users">Naudotojo sunaudota akumuliatoriaus energija</string>
+    <string name="battery_desc_unaccounted">Energijos naudojimas įvairiais tikslais</string>
+    <string name="battery_desc_overcounted">Per daug apskaičiuotos energijos naudojimas</string>
+    <string name="usage_type_cpu">Visas CPU laikas</string>
+    <string name="usage_type_cpu_foreground">CPU aktyvusis langas</string>
+    <string name="usage_type_wake_lock">Neužmigdyti</string>
+    <string name="usage_type_gps">GPS</string>
+    <string name="usage_type_wifi_running">Wi-Fi vykdoma</string>
+    <string name="usage_type_data_send">Mobiliojo ryšio paketai išsiųsti</string>
+    <string name="usage_type_data_recv">Mobiliojo ryšio paketai gauti</string>
+    <string name="usage_type_data_wifi_send">Wi-Fi ryšio paketai išsiųsti</string>
+    <string name="usage_type_data_wifi_recv">Wi-Fi ryšio paketai gauti</string>
+    <string name="usage_type_audio">Garso įrašas</string>
+    <string name="usage_type_video">Vaizdas</string>
+    <string name="usage_type_on_time">Laikas, kai buvo įjungta</string>
+    <string name="usage_type_no_coverage">Laikas be signalo</string>
+    <string name="usage_type_total_battery_capacity">Bendroji akumuliatoriaus talpa</string>
+    <string name="usage_type_computed_power">Apskaičiuotas energijos sunaudojimas</string>
+    <string name="usage_type_actual_power">Išmatuotas energijos sunaudojimas</string>
+    <string name="details_subtitle">Išsami naudojimo informacija</string>
+    <string name="controls_subtitle">Reguliuoti energijos naudojimą</string>
+    <string name="packages_subtitle">Įtraukti paketai</string>
+    <string name="force_stop">Uždaryti programą</string>
+    <string name="battery_action_app_details">Programos informacija</string>
+    <string name="battery_sugg_apps_info">Stabdyti ar pašalinti programą</string>
+    <string name="location_settings_title">Vietovė</string>
+    <string name="battery_sugg_apps_gps">Pasirinkite akumuliatoriaus tausojimo režimą</string>
+    <string name="display_settings">Pateiktis</string>
+    <string name="battery_sugg_display">Sumažinti ekrano šviesumą ir (arba) ekrano skirtąjį laiką</string>
+    <string name="wifi_settings">Belaidis ryšys</string>
+    <string name="bluetooth_settings">Bluetooth</string>
+    <string name="radio_controls_title">Daugiau</string>
+    <string name="battery_sugg_radio">Pereiti prie lėktuvo režimo, norint taupyti energiją srityse, kuriose nėra</string>
+    <string name="battery_msg_unaccounted">Akumuliatoriaus naudojimas apytiksliai atitinka energijos sunaudojimą. Jis neapima visų akumuliatoriaus eikvojimo šaltinių. Naudojimo įvairiais tikslais vertė yra skirtumas tarp apskaičiuoto apytikslio energijos sunaudojimo ir išmatuoto faktinio akumuliatoriaus išeikvojimo.</string>
+    <string name="battery_history_days">
+        <xliff:g id="DAYS">%1$d</xliff:g> d. <xliff:g id="HOURS">%2$d</xliff:g> val. <xliff:g id="MINUTES">%3$d</xliff:g> min. <xliff:g id="SECONDS">%4$d</xliff:g> sek.</string>
+    <string name="battery_history_hours">
+        <xliff:g id="HOURS">%1$d</xliff:g> val. <xliff:g id="MINUTES">%2$d</xliff:g> min. <xliff:g id="SECONDS">%3$d</xliff:g> sek.</string>
+    <string name="battery_history_minutes">
+        <xliff:g id="MINUTES">%1$d</xliff:g> min. <xliff:g id="SECONDS">%2$d</xliff:g> sek.</string>
+    <string name="battery_history_seconds">
+        <xliff:g id="SECONDS">%1$d</xliff:g> sek.</string>
+    <string name="battery_history_days_no_seconds">
+        <xliff:g id="DAYS">%1$d</xliff:g> d. <xliff:g id="HOURS">%2$d</xliff:g> val. <xliff:g id="MINUTES">%3$d</xliff:g> min.</string>
+    <string name="battery_history_hours_no_seconds">
+        <xliff:g id="HOURS">%1$d</xliff:g> val. <xliff:g id="MINUTES">%2$d</xliff:g> min.</string>
+    <string name="battery_history_minutes_no_seconds">
+        <xliff:g id="MINUTES">%1$d</xliff:g> min.</string>
+    <string name="power_app_others">Kiti</string>
+    <string name="dialog_neutralbutton_config_txt">Konfigūruoti</string>
+    <string name="power_consume_ignore_tip">Nepaisyti</string>
+    <string name="background_running_remove_ignore_title">Priminimo nustatymai</string>
+    <string name="background_running_set_ignore_message">Nepriminti</string>
+    <string name="normal_detail_changed_alert_save">Išsaugoti</string>
+    <string name="normal_detail_changed_alert_cancel">Atmesti</string>
+    <string name="mode_item_timeout_s">"%d sek."</string>
+    <string name="mah">
+        <xliff:g example="30" id="number">%d</xliff:g> mAh</string>
+</resources>

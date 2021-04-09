@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Systemmanager</string>
+    <string name="cell_accelerator">Speicher Reinigung</string>
+    <string name="cell_accelerator_summary">Momery use <![CDATA[<font color="#d23030">%1$s%%</font>]]></string>
+    <string name="rubbish_clean">Cache löschen</string>
+    <string name="rubblish">caches <![CDATA[<font color="#d23030">%1$s</font>]]></string>
+    <string name="power_optimizer">Power Optimizer</string>
+    <string name="can_use">Can use <![CDATA[<font color="#6eb330">%1$s</font>]]></string>
+    <string name="charge_time">Need <![CDATA[<font color="#6eb330">%1$s</font>]]></string>
+    <string name="traffic_monitor">Vekehr-Monitor</string>
+    <string name="traffic_remained">Traffic remained <![CDATA[<font color="#6eb330">%1$s</font>]]></string>
+    <string name="traffic_exceed">Traffic exceed <![CDATA[<font color="#6eb330">%1$s</font>]]></string>
+    <string name="traffic_no_setting">Traffic-Pakete nicht gesetzt ist</string>
+    <string name="traffic_no_simcard">SIM-Karte eingelegt</string>
+    <string name="soft_manager">Anwendungsmanager</string>
+    <string name="app_installed">Total apps <![CDATA[<font color="#d23030">%1$s</font>]]></string>
+    <string name="perm_manager">Genehmigung von App</string>
+    <string name="minutes">Min.</string>
+    <string name="hours">Stunden</string>
+    <string name="cannotget">kann nicht bekommen</string>
+    <string name="quick_accelerate">Telefon beschleunigen</string>
+    <string name="toast_content">Mitteilung%1$smemory</string>
+    <string name="menu_setting">Einstellungen</string>
+    <string name="items_switch">Background-Monitor</string>
+    <string name="net_monitor_title">Traffic-Nutzung erinnern</string>
+    <string name="net_monitor_summary">Überprüfen Sie die Traffic-Nutzung von Anwendungen einmal pro Woche</string>
+    <string name="energy_monitor_title">Leistungsaufnahme erinnern</string>
+    <string name="energy_monitor_summary">Überprüfen Sie den Stromverbrauch von Anwendungen einmal pro Woche</string>
+    <string name="apps_monitor_title">Selten verwendete Apps erinnern</string>
+    <string name="apps_monitor_summary">Überprüfen Sie die Nutzungsfrequenz der apps einmal pro Woche</string>
+    <string name="root_monitor_title">Root erinnern</string>
+    <string name="root_monitor_summary">Überprüfen Sie, ob das Telefon rooted</string>
+    <string name="desktop_monitor_title">Desktop-Monitor</string>
+    <string name="desktop_monitor_summary">Überwachen, ob Desktop ist standardmäßig und auf Statusbar angezeigt</string>
+    <string name="utilization_title">System-Alert</string>
+    <string name="utilization_content">Willkommen im Systemmanager. Diese Anwendung kann Daten verwenden. Bitte kontaktieren Sie den Netzbetreiber für Datengebühren und andere Daten bezogene Informationen.</string>
+    <string name="dialog_checkbox_description">Nicht mehr erinnern</string>
+    <string name="dialog_exit_btn">Abbrechen</string>
+    <string name="dialog_continue_btn">Weiter</string>
+    <string name="text_antivirus">Viruserkennung</string>
+    <string name="text_start_scan">Scannen starten</string>
+    <string name="text_cancel_scan">Scannen abbrechen</string>
+    <string name="text_scaning">Scannen..</string>
+    <string name="text_scaning_result">Scannen abgeschlossen</string>
+    <string name="text_scaning_reminder">Sofortige Prüfung empfehlen</string>
+    <string name="text_menu_savepower">Energie</string>
+    <string name="text_menu_traffic">Vekehr-Monitor</string>
+    <string name="text_menu_pure">Grüner Hintergrund</string>
+    <string name="text_menu_ram">Speicher</string>
+    <string name="text_one_key_check">Prüfen</string>
+    <string name="text_one_key_check_complete">Ausgeführt</string>
+    <string name="text_scan_daily_none">Berühren Sie zum Reinigen des Speichers</string>
+    <string name="text_scan_daily_cancel">Prüfung abgebrochen, sofortige Prüfung empfehlen</string>
+    <string name="text_scan_daily_last">Letzte Prüfung : <xliff:g id="ID_1">%s</xliff:g></string>
+    <string name="text_scan_result_good">Handy ist gut, Optimieren fortsetzen</string>
+    <string name="text_scan_result_better">Handy ist gut, bitte behalten</string>
+    <string name="text_scan_result_problem">Handy hat Probleme, Optiminieren empfehlen</string>
+    <string name="text_accelerating">Beschleunigung</string>
+    <string name="text_memory_release">Speicher auslösen <xliff:g id="ID_1">%s</xliff:g></string>
+    <string name="text_memory_release_running">Freigeben des Speicher</string>
+    <string name="text_memory_release_display">Accelerating successfully,release memory <xliff:g id="ID_1">%s</xliff:g></string>
+    <string name="text_memory_used">Verwendet <xliff:g id="ID_1">%s</xliff:g></string>
+    <string name="text_phone_state_better">Speicher gereinigt</string>
+    <string name="text_phone_state_problem">Handy ist schlecht, zu beschleunigen sofort</string>
+    <string name="text_root_remind">Telefon verwurzelt</string>
+    <string name="text_root_remind_restore">Wiederherstellen</string>
+    <string name="msg_superpower_error">Der letzte Schalter dient abnormal, starten Sie es erneut, um zu reparieren</string>
+    <string name="msg_error_title">Abnormal erinnert</string>
+    <string name="msg_reboot">Rebooten</string>
+    <string name="app_process_limit_title">Hintergrundprozess Limit</string>
+    <string name="app_process_limit_txt">Hintergrundprozessgrenze%s</string>
+    <string name="msg_background_process">White-Liste</string>
+    <string name="pressure_sensor_menu_first">Müll sauber</string>
+    <string name="pressure_sensor_menu_second">App einfrieren</string>
+    <string name="pressure_sensor_menu_third">Standardanwendungseinstellungen</string>
+    <string name="pressure_sensor_menu_fourth">Datenverkehr verwalten</string>
+    <string name="text_in_screenpin">Jetzt ist es im Bildschirmmodus, kann Super-Modus nicht öffnen.</string>
+    <string name="required_permissions_promo">SystemManager benötigt eine Berechtigung für Telefon- und SD-Karten.</string>
+    <string name="enable_permission_procedure_description">Sie können Berechtigungen in den Einstellungen, Apps, SystemManager, Berechtigungen ändern.</string>
+    <string name="next_with_arrow">Weiter &gt;</string>
+    <string name="next">Weiter</string>
+    <string name="settings_with_arrow">Einstellungen &gt;</string>
+    <string name="settings">Einstellungen</string>
+</resources>

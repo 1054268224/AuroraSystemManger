@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="system_is_scanning">lettura</string>
+    <string name="system_optimization">Ottimizzare</string>
+    <string name="system_continue_optimization">Continua</string>
+    <string name="system_check_speedup_category">pulito e veloce</string>
+    <string name="speedup_btn_text">accelerare</string>
+    <string name="running_process_title">Applicazione in esecuzione(%d)</string>
+    <string name="traffic_set">Set di traffico</string>
+    <string name="data_saver">Risparmio dati</string>
+    <string-array name="listitem_soft_manager_activity_p">
+        <item>"Avvio automatico dell'app"</item>
+        <item>"Disinstalla l'app"</item>
+        <item>"Blocco app"</item>
+        <item>App lock</item>
+        <item>@string/title_activity_default_mrg</item>
+    </string-array>
+</resources>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">  
+    <string name="title_activity_soft_manager">Gerenciador de aplicativos</string>
+    <string name="text_load">Carregando…</string>
+    <string name="text_internal_storage">Telefone</string>
+    <string name="text_total_sd">Cartão SD</string>
+    <string name="text_available_space">Disponível</string>
+    <string name="text_used_space">Ocupado</string>
+    <string name="uninstall">Desinstalar</string>
+    <string name="text_no_sd_card">"Cartão SD indisponível ou não instalado"</string>
+    <string name="text_allow_permission">Permitido</string>
+    <string name="text_forbidden_permission">Não permitido</string>
+    <string name="text_allow">Permitir</string>
+    <string name="text_forbidden">Não permitir</string>
+    <string name="text_ask">Perguntar</string>
+    <string name="title_software_def_not_set">Não é padrão</string>
+    <string name="storage_unmounted">AS informações de memória não podem ser coletadas em modo de armazenamento</string>
+    <string name="no_app_system_space">Nenhum aplicativo no espaço de sistema</string>
+    <string name="permission_end">"<xliff:g>%1$s</xliff:g> "</string>
+    <string name="read_sms_mms">Ler MMS</string>
+    <string name="send_sms_mms">Enviar MMS</string>
+    <string name="write_sms_mms">Editar/Modificar MMS</string>
+    <string name="nfc_switch_open">NFC habilitado</string>
+    <string name="nfc_switch_close">NFC desabilitado</string>
+    <string name="text_permission_mrg">Permissão</string>
+    <string name="text_permission_mrg_app">Aplicativo</string>
+    <string name="itrust_second">"O sistema permite tudo"</string>
+    <string name="permlab_readMms">"Ler MMS"</string>
+    <string name="permlab_writeMms">"Editar/Apagar MMS"</string>
+    <string name="perm_send_mms">"Enviar MMS"</string>
+    <string name="perm_default">Padrão</string>
+    <string name="has_no_trust_permission">"Nenhuma permissão privada relacionada"</string>
+    <string name="app_permission_count">"Envolve <xliff:g>%1$s</xliff:g> permissões privadas"</string>
+    <string name="permission_remind">"Lembrar"</string>
+    <string name="permission_important">"Importante"</string>
+    <string name="title_activity_default_mrg">Configurações de aplicativos padrão</string>
+    <string name="text_software_def_not_set">Nenhum</string>
+</resources>

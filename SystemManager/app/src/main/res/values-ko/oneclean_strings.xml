@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+/*
+**
+** Copyright 2007 The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+-->
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">  
+    <string name="phone_accelerate">메모리 청소</string>
+    <string name="text_one_accelerate">One key 가속화</string>
+    <string name="searching">데이터를 검색하는 중 …</string>
+    <string name="summary_process_clean">"프로세스가 종료 될 수있음"</string>
+    <string name="summary_process_clean_no">어떤 프로세스도 종료 될 수 없음</string>
+    <string name="summary_cache_clean">"캐시는 지워 질 수 있음"</string>
+    <string name="summary_cache_clean_no">해제할 공간이 없음.</string>
+    <string name="summary_boot_optimization">"자동으로 시작되는 항목들을 제한 할 수 있습니다"</string>
+    <string name="summary_boot_optimization_no">자동으로 시작되는 항목들을 제한 할 수 없습니다</string>
+    <string name="text_clean_result">"<xliff:g>%1$s</xliff:g> 공간이 해제 되었습니다."</string>
+    <string name="text_clean_result_no">휴대폰은 최상의 상태입니다. 가속을 하지 않으셔도 됩니다.</string>
+    <string name="text_main_ui_notice">상태 정리를 위해 폰을 흔들어 주세요. 최상의 상태로 폰을 유지해 주세요.</string>
+    <string name="text_shake">폰을 가속 시키기 위해서 흔들어 주세요!</string>
+    <string name="text_clean_load">시작 항목을 최적화 프로세스와 캐시 제거 중 …</string>
+    <string name="notice_process_running">"동작 중인 프로세스 <xliff:g>%1$s</xliff:g>, <xliff:g>%2$s</xliff:g> 정리"</string>
+    <string name="notice_process_whitelist">One key 가속 중 일때는 선택도니 앱은 종료 되지 않을 것 입니다.</string>
+    <string name="text_result_clean_process">"종료 된 프로세스 <xliff:g>%1$s</xliff:g>"</string>
+    <string name="title_activiy_process_clean">프로세스 정리</string>
+    <string name="no_select">선택된 프로세스가 없습니다. 선택해 주세요.</string>
+    <string name="one_clean">One key 정리</string>
+    <string name="text_loader_process">프로세스 정리 중 …</string>
+    <string name="title_activity_process_protected">보호 된 프로세스</string>
+    <string name="text_empty_process">현재 실행 중인 프로세스가 없습니다.</string>
+    <string name="summary_item_process">"RAM： <xliff:g >%1$s</xliff:g>"</string>
+    <string name="title_activiy_cache_clean">캐시 정리</string>
+    <string name="text_no_select">정리 할 앱을 선택해 주세요.</string>
+    <string name="text_loader_cache">"캐시 정리 중 ..."</string>
+    <string name="text_header_cache_clean">"<xliff:g>%1$s</xliff:g> 양의 캐시, <xliff:g>%2$s</xliff:g> 사용된 공간"</string>
+    <string name="text1_cache_clean_no">정리할 캐시가 없습니다.</string>
+    <string name="text2_cache_clean_no">정기적으로 쓰레기 파일을 지워주세요. 정리를 통해서 폰을 최상의 상태로 유지해 주세요.</string>
+    <string name="title_activiy_boot_opt">부팅 최적화</string>
+    <string name="text_loader_boot">최적화 부팅 시작 항목 …</string>
+    <string name="text_result_bootopt">시작 항목 최적화 함</string>
+    <string name="text_no_opt">최적화가 필요한 시작 항목이 없음</string>
+    <string name="one_key_opti">One Key 최적화</string>
+    <string name="one_key_allow">One Key 허용</string>
+    <string name="title_activity_add_auto_start">자동 시작 응용 프로그램을 추가</string>
+    <string name="text_empty_auto_start">자동으로 시작할 수 있는 앱이 없습니다.</string>
+    <string name="text_empty_auto_start_forbid">자동 시작을 제한 하는 앱이 없습니다.</string>
+    <string name="text_header_auto_start">"모두 <xliff:g>%1$s</xliff:g> 개의 자동 시작 앱이 있습니다."</string>
+    <string name="text_header_auto_start_forbid">"자동 시작 제한（ <xliff:g>%1$s</xliff:g>）"</string>
+    <string name="one_key_opt">OneClean</string>
+    <string name="limited">제한</string>
+    <string name="allow">허용</string>
+    <string name="has_allow">허용된</string>
+    <string name="protected_process">보호 된 프로세스</string>
+    <string name="important_process">중요한 프로세스</string>
+    <string name="title_memory_settings">메모리 정리 설정</string>
+    <!--Gionee luoguangming 2015.08.13 modify CR01537362 begin-->
+    <string name="title_activiy_green_bg">에코 모드</string>
+    <!--Gionee luoguangming 2015.08.13 modify CR01537362  end -->
+    <string name="memory_settings_main_title">프로세스 정리</string>
+    <string name="close_screen_clean_title">스크린 정리 끄기</string>
+    <string name="close_screen_clean_summary">정상 리스트 상의 백그라운드 프로세스 정리</string>
+    <string name="low_memory_clean_title">메모리 부족 정리</string>
+    <string name="low_memory_clean_summary">정상 리스트 상의 백그라운드 프로세스를 자동으로 정리</string>
+    <string name="run_game_memory_clean_title">게임 메모리 정리를 시작합니다</string>
+    <string name="run_game_memory_clean_summary">게임을 시작할 때 메모리는 정리 합니다.</string>
+    <string name="result_display_title">정리 결과</string>
+    <string name="result_display_summary">백그라운드 정리 후 결과</string>
+    <string name="white_list_main_title">정상 리스트</string>
+    <!--Gionee luoguangming 2015.08.13 modify CR01537362 begin-->
+    <string name="process_white_list_title">보호 리스트</string>
+    <!--Gionee luoguangming 2015.08.13 modify CR01537362  end -->
+    <string name="process_white_list_summary">앱 리스트가 보호 되어져 있습니다. 정리되지 않을 것 입니다.</string>
+    <string name="green_bg_summary">백그라운드 앱이 동작 하는 것은 전력 소모를 줄이기 위하여 제한 되어 있습니다.</string>
+    <string name="radiobutton_allow">자동 부팅을 허용</string>
+    <string name="radiobutton_prohibit">부팅 제한</string>
+    <string name="one_key_prohibit">키 제한</string>
+    <string name="text_empty_allow_start">자동으로 시작 되는 것이 허락 되어 있는 앱이 없음</string>
+    <string name="text_empty_prohibit_start">자동으로 시작 되는 것이 제한 되어 있는 앱이 없음</string>
+    <string name="text_empty_white_app">추가된 앱이 없음</string>
+    <string name="white_list_add">정식 리스트에 추가</string>
+    <string name="white_list_cancel">정식 리스트로 부터 제거</string>
+    <string name="text_empty_white_list">보호 리스트에 추가된 앱이 없습니다.</string>
+    <!--Gionee luoguangming 2015.08.13 modify CR01537362 begin-->
+    <string name="text_add_white_list">보호 리스트에 추가</string>
+    <!--Gionee luoguangming 2015.08.13 modify CR01537362  end -->
+    <string name="remove">제거</string>
+    <string name="ok_btn">확인</string>
+    <string name="cancel_btn">취소</string>
+    <string name="system_process">시스템 프로세스</string>
+    <string name="user_process">사용자 프로세스</string>
+    <string name="whitelist_remind_text">다음의 앱들은 보호되어져 있습니다.</string>
+    <string name="add_whitelist_remind_text">선택된 앱은 보호되어져 있습니다.</string>
+    <string name="oneclean_action">메모리</string>
+    <string name="oneclean_action_running">정리</string>
+    <string name="surplus_text">"과잉"</string>
+    <string name="oneclean_process_running_txt"><xliff:g>%1$s</xliff:g>동작 중인 앱은 정리 될 수 있습니다.</string>
+    <string name="oneclean_no_process_running_txt">최상의 상태 입니다. \n정리할 필요가 없습니다.</string>
+    <string name="auto_start_power">자동</string>
+    <string name="auto_start_back">자동</string>
+    <string name="auto_start_both">자동</string>
+    <string name="auto_clean_result">"백그라운드 프로세스들이 종료 되었습니다, <xliff:g>%1$s</xliff:g>MB의 메모리가 해지 되었습니다."</string>
+    <string name="auto_clean_finish">자동 정리 완료</string>
+    <string name="low_mem_clean_finish">부족 메모리 정리 완료</string>
+    <string name="clean_setings_summary">메모리 정리 설정으로 이동</string>
+    <string name="caches_clean_result_text">"여유 공간 <xliff:g>%1$s</xliff:g>"</string>
+    <string name="caches_clean_complete">"쓰레기 데이터 정리"</string>
+    <string name="process_clean_result_note">정리되지 않은 앱이 있습니까? 즉시 정식 리스트에 추가 시켜 주세요.</string>
+    <string name="process_clean_result">메모리 정리 <xliff:g>%1$s</xliff:g></string>
+    <string name="process_clean_complete">속도 가속 완료</string>
+    <string name="action_complete">완료</string>
+    <string name="system_app_action">주의</string>
+    <string name="system_app_dialog_title"><xliff:g>%1$s</xliff:g>이(가) 자동으로 시작 되것이 제한 됨</string>
+    <string name="system_app_dialog_message">"<xliff:g>%1$s</xliff:g>은 시스템 앱입니다. 만약 동작을 제한 시키면 오류가 발생 할 수 있습니다. 계속 하시겠습니까?"</string>
+</resources>

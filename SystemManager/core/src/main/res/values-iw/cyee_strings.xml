@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+     Gionee <zhangxx> <2013-06-20> add for cyeeframework.
+ -->
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">  
+     <string name="cyee_app_name">CyeeUI</string>
+     
+     <string name="cyee_capital_on">הפעל</string>
+     <string name="cyee_capital_off">הפסק</string>
+     
+     <string name="cyee_time_picker_dialog_title">הגדר זמן</string>
+     <string name="cyee_date_picker_dialog_title">הגדר תאריך</string>
+     <string name="cyee_date_time_done">הסתיים</string>
+     
+     <string name="cyee_copy">העתק</string>
+     <string name="cyee_paste">הדבק</string>
+     <string name="cyee_cut">חתוך</string>
+     <string name="cyee_selectAll">בחר הכל</string>
+     <string name="cyee_select">בחר</string>
+     <string name="cyee_inputMethod">סוג קלט</string>
+
+     <!--  Strings for possible PreferenceActivity Back/Next buttons -->
+     <string name="cyee_back_button_label">חזור</string>
+     <string name="cyee_next_button_label">הבא</string>
+     <!-- Optional button to Skip a PreferenceActivity [CHAR LIMIT=20] -->
+     <string name="cyee_skip_button_label">דלג</string>    
+     
+     <string name="cyee_ok">אישור</string>
+     <string name="cyee_cancel">בטל</string>
+     <string name="cyee_yes">אישור</string>
+     <string name="cyee_no">בטל</string>
+
+     <string name="cyee_action_mode_done">הסתיים</string>
+     <string name="cyee_action_bar_home_description">נווט לבית</string>
+     <string name="cyee_action_bar_up_description">נווט למעלה</string>
+
+ <!-- Gionee <xuhz> <2013-07-19> add for CR00838236 begin -->
+ <!-- String for Smart Guider -->
+     <string name="cyee_smart_full_btn_label">אשר</string>
+ <!-- Gionee <xuhz> <2013-07-19> add for CR00838236 end -->
+     <!-- Gionee <hanbj> <2013-09-18> add for CR00907636 begin -->
+     <string name="cyee_activity_resolver_use_always">תמיד</string>
+     <string name="cyee_activity_resolver_use_once">פעם אחת</string>
+     <!-- Text to display when there are no activities found to display in the activity chooser. See the "Select an action" title. -->
+     <string name="cyee_noApplications">אין אפליקציה שיכולה לפתוח את הקובץ</string>
+     <string name="cyee_system_label">מערכת הפעלה</string>
+     <string name="cyee_whichApplication">השלם פעולה באמצעות</string>
+     <string name="cyee_chooseActivity">השלם את הפעולה באמצעות</string>
+     <!-- Gionee <hanbj> <2013-09-18> add for CR00907636 end -->
+     <!-- shaozj begin-->
+     <string name="cyee_actionbar_magic_item_more">עוד</string>
+     <string name="cyee_actionbar_magic_item_close">סגור</string>
+     <!-- shaozj end-->
+     <!-- weidong begin -->
+     <string name="cyee_edit_mode_leftbtn_txt">בטל</string>
+     <string name="cyee_edit_mode_rightbtn_txt">שמור</string>
+     <string name="cyee_strong_warning">אזהרה</string>
+     <string name="cyee_multichoice_select_text">%1$s נבחרו</string>
+     <string name="cyee_multichoice_select_all">בחר הכל</string>
+     <string name="cyee_multichoice_cancel_select_all">בטל בחירה</string>
+     <!-- weidong end -->
+     
+     <!-- gionee maxw add begin -->
+     <string name="unit_year">Y</string>
+     <string name="unit_month">M</string>
+     <string name="unit_day">D</string>
+     <string name="unit_hour">H</string>
+     <string name="unit_minute">M</string>
+</resources>

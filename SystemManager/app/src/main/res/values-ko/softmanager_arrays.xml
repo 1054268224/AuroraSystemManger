@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+/*
+**
+** Copyright 2007 The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+-->
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">  
+    <string-array name="title_group_move_package"> 
+    <item>내부 메모리 상 응용 프로그램</item>
+    <item>SD 카드 상 응용 프로그램</item>
+    </string-array>
+    <string-array name="title_group_move_package1"> 
+    <item>시스템 공간 상 응용 프로그램</item>
+    <item>내부 메모리 상 응용 프로그램</item>
+    </string-array>
+    <string-array name="ui_privacy_policy"> 
+    <item>전화 걸기</item>
+    <item>메시지 보내기</item>
+    <item>MMS 보내기</item>
+    <item>통화 기록</item>
+    <item>메지시 읽기</item>
+    <item>MMS 읽기</item>
+    <item>연락처 읽기</item>
+    <item>GPS 위치</item>
+    <item>네트워크 위치</item>
+    <item>전화 상태</item>
+    <item>SMS 삭제/쓰기</item>
+    <item>MMS 삭제/쓰기</item>
+    <item>연락처 삭제/쓰기</item>
+    <item>통화기록 삭제/쓰기</item>
+    <item>녹음기</item>
+    <item>카메라</item>
+    <item>모바일 네트워크</item>
+    <item>무선 랜 네트워크</item>
+    <item>블루투스</item>
+    <item>블루투스 페어링</item>
+    <item>NFC</item>
+    </string-array>
+    <string-array name="permission_summary"> 
+    <item>"앱은 전화를 할 수 있습니다."</item>
+    <item>"앱은 문자를 보낼 수 있습니다."</item>
+    <item>"앱은 MMS를 보낼 수 있습니다."</item>
+    <item>"앱은 통화 기록에 접근 할 수 있습니다."</item>
+    <item>"앱은 메시지를 읽을 할 수 있습니다."</item>
+    <item>"앱은 MMS를 읽을 수 있습니다."</item>
+    <item>"앱은 주소록에 접근 할 수 있습니다."</item>
+    <item>"앱은 GPS 위치에 접근 할 수 있습니다."</item>
+    <item>"앱은 네트워크 위치에 접근 할 수 있습니다."</item>
+    <item>"앱은 전화 상태에 접근 할 수 있습니다."</item>
+    <item>"앱은 메시지를 기록/삭제 할 수 있습니다."</item>
+    <item>"앱은 MMS를 기록/삭제 할 수 있습니다."</item>
+    <item>"앱은 주소록을 기록/삭제 할 수 있습니다."</item>
+    <item>"앱은 통화기록을 기록/삭제 할 수 있습니다."</item>
+    <item>"앱은 소리를 녹음 할 수 있습니다."</item>
+    <item>"앱은 카메라를 사용 할 수 있습니다."</item>
+    <item>"앱은 모바일 네트워크를 사용 할 수 있습니다."</item>
+    <item>"앱은 무선랜을 사용 할 수 있습니다."</item>
+    <item>"앱은 블루투스를 사용 할 수 있습니다."</item>
+    <item>"앱은 블루투스 페어링을 할 수 있습니다."</item>
+    <item>"앱은 NFC를 사용 할 수 있습니다."</item>
+    </string-array>
+    <string-array name="header_list"> 
+    <item>사용</item>
+    <item>해제</item>
+    </string-array>
+    <string-array name="ui_def_soft"> 
+    <item>기본 입력 방법</item>
+    <item>기본 인터넷 응용 프로그램</item>
+    <item>기본 연락처</item>
+    <item>기본 런처</item>
+    <item>기본 카메라 응용 프로그램</item>
+    <item>기본 사진 응용 프로그램</item>
+    <item>기본 음악 응용 프로그램</item>
+    <item>기본 비디오 응용 프로그램</item>
+    <item>기본 읽기 응용 프로그램</item>
+    </string-array>
+    <string-array name="listitem_soft_manager_activity"> 
+    <item>응용 프로그램 자동 시작</item>
+    <item>응용 프로그램 제거</item>
+    <item>응용 프로그램 오류</item>
+    <item>기본 응용 프로그램 설정</item>
+    </string-array>
+    <string-array name="list_summary_soft_manager_activity"> 
+    <item>응용 프로그램 제거</item>
+    <item>응용 프로그램 정지 및 숨기기</item>
+    <item>휴대폰 공간 최적화</item>
+    <item>기본 응용 프로그램 설정</item>
+    </string-array>
+    <string-array name="listitem_permission_setting"> 
+    <item>모두 신뢰</item>
+    <item>부분적으로 신뢰</item>
+    <item>신뢰하지 마십시오</item>
+    </string-array>
+    <string-array name="listitem_permission_setting_summary"> 
+    <item>앱이 어떤한 권한을 요구 할 때 도 경고 표시가 즉시 나타 나지 않습니다.</item>
+    <item>경고 표시가 앱이 중요한 권한을 요청 할 때 만 보여 집니다.</item>
+    <item>경고 표시가 모든 권한을 요청 할 때 마다 보여 집니다.</item>
+    </string-array>
+    <string-array name="listitem_freeze_app_summary"> 
+    <item>앱에 아무 효과 없음</item>
+    <item>경고를 가진 앱</item>
+    </string-array>
+    <string-array name="uninstall_sort"> 
+    <item>설치 시간을 기준으로 정렬</item>
+    <item>사용 비율을 기준으로 정렬</item>
+    <item>앱 크기별로 정렬</item>
+    </string-array>
+    <!--Gionee luoguangming 2015.08.13 modify CR01537362 begin-->
+    <string-array name="green_list_item"> 
+    <item>보호 리스트</item>
+    </string-array>
+    <!--Gionee luoguangming 2015.08.13 modify CR01537362  end -->
+    <string-array name="freeze_tab_item"> 
+    <item>동작 오류 가능성 있는</item>
+    <item>동작 오류</item>
+    </string-array>
+    <string-array name="auto_start_tab_item"> 
+    <item>허용</item>
+    <item>제한</item>
+    </string-array>
+    <string-array name="move_tab_item"> 
+    <item>시스템 공간</item>
+    <item>내부의</item>
+    </string-array>
+    <string-array name="move_tab_item_sd"> 
+    <item>시스템 공간</item>
+    <item>SD 카드</item>
+    </string-array>
+</resources>

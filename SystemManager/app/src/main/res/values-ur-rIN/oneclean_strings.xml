@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <!-- 手机加速主界面 -->
+  <string name="phone_accelerate">میموری کلین کریں</string>
+  <string name="text_one_accelerate">اکیلی کُنجی تیز کریں</string>
+  <string name="searching">ڈیٹا تلاش کررہا ہے</string>
+  <string name="summary_process_clean">" کارروائیاں بند کی جا سکتی ہے"</string>
+  <string name="summary_process_clean_no">کوئی کارروائی بند نہیں کی جا سکتی</string>
+  <string name="summary_cache_clean">" کیشے بند کِیا جا سکتا ہے"</string>
+  <string name="summary_cache_clean_no"> ریلیز کرنے کے لۓ کوئی اسپیس نہیں ہے</string>
+  <string name="summary_boot_optimization">" اَوٹومیٹِک طریقے پر شروع ہونے والے آئٹم کو محدود کِیا جا سکتا ہے"</string>
+  <string name="summary_boot_optimization_no">کسی بھی اَٹومیٹِک طریقے پر شروع ہونے والے آئٹم کو محدود نہیں کِیا جا سکتا</string>
+  <string name="text_clean_result"><xliff:g>%1$s</xliff:g> اسپیس خالی ہو چکا ہے</string>
+  <string name="text_clean_result_no">فون بہترین حالت میں ہے، اسپیڈ اپ کرنے کی ضرورت نہیں ہے</string>
+  <string name="text_main_ui_notice">فون کا کلین کرنے کے لۓ شیک کریں، اَور فون کو بہتر صورت میں رکھیں</string>
+  <string name="text_shake">فون میں تیزی لانے کے لۓ بس ہلائیں!</string>
+  <string name="text_clean_load">روداد اَور کیشے کو کلین کر رہا ہے. اسٹارٹ اپ آئٹم کو موزوں بنا رہا ہے</string>
+  <!-- 进程清理 -->
+  <string name="notice_process_running">چالو کارروائی <xliff:g>%1$s</xliff:g>، <xliff:g>%2$s</xliff:g> فری</string>
+  <string name="notice_process_whitelist">ایک کی کے تیز رفتارہونے پر چیک کئے ہوۓ ایپلیکیشن کو ختم نہیں کِیا جاۓ گا</string>
+  <string name="text_result_clean_process"><xliff:g>%1$s</xliff:g>پروسیس بند ہو چکا ہے</string>
+  <string name="title_activiy_process_clean">کلین کرنے کی کارروائی</string>
+  <string name="no_select">کوئی کارروائی منتخب نہیں ہے،براہ کرم منتخب کریں</string>
+  <string name="one_clean">کلین کرنے کی واحد کُنجی</string>
+  <string name="text_loader_process">کلین کارروائی چل رہی ہے</string>
+  <string name="title_activity_process_protected">کارروائیاں محفوظ ہیں</string>
+  <string name="text_empty_process">ابھی کوئی کارروائی نہیں چل رہی ہے</string>
+  <string name="summary_item_process">"RAM：<xliff:g>%1$s</xliff:g>"</string>
+  <!-- 垃圾清理 -->
+  <string name="title_activiy_cache_clean">کیشے کلین</string>
+  <string name="text_no_select">براہ کرم کلین کرنے کے لۓ ایپلیکیشن منتخب کریں</string>
+  <string name="text_loader_cache">"کیشے کلین ہو رہا ہے…"</string>
+  <string name="text_header_cache_clean"><xliff:g>%1$s</xliff:g> کیشے نے <xliff:g>%2$s</xliff:g> جگہ گھیری ہے</string>
+  <string name="text1_cache_clean_no">کلین کرنے کے لۓ کوئی کیشے نہیں ہے</string>
+  <string name="text2_cache_clean_no">مستقل طورپرکچرا فائلوں کو کلین کرنا، موبائل فون کو کلین اَور باسلیقہ رکھتا ہے</string>
+  <!-- 开机加速 -->
+  <string name="title_activiy_boot_opt">بوٹ آپٹیمائزر</string>
+  <string name="text_loader_boot">اسٹارٹ اپ آئٹم آپٹیمائزیشن کے لۓ بوٹ ہو رہا ہے</string>
+  <string name="text_result_bootopt">اسٹارٹاپ آئٹم آپٹیمائز ہو گیا ہے</string>
+  <string name="text_no_opt">اسٹارٹ اپ آئٹم کو آپٹیمائز کرنے کی ضرورت نہیں ہے</string>
+  <string name="one_key_opti">ایک کُنجی آپٹیمائز</string>
+  <string name="one_key_allow">ایک کُنجی کی اجازت ہے</string>
+  <string name="title_activity_add_auto_start">آٹو اسٹارٹ ایپلیکیشن جوڑیں</string>
+  <string name="text_empty_auto_start">کوئی ایپلیکیشن آٹو اسٹارٹ نہیں ہو سکتی</string>
+  <string name="text_empty_auto_start_forbid">کوئی بھی ایپلیکیشن آٹو اسٹارٹ کوممنوع نہیں کرتی ہے</string>
+  <string name="text_header_auto_start">آٹو اسٹارٹ ایپلیکیشن کا مجموعی <xliff:g>%1$s</xliff:g> نمبر ہے</string>
+  <string name="text_header_auto_start_forbid">"Forbid auto start（<xliff:g>%1$s</xliff:g>）"</string>
+  <string name="one_key_opt">OneClean</string>
+  <string name="limited">روک دیں</string>
+  <string name="allow">اجازت دیں</string>
+  <string name="has_allow">اجازت دی گئی ہے</string>
+  <!-- Gionee <xuhz> <2013-02-14> add for CR01045806 begin -->
+  <string name="protected_process">محفوظ کارروائی</string>
+  <string name="important_process">اہم طریقہ کار</string>
+  <!-- Gionee <xuhz> <2013-02-14> add for CR01045806 end -->
+  <!-- Gionee <jianghuan> <2014-05-06> add for CR01238335 begin -->
+  <string name="title_memory_settings">میموری کلین کرنے کی سیٹنگ</string>
+  <string name="title_activiy_green_bg">ایکو موڈ</string>
+  <string name="memory_settings_main_title">کلین کرنے کی کارروائی</string>
+  <string name="close_screen_clean_title">آف اسکرین کلین کرنا</string>
+  <string name="close_screen_clean_summary">بیک گراؤنڈ اَور طریقہ کار میں چلنے کے بعد وهائٹ لسٹ کو اسکرین سے آٹومیٹک طریقے پر ہٹایا جاۓ گا</string>
+  <string name="low_memory_clean_title">میموری کم ہے کلین کریں</string>
+  <string name="low_memory_clean_summary">یہ بیک گراؤنڈ طریقہ کار میموری کی سفید فہرست کو اَٹومیٹِک طریقے پر کلیئر کرتی ہے</string>
+  <string name="run_game_memory_clean_title">کھیل کی میموری کلین کرنا شروع کریں</string>
+  <string name="run_game_memory_clean_summary">کھیل شروع کرنے پر میموری کلین کریں</string>
+  <string name="result_display_title">کلین نتیجہ</string>
+  <string name="result_display_summary">پِگھلآنے کا عمل مکمل ہونے کے بعد بیک گراؤنڈ اَٹومیٹِک طریقے پر فوری نتیجہ پیش کرتا ہے</string>
+  <string name="white_list_main_title">سفید فہرست</string>
+  <!-- Gionee <yangxinruo> <2015-12-11> modify for CR01608017 begin -->
+  <string name="process_white_list_title">سفید فہرست کلین کریں</string>
+  <string name="process_white_list_summary">سفید فہرست والے ایپ محفوظ ہیں، آن کا کلین-اپ نہیں کِیا جاۓ گا.</string>
+  <!-- Gionee <yangxinruo> <2015-12-11> modify for CR01608017 end -->
+  <string name="green_bg_summary">بیک گراؤنڈ میں چل رہے ایپلیکیشن ممنوع ہیں، توانائی کی کھپت کے بہاؤ کو کم کریں</string>
+  <string name="radiobutton_allow">آٹو بوٹنگ کی اجازت دیں</string>
+  <string name="radiobutton_prohibit">بوٹ ہونے کو ممنوع کریں</string>
+  <string name="one_key_prohibit">ایک اہم ممانعت</string>
+  <string name="text_empty_allow_start">کسی بھی ایپلیکیشن کو اَٹومیٹِک طریقے پر شروع ہونے کی اجازت نہیں ہے</string>
+  <string name="text_empty_prohibit_start">کوئی بھی ایپلیکیشن اَٹومیٹِک طریقے پر شروع ہونے کے لۓ ممنوع نہیں ہے</string>
+  <string name="text_empty_white_app">کوئی بھی ایپلیکیشن نہیں جوڑی گئی ہے</string>
+  <string name="white_list_add">سفید فہرست میں جوڑیں</string>
+  <string name="white_list_cancel">سفید فہرست سے ہٹائیں</string>
+  <string name="text_empty_white_list">کوئی بھی ایپلیکیشن محفوظ فہرست میں نہیں جوڑی گئی ہے</string>
+  <string name="text_add_white_list">سفید فہرست میں جوڑیں</string>
+  <string name="remove">ہٹائیں</string>
+  <string name="add">جوڑیں</string>
+  <string name="ok_btn">اوکے</string>
+  <string name="cancel_btn">منسوخ کریں</string>
+  <string name="system_process">سسٹم طریقہ کار</string>
+  <string name="user_process">صارف کا طریقہ کار</string>
+  <string name="whitelist_remind_text">مندرجہ ذیل ایپ محفوظ ہیں</string>
+  <string name="add_whitelist_remind_text">منتخب ایپ محفوظ ہیں</string>
+  <string name="oneclean_action">میموری</string>
+  <string name="oneclean_action_running">کلین ہو رہا ہے</string>
+  <string name="percent_symbol">%</string>
+  <string name="surplus_text">"اضافی "</string>
+  <string name="oneclean_process_running_txt"><xliff:g>%1$s</xliff:g>چل رہے ایپلیکیشن کلین ہو سکتے ہیں</string>
+  <string name="oneclean_no_process_running_txt">بہتر صورت میں تیزی سے کام کر رہا ہے\n دوبارہ کلین کرنے کی کوئی ضرورت نہیں ہے</string>
+  <!-- Gionee <jianghuan> <2014-05-06> add for CR01238335 end -->
+  <string name="auto_start_power">آٹو</string>
+  <string name="auto_start_back">آٹو</string>
+  <string name="auto_start_both">آٹو</string>
+  <string name="auto_clean_result">بیک گراؤنڈ پروسیس ختم ہوۓ ہیں، <xliff:g>%1$s</xliff:g>M میموری خالی ہو گئی ہے</string>
+  <string name="auto_clean_finish">آٹو کلین ختم ہوا</string>
+  <string name="low_mem_clean_finish">میموری کم ہے کلین کرنا مکمل ہوا</string>
+  <string name="clean_setings_summary">میموری کلین سیٹنگ پر جائیں</string>
+  <string name="caches_clean_result_text">خالی اسپیس <xliff:g>%1$s</xliff:g></string>
+  <string name="caches_clean_complete">"بے کار مواد ہٹا دیا گیا ہے"</string>
+  <string name="process_clean_result_note">کوئی بھی ایپلیکیشن کلیئر نہیں ہونی ہے؟ فورا سفید فہرست میں جوڑیں.</string>
+  <string name="process_clean_result"><xliff:g>%1$s</xliff:g> میموری خالی ہوئ ہے</string>
+  <string name="process_clean_complete">تیز کرنا اختتام ہوا</string>
+  <string name="action_complete">اختتام</string>
+  <string name="system_app_action">احتیاط</string>
+  <string name="system_app_dialog_title"><xliff:g>%1$s</xliff:g> کو اَٹومیٹِک طریقے پر شروع ہونے سے روک دیں</string>
+  <string name="system_app_dialog_message"><xliff:g>%1$s</xliff:g> سسٹم ایپلیکیشن ہے. ممنوع ہونے کی صورت میں یہ نقصان پہنچا سکتا ہے، جاری رکھیں?</string>
+  <!-- Gionee <yangxinruo> <2016-1-5> add for CR01618272 begin -->
+  <string name="clean_memory_title">اَوٹومیٹِک طریقے پر میموری کلین ہوگی</string>
+  <string name="screenoff_clean_setting_summary">بیک گراؤنڈ میں انٹیلجنٹ کلین ایپ، پاور کی کھپت کم کریں</string>
+  <string name="screenoff_clean_setting_title">آٹو کلین آف سکرین میں</string>
+  <string name="screenoff_clean_toast_setting_summary">فون کے ان لاک ہونے کے بعد جلدی کریں</string>
+  <string name="screenoff_clean_toast_setting_title">فورا نتیجہ کلین کریں</string>
+  <string name="screenoff_clean_toast_msg">سلیپ کے دوران سسٹم منیجر نے <xliff:g id="ID_1">%s</xliff:g>M میموری خالی کر دی ہے.</string>
+  <!-- Gionee <yangxinruo> <2015-12-11> add for CR01608017 begin -->
+  <string name="cpu_monitor_setting_title">میموری / CPU یاد دہانی</string>
+  <string name="cpu_monitor_setting_summary">میموری یا CPU کے زیادہ استعمال پر مجھے مطلع کریں</string>
+  <string name="cpu_monitor_headup_title">میموری / CPU کا استعمال اعلی ہے</string>
+  <string name="cpu_monitor_headup_summary">فون سست ہو سکتا ہے</string>
+  <string name="cpu_monitor_headup_to_clean">رفتار کو تیز کریں</string>
+  <string name="running_apps_title">چل رہے پروگرام</string>
+  <string name="running_apps_header"><xliff:g id="ID_1">%s</xliff:g> چل رہے ایپ کو کلین-اپ کِیا جا سکتا ہے.</string>
+  <string name="running_apps_finish">چل رہے ایپ میں <xliff:g id="ID_1">%s</xliff:g> میموری کا استعمال ہوا ہے</string>
+  <string name="running_apps_result_title">چالو ایپ کے نتیجہ کا عنوان</string>
+  <string name="running_apps_result_tip">چالو ایپ کے نتیجہ کی تجویز</string>
+  <!-- Gionee <yangxinruo> <2015-12-11> add for CR01608017 end -->
+</resources>

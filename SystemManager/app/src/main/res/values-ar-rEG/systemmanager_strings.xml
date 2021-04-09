@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!--Gionee <GN_Oversea_Req> <linggz> <20170625> modify for 162153 begin-->
+    <string name="traffic_monitor">حركة تدفق البيانات</string>
+    <string name="text_menu_traffic">حركة تدفق البيانات</string>
+    <string name="rubbish_clean">تنظيف ذاكرة التخزين المؤقتة</string>
+    <!--Gionee <GN_Oversea_Req> <linggz> <20170625> modify for 162153 end-->
+</resources>

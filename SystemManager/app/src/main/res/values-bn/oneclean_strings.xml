@@ -1,0 +1,52 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android" 
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- 手机加速主界面 -->
+    <string name="phone_accelerate">"মেমরি ক্লিন"</string>
+    <string name="text_one_accelerate">"একটা কিতেই গতিবৃদ্ধি"</string>
+    <string name="searching">"তথ্য অনুসন্ধান করা হচ্ছে ..."</string>
+    <string name="summary_process_clean">"প্রসেস বন্ধ করা যাবে"</string>
+    <string name="summary_process_clean_no">"কোন প্রক্রিয়া বন্ধ করা যাবে না"</string>
+    <string name="summary_cache_clean">"ক্যাশে বন্ধ করা যাবে"</string>
+    <string name="summary_cache_clean_no">"মুক্তির কোন জায়গা নেই"</string>
+    <string name="summary_boot_optimization">"প্রারম্ভকালে আইটেম সীমিত করা যাবে"</string>
+    <string name="summary_boot_optimization_no">"কোন প্রারম্ভকালে আইটেম সীমিত করা যাবে না"</string>
+    <string name="text_clean_result">"<xliff:g >%1$s</xliff:g> স্থান মুক্ত করা হয়েছে"</string>
+    <string name="text_clean_result_no">"মোবাইল ফোন সবচেয়ে ভাল,গতি বাড়ানোর প্রয়োজন নেই"</string>
+    <string name="text_main_ui_notice">"একটি তরঙ্গ ফোন পরিষ্কার করতে পারে, মোবাইল ফোনে কে সবচেয়ে ভাল রাখে"</string>
+    <string name="text_shake">"একটি তরঙ্গ, এছাড়াও গতি বাড়াতে পারে yo!"</string>
+    <string name="text_clean_load">"পরিষ্কার প্রসেস এবং ক্যাশে, অপ্টিমাইজেশান স্টার্টআপ আইটেম ..."</string>
+    <!-- 进程清理 -->
+    <string name="notice_process_running">"প্রসেস চলমান <xliff:g >%1$s</xliff:g>, বৃথা স্থান দখল করুন <xliff:g >%2$s</xliff:g>"</string>
+    <string name="notice_process_whitelist">"একটা কি এক্সিলারেট হিসেবে চেক করা অ্যাপ্লিকেশন বন্ধ হবে না"</string>
+    <string name="text_result_clean_process">"বন্ধ হয়েছে <xliff:g>%1$sগুলি </xliff:g> প্রসেস"</string>
+    <string name="title_activiy_process_clean">"প্রসেস ক্লিন"</string>
+    <string name="no_select">"কোন প্রসেস নির্বাচিত নেই , দয়া করে নির্বাচন করুন"</string>
+    <string name="one_clean">"একটা কি দিয়ে ক্লিন"</string>
+    <string name="text_loader_process">"প্রসেসগুলি পরিষ্কার হচ্ছে ..."</string>
+    <string name="title_activity_process_protected">"সুরক্ষিত প্রসেস"</string>
+    <string name="text_empty_process">"বর্তমানে কোন প্রসেস চলমান নেই"</string>
+    <string name="summary_item_process">"RAM： <xliff:g >%1$s</xliff:g>"</string>
+    <!-- 垃圾清理 -->
+    <string name="title_activiy_cache_clean">"ক্লিন ক্যাশে"</string>
+    <string name="text_no_select">"পরিষ্কার করবার জন্য অ্যাপ্লিকেশন নির্বাচন করুন"</string>
+    <string name="text_loader_cache">"ক্যাশে পরিষ্কার হচ্ছে …"</string>
+    <string name="text_header_cache_clean">"ক্যাশে <xliff:g >%1$s</xliff:g> সংখ্যাগুলি, ব্যবহৃত <xliff:g >%2$s</xliff:g> স্থান"</string>
+    <string name="text1_cache_clean_no">"কোন ক্যাশে অপরিষ্কার নেই"</string>
+    <string name="text2_cache_clean_no">"জাঙ্ক ফাইল নিয়মিত পরিষ্কার করুন, মোবাইল ফোন পরিষ্কার এবং পরিচ্ছন্ন রাখুন"</string>
+    <!-- 开机加速 -->
+    <string name="title_activiy_boot_opt">"বুট অপ্টিমাইজার"</string>
+    <string name="text_loader_boot">"অপ্টিমাইজেশান বুট কি স্টার্টআপ আইটেম ..."</string>
+    <string name="text_result_bootopt">"স্টার্টআপ আইটেম অপ্টিমাইজ হয়েছে"</string>
+    <string name="text_no_opt">"কোন স্টার্টআপ আইটেম অপটিমাইজ করবার প্রয়োজন নেই"</string>
+    <string name="one_key_opti">"ওয়ান কি অপ্টিমাইজ"</string>
+    <string name="title_activity_add_auto_start">"অটো স্টার্ট অ্যাপ্লিকেশন যোগ করুন"</string>
+    <string name="text_empty_auto_start">"কোন অ্যাপ্লিকেশন অটো স্টার্ট হবে না"</string>
+    <string name="text_header_auto_start">"মোট <xliff:g >%1$s</xliff:g> অটো স্টার্ট অ্যাপ্লিকেশন সংখ্যা"</string>
+    <string name="one_key_opt">"একটা ক্লিন"</string>
+    <string name="limited">"নিষেধাজ্ঞা"</string>
+    <string name="allow">"অনুমতি দিন"</string>
+    <string name="has_allow">"অনুমতি দেওয়া হয়েছে"</string>
+    
+    <string name="protected_process">"সুরক্ষিত প্রসেস"</string>
+    <string name="important_process">"গুরুত্বপূর্ণ প্রসেস"</string>
+</resources>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="security_wallet_title">Заштита плаћања</string>
+    <string name="security_wallet_empty">Није пронађена апликација за оригинално плаћање</string>
+    <string name="security_wallet_header">Заштита апликација</string>
+    <string name="security_wallet_header_on">Отворено</string>
+    <string name="security_wallet_header_off">Затворено</string>
+    <string name="security_wallet_mini_bar_tip">Следеће апликације су проверене да су исправне</string>
+    <string name="security_wallet_support">Покреће га AVL</string>
+    <string name="security_wallet_mini_bar_tip_off">Заштита плаћања је затворена</string>
+    <string name="security_wallet_mini_bar_tip_root">У оквиру рутованог система постоји ризик од појаве трошкова</string>
+    <string name="security_wallet_off_info">Отворени заштитни систем плаћања ће скенирати окружење, открити Wi-Fi везе и пресрести злонамерне кодове како би омогућио безбедност плаћања када је апликација за плаћање покренута</string>
+    <string name="security_wallet_jump_to_app_store">Преузми још потврђених апликација</string>
+    <string name="security_wallet_jump_to_app_store_not_found">Не може да покрене продавницу апликација</string>
+    <string name="security_safed_list_installed_toast">
+        <xliff:g>%1$s</xliff:g>инсталиран за заштиту од плаћања</string>
+    <string name="security_safed_list_updated_toast"> Апликација финансија Листа правила је успешно ажурирана \ н верзија::<xliff:g>%1$s</xliff:g></string>
+</resources>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">  
+    <string name="power_saving_mode_title">Sistema de economia de energia</string>
+    <string name="close_wifi">Desligar o WiFi</string>
+    <string name="close_bluetooth">Desligar o Bluetooth</string>
+    <string name="close_data_connection">Desligar a conexão de dados</string>
+    <string name="close_gps">Desligar o GPS</string>
+    <string name="close_sync">Desligar o Sync</string>
+    <string name="close_push_notification">Desligar o Message Push</string>
+    <string name="set_screen_light">Brilho</string>
+    <string name="screen_light_sumarry">Configurar o brilho automaticamente</string>
+    <string name="set_sleep_time">Tempo de tela</string>
+    <string name="sleep_time_summary">15s</string>
+    <string name="enter_into_mode">Colocar em modo economizador de energia</string>
+    <string name="exit_mode">Sair do modo de economizador</string>
+    <string name="hardware">"Hardware"</string>
+    <string name="software">Software</string>
+    <string name="process_kernel_label">"SO Android"</string>
+    <string name="process_mediaserver_label">Servidor de multimédia</string>
+    <string name="percentage"><xliff:g id="NUMBER">%.1f</xliff:g>%%</string>
+    <string name="power_usage_not_available">não é possível obter utilização de dados</string>
+    <string name="power_phone">"Chamadas de voz"</string>
+    <string name="power_screen">"Tela"</string>
+    <string name="power_cell">Sinal de rede</string>
+    <string name="power_wifi">WiFi</string>
+    <string name="power_idle">"Modo de espera"</string>
+    <string name="power_gps">GPS</string>
+    <string name="power_sensors">Outros (Sensores)</string>
+    <string name="power_bluetooth">"Bluetooth"</string>
+    <string name="usage_description">Descrição</string>
+    <string name="shotcut_operation">ATALHO</string>
+    <string name="airplane">"Modo de avião"</string>
+    <string name="data_conn">Ligação de dados</string>
+    <string name="display">"Visor"</string>
+    <string name="idle_descrip">Mesmo com o telefone em modo de espera haverá consumo de energia para manter o sistema ativo.</string>
+    <string name="gps_descrip">Ao ativar o GPS vai consumir energia adicional</string>
+    <string name="radio_descrip">Chamadas de voz irão consumir muita bateria</string>
+    <string name="cell_descrip">O sistema busca sinais de rede continuamente e consome energia da bateria, o consumo é maior quando a qualidade do sinal é ruim</string>
+    <string name="others_descrip">Sensores como o de gravidade e de luz irão consumir muita energia quando ativos</string>
+    <string name="idle_title">Detalhes do consumo em modo de espera</string>
+    <string name="screen_title">Detalhes de utiliz. da tela</string>
+    <string name="wlan_title">Detalhes do uso do WiFi</string>
+    <string name="bt_title">Detalhes de utiliz. Bluetooth</string>
+    <string name="gps_title">Detalhes de utiliz. GPS</string>
+    <string name="radio_title">Detalhes de utiliz. de chamadas de voz</string>
+    <string name="cell_title">Detalhes do consumo em modo de espera</string>
+    <string name="others_title">Outros</string>
+    <string name="details_title">"Utilizar detalhes"</string>
+    <string name="battery_level_tab_title">"Nível da bateria"</string>
+    <string name="user_manual">Dicas</string>
+    <string name="adapter_toast">não utilize por favor.</string>
+    <string name="system_setting">Sistema de economia de energia</string>
+    <string name="smart_saving">MODO INTELIGENTE</string>
+    <string name="night_saving_title">Modo de economia de energia noturno</string>
+    <string name="night_saving_summary">Desliga automaticamente o WiFi, Bluetooth, etc a noite</string>
+    <string name="auto_clean_title">Limpeza automática</string>
+    <string name="auto_clean_summary">Limpa os processos automaticamente</string>
+</resources>

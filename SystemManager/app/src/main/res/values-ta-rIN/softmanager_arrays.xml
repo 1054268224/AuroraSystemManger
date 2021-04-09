@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!-- SoftManager begin -->
+  <string-array name="header_list">
+    <item>செயல்படுத்தவும்</item>
+    <item>முடக்கவும்</item>
+  </string-array>
+  <!-- 默认软件设置title 
+    <string-array name="ui_def_soft_title">
+        <item>Default inputMethod</item>
+        <item>Default browser</item>
+        <item>Default contacts</item>
+        <item>Default messaging</item>
+        <item>Default launcher</item>
+        <item>Default camera</item>
+        <item>Default image</item>
+        <item>Default music</item>
+        <item>Default video</item>
+        <item>Default reader</item>
+    </string-array> -->
+  <string-array name="listitem_soft_manager_activity">
+    <item>ஆப் தானாகத் தொடக்கம்</item>
+    <item>ஆப் நிறுவல்நீக்கம்</item>
+    <item>ஆப் ஃப்ரீஜ்</item>
+    <item>ஆப் லாக்</item>
+  </string-array>
+  <!-- Software Permission Setting Title -->
+  <string-array name="listitem_permission_setting">
+    <item>அனைத்து நம்பிக்கை</item>
+    <item>பாதி நம்பிக்கை</item>
+    <item>நம்ப வேண்டாம்</item>
+  </string-array>
+  <string-array name="listitem_permission_setting_summary">
+    <item>விண்ணப்பம் எந்த அனுமதிகளை அழைக்கும்போது, எந்த பாம்ப் பாக்ஸும் ப்ராம்ட் ஆகாது</item>
+    <item>பயன்பாடு ஒரு முக்கியமான அனுமதிகளை அழைப்பும்போது மட்டும் பாம்ப் பாக்ஸ் ப்ராம்ட் ஆகும்</item>
+    <item>விண்ணப்பம் எந்த அனுமதிகளை அழைக்கும் போது பாம்ப் பாக்ஸ் ப்ராம்ட் ஆகும்</item>
+  </string-array>
+  <string-array name="listitem_freeze_app_summary">
+    <item> ஆப்-யில் எஃபெக்ட் இல்லை </item>
+    <item> ஆப்ஸ் எச்சரிக்கையாக இருக்க வேண்டும்</item>
+  </string-array>
+  <!-- Gionee: mengdw <2016-08-01> modify for CR01739399 end -->
+  <string-array name="uninstall_sort">
+    <item>ஆப் பெயர் மூலம் வகைப்படுத்தவும்</item>
+    <item>நிறுவப்பட்டுள்ள நேரம் வாரியாக வரிசைப்படுத்தவும் </item>
+    <item>பயன்படுத்தும் விகிதம் வாரியாக வரிசைப்படுத்தவும்</item>
+    <item>ஆப்பின் அளவு வாரியாக வரிசைப்படுத்தவும்</item>
+  </string-array>
+  <string-array name="green_list_item">
+    <!-- Gionee <yangxinruo> <2016-1-13> modify for CR01621967 begin -->
+    <item>ஒயிட் லிஸ்ட் சுத்தம் செய்யவும்</item>
+    <!-- Gionee <yangxinruo> <2016-1-13> modify for CR01621967 end -->
+  </string-array>
+  <string-array name="freeze_tab_item">
+    <item>உறையக்கூடியது </item>
+    <item>உறைந்த</item>
+  </string-array>
+  <string-array name="auto_start_tab_item">
+    <item>அனுமதி</item>
+    <item>தடை செய்யவும்</item>
+  </string-array>
+  <string-array name="move_tab_item">
+    <item>சிஸ்டம் இடம் </item>
+    <item>உள்புற</item>
+  </string-array>
+  <string-array name="move_tab_item_sd">
+    <item>சிஸ்டம் இடம் </item>
+    <item>SD கார்ட்</item>
+  </string-array>
+  <!-- SoftManager end -->
+
+
+  <string-array name="app_lock_setting_items">
+    <item>@string/app_lock_setting_item_1</item>
+    <item>@string/app_lock_setting_item_2</item>
+  </string-array>
+
+
+
+</resources>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">"စနစ္ထိန္းသိမ္းသူ"</string>
+    <string name="cell_accelerator">"သိမ္းဆည္းရာေနရာကိုရွင္းလင္းမည္"</string>
+    <string name="cell_accelerator_summary">"သံုးႏုိင္ေသာမမ္မိုရီ<![CDATA[<စာသားအေရာင္="#d23030">%1$s%%</font>]]>"</string>
+    <string name="rubbish_clean">"ဖ်က္သည္"</string>
+    <string name="rubblish">"အမွုိက္မ်ား<![CDATA[<font color="#d23030">%1$s</font>]]>"</string>
+    <string name="power_optimizer">"စြမ္းအင္ကိုအေကာင္းဆံုးျဖစ္ေအာင္လုပ္ေဆာင္သူ"</string>
+    <string name="can_use">"Can use <![CDATA[<font color="#6eb330">%1$s</font>]]>"</string>
+    <string name="charge_time">"လိုအပ္<![CDATA[<font color="#d23030">%1$s</font>]]>"</string>
+    <string name="traffic_monitor">"ေစာင့္ျကည့္"</string>
+    <string name="traffic_remained">"အခက္အခဲမ်ားက်န္ရွိ<![CDATA[<font color="#6eb330">%1$s</font>]]>"</string>
+    <string name="traffic_exceed">"အခက္အခဲေက်ာ္လႊား <![CDATA[<font color="#6eb330">%1$s</font>]]>"</string>
+    <string name="antivirus">"အႏၱရာယ္ရွိေသာပရိုဂရမ္<![CDATA[<font color="#d23030">%1$s</font>]]>"</string>
+    <string name="traffic_no_setting">"အသြားအလာေစာင့္ၾကည့္ျခင္းအပိုင္း"</string>
+    <string name="traffic_no_simcard">"SIM ကိုထည့္မထားပါ"</string>
+    <string name="soft_manager">"ပရိုဂရမ္ကိုထိန္းသိမ္းသူ"</string>
+    <string name="app_installed">"<![CDATA[<font color="#d23030">%1$s</font>]]>ပရိုဂရမ္စုစုေပါင္း"</string>
+    <string name="perm_manager">"ပရိုဂရမ္ခြင့္ျပဳျခင္း"</string>
+    <string name="minutes">"မိနစ္မ်ား"</string>
+    <string name="hours">"နာရီမ်ား"</string>
+    <string name="cannotget">"မရႏိုင္ပါ"</string>
+    <string name="quick_accelerate">"ဖုန္းကိုအဆင့္ျမွင့္"</string>
+    <string name="toast_content">"ေလ်ာ့ခ်ျပီးျပီ"</string>
+    <string name="menu_setting">"ျပင္ဆင္မႈ"</string>
+    <string name="items_switch">"ေနာက္ခံေစာင့္ၾကည့္"</string>
+    <string name="net_monitor_title">"အသံုးျပဳမႈသတိေပး"</string>
+    <string name="net_monitor_summary">"တစ္ပတ္တစ္ခါအသံုးျပဳမႈကိုသတိေပး"</string>
+    <string name="energy_monitor_title">"ပါ၀ါသတိေပး"</string>
+    <string name="energy_monitor_summary">"တစ္ပတ္တစ္ခါအသံုးျပဳမႈကိုသတိေပး"</string>
+    <string name="apps_monitor_title">"ပရိုဂရမ္သတိေပး"</string>
+    <string name="apps_monitor_summary">"တစ္ပတ္တစ္ခါအသံုးျပဳမႈကိုစစ္ေဆး"</string>
+    <string name="root_monitor_title">"သတိေပးခ်က္"</string>
+    <string name="root_monitor_summary">"ဖုန္းကိုစစ္ေဆးပါ"</string>
+    <string name="desktop_monitor_title">"ေစာင့္ျကည့္"</string>
+    <string name="desktop_monitor_summary">"ဘားကိုေစာင့္ၾကည့္ပါ"</string>
+    <string name="utilization_title">"စနစ္သတိေပးခ်က္"</string>
+    <string name="utilization_content">"စနစ္စီစဥ္သူကို အသံုးျပဳရန္ၾကိဳဆိုပါသည္ ၊ နက္၀က္အသံုးျပဳကာေဒတာ
+အသံုးျပဳမႈမ်ားႏွင့္ တစ္ျခားအခ်က္အလက္မ်ားကိုသံုးမည္ ။"</string>
+    <string name="dialog_checkbox_description">"သတိေနာက္တစ္ခါမေပးပါနဲ႔"</string>
+    <string name="dialog_exit_btn">"ထြက္မည္"</string>
+    <string name="dialog_continue_btn">"ဆက္လက္လုပ္ေဆာင္မည္"</string>
+    <string name="text_antivirus">"ဗိုင္းရပ္စ္သတ္ေဆာ့ဖ္၀ဲလ္"</string>
+    <string name="text_start_scan">"စစ္ေဆးမႈစတင္"</string>
+    <string name="text_cancel_scan">"စစ္ေဆးမႈပယ္ဖ်က္"</string>
+    <string name="text_scaning">"စစ္ေဆးေနသည္"</string>
+    <string name="text_scaning_result">"စစ္ေဆးမႈျပီးဆံုး"</string>
+    <string name="text_scaning_reminder">"ရုတ္တရက္စစ္ေဆးမႈကိုေထာက္ခံ"</string>
+    <string name="text_score_unit">"ရာခိုင္ႏွုန္း"</string>
+    <string name="text_menu_savepower">"ပါ၀ါ"</string>
+    <string name="text_menu_traffic">"အသံုးျပဳမႈ"</string>
+    <string name="text_menu_pure">"ပံုစံ"</string>
+    <string name="text_menu_ram">"မမ္မိုရီ"</string>
+    <string name="text_one_key_check">"စံုစမ္း"</string>
+    <string name="text_one_key_check_complete">"ျပီးျပီ"</string>
+    <string name="text_scan_daily_none">"ဖ်က္ရန္ႏွိပ္ပါ"</string>
+    <string name="text_scan_daily_cancel">"စစ္ေဆးမႈကိုပယ္ဖ်က္လိုက္ပါျပီ၊"</string>
+    <string name="text_scan_daily_last">"ေနာက္ဆံုးစစ္ေဆးျခင္း : <xliff:g id="ID_1">%s</xliff:g>"</string>
+    <string name="text_scan_result_good">"မိုဘိုင္းဖုန္းသည္ေကာင္းသည္၊ဆက္ပါ"</string>
+    <string name="text_scan_result_better">"မိုဘိုင္းဖုန္းသည္ေကာင္းသည္၊ဆက္ထိန္းပါ"</string>
+    <string name="text_scan_result_problem">"မိုဘိုင္းဖုန္းသည္အခက္အခဲမ်ားရွိသည္၊ရွင္းလင္းရန္လုပ္ပါ"</string>
+    <string name="text_accelerating">"အဆင့္ျမွင့္တင္ေနသည္"</string>
+    <string name="text_memory_release">"မမ္မိုရီေလ်ာ့ခ်ေနသည္ <xliff:g id="ID_1">%s</xliff:g>"</string>
+    <string name="text_memory_release_running">"မမ္မိုရီေလ်ာ့ခ်ေနသည္"</string>
+    <string name="text_memory_release_display">"အဆင့္ျမွင့္တင္မႈလုပ္ေနသည္မမ္မိုရီေလ်ာ့ခ်ေနသည္ <xliff:g id="ID_1">%s</xliff:g>"</string>
+    <string name="text_memory_used">"သံုးျပီး <xliff:g id="ID_1">%s</xliff:g>"</string>
+    <string name="text_phone_state_better">"မမ္မိုရီရွင္းျပီး"</string>
+    <string name="text_phone_state_problem">"မိုဘိုင္းဖုန္းသည္မေကာင္းေတာ့ပါ၊ရုတ္တရတ္အဆင့္ျမွင့္သည္"</string>
+    <string name="text_root_remind">"ဖုန္းသည္ျပဳျပင္ျပီးျပီ"</string>
+    <string name="text_root_remind_restore">"ျပန္လည္ျပင္ဆင္သည္"</string>
+    <string name="msg_superpower_error">"ဖုန္းကို ျပန္ပိတ္ဖြင့္ျပီး ျပဳျပင္ပါ"</string>
+    <string name="msg_error_title">"ပံုမွန္မဟုတ္သတိေပး"</string>
+    <string name="msg_reboot">"ျပန္ပိတ္ကာဖြင့္သည္"</string>
+    <string name="app_process_limit_title">ေနာက္ခံလုပ္ေဆာင္မႈအတိုင္းအတာ</string>
+    <string name="pressure_sensor_menu_third">ပံုေသပရိုဂရမ္ျပင္ဆင္မႈမ်ား</string>
+    <string name="pressure_sensor_menu_fourth">နက္၀က္ထိန္းခ်ဳပ္မႈမ်ား</string>
+    <!-- Gionee <hekesong> <2016-6-21> <add> for CR01718060 begin -->
+    <string name="msg_background_process">နာမည္မပ်က္ စာရင္း</string>
+    <string name="required_permissions_promo">စနစ္ထိန္းသိမ္သူ မွ SDKဖုန္း၏ အေျခအေနကိုၾကည့္ရႈလိုပါက、SD၏ ခြင့္ျပဳခ်က္ ေရးသားရန္.</string>
+    <!-- Gionee <hekesong> <2016-6-21> <add> for CR01718060 end -->
+    <string name="next_with_arrow">ေနာက္သို &gt;</string>
+    <string name="next">ေနာက္ထပ္</string>
+    <string name="settings">ျပင္ဆင္မႈမ်ား</string>
+</resources>

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string-array name="app_process_limit_entries">
+    <item>कोणतीही मर्यादा नाही</item>
+    <item>5</item>
+    <item>10</item>
+    <item>15</item>
+    <item>20</item>
+  </string-array>
+  <!-- Values for app process limit preference. -->
+</resources>

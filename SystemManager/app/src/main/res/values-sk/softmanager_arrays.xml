@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="header_list">
+        <item>umožniť</item>
+        <item>zakázať</item>
+    </string-array>
+    <string-array name="listitem_soft_manager_activity">
+        <item>App auto štart</item>
+        <item>odinštalovať</item>
+        <item>app freeze</item>
+        <item>lock App</item>
+    </string-array>
+    <string-array name="listitem_permission_setting">
+        <item>veriť úplne</item>
+        <item>veriť čiastočne</item>
+        <item>Nedôveruj</item>
+    </string-array>
+    <string-array name="listitem_permission_setting_summary">
+        <item>No bomba okno s výzvou, keď je aplikačné požiadavky na akékoľvek oprávnenie</item>
+        <item>Iba vtedy, keď aplikácia zavolá na dôležitú povolenia, by sa mal objaviť na výzvy box bomba</item>
+        <item>Vždy sa objaví, keď je aplikácia volá všetky oprávnenia</item>
+    </string-array>
+    <string-array name="listitem_freeze_app_summary">
+        <item>aplikácie (y) nemajú žiadny vplyv</item>
+        <item>app (y) s rizikami</item>
+    </string-array>
+    <string-array name="uninstall_sort">
+        <item>Triediť podľa názvu aplikácie</item>
+        <item>Radiť podľa doby inštalácie</item>
+        <item>Triediť podľa miery využitia</item>
+        <item>Triediť podľa veľkosti app</item>
+    </string-array>
+    <string-array name="green_list_item">
+        <item>Čistý biely zoznam</item>
+    </string-array>
+    <string-array name="freeze_tab_item">
+        <item>vymrzající</item>
+        <item>zmrazený</item>
+    </string-array>
+    <string-array name="auto_start_tab_item">
+        <item>dovoliť</item>
+        <item>zakázať</item>
+    </string-array>
+    <string-array name="move_tab_item">
+        <item>systém space</item>
+        <item>interný</item>
+    </string-array>
+    <string-array name="move_tab_item_sd">
+        <item>systém space</item>
+        <item>SD karta</item>
+    </string-array>
+</resources>

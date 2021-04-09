@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">  
+    <string name="security_wallet_header_on">فتح</string>  
+    <string name="security_wallet_header_off">غلق</string>  
+    <string name="security_wallet_title">حماية الدفع</string>  
+    <string name="security_wallet_empty">لم يتم العثور على تطبيق دفع حقيقي</string>  
+    <string name="security_wallet_header">حماية التطبيقات</string>  
+    <string name="security_wallet_mini_bar_tip">تم التحقق من التطبيقات التالية لتكون حقيقية</string>  
+    <string name="security_wallet_support">مدعوم من AVL</string>  
+    <string name="security_wallet_mini_bar_tip_off">يتم إغلاق حماية الدفع</string>  
+    <string name="security_wallet_mini_bar_tip_root">نظام التشغيل يوجد خطر الدفع</string>  
+    <string name="security_wallet_off_info">فتح حماية الدفع سوف يفحص البيئة، والكشف عن اتصالات WLAN ومنع الرموز الخبيثة لحماية أمن الدفع عند تشغيل التطبيق الدفع</string>  
+    <string name="security_wallet_jump_to_app_store">الحصول على مزيد من التطبيقات المتحقق منها</string>  
+    <string name="security_wallet_jump_to_app_store_not_found">لا يمكن بدء تشغيل المتجر</string>  
+    <string name="security_safed_list_installed_toast"><xliff:g >%1$s</xliff:g> مثبتة على حماية الدفع</string>
+</resources>

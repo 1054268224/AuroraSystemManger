@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Správce Systému</string>
+    <string name="cell_accelerator">paměť Clean</string>
+    <string name="cell_accelerator_summary">Momery use <![CDATA[<font color="#d23030">%1$s%%</font>]]></string>
+    <string name="rubbish_clean">Vyčištění cache</string>
+    <string name="rubblish">caches <![CDATA[<font color="#d23030">%1$s</font>]]></string>
+    <string name="power_optimizer">Optimizer Power</string>
+    <string name="can_use">Can use <![CDATA[<font color="#6eb330">%1$s</font>]]></string>
+    <string name="charge_time">Need <![CDATA[<font color="#6eb330">%1$s</font>]]></string>
+    <string name="traffic_monitor">Traffic Monitor</string>
+    <string name="traffic_remained">Traffic remained <![CDATA[<font color="#6eb330">%1$s</font>]]></string>
+    <string name="traffic_exceed">Traffic exceed <![CDATA[<font color="#6eb330">%1$s</font>]]></string>
+    <string name="antivirus">Suspicious apps <![CDATA[<font color="#d23030">%1$s个</font>]]></string>
+    <string name="traffic_no_setting">Balík Data nebyl nastaven</string>
+    <string name="traffic_no_simcard">SIM karta není vložena</string>
+    <string name="soft_manager">Správce aplikací</string>
+    <string name="app_installed">Total apps <![CDATA[<font color="#d23030">%1$s</font>]]></string>
+    <string name="perm_manager">Povolení App</string>
+    
+    <string name="minutes">
+        <xliff:g id="minutes">%s</xliff:g> min.</string>
+    <string name="hours">
+        <xliff:g id="hours">%s</xliff:g> hod.</string>
+    <string name="cannotget">To není předvídatelný</string>
+    <string name="quick_accelerate">Zrychlení telefonu</string>
+    <string name="toast_content">release%1$smemory</string>
+    <string name="menu_setting">"Nastavení"</string>
+    <string name="items_switch">MONITOR POZADÍ</string>
+    <string name="net_monitor_title">připomínka využití dat</string>
+    <string name="net_monitor_summary">Zkontrolujte, zda celkový provoz aplikací jednou týdně</string>
+    <string name="energy_monitor_title">Příkon připomínka</string>
+    <string name="energy_monitor_summary">Zkontrolujte spotřebu energie aplikací jednou týdně</string>
+    <string name="apps_monitor_title">Zřídka používal apps připomínka</string>
+    <string name="apps_monitor_summary">Zkontrolujte frekvenci používání aplikací jednou týdně</string>
+    <string name="root_monitor_title">Root připomínka</string>
+    <string name="root_monitor_summary">Zkontrolujte, zda telefon má své kořeny</string>
+    <string name="desktop_monitor_title">Monitor Desktop</string>
+    <string name="desktop_monitor_summary">Bude jednou týdně sledovat, zda je nahrazen destop třetí strany, budete upozorněni na oznamovací liště, pokud je nahrazen</string>
+    <string name="utilization_title">Alert System</string>
+    <string name="utilization_content">Vítejte na správce systému. Tato aplikace může používat data. Obraťte se na provozovatele sítě pro datová poplatků a jiných údajů souvisejících informací.</string>
+    <string name="dialog_checkbox_description">Nepřipomínej mi to znovu</string>
+    <string name="dialog_exit_btn">Výstup</string>
+    <string name="dialog_continue_btn">Pokračovat</string>
+    <string name="text_antivirus">Detekce viru</string>
+    <string name="text_start_scan">Začni skenovat</string>
+    <string name="text_cancel_scan">Zrušení skenování</string>
+    <string name="text_scaning">Skenovani ...</string>
+    <string name="text_scaning_result">skenování dokončeno</string>
+    <string name="text_scaning_reminder">Doporučujeme okamžité vyšetření</string>
+    <string name="text_score_unit">%</string>
+    <string name="text_menu_savepower">Správce energie</string>
+    <string name="text_menu_traffic">Monitor provozu</string>
+    <string name="text_menu_pure">Eco mód</string>
+    <string name="text_menu_ram">Paměť</string>
+    <string name="text_one_key_check">Inspect</string>
+    <string name="text_one_key_check_complete">Hotovo</string>
+    <string name="text_scan_daily_none">Dotknout pro vyčištění paměti</string>
+    <string name="text_scan_daily_cancel">Zkouška byla zrušena. Doporučujeme ihned šek.</string>
+    <string name="text_scan_daily_last">Last examination : <xliff:g id="ID_1">%s</xliff:g></string>
+    <string name="text_scan_result_good">Mobilní telefon je v dobrém stavu, ale to je ještě možné optimalizovat</string>
+    <string name="text_scan_result_better">Mobilní telefon je v dobrém stavu, mějte to takhle</string>
+    <string name="text_scan_result_problem">Mobilní telefon má problémy. Doporučujeme vám optimalizovat.</string>
+    <string name="text_accelerating">zrychlující</string>
+    <string name="text_memory_release">Release memory <xliff:g id="ID_1">%s</xliff:g></string>
+    <string name="text_memory_release_running">Uvolnění paměti</string>
+    <string name="text_memory_release_display">Accelerating successfully,release memory <xliff:g id="ID_1">%s</xliff:g></string>
+    <string name="text_memory_used">Použito <xliff:g id="ID_1">%s</xliff:g></string>
+    <string name="text_phone_state_better">paměť čistit</string>
+    <string name="text_phone_state_problem">Mobilní telefon je v hrozném stavu, prosím urychlit okamžitě</string>
+    <string name="text_root_remind">telefon zakořeněné</string>
+    <string name="text_root_remind_restore">obnovit</string>
+    <string name="msg_superpower_error">Poslední přepínač je abnormální, restartujte znovu opravit</string>
+    <string name="msg_error_title">abnormalita připomínka</string>
+    <string name="msg_reboot">Reboot</string>
+    <string name="app_process_limit_title">Limit proces na pozadí</string>
+    <string name="app_process_limit_txt">Dosavadní stav techniky Způsob omezení%s</string>
+    <string name="msg_background_process">White list</string>
+    <string name="pressure_sensor_menu_first">odpadky čistý</string>
+    <string name="pressure_sensor_menu_second">App zmrazení</string>
+    <string name="pressure_sensor_menu_third">Výchozí nastavení aplikace</string>
+    <string name="pressure_sensor_menu_fourth">ovládání sítě</string>
+    <string name="text_in_screenpin">Nyní je v režimu obrazovky, můžete \'t otevřít režim super.</string>
+    <string name="required_permissions_promo">SystemManager potřebuje povolení k telefonu a SD karty.</string>
+    <string name="enable_permission_procedure">You can change permissions in Settings &gt; Apps &gt; SystemManager &gt; Permissions.</string>
+    <string name="enable_permission_procedure_description">Oprávnění můžete změnit v Nastavení, aplikace SystemManager, oprávnění.</string>
+    <string name="next_with_arrow">Další &gt;</string>
+    <string name="next">"Další"</string>
+    <string name="settings_with_arrow">Nastavení &gt;</string>
+    <string name="settings">"Nastavení"</string>
+</resources>

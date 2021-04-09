@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Admin. de sistema</string>
+    <string name="cell_accelerator">Limpieza de la memoria</string>
+    <string name="cell_accelerator_summary">Uso de memoria <![CDATA[<font color="#d23030">%1$s%%</font>]]></string>
+    <string name="rubbish_clean">Limpiar cache</string>
+    <string name="rubblish">caches <![CDATA[<font color="#d23030">%1$s</font>]]></string>
+    <string name="power_optimizer">Optimizador de energía</string>
+    <string name="can_use">Puede usar <![CDATA[<font color="#6eb330">%1$s</font>]]></string>
+    <string name="charge_time">Necesita <![CDATA[<font color="#6eb330">%1$s</font>]]></string>
+    <string name="traffic_monitor">Monitor de tráfico</string>
+    <string name="traffic_remained">Trafico disponible <![CDATA[<font color="#6eb330">%1$s</font>]]></string>
+    <string name="traffic_exceed">Trafico excedido <![CDATA[<font color="#6eb330">%1$s</font>]]></string>
+    <string name="antivirus">Aplicación sospechosa <![CDATA[<font color="#d23030">%1$s个</font>]]></string>
+    <string name="traffic_no_setting">Tráfico de paquetes no está configurado</string>
+    <string name="traffic_no_simcard">Tarjeta SIM no está activada</string>
+    <string name="soft_manager">Aplicaciones</string>
+    <string name="app_installed">Total de aplicaciones <![CDATA[<font color="#d23030">%1$s</font>]]></string>
+    <string name="perm_manager">Permiso de la aplicación</string>
+    <string name="danger_apps" />
+    <string name="minutes">Minutos</string>
+    <string name="hours">Horas</string>
+    <string name="cannotget">No se puede descargar</string>
+    <string name="quick_accelerate">Acelerar teléfono</string>
+    <string name="toast_content">Liberar%1$de memoria</string>
+    <string name="menu_setting">Configuración</string>
+    <string name="items_switch">Monitorear en segundo plano</string>
+    <string name="net_monitor_title">Recordatorio de tráfico de uso</string>
+    <string name="net_monitor_summary">Compruebe el uso de tráfico de datos de las aplicaciones una vez por semana</string>
+    <string name="energy_monitor_title">Recordatorio del consumo de energía</string>
+    <string name="energy_monitor_summary">Compruebe el consumo de energía de las aplicaciones una vez por semana</string>
+    <string name="apps_monitor_title">Recordatorio de aplicaciones raramente usadas</string>
+    <string name="apps_monitor_summary">Compruebe la frecuencia del uso de aplicaciones una vez por semana</string>
+    <string name="root_monitor_title">Recordatorio de Rooteo</string>
+    <string name="root_monitor_summary">Compruebe si el teléfono esta Rooteado</string>
+    <string name="desktop_monitor_title">Monitor de escritorio</string>
+    <string name="desktop_monitor_summary">Monitorear el escritorio por defecto y mostarlo en la barra de estado</string>
+    <string name="utilization_title">Alerta del Sistema</string>
+    <string name="utilization_content">Bienvenido al administrador del sistema. Esta aplicación puede usar datos. Por favor contacte a su operador de red por cargos y otra información relacionada.</string>
+    <string name="dialog_checkbox_description">No recordar de nuevo</string>
+    <string name="dialog_exit_btn">Salir</string>
+    <string name="dialog_continue_btn">Continuar</string>
+    <string name="text_antivirus">Antivirus</string>
+    <string name="text_start_scan">Comenzar scaneo</string>
+    <string name="text_cancel_scan">Cancelar scaneo</string>
+    <string name="text_scaning">Scaneando…</string>
+    <string name="text_scaning_result">Scaneo completo</string>
+    <string name="text_scaning_reminder">Se recomienda examinar inmediatamente</string>
+    <string name="text_score_unit">%</string>
+    <string name="text_menu_savepower">Energía</string>
+    <string name="text_menu_traffic">Tráfico</string>
+    <string name="text_menu_pure">Modo Eco</string>
+    <string name="text_menu_ram">Memoria</string>
+    <string name="text_one_key_check">Inspeccionar</string>
+    <string name="text_one_key_check_complete">Hecho</string>
+    <string name="text_scan_daily_none">Tocar para limpiar la memoria</string>
+    <string name="text_scan_daily_cancel">el examen se ha cancelado, se recomiendo chequear inmediatamente</string>
+    <string name="text_scan_daily_last">Ultimo examen: <xliff:g id="ID_1">%s</xliff:g></string>
+    <string name="text_scan_result_good">El equipo se encuentra bien, continúe para optimizar</string>
+    <string name="text_scan_result_better">El equipo se encuentra bien, por favor mantengalo</string>
+    <string name="text_scan_result_problem">El equipo tiene problemas, sugerir a optimizate</string>
+    <string name="text_accelerating">Analizando</string>
+    <string name="text_memory_release">Memoria liberada <xliff:g id="ID_1">%s</xliff:g></string>
+    <string name="text_memory_release_running">Liberando memoria</string>
+    <string name="text_memory_release_display">Análisis exitoso, memoria liberada: <xliff:g id="ID_1">%s</xliff:g></string>
+    <string name="text_memory_used">Utilizado <xliff:g id="ID_1">%s</xliff:g></string>
+    <string name="text_phone_state_better">Memoria limpia</string>
+    <string name="text_phone_state_problem">El equipo está lento, acelerar inmediatamente</string>
+    <string name="text_root_remind">Teléfono ruteado</string>
+    <string name="text_root_remind_restore">Restaural</string>
+    <string name="msg_superpower_error">El último cambio es anormal, por favor reinicie nuevamente para reparar</string>
+    <string name="msg_error_title">Rendimiento anormal</string>
+    <string name="msg_reboot">Reiniciar</string>
+    <string name="app_process_limit_title">Límite procesos 2º plano</string>
+    <string name="pressure_sensor_menu_third">Configuración de la aplicación por defecto</string>
+    <string name="pressure_sensor_menu_fourth">Control de Red</string>
+    <string name="autoboot_forbidden_notify_title">Restringir el recordatorio de lanzamiento</string>
+    <string name="autoboot_forbidden_notify_turn_off">Cerrar recordatorio</string>
+    <string name="autoboot_forbidden_notify_content">%1$s ha sido restringido cuando intenta iniciarse automáticamente. El inicio automático puede causar el consumo de energía del sistema, el administrador del sistema lo ha controlado. Si alguna aplicación no se puede iniciar normalmente, puede permitirla en "Administrador del sistema-Administrador de aplicaciones-Inicio automático de la aplicación".</string>
+</resources>

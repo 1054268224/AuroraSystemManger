@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="traffica_save_setting_list_item">
+    <item>Liste blanche trafic</item>
+    <item>Aide</item>
+    </string-array>
+    <string-array name="traffica_save_list_item">
+    <item>Enregistrer aujourd\'hui</item>
+    <item>Enregistrer ce mois-ci</item>
+    <item>Enregistrer l\'historique</item>
+    </string-array>
+
+</resources>

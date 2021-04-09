@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="cancel">إلغاء الأمر</string>
+    <string name="gn_securitypassword_forget">نسيت كلمة المرور</string>
+    <string name="lockpattern_need_to_unlock_wrong">نقش خاطئ</string>
+    <string name="gn_securitypassword_retry_note">الرجاء المحاولة مرة أخرى بعد \"%1$s\" دق (دقائق)</string>
+    <string name="gn_securitypassword_retry_note2">الرجاء المحاولة مرة أخرى بعد \"%1$s\" ثانية (ثوان)</string>
+    <string name="gn_securitypassword_retry">المحاولة مرة أخرى</string>
+    <string name="gn_securitypassword_input_error_note">كلمة المرور غير صحيحة، تتبقى \"%1$s\" محاولة</string>
+    <string name="lockpattern_tutorial_cancel_label">إلغاء الأمر</string>
+    <string name="lockpassword_confirm_app_header">تم حماية %s</string>
+    <string name="applock_verify_success_prompt">تم التحقق بنجاح</string>
+    <string name="applock_verify_pwd_prompt">إلغاء قفل كلمة المرور</string>
+    <string name="applock_verify_use_prompt">استخدم</string>
+    <string name="applock_verify_fr_prompt">الوجه/</string>
+    <string name="applock_verify_fp_prompt">الإصبع/</string>
+    <string name="applock_verify_fp_fail_more">فشل التحقق من العديد من بصمات الأصابع، الرجاء المحاولة مرة أخرى بعد مرور %1$s ث</string>
+    <string name="applock_verify_fr_wait_prompt">الرجاء الاستمرار</string>
+    <string name="applock_verify_fr_timeout_prompt">الوجه</string>
+</resources>

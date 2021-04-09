@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="rubbish_is_scanning">اسکین جاری ہے...</string>
+  <string name="clean_deeply">گہرائی سے کلین کرنا</string>
+  <string name="rubbish_file_size">220MB</string>
+  <string name="quickly_clean_rubbish">کلین کریں</string>
+  <string name="normal_clean_advice">کلین کرنے کے لۓ تجویز</string>
+  <string name="deeplyclean_item_advice">رکھنے کے لۓ تجویز</string>
+  <!--Gionee lijinfang 2015-5-7 modify for CR01456640  begin-->
+  <string name="rubbish_cleaner">کیشے صاف کرنے والا</string>
+  <!--Gionee lijinfang 2015-5-7 modify for CR01456640  end-->
+  <string name="rubbish_was_cleaned">بے کار مواد کو ہٹا دیا گیا ہے</string>
+  <string name="clean_end">مکمل</string>
+  <string name="rubbish_clean_settings">بے کار مواد کو کلین کرنے کی سیٹنگ</string>
+  <string name="rubbish_clean_alert">کلین یاد دہانی</string>
+  <string name="rubbish_size_alert">بے کار سائز کی یاد دہانی</string>
+  <string name="apk_delete_alert">انسٹال ہونے والے پیکج کے یاد دہانی کو ڈلیٹ کریں</string>
+  <string name="apk_delete_alert_summary">انسٹالیشن کے بعد پیکج کو ڈلیٹ کرنا یاد دلائیں</string>
+  <string name="residual_delete_alert">بے کار فائلوں کو ہٹانے کی یاد دلائیں</string>
+  <string name="residual_delete_alert_summary">ایپلیکیشن کو ہٹانے کے بعد بے کار فائلوں کو ہٹانے کی یاد دلائیں</string>
+  <string name="deeply_clean_end">کلین مکمل ہوا</string>
+  <string name="deeply_clean_description">فائلیں کلین کریں</string>
+  <string name="apk_not_installed">انسٹال نہیں ہے</string>
+  <string name="apk_was_installed">انسٹال ہے</string>
+  <string name="liebao_supply">کلین ماسٹر نے ٹیکنولوجیی تعاون فراہم کیا</string>
+  <string name="deepclean_total_desc">مجموعی</string>
+  <string name="deepclean_selected_desc">منتخب</string>
+  <string name="go_cancel">منسوخ کریں</string>
+  <string name="go_install_apk">انسٹال کریں</string>
+  <string name="go_clean">کلین کریں</string>
+  <string name="show_rubbish_size">سائز:</string>
+</resources>

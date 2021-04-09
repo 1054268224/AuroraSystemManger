@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="trafficassistant_app_name">مراقبة حركة البيانات</string>
+    <string name="tabbar_name1">فتحة SIM رقم 1</string>
+    <string name="tabbar_name2">فتحة SIM رقم 2</string>
+    <string name="remained_flow_string">الفائض</string>
+    <string name="used">مستخدم</string>
+    <string name="used_flow_string">استخدم <xliff:g id="ID_1">%s</xliff:g> ﻿ميجابايت</string>
+    <string name="total_flow_string">إجمالي <xliff:g id="ID_1">%s</xliff:g>M</string>
+    <string name="prompt_used_traffic">مستعمل\n<xliff:g id="ID_1">%s</xliff:g>M</string>
+    <string name="noti_surplus">مجاني</string>
+    <string name="start_date_string">شهريًا</string>
+    <string name="detail_flow">المخططات البيانية</string>
+    <string name="more_settings">مزيد من عناصر التحكم في الإعدادات</string>
+    <string name="traffic_save">توفير البيانات</string>
+    <string name="no_card_warning">الرجاء إدخال SIM</string>
+    <string name="action_cancel">إلغاء الأمر</string>
+    <string name="action_prohibit">المنع</string>
+    <string name="input_hint">الرجاء الإدخال</string>
+    <string name="warning_settings">قيمة التحذير</string>
+    <string name="flow_unit">﻿ميجابايت</string>
+    <string name="mobile_data_stop_title">التنبيه بحركة البيانات</string>
+    <string name="mobile_data_stop_contetn">لقد استهلكت حصتك الشهرية من بيانات المحمول. الاستمرار في استخدام اتصال البيانات سيتطلب دفع تكاليف إضافية، هل تريد الاستمرار؟</string>
+    <string name="action_stop">عدم الاستخدام</string>
+    <string name="info_save_error_no_flow_input">الرجاء إدخال حد الاستخدام الشهري للبيانات</string>
+    <string name="info_prompt">يمكنك ضبط قيمة استخدام البيانات يدويًا</string>
+    <string name="popup_notification_ticker_title">لم تحدد حد استهلاك البيانات</string>
+    <string name="popup_notification_content">انقر لتعيين مراقبة في الوقت الحقيقي لاستخدام البيانات</string>
+    <string name="popup_setting_content_dialog">تعيين خطة البيانات، وتوفير الأمن لقفل تكاليف الهاتف.</string>
+    <string name="notification_warn_exceed_warning_title">تحذير أحمر لخطة البيانات</string>
+    <string name="notification_warn_exceed_warning_content">وصل حد استهلاك البيانات إلى حد التحذير. المس لعرض الاستخدام.</string>
+    <string name="data_usage_uninstalled_apps_users">التطبيقات والمستخدمين الذين تمت إزالتهم</string>
+    <string name="data_usage_uninstalled_apps">التطبيقات التي تم إلغاء تثبيتها</string>
+    <string name="tether_settings_title_usb">الربط بواسطة USB</string>
+    <string name="tether_settings_title_bluetooth">الربط بواسطة البلوتوث</string>
+    <string name="running_process_item_user_label">المستخدم: %1$s</string>
+    <string name="usage_detail">تفاصيل مرور البيانات</string>
+    <string name="traffic_time_day">حركة بيانات اليوم (<xliff:g id="ID_1">%s</xliff:g>)</string>
+    <string name="traffic_time_week">استخدام البيانات هذا الأسبوع (<xliff:g id="ID_1">%s</xliff:g>)</string>
+    <string name="traffic_time_month">استخدام البيانات الشهري ( <xliff:g id="ID_2">%s</xliff:g>)</string>
+    <string name="traffic_day">استخدام البيانات\nهذا اليوم</string>
+    <string name="traffic_week">استخدام البيانات\nالأسبوعي</string>
+    <string name="traffic_month">استخدام البيانات\nالشهري</string>
+    <string name="traffic_week_no">حركة البيانات غير المستخدمة هذا الأسبوع</string>
+    <string name="traffic_month_no">حركة البيانات غير المستخدمة هذا الشهر</string>
+    <string name="network_selection">استهلاك البيانات هذا الشهر</string>
+    <string name="no_value">بلا</string>
+    <string name="traffic_monitor_display">
+        <xliff:g id="ID_1">%s</xliff:g> استهلاك البيانات الخاصة بـ 2G/3G/4G هي كما يلي:</string>
+    <string name="traffic_monitor_display_kr">
+        <xliff:g id="ID_1">%s</xliff:g> استهلاك البيانات الخاصة بـ 3G هي كما يلي:</string>
+    <string name="traffic_monitor_title">معظم استهلاك البيانات هذا الأسبوع</string>
+    <string name="traffic_network_speed_summary">سيتم عرض سرعة الشبكة في شريط الإشعارات عند تفعيل هذه الميزة</string>
+    <string name="traffic_notification_title">عرض معلومات عن حركة البيانات</string>
+    <string name="traffic_notification_summary">تحقق من شريط الإشعارات لعرض معلومات استخدام البيانات</string>
+    <string name="traffic_netcontrol_bar_allow_text">الشبكات المسموح باستخدامها (<xliff:g id="ID_1">%1$s</xliff:g></string>
+    <string name="traffic_netcontrol_bar_prohibit_text">حظرت الإنترنت (<xliff:g id="ID_1">%1$s</xliff:g>)</string>
+    <string name="net_link_allowed_txt">لا يوجد تطبيق مسموح باتصاله بالإنترنت</string>
+    <string name="net_link_prohibited_txt">جميع التطبيقات مسموح بوصولها إلى الإنترنت</string>
+    <string name="traffic_save_setting">إعدادات توفير البيانات</string>
+    <string name="switch_off">إيقاف التشغيل</string>
+    <string name="switch_on">التشغيل</string>
+    <string name="traffic_save_off">وضع توفير استهلاك البيانات متوقف عن التشغيل</string>
+    <string name="traffic_save_off_summary">تسري هذه الوظيفة فقط في ظل شبكة البيانات</string>
+    <string name="total_volume_string">﻿ميجابايت</string>
+    <string name="money_save_total_title">نبذة عن الرنمينبي</string>
+    <string name="total_money">اليوان</string>
+    <string name="traffic_save_support_txt">بدعم OPERA</string>
+    <string name="traffic_save_history">عرض سجل وضع توفير استهلاك البيانات</string>
+    <string name="traffic_save_history_total">إجمالي استخدام البيانات المحفوظ</string>
+    <string name="traffic_question1">1. كيف يمكننا تقليل استخدام البيانات؟</string>
+    <string name="traffic_question2">2. لماذا لا يمكنك معرفة حجم استخدام البيانات التي حفظتها؟</string>
+    <string name="traffic_question3">3. هل وضع توفير استخدام البيانات يستهلك البيانات بنفسه؟</string>
+    <string name="traffic_question4">4. هل من الأمان التجول داخل الإنترنت في ظل وضع توفير استخدام البيانات؟</string>
+    <string name="traffican_answer1">عند تشغيل موفر البيانات، فإنه يقوم بتغيير حجم النصوص، والصور، إلخ، ويقلل استهلاك البيانات للتطبيقات مثل QQ، وWeixin، وTaobao. يؤدي الاستخدام المستمر لهذه الميزة إلى عرض أفضل النتائج.</string>
+    <string name="traffican_answer2">5. يعمل وضع توفير استهلاك البيانات فقط أثناء التجوال في الإنترنت بواسطة حزمة البيانات، ولا يتم تمكينه ضمن WLAN. ويعمل فقط للكلمات والصور، ولكن لا يعمل للفيديو أو أي ملفات أخرى يتم تنزيلها.</string>
+    <string name="traffican_answer3">لا يستهلك وضع توفير استهلاك البيانات بنفسه، بعد تفعيل هذه الميزة، فإن جميع استخدامات البيانات لـ 2G/3G/4G سيتم ضغطها، وتعتبر ذلك بعض تطبيقات السلامة استهلاكًا للبيانات نفسها، ولكن في الحقيقة، ليست كذلك، الرجاء عدم القلق.</string>
+    <string name="traffican_answer4">لا تحتاج هذه الميزة إلى معلومات خاصة منك. يمكنك استخدامها بدون قلق.</string>
+    <string name="traffican_whitelist_title">القائمة البيضاء لحركة البيانات</string>
+    <string name="text_no_traffic_whitelist">لا توجد حاجه لحفظ البيانات</string>
+    <string name="traffic_simcard_focus1">SIM 1</string>
+    <string name="traffic_simcard_focus2">SIM 2</string>
+    <string name="traffic_netcontrol_tab_bar_allow_text">شبكة WLAN</string>
+    <string name="traffic_title_text">
+        <xliff:g id="ID_1">%1$s</xliff:g> التطبيقات</string>
+    <string name="time_format">yyyy-MM</string>
+    <string name="traffic_back_toast_text">تطبيق عملية التحكم في الشبكة قائمة، الرجاء الانتظار</string>
+    <string name="traffic_save_wait_text">يجري تحديث البيانات، الرجاء الانتظار.</string>
+    <string name="traffic_btn_calibration_text">معايرة</string>
+    <string name="traffic_limit_settings_title">ضبط استخدام البيانات</string>
+    <string name="traffic_origan">الحزمة الطبيعية للبيانات</string>
+    <string name="traffic_idle_show_title">البيانات الساكنة ليلاً</string>
+    <string name="traffic_idle_available">البيانات الساكنة المتاحة</string>
+    <string name="traffic_idle_used">البيانات الساكنة المستهلكة</string>
+    <string name="traffic_buy_title">شراء البيانات</string>
+    <string name="buy_step1_title">1. إدخال الرقم</string>
+    <string name="buy_step2_title">2.حدد قيمة الوجه</string>
+    <string name="buy_step3_title">3. الدفع والشراء</string>
+    <string name="buy_step_title">1 رقم الإدخال &gt; 2 تحديد قيمة الوجه &gt; 3 الدفع والشراء</string>
+    <string name="temp_carrieroperator_title">بكين الصين</string>
+    <string name="order_info_title">معلومات الطلب</string>
+    <string name="traffic_packge_text">
+        <xliff:g id="ID_1">%1$s</xliff:g> حزم حركة البيانات</string>
+    <string name="traffic_packge_default_money">2 يوان</string>
+    <string name="traffic_packge_default_instruction">العمل داخل الدولة بالكامل، الدفع مقابل ذلك على الفور</string>
+    <string name="mobile_info_numble">رقم إعادة دفع التكلفة: <xliff:g id="ID_1">%1$s</xliff:g></string>
+    <string name="pay_order_title">الدفع والطلب</string>
+    <string name="pay_order_Immediately_title">الدفع على الفور</string>
+    <string name="buy_record_title">سجل الشراء</string>
+    <string name="problem1_title">1. هل البيانات التي تمت إعادة دفع تكلفتها يمكن استخدامها في مناطق التجوال؟</string>
+    <string name="problem1_content">الرجاء الانتباه للرسائل المنبثقة على سبيل المثال، يمكن استخدام الدولة التي يظهر اسمها في التجوال المحلي.</string>
+    <string name="problem2_title">2. ما صلاحية إعادة دفع تكلفة البيانات؟</string>
+    <string name="problem2_content">يمكن فقط استخدام البيانات التي يجري إعادة دفع تكلفتها خلال الشهر الذي أعدت دفع تكلفتها خلاله، والحد النهائي يكون بنهاية الشهر، الرجاء مراجعة التفاصيل الواردة في الرسالة من مزود الخدمة.</string>
+    <string name="problem3_title">كيف يمكن فحص ذلك إذا كانت في حسابك بعد إعادة دفع التكلفة؟</string>
+    <string name="problem3_content">الرجاء مراجعة التفاصيل الواردة في الرسالة من المشغل بعد إعادة دفع التكلفة، حيث يمكنك أيضًا الاتصال برقم مزود الخدمة لتأكيد ما إذا كانت في حسابك.</string>
+    <string name="problem4_title">ماذا لو قمت بإعادة دفع التكلفة في حسابك خطأ؟</string>
+    <string name="problem4_content">عذرًا، بعد كتابة رقم خطأ، لا يتحمل مشغلي الهواتف (mobile، China Unicom، telecom) المسؤولية عن إعادة رد تكلفة الشحن. يمكنك الاختيار من بين الطرق العديدة التالية لمحاولة تعويض الخسارة: 1 الاتصال بالرقم الفعلي للماكينات، والأخرى ترغب في التعويض عن تدفق حركة البيانات، 2 الاتصال بخدمة عملاء المشغل، والاستشارة حول إمكانية رد التكلفة الخاصة بحركة البيانات، حيث يمكن أن تنجح تلك الطريقة.</string>
+    <string name="problem5_title">ما طول المدة التي يمكنك خلالها استرداد تكلفة الشحن إذا فشلت في إعادة شحن التكلفة؟</string>
+    <string name="problem5_content">عادة ما نقوم بتعويضك في حالة الفشل. لمدة 24 ساعة، يمكنك الانضمام إلى مجموعة QQ الرسمية (188473978) للحصول الملاحظات.</string>
+    <string name="problem6_title">6) كيف يمكنني مراجعة سجل طلبي وسجلات الشراء؟</string>
+    <string name="problem6_content">يمكنك مشاهدة سجل إعادة الشحن من خلال الصفحة العليا من إعادة شحن تكلفة البيانات.</string>
+    <string name="sell_alipay">الدفع بواسطة alipay</string>
+    <string name="sell_weixin_pay">الدفع بواسطة weixin</string>
+    <string name="payment_success_txt">نجح الطلب//تم تقدم الطلب بنجاح</string>
+    <string name="payment_failed_txt">فشل الطلب!</string>
+    <string name="payment_pre_txt">إعادة الشحن</string>
+    <string name="btn_try_again_txt">المحاولة مرة أخرى</string>
+    <string name="no_record_txt">لا توجد سجلات</string>
+    <string name="query_record_falil_txt">فشل الاستعلام</string>
+    <string name="data_load_txt">جاري التحميل ...</string>
+    <string name="net_error_text">الرجاء مراجعة اتصال البيانات الخاص بك</string>
+    <string name="exit_Contacts_text">غير موجود في دليل العناوين</string>
+    <string name="traffic_idle_txt">البيانات الساكنة</string>
+    <string name="traffic_idle_set_title">ضبط البيانات الساكنة</string>
+    <string name="traffic_correctting_txt">جاري المعايرة...</string>
+    <string name="correctting_wait_txt">الرجاء الانتظار...</string>
+    <string name="correctting_fail_txt">فشل التصحيح، أعد المحاولة مرة أخرى لاحقًا</string>
+    <string name="correctting_success_txt">تم تأكيد استهلاك البيانات، <xliff:g id="ID_1">%1$s</xliff:g>M متبقي</string>
+    <string name="query_traffic_txt">البحث عن استخدام البيانات...</string>
+    <string name="query_product_record_fail_txt">فشل في فحص سجلات المنتج</string>
+    <string name="no_install_weixin_txt">الرجاء التأكيد في حالة قيامك بتثبيت الحرف المصغر</string>
+    <string name="no_correct_service_txt">البدء، الرجاء المحاولة مرة أخرى لاحقًا...</string>
+    <string name="buy_number_hint_txt">الرجاء إدخال رقم هاتفك.</string>
+    <string name="no_query_code_txt">فشلت المعايرة، الرجاء ضبط تدفق الحزم يدويًا</string>
+    <string name="calibrate_setting_txt">ضبط المعايرة</string>
+    <string name="calibrate_setting_province">الإقليم</string>
+    <string name="calibrate_setting_brand">العلامة التجارية للمشغل</string>
+    <string name="calibrate_setting_province_choice">اختر إقليم</string>
+    <string name="calibrate_setting_brand_choice">اختر مزود الخدمة</string>
+    <string name="calibrate_send_msg_fail">فشل في إرسال SMS. الرجاء التحقق من إعدادات الشبكة.</string>
+    <string name="traffic_flaw_price_txt">
+        <xliff:g id="ID_1">%1$s</xliff:g> يوان</string>
+    <string name="traffic_original_price_txt">
+        <xliff:g id="ID_1">%1$s</xliff:g>
+    </string>
+    <string name="buy_record_baseinfo_txt">
+        <xliff:g id="ID_1">%1$s</xliff:g> إعادة الشحن<xliff:g id="ID_2">%2$s</xliff:g> / <xliff:g id="ID_3">%3$s</xliff:g>يوان</string>
+    <string name="noti_softap_setting_title">إشعار بيانات مشاركة نقطة الاتصال</string>
+    <string name="noti_softap_setting_text">قم بعرض الإشعار عند الوصول إلى بيانات <xliff:g id="ID_1">%s</xliff:g> في وقت واحد</string>
+    <string name="noti_softap_group_title">ضبط بيانات نقطة اتصال WLAN القابلة للحمل</string>
+    <string name="noti_softap_setting_cancel">إلغاء الأمر</string>
+    <string name="noti_softap_setting_commit">التزام</string>
+    <string name="noti_softap_warning_message">وصلت بيانات مشاركة نقطة الاتصال إلى <xliff:g id="ID_1">%s</xliff:g> ميجابايت، هل تريد إيقاف تشغيل نقطة الاتصال؟</string>
+    <string name="noti_softap_close_text">إيقاف التشغيل</string>
+    <string name="noti_softap_no_warning_text">بدون تذكير</string>
+    <string name="nogi_entry_buy_text">انقر لشراء حزم بيانات</string>
+    <string name="info_save_error_no_used_input">الرجاء إدخال استخدام البيانات</string>
+    <string name="payment_sended_txt">تم إرسال الطلبات، في انتظار قيام المشغل بإعادة الشحن...</string>
+    <string name="payment_explain_txt">البيانات التي قمت بإعادة شحنها عادةً ما تدخل في حسابك في خلال ساعة، ولكنها يمكن أيضًا تأخيرها بعض الوقت نظرًا لضعف الشبكة، ويمكنك إجراء اتصال، أو إرسال رسالة إلى مزود الخدمة للتأكد من توقيت دخولها إلى حسابك. \n يمكن أن تفشل أيضًا ويتم رد التكلفة إليك في حالة نفاد رصيدك، إما باستخدام حزم غير كاملة، أو قد يتم تسويتها بواسطة مزود الخدمة، وهكذا، حيث يمكن تأكيدها من خلال رسالة مزود الخدمة.</string>
+    <string name="payment_fail_reason_txt">فشلت، قد يكون ذلك بسبب مشكلات في الشبكة، أو بسبب انشغال نظام المشغل، أو لأسباب أخرى غير معروفة.</string>
+    <string name="weixin_freezed_txt">تم تعطيل WeChat، لا يمكن استخدامه</string>
+    <string name="dialog_btn_cancel">إلغاء الأمر</string>
+    <string name="dialog_btn_unlock">تحرير</string>
+    <string name="net_type_mobile">شبكة الهاتف المحمول</string>
+    <string name="net_type_wifi">شبكة Wlan</string>
+    <string name="dialog_not_alert_again">بدون تحذير</string>
+    <string name="dialog_network_control_content">
+        <xliff:g id="ID_1">%1$s</xliff:g> تم منعها من استخدام <xliff:g id="ID_1">%1$s</xliff:g>، هل تريد تمكينها مرة أخرى؟</string>
+    <string name="noti_softap_use_agiain_txt">استخدام <xliff:g id="ID_1">%1$d</xliff:g>M</string>
+    <string name="hotspot_restart">إعادة التشغيل</string>
+    <string name="hotspot_settingvalue_valid">عند مشاركة نقطة الاتصال <xliff:g id="ID_1">%1$d</xliff:g>M فإنها تذكرك مرة أخرى</string>
+    <string name="hotspot_settingvalue_invalid">لقد استخدمت <xliff:g id="ID_1">%1$1.2f</xliff:g> ميجابايت. الرجاء إعادة التشغيل.</string>
+    <string name="hotspot_userdefine_settingvalue_invalid">البيانات غير صالحة. الرجاء إعادة التشغيل.</string>
+    <string name="hotspot_auto_close_message">بلغ حد مشاركة بيانات نقطة الاتصال <xliff:g id="ID_1">%d</xliff:g> ميجابايت، قم بإيقاف تشغيل نقطة الاتصال لتجنب الاستهلاك المفرط</string>
+    <string name="traffic_pay_dialag_title">ادفع <xliff:g id="ID_1">%1$1.2f</xliff:g>يوان، حدد طريقة الدفع</string>
+    <string name="traffic_packge_title">
+        <xliff:g id="ID_1">%1$s</xliff:g>
+        <xliff:g id="ID_2">%2$1.2f</xliff:g>يوان <xliff:g id="ID_3">%3$s</xliff:g>حزمة</string>
+    <string name="traffic_pay_mobile">المحمول: <xliff:g id="ID_1">%1$s</xliff:g></string>
+    <string name="traffic_pay_time">وقت الدفع: <xliff:g id="ID_1">%1$s</xliff:g></string>
+    <string name="traffic_pay_type">طريقة الدفع: <xliff:g id="ID_1">%1$s</xliff:g></string>
+    <string name="traffic_pay_original_price">السعر الأصلي: <xliff:g id="ID_1">%1$1.2f</xliff:g> يوان</string>
+    <string name="traffic_pay_price">سعر الدفع: <xliff:g id="ID_1">%1$1.2f</xliff:g> يوان</string>
+    <string name="traffic_pay_orider_id">معرف الطلب: <xliff:g id="ID_1">%1$s</xliff:g></string>
+    <string name="traffic_buy_open_fail">شل بسبب ضعف الشبكة، أو أسباب أخرى، الرجاء المحاولة مرة أخرى لاحقًا</string>
+    <string name="traffic_buy_alipay">Alipay</string>
+    <string name="traffic_buy_weixin">Wechat</string>
+    <string name="product_description">متوفر في جميع أنحاء البلاد، تجنب هذا الشهر فقط</string>
+    <string name="weixin_disenabled_txt">تم تعطيل WeChat، لا يمكن استخدامه</string>
+    <string name="lockscreen_traffic_remind_close">بدون تذكير</string>
+    <string name="lockscreen_traffic_remid_title">التذكير بحركة البيانات لقفل الشاشة</string>
+    <string name="traffic_remind_group_title">تذكير البيانات</string>
+    <string name="lockscreen_traffic_remid_txt">وصل معدل استخدام البيانات إلى <xliff:g id="ID_1">%1$s</xliff:g></string>
+    <string name="lock_screen_traffic_title">وصل معدل استخدام البيانات إلى <xliff:g id="ID_1">%s</xliff:g></string>
+    <string name="historyorder_title">سجل الطلبات</string>
+    <string name="historyorder_detail_title">تفاصيل سجل الطلبات</string>
+    <string name="historyorder_empty_txt">سجل الطلبات فارغ</string>
+    <string name="historyorder_alipay">Alipay</string>
+    <string name="historyorder_wechat_pay">دفع wechat</string>
+    <string name="historyorder_paying">الدفع</string>
+    <string name="historyorder_payed_success">نجح الدفع</string>
+    <string name="historyorder_payed_fail">فشل الدفع</string>
+    <string name="historyorder_chargeback_success">نجح إعادة الشحن</string>
+    <string name="historyorder_payment_success">نجح الدفع</string>
+    <string name="historyorder_payment_fail">فشل الدفع</string>
+    <string name="historyorder_supporttel">دعم الهاتف</string>
+    <string name="historyorder_dial">الاتصال</string>
+    <string name="historyorder_status">حالة سجل الطلبات: <xliff:g id="ID_1">%1$s</xliff:g></string>
+    <string name="historyorder_query_failed">فشل الاستعلام</string>
+    <string name="historyorder_retry">إعادة المحاولة</string>
+    <string name="noti_surplus_message">هذ الشهر مجانًا <xliff:g id="ID_1">%1$s</xliff:g></string>
+    <string name="noti_exceed_message">تجاهل هذا الشهر <xliff:g id="ID_1">%1$s</xliff:g></string>
+    <string name="unknow_app">تطبيق غير معروف</string>
+</resources>

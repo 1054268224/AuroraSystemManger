@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!-- 手机加速界面 -->
+  <string-array name="ui_phone_accelerate">
+    <item>প্রসেস ক্লিন</item>
+    <item>অটোস্টার্ট ম্যানেজ</item>
+  </string-array>
+  <string-array name="process_clean_group_title">
+    <item>এখন চলমান</item>
+    <item>হোয়াইট লিস্ট</item>
+  </string-array>
+  <string-array name="boot_opt_group_title">
+    <item>অপটিমাইজ করা যাবে</item>
+    <item>অপটিমাইজ করা হয়েছে</item>
+  </string-array>
+</resources>

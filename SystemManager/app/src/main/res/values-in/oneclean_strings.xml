@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+/* //device/apps/common/assets/res/any/colors.xml
+**
+** Copyright 2006, The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+-->
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">  
+    <string name="phone_accelerate">Membersihkan Memori</string>
+    <string name="text_one_accelerate">Satu tombol percepatan</string>
+    <string name="searching">Mencari data...</string>
+    <string name="summary_process_clean">" Proses dapat ditutup"</string>
+    <string name="summary_process_clean_no">Tidak ada proses yang dapat ditutup</string>
+    <string name="summary_cache_clean">" caches dapat ditutup"</string>
+    <string name="summary_cache_clean_no">Tidak ada ruang untuk dilepas</string>
+    <string name="summary_boot_optimization">" Memulai item secara otomatis dapat dibatasi"</string>
+    <string name="summary_boot_optimization_no">Jangan memulai item secara otomati dapat dibatasi</string>
+    <string name="text_clean_result">"Telah membebaskan ruangan sebesar <xliff:g >%1$s</xliff:g>"</string>
+    <string name="text_clean_result_no">Ponsel dalam kondisi baik, tidak dibutuhkan percepatan</string>
+    <string name="text_main_ui_notice">Goyang untuk membersihkan ponsel, Jaga ponsel dalam kondisi baik</string>
+    <string name="text_shake">Hanya dengan mengoyangkan untuk mempercepat ponsel</string>
+    <string name="text_clean_load">Membersihkan proses dan cache, pemaksimalan, Memulai item...</string>
+    <string name="notice_process_running">"Proses yang sedang berjalan <xliff:g >%1$s</xliff:g>, <xliff:g >%2$s</xliff:g> bebas"</string>
+    <string name="notice_process_whitelist">Aplikasi dicek tidak akan berakhir ketika satu tombol percepatan</string>
+    <string name="text_result_clean_process">"Telah ditutup <xliff:g >%1$s</xliff:g> proses"</string>
+    <string name="title_activiy_process_clean">Proses membersihkan</string>
+    <string name="no_select">Tidak ada proses dipilih, silahkan pilih</string>
+    <string name="one_clean">Satu tombol bersih</string>
+    <string name="text_loader_process">Proses membersihkan...</string>
+    <string name="title_activity_process_protected">Melindungi proses</string>
+    <string name="text_empty_process">Tidak ada proses yang berjalan sana ini</string>
+    <string name="summary_item_process">"RAM： <xliff:g >%1$s</xliff:g>"</string>
+    <string name="title_activiy_cache_clean">Membersihkan cache</string>
+    <string name="text_no_select">Silahkan pilih aplikasi untuk dibersihkan</string>
+    <string name="text_loader_cache">"Membersihkan cache…"</string>
+    <string name="text_header_cache_clean">"Caches <xliff:g >%1$s</xliff:g> numbers, used <xliff:g >%2$s</xliff:g> space"</string>
+    <string name="text1_cache_clean_no">"Total <xliff:g >%1$s</xliff:g> numbers of auto start application"</string>
+    <string name="text2_cache_clean_no">Membersihkan file sampah secara reguler, Jaga ponsel bersih dan rapi</string>
+    <string name="title_activiy_boot_opt">Pengoptimal boot</string>
+    <string name="text_loader_boot">Optimalisasi item sedang berjalan...</string>
+    <string name="text_result_bootopt">Memiliki Item untuk dioptimalkan</string>
+    <string name="text_no_opt">Tidak ada item dimulai untuk dioptimalkan</string>
+    <string name="one_key_opti">Satu tombol optimal</string>
+    <string name="one_key_allow">Satu tombol mengijinkan</string>
+    <string name="title_activity_add_auto_start">Menambah aplikasi otomatis dimulai</string>
+    <string name="text_empty_auto_start">Tidak ada aplikasi otomatis dimulai</string>
+    <string name="text_empty_auto_start_forbid">Tidak ada Aplikasi yang melarang dimulai otomatis</string>
+    <string name="text_header_auto_start">"Total <xliff:g >%1$s</xliff:g> numbers of auto start application"</string>
+    <string name="text_header_auto_start_forbid">"Larang pemulaan otomatis （ <xliff:g >%1$s</xliff:g>）"</string>
+    <string name="one_key_opt">OneClean</string>
+    <string name="limited">Melarang</string>
+    <string name="allow">Izinkan</string>
+    <string name="has_allow">Telah diijinkan</string>
+    <string name="protected_process">Proses dilindungi</string>
+    <string name="important_process">Proses penting</string>
+    <string name="title_memory_settings">Pengaturan membersihkan memori</string>
+    <string name="title_activiy_green_bg">Mode eco</string>
+    <string name="memory_settings_main_title">Proses membersihkan</string>
+    <string name="close_screen_clean_title">Membersihkan layar</string>
+    <string name="close_screen_clean_summary">Otomatis membersihkan layar daftar putih setelah menjalankan background dan proses</string>
+    <string name="low_memory_clean_title">Membersihkan memori rendah</string>
+    <string name="low_memory_clean_summary">Membersihkan background secara otomatis memori daftar putih</string>
+    <string name="run_game_memory_clean_title">Mulai permainan membersihkan memory</string>
+    <string name="run_game_memory_clean_summary">Membersihkan memori ketika mulai bermain</string>
+    <string name="result_display_title">Hasil membersihkan</string>
+    <string name="result_display_summary">Setelah menyelesaikan likuidasi otomatis ke background, Hasil prompting</string>
+    <string name="white_list_main_title">Daftar putih</string>
+    <string name="process_white_list_title">Daftar putih</string>
+    <string name="process_white_list_summary">Daftar aplikasi dilindungi, tidak akan dibersihkan</string>
+    <string name="green_bg_summary">Menjalankan aplikasi pada background tidak diperbolehkan, kurangi kehilangan energi</string>
+    <string name="radiobutton_allow">Mengijinkan otomatis booting</string>
+    <string name="radiobutton_prohibit">Melarang boot</string>
+    <string name="one_key_prohibit">Satu tombol dilarang</string>
+    <string name="text_empty_allow_start">Tidak ada aplikasi tidak diijinkan untuk memulai secara otomatis</string>
+    <string name="text_empty_prohibit_start">Tidak ada aplikasi dilarang untuk memulai secara otomatis</string>
+    <string name="text_empty_white_app">Tidak aplikasi ditambahkan</string>
+    <string name="white_list_add">Menambahkan ke daftar putih</string>
+    <string name="white_list_cancel">Menghapus dari daftar putih</string>
+    <string name="text_empty_white_list">Tidak aplikasi ditambahkan ke daftar dilindungi</string>
+    <string name="text_add_white_list">Menambahkan ke daftar putih</string>
+    <string name="remove">Hapus</string>
+    <string name="add">Tambahkan</string>
+    <string name="ok_btn">Oke</string>
+    <string name="cancel_btn">Membatalkan</string>
+    <string name="system_process">Sistem proses</string>
+    <string name="user_process">Pengguna proses</string>
+    <string name="whitelist_remind_text">Aplikasi berikut dilindungi</string>
+    <string name="add_whitelist_remind_text">Aplikasi terpilih dilindungi</string>
+    <string name="oneclean_action">Memori</string>
+    <string name="oneclean_action_running">Membersihkan</string>
+    <string name="percent_symbol">%</string>
+    <string name="surplus_text">"Surplus "</string>
+    <string name="oneclean_process_running_txt"><xliff:g >%1$s</xliff:g>aplikasi yang sedang berjalan dapat dibersihkan</string>
+    <string name="oneclean_no_process_running_txt">Telah dipercepat ke kondisi terbaik \n Tidak perlu dibersihkan kembali</string>
+    <string name="auto_start_power">Auto</string>
+    <string name="auto_start_back">Auto</string>
+    <string name="auto_start_both">Auto</string>
+    <string name="auto_clean_result">"Proses latar belakang dihentikan, <xliff:g >%1$s</xliff:g>M memori dibebaskan"</string>
+    <string name="auto_clean_finish">Otomatis membersihkan selesai</string>
+    <string name="low_mem_clean_finish">Membersihkan memori rendah selesai</string>
+    <string name="clean_setings_summary">Pergi ke pengaturan membersihkan memori</string>
+    <string name="caches_clean_result_text">"Ruang kosong <xliff:g >%1$s</xliff:g>"</string>
+    <string name="caches_clean_complete">"Membersihkan sampah"</string>
+    <string name="process_clean_result_note">Ada aplikasi butuh dibersihkan? Segera menambahkan ke daftar putih.</string>
+    <string name="process_clean_result">Memori yang dibebaskan <xliff:g >%1$s</xliff:g></string>
+    <string name="process_clean_complete">Mempercepat selesai</string>
+    <string name="action_complete">Selesai</string>
+    <string name="system_app_action">Peringatan</string>
+    <string name="system_app_dialog_title">"Larang <xliff:g >%1$s</xliff:g> memulai secara otomatis"</string>
+    <string name="system_app_dialog_message">"<xliff:g >%1$s</xliff:g> adalah aplikasi sistem. Jika dilarang akan mengakibatkan crash, apakah Anda akan melanjutkan?</string>
+    <string name="clean_memory_title">Pembersihan memori otomatis</string>
+    <string name="screenoff_clean_setting_summary">Apl pembersihan cerdas di latar belakang, mengurangi konsumsi daya</string>
+    <string name="screenoff_clean_setting_title">Pembersihan otomatis di balik layar</string>
+    <string name="screenoff_clean_toast_setting_summary">Prompt setelah kunci ponsel dibuka</string>
+    <string name="screenoff_clean_toast_setting_title">Pengingat hasil pembersihal</string>
+    <string name="screenoff_clean_toast_msg">System Manager membebaskan <xliff:g id="ID_1">%s</xliff:g>M memori saat tidur.</string>
+    <string name="cpu_monitor_setting_title">Pengingat memori / CPU</string>
+    <string name="cpu_monitor_setting_summary">Beri tahu saya saat penggunaan memori atau CPU tinggi</string>
+    <string name="cpu_monitor_headup_title">Penggunaan memori / CPU tinggi</string>
+    <string name="cpu_monitor_headup_summary">Dapat mengakibatkan ponsel berjalan dengan lambat</string>
+    <string name="cpu_monitor_headup_to_clean">percepat</string>
+    <string name="running_apps_title">Program yang sedang berjalan</string>
+    <string name="running_apps_header"><xliff:g id="ID_1">%s</xliff:g> aplikasi yang sedang berjalan dapat dibersihkan.</string>
+    <string name="running_apps_finish">Running apps finish <xliff:g id="ID_1">%s</xliff:g> memory</string>
+    <string name="running_apps_result_title">Judul hasil apl yang sedang berjalan</string>
+    <string name="running_apps_result_tip">Tip hasil apl yang sedang berjalan</string>
+</resources>

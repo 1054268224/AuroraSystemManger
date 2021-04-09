@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+/* //device/apps/common/assets/res/any/colors.xml
+**
+** Copyright 2006, The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+-->
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">  
+    <string-array name="traffica_save_setting_list_item"> 
+        <item>وتيرة القائمة البيضاء</item>  
+        <item>مساعدة</item> 
+    </string-array>  
+    <string-array name="traffica_save_list_item"> 
+        <item>حفظ اليوم</item>  
+        <item>حفظ هذا الشهر</item>  
+        <item>حفظ التاريخ</item> 
+    </string-array>  
+
+    <string-array name="notification_softap_setting_array">
+        <item>@string/noti_softap_no_warning_text</item>
+        <item>﻿10 ميغابايت</item>
+        <item>50 ميغابايت</item>
+        <item>100 ميغابايت</item>
+        <item>@string/noti_softap_setting_userDefine</item>
+    </string-array>
+
+</resources>

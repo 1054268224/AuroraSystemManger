@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">  
+    <string name="text">שלח טקסט</string>
+    <string name="trafficassistant_app_name">מנטר התעבורה</string>
+    <string name="tabbar_name1">חריץ SIM 1</string>
+    <string name="tabbar_name2">חריץ SIM 2</string>
+    <string name="remained_flow_string">עודף</string>
+    <string name="exceed_flow_string">חריגה</string>
+    <string name="used">בשימוש</string>
+    <string name="used_flow_string"><xliff:g id="ID_1">%s</xliff:g>M בשימוש</string>
+    <string name="total_flow_string">סך הכול <xliff:g id="ID_1">%s</xliff:g>M</string>
+    <string name="prompt_no_settings_traffic">לא הוגדר</string>
+    <string name="no_settings">לא הוגדר</string>
+    <string name="prompt_used_traffic">\n<xliff:g id="ID_1">%s</xliff:g>M בשימוש</string>
+    <string name="month">חודש</string>
+    <string name="day">יום</string>
+    <string name="noti_today">תעבורת נתונים היום</string>
+    <string name="noti_surplus">פנוי</string>
+    <string name="noti_exceed">חריגה</string>
+    <string name="noti_total">סך הכול</string>
+    <string name="noti_no_settings">תוכנית הנתונים אינה מוגדרת</string>
+    <string name="noti_no_card">ה-SIM אינו מחובר.</string>
+    <string name="start_date_string">חודשי</string>
+    <string name="limit_flow">הגדר תוכנית נתונים</string>
+    <string name="detail_flow">טבלאות תעבורת נתונים</string>
+    <string name="network_control">בקרת רשת</string>
+    <string name="more_settings">עוד בקרות להגדרות</string>
+    <string name="traffic_save">חיסכון בתעבורה</string>
+    <string name="no_card_warning">הכנס SIM</string>
+    <string name="action_known">בוצע</string>
+    <string name="action_settings">להגדרה</string>
+    <string name="action_cancel">בטל</string>
+    <string name="action_done">בוצע</string>
+    <string name="action_save">שמור</string>
+    <string name="action_sure">אישור</string>
+    <string name="action_allow">הרשה</string>
+    <string name="action_prohibit">אסור</string>
+    <string name="action_all_allow">אפשר הכול</string>
+    <string name="action_all_prohibit">השבת הכול</string>
+    <string name="application_info">מידע על היישום</string>
+    <string name="data_connect_allow">בקרת חיבורים</string>
+    <string name="total_flow_settings">מגבלות תעבורה חודשיות</string>
+    <string name="input_hint">הזן</string>
+    <string name="warning_settings">ערך אזהרה</string>
+    <string name="date_start_settings">תאריך התחלת תעבורת נתונים</string>
+    <string name="used_flow_settings">שימוש בתעבורת נתונים</string>
+    <string name="flow_unit">M</string>
+    <string name="percent_unit">%</string>
+    <string name="mobile_data_stop_title">התראת תנועה</string>
+    <string name="mobile_data_stop_contetn">התעבורה החודשית שלך הסתיימה. המשך שימוש בחיבור הנתונים יחויב, האם ברצונך להשתמש？</string>
+    <string name="action_restart">המשך להשתמש</string>
+    <string name="action_stop">אל תשתמש</string>
+    <string name="info_save_error_no_flow_input">הזן מגבלת תעבורה חודשית</string>
+    <string name="info_prompt">תוכל להתאים באופן ידני את ערך תעבורת הנתונים.</string>
+    <string name="popup_notification_title">תוכנית הנתונים לא הוגדרה</string>
+    <string name="popup_notification_ticker_title">תעבורת הנתונים הנוכחית אינה מגדירה את הגנת החבילה</string>
+    <string name="popup_notification_content">לחץ כדי להגדיר，ניטור שימוש בתעבורה בזמן אמת</string>
+    <string name="popup_setting_title_dialog">הגדר תוכנית נתונים</string>
+    <string name="popup_setting_content_dialog">הגדר את תוכנית הנתונים, והענק אבטחה לנעילת הטלפון.</string>
+    <string name="notification_warn_exceed_warning_title">אזהרה אדומה לתוכנית נתונים</string>
+    <string name="notification_warn_exceed_warning_content">תעבורת הנתונים הגיעה לערך האזהרה, גע להצגת השימוש</string>
+    <string name="percent_value">80</string>
+    <string name="warning_value">0.0</string>
+    <string name="zero_percent">80%</string>
+    <string name="total_percent">100%</string>
+    <string name="process_kernel_labels">Android OS</string>
+    <string name="data_usage_uninstalled_apps_users">יישומים ומשתמשים שהוסרו</string>
+    <string name="data_usage_uninstalled_apps">יישומים שהוסרו</string>
+    <string name="tether_settings_title_all">הגדרות שיתוף אינטרנט</string>
+    <string name="tether_settings_title_wifi">נקודה חמה ניידת</string>
+    <string name="tether_settings_title_usb_bluetooth">קשירה</string>
+    <string name="tether_settings_title_usb">קשירת USB</string>
+    <string name="tether_settings_title_bluetooth">קשירת Bluetooth</string>
+    <string name="running_process_item_user_label">משתמש：%1$s</string>
+    <string name="data_usage_app_restricted">מוגבל</string>
+    <string name="usage_detail">פרטי תעבורה</string>
+    <string name="version_name">גרסה：</string>
+    <string name="traffic_time_day">"תעבורה היום (<xliff:g id="ID_1">%s</xliff:g>)"</string>
+    <string name="traffic_time_week">תעבורת נתונים השבוע (<xliff:g id="ID_1">%s</xliff:g>)</string>
+    <string name="traffic_time_month">תעבורת הנתונים החודשית (<xliff:g id="ID_2">%s</xliff:g>)</string>
+    <string name="traffic_day">"תעבורה היום"</string>
+    <string name="traffic_week">תעבורת נתונים שבועית</string>
+    <string name="traffic_month">תעבורת נתונים חודשית</string>
+    <string name="traffic_day_no">"תעבורת הנתונים היומית שאינה בשימוש"</string>
+    <string name="traffic_week_no">"התעבורה שאינה בשימוש של השבוע"</string>
+    <string name="traffic_month_no">התעבורה שאינה בשימוש החודש</string>
+    <string name="network_selection">תעבורת נתונים בחודש זה</string>
+    <string name="no_value">ללא</string>
+    <string name="text_loading">טוען...</string>
+    <string name="text_noti">מעבד...</string>
+    <string name="traffic_monitor_display"><xliff:g id="ID_1">%s</xliff:g> להלן השימוש בתעבורת נתונים 2G/3G/4G：</string>
+    <string name="traffic_monitor_title">צריכת התעבורה המרבית השבוע</string>
+    <string name="traffic_monitor_message"><xliff:g id="ID_1">%s</xliff:g></string>
+    <string name="traffic_settings_main_title">הצג את מרכז העדכונים</string>
+    <string name="traffic_network_speed_title">הצג מהירות רשת</string>
+    <string name="traffic_network_speed_summary">מהירות הרשת תוצג בשורת המצב כשהלחצן מופעל</string>
+    <string name="traffic_notification_title">הצג מידע על תעבורה בחודש הנוכחי</string>
+    <string name="traffic_notification_summary">פתח למטה את שורת ההודעות בהצגת המידע על תעבורה</string>
+    <string name="traffic_netcontrol_bar_allow_text">אפשר רישות (<xliff:g id="ID_1">%1$s</xliff:g>)</string>
+    <string name="traffic_netcontrol_bar_prohibit_text">אסר אינטרנט (<xliff:g id="ID_1">%1$s</xliff:g>)</string>
+    <string name="net_link_allowed_txt">אף יישום לא אפשר אינטרנט</string>
+    <string name="net_link_prohibited_txt">אף יישום לא חסם אינטרנט</string>
+    <string name="traffic_save_setting">הגדרות חיסכון בתעבורה</string>
+    <string name="switch_off">כבה</string>
+    <string name="switch_on">הפעל</string>
+    <string name="traffic_save_off">חסכונות בתעבורה שלא נפתחו</string>
+    <string name="traffic_save_off_summary">פונקציה זו תקפה רק ברשת נתונים</string>
+    <string name="traffic_save_total_title">צברת חסכונות</string>
+    <string name="traffic_save_total_num_string">328</string>
+    <string name="total_volume_string">MB</string>
+    <string name="money_save_total_title">אודות Renminbi</string>
+    <string name="money_save_total_num_string">32.8</string>
+    <string name="total_money">יואן</string>
+    <string name="traffic_save_support_txt">מופעל על ידי OPERA</string>
+    <string name="traffic_save_history">הצג היסטוריית חיסכון בתעבורה</string>
+    <string name="traffic_save_history_total">חיסכון מצטבר בתעבורת נתונים</string>
+    <string name="traffic_question1">1、כיצד לחסוך בתעבורת נתונים?</string>
+    <string name="traffic_question2">"2、מדוע להשתמש בתעבורה לאחר החיסכון, האם אינך רואה חיסכון?"</string>
+    <string name="traffic_question3">3、האם פונקציית תעבורת הנתונים עצמה חוסכת בתעבורת נתונים？</string>
+    <string name="traffic_question4">4、האם להשתמש בתעבורה לאחר שתשמור את אבטחת פרטיות האינטרנט שלי?</string>
+    <string name="traffican_answer1">כשתכונת החיסכון בתעבורת הנתונים מופעלת, היא תשמש לשינוי גודל הטקסט, התמונות ושאר תעבורת הנתונים וכך תפחית את תעבורת הנתונים של יישומים כגון QQ, weixin או Taobao. התוצאות משתפרות עם הזמן.</string>
+    <string name="traffican_answer2">תכונת החיסכון בתעבורת הנתונים מופעלת רק ברשת נתונים, ואינה נתמכת ברשתות WLAN. תכונת החיסכון בתעבורת הנתונים משפיעה רק על טקסט ותמונות, ואינה משפיע על אודיו, על וידיאו ועל הורדות קבצים.</string>
+    <string name="traffican_answer3">תכונת החיסכון בתעבורת נתונים אינה צורכת נתונים כשלעצמה. לאחר שתפעיל תכונה זו, כל תעבורת האינטרנט 2/3/4G תשתמש במנהל המערכת לאגירה ולדחיסה, ותוכנת אבטחה תנטר את השימוש הפרטני של המשתמש במערכת. לא נצרוך תעבורה חשובה שלך, אל תהסס להשתמש.</string>
+    <string name="traffican_answer4">תכונה זו אינה מטפלת באף מידע פרטי שלך, אל תהסס להשתמש</string>
+    <string name="traffican_question_answer">בעיות נפוצות</string>
+    <string name="traffican_whitelist_title">רשימת היישומים אינה צריכה לחסוך תעבורה</string>
+    <string name="text_no_traffic_whitelist">אין צורך לחסוך תעבורה</string>
+    <string name="traffic_simcard_focus1">SIM 1</string>
+    <string name="traffic_simcard_focus2">SIM 2</string>
+    <string name="traffic_netcontrol_tab_bar_allow_text">רשת אלחוטית</string>
+    <string name="traffic_netcontrol_tab_bar_prohibit_text">חיבור נתונים</string>
+    <string name="traffic_title_text"><xliff:g id="ID_1">%1$s</xliff:g>יישומים</string>
+    <string name="time_format">yyyy-MM</string>
+    <string name="traffic_back_toast_text">יישום פעולת בקרת רשת מתבצע, נא המתן</string>
+    <string name="traffic_save_wait_text">הנתונים מתעדכנים, אנא המתן …</string>
+    <string name="traffic_btn_calibration_text">לְדַרֵג</string>
+    <string name="traffic_limit_settings_title">הגדרת תנועת הגבל</string>
+    <string name="traffic_origan">תנועה משותפת</string>
+    <string name="traffic_idle_show_title">להראות תנועת סרק</string>
+    <string name="traffic_idle_available">תנועת סרק זמינה</string>
+    <string name="traffic_idle_used">תנועה משומשת סרק</string>
+    <string name="traffic_buy_title">לקנות תנועה</string>
+    <string name="buy_step1_title">מספר קלט 1</string>
+    <string name="buy_step2_title">ערך נקוב בחר2</string>
+    <string name="buy_step3_title">3 לשלם ולקנות</string>
+    <string name="buy_step_title">1 הקלד מספר &gt; 2 בחר ערך נקוב &gt; 3 לשלם ולקנות</string>
+    <string name="temp_carrieroperator_title">beijing chnio</string>
+    <string name="order_info_title">מידע כדי</string>
+    <string name="traffic_packge_text">חבילות תנועה<xliff:g id="ID_1">%1$s</xliff:g></string>
+    <string name="traffic_packge_default_money">2 יואן</string>
+    <string name="traffic_packge_default_instruction">כללי לאומי, לפירעון מיידי</string>
+    <string name="mobile_info_numble"><xliff:g id="ID_1">%1$s</xliff:g>מספר תשלום</string>
+    <string name="pay_order_title">תשלום והסדר</string>
+    <string name="pay_order_Immediately_title">תשלום מייד</string>
+    <string name="show_problem_title">בעיה נפוצה</string>
+    <string name="buy_record_title">לקנות שיא</string>
+    <string name="problem1_title">1 זרימת טעינה יכולה לנדוד?</string>
+    <string name="problem1_content">נא לשים לב את ההנחיות בדף, כגון התצוגה של המדינה ניתן להשתמש בהם כדי להביע את הנדידה הלאומי.</string>
+    <string name="problem2_title">2 להטעין את זרימת התחולה היא כמה זמן?</string>
+    <string name="problem2_content">זרימת מילוי תהיה בתוקף למשך החודש, סוף הכישלון, אנא בדוק את המידע במבצע של.</string>
+    <string name="problem3_title">3 כיצד לבדוק אם נכון הדבר, לאחר הגעת?</string>
+    <string name="problem3_content">לאחר התשלום, השתמש בשורת מידע של מפעיל \, אתה יכול גם להתקשר למפעיל ולאשר את החשבון.</string>
+    <string name="problem4_title">4 זרימה תשלום מספר הלא נכון?</string>
+    <string name="problem4_content">"אני מצטער, אחרי המספר השגוי, מפעילים (נייד, China Unicom, טלקום) הוא שלא על מנת לקבל החזר כספי. אתה יכול לבחור את מספר הדרכים הבאות כדי לנסות לפצות על האובדן: 1 קשר עם המספר האמיתי של מכונות, והשני הוא מוכן לפצות על זרימת התנועה; קשר 2 המפעיל \ \'s שירות לקוחות, ייעוץ הוא מסוגל להחזיר את התנועה כבר בטעינה מוצלחת."</string>
+    <string name="problem5_title">5 לאחר הכישלון, כמה זמן?</string>
+    <string name="problem5_content">בדרך כלל, אנו נחזיר לכם לכישלון. במשך 24 שעות, אתה יכול להצטרף לקבוצת QQ הרשמית (188,473,978) על משוב.</string>
+    <string name="problem6_title">6 איך אוכל לבדוק הזמנות ההיסטוריה שלי ורשומות למסחר?</string>
+    <string name="problem6_content">יכול להיות דרך הזרימה העליונה של הדף רשום מילוי להראות.</string>
+    <string name="mobile_invalid_text">הנייד אינו חוקי</string>
+    <string name="sell_alipay">לשלם באמצעות Alipay</string>
+    <string name="sell_weixin_pay">לשלם באמצעות weixin</string>
+    <string name="payment_success_txt">להורות הצלחה!</string>
+    <string name="payment_failed_txt">כדי נכשל!</string>
+    <string name="payment_pre_txt">טעה</string>
+    <string name="btn_try_again_txt">נסה שוב</string>
+    <string name="no_record_txt">שום תיעוד</string>
+    <string name="query_record_falil_txt">שאילתא להיכשל!</string>
+    <string name="data_load_txt">טוען …</string>
+    <string name="net_error_text">שגיאה נטו, בבקשה לבדוק את זה</string>
+    <string name="exit_Contacts_text">לא להתייחס ספר</string>
+    <string name="traffic_origan_txt">תנועת אורגון</string>
+    <string name="traffic_idle_txt">תנועת סרק</string>
+    <string name="traffic_idle_set_title">הגדרת זרימה חופשית</string>
+    <string name="traffic_correctting_txt">כיול</string>
+    <string name="correctting_wait_txt">מחכה בבקשה …</string>
+    <string name="correctting_fail_txt">התיקון נכשל, נסה שוב מאוחר יותר</string>
+    <string name="correctting_success_txt">M<xliff:g id="ID_1">%1$s</xliff:g>תזרים כבר מכויל, הנותר</string>
+    <string name="query_traffic_txt">האם מחפש את שימוש התנועה שלך …</string>
+    <string name="query_product_fail_txt">אין חבילות מנויות זמינות</string>
+    <string name="query_product_record_fail_txt">שיא מוצר שאילתא להיכשל</string>
+    <string name="no_install_weixin_txt">נא לאשר אם התקנת את המכתב מיקרו</string>
+    <string name="no_correct_service_txt">במהלך אתחול, נסה שוב מאוחר יותר …</string>
+    <string name="buy_number_hint_txt">הזן את מספר הטלפון שלך.</string>
+    <string name="no_query_code_txt">כיול נכשל, נא לקבוע את זרימת החבילות באופן ידני</string>
+    <string name="buy_omitted_displayname"><xliff:g id="ID_1">%1$s</xliff:g> ...</string>
+    <string name="sell_baseinfo_symbol">/</string>
+    <string name="calibrate_setting_txt">הגדרת כיול</string>
+    <string name="calibrate_setting_province">מחוז</string>
+    <string name="calibrate_setting_brand">מותג מפעיל</string>
+    <string name="calibrate_setting_province_choice">בחירת מחוז</string>
+    <string name="calibrate_setting_brand_choice">בחירה מפעילה מותג</string>
+    <string name="calibrate_send_msg_fail">השליחה נכשל, אנא בדוק את הגדרת מותג הפעלה.SMS</string>
+    <string name="traffic_flaw_price_txt"><xliff:g id="ID_1">%1$s</xliff:g> YUAN</string>
+    <string name="buy_record_baseinfo_txt"><xliff:g id="ID_1">%1$s</xliff:g> טעינה <xliff:g id="ID_2">%2$s</xliff:g> /<xliff:g id="ID_3 ">%3$s</xliff:g> YUAN</string>
+    <string name="buy_record_paytype_txt"><xliff:g id="ID_1">%1$s</xliff:g><xliff:g id="ID_2">%2$s</xliff:g></string>
+    <string name="noti_softap_setting_title">"הודעה לשתף נתונים בנקודה חמה"</string>
+    <string name="noti_softap_setting_text">הנתונים הגיעו בזמן יחיד<xliff:g id="ID_1">%s</xliff:g>הצג התראה כאשר</string>
+    <string name="noti_softap_group_title">"הגדרת נתונים חמים WiFi הנייד"</string>
+    <string name="noti_softap_setting_cancel">לְבַטֵל</string>
+    <string name="noti_softap_setting_userDefine">המותאם אישית</string>
+    <string name="noti_softap_setting_commit">בטל</string>
+    <string name="noti_softap_setting_units">M</string>
+    <string name="noti_softap_warning_title">הודעת נתונים</string>
+    <string name="noti_softap_warning_message">"המערכת זיהתה כי שותפו כבר יותר מ <xliff:g id="ID_1">%s</xliff:g> האם ברצונך לכבות את שיתוף ה Wi-Fi ?"</string>
+    <string name="noti_softap_close_text">כבה</string>
+    <string name="noti_softap_no_warning_text">אין תזכורת</string>
+    <string name="error_phone_number_text">מספר טלפון לא תקין</string>
+    <string name="nogi_entry_buy_text">, לחץ כדי לקנות חבילת תנועה</string>
+    <string name="info_save_error_no_used_input">נא הזן תנועה משומשת</string>
+    <string name="payment_sended_txt">הזמנות נשלחו, מחכים לטעינת המפעיל ...</string>
+    <string name="payment_explain_txt">בדרך כלל קנה זרימה תוך שעה אחת לחשבון, אלא גם בגלל הרשת ובגלל סיבות אחרות שנגרמו על ידי זמן עיכוב, אתה יכול לחייג לשירות לקוחות של מפעילי הטלפון או למפעילים, ולשלוח הודעות טקסט עם שאילתה לחשבון הסופי. \ N פיגורים, חבילה mutex, מפעילי קצה או הסדר ועוד סיבות עלולים להוביל לכישלון של החזר, בסופו של דבר עדיפות למידע המפעיל.</string>
+    <string name="payment_fail_reason_txt">יכול להיות בגלל בעיות רשת או מערכת המפעיל שהן תפוסות וכן גורמים לא ידועים אחרים הגורמים כישלון.</string>
+    <string name="weixin_freezed_txt">WeChat הוקפא, לא ניתן להשתמש</string>
+    <string name="dialog_btn_cancel">בטל</string>
+    <string name="dialog_btn_unlock">שחרר</string>
+    <string name="dialog_network_control_title">התראה של SystemManger</string>
+    <string name="net_type_mobile">רשת סלולרית</string>
+    <string name="net_type_wifi">רשת Wlan</string>
+    <string name="dialog_not_alert_again">אין אזהרה</string>
+    <string name="dialog_network_control_content"><xliff:g id="ID_1">%1$s</xliff:g> נאסר להשתמש ב- <xliff:g id="ID_1">%1$s</xliff:g>, בין אם כן או לא לשחרר את זה ההשבתה</string>
+    <string name="noti_softap_use_agiain_txt">השתמש ב <xliff:g id = "ID_1">%1$d</xliff:g> M</string>
+    <string name="dialog_know">הבנתי</string>
+    <string name="hotspot_restart">איתחול</string>
+    <string name="hotspot_settingvalue_valid">כאשר נקודה חמה בשיתוף <xliff:g id="ID_1">%1$d</xliff:g> M, היא תזכיר לך שוב</string>
+    <string name="hotspot_settingvalue_invalid">משמש <xliff:g id="ID_1">%1$1.2f </xliff:g> M הפעל מחדש</string>
+    <string name="hotspot_userdefine_settingvalue_invalid">נתונים לא חוקיים, הפעל מחדש בבקשה</string>
+    <string name="hotspot_auto_close_message">נתוני שיתוף נקודה חמה הגיעו ל- <xliff:g id="ID_1">%d </xliff:g> M, כבה את הנקודה החמה כדי להימנע מצריכה מוגזמת</string>
+    <string name="weixin_disenabled_txt">WeChat כבר מושבת, לא ניתן להשתמש</string>
+    <string name="lockscreen_traffic_remind_close">אין תזכורת</string>
+    <string name="lockscreen_traffic_limit_one">100K</string>
+    <string name="lockscreen_traffic_limit_two">1M</string>
+    <string name="lockscreen_traffic_limit_three">5M</string>
+    <string name="lockscreen_traffic_remid_title">נתוני נעילת מסך תזכורת תנועה</string>
+    <string name="traffic_remind_group_title">תזכורות תנועה</string>
+    <string name="lockscreen_traffic_remid_txt">תנועת הנתונים מגיעה ל <xliff:g id = "ID_1">%1$s</xliff:g> כאשר המסך נעול</string>
+    <string name="lock_screen_traffic_title">תנועת הנתונים מגיעה ל <xliff:g id = "ID_1">%s</xliff:g> כאשר המסך נעול</string>
+    <string name="lock_screen_traffic_content">גע כדי לבדוק פרטים</string>
+    <string name="lock_screen_traffic_unknow_app">יישום לא ידוע</string>
+</resources>

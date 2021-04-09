@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="text">Текст</string>
+    <string name="trafficassistant_app_name">Наблюдение трафика</string>
+    <string name="tabbar_name1">Слот SIM 1</string>
+    <string name="tabbar_name2">Слот SIM 2</string>
+    <string name="remained_flow_string">Остаток</string>
+    <string name="exceed_flow_string">Переступить</string>
+    <string name="used">Занято</string>
+    <string name="used_flow_string">Расход <xliff:g id="ID_1">%s</xliff:g>M</string>
+    <string name="total_flow_string">Всего <xliff:g id="ID_1">%s</xliff:g>M</string>
+    <string name="prompt_no_settings_traffic">Не задано</string>
+    <string name="no_settings">Не задано</string>
+    <string name="prompt_used_traffic">Занято\n <xliff:g id="ID_1">%s</xliff:g>M</string>
+    <string name="month">Месяц</string>
+    <string name="day">День</string>
+    <string name="noti_today">Расход трафика сегодня</string>
+    <string name="noti_surplus">Свободно</string>
+    <string name="noti_exceed">Переступить</string>
+    <string name="noti_total">Всего</string>
+    <string name="noti_no_settings">Тарифный план не установлен</string>
+    <string name="noti_no_card">SIM-карта не вставлена</string>
+    <string name="start_date_string">Ежемесячно</string>
+    <string name="limit_flow">Тарифный план установлен</string>
+    <string name="detail_flow">Графики расхода трафика</string>
+    <string name="network_control">Доступ к Интернету</string>
+    <string name="more_settings">Дополнительные настройки управления</string>
+    <string name="traffic_save">Экономия трафика</string>
+    <string name="no_card_warning">Пожалуйста, вставьте SIM-карту</string>
+    <string name="action_known">Готово</string>
+    <string name="action_settings">Установить</string>
+    <string name="action_cancel">Отмена</string>
+    <string name="action_done">Готово</string>
+    <string name="action_save">Сохранить</string>
+    <string name="action_sure">ОК</string>
+    <string name="action_allow">Разрешить</string>
+    <string name="action_prohibit">Запретить</string>
+    <string name="action_all_allow">Разрешить все</string>
+    <string name="action_all_prohibit">Запретить все</string>
+    <string name="application_info">О приложении</string>
+    <string name="data_connect_allow">Управление подключениями</string>
+    <string name="total_flow_settings">Ежемесячное ограничение трафика</string>
+    <string name="input_hint">Пожалуйста, введите</string>
+    <string name="warning_settings">Уведомлять при</string>
+    <string name="date_start_settings">Дата начала расхода трафика</string>
+    <string name="used_flow_settings">Использует сеть</string>
+    <string name="flow_unit">MB</string>
+    <string name="percent_unit">%</string>
+    <string name="mobile_data_stop_title">Оповещения о трафике</string>
+    <string name="mobile_data_stop_contetn">Ежемесячный трафик исчерпан, использование передачи данных потребует дополнительной платы, согласны?</string>
+    <string name="action_restart">Продолжать использовать</string>
+    <string name="action_stop">Не использовать</string>
+    <string name="info_save_error_no_flow_input">Пожалуйста, введите ограничение месячного трафика</string>
+    <string name="info_prompt">Вы можете вручную настроить расход трафика.</string>
+    <string name="popup_notification_title">Тарифный план не установлен</string>
+    <string name="popup_notification_ticker_title">Для текущего расхода трафика не настроена пакетная защита</string>
+    <string name="popup_notification_content">Щёлкните для наблюдения за трафиком в реальном времени</string>
+    <string name="popup_setting_title_dialog">Установите тарифный план</string>
+    <string name="popup_setting_content_dialog">Установите тарифный план и обеспечьте защиту от взимания дополнительной оплаты с телефона.</string>
+    <string name="notification_warn_exceed_warning_title">Критическое предупреждение по тарифному плану</string>
+    <string name="notification_warn_exceed_warning_content">Предупреждение о повышенном расходе трафика, коснитесь для просмотра</string>
+    <string name="percent_value">80</string>
+    <string name="warning_value">0.0</string>
+    <string name="zero_percent">80%</string>
+    <string name="total_percent">"100%"</string>
+    <string name="process_kernel_labels">ОС Андроид</string>
+    <string name="data_usage_uninstalled_apps_users">Удаленные приложения и пользователи</string>
+    <string name="data_usage_uninstalled_apps">Удаленные приложения</string>
+    <string name="tether_settings_title_all">Настройки мобильного модема</string>
+    <string name="tether_settings_title_wifi">Мобильная точка доступа</string>
+    <string name="tether_settings_title_usb_bluetooth">Модем</string>
+    <string name="tether_settings_title_usb">USB-модем</string>
+    <string name="tether_settings_title_bluetooth">Bluetooth-модем</string>
+    <string name="running_process_item_user_label">Пользователь：%1$s</string>
+    <string name="data_usage_app_restricted">Ограничен</string>
+    <string name="usage_detail">Подробности трафика</string>
+    <string name="version_name">Версия :</string>
+    <string name="traffic_time_week">Расход трафика за неделю(<xliff:g id="ID_1">%s</xliff:g>)</string>
+    <string name="traffic_time_month">Месячный расход трафика(<xliff:g id="ID_2">%s</xliff:g>)</string>
+    <string name="traffic_day">"Сегодняшний"</string>
+    <string name="traffic_week">За неделю</string>
+    <string name="traffic_month">За месяц</string>
+    <string name="traffic_day_no">"Сегодняшний неиспользованный расход трафика "</string>
+    <string name="traffic_week_no">"Неиспользованный трафик на этой неделе"</string>
+    <string name="traffic_month_no">Неиспользованный трафик этого месяца</string>
+    <string name="network_selection">В этом месяце расходовался трафик данных</string>
+    <string name="no_value">Ни одно</string>
+    <string name="text_loading">Загрузка…</string>
+    <string name="text_noti">Обработка ...</string>
+    <string name="traffic_monitor_display">
+        <xliff:g id="ID_1">%s</xliff:g> используют 2G/3G/4G:</string>
+    <string name="traffic_monitor_title">Большое потребление трафика на этой неделе</string>
+    <string name="traffic_monitor_message">
+        <xliff:g id="ID_1">%s</xliff:g>
+    </string>
+    <string name="traffic_settings_main_title">Показывать центр уведомления</string>
+    <string name="traffic_network_speed_title">Отображаемая скорость сети</string>
+    <string name="traffic_network_speed_summary">Скорость сети будет отображаться в статус баре, когда клавиша активна</string>
+    <string name="traffic_notification_title">Показать трафик этого месяца</string>
+    <string name="traffic_notification_summary">Открыть панель уведомлений при отображении информации о трафике.</string>
+    <string name="traffic_netcontrol_bar_allow_text">Разрешить сети (<xliff:g id="ID_1">%1$s</xliff:g>)</string>
+    <string name="traffic_netcontrol_bar_prohibit_text">Интернет запрещён (<xliff:g id="ID_1">%1$s</xliff:g>)</string>
+    <string name="net_link_allowed_txt">Приложениям доступ в Интернет запрещен</string>
+    <string name="net_link_prohibited_txt">Приложения доступ в Интернет разрешен</string>
+    <string name="traffic_save_setting">Настройки экономии трафика</string>
+    <string name="switch_off">Отключить</string>
+    <string name="switch_on">Включить</string>
+    <string name="traffic_save_off">Экономия трафика при закрытии</string>
+    <string name="traffic_save_off_summary">Эта функция действует только при передаче данных</string>
+    <string name="traffic_save_total_title">У Вас есть накопленный трафик</string>
+    <string name="traffic_save_total_num_string">328</string>
+    <string name="total_volume_string">"МБ"</string>
+    <string name="money_save_total_title">В юанях</string>
+    <string name="money_save_total_num_string">32.8</string>
+    <string name="total_money">Юань</string>
+    <string name="traffic_save_support_txt">Технологии OPERA</string>
+    <string name="traffic_save_history">Просмотр истории экономии трафика</string>
+    <string name="traffic_save_history_total">Накопленная экономия расхода трафика</string>
+    <string name="traffic_question1">1. Как добиться экономии расхода трафика?</string>
+    <string name="traffic_question2">2. Как использовать трафик после экономии, Вы не видите экономию?</string>
+    <string name="traffic_question3">3. Функция расхода использует собственную экономию расхода трафика?</string>
+    <string name="traffic_question4">4. Использовать трафик после сохранения конфиденциальности интернет-безопасности?</string>
+    <string name="traffican_answer1">Включен экономичный режим, используется для изменения размера текста, изображений и другого трафика.</string>
+    <string name="traffican_answer2">Экономия расхода относится только к передаче данных, Wi-Fi не включен. Экономится расход трафика только за счет текстов и изображений. Аудио, видео и загрузка файлов не экономят трафик.</string>
+    <string name="traffican_answer3">При включении экономичного режима для 2G/3G/4G, Интернет-трафик использует Диспетчер системы сбора, сжатия и шифрования данных. Мы сохраняем Ваш трафик. Можете спокойно пользоваться.</string>
+    <string name="traffican_answer4">Эта функция не обрабатывает вашу личную информацию. Можете спокойно пользоваться.</string>
+    <string name="traffican_question_answer">Справка</string>
+    <string name="traffican_whitelist_title">Перечень приложений, для которых не нужно экономить трафик</string>
+    <string name="text_no_traffic_whitelist">Не нужно экономить трафик</string>
+    <string name="traffic_simcard_focus1">SIM1</string>
+    <string name="traffic_simcard_focus2">SIM2</string>
+    <string name="traffic_netcontrol_tab_bar_allow_text">Разрешено</string>
+    <string name="traffic_netcontrol_tab_bar_prohibit_text">Запрещено</string>
+    <string name="time_format">гггг-ММ</string>
+    <string name="traffic_back_toast_text">Работа приложения управления сетью продолжается, ждите</string>
+    <string name="traffic_save_wait_text">В процессе обновления данных, подождите, пожалуйста ...</string>
+    <string name="traffic_btn_calibration_text">калибровать</string>
+    <string name="traffic_limit_settings_title">TrafficLimit Настройка</string>
+    <string name="traffic_origan">общий трафик</string>
+    <string name="traffic_idle_show_title">показать чистый трафик</string>
+    <string name="traffic_idle_available">чистый Имеющийся трафик</string>
+    <string name="traffic_idle_used">чистый использованный трафик</string>
+    <string name="traffic_buy_title">купить трафик</string>
+    <string name="buy_step1_title">номер 1 вход</string>
+    <string name="buy_step2_title">2 выберите номинал</string>
+    <string name="buy_step3_title">3 платить и купить</string>
+    <string name="buy_step_title">1 номер входа &amp; GT; 2 выберите номинал &amp; GT; 3 платить и купить</string>
+    <string name="temp_carrieroperator_title">beijing chnio</string>
+    <string name="order_info_title">Информация о заказе</string>
+    <string name="traffic_packge_text">
+        <xliff:g id="ID_1">%1$s</xliff:g> packges трафик</string>
+    <string name="traffic_packge_default_money">2 YUAN</string>
+    <string name="traffic_packge_default_instruction">Национальный общий, немедленная уплата</string>
+    <string name="mobile_info_numble">Компенсация numble: <xliff:g id="ID_1">%1$s</xliff:g></string>
+    <string name="pay_order_title">оплата и заказ</string>
+    <string name="pay_order_Immediately_title">оплата сразу</string>
+    <string name="show_problem_title">Проблемы общего характера</string>
+    <string name="buy_record_title">запись о покупке</string>
+    <string name="problem1_title">1 Возможно ли использовать повторную оплату при роуминге?</string>
+    <string name="problem1_content">Пожалуйста, обратите внимание на страницу подсказок, таких как дисплей страны может быть использована для выражения национального роуминга.</string>
+    <string name="problem2_title">2 срок действия повторной оплаты за трафик?</string>
+    <string name="problem2_content">Повторная оплата за трафик действует в течение месяца, в случае сбоя, пожалуйста, проверьте информацию в функционировании.</string>
+    <string name="problem3_title">3, как проверить поступление платежа?</string>
+    <string name="problem3_content">После оплаты, пожалуйста, посмотрите уведомления на странице оператора, вы также можете позвонить оператору, чтобы подтвердить счет.</string>
+    <string name="problem4_title">4 неправильный номер для оплаты трафика?</string>
+    <string name="problem4_content">Извините, но после введения неправильного номера, операторы (Mobile, China Unicom, телекоммуникации) не производят возврат. Вы можете выбрать следующие несколько способов, чтобы попытаться компенсировать потери: 1 контакт с фактическим количеством машин, если другой готов компенсировать поток трафика; 2 связаться с клиентской службой , в данном случае возможно возмещение.</string>
+    <string name="problem5_title">5 после сбоя, как долго?</string>
+    <string name="problem5_content">Как правило, мы вернем Вам за сбой. В течение 24 часов, вы можете присоединиться к официальной QQ группе (188473978) для обратной связи.</string>
+    <string name="problem6_title">6 как я могу проверить мои заказы и товарные записи?</string>
+    <string name="problem6_content">Возможно через поток в верхней части страницы, отобразить записи переначисления.</string>
+    <string name="mobile_invalid_text">Мобильный телефон является недействительным</string>
+    <string name="sell_alipay">оплатить по Alipay</string>
+    <string name="sell_weixin_pay">оплатить по weixin</string>
+    <string name="payment_success_txt">заказ прошел!</string>
+    <string name="payment_failed_txt">заказать не удалось!</string>
+    <string name="payment_pre_txt">переначисление</string>
+    <string name="btn_try_again_txt">Попробуйте еще раз</string>
+    <string name="no_record_txt">нет записи</string>
+    <string name="query_record_falil_txt">запрос не получился!</string>
+    <string name="data_load_txt">загрузка ...</string>
+    <string name="net_error_text">ошибка сети, пожалуйста, проверьте сеть</string>
+    <string name="exit_Contacts_text">Нет адресной книги</string>
+    <string name="traffic_origan_txt">Исходный трафик</string>
+    <string name="traffic_idle_txt">трафик в режиме ожидания</string>
+    <string name="traffic_idle_set_title">настройка бесплатного потока</string>
+    <string name="traffic_correctting_txt">Калибровка</string>
+    <string name="correctting_wait_txt">ждите пожалуйста ...</string>
+    <string name="correctting_fail_txt">исправление не удалось, повторите попытку позже</string>
+    <string name="correctting_success_txt">Поток был откалиброван, осталось <xliff:g id="ID_1">%1$s</xliff:g> M</string>
+    <string name="query_traffic_txt">Выполняется поиск использования трафика ...</string>
+    <string name="query_product_fail_txt">Нет доступных пакетов подписки</string>
+    <string name="query_product_record_fail_txt">сбой запроса о записи продукта</string>
+    <string name="no_install_weixin_txt">Пожалуйста, подтвердите, если вы установили микро письмо</string>
+    <string name="no_correct_service_txt">Во время инициализации, пожалуйста, повторите попытку позже ...</string>
+    <string name="buy_number_hint_txt">Пожалуйста, введите свой номер телефона.</string>
+    <string name="no_query_code_txt">Калибровка не удалась, пожалуйста, установите поток пакетов вручную</string>
+    <string name="buy_omitted_displayname">
+        <xliff:g id="ID_1">%1$s</xliff:g>...</string>
+    <string name="sell_baseinfo_symbol">/</string>
+    <string name="calibrate_setting_txt">Настройки калибровки</string>
+    <string name="calibrate_setting_province">Провинция</string>
+    <string name="calibrate_setting_brand">Марка Оператора</string>
+    <string name="calibrate_setting_province_choice">Выбор Провинции</string>
+    <string name="calibrate_setting_brand_choice">Выбор марки Оператора</string>
+    <string name="calibrate_send_msg_fail">SMS отправить не удалось, проверьте настройки операционной марки.</string>
+    <string name="traffic_flaw_price_txt">
+        <xliff:g id="ID_1">%1$s</xliff:g>YUAN</string>
+    <string name="buy_record_baseinfo_txt">
+        <xliff:g id="ID_1">%1$s</xliff:g> Recharge <xliff:g id="ID_2">%2$s</xliff:g> /<xliff:g id="ID_3">%3$s</xliff:g>YUAN</string>
+    <string name="buy_record_paytype_txt">
+        <xliff:g id="ID_1">%1$s</xliff:g>
+        <xliff:g id="ID_2">%2$s</xliff:g>
+    </string>
+    <string name="noti_softap_setting_title">Уведомление о совместном доступе к данным в точке доступа</string>
+    <string name="noti_softap_setting_text">Показать уведомление, когда <xliff:g id="ID_1">%s</xliff:g> данные будут получены за один проход</string>
+    <string name="noti_softap_group_title">Настройки мобильной точки доступа Wi-Fi</string>
+    <string name="noti_softap_setting_cancel">Отмена</string>
+    <string name="noti_softap_setting_userDefine">Настроить</string>
+    <string name="noti_softap_setting_commit">Выполнить</string>
+    <string name="noti_softap_setting_units">M</string>
+    <string name="noti_softap_warning_title">Уведомление о данных</string>
+    <string name="noti_softap_warning_message">Совместный доступ к данных в точке доступа достиг <xliff:g id="ID_1">%s</xliff:g>, отключите точку доступа?</string>
+    <string name="noti_softap_close_text">Отключить</string>
+    <string name="noti_softap_no_warning_text">Отсутствует Напоминание</string>
+    <string name="error_phone_number_text">Invalid phone number</string>
+    <!--Gionee <GN_Oversea_Req> <zhang_han> <20171017> for 219887 beign-->
+    <string name="traffic_remind_group_title">Уведомления</string>
+    <!--Gionee <GN_Oversea_Req> <zhang_han> <20171017> for 219887 end-->
+    <string name="traffic_time_day">Использование данных за сегодня(<xliff:g id="ID_1">%s</xliff:g>)</string>
+    <string name="traffic_monitor_display_kr">
+        <xliff:g id="ID_1">%s</xliff:g> Потребление данных 3G выглядит следующим образом:</string>
+    <string name="traffic_title_text">
+        <xliff:g id="ID_1">%1$s</xliff:g> Приложения</string>
+    <string name="traffic_original_price_txt">
+        <xliff:g id="ID_1">%1$s</xliff:g>
+    </string>
+    <string name="nogi_entry_buy_text">Нажмите, чтобы купить пакеты данных</string>
+    <string name="info_save_error_no_used_input">Пожалуйста, введите данные об использовании</string>
+    <string name="payment_sended_txt">Заказы отправлены, ожидаем ответа оператора...</string>
+    <string name="payment_explain_txt">Данные, которые вы пополняете, обычно будут в вашей учетной записи в течение часа, но иногда может быть задержка из-за плохой сети, вы можете позвонить или отправить сообщение поставщику услуг, чтобы проверить, когда изменения будут в вашей учетной записи.\n</string>
+    <string name="payment_fail_reason_txt">Ошибка! Возможно из-за проблем с сетью, занятой операторской системы или других причин</string>
+    <string name="dialog_btn_cancel">Отмена</string>
+    <string name="dialog_btn_unlock">Выпуск</string>
+    <string name="dialog_network_control_title">Предупреждение диспетчера системы</string>
+    <string name="net_type_mobile">Мобильная сеть</string>
+    <string name="net_type_wifi">Сеть Wlan</string>
+    <string name="dialog_not_alert_again">Нет предупреждения</string>
+    <string name="noti_softap_use_agiain_txt">Используйте <xliff:g id="ID_1">%1$d</xliff:g> M</string>
+    <string name="dialog_know">Ок</string>
+    <string name="hotspot_restart">Перезапуск</string>
+    <string name="hotspot_settingvalue_invalid">Используется <xliff:g id="ID_1">%1$1.2f</xliff:g> M. Перезапустите.</string>
+    <string name="hotspot_userdefine_settingvalue_invalid">Неверные данные. Перезагрузите компьютер.</string>
+    <string name="hotspot_auto_close_message">Достигнуто ограничение к точкам доступа «hotspot» <xliff:g id="ID_1">%d</xliff:g> M, отключить точку доступа, чтобы избежать чрезмерного потребления</string>
+    <string name="traffic_pay_dialag_title">оплата <xliff:g id="ID_1">%1$1.2f </xliff:g> YUAN, выберите тип оплаты</string>
+    <string name="traffic_buy_open_fail">Не удалось из-за плохой сети или других причин, повторите попытку позже</string>
+    <string name="product_description">Доступен по всей стране, действует только в этом месяце</string>
+    <string name="weixin_disenabled_txt">WeChat отключен, он не может быть использован</string>
+    <string name="lockscreen_traffic_remind_close">Нет напоминаний</string>
+    <string name="lockscreen_traffic_limit_one">100k</string>
+    <string name="lockscreen_traffic_limit_two">1M</string>
+    <string name="lockscreen_traffic_limit_three">5M</string>
+    <string name="lockscreen_traffic_remid_title">Напоминание трафика данных блокировки экрана</string>
+    <string name="lockscreen_traffic_remid_txt">Использование данных достигло <xliff:g id="ID_1">%1$s</xliff:g></string>
+    <string name="lock_screen_traffic_title">Использование данных достигло <xliff:g id="ID_1">%s</xliff:g></string>
+    <string name="lock_screen_traffic_content">Нажмите, чтобы проверить информацию</string>
+    <string name="lock_screen_traffic_unknow_app">Неизвестное приложение</string>
+    <string name="historyorder_title">История заказов  </string>
+    <string name="historyorder_detail_title">Детали истории заказов</string>
+    <string name="historyorder_empty_txt">История заказов пуста</string>
+    <string name="historyorder_alipay">Alipay</string>
+    <string name="historyorder_wechat_pay">wechat pay</string>
+    <string name="historyorder_paying">оплата</string>
+    <string name="historyorder_payed_success">оплата прошла успешно</string>
+    <string name="historyorder_payed_fail">оплата не удалась</string>
+    <string name="historyorder_chargeback_success">возвратный платеж успешно</string>
+    <string name="historyorder_payment_success">платеж успешно</string>
+    <string name="historyorder_payment_fail">ошибка платежа</string>
+    <string name="historyorder_supporttel">телефон поддержки</string>
+    <string name="historyorder_dial">телефон</string>
+    <string name="historyorder_status">статус журнала истории: <xliff:g id="ID_1">%1$s</xliff:g></string>
+    <string name="historyorder_query_failed">запрос не выполнен</string>
+    <string name="historyorder_retry">повторить попытку</string>
+    <string name="noti_surplus_message">В этом месяце бесплатно <xliff:g id="ID_1">%1$s</xliff:g></string>
+    <string name="noti_exceed_message">В этом месяце Overstep <xliff:g id="ID_1">%1$s</xliff:g></string>
+    <string name="unknow_app">Неизвестное приложение</string>
+    <string name="dialog_network_control_content">
+        <xliff:g id="ID_1">%1$s</xliff:g> было запрещено использовать  <xliff:g id="ID_1">%1$s</xliff:g>, вы хотите включить его снова?</string>
+    <string name="hotspot_settingvalue_valid">Когда точка доступа раздает <xliff:g id="ID_1">%1$d</xliff:g> М, будет еще одно напоминание,</string>
+    <string name="traffic_pay_orider_id">идентификатор заказа: <xliff:g id="ID_1">%1$s</xliff:g></string>
+</resources>

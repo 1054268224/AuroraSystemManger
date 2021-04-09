@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">  
+    <string-array name="traffica_save_setting_list_item"> 
+    <item>ट्रैफिक वाइट लिस्ट</item>
+    <item>सहायता</item>
+    </string-array>
+    <string-array name="traffica_save_list_item"> 
+    <item>आज सेव करें</item>
+    <item>इस महीने सेव करें</item>
+    <item>इतिहास सेव करें</item>
+    </string-array>
+</resources>

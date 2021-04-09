@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="security_wallet_title">Защита на плащанията</string>
+    <string name="security_wallet_empty">Не е намерено истинско приложение за плащане</string>
+    <string name="security_wallet_header">Защита на приложения</string>
+    <string name="security_wallet_header_on">Отваряне</string>
+    <string name="security_wallet_header_off">Затворено</string>
+    <string name="security_wallet_mini_bar_tip">Следните приложения бяха потвърдени за истински</string>
+    <string name="security_wallet_support">Осъществено от AVL</string>
+    <string name="security_wallet_mini_bar_tip_off">Защитата на плащанията е закрита</string>
+    <string name="security_wallet_mini_bar_tip_root">В кореновата система съществува риск от плащане</string>
+    <string name="security_wallet_off_info">Отворената защита на плащанията ще сканира средата, ще открие Wi-Fi връзки и ще пресече злонамерени кодове за защита на сигурността на плащанията, когато се изпълни приложението за плащане</string>
+    <string name="security_wallet_jump_to_app_store">получавайте повече потвърдени приложения</string>
+    <string name="security_wallet_jump_to_app_store_not_found">не може да се стартира магазин за приложения</string>
+    <string name="security_safed_list_installed_toast">
+        <xliff:g>%1$s</xliff:g> инсталиран за защита на плащанията</string>
+    <string name="security_safed_list_updated_toast"> Финансовото appList правило е актуализирано успешно \nверсия: <xliff:g>%1$s</xliff:g></string>
+</resources>

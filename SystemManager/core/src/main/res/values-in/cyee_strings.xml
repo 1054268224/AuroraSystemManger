@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+     Gionee <zhangxx> <2013-06-20> add for cyeeframework.
+ -->
+<resources>
+    <string name="cyee_app_name">CyeeUI</string>
+    
+    <string name="cyee_capital_on">HIDUP</string>
+    <string name="cyee_capital_off">MATI</string>
+    
+    <string name="cyee_time_picker_dialog_title">Atur waktu</string>
+    <string name="cyee_date_picker_dialog_title">Atur tanggal</string>
+    <string name="cyee_date_time_done">Selesai</string>
+
+    <string name="cyee_copy">Salin</string>
+    <string name="cyee_paste">Tempel</string>
+    <string name="cyee_cut">Potong</string>
+    <string name="cyee_selectAll">Pilih semua</string>
+    <string name="cyee_select">Pilih</string>
+    <string name="cyee_inputMethod">Metode masukan</string>
+    
+    <!--  Strings for possible PreferenceActivity Back/Next buttons -->
+    <string name="cyee_back_button_label">Kembali</string>
+    <string name="cyee_next_button_label">Berikutnya</string>
+    <!-- Optional button to Skip a PreferenceActivity [CHAR LIMIT=20] -->
+    <string name="cyee_skip_button_label">Lewati</string>    
+    
+    <string name="cyee_ok">OK</string>
+    <string name="cyee_cancel">Batal</string>
+    <string name="cyee_yes">OK</string>
+    <string name="cyee_no">Batal</string>
+
+    <string name="cyee_action_mode_done">Selesai</string>
+	<string name="cyee_action_bar_home_description">Navigasikan ke layar beranda</string>
+	<string name="cyee_action_bar_up_description">Navigasikan ke atas</string>
+	
+	<!-- Gionee <xuhz> <2013-07-19> add for CR00838236 begin -->
+	<!-- String for Smart Guider -->
+    <string name="cyee_smart_full_btn_label">OK</string>
+	<!-- Gionee <xuhz> <2013-07-19> add for CR00838236 end -->
+    <!-- Gionee <hanbj> <2013-09-18> add for CR00907636 begin -->
+    <string name="cyee_activity_resolver_use_always">Selalu</string>
+    <string name="cyee_activity_resolver_use_once">Sekali saja</string>
+
+    <!-- Text to display when there are no activities found to display in the
+         activity chooser. See the "Select an action" title. -->
+    <string name="cyee_noApplications">Tidak ada aplikasi yang dapat melakukan tindakan ini.</string>
+    <string name="cyee_system_label">Sistem Android</string>
+    <string name="cyee_whichApplication">Selesaikan tindakan menggunakan</string>
+    <string name="cyee_chooseActivity">Berbagi</string>
+    <!-- Gionee <hanbj> <2013-09-18> add for CR00907636 end -->
+	<!-- shaozj begin-->
+    <string name="cyee_actionbar_magic_item_more">Lainnya</string>
+    <string name="cyee_actionbar_magic_item_close">Tutup</string>
+    <!-- shaozj end-->
+    <!-- weidong begin -->
+    <string name="cyee_edit_mode_leftbtn_txt">Batal</string>
+    <string name="cyee_edit_mode_rightbtn_txt">Simpan</string>
+    <string name="cyee_strong_warning">peringatan tegas</string>
+    <string name="cyee_multichoice_select_text">%1$s Terpilih</string>
+    <string name="cyee_multichoice_select_all">Pilih semua</string>
+    <string name="cyee_multichoice_cancel_select_all">Batal pilih semua</string>
+    <!-- weidong end -->
+    <string name="unit_year">T</string>
+    <string name="unit_month">B</string>
+    <string name="unit_day">H</string>
+    <string name="unit_hour">J</string>
+    <string name="unit_minute">B</string>
+    <string name="clone_suffix"> klona </string>
+    <string name="cyee_loading">Memuat…</string>
+    <string name="cyee_today">Hari Ini</string>
+</resources>

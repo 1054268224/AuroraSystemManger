@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!-- SoftManager begin -->
+  <string-array name="header_list">
+    <item>सक्रिय करें</item>
+    <item>निष्क्रिय करें</item>
+  </string-array>
+  <!-- 默认软件设置title 
+    <string-array name="ui_def_soft_title">
+        <item>Default inputMethod</item>
+        <item>Default browser</item>
+        <item>Default contacts</item>
+        <item>Default messaging</item>
+        <item>Default launcher</item>
+        <item>Default camera</item>
+        <item>Default image</item>
+        <item>Default music</item>
+        <item>Default video</item>
+        <item>Default reader</item>
+    </string-array> -->
+  <string-array name="listitem_soft_manager_activity">
+    <item>ऐप ऑटोमैटिक प्रारंभ हो</item>
+    <item>ऐप अनइंस्टॉल</item>
+    <item>ऐप फ्रीज</item>
+    <item>ऐप का लॉक</item>
+  </string-array>
+  <!-- Software Permission Setting Title -->
+  <string-array name="listitem_permission_setting">
+    <item>पूर्ण विश्वसनीय</item>
+    <item>आंशिक ट्रस्ट</item>
+    <item>विश्वास न करें</item>
+  </string-array>
+  <string-array name="listitem_permission_setting_summary">
+    <item>जब एप्लीकेशन कोई अनुमति मांगता है तो बम बॉक्स प्रॉम्प्ट नहीं होता है</item>
+    <item>एप्लीकेशन जब भी किसी महत्वपूर्ण अनुमति के लिए पूछे बॉक्स बम तभी प्रॉम्‍प्ट हो</item>
+    <item>जब एप्लीकेशन किसी महत्वपूर्ण अनुमति को कॉल करती हैं तो बम बॉक्स संकेत होगा</item>
+  </string-array>
+  <string-array name="listitem_freeze_app_summary">
+    <item> ऐप प्रभावित नहीं हुआ है </item>
+    <item> ऐप से सावधान रहना है</item>
+  </string-array>
+  <!-- Gionee: mengdw <2016-08-01> modify for CR01739399 end -->
+  <string-array name="uninstall_sort">
+    <item>ऐप नाम के अनुसार क्रमबद्ध करें</item>
+    <item>इंस्टॉल के समय के द्वारा क्रमबद्ध करें </item>
+    <item>उपयोग की दर के अनुसार क्रमबद्ध करें</item>
+    <item>ऐप साइज के द्वारा क्रमबद्ध करें</item>
+  </string-array>
+  <string-array name="green_list_item">
+    <!-- Gionee <yangxinruo> <2016-1-13> modify for CR01621967 begin -->
+    <item>व्हाइट लिस्ट क्लीन करें</item>
+    <!-- Gionee <yangxinruo> <2016-1-13> modify for CR01621967 end -->
+  </string-array>
+  <string-array name="freeze_tab_item">
+    <item>फ्रीज होने वाला </item>
+    <item>फ्रोजन</item>
+  </string-array>
+  <string-array name="auto_start_tab_item">
+    <item>अनुमति दें</item>
+    <item>वर्जित करें</item>
+  </string-array>
+  <string-array name="move_tab_item">
+    <item>सिस्टम स्पेस </item>
+    <item>इंटरनल</item>
+  </string-array>
+  <string-array name="move_tab_item_sd">
+    <item>सिस्टम स्पेस </item>
+    <item>SD कार्ड</item>
+  </string-array>
+  <!-- SoftManager end -->
+
+
+  <string-array name="app_lock_setting_items">
+    <item>@string/app_lock_setting_item_1</item>
+    <item>@string/app_lock_setting_item_2</item>
+  </string-array>
+
+
+
+</resources>

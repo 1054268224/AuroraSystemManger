@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!-- 手机加速界面 -->
+  <string-array name="ui_phone_accelerate">
+    <item>പ്രൊസസിസ് വൃത്തിയാക്കല്‍</item>
+    <item>ഓട്ടോസ്റ്റാർട്ട് മാനേജ് ചെയ്യുക</item>
+  </string-array>
+  <string-array name="process_clean_group_title">
+    <item>റണ്‍ ചെയ്തുകൊണ്‍ടിരിക്കുന്നു</item>
+    <item>വൈറ്റ് ലിസ്റ്റ്</item>
+  </string-array>
+  <string-array name="boot_opt_group_title">
+    <item>കാര്യക്ഷമമാക്കാൻ കഴിയും</item>
+    <item>കാര്യക്ഷമമാക്കപെട്ടു</item>
+  </string-array>
+</resources>

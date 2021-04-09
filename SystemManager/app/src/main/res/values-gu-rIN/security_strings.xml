@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="security_wallet_title">ચુકવણી સુરક્ષા</string>
+  <string name="security_wallet_empty">કોઈ વાસ્તવિક ચુકવણી એપ મળ્યો નથી</string>
+  <string name="security_wallet_header">એપ્સનું રક્ષણ થાય છે</string>
+  <string name="security_wallet_header_on">ખોલો</string>
+  <string name="security_wallet_header_off">બંધ કરેલું</string>
+  <string name="security_wallet_mini_bar_tip">નીચેના એપ્સ વાસ્તવિક હોવા માટે ચકાસણી કરવામાં આવ્યા છે</string>
+  <string name="security_wallet_support">AVL દ્વારા સંચાલિત</string>
+  <string name="security_wallet_mini_bar_tip_off">ચુકવણી સુરક્ષા બંધ છે</string>
+  <string name="security_wallet_mini_bar_tip_root">રુટ કરેલ સિસ્ટમમાં ચુકવણી માટે જોખમ છે</string>
+  <string name="security_wallet_off_info">ચુકવણી સુરક્ષા ખોલવાથી તે એન્વાયર્નમેન્ટને સ્કૅન કરશે, WLAN કનેક્શનને શોધશે અને જ્યારે ચુકવણી એપ ચાલુ હશે ત્યારે ચુકવણી સુરક્ષાનાં રક્ષણ માટે દૂષિત કોડને અવરોધિત કરશે</string>
+  <string name="security_wallet_jump_to_app_store">વધુ ચકાસવામાં આવેલ એપ્સ મેળવો</string>
+  <string name="security_wallet_jump_to_app_store_not_found">એપ સ્ટોર શરૂ કરી શકાતો નથી</string>
+  <string name="security_safed_list_installed_toast">ચુકવણી રક્ષણ માટે <xliff:g>%1$s</xliff:g> ઇન્સ્ટૉલ કરેલ છે</string>
+</resources>

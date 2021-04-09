@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="security_wallet_header_on">Deschidere</string>
+    <string name="security_wallet_header_off">Închis</string>
+    <string name="security_wallet_title">Protecție de plăți</string>
+    <string name="security_wallet_empty">Nicio aplicație de plăți originală găsită</string>
+    <string name="security_wallet_header">Protejare aplicații</string>
+    <string name="security_wallet_mini_bar_tip">Aplicațiilor următoare le-au fost verificate originalitatea</string>
+    <string name="security_wallet_support">Sponsorizat de AVL</string>
+    <string name="security_wallet_mini_bar_tip_off">Protecția de plăți este închisă</string>
+    <string name="security_wallet_mini_bar_tip_root">În sistemul de bază există riscul plății</string>
+    <string name="security_wallet_off_info">Protecția de plăți deschisă va scana mediul, va detecta conexiunile WiFi și va intercepta codurile periculoase pentru protejarea securității plății atunci când alicația de plăți funcționează</string>
+    <string name="security_wallet_jump_to_app_store">găsire mai multe aplicații verificate</string>
+    <string name="security_wallet_jump_to_app_store_not_found">nu se poate porni magazinul de aplicații</string>
+</resources>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="app_name">"সিস্টেম ম্যানেজার"</string>
+    <string name="cell_accelerator">"মেমরি ক্লিন"</string>
+    <string name="cell_accelerator_summary">"ব্যবহার মেমরি <![CDATA[<font color="d23030">%1$s%%</font>]]>"</string>
+    <string name="rubbish_clean">"আবর্জনা পরিষ্কার"</string>
+    <string name="rubblish">"ক্যাশে <![CDATA[<font color="#d23030">%1$s</font>]]>"</string>
+    <string name="power_optimizer">"পাওয়ার অপ্টিমাইজার"</string>
+    <string name="can_use">"ব্যবহার করতে পারে <![CDATA[<font color="#6eb330">%1$s</font>]]>"</string>
+    <string name="charge_time">"আনুমানিক সময় <![CDATA[<font color="#6eb330">%1$s</font>]]>"</string>
+    <string name="traffic_monitor">"ট্রাফিক মনিটর"</string>
+    <string name="traffic_remained">"ট্রাফিক রয়ে গেছে <![CDATA[<font color="#6eb330">%1$s</font>]]>"</string>
+    <string name="traffic_exceed">"ট্রাফিক অতিক্রম হয়েছে <![CDATA[<font color="#6eb330">%1$s</font>]]>"</string>
+    <string name="antivirus">Suspicious apps <![CDATA[<font color="#d23030">%1$s个</font>]]></string>
+    <string name="traffic_no_setting">"ট্রাফিক প্যাকেজ সেট করা হয় নি"</string>
+    <string name="traffic_no_simcard">"সিম কার্ড সন্নিবেশিত করা নেই"</string>
+    <string name="soft_manager">"অ্যাপ ম্যানেজার"</string>
+    <string name="app_installed">"মোট অ্যাপস <![CDATA[<font color="#d23030">%1$s</font>]]>"</string>
+    <string name="perm_manager">"অনুমতি ম্যানেজার"</string>
+    <string name="danger_apps">"সংবেদনশীল অ্যাপস <![CDATA[<font color="#d23030">%1$s</font>]]>"</string>
+    <string name="minutes">"মিনিট"</string>
+    <string name="hours">"ঘণ্টা"</string>
+    <string name="cannotget">"পাওয়া যাবে না"</string>   
+    <string name="utilization_title">"সিস্টেম অ্যালার্ট"</string>
+    <string name="utilization_content">"সিস্টেম ম্যানেজার ব্যবহার করতে আপনাকে স্বাগত জানাই. \n এই অ্যাপ ডাটা ট্রাফিক উৎপন্ন করতে পারে,দয়া করে চার্জের জন্য নেটওয়ার্ক অপারেটরকে জিজ্ঞাসা করুন. চালু রাখতে চান?"</string>
+    <string name="dialog_checkbox_description">"পুনরায় জিজ্ঞাসা করবেন না"</string>
+    <string name="dialog_exit_btn">"বাইরে বেরোন"</string>
+    <string name="dialog_continue_btn">"এগোন"</string>
+
+</resources>

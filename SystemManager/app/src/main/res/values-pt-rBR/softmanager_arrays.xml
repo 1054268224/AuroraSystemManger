@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">  
+    <string-array name="ui_privacy_policy">
+    <item>Chamadas</item>
+    <item>Enviar mensagens SMS</item>
+    <item>Enviar mensagens MMS</item>
+    <item>Histórico de chamadas</item>
+    <item>Ler mensagens SMS</item>
+    <item>Ler mensagens MMS</item>
+    <item>Contatos</item>
+    <item>GPS</item>
+    <item>Rede</item>
+    <item>"Status do telefone"</item>
+    <item>Escrever/Apagar SMS</item>
+    <item>Escrever/Apagar MMS</item>
+    <item>Escrever/Apagar Contatos</item>
+    <item>Escrever/Apagar histórico de chamadas</item>
+    <item>Gravador de som</item>
+    <item>"Câmara"</item>
+    <item>Rede de dados</item>
+    <item>Rede WiFi</item>
+    <item>"Bluetooth"</item>
+    <item>Pareamento do Bluetooth</item>
+    <item>"NFC"</item>
+    </string-array>
+    <string-array name="header_list">
+    <item>Ativar</item>
+    <item>Desativar</item>
+    </string-array>
+</resources>

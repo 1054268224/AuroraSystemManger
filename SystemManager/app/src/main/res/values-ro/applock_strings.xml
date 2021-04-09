@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="cancel">Anulare</string>
+    <string name="gn_securitypassword_forget">Parolă uitată</string>
+    <string name="lockpassword_confirm_your_pattern_header">Confirmare model</string>
+    <string name="lockpassword_confirm_your_pattern_generic">Utilizați modelul dispozitivului pentru a continua.</string>
+    <string name="lockpattern_need_to_unlock_wrong">Model greşit</string>
+    <string name="gn_securitypassword_retry_note">Vă rugăm încercați după "%1$s" minute</string>
+    <string name="gn_securitypassword_input_error_note">Parolă incorectă, poate fi introdusă de "%1$s" ori.</string>
+    <string name="gn_lockpattern_recording_intro_header">Desenare model pentru deblocare</string>
+    <string name="gn_fingerprint_confirm_your_password_header2">Desenați un model de deblocare sau recunoașterea amprenetei</string>
+    <string name="gn_fingerprint_confirm_your_password_header">Introducere parolă sau recunoaștere amprente digitale</string>
+    <string name="lockpassword_confirm_your_password_header">Confirmare parolă</string>
+    <string name="gn_confirm_your_password_header">Desenare model pentru deblocare</string>
+    <string name="lockpattern_too_many_failed_confirmation_attempts">Prea multe încercări incorecte. Încercați din nou în <xliff:g id="number">%d</xliff:g> secunde.</string>
+    <string name="lockpattern_tutorial_cancel_label">Anulare</string>
+    <string name="lockpattern_tutorial_continue_label">Înainte</string>
+    <string name="lockpassword_confirm_your_pin_header">Confirmare cod PIN</string>
+    <string name="lockpassword_confirm_your_password_generic">Introduceți parola dispozitivului pentru a continua.</string>
+    <string name="lockpassword_confirm_your_pin_generic">Introduceți codul PIN dispozitivului pentru a continua.</string>
+    <string name="lockpassword_confirm_app_header">%s a fost protejată</string>
+    <string name="gn_securitypassword_retry_note2">Încercați din nou după "%1$s secundă (st)"</string>
+    <string name="gn_securitypassword_retry">Încercaţi din nou</string>
+    <string name="applock_verify_success_prompt">Verificare cu succes</string>
+    <string name="applock_verify_pwd_prompt">Parolă deblocată</string>
+    <string name="applock_verify_use_prompt">Utilizați</string>
+    <string name="applock_verify_fr_prompt">Față</string>
+    <string name="applock_verify_fp_prompt">Deget</string>
+    <string name="applock_verify_fp_fail_more">Prea multe verificări dactiloscopice nu reușesc, încercați din nou după %1$ss, vă rog</string>
+    <string name="applock_verify_fr_wait_prompt">Vă rugăm păstrați</string>
+    <string name="applock_verify_fr_timeout_prompt">Față</string>
+</resources>

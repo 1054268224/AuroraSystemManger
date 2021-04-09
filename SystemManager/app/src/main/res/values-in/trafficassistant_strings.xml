@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+/* //device/apps/common/assets/res/any/colors.xml
+**
+** Copyright 2006, The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+-->
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">  
+    <string name="text">SMS</string>
+    <string name="trafficassistant_app_name">Layar data</string>
+    <string name="tabbar_name1">Sim Slot 1</string>
+    <string name="tabbar_name2">Sim Slot 2</string>
+    <string name="remained_flow_string">Surplus</string>
+    <string name="exceed_flow_string">Melebihi</string>
+    <string name="used">Terpakai</string>
+    <string name="used_flow_string">Digunakan <xliff:g id="ID_1">%s</xliff:g>MB</string>
+    <string name="total_flow_string">Total <xliff:g id="ID_1">%s</xliff:g>M</string>
+    <string name="prompt_no_settings_traffic">Tidak diatur</string>
+    <string name="no_settings">Tidak diatur</string>
+    <string name="prompt_used_traffic">Digunakan\n <xliff:g id="ID_1">%s</xliff:g>M</string>
+    <string name="month">Bulan</string>
+    <string name="day">Hari</string>
+    <string name="noti_today">Aliran hari ini</string>
+    <string name="noti_surplus">Sisa</string>
+    <string name="noti_exceed">Melebihi</string>
+    <string name="noti_total">Total</string>
+    <string name="noti_no_settings">Rencana data tidak diatur</string>
+    <string name="noti_no_card">SIM tidak terpasang</string>
+    <string name="start_date_string">Bulanan</string>
+    <string name="limit_flow">Mengatur rencana data</string>
+    <string name="detail_flow">Diagram aliran</string>
+    <string name="network_control">Pengendali jaringan</string>
+    <string name="more_settings">Kontrol pengaturan</string>
+    <string name="traffic_save">Menyimpan Data</string>
+    <string name="no_card_warning">Silahkan masukkan SIM</string>
+    <string name="action_known">Selesai</string>
+    <string name="action_settings">Mengatur</string>
+    <string name="action_cancel">Membatalkan</string>
+    <string name="action_done">Selesai</string>
+    <string name="action_save">Simpan</string>
+    <string name="action_sure">OKE</string>
+    <string name="action_allow">Izinkan</string>
+    <string name="action_prohibit">Melarang</string>
+    <string name="action_all_allow">Ijinkan semua</string>
+    <string name="action_all_prohibit">Matikan semua</string>
+    <string name="application_info">Info apl</string>
+    <string name="data_connect_allow">Pengendali koneksi</string>
+    <string name="total_flow_settings">Batas data tiap bulan</string>
+    <string name="input_hint">Silahkan input</string>
+    <string name="warning_settings">Peringatan isi</string>
+    <string name="date_start_settings">Penggunaan data dimulai pada tanggal</string>
+    <string name="used_flow_settings">Penggunaan data</string>
+    <string name="flow_unit">MB</string>
+    <string name="percent_unit">%</string>
+    <string name="mobile_data_stop_title">Peringatan Data</string>
+    <string name="mobile_data_stop_contetn">Data bulanan anda habis, lanjutkan untuk menggunakan koneksi data akan berbayar, apakah anda akan menggunakannya?</string>
+    <string name="action_restart">Lanjutkan untuk menggunakan</string>
+    <string name="action_stop">Jangan gunakan</string>
+    <string name="info_save_error_no_flow_input">Silahkan masukkan batasan data anda tiap bulan</string>
+    <string name="info_prompt">Anda dapat mengatur secara manual isi nilai</string>
+    <string name="popup_notification_title">Tidak mengatur rencana data</string>
+    <string name="popup_notification_ticker_title">Aliran saat ini tidak menggunakan pengaturan paket perlindungan</string>
+    <string name="popup_notification_content">Klik untuk mengatur, monitor penggunaan data real-time</string>
+    <string name="popup_setting_title_dialog">Mengatur rencana data</string>
+    <string name="popup_setting_content_dialog">Mengatur Rencana data, dan memberikan keamanan untuk mengunci ponsel</string>
+    <string name="notification_warn_exceed_warning_title">Peringatan merah rencana data</string>
+    <string name="notification_warn_exceed_warning_content">Aliran telah mencapai nilai peringatan, sentuh untuk melihat pemakaian</string>
+    <string name="percent_value">80</string>
+    <string name="warning_value">0.0</string>
+    <string name="zero_percent">80%</string>
+    <string name="total_percent">100%</string>
+    <string name="process_kernel_labels">Android OS</string>
+    <string name="data_usage_uninstalled_apps_users">Aplikasi dan pengguna dihapus</string>
+    <string name="data_usage_uninstalled_apps">Aplikasi dihapus</string>
+    <string name="tether_settings_title_all">Pengaturan tethering</string>
+    <string name="tether_settings_title_wifi">Portable hotspot</string>
+    <string name="tether_settings_title_usb_bluetooth">Tethering</string>
+    <string name="tether_settings_title_usb">USB tethering</string>
+    <string name="tether_settings_title_bluetooth">Bluetooth tethering</string>
+    <string name="running_process_item_user_label">Pengguna：%1$s</string>
+    <string name="data_usage_app_restricted">Restricted</string>
+    <string name="usage_detail">Detail data</string>
+    <string name="version_name">Versi :</string>
+    <string name="traffic_time_day">"Traffic hari ini(<xliff:g id="ID_1">%s</xliff:g>)"</string>
+    <string name="traffic_time_week">Data minggu ini(<xliff:g id="ID_1">%s</xliff:g>)</string>
+    <string name="traffic_time_month">Data bulanan(<xliff:g id="ID_2">%s</xliff:g>)</string>
+    <string name="traffic_day">"Data \nhari ini"</string>
+    <string name="traffic_week">Data \nmingguan</string>
+    <string name="traffic_month">Data \nbulanan</string>
+    <string name="traffic_day_no">"Aliran yang tidak digunakan hari ini"</string>
+    <string name="traffic_week_no">"Data yang tidak digunakan minggu ini"</string>
+    <string name="traffic_month_no">"Data yang tidak digunakan Bulan ini"</string>
+    <string name="network_selection">Aliran data pada bulan ini</string>
+    <string name="no_value">Tidak ada</string>
+    <string name="text_loading">Memuat…</string>
+    <string name="text_noti">Memproses...</string>
+    <string name="traffic_monitor_display"><xliff:g id="ID_1">%s</xliff:g> Penggunaan data 2G/3G/4G seperti berikut：</string>
+    <string name="traffic_monitor_title">Pemakaian data terbanyak minggu ini</string>
+    <string name="traffic_monitor_message"><xliff:g id="ID_1">%s</xliff:g></string>
+    <string name="traffic_settings_main_title">Tampilkan pada pusat pemberitahuan</string>
+    <string name="traffic_network_speed_title">Tampilkan kecepatan jaringan</string>
+    <string name="traffic_network_speed_summary">Kecepatan jaringan akan ditampilkan pada status bar ketika tombol diaktifkan</string>
+    <string name="traffic_notification_title">Menunjukan informasi data pada bulan ini</string>
+    <string name="traffic_notification_summary">Buka drop down pemberitahuan Bar ketika menampilkan informasi data</string>
+    <string name="traffic_netcontrol_bar_allow_text">Izinkan jaringan(<xliff:g id="ID_1">%1$s</xliff:g>)</string>
+    <string name="traffic_netcontrol_bar_prohibit_text">Telah melarang internet(<xliff:g id="ID_1">%1$s</xliff:g>)</string>
+    <string name="net_link_allowed_txt">Tidak ada aplikasi menijinkan Internet</string>
+    <string name="net_link_prohibited_txt">Tidak ada aplikasi melarang Internet</string>
+    <string name="traffic_save_setting">Pengaturan menyimpan data</string>
+    <string name="switch_off">Matikan</string>
+    <string name="switch_on">Hidupkan</string>
+    <string name="traffic_save_off">Data disimpan tidak dapat dibuka</string>
+    <string name="traffic_save_off_summary">Fungsi ini tidak valid pada jaringan data</string>
+    <string name="traffic_save_total_title">Anda diakumulasi penyimpanan</string>
+    <string name="traffic_save_total_num_string">328</string>
+    <string name="total_volume_string">MB</string>
+    <string name="money_save_total_title">Tentang Renminbi</string>
+    <string name="money_save_total_num_string">32.8</string>
+    <string name="total_money">Yuan</string>
+    <string name="traffic_save_support_txt">Powered by OPERA</string>
+    <string name="traffic_save_history">Menampilkan riwayat data disimpan</string>
+    <string name="traffic_save_history_total">Komulatif aliran penyimpanan</string>
+    <string name="traffic_question1">1、Bagaimana menyimpan aliran di pengarsipan?</string>
+    <string name="traffic_question2">"2、Kenapa menggunakan data setelah anda disimpan, Anda tidak melihat simpanan?"</string>
+    <string name="traffic_question3">3、Fungsi aliran menggunakan aliran yang disimpan？</string>
+    <string name="traffic_question4">4、Menggunakan data setelah anda menyimpan Keamanan Internet Pribadi saya?</string>
+    <string name="traffican_answer1">Aliran menyimpan fitur diaktifkan, akan digunakan untuk mengubah ukuran teks, gambar dan lalu lintas lainnya, sehingga mengurangi QQ, weixin, Taobao untuk aplikasi seperti konsumsi lalu lintas. Berkelanjutan hasil lebih baik. Aliran menyimpan fitur diaktifkan, akan digunakan untuk mengubah ukuran teks, gambar dan lalu lintas lainnya, sehingga mengurangi QQ, weixin, Taobao untuk aplikasi seperti konsumsi lalu lintas. Berkelanjutan hasil lebih baik. Fitur aliran menyimpan diaktifkan, akan digunakan untuk mengubah ukuran teks, gambar dan data lainnya, sehingga mengurangi QQ, weixin, Taobao untuk aplikasi seperti menggunakan data. menghasilkan hasil yang lebih baik. Aliran menyimpan fitur diaktifkan, akan digunakan untuk mengubah ukuran teks, gambar dan lalu lintas lainnya, sehingga mengurangi QQ, weixin, Taobao untuk aplikasi seperti konsumsi lalu lintas. Berkelanjutan hasil lebih baik.</string>
+    <string name="traffican_answer2">Tingkatan aliran penyimpanan berlaku hanya untuk jaringan data, WLAN tidak diaktifkan. Aliran hanya menyimpan teks dan gambar efek, audio dan video dan download file tidak menyimpan data.</string>
+    <string name="traffican_answer3">Aliran tersimpan sendiri tidak menggunakan data, setelah Anda mengaktifkan fitur ini, semua Internet data 2/3/ 4G akan menggunakan System Manager untuk agregat dan kompres, dan perangkat lunak keamanan individu akan melihat Butler menggunakan aliran sistem. Kami tidak akan mengkonsumsi data anda yang berharga, jangan ragu untuk menggunakan.</string>
+    <string name="traffican_answer4">Fitur ini tidak dapat mengatasi informasi pribadi anda, Silahkan hubungi kami</string>
+    <string name="traffican_question_answer">Masalah umum</string>
+    <string name="traffican_whitelist_title">Daftar aplikasi tidak membutuhkan data disimpan</string>
+    <string name="text_no_traffic_whitelist">Tidak butuh untuk menyimpan data</string>
+    <string name="traffic_simcard_focus1">SIM1</string>
+    <string name="traffic_simcard_focus2">SIM2</string>
+    <string name="traffic_netcontrol_tab_bar_allow_text">Jaringan WLAN</string>
+    <string name="traffic_netcontrol_tab_bar_prohibit_text">Jaringan Data</string>
+    <string name="traffic_title_text"><xliff:g id="ID_1">%1$s</xliff:g> Apl</string>
+    <string name="time_format">yyyy-MM</string>
+    <string name="traffic_back_toast_text">Jaringan Aplikasi operasi pengendali sedang dalam proses, silahkan tunggu</string>
+    <string name="traffic_save_wait_text">data sedang diperbarui, silakan menunggu...</string>
+    <string name="traffic_btn_calibration_text">kalibrasi</string>
+    <string name="traffic_limit_settings_title">Setelan TrafficLimit</string>
+    <string name="traffic_origan">traffic umum</string>
+    <string name="traffic_idle_show_title">tampilkan traffic diam</string>
+    <string name="traffic_idle_available">traffic diam yang ada</string>
+    <string name="traffic_idle_used">traffic diam yang digunakan</string>
+    <string name="traffic_buy_title">beli traffic</string>
+    <string name="buy_step1_title">1 masukkan jumlah</string>
+    <string name="buy_step2_title">2 pilih nilai nominal</string>
+    <string name="buy_step3_title">3 bayar dan beli</string>
+    <string name="buy_step_title">1 masukkan jumlah &gt; 2 pilih nilai nominal &gt; 3 bayar da beli</string>
+    <string name="temp_carrieroperator_title">beijing chnio</string>
+    <string name="order_info_title">informasi pesanan</string>
+    <string name="traffic_packge_text"><xliff:g id="ID_1">%1$s</xliff:g>paket traffic</string>
+    <string name="traffic_packge_default_money">2 YUAN</string>
+    <string name="traffic_packge_default_instruction">National general, pembayaran langsung</string>
+    <string name="mobile_info_numble">Payment numble: <xliff:g id="ID_1">%1$s</xliff:g></string>
+    <string name="pay_order_title">pembayaran dan pesanan</string>
+    <string name="pay_order_Immediately_title">bayar langsung</string>
+    <string name="show_problem_title">Masalah umum</string>
+    <string name="buy_record_title">catatan pembelian</string>
+    <string name="problem1_title">1 recharge flow can roam?</string>
+    <string name="problem1_content">Harap memperhatikan prompt laman, seperti tampilan negara yang dapat digunakan untuk mengekspresikan roaming nasional.</string>
+    <string name="problem2_title">2 berapa lama masa berlaku recharge flow?</string>
+    <string name="problem2_content">Recharge flow is valid for the month, the end of failure, please check the information in the operation of the.</string>
+    <string name="problem3_title">3 how to check whether the charge after the arrival?</string>
+    <string name="problem3_content">Setelah charge, harap menggunakan prompt informasi operator, Anda juga dapat menghubungi operator untuk mengkonfirmasi akun.</string>
+    <string name="problem4_title">4 flow charge wrong number?</string>
+    <string name="problem4_content">I am sorry, after the wrong number, operators (mobile, China Unicom, telecom) is not for a refund. You can choose the following several ways to try to make up for the loss: 1 contact with the actual number of machines, and the other is willing to compensate for the traffic flow; 2 contact the operator\'s customer service, consulting is able to refund the traffic has been a successful recharge.</string>
+    <string name="problem5_title">5 setelah gagal, berapa lama?</string>
+    <string name="problem5_content">Biasanya kami akan mengganti rugi kepada Anda atas kesalahan yang terjadi. Selama 24 jam, Anda dapat bergabung dalam kelompok QQ resmi (188473978) untuk umpan balik.</string>
+    <string name="problem6_title">6 bagaimana saya bisa memeriksa riwayat pesanan dan catatan dagang saya?</string>
+    <string name="problem6_content">Can be through the flow of the top of the page recharge records show.</string>
+    <string name="mobile_invalid_text">seluler tidak valid</string>
+    <string name="sell_alipay">bayar melalui alipay</string>
+    <string name="sell_weixin_pay">bayar melalui weixin</string>
+    <string name="payment_success_txt">pesanan berhasil!</string>
+    <string name="payment_failed_txt">pesanan gagal!</string>
+    <string name="payment_pre_txt">Recharge</string>
+    <string name="btn_try_again_txt">Coba lagi</string>
+    <string name="no_record_txt">tidak ada catatan</string>
+    <string name="query_record_falil_txt">query gagal!</string>
+    <string name="data_load_txt">Memuat …</string>
+    <string name="net_error_text">kesalahan jaringan, silakan memeriksanya</string>
+    <string name="exit_Contacts_text">Buka buku telepon</string>
+    <string name="traffic_origan_txt">"Traffic Dasar"</string>
+    <string name="traffic_idle_txt">Traffic diam</string>
+    <string name="traffic_idle_set_title">Setelan aliran bebas</string>
+    <string name="traffic_correctting_txt">Sedang melakukan kalibrasi</string>
+    <string name="correctting_wait_txt">Mohon menunggu...</string>
+    <string name="correctting_fail_txt">Sedang memperbaiki kesalahan, coba lagi</string>
+    <string name="correctting_success_txt">Aliran telah dikalibrasi, sisa <xliff:g id="ID_1">%1$s</xliff:g>M</string>
+    <string name="query_traffic_txt">Sedang mencari penggunaan traffic Anda...</string>
+    <string name="query_product_fail_txt">Tidak ada paket berlangganan yang tersedia</string>
+    <string name="query_product_record_fail_txt">catatan produk query gagal</string>
+    <string name="no_install_weixin_txt">Harap mengkonfirmasi apakah Anda telah memasang micro letter</string>
+    <string name="no_correct_service_txt">Sedang melakukan inisialisasi, coba lagi nanti...</string>
+    <string name="buy_number_hint_txt">Silakan memasukkan nomor telepon Anda.</string>
+    <string name="no_query_code_txt">Kalibrasi gagal, silakan menyetel aliran paket secara manual</string>
+    <string name="buy_omitted_displayname"><xliff:g id="ID_1">%1$s</xliff:g>...</string>
+    <string name="sell_baseinfo_symbol">/</string>
+    <string name="calibrate_setting_txt">Setelan Kalibrasi</string>
+    <string name="calibrate_setting_province">Provinsi</string>
+    <string name="calibrate_setting_brand">Brand Operator</string>
+    <string name="calibrate_setting_province_choice">Pilihan Provinsi</string>
+    <string name="calibrate_setting_brand_choice">Pilihan Brand Operator</string>
+    <string name="calibrate_send_msg_fail">Gagal mengirim SMS, silakan memeriksa setelan brand operasi</string>
+    <string name="traffic_flaw_price_txt"><xliff:g id="ID_1">%1$s</xliff:g>YUAN</string>
+    <string name="buy_record_baseinfo_txt"><xliff:g id="ID_1">%1$s</xliff:g> Recharge <xliff:g id="ID_2">%2$s</xliff:g> /<xliff:g id="ID_3">%3$s</xliff:g>YUAN</string>
+    <string name="buy_record_paytype_txt"><xliff:g id="ID_1">%1$s</xliff:g><xliff:g id="ID_2">%2$s</xliff:g></string>
+    <string name="noti_softap_setting_title">Pemberitahuan hotspot share data</string>
+    <string name="noti_softap_setting_text">Tampilkan pemberitahuan saat <xliff:g id="ID_1">%s</xliff:g> data telah tercapai sekali waktu</string>
+    <string name="noti_softap_group_title">Setelan data hotspot WLAN portabel</string>
+    <string name="noti_softap_setting_cancel">Batal</string>
+    <string name="noti_softap_setting_userDefine">Ubahsuaian</string>
+    <string name="noti_softap_setting_commit">Kerjakan</string>
+    <string name="noti_softap_setting_units">M</string>
+    <string name="noti_softap_warning_title">Notifikasi Data</string>
+    <string name="noti_softap_warning_message">Hotspot share data sudah tercapai <xliff:g id="ID_1">%s</xliff:g>, matikan hotspot?</string>
+    <string name="noti_softap_close_text">Matikan</string>
+    <string name="noti_softap_no_warning_text">Tidak ada pengingat</string>
+    <string name="error_phone_number_text">Nomor telepon tidak valid</string>
+    <string name="nogi_entry_buy_text">,Klik untuk membeli paket traffic</string>
+    <string name="info_save_error_no_used_input">Silakan memasukkan traffic yang digunakan</string>
+    <string name="payment_sended_txt">Pesanan telah dikirimkan, sedang menunggu operator untuk recharge...</string>
+    <string name="payment_explain_txt">Usually buy flow within 1 hour to account, but also because of the network and other reasons caused by time delay, you can through dial customer service phone operators or operators to send text messages to whether a query to the final account. \n Arrears, package mutex, operators at the end of the settlement and other reasons may will lead to the failure of a refund, please ultimately prevail in the operator information.</string>
+    <string name="payment_fail_reason_txt">Dapat disebabkan oleh masalah jaringan atau sistem operator sedang sibuk dan penyebab kegagalan yang tidak diketahui lainnya.</string>
+    <string name="weixin_freezed_txt">WeChat dibekukan, tidak dapat digunakan</string>
+    <string name="dialog_btn_cancel">Batal</string>
+    <string name="dialog_btn_unlock">Lepaskan</string>
+    <string name="dialog_network_control_title">Peringatan System Manager</string>
+    <string name="net_type_mobile">Jaringan seluler</string>
+    <string name="net_type_wifi">Jaringan WLAN</string>
+    <string name="dialog_not_alert_again">Tidak ada peringatan</string>
+    <string name="dialog_network_control_content"><xliff:g id="ID_1">%1$s</xliff:g> telah dilarang untuk digunakan <xliff:g id="ID_1">%1$s</xliff:g> , whether or not to release this disable</string>
+    <string name="noti_softap_use_agiain_txt">Gunakan <xliff:g id="ID_1">%1$d</xliff:g>M</string>
+    <string name="dialog_know">Mengerti</string>
+    <string name="hotspot_restart">Lanjutkan</string>
+    <string name="hotspot_settingvalue_valid">Saat berbagi hotspot <xliff:g id="ID_1">%1$d</xliff:g>M ,Anda akan diingatkan kembali</string>
+    <string name="hotspot_settingvalue_invalid">Digunakan <xliff:g id="ID_1">%1$1.2f</xliff:g>M silakan me-restrart</string>
+    <string name="hotspot_userdefine_settingvalue_invalid">Data tidak valid, silakan me-restart</string>
+    <string name="hotspot_auto_close_message">Hotspot share data telah tercapai <xliff:g id="ID_1">%d</xliff:g>M, matikan hotspot agar konsumsi tidak berlebihan</string>
+    <string name="weixin_disenabled_txt">WeChat dinonaktifkan, tidak dapat digunakan</string>
+    <string name="lockscreen_traffic_remind_close">Tidak ada pengingat</string>
+    <string name="lockscreen_traffic_limit_one">100k</string>
+    <string name="lockscreen_traffic_limit_two">1M</string>
+    <string name="lockscreen_traffic_limit_three">5M</string>
+    <string name="lockscreen_traffic_remid_title">Pengingat traffic data kunci layar</string>
+    <string name="traffic_remind_group_title">Pengingat traffic</string>
+    <string name="lockscreen_traffic_remid_txt">Traffic data mencapai <xliff:g id="ID_1">%1$s</xliff:g>saat layar terkunci</string>
+    <string name="lock_screen_traffic_title">Traffic data mencapai <xliff:g id="ID_1">%s</xliff:g> saat layar terkunci</string>
+    <string name="lock_screen_traffic_content">Sentuh untuk memeriksa rincian</string>
+    <string name="lock_screen_traffic_unknow_app">Apl tak dikenal</string>
+</resources>

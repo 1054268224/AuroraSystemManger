@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- SoftManager begin -->
+    <string name="title_activity_soft_manager">Gestionnaire d\'applications</string>
+    <string name="title_activity_permission_mrg">Autorisation de l\'application</string>
+    <string name="text_load">Chargement en cours…</string>
+    <string name="text_internal_storage">Téléphone</string>
+    <string name="text_total_internal">Mémoire interne</string>
+    <string name="text_total_sd">SD</string>
+    <string name="text_system_space">Mémoire système</string>
+    <string name="text_available_space">Disponible</string>
+    <string name="text_used_space">Utilisée</string>
+    <string name="gn_sdcard_unmounted">La carte SD n\'est pas disponible</string>
+    <string name="gn_internal_unmounted">Mémoire interne non disponible</string>
+    <!-- Remove Package -->
+    <string name="title_activity_remove_package">Désinstaller application</string>
+    <string name="uninstall">Désinstaller</string>
+    <string name="text_no_third_app">Aucune application ne peut être désinstallée</string>
+    <string name="summary_no_third_app">Aucune application tierce installée sur votre téléphone, veuillez accéder à l\'app store pour en télécharger une.</string>
+    <!-- Move Package -->
+    <string name="title_activity_move_pacakge">Déplacer application</string>
+    <string name="text_moving">Déplacement en cours…</string>
+    <string name="text_btn_move_to_sdcard">Déplacer vers la carte SD</string>
+    <string name="text_btn_move_to_internal">Déplacer vers le stockage interne</string>
+    <string name="text_btn_move_to_phone_internal">Déplacer vers la mémoire système</string>
+    <string name="text_move_failed_doesnt_exist">Échec du déplacement de [<xliff:g>%1$s</xliff:g>]. L\'application n\'existe pas. (Cette application est peut-être installée dans la carte SD, qui a été retirée)</string>
+    <string name="text_move_failed_doesnt_exist_not_surport">Échec du déplacement de [<xliff:g>%1$s</xliff:g>]. L\'application n\'existe pas ou est en mode de stockage.</string>
+    <string name="text_no_sd_card">La carte SD n’existe pas</string>
+    <string name="text_no_sd_card_not_surport">Impossible de déplacer l\'application en mode de stockage</string>
+    <string name="text_move_failed_insufficient_storage">Échec du déplacement de [<xliff:g>%1$s</xliff:g>], stockage insuffisant</string>
+    <string name="text_move_failed_internal_error">Échec du déplacement de [<xliff:g>%1$s</xliff:g>]. La carte SD n’existe pas ou son stockage est insuffisant.</string>
+    <string name="text_move_failed_operation_pending">Échec du déplacement, opération en attente.</string>
+    <string name="text_move_failed_unkown_reason">Échec du déplacement de [<xliff:g>%1$s</xliff:g>]</string>
+    <string name="text_no_app_has_permission">Aucune application n\'est liée à cette autorisation</string>
+    <string name="text_no_app_has_nopermission">Aucune application n\'interdit cette autorisation</string>
+    <string name="text_no_permission">Aucune application ne dispose de cette autorisation</string>
+    <string name="text_allow_permission">Autorisé</string>
+    <string name="text_forbidden_permission">Interdit</string>
+    <string name="text_allow">Autoriser</string>
+    <string name="text_forbidden">Interdire</string>
+    <string name="text_ask">Demander</string>
+    <!-- Default Soft -->
+    <string name="title_activity_default_mrg">Paramètres d\'application par défaut</string>
+    <string name="text_software_def_not_set">Application par défaut non définie</string>
+    <string name="title_software_def_not_set">Aucune valeur par défaut</string>
+    <string name="text_no_installed">Ce type d\'application n\'est pas installé</string>
+    <string name="item_summary_app_uninstall">
+        <xliff:g>%1$s</xliff:g> applications tierces peuvent être désinstallées</string>
+    <string name="item_summary_app_freeze">
+        <xliff:g>%1$s</xliff:g> applications système peuvent être bloquées</string>
+    <string name="storage_unmounted">Aucune information sur la mémoire ne peut être obtenue en mode de stockage</string>
+    <string name="no_app_system_space">Aucune application dans la mémoire système</string>
+    <string name="no_app_internal">Aucune application dans le stockage interne</string>
+    <string name="no_app_sd">Aucune application dans la carte SD</string>
+    <string name="permission_pre">Interdire <xliff:g>%1$s</xliff:g></string>
+    <string name="permission_pre1">Autoriser <xliff:g>%1$s</xliff:g></string>
+    <string name="permission_end">
+        <xliff:g>%1$s</xliff:g>
+    </string>
+    <string name="read_sms_mms">Lire MMS</string>
+    <string name="send_sms_mms">Envoyer MMS</string>
+    <string name="write_sms_mms">Afficher/Modifier MMS</string>
+    <string name="nfc_switch_open">Le NFC est activé</string>
+    <string name="nfc_switch_close">Le NFC est désactivé</string>
+    <string name="text_permission_mrg">Autorisation</string>
+    <string name="text_permission_mrg_app">Application</string>
+    <string name="itrust">Je fais confiance à cette application</string>
+    <string name="itrust_second">Le système autorisera toutes les autorisations si vous activez cette option</string>
+    <string name="permlab_readMms">Lire MMS</string>
+    <string name="permlab_writeMms">Modifier/supprimer MMS</string>
+    <string name="perm_send_mms">Envoyer MMS</string>
+    <string name="perm_default">Par défaut</string>
+    <string name="has_no_trust_permission">Aucune autorisation liée à la confidentialité et à la sécurité</string>
+    <string name="app_permission_count">Inclut <xliff:g>%1$s</xliff:g> autorisations liées à la confidentialité et à la sécurité</string>
+    <string name="text_no_privacy_has_permission">Aucune application de confidentialité et de sécurité</string>
+    <string name="permission_remind">Rappel</string>
+    <string name="permission_important">Important</string>
+    <string name="permission_grade">Niveau de confiance des autorisations</string>
+    <string name="recommend_use">(Recommandé)</string>
+    <string name="app_freeze">"Blocage d\'application"</string>
+    <string name="text_freeze">Applications bloquables</string>
+    <string name="text_freezed">Applications ont été bloquées</string>
+    <string name="text_freeze_btn">"Bloquer"</string>
+    <string name="text_freezeing_btn">Blocage en cours</string>
+    <string name="text_freezed_btn">"Restaurer"</string>
+    <string name="freeze_title">Avis de blocage</string>
+    <string name="freeze_message">Le blocage de l\'application peut entraîner un dysfonctionnement, souhaitez-vous continuer ?</string>
+    <string name="freeze_note">Conseil : les applications bloquées peuvent être restaurées dans la liste de droite</string>
+    <string name="freeze_cancel">"Annuler"</string>
+    <string name="freeze_continue">"OK"</string>
+    <string name="text_no_freezed_app">Aucune application n\'a été bloquée</string>
+    <string name="app_monitor_title">Liste des applications les moins utilisées cette semaine</string>
+    <string name="app_frequency">Application la moins utilisée</string>
+    <string name="app_frequency_title">Fréquence d\'utilisation au cours d\'un mois :</string>
+    <string name="app_frequency_nerver">Plus de 1 mois</string>
+    <string name="app_frequency_often">
+        <xliff:g>%1$s</xliff:g> jours sans utilisation</string>
+    <string name="app_frequency_always">
+        <xliff:g>%1$s</xliff:g> jours sans utilisation</string>
+    <string name="app_frequency_today">Utilisation aujourd\'hui</string>
+    <!--Gionee <jianghuan> <2014-03-28> modify for CR01097010 begin -->
+    <string name="root_repair_title">Avertissement de risque de débridage</string>
+    <string name="root_ota_repair_content">Le système a été débridé, et les fichiers système ont été sérieusement endommagés. Cela risque d\'entraîner un fonctionnement anormal du téléphone. Nous vous recommandons une réparation OTA immédiate.</string>
+    <string name="root_repair_content">Le système a été débridé. Le mot de passe de votre compte, vos informations de contact, etc. sont menacées. Nous vous recommandons une réparation clé.</string>
+    <string name="button_close">Fermer</string>
+    <string name="button_repair">Réparation</string>
+    <string name="button_ota_repair">Réparation</string>
+    <string name="toast_repair_success">Réparation du système réussie</string>
+    <string name="toast_repair_fail">Échec de la réparation du système. Nous vous recommandons une réparation OTA.</string>
+    <string name="ota_risk_relieve_title">Réparation du système réussie</string>
+    <string name="ota_risk_relieve_content">Le risque lié au débridage a été retiré du système</string>
+    <!--Gionee <jianghuan> <2014-03-28> modify for CR01097010 end -->
+    <string name="sd_card_title">Carte SD</string>
+    <string name="uninstall_sort">"Changer de vue"</string>
+    <string name="uninstall_header_name">"Trier par nom"</string>
+    <string name="uninstall_header_time">Trier par temps</string>
+    <string name="uninstall_header_frequency">"Trier par taux d\'utilisation"</string>
+    <string name="uninstall_header_size">Trier par taille de l\'application</string>
+    <string name="uninstall_app_size">
+        <xliff:g>%1$s</xliff:g> application(s)</string>
+    <string name="permission_notify">Autorisation du rappel d\'appel</string>
+    <!-- SoftManager end -->
+    <!-- Application Manager start -->
+    <string name="phone_outer_sd_storage">Carte SD</string>
+    <!-- Application Manager end -->
+    <string name="single_progress_title">Utilisée</string>
+    <string name="single_progress_sign">%</string>
+    <string name="move_to_internal">Déplacer vers le stockage interne</string>
+    <string name="move_to_sdcard">Déplacer vers la carte SD</string>
+    <string name="move_to_systemspace">Déplacer vers la mémoire système</string>
+    <string name="moving_app">Déplacement en cours</string>
+    <string name="moving_wait">Déplacement, veuillez patienter. Vous pouvez appuyer sur le bouton Accueil pour retourner à l\'écran d\'accueil</string>
+    <string name="green_background">Mode éco</string>
+    <string name="green_background_off">Arrière-plan éco fermé</string>
+    <string name="green_background_on">Arrière-plan éco ouvert</string>
+    <!--guoxt modify-->
+    <string name="green_summary_string">Si vous souhaitez que les applications ne consomment pas de données ou n\'envoient pas de messages indésirables en arrière-plan, nous vous recommandons d\'activer cette fonction.</string>
+    <string name="green_summary_string1">Évite l\'utilisation des données ou les notifications push indésirables de la part des applications.</string>
+    <string name="green_summary_string2">Nous vous recommandons d\'activer cette fonction.</string>
+    <string name="green_summary_on_string1">Les applications désactivées ne seront pas autorisées à s\'exécuter en arrière-plan</string>
+    <string name="green_summary_on_string2">Lorsque l\'écran est éteint depuis 2 minutes, que le stockage est inférieur à 20 % ou qu\'il s\'agit d\'un dossier de jeu</string>
+    <string name="green_summary_on_string3">ou l\'application est lancée depuis le dossier Jeux</string>
+    <string name="green_summary_on_string4">Les données mobiles, la batterie et la puissance du CPU ne seront pas consommés</string>
+    <string name="green_summary_on_string">Lorsque le mode d\'arrière-plan éco est activé, si l\'écran est éteint pendant 2 minutes, le stockage est inférieur à 20 % ou l\'application est lancée depuis le dossier Jeux, le système nettoiera automatiquement l\'application et lui interdira de se démarrer par elle-même, afin de garantir le fonctionnement fluide du téléphone mobile.</string>
+    <string name="green_summary_on">Ouvert</string>
+    <string name="green_summary_off">"Fermé"</string>
+    <string name="allow_background_app">Applications autorisées s\'exécutant en arrière-plan</string>
+    <string name="green_whitelist_manage">Gérer</string>
+    <string name="text_no_green_whitelist">Aucune application ne s\'exécutant en arrière-plan</string>
+    <string name="text_no_whitelist">Aucune application tierce</string>
+    <string name="app_not_exit">L\'application n\'existe pas. Veuillez vérifier à nouveau.</string>
+    <string name="app_auto_start">Démarrage automatique de l\'application</string>
+    <string name="select_all">"Tout sélectionner"</string>
+    <string name="unselect_all">Tout désélectionner</string>
+    <string name="system_move_app_size">
+        <xliff:g>%1$s</xliff:g> sur le système</string>
+    <string name="internal_move_app_size">
+        <xliff:g>%1$s</xliff:g> dans la mémoire interne</string>
+    <string name="sdcard_move_app_size">
+        <xliff:g>%1$s</xliff:g> dans la carte SD</string>
+    <string name="select_default_text">Sélectionner <xliff:g>%1$s</xliff:g></string>
+    <string name="green_bg_dialog_title">"Ouvrir arrière plan vert"</string>
+    <string name="green_bg_dialog_msg">"Les applications absentes dans la liste blanche seront nettoyés.\nPrière d\'ajouter l\'application que vous l\'utiliser souvent à cette liste blanche.\nOuvrir ou non?"</string>
+    <string name="green_bg_dialog_ok">"Ovrir"</string>
+    <string name="green_bg_dialog_cancel">"Annuler"</string>
+    <string name="green_bg_notifi_title">Le rappel d\'arrière-plan éco est activé</string>
+    <string name="green_bg_notifi_content">Les applications qui ne sont pas dans la liste blanche seront nettoyées. Nous vous suggérons d\'ajouter les applications fréquemment utilisées à la liste blanche.</string>
+    <string name="auto_start_head_text">Le démarrage automatique d\'%1$d application a été autorisé</string>
+    <string name="removed">Supprimé</string>
+    <string name="title_about">À propos</string>
+    <string name="app_freeze_prompt_btn">Je sais</string>
+    <string name="ui_def_soft_inputmethod">Mode de saisie par défaut</string>
+    <string name="text_no_freezed_app_first">Une fois l\'application bloquée, cela produit le même effet que la désinstallation. Elle sera masquée de l\'écran d\'accueil mais ne fonctionnera pas en arrière-plan et ne consommera pas de données, ce qui permet de réduire l\'utilisation de la batterie.</string>
+    <string name="text_no_freezed_app_second">Vous pouvez sélectionner l\'application bloquée lorsque vous souhaitez la restaurer. Après la restauration, elle apparaîtra sur la dernière position dans l\'écran d\'accueil, et les widgets devront être réinitialisés.</string>
+    <string name="txt_add_freeze_app">Ajouter d\'autres applications à bloquer</string>
+    <string name="app_freeze_prompt_info">Une fois l\'application bloquée, cela produit le même effet que la désinstallation. Vous pouvez bloquer les applications que vous n\'utilisez pas fréquemment, et les restaurer en cas de besoin. Après la restauration, elles seront placées sur la dernière position dans l\'écran d\'accueil et les widgets devront être réinitialisés.</string>
+    <string name="freezed_app_head_text">%1$d élément(s) bloqué(s)</string>
+    <string name="freeze_app_title">Ajouter d\'autres applications à bloquer</string>
+    <string name="unfreeze_app_toast_format_str">%s a été restaurée sur l\'écran d\'accueil</string>
+    <string name="app_lock_manager_activity_title">"Verrou d\'application"</string>
+    <string name="text_app_lock_prompt">Vous devez saisir un mot de passe afin d\'utiliser l\'application verrouillée, et celle-ci prend pas en charge le mode d\'écran partagé</string>
+    <string name="text_no_app_lock_app">Aucune application ne peut être chiffrée</string>
+    <string name="app_lock_setting_dialog_title">Paramètres de verrouillage d\'application</string>
+    <string name="app_lock_setting_item_1">Verrouiller l\'application une fois l\'écran en mode veille</string>
+    <string name="app_lock_setting_item_2">Verrouiller l\'application une fois l\'écran en mode veille ou lorsque vous quittez</string>
+    <string name="ui_def_soft_browser">Application Internet par défaut</string>
+    <string name="ui_def_soft_contact">Contact par défaut</string>
+    <string name="ui_def_soft_launcher">Lanceur par défaut</string>
+    <string name="ui_def_soft_camera">Application d\'appareil photo par défaut</string>
+    <string name="ui_def_soft_photos">Application par défaut pour les photos</string>
+    <string name="ui_def_soft_music">Application par défaut pour la musique</string>
+    <string name="ui_def_soft_video">Application par défaut pour les vidéos</string>
+    <string name="ui_def_soft_reading">Application de lecture par défaut</string>
+    <string name="autoboot_forbidden_notify_title">Le démarrage automatique n\'est autorisé pour aucune application</string>
+    <string name="autoboot_forbidden_notify_turn_off">Fermer le rappel</string>
+    <string name="autoboot_forbidden_notify_content">La tentative de démarrage automatique de %1$s a été bloquée. Cliquez pour en savoir plus.</string>
+    <string name="phone_inner_storage">Mémoire du téléphone</string>
+    <string name="single_phone_inner_storage">Mémoire du téléphone</string>
+    <string name="text_no_freeze_app">Aucune application ne peut être bloquée</string>
+    <!--Chenyee liyuchong modify for CSW1703AC-75 begin  -->
+    <string name="GB">Go</string>
+    <string name="MB">Mo</string>
+    <string name="KB">Ko</string>
+    <string name="B">B</string>
+    <!--Chenyee liyuchong modify for CSW1703AC-75 end  -->
+    <string name="app_lock">Verrou d\'application</string>
+    <string name="btn_speedup">Accélérer</string>
+    <string name="text_speedup">Booster la vitesse</string>
+</resources>

@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!-- SoftManager begin -->
+  <string-array name="header_list">
+    <item>چالو کریں</item>
+    <item>غیرفعال کریں</item>
+  </string-array>
+  <!-- 默认软件设置title 
+    <string-array name="ui_def_soft_title">
+        <item>Default inputMethod</item>
+        <item>Default browser</item>
+        <item>Default contacts</item>
+        <item>Default messaging</item>
+        <item>Default launcher</item>
+        <item>Default camera</item>
+        <item>Default image</item>
+        <item>Default music</item>
+        <item>Default video</item>
+        <item>Default reader</item>
+    </string-array> -->
+  <string-array name="listitem_soft_manager_activity">
+    <item>ایپ آٹومیٹک شروع ہوتی ہے</item>
+    <item>ایپ ان انسٹال</item>
+    <item>ایپ منجمد</item>
+    <item>ایپ لاک</item>
+  </string-array>
+  <!-- Software Permission Setting Title -->
+  <string-array name="listitem_permission_setting">
+    <item>مکمل قابل اعتماد</item>
+    <item>جزوی اعتماد</item>
+    <item>یقین نہ کریں</item>
+  </string-array>
+  <string-array name="listitem_permission_setting_summary">
+    <item>جب ایپلیکیشن کوئی اجازت مانگتا ہے تو بم باکس پرامپٹ نہیں ہوتا ہے</item>
+    <item>ایپلیکیشن جب بھی کسی اہم اجازت کے لۓ پوـھیں باکس بم تبھی پرامپٹ ہو</item>
+    <item>ایپلیکیشن کےذریعہ کسی اہم اجازت کو کال کرنے پر بم باکس کا پرومٹ ہوگا</item>
+  </string-array>
+  <string-array name="listitem_freeze_app_summary">
+    <item> ایپ کا کوئی اثر نہیں ہے </item>
+    <item> ایپ محتاط ہے</item>
+  </string-array>
+  <!-- Gionee: mengdw <2016-08-01> modify for CR01739399 end -->
+  <string-array name="uninstall_sort">
+    <item>ایپ نام کے مطابق ترتیب وار کریں</item>
+    <item>انسٹال کے وقت کے مطابق ترتیب وار کریں</item>
+    <item>استعمال کی شرح کے مطابق ترتیب وار کریں</item>
+    <item>ایپ سائز کے مطابق ترتیب وار کریں</item>
+  </string-array>
+  <string-array name="green_list_item">
+    <!-- Gionee <yangxinruo> <2016-1-13> modify for CR01621967 begin -->
+    <item>سفید فہرست کلین کریں</item>
+    <!-- Gionee <yangxinruo> <2016-1-13> modify for CR01621967 end -->
+  </string-array>
+  <string-array name="freeze_tab_item">
+    <item>قابل انجماد </item>
+    <item>منجمد</item>
+  </string-array>
+  <string-array name="auto_start_tab_item">
+    <item>اجازت دیں</item>
+    <item>روک دیں</item>
+  </string-array>
+  <string-array name="move_tab_item">
+    <item>سسٹم اسپیس </item>
+    <item>انٹرنل</item>
+  </string-array>
+  <string-array name="move_tab_item_sd">
+    <item>سسٹم اسپیس </item>
+    <item>SD کارڈ</item>
+  </string-array>
+  <!-- SoftManager end -->
+
+
+  <string-array name="app_lock_setting_items">
+    <item>@string/app_lock_setting_item_1</item>
+    <item>@string/app_lock_setting_item_2</item>
+  </string-array>
+
+
+
+</resources>

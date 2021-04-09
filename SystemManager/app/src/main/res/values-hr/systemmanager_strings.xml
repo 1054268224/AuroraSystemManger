@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">"Upravitelj sustava"</string>
+    <string name="cell_accelerator">"Čišćenje memorije"</string>
+    <string name="cell_accelerator_summary">"Upotreba memorije <![CDATA[<font color="#d23030">%1$s%%</font>]]>"</string>
+    <string name="rubbish_clean">"Čišćenje otpada"</string>
+    <string name="rubblish">"caches<![CDATA[<font color="#d23030">%1$s%%</font>]]>"</string>
+    <string name="power_optimizer">"Optimizer energije"</string>
+    <string name="can_use">"Može koristiti <![CDATA[<font color="#d23030">%1$s%%</font>]]>"</string>
+    <string name="charge_time">"Potreban <![CDATA[<font color="#d23030">%1$s%%</font>]]>"</string>
+    <string name="traffic_monitor">"Nadziranje prometa"</string>
+    <string name="traffic_remained">"Preostao promet <![CDATA[<font color="#d23030">%1$s%%</font>]]>"</string>
+    <string name="traffic_exceed">"Premašen promet <![CDATA[<font color="#d23030">%1$s%%</font>]]>"</string>
+    <string name="antivirus">"Sumnjive aplikacije <![CDATA[<font color="#d23030">%1$s%%</font>]]>"</string>
+    <string name="traffic_no_setting">"Paket prometa nije postavljen"</string>
+    <string name="traffic_no_simcard">"SIM kartica nije umetnuta"</string>
+    <string name="soft_manager">"Upravitelj aplikacija"</string>
+    <string name="app_installed">"Total aplikacije <![CDATA[<font color="#d23030">%1$s%%</font>]]>"</string>
+    <string name="perm_manager">"Dozvola Aplikacije"</string>
+    <string name="minutes">"min"</string>
+    <string name="hours">"h"</string>
+    <string name="cannotget">"Nije moguće pristupiti"</string>
+    <string name="quick_accelerate">"Ubrzavanje telefona"</string>
+    <string name="toast_content">"oslobođeno%1$smemorije"</string>
+    <string name="menu_setting">"Postavke"</string>
+    <string name="items_switch">"Nadziranje pozadine"</string>
+    <string name="net_monitor_title">"Podsjetnik na upotrebu mrežnih podataka"</string>
+    <string name="net_monitor_summary">"Provjerite upotrebu mrežnih podataka koje aplikacije koriste jednom tjedno"</string>
+    <string name="energy_monitor_title">"Podsjetnik na potrošnju energije"</string>
+    <string name="energy_monitor_summary">"Provjerite koliko energije troše aplikacije jednom tjedno"</string>
+    <string name="apps_monitor_title">"Podsjetnik na aplikacije koje rijetko koristite"</string>
+    <string name="apps_monitor_summary">"Provjerite učestalost upotrebe aplikacija jednom tjedno"</string>
+    <string name="root_monitor_title">"Podsjetnik na otključavanje"</string>
+    <string name="root_monitor_summary">"Provjerite da li je sustav uređaja otključan"</string>
+    <string name="desktop_monitor_title">"Nadziranje desktopa"</string>
+    <string name="desktop_monitor_summary">"Provjerite da li je desktop na zadanom i prikažite ga na statusnoj traci"</string>
+    <string name="utilization_title">"Sustav upozorenja"</string>
+    <string name="utilization_content">"Dobrodošli u UpravljanjeSustava,\nOva aplikacija može dovesti do naknade prometa. Molimo pitajte mrežnog operatera za više informacija. Želite nastaviti?"</string>
+    <string name="dialog_checkbox_description">"Nema više alarma"</string>
+    <string name="dialog_exit_btn">"izađi"</string>
+    <string name="dialog_continue_btn">"Nastavi"</string>
+    <string name="text_antivirus">"Antivirus"</string>
+    <string name="text_start_scan">"Započnite skeniranje"</string>
+    <string name="text_cancel_scan">"Otkažite skeniranje"</string>
+    <string name="text_scaning">"Skenira se"</string>
+    <string name="text_scaning_result">"Skeniranje završeno"</string>
+    <string name="text_scaning_reminder">"Preporuča se hitno ispitivanje"</string>
+    <string name="text_score_unit">"0%"</string>
+    <string name="text_menu_savepower">"Baterija"</string>
+    <string name="text_menu_traffic">"Promet"</string>
+    <string name="text_menu_pure">"Očistiti"</string>
+    <string name="text_menu_ram">"Memorija"</string>
+    <string name="text_one_key_check">"Ispitaj"</string>
+    <string name="text_one_key_check_complete">"Gotovo"</string>
+    <string name="text_scan_daily_none">"Nema fizičkog ispitivanja, preporuča se hitno pokretanje"</string>
+    <string name="text_scan_daily_cancel">"Ispitivanje je otkazano, preporuča se hitna provjera"</string>
+    <string name="text_scan_daily_last">"Posljednja provjera <xliff:g id="ID_1">%s</xliff:g>"</string>
+    <string name="text_scan_result_good">"Mobilni telefon je u redu, nastavite ka optimizaciji"</string>
+    <string name="text_scan_result_better">"Mobilni telefon je u redu, molimo zadržite"</string>
+    <string name="text_scan_result_problem">"Mobilni telefon ima problema, optimiziranje preporučeno"</string>
+    <string name="text_accelerating">"Ubrzava se"</string>
+    <string name="text_memory_release">"Oslobodi memoriju <xliff:g id="ID_1">%s</xliff:g>"</string>
+    <string name="text_memory_release_running">"Memorija se oslobađa"</string>
+    <string name="text_memory_release_display">"Ubrzavanje uspješno, oslobađanje memorije <xliff:g id="ID_1">%s</xliff:g>"</string>
+    <string name="text_memory_used">"Korišteno <xliff:g id="ID_1">%s</xliff:g>"</string>
+    <string name="text_phone_state_better">"Mobilni telefon je optimiziran"</string>
+    <string name="text_phone_state_problem">"Mobilni telefon nije u redu, hitno ga ubrzajte"</string>
+    <string name="text_root_remind">"Telefon je rutovan"</string>
+    <string name="text_root_remind_restore">"obnovite"</string>
+    <string name="msg_superpower_error">"Posljednji switch nije normalan, rebootoj za ponovni početak."</string>
+    <string name="msg_error_title">"Nenormalno podsjećanje"</string>
+    <string name="msg_reboot">"Reboot"</string>
+    <string name="msg_background_process">Popis dozvoljenih</string>
+    <string name="next_with_arrow">Slijedeće &gt;</string>
+    <string name="app_process_limit_title">Ograničenje pozadinskog procesa</string>
+    <string name="pressure_sensor_menu_third">Postavke zadanih aplikacija</string>
+    <string name="pressure_sensor_menu_fourth">Kontrolirajte umrežavanje</string>
+    <string name="next">Dalje</string>
+    <string name="settings_with_arrow">Postavke &gt;</string>
+    <string name="settings">Postavke</string>
+</resources>

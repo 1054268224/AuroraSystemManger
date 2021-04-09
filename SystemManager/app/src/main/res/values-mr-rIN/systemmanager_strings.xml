@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="app_name">सिस्टीम मॅनेजर</string>
+  <string name="cell_accelerator">मेमरी काढून टाका</string>
+  <string name="cell_accelerator_summary">मेमरीचा वापरा <![CDATA[<font color="#d23030">%1$s%%</font>]]></string>
+  <string name="rubbish_clean">कॅशे क्लीनर</string>
+  <string name="rubblish">कॅशेस <![CDATA[<font color=#d23030">%1$s</font>]]></string>
+  <string name="power_optimizer">पॉवर ऑप्टिमाइझर</string>
+  <string name="can_use"><![CDATA[<font color="#6eb330">%1$s</font>]]> वापरू शकते</string>
+  <string name="charge_time"><![CDATA[<font color="#6eb330">%1$s</font>]]> हवे आहे</string>
+  <string name="traffic_monitor">ट्रॅफिक मॉनिटर</string>
+  <string name="traffic_remained"><![CDATA[<font color="#6eb330">%1$s</font>]]> ट्रॅफिक बाकी आहे</string>
+  <string name="traffic_exceed">ट्रॅफिक अधिक झाला आहे <![CDATA[<font color="#6eb330">%1$s</font>]]></string>
+  <string name="traffic_no_setting">ट्रॅफिक पॅकेज सेट केलेले नाही</string>
+  <string name="traffic_no_simcard">सिम कार्ड घातले नाही</string>
+  <string name="soft_manager">ॲप मॅनेजर</string>
+  <string name="app_installed">एकूण ॲप्स<![CDATA[<font color="#d23030">%1$s</font>]]></string>
+  <string name="perm_manager">ॲपची परवानगी</string>
+  <string name="danger_apps"></string>
+  <string name="minutes">मिनिटे</string>
+  <string name="hours">तास</string>
+  <string name="cannotget">मिळवू शकत नाही</string>
+  <string name="quick_accelerate">फोन ॲक्सलरेट</string>
+  <string name="toast_content">%1$s मेमरी मोकळी करा</string>
+  <string name="menu_setting">सेटिंग्स</string>
+  <string name="items_switch">बॅकग्राउंड निरीक्षण</string>
+  <string name="net_monitor_title">ट्रॅफिक वापराचे रिमाइंडर</string>
+  <string name="net_monitor_summary">आठवड्यातून एकदा ट्रॅफिक वापरास तपासा</string>
+  <string name="energy_monitor_title">पॉवरच्या वापराचा रिमाइंडर</string>
+  <string name="energy_monitor_summary">ॲपच्या पॉवर वापरास आठवड्यातून एकदा तपासा</string>
+  <string name="apps_monitor_title">क्वचितपणे वापरलेले ॲप रिमाइंडर</string>
+  <string name="apps_monitor_summary">आठवड्यातून एकदा ॲपच्या वापराच्या वारंवारतेस तपासा</string>
+  <string name="root_monitor_title">रूट रिमाइंडर</string>
+  <string name="root_monitor_summary">फोन रूट झाला आहे का ते तपासा</string>
+  <string name="desktop_monitor_title">डेस्कटॉप मॉनिटर</string>
+  <string name="desktop_monitor_summary">डेस्कटॉप डिफॉल्टमध्ये आहे का, ते तपासा आणि त्याला स्टेटसबारवर दाखवा</string>
+  <string name="utilization_title">सिस्टीम अलर्ट</string>
+  <string name="utilization_content">सिस्टीम मॅनेजर वापरण्यास स्वागत आहे. हे ॲप्लिकेशन कदाचित डाटा वापरेल. डाटा शुल्क आणि अन्य डाटाशी संबंधित माहितीसाठी नेटवर्क ऑपरेटरसह संपर्क साधा.</string>
+  <!-- gionee li_j modify for CR01456639 20150322 start -->
+  <string name="dialog_checkbox_description">मला पुन्हा आठवण करून देऊ नका</string>
+  <!-- gionee li_j modify for CR01456639 20150322 end-->
+  <string name="dialog_exit_btn">बाहेर पडा</string>
+  <string name="dialog_continue_btn">सुरू ठेवा</string>
+  <string name="text_antivirus">व्हायरसचा शोध</string>
+  <string name="text_start_scan">स्कॅन सुरू करा</string>
+  <string name="text_cancel_scan">स्कॅन रद्द करा</string>
+  <string name="text_scaning">स्कॅन होत आहे…</string>
+  <string name="text_scaning_result">स्कॅन पूर्ण झाले</string>
+  <string name="text_scaning_reminder">त्वरित परीक्षणाची शिफारस करा</string>
+  <string name="text_score_unit">%</string>
+  <string name="text_menu_savepower">पॉवर मॅनेजर</string>
+  <string name="text_menu_traffic">ट्रॅफिक मॉनिटर</string>
+  <string name="text_menu_pure">इको मोड</string>
+  <string name="text_menu_ram">मेमरी</string>
+  <string name="text_one_key_check">निरीक्षण करा</string>
+  <string name="text_one_key_check_complete">पूर्ण झाले</string>
+  <string name="text_scan_daily_none">मेमरी साफ करण्यासाठी स्पर्श करा</string>
+  <string name="text_scan_daily_cancel">परीक्षा रद्द झालेली होती, त्वरित तपासण्याची शिफारस केली</string>
+  <string name="text_scan_daily_last">अंतिम परीक्षा : <xliff:g id="ID_1">%s</xliff:g></string>
+  <string name="text_scan_result_good">मोबाईल फोन चांगला आहे, अनुकूल करणे सुरू ठेवा</string>
+  <string name="text_scan_result_better">मोबाईल फोन चांगला आहे, कृपया ठेवा</string>
+  <string name="text_scan_result_problem">मोबाईल फोनमध्ये समस्या आहेत. अनुकूल करण्याची सूचना करीत आहोत</string>
+  <string name="text_accelerating">ॲक्सलरेट होत आहे</string>
+  <string name="text_memory_release"><xliff:g id="ID_1">%s</xliff:g> मेमरी मोकळी करा</string>
+  <string name="text_memory_release_running">मेमरी मोकळी होत आहे</string>
+  <string name="text_memory_release_display">यशस्वीरित्या ॲक्सलरेट, मेमरी <xliff:g id="ID_1">%s</xliff:g> मोकळी करा</string>
+  <string name="text_memory_used"><xliff:g id="ID_1">%s</xliff:g> वापरले</string>
+  <string name="text_phone_state_better">मेमरी साफ आहे</string>
+  <string name="text_phone_state_problem">मोबाईल फोन खराब आहे, त्वरित गती द्या</string>
+  <string name="text_root_remind">फोन रूट केला आहे</string>
+  <string name="text_root_remind_restore"> रिस्टोर करा</string>
+  <string name="msg_superpower_error">अंतिम बदल अपसामान्य होता. कृपया दुरुस्तीसाठी रिबूट करा</string>
+  <string name="msg_error_title">अपसामान्य स्मरण करून देणे</string>
+  <string name="msg_reboot">रिबूट करा</string>
+  <string name="app_process_limit_title">बॅकग्राउंड प्रक्रिया मर्यादा</string>
+  <string name="app_process_limit_txt">"बॅकग्राउंड प्रक्रिया मर्यादा %s"</string>
+  <!-- Gionee <yangxinruo> <2015-12-11> modify for CR01608017 begin -->
+  <string name="msg_background_process">व्हाईट लिस्ट</string>
+  <!-- Gionee <yangxinruo> <2015-12-11> modify for CR01608017 end -->
+  <string name="pressure_sensor_menu_first">रबिश क्लीन</string>
+  <string name="pressure_sensor_menu_second">ॲप फ्रीज</string>
+  <string name="pressure_sensor_menu_third">डिफॉल्ट ॲप्लिकेशन सेटिंग्स</string>
+  <string name="pressure_sensor_menu_fourth">नेटवर्किंग नियंत्रित करा</string>
+  <string name="text_in_screenpin">"आता स्क्रीन मोडमध्ये आहे, सुपर मोड उघडू शकत नाही."</string>
+  <string name="required_permissions_promo">सिस्टीम मॅनेजरला फोन आणि SD कार्डची परवानगी आवश्यक आहे.</string>
+  <string name="enable_permission_procedure">तुम्ही सेटिंग्स > ॲप्स > सिस्टीम मॅनेजर > परवानगी यात परवानगी बदलू शकता.</string>
+  <string name="enable_permission_procedure_description">तुम्ही सेटिंग्स, ॲप्स, सिस्टीम मॅनेजर, परवानगी यात परवानगी बदलू शकता.</string>
+  <string name="next_with_arrow">पुढील ></string>
+  <string name="next">पुढील</string>
+  <string name="settings_with_arrow">सेटिंग्स ></string>
+  <string name="settings">सेटिंग्स</string>
+</resources>

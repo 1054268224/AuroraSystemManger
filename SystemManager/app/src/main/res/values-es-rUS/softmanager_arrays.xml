@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">  
+    <string-array name="ui_privacy_policy">
+  	<item>LLamada telefónica</item>
+  	<item>Enviar SMS</item>
+  	<item>Enviar MMS</item>
+  	<item>Registro de llamadas</item>
+  	<item>Leer SMS</item>
+  	<item>Leer MMS</item>
+  	<item>Leer Contactos</item>
+  	<item>Localización GPS</item>
+  	<item>Ubicación de red</item>
+  	<item>Estado del teléfono</item>
+  	<item>Escribir/Eliminar SMS</item>
+  	<item>Escribir/Eliminar MMS</item>
+  	<item>Escribir/Eliminar Contactos</item>
+  	<item>Escribir/Eliminar Registro de llamadas</item>
+  	<item>Grabadora</item>
+  	<item>Cámara</item>
+  	<item>Red móvil</item>
+  	<item>Redes WiFi</item>
+  	<item>Bluetooth</item>
+  	<item>Emparejamiento Bluetooth</item>
+  	<item>NFC</item>
+    </string-array>
+    <string-array name="permission_summary"> 
+    <item>"Las aplicaciones pueden llamar por teléfono"</item>
+    <item>"Las aplicaciones pueden enviar mensajes de texto"</item>
+    <item>"Las aplicaciones pueden enviar mensajes multimedia"</item>
+    <item>"Las aplicaciones pueden acceder al registro de llamadas"</item>
+    <item>"Las aplicaciones pueden leer mensajes de texto"</item>
+    <item>"Las aplicaciones pueden leer mensajes multimedia"</item>
+    <item>"Las aplicaciones pueden ver la libreta de contactos"</item>
+    <item>"Las aplicaciones pueden obtener su posición por GPS"</item>
+    <item>"Las aplicaciones pueden ver su ubicación de Red"</item>
+    <item>"Las aplicaciones pueden ver el estado de su teléfono"</item>
+    <item>"Las aplicaciones pueden leer/escribir/eliminar mensajes de texto"</item>
+    <item>"Las aplicaciones pueden escribir/eliminar mensajes multimedia"</item>
+    <item>"Las aplicaciones pueden escribir/eliminar contactos"</item>
+    <item>"Las aplicaciones pueden escribir/eliminar el registro de llamadas"</item>
+    <item>"Las aplicaciones pueden grabar sonidos"</item>
+    <item>"Las aplicaciones pueden utilizar la cámara"</item>
+    <item>"Las aplicaciones pueden utilizar la red móvil"</item>
+    <item>"Las aplicaciones pueden utilizar la red WiFi"</item>
+    <item>"Las aplicaciones pueden utilizar el bluetooth"</item>
+    <item>"Las aplicaciones pueden utilizar paridad por bluetooth"</item>
+    <item>"Las aplicaciones pueden utilizar NFC"</item>
+    </string-array>
+    <string-array name="header_list"> 
+    <item>Habilitado</item>
+    <item>Deshabilitar</item>
+    </string-array>
+    <string-array name="ui_def_soft"> 
+    <item>Método de entrada por defecto</item>
+    <item>Aplicación de internet por defecto</item>
+    <item>Contacto por defecto</item>
+    <item>Ejecutar por defecto</item>
+    <item>Aplicación de cámara por defecto</item>
+    <item>Aplicación de imágenes por defecto</item>
+    <item>Aplicación de música por defecto</item>
+    <item>Aplicación de video por defecto</item>
+    <item>Aplicación de lectura por defecto</item>
+    </string-array>
+    <string-array name="listitem_soft_manager_activity"> 
+    <item>Auto inicio de la aplicación</item>
+    <item>Desinstalar aplicación</item>
+    <item>Congelar aplicación</item>
+    <item>Configuracion por defecto de la aplicación</item>
+    </string-array>
+    <string-array name="list_summary_soft_manager_activity"> 
+    <item>Desinstalar aplicación</item>
+    <item>Detener y ocultar aplicación</item>
+    <item>Optimizar el espacio móvil</item>
+    <item>Seleccionar aplicación por defecto</item>
+    </string-array>
+    <string-array name="listitem_permission_setting"> 
+    <item>Toda la confianza</item>
+    <item>Confianza media</item>
+    <item>No confio</item>
+    </string-array>
+    <string-array name="listitem_permission_setting_summary"> 
+    <item>No hay símbolos de cajas bomba cuando la aplicación llama a algún Permiso</item>
+    <item>Sólo cuando la aplicación llama a un Permiso Importante la caja bomba aparece</item>
+    <item>Cuando la aplicación llama a cualquier Permiso la caja bomba aparecerá</item>
+    </string-array>
+    <string-array name="listitem_freeze_app_summary"> 
+    <item>aplicaciones congelables</item>
+    <item>aplicaciones con precauciones</item>
+    </string-array>
+    <string-array name="uninstall_sort"> 
+    <item>Sort by app name</item>
+    <item>Ordenar por fecha de instalación</item>
+    <item>Ordenar por tasa de uso</item>
+    <item>Ordenar por tamaño de aplicación</item>
+    </string-array>
+    <string-array name="green_list_item"> 
+    <item>Lista blanca</item>
+    </string-array>
+    <string-array name="freeze_tab_item"> 
+    <item>Congelable</item>
+    <item>Congelado</item>
+    </string-array>
+    <string-array name="auto_start_tab_item"> 
+    <item>Permitir</item>
+    <item>Prohibir</item>
+    </string-array>
+    <string-array name="move_tab_item"> 
+    <item>Espacio Sistema</item>
+    <item>interna</item>
+    </string-array>
+    <string-array name="move_tab_item_sd"> 
+    <item>Espacio en el Sistema</item>
+    <item>Tarjeta SD</item>
+    </string-array>
+</resources>

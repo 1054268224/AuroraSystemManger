@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">  
+    <string-array name="ui_phone_accelerate"> 
+    <item>"Čisti procese"</item>
+    <item>"Upravljajte Autom.Pokretanjem"</item>
+    </string-array>
+    <string-array name="process_clean_group_title"> 
+    <item>"Trenutno je pokrenut"</item>
+    <item>"Bijela lista"</item>
+    </string-array>
+    <string-array name="boot_opt_group_title"> 
+    <item>"Može biti optimiziran"</item>
+    <item>"Optimiziran je"</item>
+    </string-array>
+</resources>

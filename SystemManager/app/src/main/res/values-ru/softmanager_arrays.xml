@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">  
+    <string-array name="title_group_move_package"> 
+        <item>Внутренние приложения</item>
+        <item>Приложения на SD-карте</item>
+    </string-array>
+    <string-array name="title_group_move_package1"> 
+        <item>Приложения в системной памяти</item>
+        <item>Приложения во внутренней памяти</item>
+    </string-array>
+    <string-array name="ui_privacy_policy"> 
+        <item>Телефонный вызов</item>
+        <item>Отправлять сообщения</item>
+        <item>Отправлять ММS</item>
+        <item>Журнал вызовов</item>
+        <item>Читать МSС</item>
+        <item>Читать ММS</item>
+        <item>Читать записную книжку</item>
+        <item>GPS-местоположение</item>
+        <item>Местоположение сети</item>
+        <item>Телефонный статус</item>
+        <item>Написать / Удалить SMS</item>
+        <item>Написать / Удалить MMS</item>
+        <item>Написать / Удалить контакты</item>
+        <item>Написать / Удалить журнал вызовов</item>
+        <item>Запись звука</item>
+        <item>Камера</item>
+        <item>Сотовая сеть</item>
+        <item>Сеть Wi-Fi</item>
+        <item>Bluetooth</item>
+        <item>Bluetooth сопряжение</item>
+        <item>NFC</item>
+    </string-array>
+    <string-array name="permission_summary"> 
+        <item>"приложениям разрешено совершать звонки"</item>
+        <item>"приложениям разрешено отправлять сообщения"</item>
+        <item>"приложениям разрешено отправлять MMS"</item>
+        <item>"приложениям разрешен доступ к журналу звонков"</item>
+        <item>"приложениям разрешено читать сообщения"</item>
+        <item>"приложениям разрешено читать MMS"</item>
+        <item>"приложениям разрешено читать контакты"</item>
+        <item>"приложениям разрешено получать координаты по GPS"</item>
+        <item>"приложениям разрешено получать местоположение сети"</item>
+        <item>"приложениям разрешено получать статус телефона"</item>
+        <item>"приложениям разрешена запись/удаление SMS"</item>
+        <item>"приложениям разрешена запись/удаление MMS"</item>
+        <item>"приложениям разрешена запись/удаление контактов"</item>
+        <item>"приложениям разрешена запись/удаление в журнале вызовов"</item>
+        <item>"приложениям разрешено записывать звук"</item>
+        <item>"приложениям разрешено использовать камеру"</item>
+        <item>"приложениям разрешено использовать сотовую сеть"</item>
+        <item>"приложениям разрешено использовать сеть Wi-Fi"</item>
+        <item>"приложениям разрешено использовать Bluetooth"</item>
+        <item>"приложениям разрешено использовать Bluetooth сопряжение"</item>
+        <item>"приложениям разрешено использовать NFC"</item>
+    </string-array>
+    <string-array name="header_list"> 
+        <item>Разрешить</item>
+        <item>Запретить</item>
+    </string-array>
+    <string-array name="ui_def_soft"> 
+        <item>Предустановленный способ ввода</item>
+        <item>Предустановленный браузер</item>
+        <item>Предустановленный контакт</item>
+        <item>Исходный лаунчер</item>
+        <item>Предустановленное приложение камеры</item>
+        <item>Предустановленное фото приложение</item>
+        <item>Предустановленное музыкальное приложение</item>
+        <item>Предустановленное видео приложение</item>
+        <item>Предустановленное приложение для чтения</item>
+    </string-array>
+    <string-array name="listitem_soft_manager_activity"> 
+        <item>Автозапуск приложения</item>
+        <item>Удаление приложения</item>
+        <item>Приостановка приложения</item>
+        <item>Исходные настройки приложения</item>
+    </string-array>
+    <string-array name="list_summary_soft_manager_activity"> 
+        <item>Удаление приложения</item>
+        <item>Остановка и скрывание приложения</item>
+        <item>Оптимизация памяти телефона</item>
+        <item>Установите приложение по умолчанию</item>
+    </string-array>
+    <string-array name="listitem_permission_setting"> 
+        <item>Полностью доверять</item>
+        <item>Частично доверять</item>
+        <item>Не доверять</item>
+    </string-array>
+    <string-array name="listitem_permission_setting_summary"> 
+        <item>Не показывать уведомления, когда приложение запрашивает разрешения.</item>
+        <item>Показывать уведомления, когда приложение запрашивает важные разрешения.</item>
+        <item>Показывать уведомления, когда приложение запрашивает разрешения.</item>
+    </string-array>
+    <string-array name="listitem_freeze_app_summary"> 
+        <item>Без эффекта</item>
+        <item>С осторожностью</item>
+    </string-array>
+    <string-array name="uninstall_sort"> 
+        <item>сортировать по названию приложений</item>
+        <item>Сортировать по времени установки</item>
+        <item>Сортировать по частоте использования</item>
+        <item>Сортировать по размеру приложения</item>
+    </string-array>
+    <string-array name="green_list_item"> 
+        <item>Белый список</item>
+    </string-array>
+    <string-array name="freeze_tab_item"> 
+        <item>Приостанавливаемое</item>
+        <item>Приостановлено</item>
+    </string-array>
+    <string-array name="auto_start_tab_item"> 
+        <item>Разрешить</item>
+        <item>Запретить</item>
+    </string-array>
+    <string-array name="move_tab_item"> 
+        <item>Системная память</item>
+        <item>Внутренняя</item>
+    </string-array>
+    <string-array name="move_tab_item_sd"> 
+        <item>Системная память</item>
+        <item>SD-карта</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">  
+    <string-array name="traffica_save_setting_list_item"> 
+        <item>Danh sách băng thông trắng</item>
+        <item>Giải đáp</item>
+    </string-array>
+    <string-array name="traffica_save_list_item"> 
+        <item>Lưu ngày hôm nay</item>
+        <item>Lưu vào tháng này</item>
+        <item>Lưu lịch sử</item>
+    </string-array>
+</resources>

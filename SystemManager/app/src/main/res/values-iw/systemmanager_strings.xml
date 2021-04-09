@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">  
+    <string name="app_name">מנהל מערכת</string>
+    <string name="cell_accelerator">ניקוי זיכרון</string>
+    <string name="cell_accelerator_summary">שימוש בזיכרון <![CDATA[<font color="#d23030">%1$s%%</font>]]></string>
+    <string name="rubbish_clean">מנקה זיכרון מטמון</string>
+    <string name="rubblish">זיכרונות מטמון <![CDATA[<font color="#d23030">%1$s</font>]]></string>
+    <string name="power_optimizer">ממטב הספק</string>
+    <string name="can_use">ניתן להשתמש ב-<![CDATA[<font color="#6eb330">%1$s</font>]]></string>
+    <string name="charge_time">צריך <![CDATA[<font color="#6eb330">%1$s</font>]]></string>
+    <string name="traffic_monitor">מנטר התעבורה</string>
+    <string name="traffic_remained">התעבורה שנותרה <![CDATA[<font color="#6eb330">%1$s</font>]]></string>
+    <string name="traffic_exceed">חריגת תעבורה <![CDATA[<font color="#6eb330">%1$s</font>]]></string>
+    <string name="antivirus">יישומים חשודים <![CDATA[<font color="#d23030">%1$s个</font>]]></string>
+    <string name="traffic_no_setting">לא הוגדרו חבילות תעבורה</string>
+    <string name="traffic_no_simcard">לא הוכנס כרטיס SIM</string>
+    <string name="soft_manager">מנהל היישומים</string>
+    <string name="app_installed">סך הכול <![CDATA[<font color="#d23030">%1$s</font>]]> יישומים</string>
+    <string name="perm_manager">הרשאת יישום</string>
+    <string name="minutes">דקות</string>
+    <string name="hours">שעות</string>
+    <string name="cannotget">לא ניתן לקבל</string>
+    <string name="quick_accelerate">האץ טלפון</string>
+    <string name="toast_content">פנה%1$sזיכרון</string>
+    <string name="menu_setting">הגדרה</string>
+    <string name="items_switch">מנטר רקע</string>
+    <string name="net_monitor_title">תזכורת שימוש בתעבורה</string>
+    <string name="net_monitor_summary">בדוק פעם בשבוע את השימוש בתעבורה על ידי יישומים</string>
+    <string name="energy_monitor_title">תזכורת צריכת חשמל</string>
+    <string name="energy_monitor_summary">בדוק את צריכת החשמל של יישומים פעם בשבוע</string>
+    <string name="apps_monitor_title">תזכורת יישומים שבשימוש לעתים רחוקות</string>
+    <string name="apps_monitor_summary">בדוק את תדירות השימוש ביישומים פעם בשבוע</string>
+    <string name="root_monitor_title">תזכורת root</string>
+    <string name="root_monitor_summary">בדוק אם הטלפון עבר root</string>
+    <string name="desktop_monitor_title">מנטר שולחן העבודה</string>
+    <string name="desktop_monitor_summary">נטר אם שולחן העבודה הוא ברירת המחדל, והצג אותו בשורת המצב</string>
+    <string name="utilization_title">התראת מערכת</string>
+    <string name="utilization_content">ברוך הבא למנהל השימוש במערכת. יישום זה עשוי להשתמש בנתונים. לפרטים על חיובי נתונים ולמידע אחר הקשור לנתונים, פנה למפעיל הרשת.</string>
+    <string name="dialog_checkbox_description">אל תזכיר שוב</string>
+    <string name="dialog_exit_btn">יציאה</string>
+    <string name="dialog_continue_btn">המשך</string>
+    <string name="text_antivirus">אנטי-וירוס</string>
+    <string name="text_start_scan">התחל סריקה</string>
+    <string name="text_cancel_scan">בטל סריקה</string>
+    <string name="text_scaning">סורק...</string>
+    <string name="text_scaning_result">הסריקה הושלמה</string>
+    <string name="text_scaning_reminder">מומלץ לבצע בדיקה מיידית</string>
+    <string name="text_score_unit">%</string>
+    <string name="text_menu_savepower">חשמל</string>
+    <string name="text_menu_traffic">תעבורת נתונים</string>
+    <string name="text_menu_pure">מצב חסכוני</string>
+    <string name="text_menu_ram">זיכרון</string>
+    <string name="text_one_key_check">בדוק</string>
+    <string name="text_one_key_check_complete">בוצע</string>
+    <string name="text_scan_daily_none">גע כדי לנקות את הזיכרון</string>
+    <string name="text_scan_daily_cancel">הבדיקה בוטלה, מומלץ לבצע בדיקה מיידית</string>
+    <string name="text_scan_daily_last">הבדיקה האחרונה: <xliff:g id="ID_1">%s</xliff:g></string>
+    <string name="text_scan_result_good">הטלפון הנייד בסדר, המשך למטב</string>
+    <string name="text_scan_result_better">הטלפון הנייד בסדר, שמור</string>
+    <string name="text_scan_result_problem">קיימות בעיות בטלפון הנייד, מומלץ לבצע מיטוב</string>
+    <string name="text_accelerating">מאיץ</string>
+    <string name="text_memory_release">פנה זיכרון <xliff:g id="ID_1">%s</xliff:g></string>
+    <string name="text_memory_release_running">מפנה זיכרון</string>
+    <string name="text_memory_release_display">ההאצה בוצעה בהצלחה, <xliff:g id="ID_1">%s</xliff:g> זיכרון פונה</string>
+    <string name="text_memory_used"><xliff:g id="ID_1">%s</xliff:g> בשימוש</string>
+    <string name="text_phone_state_better">הזיכרון נוקה</string>
+    <string name="text_phone_state_problem">הטלפון הנייד בעייתי，האץ מיד</string>
+    <string name="text_root_remind">הטלפון עבר root</string>
+    <string name="text_root_remind_restore">שחזר</string>
+    <string name="msg_superpower_error">המתג האחרון חריג, אתחל שוב כדי לתקן</string>
+    <string name="msg_error_title">תזכורת חריגה</string>
+    <string name="msg_reboot">אתחול מחדש</string>
+    <string name="app_process_limit_title">מגבלה של תהליך ברקע</string>
+    <string name="app_process_limit_txt">מגבלה של תהליך ברקע %s</string>
+    <string name="msg_background_process">רשימה לבנה</string>
+    <string name="pressure_sensor_menu_first">"ניקוי מערכת"</string>
+    <string name="pressure_sensor_menu_second">"הקפאת יישומים"</string>
+    <string name="pressure_sensor_menu_third">"יישומי ברירת מחדל"</string>
+    <string name="pressure_sensor_menu_fourth">"בקרת נתונים"</string>
+    <string name="text_in_screenpin">"עכשיו הוא במצב מסך, אין אפשרות לפתוח במצב סופר."</string>
+    <string name="required_permissions_promo">מנהל מערכת צריך רשות כרטיסי טלפון ו- SD.</string>
+    <string name="enable_permission_procedure">אתה יכול לשנות את הרשאות הגדרות &gt; Apps &gt; System Manager &gt; הרשאות.</string>
+    <string name="enable_permission_procedure_description">אתה יכול לשנות את הרשאות הגדרות, יישומים, מנהל מערכת, הרשאות.</string>
+    <string name="next_with_arrow">הַבָּא &gt;</string>
+    <string name="next">הַבָּא</string>
+    <string name="settings_with_arrow">הגדרות &gt;</string>
+    <string name="settings">הגדרות</string>
+</resources>

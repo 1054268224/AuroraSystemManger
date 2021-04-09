@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ <resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="power_app_name">"ট্রাফিক মনিটর"</string>
+    
+
+    
+    <!--日常省电模式界面-->
+
+    <string name="close_gps">"GPS বন্ধ করুন"</string>
+    <string name="close_sync">"সিঙ্ক বন্ধ করুন"</string>
+    <string name="close_push_notification">"ম্যাসেজ পুশ বন্ধ করুন"</string>
+
+    <string name="close_wifi">"WLAN বন্ধ করুন"</string>
+    <string name="close_data_connection">"ডেটা কানেকশন বন্ধ করুন"</string>
+    <string name="screen_light_sumarry">"বুদ্ধি দিয়ে স্ক্রিন লাইট সেট করুন"</string>
+
+
+    <!--省电设置界面-->
+    <string name="power_saving_mode_title">"সিস্টেম পাওয়ার সেভিং"</string>
+
+</resources>

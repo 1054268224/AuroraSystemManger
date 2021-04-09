@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="rubbish_is_scanning">સ્કૅન થઇ રહ્યું છે...</string>
+  <string name="clean_deeply">ઉંડાણથી સાફ કરો</string>
+  <string name="rubbish_file_size">220MB</string>
+  <string name="quickly_clean_rubbish">સાફ</string>
+  <string name="normal_clean_advice">સાફ કરવા માટે સૂચવવું</string>
+  <string name="deeplyclean_item_advice">રાખવા માટે સૂચવવું</string>
+  <!--Gionee lijinfang 2015-5-7 modify for CR01456640  begin-->
+  <string name="rubbish_cleaner">કૅશ ક્લીનર</string>
+  <!--Gionee lijinfang 2015-5-7 modify for CR01456640  end-->
+  <string name="rubbish_was_cleaned">રબ્બિશ સાફ થઇ ગયું છે</string>
+  <string name="clean_end">સંપૂર્ણ</string>
+  <string name="rubbish_clean_settings">રબ્બિશને સાફ કરવાની સેટિંગ્સ</string>
+  <string name="rubbish_clean_alert">ક્લીન યાદ કરાવવું</string>
+  <string name="rubbish_size_alert">રબ્બિશ સાઇઝ માટેનું રિમાઇન્ડર</string>
+  <string name="apk_delete_alert">પૅકેજ ઇન્સ્ટૉલ કરવા માટેનું રિમાઇન્ડર હટાવો</string>
+  <string name="apk_delete_alert_summary">ઇન્સ્ટૉલ કર્યા પછી પૅકેજને હટાવવાનું યાદ કરાવો</string>
+  <string name="residual_delete_alert">જંક ફાઇલો કાઢી નાખવા યાદ કરાવો</string>
+  <string name="residual_delete_alert_summary">એપ્લિકેશન હટાવ્યા પછી રબ્બિશ ફાઇલોને હટાવવું યાદ કરાવો</string>
+  <string name="deeply_clean_end">સાફ કરવું સંપૂર્ણ</string>
+  <string name="deeply_clean_description">ફાઇલો સાફ કરો</string>
+  <string name="apk_not_installed">ઇન્સ્ટૉલ કરવું નહિં</string>
+  <string name="apk_was_installed">ઇન્સ્ટૉલ થઇ ગયું છે</string>
+  <string name="liebao_supply">Clean Master દ્વારા પ્રદાન કરેલો ટૅક્નિકલ સપોર્ટ</string>
+  <string name="deepclean_total_desc">કુલ</string>
+  <string name="deepclean_selected_desc">પસંદ કરેલ</string>
+  <string name="go_cancel">રદ કરો</string>
+  <string name="go_install_apk">ઇન્સ્ટૉલ કરો</string>
+  <string name="go_clean">સાફ</string>
+  <string name="show_rubbish_size">સાઇઝ:</string>
+</resources>

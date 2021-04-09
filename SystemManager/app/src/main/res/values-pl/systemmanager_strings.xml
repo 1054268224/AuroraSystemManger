@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">"Menadżer systemu"</string>
+    <string name="cell_accelerator">"Czyszcenie pamięci"</string>
+    <string name="cell_accelerator_summary">"Użyta pamięć <![CDATA[<font color="#d23030">%1$s%%</font>]]>"</string>
+    <string name="rubbish_clean">"Czyść pam."</string>
+    <string name="rubblish">"Pamięci podręczne <![CDATA[<font color="#d23030">%1$s</font>]]>"</string>
+    <string name="power_optimizer">"Optymalizacja energii"</string>
+    <string name="can_use">"Można użyć <![CDATA[<font color="#6eb330">%1$s</font>]]>"</string>
+    <string name="charge_time">"Wymagane <![CDATA[<font color="#6eb330">%1$s</font>]]>"</string>
+    <string name="traffic_monitor">"Monitor ruchu"</string>
+    <string name="traffic_remained">"Pozostały transfer <![CDATA[<font color="#6eb330">%1$s</font>]]>"</string>
+    <string name="traffic_exceed">"Przekroczono transfer danych <![CDATA[<font color="#6eb330">%1$s</font>]]>"</string>
+    <string name="antivirus">"Podejrzane aplikacje <![CDATA[<font color="#d23030">%1$s个</font>]]>"</string>
+    <string name="traffic_no_setting">"Pakiet ruchu nie jest ustawiony"</string>
+    <string name="traffic_no_simcard">"Karta SIM nie jest włożona"</string>
+    <string name="soft_manager">"Menedżer aplikacji"</string>
+    <string name="app_installed">"Łącznie aplikacji <![CDATA[<font color="#d23030">%1$s</font>]]>"</string>
+    <string name="perm_manager">"Upawnienia aplikacji"</string>
+    <string name="danger_apps"></string>
+    <string name="minutes">"minut"</string>
+    <string name="hours">"godzin"</string>
+    <string name="cannotget">"nie można uzyskać"</string>
+    <string name="quick_accelerate">"Przyspieszanie telefonu"</string>
+    <string name="toast_content">"zwolniono%1$spamięci"</string>
+    <string name="menu_setting">"Ustawienia"</string>
+    <string name="items_switch">"Monitor tła"</string>
+    <string name="net_monitor_title">"Przypomnienie o danych mobilnych"</string>
+    <string name="net_monitor_summary">"Sprawdź użycie danych mobilnych przez aplikacje raz w tygodniu"</string>
+    <string name="energy_monitor_title">"Przypomnienie o zużyciu energii"</string>
+    <string name="energy_monitor_summary">"Sprawdzaj zużycie energii przez aplikacje raz w tygodniu"</string>
+    <string name="apps_monitor_title">"Przypomnienie o rzadko używanych aplikacjach"</string>
+    <string name="apps_monitor_summary">"Sprawdź częstotliwość użycia aplikacji raz w tygodniu"</string>
+    <string name="root_monitor_title">"Przypomnienie rootowania"</string>
+    <string name="root_monitor_summary">"Sprawdź czy telefon jest zrootowany"</string>
+    <string name="desktop_monitor_title">"Monitor pulpitu"</string>
+    <string name="desktop_monitor_summary">"Monitoruj czy ustawiony jest domyślny pulpit oraz pokazuj to na pasku stanu"</string>
+    <string name="utilization_title">"Ostrzeżenie systemu"</string>
+    <string name="utilization_content">"Witaj w Menedżerze systemu, ta aplikacja może powodować zużycie danych mobilnych. Po więcej informacji skontaktuj się ze swoim operatorem, kontynuować ?"</string>
+    <string name="dialog_checkbox_description">"Nie ostrzegaj ponownie"</string>
+    <string name="dialog_exit_btn">"Zakończ"</string>
+    <string name="dialog_continue_btn">"Dalej"</string>
+    <string name="text_antivirus">"Ochrona antywirusowa"</string>
+    <string name="text_start_scan">"Rozpocznij skanowanie"</string>
+    <string name="text_cancel_scan">"Anuluj skanowanie"</string>
+    <string name="text_scaning">"Skanowanie…"</string>
+    <string name="text_scaning_result">"Skanowanie zakończone"</string>
+    <string name="text_scaning_reminder">"Zalecane jest natychmiastowe skanowanie"</string>
+    <string name="text_score_unit">"%"</string>
+    <string name="text_menu_savepower">"Oszczędzanie energii"</string>
+    <string name="text_menu_traffic">"Dane"</string>
+    <string name="text_menu_pure">"Tryb EKO"</string>
+    <string name="text_menu_ram">"Pamięć"</string>
+    <string name="text_one_key_check">"Sprawdź"</string>
+    <string name="text_one_key_check_complete">"Gotowe"</string>
+    <string name="text_scan_daily_none">"Brak fizycznego skanowania, zalecane jest natychmiastowe uruchomienie skanowania"</string>
+    <string name="text_scan_daily_cancel">"Skanowanie zostało anulowane, zalecane jest natychmiastowe wznowienie"</string>
+    <string name="text_scan_daily_last">Ostatnia analiza : <xliff:g id="ID_1">%s</xliff:g></string>
+    <string name="text_scan_result_good">"Telefon wydaje się być w dobrej formie, kontynuuj, aby optymalizować"</string>
+    <string name="text_scan_result_better">"Telefon wydaje się być w dobrej formie"</string>
+    <string name="text_scan_result_problem">"Telefon wydaje się mieć problemy, zalecana jest optymalizacja"</string>
+    <string name="text_accelerating">"Przyspieszanie"</string>
+    <string name="text_memory_release">Zwolniono pamięci: <xliff:g id="ID_1">%s</xliff:g></string>
+    <string name="text_memory_release_running">"Zwalnianie pamięci"</string>
+    <string name="text_memory_release_display">Pomyślnie przyspieszono system, zwolniono pamięci: <xliff:g id="ID_1">%s</xliff:g></string>
+    <string name="text_memory_used">Używane <xliff:g id="ID_1">%s</xliff:g></string>
+    <string name="text_phone_state_better">"Wydajność telefonu jest dobra"</string>
+    <string name="text_phone_state_problem">"Wydajność telefonu jest niewystarczająca, uruchom przyspieszanie"</string>
+    <string name="text_root_remind">"Telefon zrootowany"</string>
+    <string name="text_root_remind_restore">"przywróć"</string>
+    <string name="msg_superpower_error">"Wystąpił błąd, uruchom pomownie system, aby naprawić"</string>
+    <string name="msg_error_title">"Komunikat błędu"</string>
+    <string name="msg_reboot">"Uruchom ponownie"</string>
+    <string name="app_process_limit_title">Ograniczenie procesów w tle</string>
+    <string name="app_process_limit_txt">Ograniczenie procesów w tle %s</string>
+    <string name="msg_background_process">Lista zaufanych</string>
+    <string name="pressure_sensor_menu_first">Czyszczenie śmieci</string>
+    <string name="pressure_sensor_menu_second">Zamrażanie aplikacji</string>
+    <string name="pressure_sensor_menu_third">Ustawienia domyślnej aplikacji</string>
+    <string name="pressure_sensor_menu_fourth">Kontrola sieci</string>
+    <string name="text_in_screenpin">Obecnie włączony jest tryb ekranu, nie można włączyć trybu Super</string>
+    <string name="required_permissions_promo">MenedżerSystemu wymaga uprawnienia dostępu do pamięci telefonu oraz karty SD</string>
+    <string name="enable_permission_procedure">Możesz zmieniać uprawnienia w Ustawienia &gt; Aplikacje &gt; MenedżerSystemu &gt; Uprawnienia.</string>
+    <string name="enable_permission_procedure_description">Możesz zmieniać uprawnienia w Ustawienia, Aplikacje, MenedżerSystemu,Uprawnienia.</string>
+    <string name="next_with_arrow">Następny &gt;</string>
+    <string name="next">Następny</string>
+    <string name="settings_with_arrow">Ustawienia &gt;</string>
+    <string name="settings">Ustawienia</string>
+</resources>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">  
+    <string name="text">Texto</string>
+    <string name="trafficassistant_app_name">Monitor de tráfego de dados</string>
+    <string name="no_settings">Não configurado</string>
+    <string name="start_date_string">Todo dia</string>
+    <string name="action_cancel">Cancelar</string>
+    <string name="action_done">Salvar</string>
+    <string name="action_allow">Permitir</string>
+    <string name="input_hint">Inserir</string>
+    <string name="percent_unit">%</string>
+    <string name="action_restart">Continuar</string>
+    <string name="action_stop">Parar</string>
+    <string name="percent_value">80</string>
+    <string name="warning_value">0.0</string>
+    <string name="zero_percent">80%</string>
+    <string name="total_percent">100%</string>
+    <string name="process_kernel_labels">SO Android</string>
+    <string name="data_usage_uninstalled_apps_users">Aplicativos removidos</string>
+    <string name="data_usage_uninstalled_apps">Aplicativos removidos</string>
+    <string name="tether_settings_title_wifi">Hotspot portátil</string>
+    <string name="tether_settings_title_usb_bluetooth">Ancoragem</string>
+    <string name="tether_settings_title_usb">Ancoragem USB</string>
+    <string name="tether_settings_title_bluetooth">Ancoragem Bluetooth</string>
+    <string name="version_name">Versão：</string>
+    <string name="no_value">Nenhum</string>
+    <string name="text_loading">Carregando…</string>
+</resources>

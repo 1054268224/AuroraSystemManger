@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Chenyee xionghg 20171012 add for 234689 begin-->
+    <dimen name="limited_btn_width">82dp</dimen>
+    <!-- Chenyee xionghg 20171012 add for 234689 end-->
+</resources>

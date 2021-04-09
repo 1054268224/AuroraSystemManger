@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="header_list">
+        <item>Омогући</item>
+        <item>Онемогући</item>
+    </string-array>
+    <string-array name="listitem_soft_manager_activity">
+        <item>Аутом. Покретање Апликације</item>
+        <item>Деинсталација апликације</item>
+        <item>Замрзавање апликације</item>
+        <item>Закључавање апликације</item>
+    </string-array>
+    <string-array name="listitem_permission_setting">
+        <item>Верујте свима</item>
+        <item>Верујте делимично</item>
+        <item>Не верујте никоме</item>
+    </string-array>
+    <string-array name="listitem_permission_setting_summary">
+        <item>Нема експозивних упита када апликација тражи било каква допуштења</item>
+        <item>Експлозивни упити ће се појавити само када апликације захтева важна допуштења.</item>
+        <item>Експлозивни упити ће се појавити када апликације захтева било каква допуштења.</item>
+    </string-array>
+    <string-array name="listitem_freeze_app_summary">
+        <item>апл. нема учинка</item>
+        <item>апл. са ризицима</item>
+    </string-array>
+    <string-array name="uninstall_sort">
+        <item>Сортирај према имену апликације</item>
+        <item>Сортирај према времену инсталације</item>
+        <item>Сортирај према по стопи коришћења</item>
+        <item>Сортирај према величини апликације</item>
+    </string-array>
+    <string-array name="green_list_item">
+        <item>Дозвољене апликације</item>
+    </string-array>
+    <string-array name="freeze_tab_item">
+        <item>Могуће замрзнути</item>
+        <item>Замрзнуто</item>
+    </string-array>
+    <string-array name="auto_start_tab_item">
+        <item>Дозволи</item>
+        <item>Забрани</item>
+    </string-array>
+    <string-array name="move_tab_item">
+        <item>Простор Система</item>
+        <item>Интерно</item>
+    </string-array>
+    <string-array name="move_tab_item_sd">
+        <item>Простор Система</item>
+        <item>SD картица</item>
+    </string-array>
+</resources>

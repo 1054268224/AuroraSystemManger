@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">  
+  <string name="cyee_app_name">Cyee UI</string>  
+  <string name="cyee_capital_on">ON</string>  
+  <string name="cyee_capital_off">OFF</string>  
+  <string name="cyee_time_picker_dialog_title">Imposta ora</string>  
+  <string name="cyee_date_picker_dialog_title">Imposta data</string>  
+  <string name="cyee_date_time_done">Eseguito</string>  
+  <string name="cyee_copy">Copia</string>  
+  <string name="cyee_paste">Incolla</string>  
+  <string name="cyee_cut">Taglia</string>  
+  <string name="cyee_selectAll">Seleziona tutto</string>  
+  <string name="cyee_select">Seleziona</string>  
+  <string name="cyee_inputMethod">Inserimento</string>  
+  <string name="cyee_back_button_label">Indietro</string>  
+  <string name="cyee_next_button_label">Avanti</string>  
+  <string name="cyee_skip_button_label">Salta</string>  
+  <string name="cyee_ok">OK</string>  
+  <string name="cyee_cancel">Annulla</string>  
+  <string name="cyee_yes">OK</string>  
+  <string name="cyee_no">Annulla</string>  
+  <string name="cyee_action_mode_done">Eseguito</string>  
+  <string name="cyee_action_bar_home_description">Torna alla Home</string>  
+  <string name="cyee_action_bar_up_description">Pagina precedente</string>  
+  <string name="cyee_smart_full_btn_label">OK</string>  
+  <string name="cyee_activity_resolver_use_always">Sempre</string>  
+  <string name="cyee_activity_resolver_use_once">Solo una volta</string>  
+  <string name="cyee_noApplications">Nessuna applicazione è in grado di eseguire questa azione</string>  
+  <string name="cyee_system_label">Sistema Operativo Android</string>  
+  <string name="cyee_whichApplication">Completa l\'azione con</string>  
+  <string name="cyee_chooseActivity">Scegli un\'azione</string>  
+  <string name="cyee_actionbar_magic_item_more">Altro</string>  
+  <string name="cyee_actionbar_magic_item_close">Chiudi</string>  
+  <string name="cyee_edit_mode_leftbtn_txt">Annulla</string>  
+  <string name="cyee_edit_mode_rightbtn_txt">OK</string>  
+  <string name="cyee_strong_warning">Attenzione</string>
+  <string name="cyee_multichoice_select_text">%1$s elemento selezionato</string>
+  <string name="cyee_multichoice_select_all">Seleziona tutto</string>
+  <string name="cyee_multichoice_cancel_select_all">Annulla selezione</string>
+</resources>

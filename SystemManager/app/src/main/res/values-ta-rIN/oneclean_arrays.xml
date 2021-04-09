@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!-- 手机加速界面 -->
+  <string-array name="ui_phone_accelerate">
+    <item>செயல்பாடுகள் சுத்தம்</item>
+    <item>தன்னியக்கத்தொடக்கத்தை நிர்வகிக்கலாம்</item>
+  </string-array>
+  <string-array name="process_clean_group_title">
+    <item>ஓடுகிறது</item>
+    <item>ஒயிட் லிஸ்ட்</item>
+  </string-array>
+  <string-array name="boot_opt_group_title">
+    <item>மேம்படுத்த முடியும்</item>
+    <item>மேம்படுத்தப் பட்டுள்ளது</item>
+  </string-array>
+</resources>

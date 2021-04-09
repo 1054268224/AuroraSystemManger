@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="security_wallet_header_on">เปิด</string>
+    <string name="security_wallet_mini_bar_tip_root">ระบบที่รูทไม่ปลอดภัยในการชำระเงิน</string>
+    <string name="security_wallet_mini_bar_tip">แอปต่อไปนี้ได้รับการตรวจสอบว่าเป็นของแท้</string>
+    <string name="security_wallet_header">ปกป้องแอปพลิเคชัน</string>
+    <string name="security_wallet_support">สนับสนุนโดย AVL</string>
+    <string name="security_wallet_mini_bar_tip_off">ปิดการปกป้องการชำระเงินแล้ว</string>
+    <string name="security_wallet_title">การปกป้องการชำระเงิน</string>
+    <string name="security_wallet_off_info">การเปิดการป้องกันค่าใช้จ่ายจะสแกนสิ่งแวดล้อม ตรวจจับการเชื่อมต่อ WLAN และขัดขวางการโจมตีเพื่อป้องกันความปลอดภัยของค่าใช้จ่ายในขณะที่แอปค่าใช้จ่ายกำลังทำงาน</string>
+    <string name="security_wallet_empty">ไม่พบแอปค่าใช้จ่ายจริง</string>
+    <string name="security_wallet_jump_to_app_store">รับแอปที่ผ่านการตรวจสอบแล้วอื่น ๆ</string>
+    <string name="security_wallet_header_off">ปิดแล้ว</string>
+    <string name="security_wallet_jump_to_app_store_not_found">ไม่สามารถเปิดแอปสโตร์ได้</string>
+    <string name="security_safed_list_installed_toast">
+        <xliff:g>%1$s</xliff:g> ติดตั้งไปยังการปกป้องการชำระเงิน</string>
+</resources>

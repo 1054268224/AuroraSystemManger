@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="cancel">Prekliči</string>
+    <string name="gn_securitypassword_forget">Pozabljeno geslo</string>
+    <string name="lockpattern_need_to_unlock_wrong">Narobe vzorec</string>
+    <string name="gn_securitypassword_retry_note">Prosimo, poskusite znova po "%1$s" minutah</string>
+    <string name="gn_securitypassword_retry_note2">Prosimo, poskusite znova po "%1$s" sekundah</string>
+    <string name="gn_securitypassword_retry">Poskusite znova</string>
+    <string name="gn_securitypassword_input_error_note">Geslo je napačno, preostalo je še %1$s" poskusov</string>
+    <string name="lockpattern_tutorial_cancel_label">Prekliči</string>
+    <string name="lockpattern_tutorial_continue_label">Naprej</string>
+    <string name="lockpassword_confirm_app_header">%s je bil zaščiten</string>
+    <string name="applock_verify_success_prompt">Preverjanje uspešno</string>
+    <string name="applock_verify_pwd_prompt">Geslo za odklepanje</string>
+    <string name="applock_verify_use_prompt">Uporabi</string>
+    <string name="applock_verify_fr_prompt">Obraz/</string>
+    <string name="applock_verify_fp_prompt">Prst/</string>
+    <string name="applock_verify_fp_fail_more">Preveč neuspešnih preverjanj prstnega odtisa, prosimo, poskusite znova po %1$s sekundah,</string>
+    <string name="applock_verify_fr_wait_prompt">Prosimo, ohranite</string>
+    <string name="applock_verify_fr_timeout_prompt">Obraz</string>
+</resources>

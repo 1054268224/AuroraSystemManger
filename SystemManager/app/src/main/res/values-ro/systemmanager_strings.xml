@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">"Admin. Sistem"</string>
+    <string name="cell_accelerator">"Ștergere memorie"</string>
+    <string name="cell_accelerator_summary">"Memorie utilizată <![CDATA[<font color="#d23030">%1$s%%</font>]]>"</string>
+    <string name="rubbish_clean">"Curățare Cache"</string>
+    <string name="rubblish">"memorii cache <![CDATA[<font color="#d23030">%1$s</font>]]>"</string>
+    <string name="power_optimizer">"Optimizator energie"</string>
+    <string name="can_use">Se poate utiliza <![CDATA[<font color="#6eb330">%1$s</font>]]></string>
+    <string name="charge_time">Este necesar <![CDATA[<font color="#6eb330">%1$s</font>]]></string>
+    <string name="traffic_monitor">"Monitorizare trafic"</string>
+    <string name="traffic_remained">"Trafic rămas <![CDATA[<font color="#6eb330">%1$s</font>]]>"</string>
+    <string name="traffic_exceed">"Traficul a depășit <![CDATA[<font color="#6eb330">%1$s</font>]]>"</string>
+    <string name="antivirus">"Aplicații suspecte <![CDATA[<font color="#d23030">%1$s个</font>]]>"</string>
+    <string name="traffic_no_setting">"Pachetul de trafic nu este setat"</string>
+    <string name="traffic_no_simcard">"SIM nu este introdus"</string>
+    <string name="soft_manager">Admin. Aplicații</string>
+    <string name="app_installed">"Aplicații totale <![CDATA[<font color="#d23030">%1$s</font>]]>"</string>
+    <string name="perm_manager">"Permisiunea aplicației"</string>
+    <string name="minutes">"minute"</string>
+    <string name="hours">"ore"</string>
+    <string name="cannotget">Nu e predictibil</string>
+    <string name="quick_accelerate">"Accelerare telefon"</string>
+    <string name="toast_content">"eliberare%1$smemorie"</string>
+    <string name="menu_setting">"Setări"</string>
+    <string name="items_switch">"Monitorizare fundal"</string>
+    <string name="net_monitor_title">"Memento utilizare trafic"</string>
+    <string name="net_monitor_summary">"Verificarea utilizării traficului aplicațiilor o dată pe săptămânâ"</string>
+    <string name="energy_monitor_title">"Memento consum de energie"</string>
+    <string name="energy_monitor_summary">"Verificarea consumului de energie al aplicațiilor o dată pe săptămânâ"</string>
+    <!--Chenyee  <liumn> 20171222 for modify SW17W16VF-5 beign-->
+    <string name="apps_monitor_title">"Memento aplicații rar utilizate"</string>
+    <string name="apps_monitor_summary">"Verificarea utilizării frecvenței aplicațiilor o dată pe săptămână"</string>
+    <!--Chenyee  <liumn> 20171222 for modify SW17W16VF-5 end-->
+    <string name="root_monitor_title">"Memento rădăcină"</string>
+    <string name="root_monitor_summary">"Memento director rădăcină"</string>
+    <string name="desktop_monitor_title">"Monitorizare desktop"</string>
+    <string name="desktop_monitor_summary">"Monitorizare dacă desktopul este implicit şi afişarea lui pe bara de stare"</string>
+    <string name="utilization_title">"Alertă sistem"</string>
+    <string name="utilization_content">"Bun venit în utilizarea Administratorului de sistem. Această aplicaţie poate genera trafic de date. Solicitaţi informaţii operatorilor de reţea. Continuaţi?"</string>
+    <string name="dialog_checkbox_description">"Nu reaminti"</string>
+    <string name="dialog_exit_btn">"Ieșire"</string>
+    <string name="dialog_continue_btn">"Continuare"</string>
+    <string name="text_antivirus">"Detecție Viruși"</string>
+    <string name="text_start_scan">"Pornire scanare"</string>
+    <string name="text_cancel_scan">"Anulare scanare"</string>
+    <string name="text_scaning">"Se scanează..."</string>
+    <string name="text_scaning_result">"Scanare finalizată"</string>
+    <string name="text_scaning_reminder">"Se recomandă examinarea imediată"</string>
+    <string name="text_score_unit">"%"</string>
+    <string name="text_menu_savepower">Admin. Energie</string>
+    <string name="text_menu_traffic">Monitorizare Trafic</string>
+    <string name="text_menu_pure">Mod Eco</string>
+    <string name="text_menu_ram">Memorie</string>
+    <string name="text_one_key_check">"Inspectare"</string>
+    <string name="text_one_key_check_complete">"Realizat"</string>
+    <string name="text_scan_daily_none">"Atingeți pentru a curăța memoria"</string>
+    <string name="text_scan_daily_cancel">Examinarea a fost anulată. Se recomandă verificarea imediată</string>
+    <string name="text_scan_daily_last">Ultima examinare : <xliff:g id="ID_1">%s</xliff:g></string>
+    <string name="text_scan_result_good">Telefonul mobil este bun, dar tot poate fi optimizat</string>
+    <string name="text_scan_result_better">Telefonul mobil este bun, mențineți-l așa.</string>
+    <string name="text_scan_result_problem">Telefonul mobil are probleme, este sugerată optimizarea</string>
+    <string name="text_accelerating">"Accelerează"</string>
+    <string name="text_memory_release">Memorie liberă <xliff:g id="ID_1">%s</xliff:g></string>
+    <string name="text_memory_release_running">"Se eliberează memoria"</string>
+    <string name="text_memory_release_display">Accelerare efectuată,memorie eliberată <xliff:g id="ID_1">%s</xliff:g></string>
+    <string name="text_memory_used">Utilizată <xliff:g id="ID_1">%s</xliff:g></string>
+    <string name="text_phone_state_better">Memorie curățată</string>
+    <string name="text_phone_state_problem">"Telefonul mobil este în condiţii rele，accelerare imediată"</string>
+    <string name="text_root_remind">"Telefon conectat"</string>
+    <string name="text_root_remind_restore">"restaurare"</string>
+    <string name="msg_superpower_error">"Ultima comutare este anormală, reporniți pentru a repara"</string>
+    <string name="msg_error_title">Notificare problemă</string>
+    <string name="msg_reboot">"Repornire"</string>
+    <string name="app_process_limit_title">Limita proces de fundal</string>
+    <string name="app_process_limit_txt">Limită procese fundal %s</string>
+    <string name="msg_background_process">Lista albă</string>
+    <string name="pressure_sensor_menu_first">Curățare Coș</string>
+    <string name="pressure_sensor_menu_second">Înghețare aplicație</string>
+    <string name="pressure_sensor_menu_third">Setări aplicații implicite</string>
+    <string name="pressure_sensor_menu_fourth">Rețea control</string>
+    <string name="text_in_screenpin">"Acum este în modul ecran,nu se poate deschide în mod extrem."</string>
+    <string name="required_permissions_promo">Administratorul de sistem are nevoie de permisiune pentru telefon si CardSD.</string>
+    <string name="enable_permission_procedure">Aveți posibilitatea să modificați permisiunile în Setări &gt; Aplicații &gt; SystemManager &gt; Permisiuni.</string>
+    <string name="enable_permission_procedure_description">Aveți posibilitatea să modificați permisiunile în Setări, Aplicații , SystemManager , Permisiuni.</string>
+    <string name="next_with_arrow">Înainte &gt;</string>
+    <string name="next">Următorul</string>
+    <string name="settings_with_arrow">Setări &gt;</string>
+    <string name="settings">Setări</string>
+</resources>

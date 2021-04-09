@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!-- SoftManager begin -->
+  <string-array name="header_list">
+    <item>সক্রিয়</item>
+    <item>নিষ্ক্রিয় করুন</item>
+  </string-array>
+  <!-- 默认软件设置title 
+    <string-array name="ui_def_soft_title">
+        <item>Default inputMethod</item>
+        <item>Default browser</item>
+        <item>Default contacts</item>
+        <item>Default messaging</item>
+        <item>Default launcher</item>
+        <item>Default camera</item>
+        <item>Default image</item>
+        <item>Default music</item>
+        <item>Default video</item>
+        <item>Default reader</item>
+    </string-array> -->
+  <string-array name="listitem_soft_manager_activity">
+    <item>অ্যাপ অটো স্টার্ট</item>
+    <item>অ্যাপ আনইনস্টল</item>
+    <item>অ্যাপ ফ্রিজ</item>
+    <item>অ্যাপ লক</item>
+  </string-array>
+  <!-- Software Permission Setting Title -->
+  <string-array name="listitem_permission_setting">
+    <item>সম্পূর্ণ আস্থা</item>
+    <item>আংশিক বিশ্বাস</item>
+    <item>বিশ্বাস করবেন না</item>
+  </string-array>
+  <string-array name="listitem_permission_setting_summary">
+    <item>অ্যাপ্লিকেশনটি কোন অনুমতি চাইলে কোন বম্ব বক্স প্রম্পট হয় না</item>
+    <item>বক্স বম্ব প্রম্পট করবে যখনই গুরুত্বপূর্ণ অনুমতির জন্য অ্যাপ্লিকেশন কল করবে</item>
+    <item>অ্যাপ্লিকেশনটির অনুমতির প্রয়োজন হলে বম্ব বক্স জানাবে</item>
+  </string-array>
+  <string-array name="listitem_freeze_app_summary">
+    <item> অ্যাপের কোনো ইফেক্ট নেই </item>
+    <item> অ্যাপের সাবধানতা আছে</item>
+  </string-array>
+  <!-- Gionee: mengdw <2016-08-01> modify for CR01739399 end -->
+  <string-array name="uninstall_sort">
+    <item>অ্যাপ নাম অনুসারে সাজান</item>
+    <item>ইনস্টল করার সময় অনুযায়ী সাজান </item>
+    <item>ব্যবহারের রেট অনুযায়ী সাজান</item>
+    <item>অ্যাপের সাইজ অনুযায়ী সাজান</item>
+  </string-array>
+  <string-array name="green_list_item">
+    <!-- Gionee <yangxinruo> <2016-1-13> modify for CR01621967 begin -->
+    <item>হোয়াইট লিস্ট ক্লিন করুন</item>
+    <!-- Gionee <yangxinruo> <2016-1-13> modify for CR01621967 end -->
+  </string-array>
+  <string-array name="freeze_tab_item">
+    <item>নিথর করে দেওয়া </item>
+    <item>হিমায়িত</item>
+  </string-array>
+  <string-array name="auto_start_tab_item">
+    <item>অনুমতি দিন</item>
+    <item>নিষেধ করুন</item>
+  </string-array>
+  <string-array name="move_tab_item">
+    <item>সিস্টেম স্পেস </item>
+    <item>ইণ্টারনাল</item>
+  </string-array>
+  <string-array name="move_tab_item_sd">
+    <item>সিস্টেম স্পেস </item>
+    <item>SD কার্ড</item>
+  </string-array>
+  <!-- SoftManager end -->
+
+
+  <string-array name="app_lock_setting_items">
+    <item>@string/app_lock_setting_item_1</item>
+    <item>@string/app_lock_setting_item_2</item>
+  </string-array>
+
+
+
+</resources>

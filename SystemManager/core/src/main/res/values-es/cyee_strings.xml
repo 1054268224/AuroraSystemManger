@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">  
+  <string name="cyee_app_name">Cyee UI</string>
+  <string name="cyee_capital_on">ON</string>  
+  <string name="cyee_capital_off">OFF</string>  
+  <string name="cyee_time_picker_dialog_title">Configurar hora</string>
+  <string name="cyee_date_picker_dialog_title">Configurar fecha</string>
+  <string name="cyee_date_time_done">Hecho</string>
+  <string name="cyee_copy">Copiar</string>
+  <string name="cyee_paste">Pegar</string>  
+  <string name="cyee_cut">Cortar</string>  
+  <string name="cyee_selectAll">Seleccionar todo</string>  
+  <string name="cyee_select">Seleccionar</string>  
+  <string name="cyee_inputMethod">Introducción</string>  
+  <string name="cyee_back_button_label">Atrás</string>  
+  <string name="cyee_next_button_label">Siguiente</string>  
+  <string name="cyee_skip_button_label">Saltar</string>  
+  <string name="cyee_ok">OK</string>  
+  <string name="cyee_cancel">Cancelar</string>  
+  <string name="cyee_yes">OK</string>  
+  <string name="cyee_no">Cancelar</string>  
+  <string name="cyee_action_mode_done">Hecho</string>  
+  <string name="cyee_action_bar_home_description">Volver a la Home</string>  
+  <string name="cyee_action_bar_up_description">Página anterior</string>  
+  <string name="cyee_smart_full_btn_label">OK</string>  
+  <string name="cyee_activity_resolver_use_always">Siempre</string>  
+  <string name="cyee_activity_resolver_use_once">Sólo una vez</string>  
+    <string name="cyee_noApplications">Ninguna aplicación puede realizar esta acción.</string>  
+  <string name="cyee_system_label">Sistema Operativo Android</string>  
+  <string name="cyee_whichApplication">Completa la acción con</string>  
+  <string name="cyee_chooseActivity">Elegir una acción</string>  
+  <string name="cyee_actionbar_magic_item_more">Más</string>  
+  <string name="cyee_actionbar_magic_item_close">Cerrar</string>  
+  <string name="cyee_edit_mode_leftbtn_txt">Cancelar</string>  
+  <string name="cyee_edit_mode_rightbtn_txt">OK</string>  
+  <string name="cyee_strong_warning">Atención</string>
+  <string name="cyee_multichoice_select_text">%1$s ítems</string>
+  <string name="cyee_multichoice_select_all">Seleccionar todo</string>
+  <string name="cyee_multichoice_cancel_select_all">Eliminar selección</string>
+    <string name="unit_year">A</string>  
+    <string name="unit_month">M</string>  
+    <string name="unit_day">D</string>  
+    <string name="unit_hour">H</string>  
+    <string name="unit_minute">M</string>  
+    <string name="clone_suffix">clon</string>  
+    <string name="cyee_loading">Cargando\u2026</string>
+</resources>

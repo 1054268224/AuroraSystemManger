@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="header_list">
+        <item>Engedélyezés</item>
+        <item>Kikapcsolás</item>
+    </string-array>
+    <string-array name="listitem_soft_manager_activity">
+        <item>Alkalmazás auto indítás</item>
+        <item>Alkalmazás törlése</item>
+        <item>Alkalmazás leállítása</item>
+        <item>Alkalmazás zár</item>
+    </string-array>
+    <string-array name="listitem_permission_setting">
+        <item>Minden felelősség</item>
+        <item>Részlegesen megbízható</item>
+        <item>Ne bízzon meg</item>
+    </string-array>
+    <string-array name="listitem_permission_setting_summary">
+        <item>Nincs értesítés, ha engedélyt kér egy alkalmazás</item>
+        <item>Értesítés fontos engedélykérés esetén.</item>
+        <item>Amikor egy alkalmazás engedélyt kér, felugró ablak jelenik meg</item>
+    </string-array>
+    <string-array name="listitem_freeze_app_summary">
+        <item>nincs hatása az alkalmazásoknak</item>
+        <item>alkalmazás óvatos</item>
+    </string-array>
+    <string-array name="uninstall_sort">
+        <item>Rendezés alkalmazás név szerint</item>
+        <item>Rendezés telepítés dátuma szerint</item>
+        <item>Rendezés használat alapján</item>
+        <item>Rendezés alkalmazás méret szerint</item>
+    </string-array>
+    <string-array name="green_list_item">
+        <item>Engedélyezett lista tisztítása</item>
+    </string-array>
+    <string-array name="freeze_tab_item">
+        <item>Leállítható</item>
+        <item>Leállított</item>
+    </string-array>
+    <string-array name="auto_start_tab_item">
+        <item>Engedélyezés</item>
+        <item>Megtilt</item>
+    </string-array>
+    <string-array name="move_tab_item">
+        <item>Rendszer tárhely</item>
+        <item>BELSŐ</item>
+    </string-array>
+    <string-array name="move_tab_item_sd">
+        <item>Rendszer tárhely</item>
+        <item>SD kártya</item>
+    </string-array>
+</resources>

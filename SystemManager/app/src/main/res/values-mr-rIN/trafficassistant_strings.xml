@@ -1,0 +1,274 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="text">टेक्स्ट</string>
+  <string name="trafficassistant_app_name">ट्रॅफिक मॉनिटर</string>
+  <string name="tabbar_name1">सिम स्लॉट 1</string>
+  <string name="tabbar_name2">सिम स्लॉट 2</string>
+  <string name="remained_flow_string">" अतिरिक्त"</string>
+  <string name="exceed_flow_string">"ओव्हरस्टेप "</string>
+  <string name="used">वापरले</string>
+  <string name="used_flow_string"><xliff:g id="ID_1">%s</xliff:g>MB वापरले आहे</string>
+  <string name="total_flow_string">एकूण<xliff:g id="ID_1">%s</xliff:g>M</string>
+  <string name="prompt_no_settings_traffic">सेट नाही</string>
+  <string name="no_settings">सेट नाही</string>
+  <string name="prompt_used_traffic">वापरलेले \n<xliff:g id="ID_1">%s</xliff:g>M</string>
+  <string name="month">महिना</string>
+  <string name="day">दिवस</string>
+  <string name="noti_today">"आजचा फ्लो "</string>
+  <string name="noti_surplus">"फ्री "</string>
+  <string name="noti_exceed">"ओव्हरस्टेप "</string>
+  <string name="noti_total">एकूण </string>
+  <string name="noti_no_settings">डाटा प्लॅन सेट केलेला नाही</string>
+  <string name="noti_no_card">सिम घातलेले नाही.</string>
+  <string name="start_date_string">मासिक</string>
+  <string name="limit_flow">डाटा प्लॅन सेट करा</string>
+  <string name="detail_flow">फ्लो चार्ट्स</string>
+  <string name="network_control">नेटवर्किंग नियंत्रित करा</string>
+  <string name="more_settings">अधिक सेटिंग नियंत्रण</string>
+  <string name="traffic_save">ट्रॅफिक सेव्ह करणे</string>
+  <string name="no_card_warning">कृपया सिम घाला</string>
+  <string name="action_known">पूर्ण झाले</string>
+  <string name="action_settings">सेट करण्यासाठी</string>
+  <string name="action_cancel">रद्द करा</string>
+  <string name="action_done">पूर्ण झाले</string>
+  <string name="action_save">सेव्ह</string>
+  <string name="action_sure">ओके</string>
+  <string name="action_allow">अनुमती द्या</string>
+  <string name="action_prohibit">प्रतिबंध करा</string>
+  <string name="action_all_allow">सर्वांना अनुमती द्या</string>
+  <string name="action_all_prohibit">सर्व अक्षम करा</string>
+  <string name="application_info">ॲपची माहिती</string>
+  <string name="data_connect_allow">कनेक्शन नियंत्रित करा</string>
+  <string name="total_flow_settings">मासिक ट्रॅफिकच्या मर्यादा</string>
+  <string name="input_hint">कृपया इनपुट करा</string>
+  <string name="warning_settings">चेतावणी मूल्य</string>
+  <string name="date_start_settings">फ्लो स्टार्ट तारीख</string>
+  <string name="used_flow_settings">प्रवाहाचा वापर</string>
+  <string name="flow_unit">MB</string>
+  <string name="percent_unit">% </string>
+  <string name="mobile_data_stop_title">ट्रॅफिक अलर्ट</string>
+  <string name="mobile_data_stop_contetn">मासिक कोटापेक्षा अधिक वापर झालेला आहे. मोबाईल डाटाचा वापर चालू ठेवल्यास अतिरिक्त दरे लागू होतील. तुम्हाला सुरू ठेवायचे आहे का?</string>
+  <string name="action_restart">वापरणे सुरू ठेवा</string>
+  <string name="action_stop">वापरू नका</string>
+  <string name="info_save_error_no_flow_input">कृपया मासिक ट्रॅफिक मर्यादा एन्टर करा</string>
+  <string name="info_prompt">तुम्ही मॅन्युअली प्रवाहाचे मूल्य समायोजित करू शकता.</string>
+  <string name="popup_notification_title">डाटा प्लॅन सेट केलेला नाही</string>
+  <string name="popup_notification_ticker_title">वर्तमान फ्लो हे पॅकेज संरक्षण सेट करीत नाही</string>
+  <string name="popup_notification_content">ट्रॅफिकचा वापर सेट करण्यासाठी,वास्तविक वेळेच्या निरीक्षणासाठी क्लिक करा</string>
+  <string name="popup_setting_title_dialog">डाटा प्लॅन सेट करा</string>
+  <string name="popup_setting_content_dialog">डाटा प्लॅन सेट करा आणि फोनचे शुल्क लॉक करण्यासाठी सुरक्षा पुरवा.</string>
+  <!--guoxt modify begin-->
+  <string name="notification_warn_exceed_warning_title">डाटा प्लॅनसाठी रेड वॉर्निंग आहे</string>
+  <!--Gionee: mengdw <2015-11-11> modify for CR01589343 begin-->
+  <string name="notification_warn_exceed_warning_content">डाटाचा वापर इशाऱ्याच्या सीमेपर्यंत पोहोचली आहे. वापर पाहण्यासाठी स्पर्श करा</string>
+  <!--Gionee: mengdw <2015-11-11> modify for CR01589343 end-->
+  <!--guoxt modify end-->
+  <string name="percent_value">80</string>
+  <string name="warning_value">0.0</string>
+  <string name="zero_percent">80%</string>
+  <string name="total_percent">100%</string>
+  <string name="process_kernel_labels">Android OS</string>
+  <string name="data_usage_uninstalled_apps_users">हटविलेले ॲप्स आणि यूजर</string>
+  <string name="data_usage_uninstalled_apps">हटविलेले ॲप्स</string>
+  <string name="tether_settings_title_all">टेदरिंग सेटिंग्स</string>
+  <string name="tether_settings_title_wifi">पोर्टेबल हॉटस्पॉट</string>
+  <string name="tether_settings_title_usb_bluetooth">टेदरिंग</string>
+  <string name="tether_settings_title_usb">USB टेदरिंग</string>
+  <string name="tether_settings_title_bluetooth">ब्लूटूथ टेदरिंग</string>
+  <string name="running_process_item_user_label">यूजर: %1$s</string>
+  <string name="data_usage_app_restricted">प्रतिबंधित</string>
+  <string name="usage_detail">ट्रॅफिक तपशील</string>
+  <string name="version_name">आवृत्तीः</string>
+  <string name="traffic_time_day">आजचे ट्रॅफिक(<xliff:g id="ID_1">%s</xliff:g>)</string>
+  <string name="traffic_time_week">या आठवड्यात हा प्रवाह (<xliff:g id="ID_1">%s</xliff:g>)</string>
+  <string name="traffic_time_month">मासिक प्रवाह (<xliff:g id="ID_2">%s</xliff:g>)</string>
+  <!--Gionee baiyh 2015-01-14 modify for CR01430127 begin -->
+  <string name="traffic_day">"आजचे \nट्रॅफिक"</string>
+  <string name="traffic_week">साप्ताहिक \nफ्लो</string>
+  <string name="traffic_month">मासिक\nफ्लो</string>
+  <!--Gionee baiyh 2015-01-14 modify for CR01430127 end -->
+  <string name="traffic_day_no">"आजचा न वापरलेला फ्लो रेट"</string>
+  <string name="traffic_week_no">"या आठवड्याचे न वापरलेले ट्रॅफिक"</string>
+  <string name="traffic_month_no">"या महिन्याचे न वापरलेले ट्रॅफिक"</string>
+  <string name="network_selection">या महिन्याचा डाटा वापर</string>
+  <string name="no_value">काहीच नाही</string>
+  <string name="text_loading">लोड होत आहे…</string>
+  <string name="text_noti">प्रक्रिया होत आहे…</string>
+  <string name="traffic_monitor_title">या आठवड्यात सर्वाधिक ट्रॅफिकचा वापर</string>
+  <string name="traffic_monitor_message"><xliff:g id="ID_1">%s</xliff:g></string>
+  <string name="traffic_settings_main_title">अधिसूचना सेंटर डिस्प्ले करा</string>
+  <string name="traffic_network_speed_title">नेटवर्कचा स्पीड दाखवा</string>
+  <string name="traffic_network_speed_summary">बटन ऑन झाल्यावर नेटवर्कचा स्पीड स्टेटस बारवर दिसेल</string>
+  <string name="traffic_notification_title">ट्रॅफिक माहिती दाखवा</string>
+  <string name="traffic_notification_summary">वर्तमान महिन्याची ट्रॅफिक माहिती पाहण्यासाठी नोटिफिकेशन बार खाली खेचा</string>
+  <string name="traffic_netcontrol_bar_allow_text">(<xliff:g id="ID_1">%1$s</xliff:g>) नेटवर्किंगला अनुमती द्या</string>
+  <string name="traffic_netcontrol_bar_prohibit_text">सॉफ्टवेअरने इंटरनेटवर प्रतिबंध आणला आहे (<xliff:g id="ID_1">%1$s</xliff:g>)</string>
+  <string name="net_link_allowed_txt">कोणतेही ॲप्लिकेशन इंटरनेटला अनुमती देत नाही</string>
+  <string name="net_link_prohibited_txt">कोणतेही ॲप्लिकेशन इंटरनेटवर प्रतिबंध आणत नाही</string>
+  <string name="traffic_save_setting">ट्रॅफिक सेव्ह करण्याचे सेटिंग्स</string>
+  <string name="switch_off">ऑफ करा</string>
+  <string name="switch_on">ऑन करा</string>
+  <string name="traffic_save_off">ट्रॅफिक सेव्ह करणे बंद आहे</string>
+  <string name="traffic_save_off_summary">ही क्रिया केवळ डाटा नेटवर्क अंतर्गत वैध आहे</string>
+  <string name="traffic_save_total_title">तुमच्याकडे जमा केलेल्या बचती आहेत</string>
+  <string name="traffic_save_total_num_string">328</string>
+  <string name="total_volume_string">MB</string>
+  <string name="money_save_total_title">Renminbi विषयी</string>
+  <string name="money_save_total_num_string">32.8</string>
+  <string name="total_money">युआन</string>
+  <string name="traffic_save_support_txt">OPERA द्वारे समर्थित</string>
+  <string name="traffic_save_history">सेव्ह केलेला ट्रॅफिक रेकॉर्ड पाहा</string>
+  <string name="traffic_save_history_total">वाढीव सेव्हिंग फ्लो</string>
+  <string name="traffic_question1">1、फ्लो सेव्ह्ज कसे प्राप्त करावेत?</string>
+  <string name="traffic_question2">"2、तुम्ही सेव्ह केल्यानंतर ट्रॅफिकचा वापर कशासाठी करायचा, सेव्ह करताना तुम्ही पहिले नाही का?"</string>
+  <string name="traffic_question3">3、फ्लो फंक्शन स्वत:च सेव्हिंग फ्लो वापरते का?</string>
+  <string name="traffic_question4">4、तुम्ही माझी इंटरनेट खासगी सुरक्षा सेव्ह केल्यानंतर ट्रॅफिकचा वापर करीत आहात का?</string>
+  <string name="traffican_answer1">फ्लो फीचर ऑन केल्यास सेव्ह करतो, आणि त्याचा वापर टेक्स्ट, फोटो आणि ट्रॅफिकला योग्य आकार देण्यात वापरला जातो आणि अशा प्रकारे ट्रॅफिकचा वापर याच्यासारख्या ॲप्लिकेशनसाठी QQ, WEIXIN, Taobao यांना घटवितो.</string>
+  <string name="traffican_answer2">फ्लो रेट सेव्हिंग केवळ डाटा नेटवर्किंगसाठी होतो, जेथे WLAN सक्षम केलेले नसते. फ्लो केवळ टेक्स्ट आणि फोटो इफेक्ट सेव्ह करतो, ऑडिओ आणि व्हिडिओ आणि फाईल डाउनलोड ट्रॅफिक सेव्ह करीत नाहीत.</string>
+  <string name="traffican_answer3">तुम्ही फ्लो या फीचरला ऑन केल्यानंतर, तो स्वत:हून सेव्ह करतो आणि ट्रॅफिकचा वापर करीत नाही, सर्व 2/3/4G इंटरनेट ट्रॅफिक ॲग्रीगेट आणि कॉम्प्रेस करण्यासाठी सिस्टीम मॅनेजरचा वापर करेल आणि स्वतंत्र सुरक्षा सॉफ्टवेअर बट्लरला सिस्टीमचा फ्लो वापरताना तपासेल. आम्ही तुमचे अमुल्य ट्रॅफिक वापरणार नाही, कृपया तुम्ही मुक्तपणे वापरा.</string>
+  <string name="traffican_answer4">हे फीचर तुमच्या कोणत्याही खासगी माहितीस हाताळत नाही, कृपया मोकळेपणाने याला वापरा</string>
+  <string name="traffican_question_answer">मदत</string>
+  <string name="traffican_whitelist_title">अशा ॲप्लिकेशनची सूची ज्यांचे ट्रॅफिक सेव्ह करण्याची गरज नाही</string>
+  <string name="text_no_traffic_whitelist">ट्रॅफिक सेव्ह करण्याची गरज नाही</string>
+  <string name="traffic_simcard_focus1">सिम 1</string>
+  <string name="traffic_simcard_focus2">सिम 2</string>
+  <string name="traffic_netcontrol_tab_bar_allow_text">WLAN नेटवर्क</string>
+  <string name="traffic_netcontrol_tab_bar_prohibit_text">डाटा नेटवर्क</string>
+  <string name="traffic_title_text"><xliff:g id="ID_1">%1$s</xliff:g> ॲप्स</string>
+  <string name="time_format">yyyy-MM</string>
+  <string name="traffic_back_toast_text">एक नेटवर्क नियंत्रण ॲप्लिकेशन सुरू आहे. कृपया प्रतीक्षा करा</string>
+  <!-- Gionee: mengdw <2015-09-22> add for CR01551678 begin -->
+  <string name="traffic_save_wait_text">डाटा अपडेट होत आहे, कृपया प्रतीक्षा करा...</string>
+  <!-- Gionee: mengdw <2015-09-22> add for CR01551678 end -->
+  <!-- Gionee: mengdw <2015-11-11> modify for CR01589343 begin -->
+  <string name="traffic_btn_calibration_text">प्रमाणीत करा</string>
+  <string name="traffic_limit_settings_title">ट्रॅफिक मर्यादा सेटिंग</string>
+  <string name="traffic_origan">सामाईक ट्रॅफिक</string>
+  <string name="traffic_idle_show_title">निष्क्रिय ट्रॅफिक दाखवा</string>
+  <string name="traffic_idle_available">निष्क्रिय उपलब्ध ट्रॅफिक</string>
+  <string name="traffic_idle_used">निष्क्रिय वापरलेले ट्रॅफिक</string>
+  <string name="traffic_buy_title">ट्रॅफिक खरेदी करा</string>
+  <string name="buy_step1_title">1 नंबर इनपुट करा</string>
+  <string name="buy_step2_title">2 फेस मूल्य निवडा</string>
+  <string name="buy_step3_title">3 पे करा आणि विकत घ्या</string>
+  <string name="buy_step_title">1 नंबर इनपुट करा > 2 फेस मूल्य निवडा > 3 पे करा आणि विकत घ्या</string>
+  <string name="temp_carrieroperator_title">beijing chnio</string>
+  <string name="order_info_title">ऑर्डरची माहिती</string>
+  <string name="traffic_packge_text"><xliff:g id="ID_1">%1$s</xliff:g>ट्रॅफिक पॅकेजेस</string>
+  <string name="traffic_packge_default_money">2 YUAN</string>
+  <string name="traffic_packge_default_instruction">नॅशनल जनरल, त्वरीत रक्कमेचा भरणा</string>
+  <string name="mobile_info_numble">रक्कमेचा भरणा नंबर :<xliff:g id="ID_1">%1$s</xliff:g></string>
+  <string name="pay_order_title">रक्कमेचा भरणा आणि ऑर्डर</string>
+  <string name="pay_order_Immediately_title">त्वरित रक्कमेचा भरणा</string>
+  <string name="show_problem_title">सामाईक समस्या</string>
+  <string name="buy_record_title">खरेदीचा रेकॉर्ड</string>
+  <string name="problem1_title">1 रिचार्ज फ्लो रोमिंगमध्ये वापरू शकतो?</string>
+  <string name="problem1_content">कृपया पेज प्रॉम्प्टसाठी लक्ष द्या, जसे की देशाचा डिस्प्ले राष्ट्रीय रोमिंग एक्स्प्रेस करण्यासाठी वापरू शकते.</string>
+  <string name="problem2_title">2 प्रभावीत कालावधीचा रिचार्ज फ्लो किती मोठा आहे?</string>
+  <string name="problem2_content">रिचार्ज फ्लो हा महिन्यासाठीच वैध आहे, जर प्रभावी नसेल तर कृपया कृतीची माहिती तपासा.</string>
+  <string name="problem3_title">3 सुरू झाल्यावर चार्ज आहे का हे कसे तपासायचे?</string>
+  <string name="problem3_content">चार्जनंतर, कृपया ऑपरेटरच्या माहितीचे प्रॉम्प्ट वापरा, तुम्ही अकाउंटच्या निश्चितीसाठी ऑपरेटरलाही कॉल करू शकता.</string>
+  <string name="problem4_title">4 फ्लो चार्ज चुकीचा नंबर?</string>
+  <string name="problem4_content">मला क्षमा करा, चुकीच्या नंबरनंतर ऑपरेटर (मोबाईल, China Unicom Telecom) परतावा देऊ शकत नाही. नुकसान टाळण्यासाठी तुम्ही खालील विविध मार्ग निवडू शकता: 1 मशीनच्या खऱ्या नंबरचे काँटॅक्ट आणि अन्य हे ट्रॅफिक फ्लोसाठी भरपाई देण्यास इच्छुक; 2 ऑपरेटरच्या ग्राहक सेवेस संपर्क साधा, सल्लागार हे यशस्वी रिचार्ज झालेल्या ट्रॅफिकचा परतावा देण्यास सक्षम आहे.</string>
+  <string name="problem5_title">5 अयशस्वी झाल्यानंतर, किती वेळ?</string>
+  <string name="problem5_content">सामान्यपणे, अयशस्वीतेसाठी आम्ही तुम्हाला परतावा देऊ. 24 तासांकरिता, अभिप्रायासाठी तुम्ही QQ ग्रुप (188473978) मध्ये सहभागी होऊ शकता.</string>
+  <string name="problem6_title">6 मी माझे रेकॉर्ड ऑर्डर आणि ट्रेड रेकॉर्ड कसे तपासू?</string>
+  <string name="problem6_content">रिचार्ज रेकॉर्डच्या पेजवर वरच्या बाजूस हे दर्शविले जाऊ शकते.</string>
+  <string name="mobile_invalid_text">मोबाईल अवैध आहे</string>
+  <string name="sell_alipay">alipa द्वारे पे करा</string>
+  <string name="sell_weixin_pay">weixin द्वारे पे करा</string>
+  <string name="payment_success_txt">ऑर्डर यशस्वी!</string>
+  <string name="payment_failed_txt">ऑर्डर अयशस्वी!</string>
+  <string name="payment_pre_txt">रिचार्ज करा</string>
+  <string name="btn_try_again_txt">पुन्हा प्रयत्न करा</string>
+  <string name="no_record_txt">रेकॉर्ड नाही</string>
+  <string name="query_record_falil_txt">चौकशी अयशस्वी!</string>
+  <string name="data_load_txt">लोड होत आहे...</string>
+  <string name="net_error_text">नेट त्रुटी, कृपया त्यास तपासा</string>
+  <string name="exit_Contacts_text">ॲड्रेस बुक नाही</string>
+  <string name="traffic_origan_txt">"बेसिक ट्रॅफिक "</string>
+  <string name="traffic_idle_txt">निष्क्रिय ट्रॅफिक</string>
+  <string name="traffic_idle_set_title">फ्री फ्लो सेटिंग</string>
+  <string name="traffic_correctting_txt">प्रमाणीत होत आहे</string>
+  <string name="correctting_wait_txt">कृपया प्रतीक्षेत...</string>
+  <string name="correctting_fail_txt">दुरुस्त करणे अयशस्वी, नंतर पुन्हा प्रयत्न करा</string>
+  <string name="correctting_success_txt">फ्लो प्रमाणित केला आहे, उर्वरित<xliff:g id="ID_1">%1$s</xliff:g>M</string>
+  <string name="query_traffic_txt">तुमच्या ट्रॅफिकच्या वापराकरिता शोधत आहे...</string>
+  <string name="query_product_fail_txt">कोणतेही सबस्क्रिप्शन पॅकेज उपलब्ध नाही</string>
+  <string name="query_product_record_fail_txt">उत्पादनची शंका रेकॉर्ड करणे अयशस्वी</string>
+  <string name="no_install_weixin_txt">कृपया तुम्ही मायक्रो लेटर इंस्टॉल केले असल्याची पुष्टी करा</string>
+  <string name="no_correct_service_txt">सुरू होण्याच्यावेळी, कृपया नंतर पुन्हा प्रयत्न करा...</string>
+  <string name="buy_number_hint_txt">कृपया तुमचा फोन नंबर एन्टर करा.</string>
+  <string name="no_query_code_txt">प्रमाणीकरण अयशस्वी, कृपया मॅन्युअली फ्लो पॅकेजेस सेट करा</string>
+  <string name="buy_omitted_displayname"><xliff:g id="ID_1">%1$s</xliff:g>...</string>
+  <string name="sell_baseinfo_symbol">/</string>
+  <string name="calibrate_setting_txt">प्रमाणीकरणाची सेटिंग</string>
+  <string name="calibrate_setting_province">प्रांत</string>
+  <string name="calibrate_setting_brand">ऑपरेटर ब्रॅंड</string>
+  <string name="calibrate_setting_province_choice">प्रांताची निवड</string>
+  <string name="calibrate_setting_brand_choice">ऑपरेटर ब्रॅंड निवड</string>
+  <string name="calibrate_send_msg_fail">SMS पाठविणे अयशस्वी, कृपया ऑपरेटर ब्रँड सेटिंग तपासा.</string>
+  <string name="traffic_flaw_price_txt"><xliff:g id="ID_1">%1$s</xliff:g>YUAN</string>
+  <string name="buy_record_baseinfo_txt"><xliff:g id="ID_1">%1$s</xliff:g> रिचार्ज<xliff:g id="ID_2">%2$s</xliff:g> / <xliff:g id="ID_3">%3$s</xliff:g>युआन</string>
+  <string name="buy_record_paytype_txt"><xliff:g id="ID_1">%1$s</xliff:g><xliff:g id="ID_2">%2$s</xliff:g></string>
+  <!-- Gionee: mengdw <2015-11-11> modify for CR01589343 end -->
+  <!-- Gionee: mengdw <2015-10-20> add for CR01571760 begin -->
+  <string name="noti_softap_setting_title">हॉटस्पॉटने डाटा शेअर करण्याची अधिसूचना</string>
+  <string name="noti_softap_setting_text">जेव्हा <xliff:g id="ID_1">%s</xliff:g> डाटा एकाच वेळी आल्यास अधिसूचना दाखवा</string>
+  <string name="noti_softap_group_title">पोर्टेबल WLAN हॉटस्पॉट डाटा सेटिंग</string>
+  <string name="noti_softap_setting_cancel">रद्द करा</string>
+  <string name="noti_softap_setting_userDefine">कस्टम</string>
+  <string name="noti_softap_setting_commit">वचन</string>
+  <string name="noti_softap_setting_units">एम</string>
+  <string name="noti_softap_warning_title">डाटा अधिसूचना</string>
+  <string name="noti_softap_warning_message">Hotspot share data has reached <xliff:g id="ID_1">%s</xliff:g>,turn off the hotspot？</string>
+  <string name="noti_softap_close_text">ऑफ करा</string>
+  <string name="noti_softap_no_warning_text">रिमाइंडर नाही </string>
+  <!-- Gionee: mengdw <2015-10-20> add for CR01571760 end -->
+  <!-- Gionee: mengdw <2016-01-28> add for CR01632119 begin -->
+  <string name="error_phone_number_text">अवैध फोन नंबर</string>
+  <!-- Gionee: mengdw <2016-01-28> add for CR01632119 end -->
+  <!-- Gionee: mengdw <2016-02-26> add for CR01640989 begin -->
+  <string name="nogi_entry_buy_text">,ट्रॅफिक पॅकेज खरेदीसाठी क्लिक करा</string>
+  <string name="info_save_error_no_used_input">कृपया वापरलेले ट्रॅफिक एन्टर करा</string>
+  <string name="payment_sended_txt">ऑर्डर पाठवल्या आहेत, ऑपरेटरने रिचार्ज करण्यासाठी प्रतीक्षेत आहे...</string>
+  <string name="payment_explain_txt">सामान्यपणे अकाउंटसाठी 1 तासात फ्लो विकत घ्या परंतु नेटवर्क आणि वेळेच्या विलंबामुळे निर्माण झालेल्या इतर कारणांमुळे तुम्ही अंतिम अकाउंटच्या चौकशीसाठी ग्राहक सेवा ऑपरेटरला कॉल करू शकता किंवा टेक्स्ट मेसेज पाठवू शकता. \n ॲरिअर्स, पॅकेज म्युटेक्स, सेटलमेंटच्या अखेरीस ऑपरेटर यासारख्या आणि अन्य कारणांमुळे परतावा मिळण्यात अपयश येऊ शकते, कृपया ऑपरेटरची माहिती शेवटी प्रचलित करा.</string>
+  <string name="payment_fail_reason_txt">नेटवर्क समस्या किंवा ऑपरेटर सिस्टीम व्यस्त असल्याने आणि अयशस्वी होण्याच्या इतर अन्य अज्ञात कारणांमुळे कदाचित असेल.</string>
+  <!-- Gionee: mengdw <2016-02-26> add for CR01640989 end -->
+  <!-- Gionee: mengdw <2016-04-07> add for CR01665427 begin -->
+  <string name="weixin_freezed_txt">WeChat फ्रीज करण्यात आले आहे, वापरू शकत नाही</string>
+  <!-- Gionee: mengdw <2016-04-07> add for CR01665427 end -->
+  <!-- Gionee: mengdw <2016-07-06> add for CR01639347 begin -->
+  <string name="dialog_btn_cancel">रद्द करा</string>
+  <string name="dialog_btn_unlock">मोकळे करा</string>
+  <string name="dialog_network_control_title">सिस्टीममॅनेजर अलर्ट</string>
+  <string name="net_type_mobile">मोबाईल नेटवर्क</string>
+  <string name="net_type_wifi">WLAN नेटवर्क</string>
+  <string name="dialog_not_alert_again">कोणतीही चेतावणी नाही</string>
+  <string name="dialog_network_control_content"><xliff:g id="ID_1">%1$s</xliff:g> ला <xliff:g id="ID_1">%1$s</xliff:g> वापरण्यास प्रतिबंधित केले आहे, हे अक्षम मोकळे करावे की नाही</string>
+  <!-- Gionee: mengdw <2016-07-06> add for CR01639347 end -->
+  <!--  mengdw <2016-10-09> add for CR01766193 begin -->
+  <string name="noti_softap_use_agiain_txt"><xliff:g id="ID_1">%1$d</xliff:g>M वापरा</string>
+  <string name="dialog_know">समजले</string>
+  <string name="hotspot_restart">रिस्टार्ट करा</string>
+  <string name="hotspot_settingvalue_valid">जेव्हा हॉटस्पॉट <xliff:g id="ID_1">%1$d</xliff:g>M शेअर करेल तेव्हा ते तुम्हाला पुन्हा रिमाइंड करेल</string>
+  <string name="hotspot_settingvalue_invalid"><xliff:g id="ID_1">%1$1.2f</xliff:g>M वापरले, कृपया रिस्टार्ट करा</string>
+  <string name="hotspot_userdefine_settingvalue_invalid">अवैध डाटा, कृपया रिस्टार्ट करा</string>
+  <string name="hotspot_auto_close_message">हॉटस्पॉटने <xliff:g id="ID_1">%d</xliff:g>M डाटा शेअर करण्याची मर्यादा पोहोचली आहे, मोठ्या प्रमाणात वापर टाळण्यासाठी हॉटस्पॉट ऑफ करा</string>
+  <!--  mengdw <2016-10-09> add for CR01766193 end -->
+  <!-- Gionee: mengdw <2016-12-01> add for CR01775177 begin -->
+  <string name="weixin_disenabled_txt">WeChat अक्षम करण्यात आले आहे, वापरू शकत नाही </string>
+  <!-- Gionee: mengdw <2016-12-01> add for CR01775177 end -->
+  <!-- Gionee: mengdw <2016-12-06> add for CR01775579 begin -->
+  <string name="lockscreen_traffic_remind_close">रिमाइंडर नाही</string>
+  <string name="lockscreen_traffic_limit_one">100K</string>
+  <string name="lockscreen_traffic_limit_two">1M</string>
+  <string name="lockscreen_traffic_limit_three">5M</string>
+  <string name="lockscreen_traffic_remid_title">लॉक स्क्रीन डाटा ट्रॅफिक रिमाइंडर</string>
+  <string name="traffic_remind_group_title">ट्रॅफिक रिमाइंड</string>
+  <string name="lockscreen_traffic_remid_txt">जेव्हा स्क्रीन लॉक असेल तेव्हा डाटा ट्रॅफिक <xliff:g id="ID_1">%1$s</xliff:g> असेल</string>
+  <string name="lock_screen_traffic_title">जेव्हा स्क्रीन लॉक असेल तेव्हा डाटा ट्रॅफिक <xliff:g id="ID_1">%s</xliff:g> असेल</string>
+  <string name="lock_screen_traffic_content">तपशील पाहण्यासाठी स्पर्श करा </string>
+  <string name="lock_screen_traffic_unknow_app">अज्ञात ॲप</string>
+  <!-- Gionee: mengdw <2016-12-06> add for CR01775579 end -->
+</resources>

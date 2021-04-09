@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="notify_icon_text_color">#4a78c0</color>
+    <color name="passwordColor">#cccccc</color>
+    <color name="common_blue">#3698FF</color>
+</resources>

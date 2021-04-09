@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="cyee_app_name">CyeeUI</string>
+    <string name="cyee_capital_on">Укључено</string>
+    <string name="cyee_capital_off">Искључено</string>
+    <string name="cyee_time_picker_dialog_title">Подешавање времена</string>
+    <string name="cyee_date_picker_dialog_title">Подеси датум</string>
+    <string name="cyee_date_time_done">Готово</string>
+    <string name="cyee_copy">копија</string>
+    <string name="cyee_paste">паста</string>
+    <string name="cyee_cut">Исеци</string>
+    <string name="cyee_selectAll">Изабери све</string>
+    <string name="cyee_select">изабрати</string>
+    <string name="cyee_inputMethod">Метод уноса</string>
+    <string name="cyee_back_button_label">Назад</string>
+    <string name="cyee_next_button_label">следећи</string>
+    <string name="cyee_skip_button_label">Прескочи</string>
+    <string name="cyee_ok">ОК</string>
+    <string name="cyee_cancel">Поништите</string>
+    <string name="cyee_yes">ОК</string>
+    <string name="cyee_no">Поништите</string>
+    <string name="cyee_action_mode_done">Готово</string>
+    <string name="cyee_action_bar_home_description">Крећите се кући</string>
+    <string name="cyee_action_bar_up_description">Крећите се</string>
+    <string name="cyee_smart_full_btn_label">ОК</string>
+    <string name="cyee_activity_resolver_use_always">увек</string>
+    <string name="cyee_activity_resolver_use_once">Само једном</string>
+    <string name="cyee_noApplications">Нема апликације може да обавља ову радњу.</string>
+    <string name="cyee_system_label">Андроид Систем</string>
+    <string name="cyee_whichApplication">Комплетна акција користећи</string>
+    <string name="cyee_chooseActivity">Подели</string>
+    <string name="cyee_actionbar_magic_item_more">Више</string>
+    <string name="cyee_actionbar_magic_item_close">Близу</string>
+    <string name="cyee_edit_mode_leftbtn_txt">Поништите</string>
+    <string name="cyee_edit_mode_rightbtn_txt">Сачувај</string>
+    <string name="cyee_strong_warning">јако упозорење</string>
+    <string name="cyee_multichoice_select_text">%1$s Одабрано</string>
+    <string name="cyee_multichoice_select_all">Изабери све</string>
+    <string name="cyee_multichoice_cancel_select_all">Поништи све</string>
+    <string name="cyee_loading">Учитавање\u2026</string>
+    <string name="cyee_today">"Данас"</string>
+</resources>

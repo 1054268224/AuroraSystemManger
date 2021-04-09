@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">  
+    <string name="app_name">Диспетчер задач</string>
+    <string name="cell_accelerator">Очистка памяти</string>
+    <string name="cell_accelerator_summary">Занято памяти <![CDATA[<font color="#d23030">%1$s%%</font>]]></string>
+    <string name="rubbish_clean">Очистка кэша</string>
+    <string name="rubblish">кэш <![CDATA[<font color="#d23030">%1$s</font>]]></string>
+    <string name="power_optimizer">Оптимизатор энергопотребления</string>
+    <string name="can_use">Доступно <![CDATA[<font color="#6eb330">%1$s</font>]]></string>
+    <string name="charge_time">Требуется <![CDATA[<font color="#6eb330">%1$s</font>]]></string>
+    <string name="traffic_monitor">Мониторинг трафика</string>
+    <string name="traffic_remained">Остаток <![CDATA[<font color="#6eb330">%1$s</font>]]></string>
+    <string name="traffic_exceed">Перерасход <![CDATA[<font color="#6eb330">%1$s</font>]]></string>
+    <string name="antivirus">Подозрительные приложения <![CDATA[<font color="#d23030">%1$s个</font>]]></string>
+    <string name="traffic_no_setting">Не включены пакеты трафика</string>
+    <string name="traffic_no_simcard">SIM-карта не вставлена</string>
+    <string name="soft_manager">Приложения</string>
+    <string name="app_installed">Всего приложений <![CDATA[<font color="#d23030">%1$s</font>]]></string>
+    <string name="perm_manager">Разрешение приложения</string>
+    <string name="minutes">минут</string>
+    <string name="hours">часов</string>
+    <string name="cannotget">нет доступа</string>
+    <string name="quick_accelerate">Телефон оптимизирован</string>
+    <string name="toast_content">освобождено%1$smemory</string>
+    <string name="menu_setting">Настройки</string>
+    <string name="items_switch">Монитор фонового режима</string>
+    <string name="net_monitor_title">Напоминание о расходовании трафика</string>
+    <string name="net_monitor_summary">Проверять расходование трафика приложениями раз в неделю</string>
+    <string name="energy_monitor_title">Напоминание о потребляемой мощности</string>
+    <string name="energy_monitor_summary">Проверить энергопотребление приложениями один раз в неделю</string>   
+    <string name="apps_monitor_title">Напоминание о редко используемых приложениях</string>
+    <!--Gionee <GN_Oversea_Req> <zhang_han> <20170927> for 219887 beign-->
+    <string name="apps_monitor_summary">Проверять частоту использования приложений один раз в неделю</string>
+    <!--Gionee <GN_Oversea_Req> <zhang_han> <20170927> for 219887 end-->
+    <string name="root_monitor_title">Системное предупреждение</string>
+    <string name="root_monitor_summary">Предупреждение о доступе к системным файлам</string>
+    <string name="desktop_monitor_title">Мониторинг рабочего стола</string>
+    <string name="desktop_monitor_summary">Следите, чтобы рабочий стол был установлен по умолчанию и отображался в строке состояния</string>
+    <string name="utilization_title">Системное предупреждение</string>
+    <string name="utilization_content">Добро пожаловать в диспетчер задач. Это приложение может использовать трафик передачи данных. Пожалуйста, свяжитесь с оператором сети для уточнения платы за передачу данных и другой, связанной с этим информации.</string>
+    <string name="dialog_checkbox_description">Не напоминать больше</string>
+    <string name="dialog_exit_btn">Выход</string>
+    <string name="dialog_continue_btn">"Продолжить"</string>
+    <string name="text_antivirus">Антивирус</string>
+    <string name="text_start_scan">Начать сканирование</string>
+    <string name="text_cancel_scan">Отменить сканирование</string>
+    <string name="text_scaning">Сканирование...</string>
+    <string name="text_scaning_result">Сканирование завершено</string>
+    <string name="text_scaning_reminder">Требуется срочная проверка</string>
+    <string name="text_score_unit">%</string>
+    <string name="text_menu_savepower">"Питание"</string>
+    <string name="text_menu_traffic">Трафик</string>
+    <string name="text_menu_pure">Эко-режим</string>
+    <string name="text_menu_ram">Память</string>
+    <string name="text_one_key_check">Проверить</string>
+    <string name="text_one_key_check_complete">Готово</string>
+    <string name="text_scan_daily_none">Коснитесь для очистки памяти</string>
+    <string name="text_scan_daily_cancel">Запуск проверки отменен, рекомендуем проверить немедленно</string>
+    <string name="text_scan_daily_last">Последняя проверка : <xliff:g id="ID_1">%s</xliff:g></string>
+    <string name="text_scan_result_good">Мобильный телефон работает правильно. Продолжение оптимизации</string>
+    <string name="text_scan_result_better">Мобильный телефон работает правильно. Пожалуйста ожидайте</string>
+    <string name="text_scan_result_problem">Проблемы в работе мобильного телефона. Оптимизируйте телефон</string>
+    <string name="text_accelerating">Оптимизация</string>
+    <string name="text_memory_release">Освобождено памяти <xliff:g id="ID_1">%s</xliff:g></string>
+    <string name="text_memory_release_running">Освобождение памяти</string>
+    <string name="text_memory_release_display">Оптимизировано, освобождено памяти: <xliff:g id="ID_1">%s</xliff:g></string>
+    <string name="text_memory_used">Исп. <xliff:g id="ID_1">%s</xliff:g></string>
+    <string name="text_phone_state_better">Память очищена</string>
+    <string name="text_phone_state_problem">Серьезные проблемы в работе мобильного телефона. Требуется оптимизация</string>
+    <string name="text_root_remind">Обнаружено изменение системных файлов</string>
+    <string name="text_root_remind_restore">восстановление</string>
+    <string name="msg_superpower_error">Ненормальное последнее включение, для устранения проблемы перезагрузите</string>
+    <string name="msg_error_title">Ошибка</string>
+    <string name="msg_reboot">Перезагрузка</string>
+    <string name="app_process_limit_title">Лимит фоновых процессов</string>
+    <string name="app_process_limit_txt">Лимит фоновых процессов %s "</string>
+    <string name="msg_background_process">Белый список</string>
+    <string name="pressure_sensor_menu_first">Удаление временных файлов</string>
+    <string name="pressure_sensor_menu_second">Приостановка приложения</string>
+    <string name="pressure_sensor_menu_third">Исходные настройки приложения</string>
+    <string name="pressure_sensor_menu_fourth">Доступ к Интернету</string>
+    <string name="text_in_screenpin">"Сейчас находится в режиме экрана, не удается открыть супер режим."</string>
+    <string name="required_permissions_promo">Диспетчер задач требуется разрешение на вход в телефон и SD карту.</string>
+    <string name="enable_permission_procedure">Вы можете изменить разрешения в Настройки / Apps /SystemManager и Разрешения.</string>
+    <string name="enable_permission_procedure_description">Вы можете изменить разрешения в Настройки, Apps, SystemManager, Разрешения.</string>
+    <!--Gionee <GN_Oversea_Req> <liumn> <20171009> for 227081 beign-->
+    <string name="next_with_arrow">ДАЛЕЕ</string>
+    <!--Gionee <GN_Oversea_Req> <liumn> <20171009> for 227081 end-->
+    <!-- Gionee <GN_Oversea_Req> <zhang_han> <20170925> add for 219887 begin -->
+    <string name="next">ДАЛЕЕ</string>
+    <!-- Gionee <GN_Oversea_Req> <zhang_han> <20170925> add for 219887 end -->
+    <string name="settings_with_arrow">Настройки &gt;</string>
+    <string name="settings">Настройки</string>
+</resources>

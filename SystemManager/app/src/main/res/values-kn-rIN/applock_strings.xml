@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="cancel">ರದ್ದುಪಡಿಸಿ</string>
+  <string name="gn_securitypassword_forget">ಪಾಸ್ವರ್ಡ್ ಮರೆತಿರಾ</string>
+  <string name="lockpassword_confirm_your_pattern_header">ನಿಮ್ಮ ಪ್ಯಾಟರ್ನ್ ಖಚಿತಪಡಿಸಿ</string>
+  <string name="lockpassword_confirm_your_pattern_generic">ಮುಂದುವರಿಸಲು ನಿಮ್ಮ ಡಿವೈಸ್ ಪ್ಯಾಟರ್ನ್ ಬಳಸಿ.</string>
+  <string name="lockpattern_need_to_unlock_wrong">ತಪ್ಪು ಪ್ಯಾಟರ್ನ್</string>
+  <string name="gn_securitypassword_retry_note">ದಯವಿಟ್ಟು "%1$s" ನಿಮಿಷದ ನಂತರ ಮತ್ತೊಮ್ಮೆ ಪ್ರಯತ್ನಿಸಿ</string>
+  <string name="gn_securitypassword_input_error_note">ತಪ್ಪು ಪಾಸ್ವರ್ಡ್, "%1$s" ಬಾರಿ ನಮೂದಿಸಬಹುದು</string>
+  <string name="gn_lockpattern_recording_intro_header">"ಅನ್ಲಾಕ್ ಪ್ಯಾಟ್ರನ್ ಡ್ರಾ ಮಾಡಿ"</string>
+  <string name="gn_fingerprint_confirm_your_password_header2">ಅನ್ಲಾಕ್ ಪ್ಯಾಟರ್ನ್ ಎಳೆಯಿರಿ ಅಥವಾ ಫಿಂಗರ್‌ಪ್ರಿಂಟ್‌ ಗುರುತಿಸುವಿಕೆ ಮಾಡಿ</string>
+  <string name="gn_fingerprint_confirm_your_password_header">ದಯವಿಟ್ಟು ಪಾಸ್ವರ್ಡ್ ನಮೂದಿಸಿ ಅಥವಾ ಫಿಂಗರ್‌ಪ್ರಿಂಟ್ ಗುರುತಿಸುವಿಕೆ ನಮೂದಿಸಿ</string>
+  <string name="lockpassword_confirm_your_password_header">ನಿಮ್ಮ ಪಾಸ್ವರ್ಡ್ ಖಚಿತಪಡಿಸಿ</string>
+  <string name="gn_confirm_your_password_header">ದಯವಿಟ್ಟು ಪಾಸ್ವರ್ಡ್ ನಮೂದಿಸಿ</string>
+  <string name="lockpattern_too_many_failed_confirmation_attempts">ಅತೀ ಹೆಚ್ಚು ತಪ್ಪಾದ ಪ್ರಯತ್ನಗಳು, <xliff:g id="number">%d</xliff:g> ಸೆಕೆಂಡುಗಳ ನಂತರ ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ.</string>
+  <string name="lockpattern_tutorial_cancel_label">ರದ್ದುಪಡಿಸಿ</string>
+  <string name="lockpattern_tutorial_continue_label">ಮುಂದಿನದು</string>
+  <string name="lockpassword_confirm_your_pin_header">ನಿಮ್ಮ ಪಿನ್ ಖಚಿತಪಡಿಸಿ</string>
+  <string name="lockpassword_confirm_your_password_generic">ಮುಂದುವರಿಸಲು ನಿಮ್ಮ ಡಿವೈಸಿಗೆ ಪಾಸ್ವರ್ಡ್ ನಮೂದಿಸಿ.</string>
+  <string name="lockpassword_confirm_your_pin_generic">ಮುಂದುವರಿಸಲು ನಿಮ್ಮ ಡಿವೈಸಿಗೆ ಪಿನ್ ನಮೂದಿಸಿ.</string>
+  <string name="lockpassword_confirm_app_header">%s ನ್ನು ಸಂರಕ್ಷಿಸಲಾಗಿದೆ</string>
+</resources>

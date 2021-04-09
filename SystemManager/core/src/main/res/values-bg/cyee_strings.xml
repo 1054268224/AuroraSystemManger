@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+     Gionee <zhangxx> <2013-06-20> add for cyeeframework.
+ -->
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="cyee_app_name">CyeeUI</string>
+    <string name="cyee_capital_on">За</string>
+    <string name="cyee_capital_off">От</string>
+    <string name="cyee_time_picker_dialog_title">Определите време</string>
+    <string name="cyee_date_picker_dialog_title">Определите дата</string>
+    <string name="cyee_date_time_done">Завършено</string>
+    <string name="cyee_copy">Копирай</string>
+    <string name="cyee_paste">Залепи</string>
+    <string name="cyee_cut">Изрежи</string>
+    <string name="cyee_selectAll">изберете всички</string>
+    <string name="cyee_select">изберете </string>
+    <string name="cyee_inputMethod">Метод на въвеждане</string>
+    <!--  Strings for possible PreferenceActivity Back/Next buttons -->
+    <string name="cyee_back_button_label">Назад</string>
+    <string name="cyee_next_button_label">Следващо</string>
+    <!-- Optional button to Skip a PreferenceActivity [CHAR LIMIT=20] -->
+    <string name="cyee_skip_button_label">пропускане</string>
+    <string name="cyee_ok">ОК</string>
+    <string name="cyee_cancel">Отказ</string>
+    <string name="cyee_yes">ОК</string>
+    <string name="cyee_no">Отказ</string>
+    <string name="cyee_action_mode_done">Завършено</string>
+    <string name="cyee_action_bar_home_description">Навигация вкъщи</string>
+    <string name="cyee_action_bar_up_description">Навигация нагоре</string>
+    <!-- Gionee <xuhz> <2013-07-19> add for CR00838236 begin -->
+    <!-- String for Smart Guider -->
+    <string name="cyee_smart_full_btn_label">ОК</string>
+    <!-- Gionee <xuhz> <2013-07-19> add for CR00838236 end -->
+    <!-- Gionee <hanbj> <2013-09-18> add for CR00907636 begin -->
+    <string name="cyee_activity_resolver_use_always">Винаги</string>
+    <string name="cyee_activity_resolver_use_once">Само веднъж</string>
+    <!-- Text to display when there are no activities found to display in the
+         activity chooser. See the "Select an action" title. -->
+    <string name="cyee_noApplications">Никакви приложения не могат да изпълнят това действие.</string>
+    <string name="cyee_system_label">Android система</string>
+    <string name="cyee_whichApplication">Изпълнете пълно действие</string>
+    <string name="cyee_chooseActivity">Споделяне</string>
+    <!-- Gionee <hanbj> <2013-09-18> add for CR00907636 end -->
+    <!-- shaozj begin-->
+    <string name="cyee_actionbar_magic_item_more">Повече</string>
+    <string name="cyee_actionbar_magic_item_close">Затвори</string>
+    <!-- shaozj end-->
+    <!-- weidong begin -->
+    <string name="cyee_edit_mode_leftbtn_txt">Отказ</string>
+    <string name="cyee_edit_mode_rightbtn_txt">Запазете </string>
+    <string name="cyee_strong_warning">силно предупреждение</string>
+    <string name="cyee_multichoice_select_text">%1$s Избрани</string>
+    <string name="cyee_multichoice_select_all">изберете всички</string>
+    <string name="cyee_multichoice_cancel_select_all">Отменете всички</string>
+    <!-- weidong end -->
+    <!-- gionee maxw add begin -->
+    <string name="unit_year">Y</string>
+    <string name="unit_month">M</string>
+    <string name="unit_day">D</string>
+    <string name="unit_hour">H</string>
+    <string name="unit_minute">M</string>
+    <!-- gionee maxw add end -->
+    <!--  Gionee <dual_weixin> <liuran> <Dec 29, 2015> add for  begin -->
+    <string name="clone_suffix"> clone </string>
+    <!--  Gionee <dual_weixin> <liuran> <Dec 29, 2015> add for  end -->
+    <!-- Text shown by cyee list fragment when waiting for data to display. -->
+    <string name="cyee_loading">Зарежда се\u2026</string>
+    <string name="cyee_today">"днес"</string>
+    <string name="cyee_colon">:</string>
+</resources>

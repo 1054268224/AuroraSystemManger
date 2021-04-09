@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+**
+** Copyright 2008, The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+-->
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="text">Tekstas</string>
+    <string name="trafficassistant_app_name">Srauto stebėjimas</string>
+    <string name="tabbar_name1">SIM 1 lizdas</string>
+    <string name="tabbar_name2">SIM 2 lizdas</string>
+    <string name="remained_flow_string">Perteklius</string>
+    <string name="exceed_flow_string">Peržengti ribas</string>
+    <string name="used">Naudojama</string>
+    <string name="used_flow_string">Panaudota <xliff:g id="ID_1">%s</xliff:g>MB</string>
+    <string name="total_flow_string">Iš viso<xliff:g id="ID_1">%s</xliff:g> M</string>
+    <string name="prompt_no_settings_traffic">Nenustatyta</string>
+    <string name="no_settings">Nenustatyta</string>
+    <string name="prompt_used_traffic">Panaudota\n<xliff:g id="ID_1">%s</xliff:g> M</string>
+    <string name="month">Mėnuo</string>
+    <string name="day">Diena</string>
+    <string name="noti_today">Šiandien srautas</string>
+    <string name="noti_surplus">Nenaudojama</string>
+    <string name="noti_exceed">Peržengti ribas</string>
+    <string name="noti_total">Iš viso</string>
+    <string name="noti_no_settings">Duomenų planas nenustatytas</string>
+    <string name="noti_no_card">SIM neįdėta.</string>
+    <string name="start_date_string">Kas mėnesį</string>
+    <string name="limit_flow">Nustatyti duomenų planą</string>
+    <string name="detail_flow">Srauto diagramos</string>
+    <string name="network_control">Valdyti darbą tinkle</string>
+    <string name="more_settings">Daugiau nustatymų valdiklių</string>
+    <string name="traffic_save">Srauto išsaugojimas</string>
+    <string name="no_card_warning">Įdėkite SIM</string>
+    <string name="action_known">Atlikta</string>
+    <string name="action_settings">Nustatyti</string>
+    <string name="action_cancel">Atšaukti</string>
+    <string name="action_done">Atlikta</string>
+    <string name="action_save">Išsaugoti</string>
+    <string name="action_sure">Gerai</string>
+    <string name="action_allow">Leisti</string>
+    <string name="action_prohibit">Uždrausti</string>
+    <string name="action_all_allow">Leisti visus</string>
+    <string name="action_all_prohibit">Išjungti visus</string>
+    <string name="application_info">Programos informacija</string>
+    <string name="data_connect_allow">Valdyti jungtis</string>
+    <string name="total_flow_settings">Mėnesio srauto apribojimai</string>
+    <string name="input_hint">Įdėkite</string>
+    <string name="warning_settings">Įspėjimo vertė</string>
+    <string name="date_start_settings">Srauto pradžios data</string>
+    <string name="used_flow_settings">Srauto naudojimas</string>
+    <string name="flow_unit">MB</string>
+    <string name="percent_unit">%</string>
+    <string name="mobile_data_stop_title">Srauto įspėjamasis signalas</string>
+    <string name="mobile_data_stop_contetn">Pasibaigus mėnesio srautui toliau naudojamas duomenų ryšys kainuos, norite naudoti？</string>
+    <string name="action_restart">Toliau naudoti</string>
+    <string name="action_stop">Nenaudoti</string>
+    <string name="info_save_error_no_flow_input">Įveskite mėnesio srauto limitą</string>
+    <string name="info_prompt">Galite patys koreguoti srauto vertę.</string>
+    <string name="popup_notification_title">Nenustatyti duomenų plano</string>
+    <string name="popup_notification_ticker_title">Nenustatyta dabartinio srauto paketo apsauga</string>
+    <string name="popup_notification_content">Paspauskite, kad galėtumėte nustatyti srauto naudojimo stebėjimą realiu laiku</string>
+    <string name="popup_setting_title_dialog">Nustatyti duomenų planą</string>
+    <string name="popup_setting_content_dialog">Nustatyti duomenų planą ir suteikti apsaugą, kad būtų užrakinti telefono mokesčiai.</string>
+    <string name="notification_warn_exceed_warning_title">Raudonasis duomenų plano įspėjimas</string>
+    <string name="notification_warn_exceed_warning_content">Srautas pasiekė įspėjamąją vertę, palieskite, kad būtų parodytas naudojimas</string>
+    <string name="percent_value">80</string>
+    <string name="warning_value">0.0</string>
+    <string name="zero_percent">80%</string>
+    <string name="total_percent">100%</string>
+    <string name="process_kernel_labels">Android OS</string>
+    <string name="data_usage_uninstalled_apps_users">Pašalintos programos ir naudotojai</string>
+    <string name="data_usage_uninstalled_apps">Pašalintos programos</string>
+    <string name="tether_settings_title_all">susiejimo nustatymai</string>
+    <string name="tether_settings_title_wifi">Perkeliamas laisvosios preigos interneto taškas</string>
+    <string name="tether_settings_title_usb_bluetooth">Susiejimas</string>
+    <string name="tether_settings_title_usb">USB susiejimas</string>
+    <string name="tether_settings_title_bluetooth">Bluetooth susiejimas</string>
+    <string name="running_process_item_user_label">Naudotojas：%1$s</string>
+    <string name="data_usage_app_restricted">ribotas</string>
+    <string name="usage_detail">Išsami srauto informacija</string>
+    <string name="version_name">Versija:</string>
+    <string name="traffic_time_day">Šios dienos srautas(<xliff:g id="ID_1">%s</xliff:g>)</string>
+    <string name="traffic_time_week">Šios savaitės srautas(<xliff:g id="ID_1">%s</xliff:g>)</string>
+    <string name="traffic_time_month">Mėnesio srautas(<xliff:g id="ID_2">%s</xliff:g>)</string>
+    <string name="traffic_day">Šios dienos\nsrautas</string>
+    <string name="traffic_week">Savaitės\nsrautas</string>
+    <string name="traffic_month">Mėnesio\nsrautas</string>
+    <string name="traffic_day_no">Šios dienos nepanaudoto srauto rodiklis</string>
+    <string name="traffic_week_no">Šios savaitės nepanaudotas srautas</string>
+    <string name="traffic_month_no">Šio mėnesio nepanaudotas srautas</string>
+    <string name="network_selection">Šis mėnuo su duomenų srautu</string>
+    <string name="no_value">Nėra</string>
+    <string name="text_loading">Įkeliama...</string>
+    <string name="text_noti">Apdorojama...</string>
+    <string name="traffic_monitor_display">
+        <xliff:g id="ID_1">%s</xliff:g> 2G/3G/4G srauto panaudojimas：</string>
+    <string name="traffic_monitor_title">Didžioji dalis srauto suvartota šią savaitę</string>
+    <string name="traffic_monitor_message">
+        <xliff:g id="ID_1">%s</xliff:g>
+    </string>
+    <string name="traffic_settings_main_title">Rodyti pranešimų centrą</string>
+    <string name="traffic_network_speed_title">Rodyti tinklo spartą</string>
+    <string name="traffic_network_speed_summary">Tinklo sparta bus rodoma būsenos juostoje, kai mygtukas įjungtas</string>
+    <string name="traffic_notification_title">Rodyti esamo mėnesio srauto informaciją</string>
+    <string name="traffic_notification_summary">Išskleisti pranešimų juostą, kai rodoma srauto informacija</string>
+    <string name="traffic_netcontrol_bar_allow_text">Leisti darbą tinkle(<xliff:g id="ID_1">%1$s</xliff:g>)</string>
+    <string name="traffic_netcontrol_bar_prohibit_text">Uždraustas internetas(<xliff:g id="ID_1">%1$s</xliff:g>)</string>
+    <string name="net_link_allowed_txt">Nėra programų, leidžiančių internetą</string>
+    <string name="net_link_prohibited_txt">Nėra programų, draudžiančių internetą</string>
+    <string name="traffic_save_setting">Srauto taupymo nustatymai</string>
+    <string name="switch_off">Išjungti</string>
+    <string name="switch_on">Įjungti</string>
+    <string name="traffic_save_off">Srauto sutaupyti duomenys neatidaryti</string>
+    <string name="traffic_save_off_summary">Ši funkcija galioja tik duomenų tinkle</string>
+    <string name="traffic_save_total_title">Turite sukauptų sutaupytų duomenų</string>
+    <string name="traffic_save_total_num_string">328</string>
+    <string name="total_volume_string">MB</string>
+    <string name="money_save_total_title">Apie juanį</string>
+    <string name="money_save_total_num_string">32.8</string>
+    <string name="total_money">Juanis</string>
+    <string name="traffic_save_support_txt">Veikia naudojant OPERA</string>
+    <string name="traffic_save_history">Rodyti išsaugotą srauto istoriją</string>
+    <string name="traffic_save_history_total">Kaupiamų sutaupytų duomenų srautas</string>
+    <string name="traffic_question1">1 Kaip sutaupyti srauto duomenų?</string>
+    <string name="traffic_question2">2 Kodėl naudodami sukauptus srauto duomenis nematote Išsaugoti?</string>
+    <string name="traffic_question3">3 Ar srauto funkcija naudoja kaupiamą srautą?</string>
+    <string name="traffic_question4">4 Ar išsaugojus savo interneto privatumo nustatymus naudojamas srautas?</string>
+    <string name="traffican_answer1">Įjungta srauto taupymo funkcija bus naudojama siekiant išsaugoti tekstą, atvaizdus ir kitą srautą, taip sumažinant QQ, weixin, Taobao programų eikvojamą energiją. Rezultatai nuolat gerėja.</string>
+    <string name="traffican_answer2">Sukaupti srauto duomenys paveikia tik duomenų darbą tinkle, belaidis ryšys neįjungiamas. Sukaupti srauto duomenys paveikia tik tekstą ir atvaizdus, garso ir vaizdo įrašai, taip pat failų siuntimas nekaupia srauto.</string>
+    <string name="traffican_answer3">Sukauptas srautas pats savaime neeikvoja srauto įjungus šią funkciją, visi 2G/3G/4G interneto srautai naudos sistemos tvarkyklę, kad būtų kaupiama ir glaudinama, o individuali saugos programinė įranga pamatys Butler, naudojančią sistemos srautą. Mes nenaudosime jūsų brangaus srauto, naudokite nesivaržydami.</string>
+    <string name="traffican_answer4">Ši funkcija neapdoroja jokios jūsų asmeninės informacijos, naudokite nesivaržydami.</string>
+    <string name="traffican_question_answer">Pagalba</string>
+    <string name="traffican_whitelist_title">Sąrašas programų, kurioms nereikia taupyti srauto</string>
+    <string name="text_no_traffic_whitelist">Nereikia taupyti srauto</string>
+    <string name="traffic_simcard_focus1">1 SIM</string>
+    <string name="traffic_simcard_focus2">2 SIM</string>
+    <string name="traffic_netcontrol_tab_bar_allow_text">Belaidžio ryšio tinklas</string>
+    <string name="traffic_netcontrol_tab_bar_prohibit_text">Duomenų tinklas</string>
+    <string name="traffic_title_text">
+        <xliff:g id="ID_1">%1$s</xliff:g> programos</string>
+    <string name="time_format">mmmm-MM</string>
+    <string name="traffic_back_toast_text">Vyksta tinklo programos valdymo operacija, luktelėkite</string>
+    <string name="traffic_save_wait_text">duomenys atnaujinami, luktelėkite</string>
+    <string name="traffic_btn_calibration_text">kalibruoti</string>
+    <string name="traffic_limit_settings_title">Srauto apribojimo nustatymas</string>
+    <string name="traffic_origan">bendrasis srautas</string>
+    <string name="traffic_idle_show_title">rodyti laisvą srautą</string>
+    <string name="traffic_idle_available">laisvas galimas srautas</string>
+    <string name="traffic_idle_used">laisvas panaudotas srautas</string>
+    <string name="traffic_buy_title">pirkti srautą</string>
+    <string name="buy_step1_title">1 įveskite numerį</string>
+    <string name="buy_step2_title">2 pasirinkite nominalią vertę</string>
+    <string name="buy_step3_title">3 mokėkite ir pirkite</string>
+    <string name="buy_step_title">1 įveskite numerį; 2 pasirinkite nominalią vertę; 3 mokėkite ir pirkite</string>
+    <string name="temp_carrieroperator_title">Pekinas, Kinija</string>
+    <string name="order_info_title">užsakymo informacija</string>
+    <string name="traffic_packge_text">
+        <xliff:g id="ID_1">%1$s</xliff:g>srauto paketai</string>
+    <string name="traffic_packge_default_money">2 JUANIAI</string>
+    <string name="traffic_packge_default_instruction">Bendrasis nacionalinis, skubus mokėjimas</string>
+    <string name="mobile_info_numble">Mokėjimo numeris:<xliff:g id="ID_1">%1$s</xliff:g></string>
+    <string name="pay_order_title">mokėjimas ir užsakymas</string>
+    <string name="pay_order_Immediately_title">mokėti nedelsiant</string>
+    <string name="show_problem_title">Dažna problema</string>
+    <string name="buy_record_title">pirkimo įrašas</string>
+    <string name="problem1_title">1 ar papildymas gali būti tarptinklinis?</string>
+    <string name="problem1_content">Atkreipkite dėmesį į puslapio raginimus, pvz., rodoma šalis gali būti naudojama nacionaliniam tarptinkliniam ryšiui pateikti.</string>
+    <string name="problem2_title">2 kiek laiko galioja papildymas?</string>
+    <string name="problem2_content">Papildymas galioja mėnesį, nesibaigus tikrinkite informaciją.</string>
+    <string name="problem3_title">3 kaip gavus patikrinti, ar papildyta?</string>
+    <string name="problem3_content">Papildę naudokite operatoriaus informacinį klausimą, taip pat galite skambinti operatoriui, kad patvirtintumėte paskyrą.</string>
+    <string name="problem4_title">4 neteisingas papildymo numeris?</string>
+    <string name="problem4_content">Apgailestaujame, nurodžius neteisingą numerį operatoriai (mobiliojo tinklo, China Unicom, telekomunikacijų) negrąžina pinigų. Galite pasirinkti kelis toliau nurodytus būdus, norėdami kompensuoti nuostolius. 1 kreipkitės į tikruoju aparato numeriu ir kiti tikriausiai padengs papildymo išlaidas; 2 kreipkitės į operatoriaus klientų aptarnavimo centrą ir pasiteiraukite, ar galima susigrąžinti sėkmingai papildytą papildymą.</string>
+    <string name="problem5_title">5 po nesėkmės, kiek laiko?</string>
+    <string name="problem5_content">Paprastai nesėkmės atvejus pinigus grąžinsime. Per 24 val. galite prisijungti prie oficialios QQ grupės (188473978) dėl atsakymo.</string>
+    <string name="problem6_title">6 kaip galiu patikrinti savo užsakymų ir pirkimo įrašų istoriją?</string>
+    <string name="problem6_content">Gali būti rodomas papildymo įrašų puslapio viršuje.</string>
+    <string name="mobile_invalid_text">mobilusis netinkamas</string>
+    <string name="sell_alipay">mokėti naudojant alipay</string>
+    <string name="sell_weixin_pay">mokėti naudojant weixin</string>
+    <string name="payment_success_txt">užsakymas sėkmingas!</string>
+    <string name="payment_failed_txt">užsakymas nesėkmingas!</string>
+    <string name="payment_pre_txt">Papildyti iš naujo</string>
+    <string name="btn_try_again_txt">Bandyti dar kartą</string>
+    <string name="no_record_txt">nėra įrašų</string>
+    <string name="query_record_falil_txt">užklausa nepavyko!</string>
+    <string name="data_load_txt">įkeliama...</string>
+    <string name="net_error_text">tinklo klaida, patikrinkite</string>
+    <string name="exit_Contacts_text">Nėra adresų knygelės</string>
+    <string name="traffic_origan_txt">Pradinis srautas</string>
+    <string name="traffic_idle_txt">laisvas srautas</string>
+    <string name="traffic_idle_set_title">Laisvo srauto nustatymas</string>
+    <string name="traffic_correctting_txt">Tikrinimas</string>
+    <string name="correctting_wait_txt">palaukite...</string>
+    <string name="correctting_fail_txt">pataisyti nepavyko, vėliau bandykite dar kartą</string>
+    <string name="correctting_success_txt">Srautas patikrintas, liko<xliff:g id="ID_1">%1$s</xliff:g> M</string>
+    <string name="query_traffic_txt">Ieškoma naudojamo srauto...</string>
+    <string name="query_product_fail_txt">Nėra užprenumeruotų paketų</string>
+    <string name="query_product_record_fail_txt">produkto įrašo užklausa nepavyko</string>
+    <string name="no_install_weixin_txt">Patvirtinkite, ar įdiegėte mikropaketą</string>
+    <string name="no_correct_service_txt">Inicijuojavimo metu dar kartą bandykite vėliau...</string>
+    <string name="buy_number_hint_txt">Įveskite savo telefono numerį.</string>
+    <string name="no_query_code_txt">Patikrinti nepavyko, paketų srautą nustatykite rankiniu būdu</string>
+    <string name="buy_omitted_displayname">
+        <xliff:g id="ID_1">%1$s</xliff:g>...</string>
+    <string name="sell_baseinfo_symbol">/</string>
+    <string name="calibrate_setting_txt">Tikrinimo nustatymai</string>
+    <string name="calibrate_setting_province">Sritis</string>
+    <string name="calibrate_setting_brand">Operatoriaus ženklas</string>
+    <string name="calibrate_setting_province_choice">Srities parinkimas</string>
+    <string name="calibrate_setting_brand_choice">Operatoriaus ženklo parinkimas</string>
+    <string name="calibrate_send_msg_fail">SMS išsiųsti nepavyko, patikrinkite operatoriaus ženklo nustatymus.</string>
+    <string name="traffic_flaw_price_txt">
+        <xliff:g id="ID_1">%1$s</xliff:g>JUANIS</string>
+    <string name="buy_record_baseinfo_txt">
+        <xliff:g id="ID_1">%1$s</xliff:g> Pakartotinis papildymas<xliff:g id="ID_2">%2$s</xliff:g> /<xliff:g id="ID_3">%3$s</xliff:g>JUANIS</string>
+    <string name="buy_record_paytype_txt">
+        <xliff:g id="ID_1">%1$s</xliff:g>
+        <xliff:g id="ID_2">%2$s</xliff:g>
+    </string>
+    <string name="noti_softap_setting_title">Pranešimas apie viešosios interneto prieigos taško bendrinimo duomenis</string>
+    <string name="noti_softap_setting_text">Rodyti pranešimą, kai <xliff:g id="ID_1">%s</xliff:g> duomenys pakartotinai pildomi vieną kartą</string>
+    <string name="noti_softap_group_title">Perkeliamo belaidžio ryšio viešosios interneto prieigos taško duomenų nustatymas</string>
+    <string name="noti_softap_setting_cancel">Atšaukti</string>
+    <string name="noti_softap_setting_userDefine">Priskirtas</string>
+    <string name="noti_softap_setting_commit">Nusiųsti</string>
+    <string name="noti_softap_setting_units">M</string>
+    <string name="noti_softap_warning_title">Duomenų pranešimas</string>
+    <string name="noti_softap_warning_message">Bendrinami viešosios interneto prieigos taško duomenys pasiekti <xliff:g id="ID_1">%s</xliff:g>, išjungti viešosios interneto prieigos tašką？</string>
+    <string name="noti_softap_close_text">Išjungti</string>
+    <string name="noti_softap_no_warning_text">Nepriminti</string>
+    <string name="error_phone_number_text">Neteisingas telefono numeris</string>
+    <string name="dialog_btn_cancel">Atšaukti</string>
+    <string name="net_type_mobile">Mobiliojo ryšio tinklas</string>
+    <string name="dialog_know">Supratau</string>
+    <string name="hotspot_restart">Paleisti iš naujo</string>
+    <string name="lockscreen_traffic_remind_close">Nepriminti</string>
+    <string name="historyorder_dial">rinkti numerį</string>
+    <string name="historyorder_query_failed">užklausa nepavyko!</string>
+    <string name="historyorder_retry">Bandyti dar kartą</string>
+    <string name="traffic_original_price_txt">
+        <xliff:g id="ID_1">%1$s</xliff:g>
+    </string>
+    <string name="dialog_btn_unlock">Leidimas</string>
+    <string name="net_type_wifi">Belaidžio ryšio tinklas</string>
+    <string name="traffic_packge_title">
+        <xliff:g id="ID_1">%1$s</xliff:g>
+        <xliff:g id="ID_2">%2$1.2f</xliff:g>YUAN<xliff:g id="ID_3">%3$s</xliff:g>package</string>
+    <string name="traffic_buy_alipay">Alipay</string>
+    <string name="traffic_buy_weixin">Wechat</string>
+    <string name="lockscreen_traffic_limit_one">100k</string>
+    <string name="lockscreen_traffic_limit_two">1M</string>
+    <string name="lockscreen_traffic_limit_three">5M</string>
+</resources>

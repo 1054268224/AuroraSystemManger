@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">  
+  <string name="cyee_app_name">CyeeUI</string>  
+  <string name="cyee_capital_on">Вкл.</string>  
+  <string name="cyee_capital_off">Выкл.</string>  
+  <string name="cyee_time_picker_dialog_title">Установить время</string>  
+  <string name="cyee_date_picker_dialog_title">Установить дату</string>  
+  <string name="cyee_date_time_done">Готово</string>  
+  <string name="cyee_copy">Копировать</string>  
+  <string name="cyee_paste">Вставить</string>  
+  <string name="cyee_cut">Вырезано</string>  
+  <string name="cyee_selectAll">Выбрать все</string>  
+  <string name="cyee_select">Выбрать</string>  
+  <string name="cyee_inputMethod">Способ ввода</string>  
+  <string name="cyee_back_button_label">Назад</string>  
+  <string name="cyee_next_button_label">Далее</string>  
+  <string name="cyee_skip_button_label">Пропустить</string>  
+  <string name="cyee_ok">OK</string>  
+  <string name="cyee_cancel">Отмена</string>  
+  <string name="cyee_yes">OK</string>  
+  <string name="cyee_no">Отмена</string>  
+  <string name="cyee_action_mode_done">Готово</string>  
+  <string name="cyee_action_bar_home_description">К началу</string>  
+  <string name="cyee_action_bar_up_description">Вверх</string>  
+  <string name="cyee_smart_full_btn_label">OK</string>  
+  <string name="cyee_activity_resolver_use_always">Всегда</string>  
+  <string name="cyee_activity_resolver_use_once">Только один раз</string>  
+  <string name="cyee_noApplications">Действие не поддерживается ни в одном приложении.</string>  
+  <string name="cyee_system_label">Система Android</string>  
+  <string name="cyee_whichApplication">Завершить действие с помощью</string>  
+  <string name="cyee_chooseActivity">Поделиться</string>
+  <string name="cyee_actionbar_magic_item_more">Ещё</string>  
+  <string name="cyee_actionbar_magic_item_close">Закрыть</string>  
+  <string name="cyee_edit_mode_leftbtn_txt">Отмена</string>  
+  <string name="cyee_edit_mode_rightbtn_txt">Сохранить</string>  
+  <string name="cyee_strong_warning">важное предупреждение</string>
+  <string name="cyee_multichoice_select_text">выбрано: %1$s</string>
+  <string name="cyee_multichoice_select_all">Выбрать все</string>
+  <string name="cyee_multichoice_cancel_select_all">Отменить выбор всех</string>
+  <!--Gionee luoguangming 2016.09.18 modify CR01759024 begin  -->
+  <string name="unit_year">Y</string>
+  <string name="unit_month">М</string>
+  <string name="unit_day">D</string>
+  <string name="unit_hour">H</string>
+  <string name="unit_minute">М</string>
+  <string name="clone_suffix"> Клонировать </string>
+  <!--Gionee luoguangming 2016.09.18 modify CR01759024  end   -->
+  <string name="cyee_loading">Загрузка…</string>
+  <string name="cyee_today">Сегодня</string>
+
+</resources>

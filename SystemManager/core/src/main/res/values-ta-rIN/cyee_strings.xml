@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">  
+    <string name="cyee_app_name">அமிகோUI</string>
+    <string name="cyee_capital_on">ஆன்</string>
+    <string name="cyee_capital_off">ஆஃப்</string>
+    <string name="cyee_time_picker_dialog_title">நேரம் அமைக்கவும்</string>
+    <string name="cyee_date_picker_dialog_title">தேதி அமைக்கவும்</string>
+    <string name="cyee_date_time_done">முடிந்தது</string>
+    <string name="cyee_copy">நகலெடுக்கவும்</string>
+    <string name="cyee_paste">பேஸ்ட் செய்யவும்</string>
+    <string name="cyee_cut">கட் செய்யவும்</string>
+    <string name="cyee_selectAll">அனைத்தையும் தேர்ந்தெடு</string>
+    <string name="cyee_select">தேர்ந்தெடுக்கவும்</string>
+    <string name="cyee_inputMethod">உள்ளீடு முறைமை</string>
+    <string name="cyee_back_button_label">பேக்</string>
+    <string name="cyee_next_button_label">அடுத்து</string>
+    <string name="cyee_skip_button_label">தவிர்க்கவும்</string>
+    <string name="cyee_ok">சரி</string>
+    <string name="cyee_cancel">ரத்துசெய்</string>
+    <string name="cyee_yes">சரி</string>
+    <string name="cyee_no">ரத்துசெய்</string>
+    <string name="cyee_action_mode_done">முடிந்தது</string>
+    <string name="cyee_action_bar_home_description">முகப்பு வழிசெலுத்தவும்</string>
+    <string name="cyee_action_bar_up_description">மேல் வழிசெலுத்தவும்</string>
+    <string name="cyee_smart_full_btn_label">சரி</string>
+    <string name="cyee_activity_resolver_use_always">எப்போதும்</string>
+    <string name="cyee_activity_resolver_use_once">ஒருமுறை</string>
+    <string name="cyee_noApplications">இந்த நடவடிக்கையை எந்த ஆப்பாலும் செயற்படுத்தாது.</string>
+    <string name="cyee_system_label">ஆண்ட்ராய்டு சிஸ்டம்</string>
+    <string name="cyee_whichApplication">பயன்படுத்தி செயலை முழுமைபெற செய்யவும்</string>
+    <string name="cyee_chooseActivity">பகிர்வு</string>
+    <string name="cyee_actionbar_magic_item_more">மேலும்</string>
+    <string name="cyee_actionbar_magic_item_close">மூடவும்</string>
+    <string name="cyee_edit_mode_leftbtn_txt">ரத்துசெய்</string>
+    <string name="cyee_edit_mode_rightbtn_txt">சேமிக்கவும்</string>
+    <string name="cyee_strong_warning">கடும் எச்சரிக்கை</string>
+    <string name="cyee_multichoice_select_text">%1$s தேர்ந்தெடுக்கப்பட்டுள்ளது</string>
+    <string name="cyee_multichoice_select_all">அனைத்தையும் தேர்ந்தெடு</string>
+    <string name="cyee_multichoice_cancel_select_all">அனைத்தையும் தேர்வுநீக்கம் செய்யவும்</string>
+    <string name="unit_year">Y</string>
+    <string name="unit_month">M</string>
+    <string name="unit_day">D</string>
+    <string name="unit_hour">H</string>
+    <string name="unit_minute">M</string>
+    <string name="clone_suffix"> குளோன் </string>
+    <string name="cyee_loading">ஏற்றுகிறது\u2026</string>
+    <string name="cyee_today">இன்று</string>
+</resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="allow">Να επιτρέπεται</string>
+    <string name="remove">Κατάργηση</string>
+    <string name="add">Προσθήκη</string>
+    <string name="ok_btn">OK</string>
+    <string name="cancel_btn">Ακύρωση</string>
+    <string name="oneclean_action">Μνήμη</string>
+    <string name="auto_start_power">αυτόματη</string>
+    <string name="auto_start_back">αυτόματη</string>
+    <string name="auto_start_both">αυτόματη</string>
+    <string name="action_complete">Τέλος</string>
+    <string name="encryptions_app_fake_name">Άλλο</string>
+</resources>

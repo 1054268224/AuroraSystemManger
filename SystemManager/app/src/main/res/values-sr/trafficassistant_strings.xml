@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="text">Teкст</string>
+    <string name="trafficassistant_app_name">Надгледање саобраћаја</string>
+    <string name="tabbar_name1">SIM Слот 1</string>
+    <string name="tabbar_name2">SIM Слот 2</string>
+    <string name="remained_flow_string">Вишак</string>
+    <string name="exceed_flow_string">Прекорачење</string>
+    <string name="used">Коришћен</string>
+    <string name="used_flow_string">Коришћен <xliff:g id="ID_1">%s</xliff:g>M</string>
+    <string name="total_flow_string">Укупно <xliff:g id="ID_1">%s</xliff:g>M</string>
+    <string name="prompt_no_settings_traffic">Није подешено</string>
+    <string name="no_settings">Није подешено</string>
+    <string name="prompt_used_traffic">Коришћено <xliff:g id="ID_1">%s</xliff:g>M</string>
+    <string name="month">Месец</string>
+    <string name="day">Дан</string>
+    <string name="noti_surplus">Слободно</string>
+    <string name="noti_exceed">Прекорачење</string>
+    <string name="noti_today">Dанашњи пренос података</string>
+    <string name="noti_no_settings">План мрежних података није постављен</string>
+    <string name="noti_no_card">SIM картица није присутна</string>
+    <string name="start_date_string">Месечно</string>
+    <string name="limit_flow">Постави план мрежних података</string>
+    <string name="detail_flow">Дијаграм протока</string>
+    <string name="network_control">Управљање мрежом</string>
+    <string name="more_settings">Још контролних подешавања</string>
+    <string name="traffic_save">Уштеда преноса података</string>
+    <string name="no_card_warning">Молимо убаците SIM</string>
+    <string name="action_known">Готово</string>
+    <string name="action_settings">Да поставите</string>
+    <string name="action_cancel">Откажи</string>
+    <string name="action_done">Готово</string>
+    <string name="action_save">Сачувај</string>
+    <string name="action_sure">Потврди</string>
+    <string name="action_allow">Дозволи</string>
+    <string name="action_prohibit">Забрани</string>
+    <string name="action_all_allow">Дозволи све</string>
+    <string name="action_all_prohibit">Онемогући све</string>
+    <string name="application_info">Информације о апликацији</string>
+    <string name="data_connect_allow">Управљајте повезивањима</string>
+    <string name="total_flow_settings">Ограничења месечног промета</string>
+    <string name="input_hint">Молимо унесите</string>
+    <string name="warning_settings">Вредности упозорења</string>
+    <string name="date_start_settings">Почетни датум протока</string>
+    <string name="used_flow_settings">Потрошени подаци</string>
+    <string name="flow_unit">MB</string>
+    <string name="mobile_data_stop_title">Упозорења промета</string>
+    <string name="mobile_data_stop_contetn">Ваш месечни проток је истекао, уколико будете користили мрежне податке доћи ће до наплате, да ли желите наставити?</string>
+    <string name="action_restart">Наставите користити</string>
+    <string name="action_stop">Немојте користити</string>
+    <string name="info_save_error_no_flow_input">Молимо унесите месечно ограничење преноса података</string>
+    <string name="info_prompt">Можете ручно подесити вредност протока.</string>
+    <string name="popup_notification_title">План мрежних података није постављен</string>
+    <string name="popup_notification_ticker_title">Није постављено ограничење употребе преноса података</string>
+    <string name="popup_notification_content">Кликните да поставите надзирање употребе промета у реалном времену</string>
+    <string name="popup_setting_title_dialog">Поставите план мрежних података</string>
+    <string name="popup_setting_content_dialog">Поставите план мрежних података и осигурајте телефон закључавањем.</string>
+    <string name="notification_warn_exceed_warning_title">Црвено упозорење на план мрежних података</string>
+    <string name="notification_warn_exceed_warning_content">Проток података је достигао забрињавајућу вредност. Додирните да видите употребу</string>
+    <string name="process_kernel_labels">Android ОС</string>
+    <string name="data_usage_uninstalled_apps_users">Уклоњене апликације и корисници</string>
+    <string name="data_usage_uninstalled_apps">Уклоњене апликације</string>
+    <string name="tether_settings_title_all">подешавања дељења мреже</string>
+    <string name="tether_settings_title_wifi">Преносни хотспот</string>
+    <string name="tether_settings_title_usb_bluetooth">Повезивање са Интернетом</string>
+    <string name="tether_settings_title_usb">USB Интернет повезивање</string>
+    <string name="tether_settings_title_bluetooth">Bluetooth Интернет веза</string>
+    <string name="running_process_item_user_label">Корисник: %1$s</string>
+    <string name="data_usage_app_restricted">ограничена</string>
+    <string name="usage_detail">Детаљи саобраћаја</string>
+    <string name="version_name">Верзија:</string>
+    <string name="traffic_time_day">Данашњи промет <xliff:g id="ID_1">%s</xliff:g>M</string>
+    <string name="traffic_time_week">Промет је ове седмице <xliff:g id="ID_1">%s</xliff:g>M</string>
+    <string name="traffic_time_month">Месечни промет <xliff:g id="ID_1">%s</xliff:g>M</string>
+    <string name="traffic_day">Дневни пренос података</string>
+    <string name="traffic_week">Недељни пренос података</string>
+    <string name="traffic_month">Месечни пренос података</string>
+    <string name="traffic_day_no">Данашња неискоришћена стопа преноса података</string>
+    <string name="traffic_week_no">Овонедељни неискорштени пренос података</string>
+    <string name="traffic_month_no">Неискоришћен пренос података овог месеца</string>
+    <string name="network_selection">Овај месец са протоком мрежних података</string>
+    <string name="no_value">Ништа</string>
+    <string name="text_loading">Учитавање…</string>
+    <string name="text_noti">Обрађује се ...</string>
+    <string name="traffic_monitor_display">
+        <xliff:g id="ID_1">%s</xliff:g> M промет како следи</string>
+    <string name="traffic_monitor_display_kr">
+        <xliff:g id="ID_1">%s</xliff:g>Потрошња података на 2G/3G/4G је:</string>
+    <string name="traffic_monitor_title">Највећа употреба протока података ове недеље</string>
+    <string name="traffic_monitor_message">
+        <xliff:g id="ID_1">%s</xliff:g>M</string>
+    <string name="traffic_settings_main_title">Прикажите центар за обавештења</string>
+    <string name="traffic_network_speed_title">Покажи брзину мреже</string>
+    <string name="traffic_network_speed_summary">Брзина мреже ће се приказати на статусној траци када је дугме укљученo</string>
+    <string name="traffic_notification_title">Приказ информације о саобраћају</string>
+    <string name="traffic_notification_summary">Проверите траку за обавештења за информације о преносу података</string>
+    <string name="traffic_netcontrol_bar_allow_text">Дозволи умрежавање <xliff:g id="ID_1">%s</xliff:g>M</string>
+    <string name="traffic_netcontrol_bar_prohibit_text">Забранио на Интернет <xliff:g id="ID_1">%s</xliff:g>M</string>
+    <string name="net_link_allowed_txt">Ниједној апликацији није дозвољен приступ интернету</string>
+    <string name="net_link_prohibited_txt">Свим апликацијама је дозвољено да приступе интернету</string>
+    <string name="traffic_save_setting">Подешавања уштеде преноса података</string>
+    <string name="switch_off">Искључи</string>
+    <string name="switch_on">Укључи</string>
+    <string name="traffic_save_off">Штедња протока података је искључена</string>
+    <string name="traffic_save_off_summary">Ова функција је важећа само под мрежним подацима</string>
+    <string name="traffic_save_total_title">Акумулирали сте уштеду</string>
+    <string name="total_volume_string">MB</string>
+    <string name="money_save_total_title">Више о Renminbi</string>
+    <string name="total_money">Yuan</string>
+    <string name="traffic_save_support_txt">Покреће га OPERA</string>
+    <string name="traffic_save_history">Погледајте историју уштеде протока података</string>
+    <string name="traffic_save_history_total">Проток целокупне уштеде</string>
+    <string name="traffic_question1">1. Како постићи уштеду протока?</string>
+    <string name="traffic_question2">2. Зашто не могу да видим колико података је уштећено?</string>
+    <string name="traffic_question3">3. Да ли режим уштеде података користи и сам користи податке?</string>
+    <string name="traffic_question4">4. Да ли је безбедно да се сурфује по интернету док је активан режим уштеде података?</string>
+    <string name="traffican_answer1">Када је уштеда података укључена, доћи ће до промене величине текстова, слика и слично и смањиће се употрба података за апликације као што су QQ, Weixin, Taobao. Наставак коришћења ове функције ће показати боље резултате.</string>
+    <string name="traffican_answer2">5. Режим уштеде коришћења података ради само док се сурфује у оквиру пакета података, биће онемогућен у Wi-Fi мрежи. Ради само за речи и слике, а не и за преузимање видео записа или других датотека.</string>
+    <string name="traffican_answer3">Сам режим штедње података не троши податке. Када га омогућите, сви подаци који се користе преко 2G/3G/4G ће бити компресовани. Неколико безбедносних апликација ће их видети као утрошене податке, иако то уствари нису. Не брините.</string>
+    <string name="traffican_answer4">Ова опција не захтева вашие приватние информације. Можете је користити без бриге.</string>
+    <string name="traffican_question_answer">Помоћ</string>
+    <string name="traffican_whitelist_title">Бела листа за саобраћај</string>
+    <string name="text_no_traffic_whitelist">Нема потребе за штедњом података</string>
+    <string name="traffic_simcard_focus1">SIM 1</string>
+    <string name="traffic_simcard_focus2">SIM 2</string>
+    <string name="traffic_netcontrol_tab_bar_allow_text">Wi-Fi мрежа</string>
+    <string name="traffic_netcontrol_tab_bar_prohibit_text">Мрежа за пренос података</string>
+    <string name="traffic_title_text">
+        <xliff:g id="ID_1">%1$s</xliff:g> Aпликације</string>
+    <string name="time_format">гггг-ММ</string>
+    <string name="traffic_back_toast_text">Апликације управљање контролом мреже је у току, молимо сачекајте</string>
+    <string name="traffic_save_wait_text">Подаци се ажурирају, сачекајте</string>
+    <string name="traffic_btn_calibration_text">Калибрисати</string>
+    <string name="traffic_limit_settings_title">Подешавања преноса података</string>
+    <string name="traffic_origan">Нормални пакет података</string>
+    <string name="traffic_idle_show_title">Неактивани подаци током ноћи</string>
+    <string name="traffic_idle_available">Доступни неактивни подаци</string>
+    <string name="traffic_idle_used">Потрошени подаци у стању мировања</string>
+    <string name="traffic_buy_title">Купите податке</string>
+    <string name="buy_step1_title">1. Унесите број</string>
+    <string name="buy_step2_title">2. Изаберите номиналну вредност</string>
+    <string name="buy_step3_title">3. Платите и купите</string>
+    <string name="buy_step_title">1 улазни број &gt; 2 изаберите личну вредност &gt; 3 платите и купите</string>
+    <string name="temp_carrieroperator_title">Пекинг, Кина</string>
+    <string name="order_info_title">Информације о поруџбини</string>
+    <string name="traffic_packge_text">
+        <xliff:g id="ID_1">%1$s</xliff:g> пакети</string>
+    <string name="traffic_packge_default_money">2 YUAN</string>
+    <string name="traffic_packge_default_instruction">Радите у целој држави и будите одмах плаћени за то</string>
+    <string name="mobile_info_numble">Додатни број:<xliff:g id="ID_1">%1$s</xliff:g></string>
+    <string name="pay_order_title">Плати и наручи</string>
+    <string name="pay_order_Immediately_title">Платите одмах</string>
+    <string name="show_problem_title">Чест проблем</string>
+    <string name="buy_record_title">Купи запис</string>
+    <string name="problem1_title">1. Да ли се допуњени подаци могу користти у ромингу?</string>
+    <string name="problem1_content">Обратите пажњу на искачуће прозоре, на пример, приказано је да ли се на дату земљу примењује национални роминг</string>
+    <string name="problem2_title">2. Каква је исправност допуне података?</string>
+    <string name="problem2_content">Допуњени подаци се могу користити само месец дана након допуне, крајњи рок је крај месеца, проверите детље у поруци провајдера</string>
+    <string name="problem3_title">Како проверити да ли вам је допуна пристигла на рачун?</string>
+    <string name="problem3_content">Проверите детаље у поруци од оператера након допуне, можете такође позвати број провајдера да бисте потврдили да ли је пристигла на ваш рачун.</string>
+    <string name="problem4_title">Шта ако сте извршили допуну на погрешан рачун?</string>
+    <string name="problem4_content">На жалост, оператер (mobile, China Unicom, telecom) није у могућности да изврши рефундирање, након допуне не погрешан број. Можете одабрати неку од следећих опција како бисте покушали да надокнадите губитак: 1. Покушајте да контактирате број на који сте извршили уплату, ако је друга страна спремна да надокнади проток саобраћаја; 2. обратите се корисничкој служби оператера, консултовањем ћете моћи да добијете рефундацију и успешно извршите допуну.</string>
+    <string name="problem5_title">Колико дуго можете извршити рефундирање уколико нисте извршили допуну?</string>
+    <string name="problem5_content">Нормално, извршићемо рефундирање за све што је било неуспешно. У року од 24 часа можете се придружити званичној QQ групи (188473978) за повретне информације.</string>
+    <string name="problem6_title">6) Како проверавам историју наруџбина и евиденцију куповина?</string>
+    <string name="problem6_content">Историју допуна можете погледати преко горње странице допуне података.</string>
+    <string name="mobile_invalid_text">Неважећи мобилни</string>
+    <string name="sell_alipay">Плати преко alipay-а</string>
+    <string name="sell_weixin_pay">Плати преко weixin-а</string>
+    <string name="payment_success_txt">Наручивање успешно // Поруџбина стављена успешно</string>
+    <string name="payment_failed_txt">Наруџбина није успела</string>
+    <string name="payment_pre_txt">Допуна</string>
+    <string name="btn_try_again_txt">Покушај поново</string>
+    <string name="no_record_txt">Нема података</string>
+    <string name="query_record_falil_txt">упитник неуспешан</string>
+    <string name="data_load_txt">Учитавање...</string>
+    <string name="net_error_text">Проверите вашу везу за преноса података</string>
+    <string name="exit_Contacts_text">Није у адресару</string>
+    <string name="traffic_origan_txt">Нормални подаци</string>
+    <string name="traffic_idle_txt">Неактивни подаци</string>
+    <string name="traffic_idle_set_title">Неактивна подешавања података</string>
+    <string name="traffic_correctting_txt">Калибрисање...</string>
+    <string name="correctting_wait_txt">Сачекајте...</string>
+    <string name="correctting_fail_txt">Исправка није успела, покушајте поново касније</string>
+    <string name="correctting_success_txt">Потрошња података је потврђена,  <xliff:g id="ID_1">%1$s</xliff:g>M је остало</string>
+    <string name="query_traffic_txt">Претраживање употребе података...</string>
+    <string name="query_product_fail_txt">Нема доступних пакета за претплату</string>
+    <string name="query_product_record_fail_txt">Безуспешна провера података о производима</string>
+    <string name="no_install_weixin_txt">Проверите да ли сте инсталирали апликацију Micro Letter</string>
+    <string name="no_correct_service_txt">Покреће се, покушајте поново касније...</string>
+    <string name="buy_number_hint_txt">Унесите ваш број телефона</string>
+    <string name="no_query_code_txt">Калибрација није успела, ручно подесите проток пакета</string>
+    <string name="buy_omitted_displayname">
+        <xliff:g id="ID_1">%1$s</xliff:g>\u2026</string>
+    <string name="calibrate_setting_txt">Подешавање калибрације</string>
+    <string name="calibrate_setting_province">Покрајина</string>
+    <string name="calibrate_setting_brand">Марка оператера</string>
+    <string name="calibrate_setting_province_choice">Одаберите покрајину</string>
+    <string name="calibrate_setting_brand_choice">Изаберите свог провајдера</string>
+    <string name="calibrate_send_msg_fail">Неуспело слање SMS-а. Проверите подешавања ваше мреже</string>
+    <string name="traffic_flaw_price_txt">
+        <xliff:g id="ID_1">%1$s</xliff:g>YUAN</string>
+    <string name="traffic_original_price_txt">
+        <xliff:g id="ID_1">%1$s</xliff:g>
+    </string>
+    <string name="buy_record_baseinfo_txt">
+        <xliff:g id="ID_1">%1$s</xliff:g> Recharge<xliff:g id="ID_2">%2$s</xliff:g> / <xliff:g id="ID_3">%3$s</xliff:g>YUAN</string>
+    <string name="buy_record_paytype_txt">
+        <xliff:g id="ID_1">%1$s</xliff:g>
+        <xliff:g id="ID_2">%2$s</xliff:g>
+    </string>
+    <string name="noti_softap_setting_title">Обавештења о дељењу података преко приступне тачке</string>
+    <string name="noti_softap_setting_text">Прикажите обавештење када је <xliff:g id="ID_1">%s</xliff:g>: г&gt; достигнут у једном времену</string>
+    <string name="noti_softap_group_title">Подешавања за преносиву Wi-Fi приступну тачку</string>
+    <string name="noti_softap_setting_cancel">Откажи</string>
+    <string name="noti_softap_setting_userDefine">Прилагођено</string>
+    <string name="noti_softap_setting_commit">Извршити</string>
+    <string name="noti_softap_warning_title">Обавештење о подацима</string>
+    <string name="noti_softap_warning_message">Дељени подаци Hotspot-а су достигли <xliff:g id="ID_1">%s</xliff:g>,  Желите ли да искључити hotspot？</string>
+    <string name="noti_softap_close_text">Искључи</string>
+    <string name="noti_softap_no_warning_text">Нема подсетника</string>
+    <string name="error_phone_number_text">Неважећи број телефона</string>
+    <string name="nogi_entry_buy_text">Кликните да бисте купили пакете података</string>
+    <string name="info_save_error_no_used_input">Унесите податке о коришћењу података</string>
+    <string name="payment_sended_txt">Поруџбине су послате, сачекајте оператера да изврши допуну...</string>
+    <string name="payment_explain_txt">Подаци које сте допунили обично ће се наћи на вашем рачуну за око сат времена, али такође понекад могу закаснити због слабе мреже. Можете позвати или послати поруку провајдеру како би проверили када ће бити на вашем рачуну. Mоже се десити да је неуспешно и да буде рефундирано у случају када вам је рачун ван равнотеже, са некомпатибилним пакетима ако то није решено од стране провајдера услуга и тако даље, то се може потврдити из поруке провајдера.</string>
+    <string name="payment_fail_reason_txt">Неуспешно, можда због проблема са мрежом, заузетог систем оператора или других непознатих узрока</string>
+    <string name="weixin_freezed_txt">WeChat је онемогућен, не може се користити</string>
+    <string name="dialog_btn_cancel">Откажи</string>
+    <string name="dialog_btn_unlock">Пусти</string>
+    <string name="dialog_network_control_title">Упозорења менаџера система</string>
+    <string name="net_type_mobile">Мобилна мрежа</string>
+    <string name="net_type_wifi">Wi-Fi мрежа</string>
+    <string name="dialog_not_alert_again">Нема упозорења</string>
+    <string name="dialog_network_control_content">
+        <xliff:g id="ID_1">%1$s</xliff:g>је онемогућен за коришћење <xliff:g id="ID_1">%1$s</xliff:g> , да ли желите да га омогућите поново?</string>
+    <string name="noti_softap_use_agiain_txt">Користи <xliff:g id="ID_1">%1$d</xliff:g>M</string>
+    <string name="dialog_know">Разумем</string>
+    <string name="hotspot_restart">Поновно покретање</string>
+    <string name="hotspot_settingvalue_valid">када  hotspot дели <xliff:g id="ID_1">%1$d</xliff:g>M ,подсетиће вас поново</string>
+    <string name="hotspot_settingvalue_invalid">Искоришћено<xliff:g id="ID_1">%1$1.2f</xliff:g>M . Молимо рестартујте</string>
+    <string name="hotspot_userdefine_settingvalue_invalid">Неважећи подаци. Поново покрени.</string>
+    <string name="hotspot_auto_close_message">Достигнуто је ограничење размене података за Hotspot  <xliff:g id="ID_1">%d</xliff:g>M,искључите хотспот да бисте избегли претерану потрошњу</string>
+    <string name="traffic_pay_dialag_title">платите <xliff:g id="ID_1">%1$1.2f</xliff:g>YUAN, изаберите врсту плаћања</string>
+    <string name="traffic_packge_title">
+        <xliff:g id="ID_1">%1$s</xliff:g>
+        <xliff:g id="ID_2">%2$1.2f</xliff:g>YUAN<xliff:g id="ID_3">%3$s</xliff:g> пакет</string>
+    <string name="traffic_pay_mobile">мобилни телефон: <xliff:g id="ID_1">%1$s</xliff:g></string>
+    <string name="traffic_pay_time">време плаћања: <xliff:g id="ID_1">%1$s</xliff:g></string>
+    <string name="traffic_pay_type">врста плаћања: <xliff:g id="ID_1">%1$s</xliff:g></string>
+    <string name="traffic_pay_original_price">оригинална цена: <xliff:g id="ID_1">%1$1.2f</xliff:g>YUAN</string>
+    <string name="traffic_pay_price">платити цену: <xliff:g id="ID_1">%1$1.2f</xliff:g>YUAN</string>
+    <string name="traffic_pay_orider_id">број поруџбине: <xliff:g id="ID_1">%1$s</xliff:g></string>
+    <string name="traffic_buy_open_fail">Data usage has reached <xliff:g id="ID_1">%1$s</xliff:g></string>
+    <string name="traffic_buy_alipay">Alipay</string>
+    <string name="traffic_buy_weixin">WeChat</string>
+    <string name="product_description">This month Free <xliff:g id="ID_1">%1$s</xliff:g></string>
+    <string name="weixin_disenabled_txt">This month Overstep <xliff:g id="ID_1">%1$s</xliff:g></string>
+    <string name="lockscreen_traffic_remind_close">Нема подсетника</string>
+    <string name="lockscreen_traffic_limit_one">100k</string>
+    <string name="lockscreen_traffic_limit_two">1M</string>
+    <string name="lockscreen_traffic_limit_three">5M</string>
+    <string name="lockscreen_traffic_remid_title">Подсетник података о промету на закључаном екрану</string>
+    <string name="traffic_remind_group_title">ПОДСЕТНИК ПОТРОШЊЕ ПОДАТАКА</string>
+    <string name="lockscreen_traffic_remid_txt">Прекорачење овог месеца <xliff:g id="ID_1">%1$s</xliff:g></string>
+    <string name="lock_screen_traffic_title">платити цену: <xliff:g id="ID_1">%s</xliff:g>YUAN</string>
+    <string name="lock_screen_traffic_content">Додирните да бисте проверили детаље</string>
+    <string name="lock_screen_traffic_unknow_app">Непозната апликација</string>
+    <string name="historyorder_title">Историјат</string>
+    <string name="historyorder_detail_title">Историјат детањно</string>
+    <string name="historyorder_empty_txt">Историјат празан</string>
+    <string name="historyorder_alipay">Alipay</string>
+    <string name="historyorder_wechat_pay">pay price: <xliff:g id="ID_1">%1$1.2f</xliff:g>YUAN</string>
+    <string name="historyorder_paying">Плаћање</string>
+    <string name="historyorder_payed_success">Успешно плаћање</string>
+    <string name="historyorder_payed_fail">Неуспело плаћање</string>
+    <string name="historyorder_chargeback_success">historyorder status: <xliff:g id="ID_1">%1$s</xliff:g></string>
+    <string name="historyorder_payment_success">Успешно плаћање</string>
+    <string name="historyorder_payment_fail">This month Overstep <xliff:g id="ID_1">%1$s</xliff:g></string>
+    <string name="historyorder_supporttel">pay price: <xliff:g id="ID_1">%1$1.2f</xliff:g>YUAN</string>
+    <string name="historyorder_dial">orderID: <xliff:g id="ID_1">%1$s</xliff:g></string>
+    <string name="historyorder_status">Употреба података је достигла <xliff:g id="ID_1">%1$s</xliff:g></string>
+    <string name="historyorder_query_failed">Data usage has reached <xliff:g id="ID_1">%s</xliff:g></string>
+    <string name="historyorder_retry">понови</string>
+    <string name="noti_surplus_message">Овог месеца бесплатно <xliff:g id="ID_1">%1$s</xliff:g></string>
+    <string name="noti_exceed_message">Прекорачење овог месеца <xliff:g id="ID_1">%1$s</xliff:g></string>
+    <string name="unknow_app">Непозната апликација</string>
+</resources>

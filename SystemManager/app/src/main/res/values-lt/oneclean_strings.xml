@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+**
+** Copyright 2008, The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+-->
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="phone_accelerate">Atminties valymas</string>
+    <string name="text_one_accelerate">Vienas spartusis mygtukas</string>
+    <string name="searching">Ieškoma duomenų...</string>
+    <string name="summary_process_clean">procesą galima uždaryti</string>
+    <string name="summary_process_clean_no">Nėra procesų, kuriuos galima uždaryti</string>
+    <string name="summary_cache_clean">talpyklas galima uždaryti</string>
+    <string name="summary_cache_clean_no">Nėra atlaisvintinos vietos</string>
+    <string name="summary_boot_optimization">automatiškai paleisti elementai gali būti apriboti</string>
+    <string name="summary_boot_optimization_no">Neautomatiškai paleisti elementai gali būti apriboti</string>
+    <string name="text_clean_result">Atlaisvinta <xliff:g>%1$s</xliff:g> vietos</string>
+    <string name="text_clean_result_no">Telefonas yra geriausios būklės, nereikia spartinti</string>
+    <string name="text_main_ui_notice">Papurtykite, kad telefonas būtų sutvarkytas, laikykite telefoną geriausios būklės</string>
+    <string name="text_shake">Tiesiog papurtykite norėdami paspartinti telefoną!</string>
+    <string name="text_clean_load">procesų ir talpyklų valymas, paleidimo elementų optimizavimas...</string>
+    <string name="notice_process_running">Veikiantys procesai <xliff:g>%1$s</xliff:g>,<xliff:g>%2$s</xliff:g> laisvi</string>
+    <string name="notice_process_whitelist">Patikrintos programos nebus užbaigtos paspartinus vienu mygtuku</string>
+    <string name="text_result_clean_process">Uždaryti <xliff:g>%1$s</xliff:g> procesai</string>
+    <string name="title_activiy_process_clean">Proceso valymas</string>
+    <string name="no_select">Nėra pažymėtų procesų, pažymėkite</string>
+    <string name="one_clean">Valymas vienu mygtuku</string>
+    <string name="text_loader_process">valomi procesai...</string>
+    <string name="title_activity_process_protected">Procesai apsaugoti</string>
+    <string name="text_empty_process">Nėra šiuo metu veikiančių procesų</string>
+    <string name="summary_item_process">Operatyvioji atmintis：<xliff:g>%1$s</xliff:g></string>
+    <string name="title_activiy_cache_clean">Talpyklų valymas</string>
+    <string name="text_no_select">Pažymėkite programas, kad būtų išvalytos</string>
+    <string name="text_loader_cache">Talpyklų valymas</string>
+    <string name="text_header_cache_clean">Talpyklų <xliff:g>%1$s</xliff:g> kiekis, panaudota <xliff:g>%2$s</xliff:g> vietos</string>
+    <string name="text1_cache_clean_no">Nėra valytinų talpyklų</string>
+    <string name="text2_cache_clean_no">Reguliariai šalindami šlamštą laikykite mobilųjį telefoną tvarkingą</string>
+    <string name="title_activiy_boot_opt">Paleidimo optimizatorius</string>
+    <string name="text_loader_boot">Paleidimo elemento optimizavimas...</string>
+    <string name="text_result_bootopt">Yra optimizuotų paleidimo elementų</string>
+    <string name="text_no_opt">Nėra paleidimo elementų, kuriuos reikia optimizuoti</string>
+    <string name="one_key_opti">Optimizavimas vienu mygtuku</string>
+    <string name="one_key_allow">Leisti vieną mygtuką</string>
+    <string name="title_activity_add_auto_start">Pridėti automatinio paleidimo programą</string>
+    <string name="text_empty_auto_start">Nėra programų, kurias galima automatiškai paleisti</string>
+    <string name="text_empty_auto_start_forbid">Nėra programų, kurias uždrausta automatiškai paleisti</string>
+    <string name="text_header_auto_start">Iš viso yra <xliff:g>%1$s</xliff:g> automatiškai paleidžiamų programų</string>
+    <string name="text_header_auto_start_forbid">Uždrausti automatiškai paleisti（<xliff:g>%1$s</xliff:g>）</string>
+    <string name="one_key_opt">OneClean</string>
+    <string name="limited">Uždrausti</string>
+    <string name="allow">Leisti</string>
+    <string name="has_allow">Leista</string>
+    <string name="protected_process">Apsaugotas procesas</string>
+    <string name="important_process">Svarbus procesas</string>
+    <string name="title_memory_settings">Atminties valymo nustatymai</string>
+    <string name="title_activiy_green_bg">Žalias fonas</string>
+    <string name="memory_settings_main_title">Proceso valymas</string>
+    <string name="close_screen_clean_title">Išjungti ekrano valymą</string>
+    <string name="close_screen_clean_summary">Paleidus fone ir apdorojus automatiškai valomas baltasis sąrašas iš ekrano</string>
+    <string name="low_memory_clean_title">Perpildytos atminties valymas</string>
+    <string name="low_memory_clean_summary">Fone veikiantis procesas automatiškai išvalo baltąjį atminties sąrašą</string>
+    <string name="run_game_memory_clean_title">Paleisti žaidimų atminties valymą</string>
+    <string name="run_game_memory_clean_summary">Paleidus žaidimą išvalyti atmintį</string>
+    <string name="result_display_title">Išvalyti rezultatą</string>
+    <string name="result_display_summary">Baigus likvidavimą ir paprašius rezultatų, automatiškai paleisti fone</string>
+    <string name="white_list_main_title">Baltasis sąrašas</string>
+    <string name="process_white_list_title">Išvalyti baltąjį sąrašą</string>
+    <string name="process_white_list_summary">Programos baltajame sąraše apsaugotos, nebus išvalytos.</string>
+    <string name="green_bg_summary">Fone veikiančios programos uždraustos, sumažinkite energijos srauto eikvojimą</string>
+    <string name="radiobutton_allow">Leisti automatinį paleidimą</string>
+    <string name="radiobutton_prohibit">Uždrausti paleidimą</string>
+    <string name="one_key_prohibit">Uždraudimo mygtukas</string>
+    <string name="text_empty_allow_start">Nėra programų, kurias leidžiama automatiškai paleisti</string>
+    <string name="text_empty_prohibit_start">Nėra programų, kurias uždrausta automatiškai paleisti</string>
+    <string name="text_empty_white_app">Nėra įtrauktų programų</string>
+    <string name="white_list_add">Įtraukti į baltąjį sąrašą</string>
+    <string name="white_list_cancel">Pašalinti iš baltojo sąrašo</string>
+    <string name="text_empty_white_list">Nėra programų, įtrauktų į apsaugotųjų sąrašą</string>
+    <string name="text_add_white_list">Įtraukti į baltąjį sąrašą</string>
+    <string name="remove">Pašalinti</string>
+    <string name="ok_btn">Gerai</string>
+    <string name="cancel_btn">Atšaukti</string>
+    <string name="system_process">Sistemos procesas</string>
+    <string name="user_process">Naudotojo procesas</string>
+    <string name="whitelist_remind_text">Šios programos apsaugotos</string>
+    <string name="add_whitelist_remind_text">Pažymėtos programos apsaugotos</string>
+    <string name="oneclean_action">Atmintis</string>
+    <string name="oneclean_action_running">Valymas</string>
+    <string name="percent_symbol">%</string>
+    <string name="surplus_text">Perteklius</string>
+    <string name="oneclean_process_running_txt">
+        <xliff:g>%1$s</xliff:g>veikiančias programas galima išvalyti</string>
+    <string name="oneclean_no_process_running_txt">Paspartinta iki geriausios būsenos\n Nereikia dar kartą valyti</string>
+    <string name="auto_start_power">Automatinis</string>
+    <string name="auto_start_back">Automatinis</string>
+    <string name="auto_start_both">Automatinis</string>
+    <string name="auto_clean_result">Fone veikiantys procesai užbaigti, <xliff:g>%1$s</xliff:g>M atmintis atlaisvinta</string>
+    <string name="auto_clean_finish">automatinis valymas užbaigtas</string>
+    <string name="low_mem_clean_finish">perpildytos atminties valymas užbaigtas</string>
+    <string name="clean_setings_summary">eiti į atminties valymo nustatymus</string>
+    <string name="caches_clean_result_text">Laisva vieta<xliff:g>%1$s</xliff:g></string>
+    <string name="caches_clean_complete">Šiukšlės išvalytos</string>
+    <string name="process_clean_result_note">Yra programų, kurių negalima valyti? Nedelsdami įtraukite į baltąjį sąrašą.</string>
+    <string name="process_clean_result">Atlaisvinta atmintis <xliff:g>%1$s</xliff:g></string>
+    <string name="process_clean_complete">Spartinimas atliktas</string>
+    <string name="action_complete">Atlikta</string>
+    <string name="system_app_action">Įspėjimas</string>
+    <string name="system_app_dialog_title">Uždrausti <xliff:g>%1$s</xliff:g> paleisti automatiškai</string>
+    <string name="system_app_dialog_message">
+        <xliff:g>%1$s</xliff:g> yra sistemos programa. Uždraudus gali sutrikti. Tęsti?</string>
+    <string name="clean_memory_title">Automatinis atminties valymas</string>
+    <string name="screenoff_clean_setting_summary">Išmaniosios valymo programos fone, sumažinkite energijos vartojimą</string>
+    <string name="screenoff_clean_setting_title">Automatiškai valyti išjungus ekraną</string>
+    <string name="screenoff_clean_toast_setting_summary">Raginti atrakinus telefoną</string>
+    <string name="screenoff_clean_toast_setting_title">Klausti valymo rezultatų</string>
+    <string name="screenoff_clean_toast_msg">Sistemos tvarkyklė atlaisvinta <xliff:g id="ID_1">%s</xliff:g>M atmintis įjungus miego režimą.</string>
+    <string name="cpu_monitor_setting_title">Atminties / centrinio procesoriaus priminimas</string>
+    <string name="cpu_monitor_setting_summary">Pranešti man, kai intensyviai naudojama atmintis ar centrinis procesorius</string>
+    <string name="cpu_monitor_headup_title">Atminties / centrinio procesoriaus naudojimas intensyvus</string>
+    <string name="cpu_monitor_headup_summary">Dėl to telefonas gali veikti lėtai</string>
+    <string name="cpu_monitor_headup_to_clean">spartinti</string>
+    <string name="running_apps_title">Programų veikimas</string>
+    <string name="running_apps_header">
+        <xliff:g id="ID_1">%s</xliff:g> veikiančias programas galima išvalyti.</string>
+    <string name="running_apps_finish">Veikiančios programos baigė <xliff:g id="ID_1">%s</xliff:g> atmintį</string>
+    <string name="running_apps_result_title">veikiančių programų rezultatų antraštė</string>
+    <string name="running_apps_result_tip">veikiančių programų rezultatų patarimas</string>
+    <string name="add">Pridėti</string>
+    <string name="encryptions_app_fake_name">Kita</string>
+</resources>

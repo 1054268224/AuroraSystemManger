@@ -1,0 +1,274 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="text">உரை</string>
+  <string name="trafficassistant_app_name">டிராஃபிக் மானிட்டர்</string>
+  <string name="tabbar_name1">சிம் ஸ்லாட் 1</string>
+  <string name="tabbar_name2">சிம் ஸ்லாட் 2</string>
+  <string name="remained_flow_string">" மிகுதி"</string>
+  <string name="exceed_flow_string">"மிஞ்சு "</string>
+  <string name="used">பயன்படுத்தப்பட்டுள்ளது</string>
+  <string name="used_flow_string"><xliff:g id="ID_1">%s</xliff:g>MB பயன்படுத்தப்பட்டுள்ளது</string>
+  <string name="total_flow_string">மொத்தம்<xliff:g id="ID_1">%s</xliff:g>எம்</string>
+  <string name="prompt_no_settings_traffic">அமைக்கவில்லை</string>
+  <string name="no_settings">அமைக்கவில்லை</string>
+  <string name="prompt_used_traffic">பயன்படுத்தப்பட்ட\n<xliff:g id="ID_1">%s</xliff:g>M</string>
+  <string name="month">மாதம்</string>
+  <string name="day">நாள்</string>
+  <string name="noti_today">"இன்று ஃப்ளோ "</string>
+  <string name="noti_surplus">"காலியாக உள்ளது "</string>
+  <string name="noti_exceed">"மிஞ்சு "</string>
+  <string name="noti_total">மொத்தம் ₹ </string>
+  <string name="noti_no_settings">தரவு திட்டம் அமைக்கவில்லை</string>
+  <string name="noti_no_card">சிம் உள்ளே செருகப்படவில்லை.</string>
+  <string name="start_date_string">மாதாந்திர</string>
+  <string name="limit_flow">தரவு திட்டத்தை அமைக்கவும்</string>
+  <string name="detail_flow">வரைபடங்கள்</string>
+  <string name="network_control">கட்டுப்பாடு நெட்வொர்க்கிங்</string>
+  <string name="more_settings">மேலும் அமைப்பு கட்டுபாடுகள்</string>
+  <string name="traffic_save">டிராஃபிக் சேமிப்பு</string>
+  <string name="no_card_warning">தயவுசெய்து சிம்மை நுழைக்கவும்</string>
+  <string name="action_known">முடிந்தது</string>
+  <string name="action_settings">அமைக்க</string>
+  <string name="action_cancel">ரத்துசெய்</string>
+  <string name="action_done">முடிந்தது</string>
+  <string name="action_save">சேமிக்கவும்</string>
+  <string name="action_sure">சரி</string>
+  <string name="action_allow">அனுமதி</string>
+  <string name="action_prohibit">தடை செய்யவும்</string>
+  <string name="action_all_allow">அனைத்தையும் அனுமதிக்கவும்</string>
+  <string name="action_all_prohibit">அனைத்தயும் முடக்கவும்</string>
+  <string name="application_info">ஆப் பற்றிய தகவல்</string>
+  <string name="data_connect_allow">கட்டுப்பாடு இணைப்புகள்</string>
+  <string name="total_flow_settings">மாதாந்திர டிராஃபிக் வரம்புகள்</string>
+  <string name="input_hint">தயவுசெய்து உள்ளீடு செய்யவும்</string>
+  <string name="warning_settings">எச்சரிக்கை மதிப்பு</string>
+  <string name="date_start_settings">பாய்வுத் தொடக்க தேதி</string>
+  <string name="used_flow_settings">ஃப்ளோவை பயன்படுத்துதல்</string>
+  <string name="flow_unit">MB</string>
+  <string name="percent_unit">% </string>
+  <string name="mobile_data_stop_title">டிராஃபிக் எச்சரிக்கை</string>
+  <string name="mobile_data_stop_contetn">உங்கள் மாதாந்திர டிராஃபிக் தீர்ந்து போனதால், தரவு இணைப்பைப் பயன்படுத்தினால் தொடர்ந்து செலவாகும், நீங்கள் பயன்படுத்த வேண்டுமா?</string>
+  <string name="action_restart">பயன்படுத்துவதை தொடரவும்</string>
+  <string name="action_stop">பயன்படுத்தாதீர்கள்</string>
+  <string name="info_save_error_no_flow_input">தயவுசெய்து மாதாந்திர டிராஃபிக் எல்லையை உள்ளிடவும்</string>
+  <string name="info_prompt">ஃப்ளோ மதிப்பை கைமுறையாக நீங்கள் மாற்றிக் கொள்ளலாம்.</string>
+  <string name="popup_notification_title">தரவு திட்டம் அமைக்கப்படவில்லை</string>
+  <string name="popup_notification_ticker_title">தற்போதைய ஓட்டம் தொகுப்பு பாதுகாப்பை அமைக்கவில்லை</string>
+  <string name="popup_notification_content">ரியல்-டைம் மானிட்டர் டிராஃபிக் உபயோகம் அமைப்பதற்கு கிளிக் செய்யவும்</string>
+  <string name="popup_setting_title_dialog">தரவு திட்டத்தை அமை</string>
+  <string name="popup_setting_content_dialog">தரவு பிளான் அமைக்கவும், மற்றும் போனின் கட்டணங்களை லாக் செய்வதற்கு பாதுகாப்பு கொடுக்கவும்.</string>
+  <!--guoxt modify begin-->
+  <string name="notification_warn_exceed_warning_title">தரவு திட்ட சிவப்பு எச்சரிக்கை</string>
+  <!--Gionee: mengdw <2015-11-11> modify for CR01589343 begin-->
+  <string name="notification_warn_exceed_warning_content">பாய்வு எச்சரிக்கை மதிப்பை அடைந்தது, பார்க்கும் பயன்பாட்டுத் தொடர்பு</string>
+  <!--Gionee: mengdw <2015-11-11> modify for CR01589343 end-->
+  <!--guoxt modify end-->
+  <string name="percent_value">80</string>
+  <string name="warning_value">0.0</string>
+  <string name="zero_percent">80%</string>
+  <string name="total_percent">100%</string>
+  <string name="process_kernel_labels">Android OS</string>
+  <string name="data_usage_uninstalled_apps_users">நீக்கப்பட்ட ஆப்ஸ் மற்றும் பயனர்</string>
+  <string name="data_usage_uninstalled_apps">நீக்கப்பட்ட ஆப்ஸ்</string>
+  <string name="tether_settings_title_all">டெதரிங் அமைப்புகள்</string>
+  <string name="tether_settings_title_wifi">போர்ட்டபிள் ஹாட்ஸ்பாட்</string>
+  <string name="tether_settings_title_usb_bluetooth">டெதரிங்</string>
+  <string name="tether_settings_title_usb">USB டெத்தரிங்</string>
+  <string name="tether_settings_title_bluetooth">ப்ளுடூத் டெத்தரிங்</string>
+  <string name="running_process_item_user_label">பயனர்:%1$s</string>
+  <string name="data_usage_app_restricted">தடை செய்யப்பட்டுள்ளது</string>
+  <string name="usage_detail">டிராஃபிக் விவரங்கள்</string>
+  <string name="version_name">பதிப்பு：</string>
+  <string name="traffic_time_day">இன்றைய டிராஃபிக்(<xliff:g id="ID_1">%s</xliff:g>)</string>
+  <string name="traffic_time_week">இந்த வார ஃப்ளோ (<xliff:g id="ID_1">%s</xliff:g>)</string>
+  <string name="traffic_time_month">மாதாந்திர ஃப்ளோ(<xliff:g id="ID_2">%s</xliff:g>)</string>
+  <!--Gionee baiyh 2015-01-14 modify for CR01430127 begin -->
+  <string name="traffic_day">"இன்றைய\nடிராஃபிக்"</string>
+  <string name="traffic_week">வாராந்திர\nஃப்ளோ</string>
+  <string name="traffic_month">மாதாந்திர\nஃப்ளோ</string>
+  <!--Gionee baiyh 2015-01-14 modify for CR01430127 end -->
+  <string name="traffic_day_no">"இன்றைய பயன்படுத்தப்படாத ஃப்ளோ விகிதம்"</string>
+  <string name="traffic_week_no">"இந்த வாரத்தினுடைய பயன்படாத டிராஃபிக்"</string>
+  <string name="traffic_month_no">"இந்த மாதத்தினுடைய பயன்படாத டிராஃபிக்"</string>
+  <string name="network_selection">இந்த மாதம் தரவு ஃப்ளோ உடன்</string>
+  <string name="no_value">எதுவுமில்லை</string>
+  <string name="text_loading">ஏற்றுகிறது…</string>
+  <string name="text_noti">பிராசஸ் செய்கிறது…</string>
+  <string name="traffic_monitor_display"><xliff:g id="ID_1">%s</xliff:g> Use of 2G/3G/4G flow is as follows：</string>
+  <string name="traffic_monitor_title">இந்த வாரத்தில் அதிகமான டிராஃபிக் நுகர்வு</string>
+  <string name="traffic_monitor_message"><xliff:g id="ID_1">%s</xliff:g></string>
+  <string name="traffic_settings_main_title">அறிவிப்பு மையத்தை காண்பிக்கவும்</string>
+  <string name="traffic_network_speed_title">நெட்வொர்க்கின் வேகத்தை காண்பிக்கவும்</string>
+  <string name="traffic_network_speed_summary">பட்டன் ஆனில் இருக்கும்போது நெட்வொர்க்கின் வேகம் ஸ்டேட்டஸ் பாரில் காட்டப்படும்</string>
+  <string name="traffic_notification_title">டிராஃபிக் தகவலை காண்பிக்கவும்</string>
+  <string name="traffic_notification_summary">தற்போதைய மாதத்தின் டிராஃபிக் தகவலை காண்பதற்கு அறிவிப்பு பாரை இங்கே டிராப் செய்யவும்</string>
+  <string name="traffic_netcontrol_bar_allow_text">நெட்வொர்க்கிங்கை அனுமதிக்கவும் (<xliff:g id="ID_1">%1$s</xliff:g>)</string>
+  <string name="traffic_netcontrol_bar_prohibit_text">(<xliff:g id="ID_1">%1$s</xliff:g>) தடை செய்யப்பட்ட இணையதளம் உள்ளது</string>
+  <string name="net_link_allowed_txt">இணையத்தில் எந்த பயன்பாட்டுக்கும் அனுமதி இல்லை</string>
+  <string name="net_link_prohibited_txt">தடை செய்யப்பட்ட இணையத்தில் விண்ணப்பிக்க முடியாது</string>
+  <string name="traffic_save_setting">டிராஃபிக் சேமிப்பு அமைப்புகள்</string>
+  <string name="switch_off">ஆஃப் செய்யவும்</string>
+  <string name="switch_on">ஆன் செய்யவும்</string>
+  <string name="traffic_save_off">திறக்கப்படாத டிராஃபிக் சேமிப்பு</string>
+  <string name="traffic_save_off_summary">தேட்ட பிணையத்தின் கீழ் மட்டும் இந்த செயல்பாடு வேலை செய்யும்</string>
+  <string name="traffic_save_total_title">நீங்கள் குவிக்கப்பட்ட சேமிப்பை கொண்டுள்ளீர்கள்</string>
+  <string name="traffic_save_total_num_string">328</string>
+  <string name="total_volume_string">MB</string>
+  <string name="money_save_total_title">ரென்மின்பி பற்றியது</string>
+  <string name="money_save_total_num_string">32.8</string>
+  <string name="total_money">யுவான்</string>
+  <string name="traffic_save_support_txt">OPERA மூலம் வழங்கப்படுகிறது</string>
+  <string name="traffic_save_history">சேமித்த டிராஃபிக் வரலாற்றை காணவும்</string>
+  <string name="traffic_save_history_total">ஒட்டுமொத்த சேமிப்புகளின் ஓட்டம்</string>
+  <string name="traffic_question1">1、எப்படி ஃப்ளே சேமிப்புகளை அடைவது?</string>
+  <string name="traffic_question2">"2、நீங்கள் சேமித்த பிறகு ஏன் டிராஃபிக்கை பயன்படுத்துகிறீர்கள், நீங்கள் சேமிப்பதை பார்க்கவில்லையா?"</string>
+  <string name="traffic_question3">3 ஃப்ளோ செயல்பாட்டில் தானாக சேமிப்புகள் ஓட்டத்தை பயன்படுத்துகிறதா</string>
+  <string name="traffic_question4">4, நீங்கள் என் இணைய தனிப் பாதுகாப்பை சேமித்த பின் டிராஃபிக்கை பயன்படுத்தவும்?</string>
+  <string name="traffican_answer1">ஃப்ளோ சேமிப்பு அம்சம் ஆன் செய்யப்பட்டால். உரைக்கு மறுவடிவம் கொடுக்க பயன்படும், படங்கள் மற்றும் மற்ற போக்குவரத்து, அதனால் க்யூக்யூவை குறைக்கிறது, வெய்க்சின், டிராஃபிக் பயன்பாடு போன்ற பயன்பாடுகளுக்கு டோபோ. நீடித்த உறுதிகள் சிறந்தது.</string>
+  <string name="traffican_answer2">தரவு நெட்வொர்க்கிங் மற்றும் WLAN இயக்கப்படாததிற்கு மட்டும் ஃப்ளோ விகிதம் சேமிப்பு விளைவை ஏற்படுத்தும். ஃப்ளோ உரை மற்றும் பட எஃபெக்ட், ஆடியோ மற்றும் வீடியோ மற்றும் கோப்பு பதிவிறக்கத்தை மட்டும் சேமிக்கிறது, டிராஃபிக்கை சேமிக்காது.</string>
+  <string name="traffican_answer3">ஃப்ளோ சேமிப்பு அதுவே எந்த டிராஃபிக்கை பயன்படுத்தாது, நீங்கள் இந்த அம்சத்தை ஆன் செய்த பிறகு, அனைத்து 2/3/ 4G இணைய போக்குவரத்து மதிப்பீட மற்றும் சுருங்க சிஸ்டம் மேலாளரை பயன்படுத்தும், மற்றும் தனிப்பட்ட பாதுகாப்பு சாஃப்டவேர் பட்லர் அமைப்பு ஓட்டத்தை பயன்படுத்தி பார்க்க வேண்டும். நாங்கள் உங்கள் மதிப்புமிக்க டிராஃபிக் பயன்படுத்த மாட்டோம், தயவுசெய்து சுதந்திரமாக பயன்படுத்தவும்.</string>
+  <string name="traffican_answer4">உங்கள் தனிப்பட்ட தகவலை இந்த அம்சம் கையாளாது, இதனை தைரியமாக பயன்படுத்தவும்</string>
+  <string name="traffican_question_answer">உதவி</string>
+  <string name="traffican_whitelist_title">பயன்பாட்டு பட்டியல் டிராஃபிக்கை சேமிக்க வேண்டிய அவசியமில்லை</string>
+  <string name="text_no_traffic_whitelist">டிராஃபிக்கை சேமிக்க வேண்டிய தேவை இல்லை</string>
+  <string name="traffic_simcard_focus1">சிம் 1</string>
+  <string name="traffic_simcard_focus2">சிம் 2</string>
+  <string name="traffic_netcontrol_tab_bar_allow_text">WLAN நெட்வொர்க்</string>
+  <string name="traffic_netcontrol_tab_bar_prohibit_text">தரவு நெட்வொர்க்</string>
+  <string name="traffic_title_text"><xliff:g id="ID_1">%1$s</xliff:g> ஆப்ஸ்</string>
+  <string name="time_format">yyyy-MM</string>
+  <string name="traffic_back_toast_text">நெட்வொர்க் கட்டுப்பாடு நடவடிக்கைகளின் ஆபரேஷன் செயல்பாட்டில் உள்ளது, தயவுசெய்து காத்திருக்கவும்</string>
+  <!-- Gionee: mengdw <2015-09-22> add for CR01551678 begin -->
+  <string name="traffic_save_wait_text">தரவு புதுப்பிக்கப்படுகிறது, தயவுசெய்து காத்திருக்கவும்...</string>
+  <!-- Gionee: mengdw <2015-09-22> add for CR01551678 end -->
+  <!-- Gionee: mengdw <2015-11-11> modify for CR01589343 begin -->
+  <string name="traffic_btn_calibration_text">அளவுத்திருத்தம்</string>
+  <string name="traffic_limit_settings_title">டிராஃபிக்வரம்பு அமைப்பு</string>
+  <string name="traffic_origan">பொது டிராஃபிக்</string>
+  <string name="traffic_idle_show_title">ஐடில் டிராஃபிக் காண்பிக்கவும்</string>
+  <string name="traffic_idle_available">செயலற்ற கிடைக்க டிராஃபிக்</string>
+  <string name="traffic_idle_used">செயலற்ற பயன்படுத்தப்பட்ட டிராஃபிக்</string>
+  <string name="traffic_buy_title">டிராஃபிக்கை வாங்கவும்</string>
+  <string name="buy_step1_title"> 1 உள்ளீடு எண்</string>
+  <string name="buy_step2_title"> 2 முகம் மதிப்பை தேர்ந்தெடுக்கவும்</string>
+  <string name="buy_step3_title"> 3 பணம்செலுத்தி வாங்கவும்</string>
+  <string name="buy_step_title"> 1 உள்ளீடு எண்> 2 முகம் மதிப்பை தேர்ந்தெடுக்கவும்> 3 பணம்செலுத்தி வாங்கவும்</string>
+  <string name="order_info_title">ஆர்டர் தகவல்</string>
+  <string name="traffic_packge_text"><xliff:g id="ID_1">%1$s</xliff:g>டிராஃபிக் பேக்கேஜ்கள்</string>
+  <string name="traffic_packge_default_money">2 YUAN</string>
+  <string name="traffic_packge_default_instruction">நேஷனல் ஜெனரல், உடனடி பணம்செலுத்தல்</string>
+  <string name="mobile_info_numble">பணம்செலுத்தல் எண்:<xliff:g id="ID_1">%1$s</xliff:g></string>
+  <string name="pay_order_title">பணம்செலுத்தல் மற்றும் ஆர்டர்</string>
+  <string name="pay_order_Immediately_title">உடனடியாக பணம்செலுத்தவும்</string>
+  <string name="show_problem_title">பொது பிரச்சனை</string>
+  <string name="buy_record_title">பதிவை வாங்கவும்</string>
+  <string name="problem1_title">1ரீசார்ஜ் ஃப்ளோ ரோமிங் ஆகலாம்?</string>
+  <string name="problem1_content">தயவுசெய்து உடனடியாக பக்கத்திற்கு கவனம் செலுத்தவும், நாட்டின் டிஸ்பிளே நேஷனல் ரோமிங்கை வெளிப்படுத்துவதற்கு பயன்படுத்த முடியும்.</string>
+  <string name="problem2_title">2 செயல்திறன் மிக்க காலத்தின் ரீசார்ஜ் ஃப்ளோ எவ்வளவு நேரம் ஆகும்?</string>
+  <string name="problem2_content">ரீசார்ஜ் ஃப்ளோ ஒரு மாதத்திற்கு செல்லுபடியாகும், தோல்வியின் முடிவு, தயவுசெய்து ஆபரேஷனில் தகவலை சரிபார்க்கவும்.</string>
+  <string name="problem3_title">தொடங்கிய பிறகு கட்டணம் உள்ளதா என்பதை எப்படி சரிபார்ப்பது?</string>
+  <string name="problem3_content">கட்டணம் வசூலித்த பிறகு, தயவுசெய்து ஆபரேட்டரின் உடனடி தகவலை பயன்படுத்தவும், நீங்களும் ஆபரேட்டரை அழைத்து கணக்கை உறுதிசெய்யலாம்.</string>
+  <string name="problem4_title">4 ஃப்ளோ சார்ஜ் தவறான எண்ணா?</string>
+  <string name="problem4_content">என்னை மன்னிக்கவும், தவறான எண்ணிற்கு பிறகு, ஆபரேட்டர்கள் (மொபைல், China Unicom telecom) ரீஃபண்டு செய்ய மாட்டார்கள். நீங்கள் இழப்பை தடுக்க முயற்சிக்க பின்வரும் பல வழிகளை தேர்வு செய்யலாம்: மெசின்களின் உண்மையான எண்ணுடன் தொடர்பு கொள்ளவும், மற்றும் மற்றவர்கள் டிராஃபிக் ஃப்ளோவை ஈடு செய்ய தயாராக உள்ளார்கள்; 1 ஆபரேட்டர்கள் வாடிக்கையாளர் சேவையை தொடர்பு கொள்ளவும், ஆலோசனையால் டிராஃபிக் ரீஃபண்டு ஒரு வெற்றிகரமாக ரீசார்ஜாக அனுப்பப்படும்.</string>
+  <string name="problem5_title">5 தோல்வியடைந்த பிறகு எவ்வளவு நேரம் ஆகும்?</string>
+  <string name="problem5_content">இயல்பாக, தோல்வி காரணமாக நாங்கள் உங்களுக்கு ரீபன்ட் செய்வோம். அடுத்த 24 மணிநேரங்களுக்குள், உங்கள் கருத்துக்கு அதிகாரப்பூர்வ QQ குரூப்பில் (188473978) சேர முடியும்.</string>
+  <string name="problem6_title">6 எனது ஆர்டர்கள் வரலாறு மற்றும் டிரேடு பதிவுகளை நான் எப்படி சரிபார்ப்பது?</string>
+  <string name="problem6_content">ரீசார்ஜ் பதிவுகளை காண்பிக்கும் பக்கத்தின் மேல் ஃப்ளோ வழியாக இருக்க முடியும்.</string>
+  <string name="mobile_invalid_text">மொபைல் செல்லாது</string>
+  <string name="sell_alipay">Alipay மூலம் செலுத்தவும்</string>
+  <string name="sell_weixin_pay">Weixin மூலம் செலுத்தவும்</string>
+  <string name="payment_success_txt">ஆர்டர் வெற்றி!</string>
+  <string name="payment_failed_txt">ஆர்டர் தோல்வியடைந்தது!</string>
+  <string name="payment_pre_txt">ரேக்‌ஹரக</string>
+  <string name="btn_try_again_txt">மீண்டும் முயற்சிக்கவும்</string>
+  <string name="no_record_txt">எந்த பதிவும் இல்லை</string>
+  <string name="query_record_falil_txt">கேள்வி தோல்வியடைந்தது!</string>
+  <string name="data_load_txt">ஏற்றுகிறது ...</string>
+  <string name="net_error_text">நெட் பிழை,தயவுசெய்து அதை சரிபார்க்கவும்</string>
+  <string name="exit_Contacts_text">முகவரி புக் இல்லை</string>
+  <string name="traffic_origan_txt">"அடிப்படை டிராஃபிக் "</string>
+  <string name="traffic_idle_txt">செயலற்ற டிராஃபிக்</string>
+  <string name="traffic_idle_set_title">ஃப்ளோ அமைப்பு காலியாக உள்ளது</string>
+  <string name="traffic_correctting_txt">அளவீடு</string>
+  <string name="correctting_wait_txt">தயவுசெய்து காத்திருக்கிறது...</string>
+  <string name="correctting_fail_txt">திருத்துதல் தோல்விடயடைந்தது, பிறகு மீண்டும் முயற்சிக்கவும்</string>
+  <string name="correctting_success_txt">ஃப்ளோ அளவுத்திருத்தம் செய்யப்பட்டுள்ளது, மீதமுள்ளவை <xliff:g id="ID_1">%1$s</xliff:g>M</string>
+  <string name="query_traffic_txt">உங்கள் டிராஃபிக்கின் பயன்பாட்டிற்காக தேடுகிறது...</string>
+  <string name="query_product_fail_txt">சப்ஸ்கிரிப்ஷன் பேக்கேஜ்கள் கிடைக்கவில்லை</string>
+  <string name="query_product_record_fail_txt">வினவல் தயாரிப்பு ரெக்கார்டு தோல்வி</string>
+  <string name="no_install_weixin_txt">நீங்கள் மைக்ரோ லெட்டரை நிறுவ வேண்டும் என்றால் தயவுசெய்து உறுதிப்படுத்தவும்</string>
+  <string name="no_correct_service_txt">துவங்கும் போது, தயவுசெய்து பிறகு மீண்டும் முயற்சிக்கவும்...</string>
+  <string name="buy_number_hint_txt">தயவுசெய்து உங்கள் போன் எண்ணை உள்ளிடவும்.</string>
+  <string name="no_query_code_txt">அளவுத்திருத்தம் தோல்வியடைந்தது, தயவுசெய்து கைமுறையாக பேக்கேஜ்களின் ஃப்ளோவை அமைக்கவும்</string>
+  <string name="buy_omitted_displayname"><xliff:g id="ID_1">%1$s</xliff:g>...</string>
+  <string name="sell_baseinfo_symbol">/</string>
+  <string name="calibrate_setting_txt">அளவுத்திருத்தம் அமைப்பு</string>
+  <string name="calibrate_setting_province">மாகாணம்</string>
+  <string name="calibrate_setting_brand">ஆபரேட்டர் பிராண்ட்</string>
+  <string name="calibrate_setting_province_choice">மாகாண சாய்ஸ்</string>
+  <string name="calibrate_setting_brand_choice">ஆபரேட்டர் பிராண்ட் சாய்ஸ்</string>
+  <string name="calibrate_send_msg_fail">SMS அனுப்புதல் தோல்வியடைந்துள்ளது, தயவுசெய்து ஆபரேட்டிங் பிராண்ட் அமைப்பை சரிபார்க்கவும்.</string>
+  <string name="traffic_flaw_price_txt"><xliff:g id="ID_1">%1$s</xliff:g>YUAN</string>
+  <string name="buy_record_baseinfo_txt"><xliff:g id="ID_1">%1$s</xliff:g> ரீசார்ஜ்<xliff:g id="ID_2">%2$s</xliff:g> / <xliff:g id="ID_3">%3$s</xliff:g>YUAN</string>
+  <string name="buy_record_paytype_txt"><xliff:g id="ID_1">%1$s</xliff:g><xliff:g id="ID_2">%2$s</xliff:g></string>
+  <!-- Gionee: mengdw <2015-11-11> modify for CR01589343 end -->
+  <!-- Gionee: mengdw <2015-10-20> add for CR01571760 begin -->
+  <string name="noti_softap_setting_title">ஹாட்ஸ்பாட் பகிர்வு தரவு அறிவிப்பு</string>
+  <string name="noti_softap_setting_text"><xliff:g id="ID_1">%s</xliff:g> ஒரே நேரத்தில் தரவை அடைந்துள்ள போது அறவித்தலை காண்பிக்கவும்</string>
+  <string name="noti_softap_group_title">போர்ட்டபிள் WLAN ஹாட்ஸ்பாட் தரவு அமைப்புகள்</string>
+  <string name="noti_softap_setting_cancel">ரத்துசெய்</string>
+  <string name="noti_softap_setting_userDefine">தனிப்பயன்</string>
+  <string name="noti_softap_setting_commit">உறுதியளிக்கவும்</string>
+  <string name="noti_softap_setting_units">எம்</string>
+  <string name="noti_softap_warning_title">தரவு அறிவிப்பு</string>
+  <string name="noti_softap_warning_message">Hotspot share data has reached <xliff:g id="ID_1">%s</xliff:g>,turn off the hotspot？</string>
+  <string name="noti_softap_close_text">ஆஃப் செய்யவும்</string>
+  <string name="noti_softap_no_warning_text">நினைவூட்டல் இல்லை </string>
+  <!-- Gionee: mengdw <2015-10-20> add for CR01571760 end -->
+  <!-- Gionee: mengdw <2016-01-28> add for CR01632119 begin -->
+  <string name="error_phone_number_text">தவறான போன் எண்</string>
+  <!-- Gionee: mengdw <2016-01-28> add for CR01632119 end -->
+  <!-- Gionee: mengdw <2016-02-26> add for CR01640989 begin -->
+  <string name="nogi_entry_buy_text">,டிராஃபிக் பேக்கேஜை வாங்குவதற்கு கிளிக் செய்யவும்</string>
+  <string name="info_save_error_no_used_input">தயவுசெய்து பயன்படுத்திய டிராஃபிக்கை பயன்படுத்தவும்</string>
+  <string name="payment_sended_txt">ஆர்டர்கள் அனுப்பப்பட்டது, ரீசார்ஜ் செய்வதற்கு ஆபரேட்டருக்காக காத்திருக்கிறது...</string>
+  <string name="payment_explain_txt">பொதுவாக கணக்கிற்கு 1 மணிநேரத்திற்குள் ஃப்ளோவை வாங்கவும், ஆனால் நெட்வொர்க்கினுடைய மற்றும் மற்ற காரணங்களாலும் நேரம் தாமதம் ஆகலாம், நீங்கள் போன் ஆபரேட்டர்களின் வாடிக்கையாளர் மையத்திற்கு டயல் செய்யலாம் அல்லது ஆபரேட்டர்கள் இறுதி கணக்கிற்கான ஒரு வினவல் உரை மெசேஜை அனுப்பலாம். \n அரியர்கள், பேக்கேஜ் மூடெக்ஸ், ஆபரேட்டர்கள் அறிக்கையின் முடிவிலும் மற்ற காரணங்களும் பணத்தை திரும்ப பெறுவதின் தோல்விக்கு வழிவகுக்கும், இறுதியில் ஆபரேட்டர் தகவலில் பணியச் செய்யுமாறு வேண்டிக்கொள்ளும்.</string>
+  <string name="payment_fail_reason_txt">நெட்வொர்க் பிரச்சனைகள் காரணமாக இருக்கலாம் அல்லது ஆபரேட்டர் சிஸ்டம் உபயோகத்தில் உள்ள காரணமா கமற்றும் இதர காரணம் அறியப்படாத தோல்வியாக இருக்கலாம்.</string>
+  <!-- Gionee: mengdw <2016-02-26> add for CR01640989 end -->
+  <!-- Gionee: mengdw <2016-04-07> add for CR01665427 begin -->
+  <string name="weixin_freezed_txt">WeChat முடக்கப்பட்டிருக்கிறது, பயன்படுத்த முடியாது</string>
+  <!-- Gionee: mengdw <2016-04-07> add for CR01665427 end -->
+  <!-- Gionee: mengdw <2016-07-06> add for CR01639347 begin -->
+  <string name="dialog_btn_cancel">ரத்துசெய்</string>
+  <string name="dialog_btn_unlock">வெளியீடு</string>
+  <string name="dialog_network_control_title">சிஸ்டம் மேனேஜர் எச்சரிக்கை</string>
+  <string name="net_type_mobile">மொபைல் நெட்வொர்க்</string>
+  <string name="net_type_wifi">WLAN நெட்வொர்க்</string>
+  <string name="dialog_not_alert_again">எச்சரிக்கை இல்லை</string>
+  <string name="dialog_network_control_content"><xliff:g id="ID_1">%1$s</xliff:g></string>
+  <!-- Gionee: mengdw <2016-07-06> add for CR01639347 end -->
+  <!--  mengdw <2016-10-09> add for CR01766193 begin -->
+  <string name="noti_softap_use_agiain_txt"><xliff:g id="ID_1">%1$d</xliff:g>M பயன்படுத்தவும்</string>
+  <string name="dialog_know">சரி</string>
+  <string name="hotspot_restart">மறுதொடக்கம்</string>
+  <string name="hotspot_settingvalue_valid">ஹாட்ஸ்பாட் பகிர்வு <xliff:g id="ID_1">%1$d</xliff:g>M போது, அது உங்ளுக்கு மீண்டும் நினைவூட்டும்</string>
+  <string name="hotspot_settingvalue_invalid"><xliff:g id="ID_1">%1$1.2f</xliff:g>M பயன்படுத்தியது தயவுசெய்து மறுதொடக்கம் செய்யவும்</string>
+  <string name="hotspot_userdefine_settingvalue_invalid">செல்லாத தரவு, தயவுசெய்து மறுதொடக்கம் செய்யவும்</string>
+  <string name="hotspot_auto_close_message">ஹாட்ஸ்பாட் பகிர்வு <xliff:g id="ID_1">%d</xliff:g>M ஐ அடைந்துள்ளது, அதிகப்படியான நுகர்வு தவிர்ப்பதற்கு ஹாட்ஸ்பாட்டை ஆஃப் செய்யவும்</string>
+  <!--  mengdw <2016-10-09> add for CR01766193 end -->
+  <!-- Gionee: mengdw <2016-12-01> add for CR01775177 begin -->
+  <string name="weixin_disenabled_txt">WeChat செயல்படுத்தப்படவில்லை, பயன்படுத்த முடியாது </string>
+  <!-- Gionee: mengdw <2016-12-01> add for CR01775177 end -->
+  <!-- Gionee: mengdw <2016-12-06> add for CR01775579 begin -->
+  <string name="lockscreen_traffic_remind_close">நினைவூட்டல் இல்லை</string>
+  <string name="lockscreen_traffic_limit_one">100K</string>
+  <string name="lockscreen_traffic_limit_two">1M</string>
+  <string name="lockscreen_traffic_limit_three">5M</string>
+  <string name="lockscreen_traffic_remid_title">ஸ்கிரீன் லாக் தரவு டிராஃபிக் நினைவூட்டி</string>
+  <string name="traffic_remind_group_title">டிராஃபிக் நினைவூட்டல்</string>
+  <string name="lockscreen_traffic_remid_txt">தரவு டிராஃபிக் ஸ்கிரீன் லாக் செய்யும் போது <xliff:g id="ID_1">%1$s</xliff:g>-ஐ அடையும்</string>
+  <string name="lock_screen_traffic_title">தரவு டிராஃபிக் ஸ்கிரீன் லாக் செய்யும் போது <xliff:g id="ID_1">%s</xliff:g>-ஐ அடையும்</string>
+  <string name="lock_screen_traffic_content">விவரங்களை சரிபார்ப்பதற்கு தொடவும் </string>
+  <string name="lock_screen_traffic_unknow_app">தெரியாத ஆப்</string>
+  <!-- Gionee: mengdw <2016-12-06> add for CR01775579 end -->
+</resources>

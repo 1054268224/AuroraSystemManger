@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">  
+    <string-array name="title_group_move_package"> 
+    <item>आंतरिक स्टोरेज की एप्लीकेशन</item>
+    <item>SD कार्ड की एप्लीकेशन</item>
+    </string-array>
+    <string-array name="title_group_move_package1"> 
+    <item>सिस्टम स्पेस की एप्लीकेशन</item>
+    <item>आंतरिक स्टोरेज की एप्लीकेशन</item>
+    </string-array>
+    <string-array name="ui_privacy_policy"> 
+    <item>फोन को कॉल करें</item>
+    <item>मैसेज भेजें</item>
+    <item>mms भेजें</item>
+    <item>कॉल रिकॉर्ड</item>
+    <item>मैसेज पढ़े</item>
+    <item>MMS पढें</item>
+    <item>कांटैक्ट पढ़े</item>
+    <item>GPS लोकेशन</item>
+    <item>नेटवर्क लोकेशन</item>
+    <item>फोन अवस्थिति</item>
+    <item>SMS लिखें/हटाएं</item>
+    <item>MMS लिखें/हटाएं</item>
+    <item>कांटैक्ट लिखें/हटाएं</item>
+    <item>कॉल लॉग लिखें/हटाएं</item>
+    <item>ध्वनि रिकॉर्ड करें</item>
+    <item>कैमरा</item>
+    <item>मोबाइल नेटवर्क</item>
+    <item>WLAN नेटवर्क</item>
+    <item>ब्लूटूथ</item>
+    <item>ब्लूटूथ कनेक्शन करें</item>
+    <item>NFC</item>
+    </string-array>
+    <string-array name="permission_summary"> 
+    <item>ऐप फोन को कॉल कर सकती है</item>
+    <item>ऐप मैसेज भेज सकती है</item>
+    <item>ऐप mms भेज सकती है</item>
+    <item>ऐप कॉल लॉग प्राप्त कर सकती है</item>
+    <item>ऐप मैसेज पढ़ सकती है</item>
+    <item>ऐप mms पढ़ सकती है</item>
+    <item>ऐप कांटैक्ट पढ़ सकती है</item>
+    <item>ऐप gps लोकेशन प्राप्त कर सकती है</item>
+    <item>ऐप नेटवर्क लोकेशन प्राप्त कर सकती है</item>
+    <item>ऐप फोन स्टेटस प्राप्त कर सकती है</item>
+    <item>ऐप sms लिख/हटा सकती है</item>
+    <item>ऐप mms लिख/हटा सकती है</item>
+    <item>ऐप कांटैक्ट लिख/हटा सकती है</item>
+    <item>ऐप कॉल लॉग लिख/हटा सकते हैं</item>
+    <item>ऐप ध्वनि रिकॉर्ड कर सकती हैं</item>
+    <item>ऐप कैमरे का उपयोग कर सकती हैं</item>
+    <item>ऐप मोबाइल नेटवर्क का उपयोग कर सकती हैं</item>
+    <item>ऐप WLAN नेटवर्क का उपयोग कर सकती हैं</item>
+    <item>ऐप ब्लूटूथ का उपयोग कर सकती हैं</item>
+    <item>ऐप ब्लूटूथ कनेक्शन का उपयोग कर सकती हैं</item>
+    <item>ऐप NFC का उपयोग कर सकती हैं</item>
+    </string-array>
+    <string-array name="header_list"> 
+    <item>सक्षम करें</item>
+    <item>अक्षम करें</item>
+    </string-array>
+    <string-array name="ui_def_soft"> 
+    <item>डिफॉल्ट इनपुटविधि</item>
+    <item>डिफॉल्ट इंटरनेट एप्लीकेशन</item>
+    <item>डिफॉल्ट कांटैक्ट</item>
+    <item>डिफॉल्ट लॉन्चर</item>
+    <item>डिफॉल्ट कैमरा एप्लीकेशन</item>
+    <item>डिफॉल्ट फोटो एप्लीकेशन</item>
+    <item>डिफॉल्ट गाना एप्लीकेशन</item>
+    <item>डिफॉल्ट वीडियो एप्लीकेशन</item>
+    <item>डिफॉल्ट पठन एप्लीकेशन</item>
+    </string-array>
+    <string-array name="listitem_soft_manager_activity"> 
+    <item>ऑटो आरंभ एप्लीकेशन</item>
+    <item>एप्लीकेशन अनइंस्टॉल</item>
+    <item>एप्लीकेशन स्थिर</item>
+    <item>डिफॉल्ट ऐप सेटिंग</item>
+    </string-array>
+    <string-array name="list_summary_soft_manager_activity"> 
+    <item>एप्लीकेशन को अनइंस्टाल करें</item>
+    <item>ऐप को बंद करें और छिपाएं</item>
+    <item>मोबाइल स्पेस अनुकूलित करें</item>
+    <item>डिफॉल्ट एप्लीकेशन सेट करें</item>
+    </string-array>
+    <string-array name="listitem_permission_setting"> 
+    <item>पूरा विश्वसनीय</item>
+    <item>आंशिक ट्रस्ट</item>
+    <item>विश्वास न करें</item>
+    </string-array>
+    <string-array name="listitem_permission_setting_summary"> 
+    <item>जब एप्लीकेशन किसी अनुमति को कॉल करता हैं तो बम बॉक्स संकेत नहीं देता</item>
+    <item>एप्लीकेशनें जब भी किसी महत्वपूर्ण अनुमति के लिए पूंछती हैं तभी बॉक्स बम प्रॉम्‍प्ट करता है</item>
+    <item>जब एप्लीकेशन किसी महत्वपूर्ण अनुमति को कॉल करती हैं तो बम बॉक्स संकेत होगा</item>
+    </string-array>
+    <string-array name="listitem_freeze_app_summary"> 
+    <item>ऐप का कोई प्रभाव नहीं है</item>
+    <item>ऐप में सावधानी जरुरी है</item>
+    </string-array>
+    <string-array name="uninstall_sort">
+    <item>Sort by app name</item> 
+    <item>इंस्टाल के समय द्वारा क्रमबद्ध करें</item>
+    <item>उपयोग की दर के अनुसार क्रमबद्ध करें</item>
+    <item>ऐप के आकार द्वारा क्रमबद्ध करें</item>
+    </string-array>
+    <string-array name="green_list_item"> 
+    <item>व्हाइट लिस्ट</item>
+    </string-array>
+    <string-array name="freeze_tab_item"> 
+    <item>अवरुद्ध करने योग्य</item>
+    <item>फ्रोजन</item>
+    </string-array>
+    <string-array name="auto_start_tab_item"> 
+    <item>अनुमति दें</item>
+    <item>निषेध करें</item>
+    </string-array>
+    <string-array name="move_tab_item"> 
+    <item>सिस्टम स्पेस</item>
+    <item>इंटरनल</item>
+    </string-array>
+    <string-array name="move_tab_item_sd"> 
+    <item>सिस्टम स्पेस</item>
+    <item>SD कार्ड</item>
+    </string-array>
+</resources>

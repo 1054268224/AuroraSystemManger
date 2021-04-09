@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="cancel">റദ്ദാക്കുക</string>
+  <string name="gn_securitypassword_forget">പാസ്സ്‌വേര്‍ഡ്‌ മറക്കുക</string>
+  <string name="lockpassword_confirm_your_pattern_header">നിങ്ങളുടെ പാറ്റേൺ സ്ഥിരീകരിക്കുക</string>
+  <string name="lockpassword_confirm_your_pattern_generic">തുടരാൻ നിങ്ങളുടെ ഡിവൈസ് പാറ്റേൺ ഉപയോഗിക്കുക.</string>
+  <string name="lockpattern_need_to_unlock_wrong">തെറ്റായ പാറ്റേണ്‍</string>
+  <string name="gn_securitypassword_retry_note">ദയവായി "%1$s" മിനിട്ടിന് ശേഷം വീണ്ടും ശ്രമിക്കുക</string>
+  <string name="gn_securitypassword_input_error_note">തെറ്റായ പാസ്സ്‍വേർഡ്, "%1$s" തവണ ഇൻപുട്ട് ചെയ്യാം</string>
+  <string name="gn_lockpattern_recording_intro_header">"അൺലോക്ക് പാറ്റേൺ വരക്കുക"</string>
+  <string name="gn_fingerprint_confirm_your_password_header2">ഒരു അൺലോക്ക് പാറ്റേൺ അഥവാ ഫിംഗർപ്രിന്‍റ് തിരിച്ചറിയൽ വരയ്ക്കുക</string>
+  <string name="gn_fingerprint_confirm_your_password_header">പാസ്സ്‌വേര്‍ഡ്‌ രേഖപ്പെടുത്തുക അല്ലെങ്കിൽ ഫിംഗർപ്രിന്‍റ് തിരിച്ചറിയൽ</string>
+  <string name="lockpassword_confirm_your_password_header">നിങ്ങളുടെ പാസ്സ്‌വേർഡ്‌ സ്ഥിരീകരിക്കുക</string>
+  <string name="gn_confirm_your_password_header">ദയവായി പാസ്സ്‌വേര്‍ഡ്‌ എന്‍റർ ചെയ്യുക</string>
+  <string name="lockpattern_too_many_failed_confirmation_attempts">നിരവധി തെറ്റായ ശ്രമങ്ങൾ. വീണ്ടും <xliff:g id="number">%d</xliff:g> സെക്കന്‍റിൽ ശ്രമിക്കുക.</string>
+  <string name="lockpattern_tutorial_cancel_label">റദ്ദാക്കുക</string>
+  <string name="lockpattern_tutorial_continue_label">അടുത്തത്</string>
+  <string name="lockpassword_confirm_your_pin_header">നിങ്ങളുടെ പിൻ സ്ഥിരീകരിക്കുക</string>
+  <string name="lockpassword_confirm_your_password_generic">തുടരുന്നതിന് നിങ്ങളുടെ ഡിവൈസ് പാസ്സ്‌വേര്‍ഡ് എന്‍റർ ചെയ്യുക.</string>
+  <string name="lockpassword_confirm_your_pin_generic">തുടരുന്നതിന് നിങ്ങളുടെ ഡിവൈസ് പിൻ എന്‍റർ ചെയ്യുക.</string>
+  <string name="lockpassword_confirm_app_header">%s സംരക്ഷിച്ചു</string>
+</resources>

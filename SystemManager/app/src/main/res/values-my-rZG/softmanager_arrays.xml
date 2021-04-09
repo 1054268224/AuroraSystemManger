@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">  
+    <string-array name="title_group_move_package"> 
+    <item>"အတြင္းတြင္းပရိုဂရမ္"</item>
+    <item>"SDကတ္တြင္းပရိုဂရမ္"</item>
+    </string-array>
+    <string-array name="title_group_move_package1"> 
+    <item>"စနစ္အတြင္းပရိုဂရမ္"</item>
+    <item>"အတြင္းတြင္းပရိုဂရမ္"</item>
+    </string-array>
+    <string-array name="ui_privacy_policy"> 
+    <item>"ဖုန္းေခၚသည္"</item>
+    <item>"စာတိုပို႔႔"</item>
+    <item>"ဖုန္းေခၚမႈမ်ား"</item>
+    <item>"ဖုန္းေခၚဆုိမႈမ်ား"</item>
+    <item>"MSG ကိုဖတ္မည္"</item>
+    <item>"MMS ကိုဖတ္မည္"</item>
+    <item>"လိပ္စာကိုဖတ္သည္"</item>
+    <item>"ေျမပံုတည္ေနရာ"</item>
+    <item>"ကြန္ရက္တည္ေနရာ"</item>
+    <item>"ဖုန္းအေျခအေန"</item>
+    <item>"စာတိုေရး/ဖ်က္"</item>
+    <item>"မီဒီယာစာတိုေရး/ဖ်က္"</item>
+    <item>"လိပ္စာေရး/ဖ်က္"</item>
+    <item>"ေခၚဆိုမႈမ်ားေရး/ဖ်က္"</item>
+    <item>"အသံဖမ္းသည္"</item>
+    <item>"ကင္မရာ"</item>
+    <item>"မိုဘိုင္းကြန္ရက္"</item>
+    <item>"ၾကိဳးမဲ့ကြန္ရက္"</item>
+    <item>"ဘလူတု"</item>
+    <item>"ဘလူးတုဆက္သြယ္ျခင္း"</item>
+    <item>"NFC"</item>
+    </string-array>
+    <string-array name="permission_summary"> 
+    <item>"ဖုန္းေပၚရွိပရိုဂရမ္"</item>
+    <item>"ပရိုဂရမ္စာတိုပို႔ႏိုင္"</item>
+    <item>"ပရိုဂရမ္စာတိုအစံုပို႔ႏိုင္"</item>
+    <item>"ပရိုဂရမ္ေခၚဆိုမႈမ်ားကိုရႏုိင္"</item>
+    <item>"ပရိုဂရမ္စာတိုမ်ားကိုဖတ္ႏုိင္"</item>
+    <item>"ပရိုဂရမ္စာတိုစံုမ်ားကိုဖတ္ႏုိင္"</item>
+    <item>"ပရိုဂရမ္လိပ္စာမ်ားကိုဖတ္ႏုိင္"</item>
+    <item>"ပရိုဂရမ္တည္ေနရာကိုသိႏိုင္"</item>
+    <item>"ပရိုဂရမ္နက္၀က္တည္ေနရာကိုသိႏုိင္"</item>
+    <item>"ပရိုဂရမ္ဖုန္းအေျခအေနကိုသိႏုိင္"</item>
+    <item>"ပရိုဂရမ္စာတိုေရး/ဖတ္ ႏုိင္"</item>
+    <item>"ပရိုဂရမ္စာတုိေရး/ဖ်က္ႏုိင္"</item>
+    <item>"ပရိုဂရမ္လိပ္စာေရး/ဖ်က္ ႏုိင္"</item>
+    <item>"ပရိုဂရမ္ဖုန္းေခၚဆိုမႈမ်ားကိုေရး/ဖ်က္ ႏုိင္"</item>
+    <item>"ပရိုဂရမ္အသံဖမ္းႏုိင္"</item>
+    <item>"ပရိုဂရမ္ကင္မရာသံုးႏုိင္"</item>
+    <item>"ပရိုဂရမ္မိုဘုိင္းနက္၀က္သံုးႏုိင္"</item>
+    <item>"ပရိုဂရမ္၀ိုင္ဖိုင္သံုးႏုိင္"</item>
+    <item>"ပရိုဂရမ္ဘလူးတုသံုးႏုိင္"</item>
+    <item>"ပရိုဂရမ္ဘလူးတုျပင္ဆင္မႈသံုးႏုိင္"</item>
+    <item>"ပရိုဂရမ္NFCသံုးႏုိင္"</item>
+    </string-array>
+    <string-array name="header_list"> 
+    <item>"ဖြင္ျ့ပီးျပီ"</item>
+    <item>"ပိတ္ျပီးျပီ"</item>
+    </string-array>
+    <string-array name="ui_def_soft"> 
+    <item>"ပံုေသအသြင္းနည္းလမ္း"</item>
+    <item>"ပံုေသအင္တာနက္ပရိုဂရမ္"</item>
+    <item>"ပံုေသလိပ္စာ"</item>
+    <item>"ပံုေသေနာက္ခံ"</item>
+    <item>"ပံုေသကင္မရာပရိုဂရမ္"</item>
+    <item>"ပံုေသဓါတ္ပံုပရိုဂရမ္"</item>
+    <item>"ပံုေသသီခ်င္းပရိုဂရမ္"</item>
+    <item>"ပံုေသဗီဒီယိုပရိုဂရမ္"</item>
+    <item>"ပံုေသအဖတ္ပရိုဂရမ္"</item>
+    </string-array>
+    <string-array name="listitem_soft_manager_activity"> 
+    <item>"ပရိုဂရမ္အလုိေလ်ာက္စတင္"</item>
+    <item>"ပရိုဂရမ္ဖ်က္"</item>
+    <item>"ပရိုဂရမ္ဟန္း"</item>
+    <item>"ပံုေသပရိုဂရမ္ျပင္ဆင္မႈမ်ား"</item>
+    </string-array>
+    <string-array name="list_summary_soft_manager_activity"> 
+    <item>"ပရိုဂရမ္ဖ်က္ပါ"</item>
+    <item>"ပရိုဂရမ္မ်ားကိုရပ္ပါ။ဖြက္ပါ"</item>
+    <item>"မိုဘိုင္းေနရာလြတ္တည္ေဆာက္ပါ"</item>
+    <item>"ပံုေသပရိုဂရမ္တည္ေဆာက္ပါ"</item>
+    </string-array>
+    <string-array name="listitem_permission_setting"> 
+    <item>"အားလံုးယံုၾကည္"</item>
+    <item>"တစ္စိတ္တစ္ပိုင္းယံုၾကည္"</item>
+    <item>"မယံုၾကည္"</item>
+    </string-array>
+    <string-array name="listitem_permission_setting_summary"> 
+    <item>"ပရိုဂရမ္ခြင့္ျပဳျခင္းကိုေဘာက္စ္မ်ားျမွင့္သည္"</item>
+    <item>"ပရိုဂရမ္အေရးတၿကီးခြင့္ျပဳျခင္းကိုေဘာက္စ္မ်ားျမွင့္သည္"</item>
+    <item>"ပရိုဂရမ္ခြင့္ျပဳေသာအခါေဘာက္စ္မ်ားျမွင့္မည္"</item>
+    </string-array>
+    <string-array name="listitem_freeze_app_summary"> 
+    <item>"ပရိုဂရမ္သက္ေရာက္မႈမရွိ"</item>
+    <item>"ပရိုဂရမ္ထိခိုက္မႈမရွိ"</item>
+    </string-array>
+    <string-array name="uninstall_sort"> 
+        <item>Sort by app name</item>
+        <item>"အခ်ိန္ျဖင့္စီ"</item>
+        <item>"အၾကိဳက္ျဖင့္စီ"</item>
+        <item>"ဆုိဒ္ျဖင့္စီ"</item>
+    </string-array>
+    <string-array name="green_list_item"> 
+    <item>"ႏွစ္သက္ရာစာရင္း"</item>
+    </string-array>
+    <string-array name="freeze_tab_item"> 
+    <item>"တစ္စိတ္တစ္ပိုင္းယံုၾကည္"</item>
+    <item>"ဟန္းျခင္း"</item>
+    </string-array>
+    <string-array name="auto_start_tab_item"> 
+    <item>"ခြင့္ျပဳသည္"</item>
+    <item>"ကန္႔သတ္"</item>
+    </string-array>
+    <string-array name="move_tab_item"> 
+    <item>"စနစ္ေနရာ"</item>
+    <item>"အတြင္း"</item>
+    </string-array>
+    <string-array name="move_tab_item_sd"> 
+    <item>"စနစ္ေနရာ"</item>
+    <item>"SDကတ္"</item>
+    </string-array>
+</resources>

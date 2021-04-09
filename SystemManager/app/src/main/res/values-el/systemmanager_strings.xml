@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="minutes">λεπτά</string>
+    <string name="hours">ώρες</string>
+    <string name="menu_setting">Ρυθμίσεις</string>
+    <string name="dialog_exit_btn">Έξοδος</string>
+    <string name="dialog_continue_btn">Συνέχεια</string>
+    <string name="text_start_scan">Έναρξη σάρωσης</string>
+    <string name="text_menu_ram">Μνήμη</string>
+    <string name="text_one_key_check_complete">Τέλος</string>
+    <string name="text_root_remind_restore">Επαναφορά</string>
+    <string name="msg_reboot">Επανεκκίνηση</string>
+    <string name="app_process_limit_title">Όριο διεργασ. παρασκηνίου</string>
+    <string name="next_with_arrow">Επόμενο &gt;</string>
+    <string name="next">Επόμενο</string>
+    <string name="settings_with_arrow">Ρυθμίσεις &gt;</string>
+    <string name="settings">Ρυθμίσεις</string>
+</resources>

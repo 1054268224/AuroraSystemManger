@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!-- SoftManager begin -->
+  <string-array name="header_list">
+    <item>ಸಕ್ರಿಯಗೊಳಿಸಿ</item>
+    <item>ನಿಷ್ಕ್ರಿಯಗೊಳಿಸಿ</item>
+  </string-array>
+  <!-- 默认软件设置title 
+    <string-array name="ui_def_soft_title">
+        <item>Default inputMethod</item>
+        <item>Default browser</item>
+        <item>Default contacts</item>
+        <item>Default messaging</item>
+        <item>Default launcher</item>
+        <item>Default camera</item>
+        <item>Default image</item>
+        <item>Default music</item>
+        <item>Default video</item>
+        <item>Default reader</item>
+    </string-array> -->
+  <string-array name="listitem_soft_manager_activity">
+    <item>ಆ್ಯಪ್ ಆಟೋ-ಸ್ಟಾರ್ಟ್</item>
+    <item>ಆ್ಯಪ್‌ ಅನ್ಇನ್ಸ್ಟಾಲ್ ಮಾಡಿ</item>
+    <item>ಆ್ಯಪ್‌ ಫ್ರೀಜ್</item>
+    <item>ಆ್ಯಪ್ ಲಾಕ್</item>
+  </string-array>
+  <!-- Software Permission Setting Title -->
+  <string-array name="listitem_permission_setting">
+    <item>ಎಲ್ಲಾ ನಂಬಿಕೆ</item>
+    <item>ಭಾಗಶಃ ನಂಬಿಕೆ</item>
+    <item>ನಂಬಬೇಡಿ</item>
+  </string-array>
+  <string-array name="listitem_permission_setting_summary">
+    <item>ಅಪ್ಲಿಕೇಶನ್‌ ಯಾವುದಾದರೂ ಪರವಾನಗಿಗಳನ್ನು ಕರೆದಾಗ ಯಾವುದೇ ಬಾಂಬ್‌ ಬಾಕ್ಸ್ ಪ್ರಾಂಪ್ಟ್ ಮಾಡುವುದಿಲ್ಲ</item>
+    <item>ಪ್ರಮುಖ ಅನುಮತಿಗಳಿಗೆ ಅಪ್ಲಿಕೇಶನ್‌ ಕರೆಮಾಡಿದಾಗ ಮಾತ್ರ ಬಾಕ್ಸ್ ಬಾಂಬ್‌ ಕಾಣಿಸಿಕೊಳ್ಳುತ್ತದೆ</item>
+    <item>ಅಪ್ಲಿಕೇಶನ್ ಯಾವುದೇ ಪರವಾನಗಿ ಕೇಳಿದರೆ ಬಾಂಬ್ ಬಾಕ್ಸ್ ಹೊರಬರುತ್ತದೆ</item>
+  </string-array>
+  <string-array name="listitem_freeze_app_summary">
+    <item> ಆ್ಯಪ್ ಯಾವುದೇ ಪರಿಣಾಮವನ್ನು ಹೊಂದಿಲ್ಲ </item>
+    <item> ಆ್ಯಪ್ ಎಚ್ಚರಿಕೆಯನ್ನು ಹೊಂದಿದೆ</item>
+  </string-array>
+  <!-- Gionee: mengdw <2016-08-01> modify for CR01739399 end -->
+  <string-array name="uninstall_sort">
+    <item>ಆ್ಯಪ್ ಹೆಸರಿನಿಂದ ಪ್ರಕಾರ ವಿಂಗಡಿಸಿ</item>
+    <item>ಇನ್ಸ್ಟಾಲ್ ಆದ ಸಮಯದ ಪ್ರಕಾರ ವಿಂಗಡಿಸಿ </item>
+    <item>ಬಳಕೆ ದರದ ಪ್ರಕಾರ ವಿಂಗಡಿಸಿ</item>
+    <item>ಅಪ್ಲಿಕೇಶನ್ ಗಾತ್ರದ ಪ್ರಕಾರ ವಿಂಗಡಿಸಿ</item>
+  </string-array>
+  <string-array name="green_list_item">
+    <!-- Gionee <yangxinruo> <2016-1-13> modify for CR01621967 begin -->
+    <item>ವೈಟ್ ಲಿಸ್ಟ್ ಕ್ಲೀನ್ ಮಾಡಿ</item>
+    <!-- Gionee <yangxinruo> <2016-1-13> modify for CR01621967 end -->
+  </string-array>
+  <string-array name="freeze_tab_item">
+    <item>ಫ್ರೀಜ್ ಆಗುವುದು </item>
+    <item>ಫ್ರೋಜನ್</item>
+  </string-array>
+  <string-array name="auto_start_tab_item">
+    <item>ಅನುಮತಿ ನೀಡಿ</item>
+    <item>ಫೊರ್ಬಿಡ್</item>
+  </string-array>
+  <string-array name="move_tab_item">
+    <item>ಸಿಸ್ಟಂ ಸ್ಥಳಾವಕಾಶ </item>
+    <item>ಆಂತರಿಕ</item>
+  </string-array>
+  <string-array name="move_tab_item_sd">
+    <item>ಸಿಸ್ಟಂ ಸ್ಥಳಾವಕಾಶ </item>
+    <item>SD ಕಾರ್ಡ್</item>
+  </string-array>
+  <!-- SoftManager end -->
+
+
+  <string-array name="app_lock_setting_items">
+    <item>@string/app_lock_setting_item_1</item>
+    <item>@string/app_lock_setting_item_2</item>
+  </string-array>
+
+
+
+</resources>

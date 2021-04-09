@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="cancel">ரத்துசெய்</string>
+  <string name="gn_securitypassword_forget">கடவுச்சொல் மறந்துவிட்டது</string>
+  <string name="lockpassword_confirm_your_pattern_header">உங்கள் பேட்டர்னை உறுதிசெய்யவும்</string>
+  <string name="lockpassword_confirm_your_pattern_generic">தொடர்வதற்கு உங்கள் சாதன பேட்டர்னை பயன்படுத்தவும்.</string>
+  <string name="lockpattern_need_to_unlock_wrong">தவறான பேட்டர்ன்</string>
+  <string name="gn_securitypassword_retry_note">தயவுசெய்து "%1$s"நிமிடங்களுக்கு பிறகு மீண்டும் முயற்சிக்கவும்</string>
+  <string name="gn_securitypassword_input_error_note">தவறான கடவுச்சொல், "%1$s" முறைகள் உள்ளிட முடியும்</string>
+  <string name="gn_lockpattern_recording_intro_header">"அன்லாக் பேட்டர்னை வரையவும்"</string>
+  <string name="gn_fingerprint_confirm_your_password_header2">ஒரு அன்லாக் பேட்டர்ன் அல்லது கைரேகை அங்கீகாரத்தை வரையவும்</string>
+  <string name="gn_fingerprint_confirm_your_password_header">தயவுசெய்து கடவுச்சொல் அல்லது கைரேகை அங்கீகாரத்தை உள்ளிடவும்</string>
+  <string name="lockpassword_confirm_your_password_header">உங்கள் கடவுச்சொல்லை உறுதிபடுத்தவும்</string>
+  <string name="gn_confirm_your_password_header">தயவுசெய்து கடவுச்சொல்லை உள்ளிடவும்</string>
+  <string name="lockpattern_too_many_failed_confirmation_attempts">மிகவும் அதிக தவறான முயற்சிகள். <xliff:g id="number">%d</xliff:g> வினாடிகளில் மீண்டும் முயற்சிக்கவும்.</string>
+  <string name="lockpattern_tutorial_cancel_label">ரத்துசெய்</string>
+  <string name="lockpattern_tutorial_continue_label">அடுத்து</string>
+  <string name="lockpassword_confirm_your_pin_header">உங்கள் பின்-ஐ உறுதிபடுத்தவும்</string>
+  <string name="lockpassword_confirm_your_password_generic">தொடர்வதற்கு உங்கள் சாதன கடவுச்சொல்லை உள்ளிடவும்.</string>
+  <string name="lockpassword_confirm_your_pin_generic">தொடர்வதற்கு உங்கள் சாதன பின்-ஐ உள்ளிடவும்.</string>
+  <string name="lockpassword_confirm_app_header">%s பாதுகாக்கப்பட்டது</string>
+</resources>

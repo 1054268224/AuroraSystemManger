@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="power_app_name">Питание</string>
+    <string name="can_use_time">Доступно: %s</string>
+    <string name="need_charging_time">Подключите зарядное устройство %s</string>
+    <string name="is_charging_now">Заряжается</string>
+    <string name="charged_completely">Заряжен</string>
+    <string name="power_mode_use_time">(Доступно： <xliff:g id="time">%s</xliff:g>)</string>
+    <string name="power_cannotget">Данные недоступны</string>
+    <string name="power_hours">" ч. "</string>
+    <string name="power_minutes">" мин. "</string>
+    <string name="none_power_mode">Обычный режим</string>
+    <string name="normal_power_mode">Режим энергосбрежения</string>
+    <string name="super_power_mode">Экстремальный режим энергосбережения</string>
+    <string name="none_power_mode_summary">Оптимизация энергопотребления отключена</string>
+    <string name="normal_power_mode_summary">Для снижения быстродействия телефона и ограничения активности фоновых приложений</string>
+    <string name="super_power_mode_summary">Доступны только телефон, контакты, SMS и часы</string>
+    <string name="time_use_inmode">Доступно: %s</string>
+    <string name="time_use_in_supermode">Резерв:%s</string>
+    <string name="mode_change_alert">Переключение ...</string>
+    <string name="powersaver_mode_category_title">Другие ограничения</string>
+    <string name="close_gesture">Отключить режим жестов</string>
+    <string name="close_bluetooth">Отключить Bluetooth</string>
+    <string name="close_gps">Отключить GPS</string>
+    <string name="close_sync">Отключить синхронизацию</string>
+    <string name="close_push_notification">Отключение push уведомлений</string>
+    <string name="set_custom_screen_light">Управление яркостью экрана</string>
+    <string name="set_custom_sleep_time">Переход в режим ожидания после 15 секунд бездействия</string>
+    <string name="set_cpu_state">Включить интеллектуальный режим управления частотой процессора</string>
+    <string name="set_screen_save_power">Включение заставки дисплея</string>
+    <string name="close_wifi">Отключить Wi-Fi</string>
+    <string name="close_data_connection">Отключение передачи данных</string>
+    <string name="screen_light_sumarry">Автоматическое управление яркостью для экономии энергии</string>
+    <string name="set_sleep_time">Настройка времени сна</string>
+    <string name="sleep_time_summary">Переход в режим ожидания после 15 секунд бездействия</string>
+    <string name="set_screen_light">Управление яркостью экрана</string>
+    <string name="power_saving_mode_title">Настройки энергосбережения</string>
+    <string name="save_power_notifi">Уведомление энергосбережения</string>
+    <string name="save_power_notifi_title">Центр уведомлений сообщает о текущем статусе батареи</string>
+    <string name="smart_saving">Системные параметры энергосбережения</string>
+    <string name="night_saving_title">Интеллектуальное энергосбережение в ночное время</string>
+    <string name="night_saving_summary">Когда телефон не используется в течение длительного времени, так как экран выключен, он отключит сеть, BT, GPS, синхронизация. и т.д. Пока экран не будет включен.</string>
+    <string name="auto_clean_title">Интеллектульная очистка памяти</string>
+    <string name="auto_clean_summary">Для снижения потребления энергии в режиме фоновой очистки приложения</string>
+    <string name="other_powersaver">Другие</string>
+    <string name="user_manual">Советы по энегросбережению</string>
+    <string name="create_shortcut_title">Вход в режим экстремального энергосбережения</string>
+    <string name="create_shortcut_summary">Быстро войти в режим экстремального энергопотребления, если открыто</string>
+    <string name="super_power_save">Экстремальное энергосбережение</string>
+    <string name="battery">Обслуживание батареи</string>
+    <string name="daily_use">Экономия заряда батареи</string>
+    <string name="battery_use_desc">Заряжайте батарею при температуре от 0°С до +35°С. Для продления срока службы батареи заряжайте её полностью не реже одного раза в месяц. При снижении заряда до 20%, постарайтесь зарядить телефон, это необходимо для увеличения срока службы батареи.</string>
+    <string name="daily_use_desc">Постарайтесь уменьшить яркость экрана насколько это возможно, выключите анимацию и специальные эффекты, используйте статичные обои, оставьте на рабочем столе только необходимые виджеты, запретите фоновую загрузку и очистку приложений - всё это поможет вам сохранить заряд батареи.</string>
+    <string name="power_consumption_tab_title">Подробности энергопотребления</string>
+    <!--Gionee <GN_Oversea_Req> <zhang_han> <20171012> for 219887 begin-->
+    <string name="hardware">Потребление устройства</string>
+    <string name="software">Потребление программ</string>
+    <!--Gionee <GN_Oversea_Req> <zhang_han> <20171012> for 219887 begin-->
+    <string name="process_kernel_label">"ОС Android"</string>
+    <string name="process_mediaserver_label">Медиа сервер</string>
+    <string name="percentage">
+        <xliff:g id="NUMBER">%.1f</xliff:g> %%</string>
+    <string name="battery_level_tab_title">Уровень батареи</string>
+    <string name="power_usage_not_available">Нет данных о работе батареи</string>
+    <string name="power_phone">Голосовые вызовы</string>
+    <string name="power_screen">Экран</string>
+    <string name="power_cell">Радиочасть мобильного телефона</string>
+    <string name="power_wifi">Wi-Fi</string>
+    <string name="power_idle">Режим ожидания</string>
+    <string name="power_gps">GPS</string>
+    <string name="power_sensors">Другое (различные датчики)</string>
+    <string name="power_bluetooth">Bluetooth</string>
+    <string name="usage_description">Описание</string>
+    <string name="shotcut_operation">Быстрое действие</string>
+    <string name="airplane">Режим В самолёте</string>
+    <string name="data_conn">Передача данных</string>
+    <string name="display">Экран</string>
+    <string name="idle_descrip">В режиме ожидания телефон потребляет электроэнергию для обеспечения работы системы.</string>
+    <string name="screen_descrip">В процессе использования экрана энергопотребление телефона возрастает</string>
+    <string name="wlan_descrip">Включенный Wi-Fi потребляет электроэнегрию, так как постоянно ищет сигналы ближайших точек доступа</string>
+    <string name="bt_descrip">Включенный модуль Bluetooth будет потреблять дополнительную электроэнергию</string>
+    <string name="gps_descrip">Приложение с определением местоположения по GPS будет потреблять больше энергии</string>
+    <string name="radio_descrip">При использовании функции голосового вызова, потребляется больше энергии</string>
+    <string name="cell_descrip">При плохом сигнале сети мобильный телефон постоянно ищет устойчивый сигнал, что влечет за собой большой расход электроэнергии.</string>
+    <string name="others_descrip">При работе датчиков силы тяжести, освещённости будет потребляться больше энергии</string>
+    <string name="idle_title">Энергопотребление в режиме ожидания</string>
+    <string name="screen_title">Энергопотребление экрана</string>
+    <string name="wlan_title">Энергопотребление Wi-Fi</string>
+    <string name="bt_title">Энергопотребление Bluetooth</string>
+    <string name="gps_title">Энергопотребление GPS</string>
+    <string name="radio_title">Энергопотребление Голосовой связи</string>
+    <string name="cell_title">Энергопотребление радиочасти мобильного телефона</string>
+    <string name="others_title">Другие данные энергопотребления</string>
+    <string name="details_title">Использовать данные</string>
+    <string name="power_monitor_title">На этой неделе повышенное энергопотребление</string>
+    <string name="power_monitor_message">
+        <xliff:g id="name">%s</xliff:g>
+    </string>
+    <string name="daily_power_open_noti">Режим энергосбережения включен</string>
+    <string name="dialog_negativebutton_txt">Отмена</string>
+    <string name="dialog_neutralbutton_txt">Подробности</string>
+    <string name="dialog_positivebutton_txt">Включить</string>
+    <!--Gionee <GN_Oversea_Req> <zhang_han> <20171017> for 219887 beign-->
+    <string name="dialog_dailypower_message">Этот режим ограничит максимальную производительность CPU/GPU для экономии энергии.\n\nИспользование темного фона снижает потребление энергии экраном. Эко-режим запрещает приложениям без полученных разрешений потреблять энергию. Вы можете отключить Bluetooth, GPS и др. энергоемкие функции.</string>
+    <!--Gionee <GN_Oversea_Req> <zhang_han> <20171017> for 219887 end-->
+    <string name="dialog_superpower_message">В экстремальном режиме работа может быть продлена на <xliff:g id="ID_1">%s\n\nВ экстремальном режиме доступны только телефон, контакты, SMS и часы. Устройство начнет использовать упрощенный рабочий стол</xliff:g></string>
+    <string name="super_power_save_label">Экстремальный режим</string>
+    <string name="super_power_mode_introduction_string1">В экстремальном режиме могут быть использованы только <b>телефон, контакты, SMS и часы</b>.</string>
+    <string name="super_power_mode_introduction_string2">Устройство запустит упрощенный вид рабочего стола</string>
+    <string name="super_power_mode_introduction_string3">В экстремальном режиме работа может быть продлена на %s</string>
+    <string name="super_power_mode_introduction_string4">В экстремальном режиме все виджеты на рабочем столе будут потеряны</string>
+    <string name="waiting_load">Запуск или выход из экстремального режима, ожидайте.</string>
+    <string name="waiting_load1">Пожалуйста, подождите, не совершайте других действий.</string>
+    <string name="waiting_load2">В противном случае интерфейс может быть поврежден</string>
+    <string name="super_mode_toast">Уже в экстремальном режиме</string>
+    <string name="power_ranking_noname">Android-фоновый режим</string>
+    <string name="in_lock_task_toast">Сейчас в режиме задания блокировки, невозможно переключиться в экстремальном режиме</string>
+    <string name="power_consume_notification_title">Напоминание о расходе заряда</string>
+    <string name="power_consume_notification_content">
+        <xliff:g>%1$s</xliff:g> потребляет энергию в фоновом режиме,Нажмите, чтобы посмотреть подробности</string>
+    <string name="power_consume_notification_kill">Закрыть приложение</string>
+    <string name="power_consume_processed_kill">Закрыть</string>
+    <string name="power_consume_notification_ignore">Больше не напоминать</string>
+    <string name="power_consume_background_list_title">Энергопотребление в фоновом режиме</string>
+    <string name="power_consume_header">Потребление запущенных приложений в фоновом режиме</string>
+    <string name="text_power_consume_empty">Нет приложение не работает в фоновом режиме</string>
+    <string name="power_consume_setting_summary">Сообщите мне, когда энергоемкие приложения обнаруживаются</string>
+    <string name="power_consume_setting_title">Напоминание о потреблении энергии</string>
+    <string name="power_consume_clean">Закрыть приложение</string>
+    <string name="power_consume_whitelist_tip">Белый список</string>
+    <!-- Gionee <GN_Oversea_Req> <zhang_han> <20170925> add for 219887 begin -->
+    <string name="dialog_neutralbutton_config_txt">Настроить</string>
+    <!-- Gionee <GN_Oversea_Req> <zhang_han> <20170925> add for 219887 end -->
+    <!--Gionee <GN_Oversea_Req> <zhang_han> <20170928> for 219887 beign-->
+    <string name="time_use_in_configurable_mode_default">При стандартных настройках:%s</string>
+    <string name="time_use_in_original_mode">Ожидаемое время работы:%s</string>
+    <string name="close_vibration">Вибрация</string>
+    <string name="mode_item_switch_on">Включено</string>
+    <string name="mode_item_switch_off">Отключено</string>
+    <string name="mode_item_switch_pass">Оставить неизменым</string>
+    <string name="mode_item_cancel">Отмена</string>
+    <string name="set_darktheme">Темная энергосберегающая тема</string>
+    <string name="set_greenbackground">Эко-режим</string>
+    <string name="mode_item_timeout_s">%d секунд</string>
+    <string name="mode_item_timeout_m">%d минута</string>
+    <string name="mode_item_timeout_ms">%d минут</string>
+    <string name="mode_item_timeout_perfix">Нет действий после %s</string>
+    <string name="mode_setting_reset">Вернуть стандартные установки</string>
+    <string name="battery_desc_voice">Использование батареи для голосовых вызовов</string>
+    <string name="battery_desc_standby">Расход заряда батареи в режиме ожидания</string>
+    <string name="battery_desc_radio">Расход энергии на поддержание связи с сетью в режиме ожидания</string>
+    <string name="battery_desc_flashlight">Заряд батареи, израсходованный на вспышку</string>
+    <string name="battery_desc_display">Использование батареи для подсветки экрана</string>
+    <string name="battery_desc_wifi">Расход заряда батареи при подключении к Wi-Fi</string>
+    <string name="battery_desc_bluetooth">Использование батареи модулем Bluetooth</string>
+    <string name="battery_desc_apps">Использование батареи приложением</string>
+    <string name="battery_desc_users">Использование батареи пользователем</string>
+    <string name="battery_desc_unaccounted">Неучтенный расход заряда батареи</string>
+    <string name="battery_desc_overcounted">Преувеличенное энергопотребление</string>
+    <string name="usage_type_cpu">ЦП – всего</string>
+    <string name="usage_type_cpu_foreground">ЦП – акт. режим</string>
+    <string name="usage_type_wake_lock">Акт. режим</string>
+    <string name="usage_type_gps">GPS</string>
+    <string name="usage_type_wifi_running">Модуль Wi‑Fi включен</string>
+    <string name="usage_type_data_send">Данные отправлены по моб. сети</string>
+    <string name="usage_type_data_recv">Данные получены по моб. сети</string>
+    <string name="usage_type_radio_active">Время работы мобильного беспроводного устройства</string>
+    <string name="usage_type_data_wifi_send">Данные отправлены по сети Wi‑Fi</string>
+    <string name="usage_type_data_wifi_recv">Данные получены по сети Wi‑Fi</string>
+    <string name="usage_type_audio">Аудио</string>
+    <string name="usage_type_video">Видео</string>
+    <string name="usage_type_on_time">Время работы</string>
+    <string name="usage_type_no_coverage">Время отсутствия сигнала</string>
+    <string name="usage_type_total_battery_capacity">Емкость батареи</string>
+    <string name="usage_type_computed_power">Расчетный расход</string>
+    <string name="usage_type_actual_power">Фактический расход</string>
+    <string name="details_subtitle">Расход батареи</string>
+    <string name="controls_subtitle">Режим энергопотребления</string>
+    <string name="packages_subtitle">Пакеты</string>
+    <string name="force_stop">Закрыть приложение</string>
+    <string name="mah">&lt;xliff:g id="number" example="30"&gt;%d&lt;/xliff:g&gt; мАч</string>
+    <string name="battery_action_app_details">О приложении</string>
+    <string name="battery_sugg_apps_info">Остановите или удалите приложение</string>
+    <string name="location_settings_title">Местоположение</string>
+    <string name="battery_sugg_apps_gps">Выберите режим экономии заряда батареи</string>
+    <string name="display_settings">Экран</string>
+    <string name="battery_sugg_display">Уменьшить яркость экрана и/или время до отключения экрана</string>
+    <string name="wifi_settings">Wi-Fi</string>
+    <string name="battery_sugg_wifi">Отключите Wi-Fi когда он не используется или недоступен</string>
+    <string name="bluetooth_settings">Bluetooth</string>
+    <string name="battery_sugg_bluetooth_basic">Отключите Bluetooth когда вы не используете его</string>
+    <string name="radio_controls_title">Больше</string>
+    <string name="battery_sugg_radio">Если нет доступа в сеть, вкл. Автономный режим для экономии заряда</string>
+    <string name="battery_msg_unaccounted">Использование батареи является приближением использования энергопотребления и не включает в себя все источники утечки батареи. Разное - это разница между вычисленной приближенной использования энергопотребления и фактической утечки, наблюдаемой на батарее.</string>
+    <string name="power_app_others">Другое</string>
+    <string name="super_power_mode_summary_new">Только самые необходимые приложения и выбранные Вами, могут использоваться</string>
+    <string name="dialog_superpower_message_normal_new">Время работы в режиме ожидания может длиться около %s после использования экстремального режима</string>
+    <!--Gionee <GN_Oversea_Req> <liumn> <20171009> for 227081 beign-->
+    <string name="dialog_superpower_message_new">
+        <xliff:g id="ID_0">%s</xliff:g>\n\nТолько самые необходимые приложения и выбранные Вами, могут использоваться\n\nИспользуется минимальный рабочий стол</string>
+    <!--Gionee <GN_Oversea_Req> <liumn> <20171009> for 227081 beign-->
+    <string name="super_power_mode_introduction_new1">Только самые необходимые приложения и выбранные Вами, могут использоваться в экстремальном режиме</string>
+    <string name="super_power_mode_introduction_new2">В экстремальном режиме используется минимальный рабочий стол</string>
+    <string name="super_power_mode_introduction_new3">Время работы в режиме ожидания может длиться около %s после использования экстремального режима</string>
+    <string name="super_power_mode_introduction_new4">Вы можете включить Мобильные данные и Wi-Fi в экстремальном режиме</string>
+    <string name="enter_background_running_processes">Проверить энергопотребление</string>
+    <!--Gionee <GN_Oversea_Req> <zhang_han> <20170928> for 219887 end-->
+    <!--Gionee <GN_Oversea_Req> <zhang_han> <20170928> for 219887 beign-->
+    <string name="time_use_in_configurable_mode">Доступно : %s</string>
+    <!--Gionee <GN_Oversea_Req> <zhang_han> <20170928> for 219887 end-->
+    <string name="mode_item_config_changed">Вы изменили конфигурацию по умолчанию</string>
+    <string name="power_about">%s</string>
+    <string name="power_low">ниже %s</string>
+    <string name="close_wifi_ap">Отключите WLAN Hotspot</string>
+    <string name="close_nfc">NFC</string>
+    <string name="mode_item_brightness_perfix">%s%%</string>
+    <string name="night_saving_summary_kr">Когда телефон не используется в течение длительного времени, различные подключения по сети, Bluetooth и т.д. будут отключены.</string>
+    <string name="battery_history_days">
+        <xliff:g id="days">%1$d</xliff:g>d <xliff:g id="hours">%2$d</xliff:g>h <xliff:g id="minutes">%3$d</xliff:g>m <xliff:g id="seconds">%4$d</xliff:g>s</string>
+    <string name="battery_history_hours">
+        <xliff:g id="hours">%1$d</xliff:g>h <xliff:g id="minutes">%2$d</xliff:g>m <xliff:g id="seconds">%3$d</xliff:g>s</string>
+    <string name="battery_history_minutes">
+        <xliff:g id="minutes">%1$d</xliff:g>m <xliff:g id="seconds">%2$d</xliff:g>s</string>
+    <string name="battery_history_seconds">
+        <xliff:g id="seconds">%1$d</xliff:g>s</string>
+    <string name="battery_history_days_no_seconds">
+        <xliff:g id="days">%1$d</xliff:g>d <xliff:g id="hours">%2$d</xliff:g>h <xliff:g id="minutes">%3$d</xliff:g>m</string>
+    <string name="battery_history_hours_no_seconds">
+        <xliff:g id="hours">%1$d</xliff:g>h <xliff:g id="minutes">%2$d</xliff:g>m</string>
+    <string name="battery_history_minutes_no_seconds">
+        <xliff:g id="minutes">%1$d</xliff:g>m</string>
+    <string name="daily_power_Intelligent_scene_title">Оптимизация динамического графика графического процессора</string>
+    <string name="dialog_dailypower_message_kr">Этот режим ограничит максимальную производительность CPU / GPU для экономии энергии. <xliff:g id="ID_1">%s</xliff:g>\n\n В конфигурации по умолчанию будут отключены Bluetooth, жесты и т. д., вы также можете настроить конфигурацию по умолчанию. \ n \ nЭтот режим не изменит ваш статус сети.</string>
+    <string name="dialog_superpower_message_normal">Экстремальный режим может увеличить время ожидания мобильного телефона</string>
+    <string name="super_power_mode_introduction_new4_KR">Вы можете включить мобильные данные в экстремальном режиме</string>
+    <string name="power_consume_ignore_tip">Отклонить</string>
+    <string name="background_running_remove_ignore_title">Настройки напоминания</string>
+    <string name="background_running_remove_ignore_message">Разрешить приложению запрашивать</string>
+    <string name="background_running_set_ignore_message">Не запрашивать</string>
+    <string name="background_running_set_power_monitor_message">High power consumption</string>
+    <string name="background_running_set_wakelock_monitor_message">Предотвращение спящего режима</string>
+    <string name="power_consume_notification_wakelock_content">&lt;font color=\"red\"&gt;<xliff:g>%1$s</xliff:g>&lt;\ //font&gt; чтобы система не была в спящем режиме в течение длительного времени. Нажмите, чтобы увидеть детали.</string>
+    <string name="normal_detail_changed_alert_title">Настройка интеллектуального режима</string>
+    <string name="normal_detail_changed_alert_message">Вы изменили конфигурацию, сохранить? Изменения вступят в силу немедленно в этом режиме.</string>
+    <string name="normal_detail_changed_alert_save">Сохранить</string>
+    <string name="normal_detail_changed_alert_cancel">Сброс</string>
+    <string name="power_consume_background_list_title_lite">Проверить</string>
+</resources>

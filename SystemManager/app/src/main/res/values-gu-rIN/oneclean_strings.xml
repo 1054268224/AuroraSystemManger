@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <!-- 手机加速主界面 -->
+  <string name="phone_accelerate">મેમરી ક્લીન</string>
+  <string name="text_one_accelerate">એક કી થી ઍક્સિલરેટ</string>
+  <string name="searching">ડેટાની શોધ થઇ રહિ છે...</string>
+  <string name="summary_process_clean">" પ્રક્રિયાઓ બંધ કરી શકાય છે"</string>
+  <string name="summary_process_clean_no">કોઈ પ્રક્રિયા બંધ કરી શકાતી નથી</string>
+  <string name="summary_cache_clean">" કેશિઝ બંધ કરી શકાય છે"</string>
+  <string name="summary_cache_clean_no"> રીલીઝ કરવા કોઈ જગ્યા નથી</string>
+  <string name="summary_boot_optimization">" આપોઆપ ચાલુ થયેલી આઇટમો લિમિટેડ કરી શકાય છે"</string>
+  <string name="summary_boot_optimization_no">કોઈ આપોઆપ શરૂ થયેલ આઇટમ લિમિટેડ હોઇ શકે નહિં</string>
+  <string name="text_clean_result"><xliff:g>%1$s</xliff:g> જગ્યા રિલીઝ કરી છે</string>
+  <string name="text_clean_result_no">ફોન શ્રેષ્ઠ સ્થિતિમાં છે, ઝડપ વધારવાની કોઈ જરૂર નથી</string>
+  <string name="text_main_ui_notice">ફોન સાફ કરવા હલાવો, ફોનને શ્રેષ્ઠ સ્થિતીમાં રાખો</string>
+  <string name="text_shake">ફોનની ઝડપ વધારવા માટે હલાવો!</string>
+  <string name="text_clean_load">પ્રક્રિયાઓ અને કૅશને સાફ કરી રહ્યા છીએ, સ્ટાર્ટ અપ આઇટમને ઓપ્ટિમાઇઝ કરી રહ્યા છીએ…</string>
+  <!-- 进程清理 -->
+  <string name="notice_process_running">ચાલી રહેલ પ્રોસેસ <xliff:g>%1$s</xliff:g>, <xliff:g>%2$s</xliff:g> મુક્ત</string>
+  <string name="notice_process_whitelist">જ્યારે અક કી એક્સિલરેટ થતી હોય ત્યારે તપાસેલા એપ્લિકેશનો સમાપ્ત થશે નહિં</string>
+  <string name="text_result_clean_process"><xliff:g>%1$s</xliff:g> પ્રક્રિયાઓ બંધ કરી છે</string>
+  <string name="title_activiy_process_clean">પ્રોસેસ ક્લીન</string>
+  <string name="no_select">કોઈ પ્રક્રિયા પસંદ કરેલ નથી, કૃપા કરીને પસંદ કરો</string>
+  <string name="one_clean">એક કી થી સાફ કરો</string>
+  <string name="text_loader_process">તે પ્રક્રિયાઓને સાફ કરે છે...</string>
+  <string name="title_activity_process_protected">સુરક્ષિત પ્રક્રિયાઓ</string>
+  <string name="text_empty_process">હાલમાં કોઈ પ્રકિયા ચલતી નથી</string>
+  <string name="summary_item_process">"RAM：<xliff:g>%1$s</xliff:g>"</string>
+  <!-- 垃圾清理 -->
+  <string name="title_activiy_cache_clean">કૅશિઝ સાફ કરો</string>
+  <string name="text_no_select">સાફ કાર્યક્રમો પસંદ કરો</string>
+  <string name="text_loader_cache">"કેશ સાફ કરાઇ રહિ છે…"</string>
+  <string name="text_header_cache_clean"><xliff:g>%1$s</xliff:g> નંબરો કૅશ થાય છે, <xliff:g>%2$s</xliff:g> જગ્યા વપરાઇ ગઇ છે</string>
+  <string name="text1_cache_clean_no">સાફ કરવા માટે કોઈ કૅશ નથી</string>
+  <string name="text2_cache_clean_no">જંક ફાઇલો ની નિયમિત રીતે સફાઈ કરવી, મોબાઇલ ફોનને સ્વચ્છ અને સુઘડ રાખો</string>
+  <!-- 开机加速 -->
+  <string name="title_activiy_boot_opt">બૂટ ઑપ્ટિમાઇઝર</string>
+  <string name="text_loader_boot">શું ઑપ્ટિમાઇઝેશન બૂટ સ્ટાર્ટઅપની આઇટમ છે...</string>
+  <string name="text_result_bootopt">સ્ટાર્ટઅપની આઇટમને ઑપ્ટિમાઇઝ કર્યું</string>
+  <string name="text_no_opt">કોઈ શરૂઆતની આઇટમ ને ઑપ્ટિમાઇઝ કરવાની જરૂર નથી</string>
+  <string name="one_key_opti">એક કી થી ઑપ્ટિમાઇઝ કરો</string>
+  <string name="one_key_allow">એક કી થી મંજૂરી આપો</string>
+  <string name="title_activity_add_auto_start">ઑટો સ્ટાર્ટ એપ્લિકેશન ઉમેરો</string>
+  <string name="text_empty_auto_start">કોઈ એપ્લીકેશન આપોઆપ શરૂ થઇ શકતી નથી</string>
+  <string name="text_empty_auto_start_forbid">કોઈ એપ્લિકેશન ઑટો સ્ટાર્ટને નિષેધ કરતી નથી</string>
+  <string name="text_header_auto_start">ઑટો સ્ટાર્ટ એપ્લિકેશનની કુલ <xliff:g>%1$s</xliff:g> સંખ્યા છે</string>
+  <string name="text_header_auto_start_forbid">"Forbid auto start（<xliff:g>%1$s</xliff:g>）"</string>
+  <string name="one_key_opt">OneClean</string>
+  <string name="limited">મનાઈ છે</string>
+  <string name="allow">મંજૂરી આપો</string>
+  <string name="has_allow">મંજૂરી આપી છે</string>
+  <!-- Gionee <xuhz> <2013-02-14> add for CR01045806 begin -->
+  <string name="protected_process">સુરક્ષિત પ્રક્રિયા</string>
+  <string name="important_process">મહત્વની પ્રક્રિયા</string>
+  <!-- Gionee <xuhz> <2013-02-14> add for CR01045806 end -->
+  <!-- Gionee <jianghuan> <2014-05-06> add for CR01238335 begin -->
+  <string name="title_memory_settings">મેમરી સાફ કરવાની સેટિંગ્સ</string>
+  <string name="title_activiy_green_bg">ઇકો મોડ</string>
+  <string name="memory_settings_main_title">પ્રોસેસ ક્લીન</string>
+  <string name="close_screen_clean_title">ઑફ સ્ક્રીન ક્લીન</string>
+  <string name="close_screen_clean_summary">બૅકગ્રાઉન્ડ અને પ્રક્રિયા પર ચાલ્યા બાદ સ્ક્રીન પરથી વ્હાઇટ લિસ્ટને આપોઆપ સાફ કરવું</string>
+  <string name="low_memory_clean_title">ઓછી મેમરીનું ક્લીન</string>
+  <string name="low_memory_clean_summary">બૅકગ્રાઉન્ડની પ્રક્રિયા આપોઆપ મેમરીનાં વ્હાઇટલિસ્ટને સાફ કરે છે</string>
+  <string name="run_game_memory_clean_title">ગેમની મેમરી સાફ કરવું શરૂ કરો</string>
+  <string name="run_game_memory_clean_summary">ગેમ શરૂ કરતી વખતે મેમરી સાફ કરો</string>
+  <string name="result_display_title">સફાઇનું પરિણામ</string>
+  <string name="result_display_summary">લિક્વિડેશન સંપૂર્ણ થયા બાદ, બૅકગ્રાઉન્ડ આપોઆપ પરિણામો પ્રોમ્પ્ટ કરે છે</string>
+  <string name="white_list_main_title">વ્હાઇટ લિસ્ટ</string>
+  <!-- Gionee <yangxinruo> <2015-12-11> modify for CR01608017 begin -->
+  <string name="process_white_list_title">વ્હાઇટ લિસ્ટ સાફ કરો</string>
+  <string name="process_white_list_summary">વ્હાઇટ લિસ્ટમાં એપ સુરક્ષિત છે, તેને સાફ કરાશે નહિં.</string>
+  <!-- Gionee <yangxinruo> <2015-12-11> modify for CR01608017 end -->
+  <string name="green_bg_summary">બૅકગ્રાઉન્ડમાં ચાલતી એપ્લિકેશનોને પ્રતિબંધિત કરવાથી, બૅટરીને વપરાશ ઘટી શકે છે</string>
+  <string name="radiobutton_allow">ઑટો બૂટિંગ ને મંજૂરી આપો</string>
+  <string name="radiobutton_prohibit">બૂટ કરવું પ્રતિબંધિત કરો</string>
+  <string name="one_key_prohibit">એક કી દ્વારા પ્રતિબંધિત</string>
+  <string name="text_empty_allow_start">કોઈ એપ્લિકેશનને આપોઆપ ચાલુ થવા માટે મંજૂરી નથી</string>
+  <string name="text_empty_prohibit_start">કોઈ એપ્લિકેશનને આપોઆપ શરૂ કરવા માટે પ્રતિબંધિત નથી</string>
+  <string name="text_empty_white_app">કોઈ એપ્લિકેશન ઉમેરાઇ નથી</string>
+  <string name="white_list_add">વ્હાઇટ લિસ્ટમાં ઉમેરો</string>
+  <string name="white_list_cancel">વ્હાઇટલિસ્ટ માંથી કાઢી નાંખો</string>
+  <string name="text_empty_white_list">સુરક્ષિત યાદીમાં કોઈ એપ્લિકેશન ઉમેરાઇ નથી</string>
+  <string name="text_add_white_list">વ્હાઇટ લિસ્ટમાં ઉમેરો</string>
+  <string name="remove">કાઢી નાંખો</string>
+  <string name="add">ઉમેરો</string>
+  <string name="ok_btn">બરાબર</string>
+  <string name="cancel_btn">રદ કરો</string>
+  <string name="system_process">સિસ્ટમની પ્રક્રિયા</string>
+  <string name="user_process">યૂઝરની પ્રક્રિયા</string>
+  <string name="whitelist_remind_text">નીચે આપેલી એપ્સ સુરક્ષિત છે</string>
+  <string name="add_whitelist_remind_text">પસંદ કરેલ એપ્સ સુરક્ષિત છે</string>
+  <string name="oneclean_action">મેમરી</string>
+  <string name="oneclean_action_running">સાફ થઇ રહ્યું છે</string>
+  <string name="percent_symbol">%</string>
+  <string name="surplus_text">"વધારાનું "</string>
+  <string name="oneclean_process_running_txt"><xliff:g>%1$s</xliff:g>ચાલતી એપ્લિકેશનો સાફ થઇ ગઇ છે</string>
+  <string name="oneclean_no_process_running_txt">શ્રેષ્ઠ સ્થિતિ પર એક્સિલરેટ થઇ ગયો છે\n ફરીથી સાફ કરવાની કોઈ જરૂર નથી</string>
+  <!-- Gionee <jianghuan> <2014-05-06> add for CR01238335 end -->
+  <string name="auto_start_power">ઑટો</string>
+  <string name="auto_start_back">ઑટો</string>
+  <string name="auto_start_both">ઑટો</string>
+  <string name="auto_clean_result">બૅકગ્રાઉન્ડ પ્રક્રિયાઓ સમાપ્ત થઇ છે, <xliff:g>%1$s</xliff:g>M મેમરી છૂટી થઇ છે</string>
+  <string name="auto_clean_finish">ઑટો ક્લીન સમાપ્ત થઇ ગયું છે</string>
+  <string name="low_mem_clean_finish">ઓછી મેમરી ક્લીન સમાપ્ત</string>
+  <string name="clean_setings_summary">મેમરી સાફ કરવાની સેટિંગ્સ પર જાઓ</string>
+  <string name="caches_clean_result_text">ખાલી જગ્યા <xliff:g>%1$s</xliff:g></string>
+  <string name="caches_clean_complete">"નકામી વસ્તુ સાફ કરવામાં આવી"</string>
+  <string name="process_clean_result_note">શું કોઈ એવી એપ્લિકેશનો છે જેને સાફ નથી કરવાની? તરત જ તેને વ્હાઇટ લિસ્ટમાં ઉમેરો.</string>
+  <string name="process_clean_result"><xliff:g>%1$s</xliff:g> મેમરી રિલીઝ કરાઇ છે</string>
+  <string name="process_clean_complete">ઝડપી કરવું પૂર્ણ થઇ ગયું</string>
+  <string name="action_complete">પૂર્ણ થયું</string>
+  <string name="system_app_action">સાવધાની</string>
+  <string name="system_app_dialog_title"><xliff:g>%1$s</xliff:g> ને આપોઆપ શરૂ થવાની મનાઈ કરો</string>
+  <string name="system_app_dialog_message"><xliff:g>%1$s</xliff:g> સિસ્ટમ એપ્લિકેશન છે. જો તેને મનાઈ કરાશો તો સિસ્ટમ ક્રૅશ થઇ શકે છે, શું ચાલુ રાખવું છે?</string>
+  <!-- Gionee <yangxinruo> <2016-1-5> add for CR01618272 begin -->
+  <string name="clean_memory_title">ઑટો મેમરી ક્લીન</string>
+  <string name="screenoff_clean_setting_summary">એપ્સને ચતુરાઇથી બૅકગ્રાઉન્ડ માંથી સાફ કરો, અને પાવરનો વપરાશ ઘટાડો</string>
+  <string name="screenoff_clean_setting_title">ઑફ-સ્ક્રીન માં ઓટો-ક્લિન કરો</string>
+  <string name="screenoff_clean_toast_setting_summary">ફોન પછીનું પ્રોમ્પ્ટ અન્લૉક કરાયું છે</string>
+  <string name="screenoff_clean_toast_setting_title">પ્રોમ્પ્ટ ક્લીનનું પરિણામ</string>
+  <string name="screenoff_clean_toast_msg">નિષ્ક્રિયતા દરમ્યાન સિસ્ટમ મૅનેજરે <xliff:g id="ID_1">%s</xliff:g>M મેમરી રિલીઝ કરી છે.</string>
+  <!-- Gionee <yangxinruo> <2015-12-11> add for CR01608017 begin -->
+  <string name="cpu_monitor_setting_title">મેમરી / CPU રિમાઇન્ડર</string>
+  <string name="cpu_monitor_setting_summary">જ્યારે મેમરી અથવા CPU વપરાશ વધારે હોય ત્યારે મને સુચના આપવી</string>
+  <string name="cpu_monitor_headup_title">મેમરી / CPU નો વપરાશ ખૂબજ ઊંચો છે</string>
+  <string name="cpu_monitor_headup_summary">ફોનને ધીમો કરી શકે છે</string>
+  <string name="cpu_monitor_headup_to_clean">ઝડપ વધારો</string>
+  <string name="running_apps_title">ચાલતા પ્રોગ્રામો</string>
+  <string name="running_apps_header"><xliff:g id="ID_1">%s</xliff:g> ચાલતી એપ્સને સાફ કરી શકાય છે.</string>
+  <string name="running_apps_finish">ચાલતી એપ્સ દ્વારા <xliff:g id="ID_1">%s</xliff:g> મેમરી</string>
+  <string name="running_apps_result_title">એપ્સના પરિણામનું શીર્ષક ચાલે છે</string>
+  <string name="running_apps_result_tip">ચાલતી એપ્સના પરિણામની ટિપ</string>
+  <!-- Gionee <yangxinruo> <2015-12-11> add for CR01608017 end -->
+</resources>

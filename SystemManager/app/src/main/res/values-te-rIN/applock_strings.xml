@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="cancel">రద్దు చేయండి</string>
+  <string name="gn_securitypassword_forget">పాస్ వర్డ్ మర్చిపోయారా</string>
+  <string name="lockpassword_confirm_your_pattern_header">మీ ప్యాటర్న్ ను ధ్రువీకరించండి</string>
+  <string name="lockpassword_confirm_your_pattern_generic">కొనసాగించడానికి మీ డివైస్ ప్యాటర్న్ ను ఉపయోగించండి.</string>
+  <string name="lockpattern_need_to_unlock_wrong">తప్పు ప్యాటర్న్</string>
+  <string name="gn_securitypassword_retry_note">దయచేసి "%1$s" నిమిషాల(లు) తరువాత మళ్ళీ ప్రయత్నించండి</string>
+  <string name="gn_securitypassword_input_error_note">పాస్వర్డ్ తప్పు, "%1$s" సార్లు(లు) ఇన్పుట్ చేయవచ్చు</string>
+  <string name="gn_lockpattern_recording_intro_header">"ఒక అన్లాక్ ప్యాటర్ను డ్రా చేయండి"</string>
+  <string name="gn_fingerprint_confirm_your_password_header2">ఒక అన్లాక్ ప్యాటర్న్ లేదా ఫింగర్ ప్రింట్ గుర్తింపుని డ్రా చేయండి</string>
+  <string name="gn_fingerprint_confirm_your_password_header">దయచేసి పాస్వర్డ్ లేదా ఫింగర్ ప్రింట్ రికగ్నిషన్ ను ఎంటర్ చేయండి</string>
+  <string name="lockpassword_confirm_your_password_header">మీ పాస్వర్డ్నును నిర్ధారించండి</string>
+  <string name="gn_confirm_your_password_header">దయచేసి పాస్వర్డ్ ని ఎంటర్ చేయండి</string>
+  <string name="lockpattern_too_many_failed_confirmation_attempts">చాలా ఎక్కువ తప్పుడు ప్రయత్నాలు. <xliff:g id="number">%d</xliff:g> సెకన్లలో మళ్ళీ ప్రయత్నించండి.</string>
+  <string name="lockpattern_tutorial_cancel_label">రద్దు చేయండి</string>
+  <string name="lockpattern_tutorial_continue_label">తదుపరి</string>
+  <string name="lockpassword_confirm_your_pin_header">మీ పిన్ను ధ్రువీకరించండి</string>
+  <string name="lockpassword_confirm_your_password_generic">కొనసాగించడానికి మీ డివైస్ పాస్వర్డ్ను ఎంటర్ చేయండి.</string>
+  <string name="lockpassword_confirm_your_pin_generic">కొనసాగించడానికి మీ డివైజ్ పిన్ ఎంటర్ చేయండి.</string>
+  <string name="lockpassword_confirm_app_header">%s సంరక్షించబడింది</string>
+</resources>

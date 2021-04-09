@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+**
+** Copyright 2008, The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+-->
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="phone_accelerate">Mälu puhastamine</string>
+    <string name="text_one_accelerate">Ühe klahvivajutusega kiirendamine</string>
+    <string name="searching">Andmete otsimine…</string>
+    <string name="summary_process_clean">protsesse saab peatada</string>
+    <string name="summary_process_clean_no">Ühtegi protsessi ei saa peatada</string>
+    <string name="summary_cache_clean">puhverdamist saab peatada</string>
+    <string name="summary_cache_clean_no">Mäluruumi ei saa vabastada</string>
+    <string name="summary_boot_optimization">Automaatselt käivituvaid protsesse saab piirata</string>
+    <string name="summary_boot_optimization_no">Automaatselt käivituvaid protsesse ei saa piirata</string>
+    <string name="text_clean_result">Vabastatud on <xliff:g>%1$s</xliff:g> mälust</string>
+    <string name="text_clean_result_no">Telefoni jõudlus on piisav, kiirendamist pole vaja kasutada</string>
+    <string name="text_main_ui_notice">Raputage telefoni puhastamiseks ning jõudluse parandamiseks</string>
+    <string name="text_shake">Kiirendamiseks tuleb telefoni lihtsalt raputada!</string>
+    <string name="text_clean_load">protsesside ja puhvri puhastamine, käivitamisprotsessi optimeerimine</string>
+    <string name="notice_process_running">Töötavatest protsessidest on vaba <xliff:g>%1$s</xliff:g>,<xliff:g>%2$s</xliff:g></string>
+    <string name="notice_process_whitelist">Märgitud rakendusi ei saa ühe klahvivajutusega kiirendamisel peatada</string>
+    <string name="text_result_clean_process">Suletud on <xliff:g>%1$s</xliff:g> protsessidest</string>
+    <string name="title_activiy_process_clean">Puhastamisprotsess</string>
+    <string name="no_select">Ühtegi protsessi pole valitud. Palun valige.</string>
+    <string name="one_clean">Ühe klahvivajutusega puhastamine</string>
+    <string name="text_loader_process">puhastusprotsess…</string>
+    <string name="title_activity_process_protected">Kaitstud protsessid</string>
+    <string name="text_empty_process">Ühtegi töötavat protsessi ei tuvastatud</string>
+    <string name="summary_item_process">RAM?<xliff:g>%1$s</xliff:g></string>
+    <string name="title_activiy_cache_clean">Puhvri puhastaja</string>
+    <string name="text_no_select">Palun valige rakendus, mida soovite puhastada</string>
+    <string name="text_loader_cache">Puhvrit puhastatakse...</string>
+    <string name="text_header_cache_clean">Puhvrite <xliff:g>%1$s</xliff:g> arv, kasutusel on <xliff:g>%2$s</xliff:g> mäluruumist</string>
+    <string name="text1_cache_clean_no">Puudub puhver, mida puhastada</string>
+    <string name="text2_cache_clean_no">Regulaarne puhastamine rämpsfailidest hoiab telefoni puhtana</string>
+    <string name="title_activiy_boot_opt">Alglaadimise optimeerija</string>
+    <string name="text_loader_boot">Optimeerib seadme alglaadimisel protsesse</string>
+    <string name="text_result_bootopt">Alglaadimise protsessid on optimeeritud</string>
+    <string name="text_no_opt">Puuduvad protsessid, mida optimeerida</string>
+    <string name="one_key_opti">Optimeerimine ühe klahvivajutusega</string>
+    <string name="one_key_allow">Ühe klahvi lubamine</string>
+    <string name="title_activity_add_auto_start">Lisa automaatse käivitamise rakendus</string>
+    <string name="text_empty_auto_start">Ühelegi rakendusele pole automaatne käivitamine lubatud</string>
+    <string name="text_empty_auto_start_forbid">Ühelegi rakendusele pole automaatne käivitamine keelatud</string>
+    <string name="text_header_auto_start">Kokku on <xliff:g>%1$s</xliff:g> automaatselt käivituvat rakendust</string>
+    <string name="text_header_auto_start_forbid">Keelan automaatse käivituse?<xliff:g>%1$s</xliff:g>?</string>
+    <string name="one_key_opt">OneClean</string>
+    <string name="limited">Keela</string>
+    <string name="allow">Luba</string>
+    <string name="has_allow">Lubatud</string>
+    <string name="protected_process">Kaitstud protsess</string>
+    <string name="important_process">Oluline protsess</string>
+    <string name="title_memory_settings">Mälu puhastamise seaded</string>
+    <string name="title_activiy_green_bg">Roheline taust</string>
+    <string name="memory_settings_main_title">Puhastamisprotsess</string>
+    <string name="close_screen_clean_title">Puhastamine Ekraan väljas režiimis</string>
+    <string name="close_screen_clean_summary">Taustal töötav protsess puhastab mälu valget nimekirja automaatselt</string>
+    <string name="low_memory_clean_title">Mäluruumi puhastamine</string>
+    <string name="low_memory_clean_summary">Taustal töötav protsess puhastab mälu valget nimekirja automaatselt</string>
+    <string name="run_game_memory_clean_title">Käivita mängude mälu puhastamine</string>
+    <string name="run_game_memory_clean_summary">Puhastab mängu käivitamisel mälu</string>
+    <string name="result_display_title">Puhastamise tulemus</string>
+    <string name="result_display_summary">Taustal töötav protsess puhastab mälu automaatselt peale sulgemist ning kuvab tulemused</string>
+    <string name="white_list_main_title">Valge nimekiri</string>
+    <string name="process_white_list_title">Puhasta valge nimekiri</string>
+    <string name="process_white_list_summary">Valges nimekirjas asuvad rakendused on kaitstud ning neid ei saa puhastada.</string>
+    <string name="green_bg_summary">Energiakulu vähendamiseks on rakenduste taustal töötamine keelatud</string>
+    <string name="radiobutton_allow">Luba automaatne üleslaadimine</string>
+    <string name="radiobutton_prohibit">Keela üleslaadimine</string>
+    <string name="one_key_prohibit">Keelamine</string>
+    <string name="text_empty_allow_start">Ükski rakendus ei tohi automaatselt käivituda</string>
+    <string name="text_empty_prohibit_start">Kõik rakendused tohivad automaatselt käivituda</string>
+    <string name="text_empty_white_app">Rakendusi pole lisatud</string>
+    <string name="white_list_add">Lisa valgesse nimekirja</string>
+    <string name="white_list_cancel">Eemalda valgest nimekirjast</string>
+    <string name="text_empty_white_list">Kaitstud rakenduste loendisse pole lisatud ühtegi rakendust</string>
+    <string name="text_add_white_list">Lisa valgesse nimekirja</string>
+    <string name="remove">Eemalda</string>
+    <string name="ok_btn">OK</string>
+    <string name="cancel_btn">Tühista</string>
+    <string name="system_process">Süsteemi protsess</string>
+    <string name="user_process">Kasutaja protsess</string>
+    <string name="whitelist_remind_text">Alljärgnevad rakendused on kaitstud</string>
+    <string name="add_whitelist_remind_text">Valitud rakendused on kaitstud</string>
+    <string name="oneclean_action">Mälu</string>
+    <string name="oneclean_action_running">Puhastamine</string>
+    <string name="percent_symbol">%</string>
+    <string name="surplus_text">Surplus</string>
+    <string name="oneclean_process_running_txt">
+        <xliff:g>%1$s</xliff:g> töötavat rakendust on puhastatud</string>
+    <string name="oneclean_no_process_running_txt">Kiirendatud parima olekuni\n Rohkem pole vaja puhastada</string>
+    <string name="auto_start_power">Automaatne</string>
+    <string name="auto_start_back">Automaatne</string>
+    <string name="auto_start_both">Automaatne</string>
+    <string name="auto_clean_result">Taustaprotsessid on lõpetatud, <xliff:g>%1$s</xliff:g>M mälu on vabastatud</string>
+    <string name="auto_clean_finish">automaatne puhastamine on lõpetatud</string>
+    <string name="low_mem_clean_finish">mäluruumi puhastamine on lõpetatud</string>
+    <string name="clean_setings_summary">ava mälu puhastamise seaded</string>
+    <string name="caches_clean_result_text">Vaba mälu <xliff:g>%1$s</xliff:g></string>
+    <string name="caches_clean_complete">Prügikast on puhastatud</string>
+    <string name="process_clean_result_note">Kõik rakendused ei ole veel puhastatud? Lisage need koheselt valgesse nimekirja.</string>
+    <string name="process_clean_result">Vabastatud mälu <xliff:g>%1$s</xliff:g></string>
+    <string name="process_clean_complete">Kiirendamine lõpetatud</string>
+    <string name="action_complete">Valmis</string>
+    <string name="system_app_action">Hoiatus</string>
+    <string name="system_app_dialog_title">Keela rakendusel <xliff:g>%1$s</xliff:g> automaatselt käivituda</string>
+    <string name="system_app_dialog_message">
+        <xliff:g>%1$s</xliff:g> on süsteemi rakendus. Selle eemaldamine võib põhjustada süsteemi toimimise lõppemise, kas jätkan?</string>
+    <string name="clean_memory_title">Automaatne mälu puhastamine</string>
+    <string name="screenoff_clean_setting_summary">Intelligentne taustal töötavate rakenduste sulgemine, energiakulu vähendatakse</string>
+    <string name="screenoff_clean_setting_title">Automaatne puhastamine peale ekraani välja lülitamist</string>
+    <string name="screenoff_clean_toast_setting_summary">Näite peale lukustuse avamist</string>
+    <string name="screenoff_clean_toast_setting_title">Näita puhastamise tulemusi</string>
+    <string name="screenoff_clean_toast_msg">Süsteemihaldur vabastas ooterežiimis <xliff:g id="ID_1">%s</xliff:g>M mälu.</string>
+    <string name="cpu_monitor_setting_title">Mälu/CPU meeldetuletus</string>
+    <string name="cpu_monitor_setting_summary">Anna märku kui mälu/CPU kasutamine on kõrge</string>
+    <string name="cpu_monitor_headup_title">Mälu/CPU kasutamine on kõrge</string>
+    <string name="cpu_monitor_headup_summary">See võib telefoni töötamist aeglustada</string>
+    <string name="cpu_monitor_headup_to_clean">kiirenda</string>
+    <string name="running_apps_title">Töötavad programmid</string>
+    <string name="running_apps_header">
+        <xliff:g id="ID_1">%s</xliff:g> töötavat rakendust saab puhastada.</string>
+    <string name="running_apps_finish">Töötavad rakendused kasutavad <xliff:g id="ID_1">%s</xliff:g> mälu</string>
+    <string name="running_apps_result_title">töötavate rakenduste tulemuste nimetus</string>
+    <string name="running_apps_result_tip">töötavate rakenduste tulemused</string>
+    <string name="add">Lisamine</string>
+    <string name="encryptions_app_fake_name">Muu</string>
+</resources>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">  
+    <string name="app_name">Quản lý hệ thống</string>
+    <string name="cell_accelerator">Xóa bộ nhớ</string>
+    <string name="cell_accelerator_summary">Bộ nhớ sử dụng <![CDATA[<font color=#d23030>%1$s%%</font>]]></string>
+    <string name="rubbish_clean">Xóa cache</string>
+    <string name="rubblish">Cache<![CDATA[<font color=#d23030>%1$s</font>]]></string>
+    <string name="power_optimizer">Tối ưu hóa năng lượng</string>
+    <string name="can_use">Có thể sử dụng <![CDATA[<font color=#6eb330>%1$s</font>]]></string>
+    <string name="charge_time">Cần sạc <![CDATA[<font color=#6eb330>%1$s</font>]]></string>
+    <string name="traffic_monitor">Giám sát lưu lượng</string>
+    <string name="traffic_remained">Lưu lượng còn lại <![CDATA[<font color=#6eb330>%1$s</font>]]></string>
+    <string name="traffic_exceed">Lưu lượng vượt quá <![CDATA[<font color=#6eb330>%1$s</font>]]></string>
+    <string name="antivirus"><![CDATA[<font color=#d23030>%1$s</font>]]> chương trình không an toàn</string>
+    <string name="traffic_no_setting">Gói lưu lượng không được thiết lập</string>
+    <string name="traffic_no_simcard">Thẻ SIM không được lắp</string>
+    <string name="soft_manager">Quản lý ứng dụng</string>
+    <string name="app_installed">Tổng số các ứng dụng <![CDATA[<font color=#d23030>%1$s</font>]]></string>
+    <string name="perm_manager">Quyền truy cập của ứng dụng</string>
+    <string name="minutes">Phút</string>
+    <string name="hours">Giờ</string>
+    <string name="cannotget">Không nhận được</string>
+    <string name="quick_accelerate">Tăng tốc điện thoại</string>
+    <string name="toast_content">Đã tối ưu%1$sbộ nhớ</string>
+    <string name="menu_setting">Cài đặt</string>
+    <string name="items_switch">Giám sát nền</string>
+    <string name="net_monitor_title">Thông báo giám sát lưu lượng</string>
+    <string name="net_monitor_summary">Kiểm tra tình trạng sử dụng lưu lượng mỗi tuần</string>
+    <string name="energy_monitor_title">Thông báo giám sát điện năng</string>
+    <string name="energy_monitor_summary">Kiểm tra tình trạng sử dụng điên năng mỗi tuần</string>
+    <string name="apps_monitor_title">Thông báo giám sát ứng dụng không thường dùng</string>
+    <string name="apps_monitor_summary">Kiểm tra hiệu quả sử dụng ứng dụng mỗi tuần</string>
+    <string name="root_monitor_title">Đề xuất giám sát ROOT</string>
+    <string name="root_monitor_summary">Kiểm tra trạng thái ROOT của điện thoại</string>
+    <string name="desktop_monitor_title">Giám sát màn hình</string>
+    <string name="desktop_monitor_summary">Kiểm tra màn hình mỗi tuần có bị thay đổi bởi bên thứ ba hay không, nếu có thông báo trên thanh công cụ</string>
+    <string name="utilization_title">Hệ thống cảnh báo</string>
+    <string name="utilization_content">Chào mừng tới hệ thống quản lý. \nđang trong quá trình sử dụng có thể phát sinh thêm lưu lượng, phí cụ thể liên hệ nhà cung cấp mạng. Bạn có muốn tiếp tục sử dụng?</string>
+    <string name="dialog_checkbox_description">Không nhắc tôi lấn sau</string>
+    <string name="dialog_exit_btn">Thoát</string>
+    <string name="dialog_continue_btn">Tiếp tục</string>
+    <string name="text_antivirus">Tìm diệt virus</string>
+    <string name="text_start_scan">Bắt đầu quét</string>
+    <string name="text_cancel_scan">Hủy quét</string>
+    <string name="text_scaning">Đang quét</string>
+    <string name="text_scaning_result">Hoàn tất kiểm tra</string>
+    <string name="text_scaning_reminder">Kiến nghị kiểm tra ngay lập tức</string>
+    <string name="text_score_unit">%</string>
+    <string name="text_menu_savepower">Quản lí pin</string>
+    <string name="text_menu_traffic">Giám sát lưu lượng</string>
+    <string name="text_menu_pure">Chế độ tiết kiệm pin</string>
+    <string name="text_menu_ram">Bộ nhớ</string>
+    <string name="text_one_key_check">Chế độ ưu việt</string>
+    <string name="text_one_key_check_complete">Hoàn tất</string>
+    <string name="text_scan_daily_none">Chưa kiểm tra qua, kiến nghị kiểm tra ngay lập tức</string>
+    <string name="text_scan_daily_cancel">Đợt kiểm tra trước đã bị hủy, kiến nghị kiểm tra ngay lập tức</string>
+    <string name="text_scan_daily_last">Đợt kiểm tra trước: <xliff:g id="ID_1">%s</xliff:g></string>
+    <string name="text_scan_result_good">Trạng thái điện thoại tốt, có thể tiếp tục chế độ ưu việt</string>
+    <string name="text_scan_result_better">Trạng thái điện thoại tốt, vui lòng tiếp tục bảo trì</string>
+    <string name="text_scan_result_problem">Điện thoại có vấn đề, kiến nghị tiến hành chế độ ưu việt</string>
+    <string name="text_accelerating">Đang tăng tốc</string>
+    <string name="text_memory_release">Đã tối ưu bộ nhớ <xliff:g id="ID_1">%s</xliff:g></string>
+    <string name="text_memory_release_running">Đang phát hành bộ nhớ trong</string>
+    <string name="text_memory_release_display">Hoàn thành tăng tốc điện thoại, đã phát hành <xliff:g id="ID_1">%s</xliff:g> bộ nhớ trong</string>
+    <string name="text_memory_used">Đã sử dụng <xliff:g id="ID_1">%s</xliff:g></string>
+    <string name="text_phone_state_better">Điện thoại đang trong trạng thái tốt nhất</string>
+    <string name="text_phone_state_problem">Điện thoại đang trong tình trạng không tốt, lập tức tăng tốc</string>
+    <string name="text_root_remind">Điện thoại đã bị nhiễm ROOT</string>
+    <string name="text_root_remind_restore">Kiến nghị khắc phục</string>
+    <string name="msg_superpower_error">lần đổi chế độ tiết kiệm pin trước xuất hiện bất thường, vui lòng khởi động lại điện thoại để xử lí bất thường</string>
+    <string name="msg_error_title">Cảnh báo bất thường</string>
+    <string name="msg_reboot">Khởi động lại</string>
+    <string name="app_process_limit_title">Giới hạn quá trình nền</string>
+    <string name="app_process_limit_txt">Quá trình quy trình giới hạn%s</string>
+    <string name="msg_background_process">danh sách cho phép</string>
+    <string name="pressure_sensor_menu_first">Làm sạch</string>
+    <string name="pressure_sensor_menu_second">Chặn đứng ứng dụng</string>
+    <string name="pressure_sensor_menu_third">Ứng dụng mặc định</string>
+    <string name="pressure_sensor_menu_fourth">điều khiển ứng dụng mạng</string>
+    <string name="text_in_screenpin">Bây giờ nó ở chế độ màn hình, không thể mở chế độ siêu.</string>
+    <string name="required_permissions_promo">Quản lý hệ thôngcần quyền cho điện thoại và thẻ SD.</string>
+    <string name="enable_permission_procedure">Bạn có thể thay đổi quyền trong Cài đặt &amp; gt; Ứng dụng &amp; gt; Quản lý hệ thống &amp; gt; Quyền.</string>
+    <string name="enable_permission_procedure_description">Bạn có thể thay đổi quyền trong Cài đặt, Ứng dụng, Quản lý hệ thống, Quyền.</string>
+    <string name="next_with_arrow">Tiếp theo &gt;</string>
+    <string name="next">Kế tiếp</string>
+    <string name="settings_with_arrow">Cài đặt &gt;</string>
+    <string name="settings">Cài đặt</string>
+</resources>

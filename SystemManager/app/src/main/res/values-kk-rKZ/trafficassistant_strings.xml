@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">  
+    <string name="text">Мәтін</string>
+    <string name="trafficassistant_app_name">Трафикті бақылау</string>
+    <string name="tabbar_name1">Слот SIM 1</string>
+    <string name="tabbar_name2">Слот SIM 2</string>
+    <string name="remained_flow_string">Қалдық</string>
+    <string name="exceed_flow_string">Шектен шығу</string>
+    <string name="used">Бос емес</string>
+    <string name="used_flow_string"><xliff:g id="ID_1">%s</xliff:g>M шығысы</string>
+    <string name="total_flow_string"><xliff:g id="ID_1">%s</xliff:g>M барлығы</string>
+    <string name="prompt_no_settings_traffic">Берілген жоқ</string>
+    <string name="no_settings">Берілген жоқ</string>
+    <string name="prompt_used_traffic">\n <xliff:g id="ID_1">%s</xliff:g>M бос емес</string>
+    <string name="month">Ай</string>
+    <string name="day">Күн</string>
+    <string name="noti_today">Бүгінгі трафиктің шығыны</string>
+    <string name="noti_surplus">Бос</string>
+    <string name="noti_exceed">Шектен шығу</string>
+    <string name="noti_total">Барлығы</string>
+    <string name="noti_no_settings">Тариф жоспары белгіленбеген</string>
+    <string name="noti_no_card">SIM-карта қалпына келген жоқ</string>
+    <string name="start_date_string">Ай сайын</string>
+    <string name="limit_flow">Тариф жоспары белгіленді</string>
+    <string name="detail_flow">Трафик шығынының кестесі</string>
+    <string name="network_control">Интернентке қолжетімділік</string>
+    <string name="more_settings">Басқарудың қосымша күйге келтірулері</string>
+    <string name="traffic_save">Трафикті үнемдеу</string>
+    <string name="no_card_warning">SIM-караны қоюуыңызды сұраймыз</string>
+    <string name="action_known">Дайын</string>
+    <string name="action_settings">Орнату</string>
+    <string name="action_cancel">Болдырмау</string>
+    <string name="action_done">Дайын</string>
+    <string name="action_save">Сақтау</string>
+    <string name="action_sure">ОК</string>
+    <string name="action_allow">Рұқсат ету</string>
+    <string name="action_prohibit">Тыйым салу</string>
+    <string name="action_all_allow">Барлығына рұқсат ету</string>
+    <string name="action_all_prohibit">Барлығына тыйым салу</string>
+    <string name="application_info">Қосымша туралы</string>
+    <string name="data_connect_allow">Іске қосуларды басқару</string>
+    <string name="total_flow_settings">Трафикті ая сайынғы шектеу</string>
+    <string name="input_hint">Енгізіңіз , өтінеміз</string>
+    <!--Gionee <GN_Oversea_Req_BIP> <huanghaijian> <20170417> add for 110611 begin -->
+    <string name="warning_settings">кезінде хабарлау</string>
+    <!--Gionee <GN_Oversea_Req_BIP> <huanghaijian> <20170417> add for 110611 end -->
+    <string name="date_start_settings">Трафик шығының басталу күні</string>
+    <string name="used_flow_settings">Желіні пайдаланады</string>
+    <string name="flow_unit">М</string>
+    <string name="percent_unit">%</string>
+    <string name="mobile_data_stop_title">Трафик туралы хабарлау</string>
+    <string name="mobile_data_stop_contetn">Ай сайынғы трафик бітті, деректерді беруді пайдалану қосымша ақы төлеуді талап етеді, келісесіз бе?</string>
+    <string name="action_restart">Пайдалануды жалғастыру</string>
+    <string name="action_stop">Пайдаланып керегі жоқ</string>
+    <string name="info_save_error_no_flow_input">Айлы қтариф шектеуін енгізуіңізді өтінеміз</string>
+    <string name="info_prompt">Сіз трафик шығынын қолмен енгізе аласыз</string>
+    <string name="popup_notification_title">Тариф жоспары анықталмаған</string>
+    <string name="popup_notification_ticker_title">Трафиктің ағымдағы шығыны үшін пакеттік қорғаныс икемделмеген</string>
+    <string name="popup_notification_content">Нақты уақытта трафикті бақылау үшін басыңыз</string>
+    <string name="popup_setting_title_dialog">Тариф жоспарын орнатыңыз</string>
+    <string name="popup_setting_content_dialog">Тариф жоспарын орнатып, телефоннан қосымша ақыл алудан қорғанысты қамтамасыз етіңіз.</string>
+    <string name="notification_warn_exceed_warning_title">Тарифтік жоспар бойынша сыни ескерту</string>
+    <string name="notification_warn_exceed_warning_content">Трафиктің артық шығыны туралы ескерту, қарау үшін тигізіңіз</string>
+    <string name="percent_value">80</string>
+    <string name="warning_value">0.0</string>
+    <string name="zero_percent">80%</string>
+    <string name="total_percent">"100%"</string>
+    <string name="process_kernel_labels">ОС Андроид</string>
+    <string name="data_usage_uninstalled_apps_users">Алыс қосымшалар мен пайдаланушылар</string>
+    <string name="data_usage_uninstalled_apps">Алыс қосымшалар</string>
+    <string name="tether_settings_title_all">Ұтқыр модемді икемдеу</string>
+    <string name="tether_settings_title_wifi">Қолжетімдіктің ұтқыр нүктесі</string>
+    <string name="tether_settings_title_usb_bluetooth">Модем</string>
+    <string name="tether_settings_title_usb">USB-модем</string>
+    <string name="tether_settings_title_bluetooth">Bluetooth-модем</string>
+    <string name="running_process_item_user_label">Пайдаланушы：%1$s</string>
+    <string name="data_usage_app_restricted">Шектеулі</string>
+    <string name="usage_detail">Трафиктің егжей-тегжейі</string>
+    <string name="version_name">Нұсқа:</string>
+    <string name="traffic_time_week">Трафиктің апталық шығыны (<xliff:g id="ID_1">%s</xliff:g>)</string>
+    <string name="traffic_time_month">Тарифтің айлық шығыны(<xliff:g id="ID_2">%s</xliff:g>)</string>
+    <string name="traffic_day">"Бүгінгі"</string>
+    <string name="traffic_week">Аптадағы</string>
+    <string name="traffic_month">Айлық</string>
+    <string name="traffic_day_no">"Трафиктің бүгінгі пайдаланылмаған шығыны"</string>
+    <string name="traffic_week_no">"Осы аптада пайдаланылмаған трафик"</string>
+    <string name="traffic_month_no">Осы айда пайдаланылмаған трафик</string>
+    <string name="network_selection">Осы айда деректер трафигі пайдаланылды</string>
+    <string name="no_value">Біреуі де</string>
+    <string name="text_loading">Жүктеме...</string>
+    <string name="text_noti">Өңдеу</string>
+    <string name="traffic_monitor_display"><xliff:g id="ID_1">%s</xliff:g> пайдаланады 2G/3G/4G:</string>
+    <string name="traffic_monitor_title">Осы аптада трафик көп тұтінілды</string>
+    <string name="traffic_monitor_message"><xliff:g id="ID_1">%s</xliff:g></string>
+    <string name="traffic_settings_main_title">Мәлімдеу орталығын көрсету</string>
+    <string name="traffic_network_speed_title">Желінің көрсетілетін жылдамдығы</string>
+    <string name="traffic_network_speed_summary">Желі жылдамдығы, клавиш белсенді болған кезде, баре статусында көрсетіледі</string>
+    <string name="traffic_notification_title">Осы ай трафигін көрсету</string>
+    <string name="traffic_notification_summary">Трафик туралы ақпаратты көрсету бурасында мәлімдемелер панелін ашу</string>
+    <string name="traffic_netcontrol_bar_allow_text">Желіге рұқсат беру (<xliff:g id="ID_1">%1$s</xliff:g>)</string>
+    <string name="traffic_netcontrol_bar_prohibit_text">Интернетке тыйым салынған (<xliff:g id="ID_1">%1$s</xliff:g>)</string>
+    <string name="net_link_allowed_txt">Қосымшалардың Интернетке қолжетімдігіне тыйым салынған</string>
+    <string name="net_link_prohibited_txt">Қосымшалардың Интернетке қолжетімдігіне рұқсат етілген</string>
+    <string name="traffic_save_setting">Трафик үнемділігін икемдеу</string>
+    <string name="switch_off">Өшіру</string>
+    <string name="switch_on">Қосу</string>
+    <string name="traffic_save_off">Жабы барысында трафикті үнемдеу</string>
+    <string name="traffic_save_off_summary">Бұл функция тек деретерді беру барысында ғана әрекет етеді</string>
+    <string name="traffic_save_total_title">Сіздің жинақталған трафигіңіз бар</string>
+    <string name="traffic_save_total_num_string">328</string>
+    <string name="total_volume_string">"МБ"</string>
+    <string name="money_save_total_title">Юаньмен</string>
+    <string name="money_save_total_num_string">32.8</string>
+    <string name="total_money">Юань</string>
+    <string name="traffic_save_support_txt">OPERA технологиялары</string>
+    <string name="traffic_save_history">Тарифті үнемдеу тарихын қарау</string>
+    <string name="traffic_save_history_total">Трафик шығынының жинақталған үнемі</string>
+    <string name="traffic_question1">1. Трафик шығынын үнемдеуге қалай қол жеткізуге болады?</string>
+    <string name="traffic_question2">2. Үнемнен кейін трафикті қалай пайдалануға болады, Сіз үнемді көріп тұрған жоқсыз ба?</string>
+    <string name="traffic_question3">3. Шығын функциясы трафик шығынының меншікті үнемдемесін пайдалана ма?</string>
+    <string name="traffic_question4">4. Трафикті интерне-қауіпсіздік құпиялылығын сақтағаннан кейін пайдалану керек пе?</string>
+    <string name="traffican_answer1">Үнемді режим қосылған, мәтіндер, бейнелер мен басқа трафикті өзгерту үшін пайдаланылады.</string>
+    <string name="traffican_answer2">Шығынды үнемдеу тек деректерді беруге ғана қатысты, WLAN қосылмаған. Трафик шығыны тек мәтіндер мен бейнелер есебінен ғана үнемделеді. Айдио, бейне және файлдарды жүктеу трафикті үнемдемейді.</string>
+    <string name="traffican_answer3">Үнемді режимді 2G/3G/4G үшін қосқан кезде, Интернет-трафик Жинау жүйесінің диспетчерін, деректерді сығу және шифрлеуді пайдаланады. Біз Сіздің трафигіңізді сақтаймыз. Еркін пайдалана беруіңізге болады.</string>
+    <string name="traffican_answer4">Бұл функция сіздің жеке ақпаратыңызды өңдемейді. Еркін пайдалана беруіңізге болады.</string>
+    <string name="traffican_question_answer">Анықтама</string>
+    <string name="traffican_whitelist_title">Трафикті үнемдеуді қажет етпейтін қосымшалар тізбесі</string>
+    <string name="text_no_traffic_whitelist">Трафикті үнемдеу керек емес</string>
+    <string name="traffic_simcard_focus1">SIM1</string>
+    <string name="traffic_simcard_focus2">SIM2</string>
+    <string name="traffic_netcontrol_tab_bar_allow_text">Рұқсат етілді</string>
+    <string name="traffic_netcontrol_tab_bar_prohibit_text">Тыйым салынды</string>
+    <string name="time_format">жжжж-АА</string>
+    <string name="traffic_back_toast_text">Желіні басқару қосымшасының жұмысы жалғасуда, күтіңіз</string>
+</resources>

@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">  
+    <string name="text">लेख</string>
+    <string name="trafficassistant_app_name">ट्रैफिक मॉनिटर</string>
+    <string name="tabbar_name1">SIM स्लॉट 1</string>
+    <string name="tabbar_name2">SIM स्लॉट 2</string>
+    <string name="remained_flow_string">अतिरिक्त</string>
+    <string name="exceed_flow_string">अतिक्रमण</string>
+    <string name="used">उपयोग हो गया है</string>
+    <string name="used_flow_string">प्रयुक्त <xliff:g id="ID_1">%s</xliff:g>M</string>
+    <string name="total_flow_string">कुल <xliff:g id="ID_1">%s</xliff:g>एम</string>
+    <string name="prompt_no_settings_traffic">सेट नहीं</string>
+    <string name="no_settings">सेट नहीं</string>
+    <string name="prompt_used_traffic">प्रयुक्त\n <xliff:g id="ID_1">%s</xliff:g>एम</string>
+    <string name="month">माह</string>
+    <string name="day">दिन</string>
+    <string name="noti_today">आज का डेटा उपयोग</string>
+    <string name="noti_surplus">उपलब्ध</string>
+    <string name="noti_exceed">अतिक्रमण</string>
+    <string name="noti_total">कुल</string>
+    <string name="noti_no_settings">डेटा प्लान सेट नहीं है</string>
+    <string name="noti_no_card">SIM नहीं डला हुई है.</string>
+    <string name="start_date_string">मासिक</string>
+    <string name="limit_flow">डेटा प्लान सेट करें</string>
+    <string name="detail_flow">फ्लो चार्ट</string>
+    <string name="network_control">नेटवर्किंग का कंट्रोल</string>
+    <string name="more_settings">अधिक सेटिंग कंट्रोल</string>
+    <string name="traffic_save">ट्रैफिक बचत</string>
+    <string name="no_card_warning">कृपया SIM डालें</string>
+    <string name="action_known">संपन्न</string>
+    <string name="action_settings">सेट करने के लिए</string>
+    <string name="action_cancel">रद्द करें</string>
+    <string name="action_done">संपन्न</string>
+    <string name="action_save">सेव करें</string>
+    <string name="action_sure">ओके</string>
+    <string name="action_allow">अनुमति दें</string>
+    <string name="action_prohibit">निषेध करें </string>
+    <string name="action_all_allow">सभी को अनुमति दें</string>
+    <string name="action_all_prohibit">सब निष्क्रिय करें</string>
+    <string name="application_info">ऐप की जानकारी</string>
+    <string name="data_connect_allow">कनेक्शनों का कंट्रोल</string>
+    <string name="total_flow_settings">मासिक ट्रैफिक सीमा</string>
+    <string name="input_hint">कृपया इनपुट करें</string>
+    <string name="warning_settings">चेतावनी मूल्य</string>
+    <string name="date_start_settings">फ्लो शुरू होने की तिथि</string>
+    <string name="used_flow_settings">फ्लो के उपयोग से</string>
+    <string name="flow_unit">M</string>
+    <string name="percent_unit">%</string>
+    <string name="mobile_data_stop_title">ट्रैफिक अलर्ट</string>
+    <string name="mobile_data_stop_contetn">आप अपने मोबाइल डेटा का मासिक कोटा इस्तेमाल कर चुके है. मोबाइल डेटा का उपयोग जारी रखने पर अतिरिक्त शुल्क लगेगा. क्या आप जारी रखना चाहते हैं?</string>
+    <string name="action_restart">प्रयोग जारी रखें</string>
+    <string name="action_stop">प्रयोग न करें</string>
+    <string name="info_save_error_no_flow_input">कृपया मासिक ट्रैफिक सीमा दर्ज करें</string>
+    <string name="info_prompt">आप मैनुअल फ्लो वैल्यू समायोजित कर सकते हैं.</string>
+    <string name="popup_notification_title">डेटा प्लान सेट नहीं है</string>
+    <string name="popup_notification_ticker_title">वर्तमान प्रवाह पैकेज संरक्षण की सेटिंग नहीं है</string>
+    <string name="popup_notification_content">रियल-टाइम मॉनिटर ट्रैफिक उपयोग को सेट करने के लिए क्लिक करें</string>
+    <string name="popup_setting_title_dialog">डेटा प्लान सेट करें</string>
+    <string name="popup_setting_content_dialog">डेटा प्लान सेट करें, और फोन लॉक को सुरक्षा प्रदान करें.</string>
+    <string name="notification_warn_exceed_warning_title">डेटा प्लान की खतरे की चेतावनी</string>
+    <string name="notification_warn_exceed_warning_content">फ्लो चेतावनी मूल्य तक पहुंच गया है, उपयोग देखें को स्पर्श करें</string>
+    <string name="percent_value">80</string>
+    <string name="warning_value">0.0</string>
+    <string name="zero_percent">80%</string>
+    <string name="total_percent">100%</string>
+    <string name="process_kernel_labels">एंड्राइड OS</string>
+    <string name="data_usage_uninstalled_apps_users">ऐप और यूजर हटाएं</string>
+    <string name="data_usage_uninstalled_apps">ऐप हटाए गए</string>
+    <string name="tether_settings_title_all">टेथ्रिंग की सेटिंग</string>
+    <string name="tether_settings_title_wifi">पोर्टेबल हॉटस्पॉट</string>
+    <string name="tether_settings_title_usb_bluetooth">टेथरिंग</string>
+    <string name="tether_settings_title_usb">USB टेथरिंग</string>
+    <string name="tether_settings_title_bluetooth">ब्लूटुथ टेथरिंग</string>
+    <string name="running_process_item_user_label">उपयोगकर्ता:%1$s</string>
+    <string name="data_usage_app_restricted">प्रतिबंधित</string>
+    <string name="usage_detail">ट्रैफिक विवरण</string>
+    <string name="version_name">वर्जन:</string>
+    <string name="traffic_time_day">आज का ट्रैफिक(<xliff:g id="ID_1">%s</xliff:g>)</string>
+    <string name="traffic_time_week"><xliff:g id="ID_1">%s</xliff:g>) इस सप्ताह का फ्लो</string>
+    <string name="traffic_time_month">मासिक प्रवाह(<xliff:g id="ID_2">%s</xliff:g>)</string>
+    <string name="traffic_day">"आज का ट्रैफिक"</string>
+    <string name="traffic_week">साप्ताहिक प्रवाह</string>
+    <string name="traffic_month">मासिक फ्लो</string>
+    <string name="traffic_day_no">आज की अप्रयुक्त फ्लो रेट</string>
+    <string name="traffic_week_no">इस सप्ताह का अप्रयुक्त ट्रैफिक</string>
+    <string name="traffic_month_no">वर्तमान महीने का अप्रयुक्त ट्रैफिक</string>
+    <string name="network_selection">वर्त्तमान महीने का डेटा फ्लो</string>
+    <string name="no_value">कोई नहीं</string>
+    <string name="text_loading">लोड हो रहा है</string>
+    <string name="text_noti">प्रोसेस हो रहा है</string>
+    <string name="traffic_monitor_display"><xliff:g id="ID_1">%s</xliff:g> 2G/3G/4G फ्लो का उपयोग इस प्रकार है：:</string>
+    <string name="traffic_monitor_title">इस सप्ताह सबसे अधिक ट्रैफिक की खपत</string>
+    <string name="traffic_monitor_message"><xliff:g id="ID_1">%s</xliff:g></string>
+    <string name="traffic_settings_main_title">नोटिफिकेशन केंद्र डिस्‍प्ले करें</string>
+    <string name="traffic_network_speed_title">नेटवर्क की स्पीड डिस्‍प्ले करें</string>
+    <string name="traffic_network_speed_summary">बटन ऑन होने पर नेटवर्क की स्पीड स्टेटस बार पर दिखाई देगी</string>
+    <string name="traffic_notification_title">वर्तमान माह के लिए मोबाइल डेटा के उपयोग के बारे में जानकारी दिखाएं</string>
+    <string name="traffic_notification_summary">डिस्‍प्ले हो रहे ट्रैफिक नोटिफिकेशन के दौरान नोटिफिकेशन बार को ड्रॉप डाउन करके खोलें</string>
+    <string name="traffic_netcontrol_bar_allow_text">नेटवर्किंग की अनुमति दें(<xliff:g id="ID_1">%1$s</xliff:g>)</string>
+    <string name="traffic_netcontrol_bar_prohibit_text"><xliff:g id="ID_1">%1$s</xliff:g>) इंटरनेट पर प्रतिबंध लगा दिया गया है</string>
+    <string name="net_link_allowed_txt">किसी भी एप्लीकेशन को इंटरनेट की अनुमति नहीं है</string>
+    <string name="net_link_prohibited_txt">प्रतिबंधित इंटरनेट वाला कोई एप्लीकेशन नहीं है</string>
+    <string name="traffic_save_setting">ट्रैफिक बचत की सेटिंग</string>
+    <string name="switch_off">ऑफ करें</string>
+    <string name="switch_on">ऑन करें</string>
+    <string name="traffic_save_off">ट्रैफिक खोले गए को बचाता है</string>
+    <string name="traffic_save_off_summary">यह फंक्शन केवल डेटा नेटवर्क के तहत ही मान्य है</string>
+    <string name="traffic_save_total_title">आपकी बचत जमा है</string>
+    <string name="traffic_save_total_num_string">328</string>
+    <string name="total_volume_string">एमबी</string>
+    <string name="money_save_total_title">रॅन्मिन्बी के बारे में</string>
+    <string name="money_save_total_num_string">32.8</string>
+    <string name="total_money">युआन</string>
+    <string name="traffic_save_support_txt">ओपेरा द्वारा संचालित</string>
+    <string name="traffic_save_history">सेव ट्रैफिक इतिहास देखें</string>
+    <string name="traffic_save_history_total">संचयी बचत प्रवाह</string>
+    <string name="traffic_question1">1、कैसे फ्लो सेव प्राप्त करें ?</string>
+    <string name="traffic_question2">2、सेव करने के बाद ट्रैफिक का उपयोग क्यों, क्या आपको सेव बटन दिखाई नहीं दे रहा है?</string>
+    <string name="traffic_question3">3、फ्लो फंक्शन खुदसे सेविंग्स फ्लो का उपयोग करता है ?</string>
+    <string name="traffic_question4">4、आप अपनी इंटरनेट प्राइवेसी सिक्योरिटी को सेव कर लें उस के बाद ट्रैफिक इस्तेमाल करें?</string>
+    <string name="traffican_answer1">चालू फ्लो सेव फीचर, का उपयोग टेक्‍स्ट, फोटो और अन्य ट्रैफिक, इस प्रकार ट्रैफिक का उपभोग करने वाली एप्लीकेशनों के लिए घटते QQ, वीक्सिन, ताओबाओ को रिसाइज करने में होगा. निरंतर बेहतर परिणाम देता है.</string>
+    <string name="traffican_answer2">फ्लो रेट सेविंग केवल डेटा नेटवर्किंग के लिए प्रभावित होता है, WLAN सक्रिय नहीं है. फ्लो केवल टेक्‍स्ट और फोटो प्रभाव को सेव करता है, ऑडियो और वीडियो तथा फाइल डाउनलोड ट्रैफिक को सेव नहीं करते हैं.</string>
+    <string name="traffican_answer3">इस फीचर को चालू करने के बाद फ्लो स्वयं सेव करता है, किसी भी ट्रैफिक का उपभोग नहीं करता है, 2/3/4 जी इंटरनेट के सभी ट्रैफिक जोड़ने और दबाने के लिए सिस्टम प्रबंधक का प्रयोग करेंगे, और व्यक्तिगत सुरक्षा सॉफ्टवेयर सिस्टम के फ्लो का उपयोग करते हुए बटलर को देखेगा. हम आपके बहुमूल्य ट्रैफिक का उपभोग नहीं करेंगे, कृपया निश्चिंत होकर इस्तेमाल करें.</string>
+    <string name="traffican_answer4">यह सुविधा आपकी किसी भी निजी जानकारी को हैंडल नहीं करती, कृपया निश्चिन्त होकर इसका उपयोग करें</string>
+    <string name="traffican_question_answer">आम समस्याएं</string>
+    <string name="traffican_whitelist_title">एप्लीकेशन की लिस्ट को ट्रैफिक को सेव करने की जरूरत नहीं है</string>
+    <string name="text_no_traffic_whitelist">यातायात को सेव करने की कोई जरूरत नहीं है</string>
+    <string name="traffic_simcard_focus1">SIM 1</string>
+    <string name="traffic_simcard_focus2">SIM 2</string>
+    <string name="traffic_netcontrol_tab_bar_allow_text">अनुमति दिए हुए नेटवर्क</string>
+    <string name="traffic_netcontrol_tab_bar_prohibit_text">वर्जित नेटवर्क</string>
+    <string name="traffic_title_allow_text"><xliff:g id="ID_1">%1$s</xliff:g> ऐप को नेटवर्क की अनुमति है</string>
+    <string name="traffic_title_prohibit_text"><xliff:g id="ID_1">%1$s</xliff:g> ऐप के लिए नेटवर्क निषिद्ध है</string>
+    <string name="time_format">yyyy-MM</string>
+    <string name="traffic_back_toast_text">नेटवर्क कंट्रोल आपरेशन की एप्लीकेशन का कार्य प्रगति पर है, कृपया प्रतीक्षा करें</string>
+    <string name="btn_try_again_txt">दोबारा कोशिश करें</string>
+    <string name="data_load_txt">लोड हो रहा है...</string>
+</resources>

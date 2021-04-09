@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="minutes">min</string>
+    <string name="hours">horas</string>
+    <string name="menu_setting">Definições</string>
+    <!--Gionee luoguangming 2015.12.18 modify CR01597701 begin-->
+    <string name="dialog_exit_btn">Sair</string>
+    <!--Gionee luoguangming 2015.12.18 modify CR01597701  end -->
+    <string name="dialog_continue_btn">Continuar</string>
+    <string name="text_start_scan">Inicar procura</string>
+    <string name="text_score_unit">%</string>
+    <string name="text_menu_savepower">Nível</string>
+    <string name="text_one_key_check_complete">Concluído</string>
+    <string name="msg_reboot">Reiniciar</string>
+    <string name="app_process_limit_title">Limite proc. em 2º plano</string>
+    <string name="app_name">Gestor de sistema</string>
+    <string name="cell_accelerator">Limpeza de memória</string>
+    <string name="power_optimizer">Otimizador de consumo</string>
+    <string name="traffic_monitor">Monitor de tráfego</string>
+    <string name="traffic_no_setting">Pacotes de tráfego não definidos</string>
+    <string name="traffic_no_simcard">Cartão SIM não inserido</string>
+    <!--Gionee luoguangming 2015.12.09 modify CR01597701 begin-->
+    <string name="soft_manager">Gerir aplic.</string>
+    <!--Gionee luoguangming 2015.12.09 modify CR01597701  end -->
+    <string name="cannotget">não pode obter</string>
+    <string name="quick_accelerate">Acelerador</string>
+    <string name="toast_content">liberta%1$smemória</string>
+    <string name="utilization_content">Bem vindo ao gestor de sistema. Esta aplicação pode usar dados e dessa forma ter custos adicionais. Contacte o seu operador de rede móvel para saber mais informação.</string>
+    <string name="text_antivirus">Antivirus</string>
+    <string name="text_cancel_scan">Cancelar procura</string>
+    <string name="text_scaning">A procurar…</string>
+    <string name="text_scaning_reminder">Recomenda-se verificação imediata</string>
+    <!--Gionee huagd 2015-11-23 modify for CR01596959 begin-->
+    <string name="text_menu_traffic">Consumido</string>
+    <!--Gionee huagd 2015-11-23 modify for CR01596959 end-->
+    <string name="text_menu_pure">Modo Eco</string>
+    <string name="text_menu_ram">Memória</string>
+    <string name="text_one_key_check">Inspecionar</string>
+    <string name="text_scan_daily_none">Tocar para limpar memória</string>
+    <string name="text_accelerating">A acelerar</string>
+    <string name="text_memory_release_running">A libertar memória</string>
+    <string name="text_phone_state_better">Memória limpa</string>
+    <!--Gionee luoguangming 2015.12.09 modify CR01597701 begin-->
+    <string name="rubbish_clean">Limpar cache</string>
+    <!--Gionee luoguangming 2015.12.09 modify CR01597701  end -->
+    <string name="perm_manager">Permissões de aplicações</string>
+    <string name="items_switch">Monitor de fundo</string>
+    <string name="net_monitor_title">Lembrete de uso de tráfego</string>
+    <string name="net_monitor_summary">Verifique o uso de tráfego das aplicações uma vez por semana</string>
+    <string name="energy_monitor_title">Lembrete consumo de energia</string>
+    <string name="energy_monitor_summary">Verifique o consumo de energia das aplicações uma vez por semana</string>
+    <string name="apps_monitor_title">Lembrete de aplicações raramente utilizadas</string>
+    <string name="apps_monitor_summary">Verificar a frequência de uso das aplicações uma vez por semana</string>
+    <string name="root_monitor_title">Lembrete de root</string>
+    <string name="root_monitor_summary">Verifique se o telefone está rooteado</string>
+    <string name="desktop_monitor_title">Monitor de ambiente de trabalho</string>
+    <string name="desktop_monitor_summary">Monitorar se o ambiente de trabalho é padrão e mostrá-lo na barra de estado</string>
+    <string name="utilization_title">Alerta de sistema</string>
+    <string name="dialog_checkbox_description">Não lembrar novamente</string>
+    <string name="text_scaning_result">Verificação concluída</string>
+    <string name="text_scan_daily_cancel">A verificação foi cancelada, recomenda-se que verifique imediatamente</string>
+    <string name="text_scan_result_good">O seu telefone está bom, continue a otimizar</string>
+    <string name="text_scan_result_better">O seu telefone está bom, por favor, mantenha-o</string>
+    <string name="text_scan_result_problem">O seu telefone tem problemas, sugere-se que corra a otimização</string>
+    <string name="text_phone_state_problem">O telefone está lento, acelerar imediatamente</string>
+    <string name="text_root_remind">Telefone com Root</string>
+    <string name="text_root_remind_restore">restaurar</string>
+    <string name="msg_superpower_error">A última opção é anormal, por favor reinicie novamente para reparar</string>
+    <string name="msg_error_title">Lembrete de anormalidades</string>
+    <string name="app_process_limit_txt">Limite processos em segundo plano %s</string>
+    <string name="msg_background_process">Processos em segundo plano</string>
+    <!--Gionee huagd 2015-11-23 modify for CR01596959 begin-->
+    <string name="text_memory_used">Usado <xliff:g id="ID_1">%s</xliff:g></string>
+    <string name="text_memory_release_display">Memória libertada com sucesso  <xliff:g id="ID_1">%s</xliff:g></string>
+    <string name="text_memory_release">Libertar memória <xliff:g id="ID_1">%s</xliff:g></string>
+    <string name="text_scan_daily_last">Última verificação: <xliff:g id="ID_1">%s</xliff:g></string>
+    <!--Gionee huagd 2015-11-23 modify for CR01596959 end-->
+</resources>

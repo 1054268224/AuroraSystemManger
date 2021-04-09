@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Admin.del sist.</string>
+    <string name="cell_accelerator">Limpieza de memoria</string>
+    <string name="rubbish_clean">Limpiador</string>
+    <string name="power_optimizer">Optimizador de energia</string>
+    <string name="traffic_monitor">Monitor de tráfico</string>
+    <string name="traffic_no_setting">No se encuentran paquetes de tráfico</string>
+    <string name="traffic_no_simcard">Tarjeta SIM no insertada</string>
+    <string name="soft_manager">Gestor apps</string>
+    <string name="perm_manager">Permiso de la app</string>
+    <string name="danger_apps"></string>
+    <string name="minutes">minutos</string>
+    <string name="hours">horas</string>
+    <string name="cannotget">No puede conseguir</string>
+    <string name="quick_accelerate">Acelerador de teléfono</string>
+    <string name="toast_content">Memoria de %1$s liberación</string>
+    <string name="menu_setting">Configuración</string>
+    <string name="items_switch">Monitor de fondo</string>
+    <string name="net_monitor_title">Recordatorio del uso de tráfico</string>
+    <string name="net_monitor_summary">Comprueba el uso de tráfico de apps una vez a la semana</string>
+    <string name="energy_monitor_title">Recordatorio de energía</string>
+    <string name="energy_monitor_summary">Comprueba la energía consumida de las apps una vez a la semana</string>
+    <string name="apps_monitor_title">Recordatorio apps poco usadas</string>
+    <string name="apps_monitor_summary">Comprueba la frecuencia de uso de apps una vez a la semana</string>
+    <string name="root_monitor_title">Recordatorio de root</string>
+    <string name="root_monitor_summary">Comprueba el root del teléfono</string>
+    <string name="desktop_monitor_title">Monitor de escritorio</string>
+    <string name="desktop_monitor_summary">Controlar si el escritorio es por defecto y mostrar en la barra de estado</string>
+    <string name="utilization_title">Aviso</string>
+    <string name="utilization_content">Bienvenido al Administrador de Sistema. Esta aplicación puede usar datos. Por favor, contacte con su operador para más información sobre su consumo.</string>
+    <string name="dialog_checkbox_description">No volver a preguntar</string>
+    <string name="dialog_exit_btn">Salir</string>
+    <string name="dialog_continue_btn">Continuar</string>
+    <string name="text_antivirus">Antivirus</string>
+    <string name="text_start_scan">Iniciar búsqueda</string>
+    <string name="text_cancel_scan">Cancelar escaner</string>
+    <string name="text_scaning">Escaneando…</string>
+    <string name="text_scaning_result">Escaneado completado</string>
+    <string name="text_scaning_reminder">Examinación inmediata recomendada</string>
+    <string name="text_score_unit">%</string>
+    <string name="text_menu_savepower">Batería</string>
+    <string name="text_menu_traffic">Tráfico</string>
+    <string name="text_menu_pure">Modo Eco</string>
+    <string name="text_menu_ram">Memoria</string>
+    <string name="text_one_key_check">Revisar</string>
+    <string name="text_one_key_check_complete">Listo</string>
+    <string name="text_scan_daily_none">Tocar para limpiar memoria</string>
+    <string name="text_scan_daily_cancel">La revisión ha sido cancelada, se recomienda revisar inmediatamente</string>
+    <string name="text_scan_result_good">El teléfono está bien, continue para optimizarlo</string>
+    <string name="text_scan_result_better">El teléfono está bien, por favor mantengalo</string>
+    <string name="text_scan_result_problem">El teléfono ha tenido problemas, se sugiere optimización</string>
+    <string name="text_accelerating">Acelerando</string>
+    <string name="text_memory_release">Memoria liberada <xliff:g id="ID_1">%s</xliff:g></string>
+    <string name="text_memory_release_running">Liberando memoria</string>
+    <string name="text_memory_release_display">Éxito de aceleración, memoria liberada <xliff:g id="ID_1">%s</xliff:g></string>
+    <string name="text_phone_state_better">Memoria vacía</string>
+    <string name="text_phone_state_problem">El móvil está mal, aumente la velocidad inmediatamente</string>
+    <string name="text_root_remind">Rooted del telefono</string>
+    <string name="text_root_remind_restore">Activar</string>
+    <string name="msg_superpower_error">El último interuptor está anormal, por favor reinicia de nuevo para reparar</string>
+    <string name="msg_error_title">Recuerdo anormal</string>
+    <string name="msg_reboot">Reiniciar</string>
+    <string name="app_process_limit_title">Límitar procesos en 2.º plano</string>
+    <string name="app_process_limit_txt">"Proceso de fondo limitado %s"</string>
+    <string name="msg_background_process">Proceso de fondo</string>
+    <string name="text_in_screenpin">"Ahora está en el modo de pantalla, no puede abrir super modo"</string>
+    <string name="text_memory_used">Usado <xliff:g id="ID_1">%s</xliff:g></string>
+    <string name="text_scan_daily_last">Última revisión : <xliff:g id="ID_1">%s</xliff:g></string>
+    <!-- Gionee huanggeng 2016-05-03 add for CR01690190 begin -->
+    <string name="next_with_arrow">"Siguiente &gt;"</string>
+    <!-- Gionee huanggeng 2016-05-03 add for CR01690190 end -->
+    <!-- Gionee huanggeng 2016-05-04 add for CR01690616 begin -->
+    <string name="next">Siguiente</string>
+    <!-- Gionee huanggeng 2016-05-04 add for CR01690616 end -->
+    <string name="pressure_sensor_menu_third">Configuración de la aplicación por defecto</string>
+    <string name="pressure_sensor_menu_fourth">Control de red</string>
+    <string name="settings_with_arrow">Ajustes</string>
+    <string name="settings">Ajustes</string>
+    <string name="cell_accelerator_summary">Uso de memoria <![CDATA[<font color="#d23030">%1$s%%</font>]]></string>
+    <string name="rubblish">caches <![CDATA[<font color="#d23030">%1$s</font>]]></string>
+    <string name="can_use"><![CDATA[<font color="#6eb330">%1$s</font>]]> puede usarse</string>
+    <string name="charge_time"><![CDATA[<font color="#6eb330">%1$s</font>]]> es necesario</string>
+    <string name="traffic_remained">Datos restantes <![CDATA[<font color="#6eb330">%1$s</font>]]></string>
+    <string name="traffic_exceed">Uso de datos excedido <![CDATA[<font color="#6eb330">%1$s</font>]]></string>
+    <string name="app_installed">Total apps <![CDATA[<font color="#d23030">%1$s</font>]]></string>
+    <string name="pressure_sensor_menu_first">Limpiar archivos temporales</string>
+    <string name="pressure_sensor_menu_second">Bloqueo de aplicaciones</string>
+    <string name="required_permissions_promo">El Administrador del sistema necesita permisos para teléfono y tarjeta SD</string>
+    <string name="enable_permission_procedure">Puedes cambiar el permiso en Ajustes, Apps, Administradro, Permisos</string>
+    <string name="enable_permission_procedure_description">Puedes cambiar el permiso en Ajustes, Apps, Administrador, Permisos</string>
+</resources>

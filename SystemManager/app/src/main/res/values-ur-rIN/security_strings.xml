@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="security_wallet_title">ادائیگی کی حفاظت</string>
+  <string name="security_wallet_empty">ادائیگی کے لئے کوئی حقیقی اپلی کیشن نہیں پائی جاتی ہے</string>
+  <string name="security_wallet_header">ایپس کی حفاظت</string>
+  <string name="security_wallet_header_on">کھولیں</string>
+  <string name="security_wallet_header_off">بند ہے</string>
+  <string name="security_wallet_mini_bar_tip">مندرجہ ذیل ایپ حقیقی ہونے کی تصدیق کی گئی ہے</string>
+  <string name="security_wallet_support">بتعارن: AVL</string>
+  <string name="security_wallet_mini_bar_tip_off">ادائیگی کی حفاظت بند ہے</string>
+  <string name="security_wallet_mini_bar_tip_root">جڑ والا سسٹم ادائیگی کے خطرہ کو ختم کر دیتا ہے</string>
+  <string name="security_wallet_off_info">ادائیگی کے تحفظ کو کھولیں، یہ ماحول کو سکین کر دیگا WLAN کنکشنز پتہ لگائے گا اور ادائیگی کی سیکورٹی کی حفاظت کے لئے ادائیگی اپلی کیشن کے چلنے کے وقت نقصان دہ کوڈ کو انٹر سیپٹ کرے گا</string>
+  <string name="security_wallet_jump_to_app_store">زیادہ سے تصدیق ایپ حاصل</string>
+  <string name="security_wallet_jump_to_app_store_not_found">ایپ سٹور سٹاسٹ نہیں کر سکتا</string>
+  <string name="security_safed_list_installed_toast"><xliff:g>%1$s</xliff:g> ادائیگی کے تحفظ کے لئے انسٹال کیا گیا</string>
+</resources>

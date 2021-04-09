@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="minutes">min</string>
+    <string name="hours">stundas</string>
+    <string name="menu_setting">Iestatījumi</string>
+    <string name="dialog_exit_btn">Iziet</string>
+    <string name="dialog_continue_btn">Turpināt</string>
+    <string name="text_start_scan">Sākt skenēšanu</string>
+    <string name="text_menu_ram">Atmiņas</string>
+    <string name="text_one_key_check_complete">Gatavs</string>
+    <string name="msg_reboot">Atsāknēt</string>
+    <string name="app_process_limit_title">Fona procesu ierobežojums</string>
+    <string name="next_with_arrow">Tālāk &gt;</string>
+    <string name="next">Tālāk</string>
+    <string name="settings_with_arrow">Iestatījumi &gt;</string>
+    <string name="settings">Iestatījumi</string>
+    <string name="rubblish">caches <![CDATA[<font color="#d23030">%1$s</font>]]></string>
+    <string name="soft_manager">lietotnes pārvaldnieks</string>
+    <string name="utilization_title">Sistēmas brīdinājums</string>
+    <string name="text_root_remind_restore">atjaunot</string>
+    <string name="msg_background_process">Baltais saraksts</string>
+</resources>

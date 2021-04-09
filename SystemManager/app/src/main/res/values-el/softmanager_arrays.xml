@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="header_list">
+        <item>Ενεργοποίηση</item>
+        <item>Disable</item>
+    </string-array>
+    <string-array name="auto_start_tab_item">
+        <item>Να επιτρέπεται</item>
+        <item>Forbid</item>
+    </string-array>
+</resources>

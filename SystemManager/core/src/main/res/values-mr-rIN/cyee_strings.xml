@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">  
+    <string name="cyee_app_name">CyeeUI</string>
+    <string name="cyee_capital_on">ऑन</string>
+    <string name="cyee_capital_off">ऑफ</string>
+    <string name="cyee_time_picker_dialog_title">वेळ सेट करा</string>
+    <string name="cyee_date_picker_dialog_title">तारीख सेट करा</string>
+    <string name="cyee_date_time_done">पूर्ण झाले</string>
+    <string name="cyee_copy">कॉपी करा</string>
+    <string name="cyee_paste">पेस्ट करा</string>
+    <string name="cyee_cut">कट करा</string>
+    <string name="cyee_selectAll">सर्व निवडा</string>
+    <string name="cyee_select">निवडा</string>
+    <string name="cyee_inputMethod">इनपुट पद्धत</string>
+    <string name="cyee_back_button_label">परत जा</string>
+    <string name="cyee_next_button_label">पुढील</string>
+    <string name="cyee_skip_button_label">वगळा</string>
+    <string name="cyee_ok">ओके</string>
+    <string name="cyee_cancel">रद्द करा</string>
+    <string name="cyee_yes">ओके</string>
+    <string name="cyee_no">रद्द करा</string>
+    <string name="cyee_action_mode_done">पूर्ण झाले</string>
+    <string name="cyee_action_bar_home_description">होमवर नेव्हिगेट करा</string>
+    <string name="cyee_action_bar_up_description">वर नेव्हिगेट करा</string>
+    <string name="cyee_smart_full_btn_label">ओके</string>
+    <string name="cyee_activity_resolver_use_always">नेहमी</string>
+    <string name="cyee_activity_resolver_use_once">फक्त एकदाच</string>
+    <string name="cyee_noApplications">कोणतेही ॲप्स ही क्रिया करू शकत नाहीत.</string>
+    <string name="cyee_system_label">Android सिस्टीम</string>
+    <string name="cyee_whichApplication">याचा वापर करून कृती पूर्ण करा</string>
+    <string name="cyee_chooseActivity">शेअर</string>
+    <string name="cyee_actionbar_magic_item_more">अधिक</string>
+    <string name="cyee_actionbar_magic_item_close">बंद करा</string>
+    <string name="cyee_edit_mode_leftbtn_txt">रद्द करा</string>
+    <string name="cyee_edit_mode_rightbtn_txt">सेव्ह</string>
+    <string name="cyee_strong_warning">कठोर चेतावणी</string>
+    <string name="cyee_multichoice_select_text">%1$s निवडलेले</string>
+    <string name="cyee_multichoice_select_all">सर्व निवडा</string>
+    <string name="cyee_multichoice_cancel_select_all">सर्वांना निवडू नका</string>
+    <string name="unit_year">Y</string>
+    <string name="unit_month">M</string>
+    <string name="unit_day">D</string>
+    <string name="unit_hour">H</string>
+    <string name="unit_minute">M</string>
+    <string name="clone_suffix"> क्लोन </string>
+    <string name="cyee_loading">लोड होत आहे\u2026</string>
+    <string name="cyee_today">आज</string>
+</resources>

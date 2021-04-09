@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="cancel">Annuler</string>
+    <string name="lockpassword_confirm_your_pattern_header">Confirmez votre schéma</string>
+    <string name="lockpattern_need_to_unlock_wrong">Schéma incorrect</string>
+    <string name="gn_lockpattern_recording_intro_header">Dessinez un schéma de déverrouillage :</string>
+    <string name="gn_fingerprint_confirm_your_password_header2">Dessinez un schéma de déverrouillage ou reconnaissance d\'empreintes digitales</string>
+    <string name="gn_fingerprint_confirm_your_password_header">S\'il vous plaît entrez le mot de passe ou l\'empreinte connu</string>
+    <string name="lockpassword_confirm_your_password_header">Confirmez votre mot de passe</string>
+    <string name="gn_confirm_your_password_header">Mot de passe d\'entrée</string>
+    <string name="lockpattern_tutorial_cancel_label">Annuler</string>
+    <string name="lockpattern_tutorial_continue_label">Suivant</string>
+    <string name="lockpassword_confirm_your_pin_header">Confirmer votre code PIN</string>
+    <string name="lockpattern_too_many_failed_confirmation_attempts">Trop de tentatives incorrectes. Réessayez dans &amp;lt;xliff:g id = "number"&amp;gt;%d &amp;lt;/xliff:g&amp;gt; secondes.</string>
+    <string name="lockpassword_confirm_your_password_generic">Saisissez le mot de passe de votre appareil pour continuer.</string>
+    <string name="lockpassword_confirm_your_pin_generic">Saisissez le code PIN de votre appareil pour continuer.</string>
+    <string name="lockpassword_confirm_app_header">%s a été protégé</string>
+    <string name="gn_securitypassword_input_error_note">Le mot de passe est incorrect, « %1$s » tentatives restantes</string>
+    <string name="gn_securitypassword_forget">Mot de passe oublié</string>
+    <string name="gn_securitypassword_retry_note">Veuillez réessayer dans « %1$s » min(s)</string>
+    <string name="gn_securitypassword_retry_note2">Veuillez réessayer dans « %1$s » seconde(s)</string>
+    <string name="gn_securitypassword_retry">Réessayer</string>
+    <string name="applock_verify_success_prompt">Vérification réussie</string>
+    <string name="applock_verify_pwd_prompt">Déverrouillage par mot de passe</string>
+    <string name="applock_verify_use_prompt">Utiliser</string>
+    <string name="applock_verify_fr_prompt">Visage/</string>
+    <string name="applock_verify_fp_prompt">Doigt/</string>
+    <string name="applock_verify_fp_fail_more">Trop de tentatives de vérification par empreinte digitale échouées, veuillez réessayer dans %1$ss</string>
+    <string name="applock_verify_fr_wait_prompt">Veuillez conserver</string>
+    <string name="applock_verify_fr_timeout_prompt">Visage</string>
+</resources>

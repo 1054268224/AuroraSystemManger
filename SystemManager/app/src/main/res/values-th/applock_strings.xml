@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="cancel">ยกเลิก</string>
+    <string name="lockpassword_confirm_your_pattern_header">ยืนยันรูปแบบของคุณ</string>
+    <string name="lockpattern_need_to_unlock_wrong">รูปแบบไม่ถูกต้อง</string>
+    <string name="gn_lockpattern_recording_intro_header">วาดรูปแบบการปลดล็อก</string>
+    <string name="lockpassword_confirm_your_password_header">ยืนยันรหัสผ่านของคุณ</string>
+    <string name="lockpattern_too_many_failed_confirmation_attempts">ดำเนินการไม่ถูกต้องหลายครั้งเกินไป ลองอีกครั้งใน <xliff:g id="NUMBER">%d</xliff:g> วินาที</string>
+    <string name="lockpattern_tutorial_cancel_label">ยกเลิก</string>
+    <string name="lockpattern_tutorial_continue_label">ถัดไป</string>
+    <string name="lockpassword_confirm_your_pin_header">ยืนยัน PIN</string>
+    <string name="lockpassword_confirm_your_pattern_generic">ใช้รูปแบบอุปกรณ์ของคุณเพื่อดำเนินการต่อ</string>
+    <string name="gn_securitypassword_input_error_note">รหัสผ่านไม่ถูกต้อง เหลือโอกาสอีก \"%1$s\" ครั้ง</string>
+    <string name="gn_securitypassword_retry_note">โปรดลองอีกครั้งหลัง \"%1$s\" นาที</string>
+    <string name="gn_fingerprint_confirm_your_password_header">โปรดป้อนรหัสผ่านหรือการจดจำลายนิ้วมือ</string>
+    <string name="gn_confirm_your_password_header">โปรดป้อนรหัสผ่าน</string>
+    <string name="gn_securitypassword_forget">ลืมรหัสผ่าน</string>
+    <string name="lockpassword_confirm_your_pin_generic">ป้อน PIN ของอุปกรณ์เพื่อดำเนินการต่อ</string>
+    <string name="lockpassword_confirm_your_password_generic">ป้อนรหัสผ่านของอุปกรณ์เพื่อดำเนินการต่อ</string>
+    <string name="gn_fingerprint_confirm_your_password_header2">วาดลายปลดล็อกหรือการจดจำลายนิ้วมือ</string>
+    <string name="lockpassword_confirm_app_header">%s ได้รับการปกป้อง</string>
+</resources>

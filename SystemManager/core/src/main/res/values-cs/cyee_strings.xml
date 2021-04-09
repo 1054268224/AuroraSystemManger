@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">  
+    <string name="cyee_app_name">CyeeUI</string>
+    <string name="cyee_capital_on">Zap.</string>
+    <string name="cyee_capital_off">Vyp.</string>
+    <string name="cyee_time_picker_dialog_title">Nastavit čas</string>
+    <string name="cyee_date_picker_dialog_title">Nastavit datum</string>  
+    <string name="cyee_date_time_done">Hotovo</string>
+    <string name="cyee_copy">Kopírovat telefonní číslo</string>
+    <string name="cyee_paste">Vložit</string>
+    <string name="cyee_cut">Vyjmout</string>
+    <string name="cyee_selectAll">Vybrat vše</string>
+    <string name="cyee_select">Zvolit</string>
+    <string name="cyee_inputMethod">Způsob vkládání</string>
+    <string name="cyee_back_button_label">Zpět</string>
+    <string name="cyee_next_button_label">"Další"</string>
+    <string name="cyee_skip_button_label">Přeskočit</string>
+    <string name="cyee_ok">"OK"</string>
+    <string name="cyee_cancel">"Zrušit"</string>
+    <string name="cyee_yes">"OK"</string>
+    <string name="cyee_no">"Zrušit"</string>
+    <string name="cyee_action_mode_done">Hotovo</string>
+    <string name="cyee_action_bar_home_description">Přejít na plochu</string>
+    <string name="cyee_action_bar_up_description">Přejít nahoru</string>
+    <string name="cyee_smart_full_btn_label">"OK"</string>
+    <string name="cyee_activity_resolver_use_always">Vždy</string>
+    <string name="cyee_activity_resolver_use_once">Pouze jednou</string>
+    <string name="cyee_noApplications">Tuto činnost nemohou provádět žádné aplikace.</string>
+    <string name="cyee_system_label">Systém Android</string>
+    <string name="cyee_whichApplication">Dokončit akci pomocí aplikace</string>
+    <string name="cyee_chooseActivity">Vybrat činnost</string>
+    <string name="cyee_actionbar_magic_item_more">Více</string>
+    <string name="cyee_actionbar_magic_item_close">Zavřít</string>
+    <string name="cyee_edit_mode_leftbtn_txt">"Zrušit"</string>
+    <string name="cyee_edit_mode_rightbtn_txt">Uložit</string>
+    <string name="cyee_strong_warning">varování</string>
+    <string name="cyee_multichoice_select_text">Vybráno %1$s</string>
+    <string name="cyee_multichoice_select_all">Vybrat vše</string>
+    <string name="cyee_multichoice_cancel_select_all">Odznačit vše</string>
+    <string name="unit_year">Y</string>
+    <string name="unit_month">M</string>
+    <string name="unit_day">"1 den"</string>
+    <string name="unit_hour">"h"</string>
+    <string name="unit_minute">M</string>
+    <string name="clone_suffix">klon</string>  
+    <string name="cyee_loading">Načítání\u2026</string>
+</resources>

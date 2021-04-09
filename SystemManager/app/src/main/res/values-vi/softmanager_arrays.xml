@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">  
+    <string-array name="title_group_move_package"> 
+    <item>"lưu trong bộ nhớ trong"</item>
+    <item>"lưu ở thẻ nhớ SD"</item>
+    </string-array>
+    <string-array name="title_group_move_package1"> 
+    <item>"ứng dụng trong hệ thống"</item>
+    <item>"ứng dụng trong bộ nhớ trong"</item>
+    </string-array>
+    <string-array name="ui_privacy_policy"> 
+    <item>"Gọi điện thoại"</item>
+    <item>"Gửi SMS"</item>
+    <item>"Gửi MMS"</item>
+    <item>"Nhật ký cuộc gọi"</item>
+    <item>"Đọc SMS"</item>
+    <item>"Đọc MMS"</item>
+    <item>"Đọc Danh bạ"</item>
+    <item>"Vị trí GPS"</item>
+    <item>"Vị trí Mạng"</item>
+    <item>"Tình trạng Điện thoại"</item>
+    <item>"Viết / Xóa tin nhắn SMS"</item>
+    <item>"Viết / Xóa MMS"</item>
+    <item>"Viết / Xóa Danh bạ"</item>
+    <item>"Ghi / Xóa nhật ký cuộc gọi"</item>
+    <item>"Ghi lại âm thanh"</item>
+    <item>"Máy ảnh"</item>
+    <item>"Mạng di động"</item>
+    <item>"Mạng WLAN"</item>
+    <item>"Bluetooth"</item>
+    <item>"Ghép nối Bluetooth"</item>
+    <item>"NFC"</item>
+    </string-array>
+    <string-array name="permission_summary"> 
+    <item>"ứng dụng có thể gọi điện"</item>
+    <item>"ứng dụng có thể nhắn tin"</item>
+    <item>"ứng dụng có thể nhắn tin MMS"</item>
+    <item>"ứng dụng có thể ghi âm cuộc gọi"</item>
+    <item>"ứng dụng có thể đọc tin nhắn"</item>
+    <item>"ứng udngj có thể đọc tin nhắn MMS"</item>
+    <item>"ứng dụng có thể đọc danh bạ"</item>
+    <item>"ứng dụng có thể đọc thông tin GPS"</item>
+    <item>"ứng dụng có thể đọc thông tin internet"</item>
+    <item>"ứng dụng có thể đọc thông số điện thoại và thông tin thiết bị"</item>
+    <item>"ứng dụng có thể viết/xóa tin nhắn"</item>
+    <item>"ứng dụng có thể viết/xóa tin nhắn MMS"</item>
+    <item>"ứng dụng có thể viết/xóa danh bạ"</item>
+    <item>"ứng dụng có thể viết/xóa lịch sử cuộc gọi"</item>
+    <item>"ứng dụng có thể ghi âm"</item>
+    <item>"ứng dụng có thể sử dụng máy ảnh"</item>
+    <item>"ứng dụng có thể sử dụng internet"</item>
+    <item>"ứng dụng có thể sử dụng mạng WLAN"</item>
+    <item>"ứng dụng có thể sử dụng bluetooth"</item>
+    <item>"ứng dụng có thể kết nối bluetooth"</item>
+    <item>"ứng dụng có thể sử dụng NFC"</item>
+    </string-array>
+    <string-array name="header_list"> 
+    <item>"Cho phép"</item>
+    <item>"Vô hiệu hoá"</item>
+    </string-array>
+    <string-array name="ui_def_soft"> 
+    <item>"mặc định phương pháp nhập liệu"</item>
+    <item>"mặc định ứng dụng internet"</item>
+    <item>"mặc định danh bạ"</item>
+    <item>"mặc định hình nền"</item>
+    <item>"mặc định ứng dụng chụp hình"</item>
+    <item>"mặc định ứng dụng tìm kiếm hình ảnh"</item>
+    <item>"mặc định ứng dụng nghe nhạc"</item>
+    <item>"mặc định ứng dụng xem video"</item>
+    <item>"mặc định ứng dụng đọc"</item>
+    </string-array>
+    <string-array name="listitem_soft_manager_activity"> 
+        <item>Ứng dụng tự khởi động</item>
+        <item>Gỡ bỏ ứng dụng</item>
+        <item>Đóng băng ứng dụng</item>
+    <item>Khóa ứng dụng</item>
+    </string-array>
+    <string-array name="list_summary_soft_manager_activity"> 
+    <item>"gỡ bỏ ứng dụng"</item>
+    <item>"dừng và ẩn ứng dụng"</item>
+    <item>"khống chế không gian điện thoại"</item>
+    <item>"cài đặt ứng dụng thường dùng"</item>
+    </string-array>
+    <string-array name="listitem_permission_setting"> 
+        <item>Hoàn toàn tin tưởng</item>
+        <item>Tin tưởng một phần</item>
+        <item>Không tin tưởng</item>
+    </string-array>
+    <string-array name="listitem_permission_setting_summary"> 
+        <item>Không hiện ô cảnh báo khi ứng dụng sử dụng bất kì điều kiện nào</item>
+        <item>Chỉ hiện ô cảnh báo khi ứng dụng sử dụng điều kiện quan trọng</item>
+        <item>Hiện ô cảnh báo trong mọi điều kiện ứng dụng sử dụng</item>
+    </string-array>
+    <string-array name="listitem_freeze_app_summary"> 
+        <item>ứng dụng không ảnh hưởng</item>
+        <item>ứng dụng không an toàn</item>
+    </string-array>
+    <string-array name="uninstall_sort"> 
+        <item>Sắp xếp theo tên</item>
+        <item>Sắp xếp theo thời gian đã cài</item>
+        <item>Sắp xếp theo xếp hạng</item>
+        <item>Sắp xếp theo kích cỡ</item>
+    </string-array>
+
+    <string-array name="green_list_item"> 
+        <item>Làm sạch danh sách cho phép</item>
+    </string-array>
+    <string-array name="freeze_tab_item"> 
+        <item>Không tạm dừng</item>
+        <item>Đã đóng băng</item>
+    </string-array>
+    <string-array name="auto_start_tab_item"> 
+        <item>Cho phép</item>
+        <item>Cấm</item>
+    </string-array>
+    <string-array name="move_tab_item"> 
+        <item>Không gian hệ thống</item>
+        <item>Bộ nhớ trong</item>
+    </string-array>
+    <string-array name="move_tab_item_sd"> 
+        <item>Không gian hệ thống</item>
+        <item>Thẻ SD</item>
+    </string-array>
+</resources>

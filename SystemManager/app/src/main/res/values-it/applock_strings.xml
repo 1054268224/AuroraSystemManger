@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="cancel">Cancel</string>
+    <string name="gn_securitypassword_forget">Elimina password</string>
+    <string name="lockpattern_need_to_unlock_wrong">Pattern errato</string>
+    <string name="gn_securitypassword_retry_note">riprova dopo "%1$s" min (s)</string>
+    <string name="gn_securitypassword_retry_note2">riprova dopo "%1$s secondo (s)</string>
+    <string name="gn_securitypassword_retry">Riprova</string>
+    <string name="gn_securitypassword_input_error_note">La password non è corretta, i tentativi "%1$s" rimangono</string>
+    <string name="lockpattern_tutorial_cancel_label">Annulla</string>
+    <string name="lockpattern_tutorial_continue_label">Successivo</string>
+    <string name="lockpassword_confirm_app_header">%s è stato protetto</string>
+    <string name="applock_verify_success_prompt">Verifica con successo</string>
+    <string name="applock_verify_pwd_prompt">sblocco password</string>
+    <string name="applock_verify_use_prompt">Usa</string>
+    <string name="applock_verify_fr_prompt">Face /</string>
+    <string name="applock_verify_fp_prompt">Finger /</string>
+    <string name="applock_verify_fp_fail_more">Troppe verifiche dell\'impronta digitale falliscono, riprova dopo%1$ss, per favore</string>
+    <string name="applock_verify_fr_wait_prompt">Si prega di mantenere</string>
+    <string name="applock_verify_fr_timeout_prompt">Face</string>
+    <string name="app_lock_in_list">%s nell\'elenco dei blocchi applicazione</string>
+    <string name="app_lock_choose_operation">ma la password di sicurezza non è stata impostata, selezionare l\'operazione:</string>
+    <string name="app_lock_password_not_set">ma la password di sicurezza non è stata impostata, si prega di impostare la password di sicurezza</string>
+    <string name="app_lock_clear">1. Rimuovi %s dall\'elenco di blocco delle applicazioni e inizia direttamente</string>
+    <string name="app_lock_setup">2. Imposta la password di sicurezza, ripristina la funzione di blocco dell\'applicazione</string>
+</resources>

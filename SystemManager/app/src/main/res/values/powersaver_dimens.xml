@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Gionee <yangxinruo> <2016-3-3> add for CR01645219 begin -->
+    <dimen name="battery_image_marginTop">82dp</dimen>
+    <dimen name="settings_side_margin">0dip</dimen>
+    <!-- Gionee <yangxinruo> <2016-3-3> add for CR01645219 end -->
+    <dimen name="background_running_processes_width">155dp</dimen>
+
+</resources>

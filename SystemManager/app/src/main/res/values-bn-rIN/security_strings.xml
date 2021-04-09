@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="security_wallet_title">পেমেন্ট নিরাপত্তা</string>
+  <string name="security_wallet_empty">কোন জেনুইন পেমেন্ট অ্যাপ খুঁজে পাওয়া যায়নি</string>
+  <string name="security_wallet_header">অ্যাপ রক্ষা করছে</string>
+  <string name="security_wallet_header_on">খুলুন</string>
+  <string name="security_wallet_header_off">বন্ধ আছে</string>
+  <string name="security_wallet_mini_bar_tip">নিম্নের অ্যাপগুলি গেনুইন হিসেবে যাচাই করা হয়েছে</string>
+  <string name="security_wallet_support">AVL দ্বারা পাওয়ার্ড</string>
+  <string name="security_wallet_mini_bar_tip_off">পেমেন্ট নিরাপত্তা বন্ধ</string>
+  <string name="security_wallet_mini_bar_tip_root">রুট করা হয়েছে এমন সিস্টেম পেমেন্টের ঝুঁকি নেয়</string>
+  <string name="security_wallet_off_info">পেমেন্ট সুরক্ষা খোলা পরিবেশ স্ক্যান করবে, WLAN সংযোগ শনাক্ত করে এবং ক্ষতিকারক কোড ইন্টারসেপ্ট করে পেমেন্ট সুরক্ষা রক্ষা করতে যখন পেমেন্ট অ্যাপ চলে</string>
+  <string name="security_wallet_jump_to_app_store">আরও যাচাই করা অ্যাপ পান</string>
+  <string name="security_wallet_jump_to_app_store_not_found">অ্যাপ স্টোর শুরু করা যাবে না</string>
+  <string name="security_safed_list_installed_toast"><xliff:g>%1$s</xliff:g> পেমেণ্ট প্রতিরোধ করার জন্য ইন্সটল করা হয়েছে</string>
+</resources>

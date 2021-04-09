@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Menadžer sistema</string>
+    <string name="cell_accelerator">Čišćenje memorije</string>
+    <string name="cell_accelerator_summary">Upotreba Memorije<![CDATA[<font color="#d23030">%1$s</font>]]>%%</string>
+    <string name="rubbish_clean">Čistač keša</string>
+    <string name="rubblish">Keševi<![CDATA[<font color="#d23030">%1$s%%</font>]]></string>
+    <string name="power_optimizer">Optimizator energije</string>
+    <string name="can_use">Može koristiti <![CDATA[<font color="#d23030">%1$s%%</font>]]></string>
+    <string name="charge_time">potreban <![CDATA[<font color="#d23030">%1$s%%</font>]]></string>
+    <string name="traffic_monitor">Nadgledanje saobraćaja</string>
+    <string name="traffic_remained">Preostali saobraćaj <![CDATA[<font color="#d23030">%1$s%%</font>]]></string>
+    <string name="traffic_exceed">Premašen promet <![CDATA[<font color="#d23030">%1$s%%</font>]]></string>
+    <string name="traffic_no_setting">Paket saobraćaja nije podešen</string>
+    <string name="traffic_no_simcard">SIM kartica nije umetnuta</string>
+    <string name="soft_manager">Menadžer aplikacija</string>
+    <string name="app_installed">Ukupno aplikacije <![CDATA[<font color="#d23030">%1$s</font>]]></string>
+    <string name="perm_manager">Dozvola Aplikacije</string>
+    <string name="minutes">minuta</string>
+    <string name="hours">satа(i)</string>
+    <string name="cannotget">Nije predvidivo</string>
+    <string name="quick_accelerate">Ubrzavanje telefona</string>
+    <string name="toast_content">oslobođeno%1$smemorije</string>
+    <string name="menu_setting">Podešavanja</string>
+    <string name="items_switch">Nadziranje u pozadini</string>
+    <string name="net_monitor_title">Podsetnik na upotrebu mrežnih podataka</string>
+    <string name="net_monitor_summary">Proverite korišćenja mrežnih podataka koje aplikacije koriste jednom nedeljno</string>
+    <string name="energy_monitor_title">Podsetnik na potrošnju energije</string>
+    <string name="energy_monitor_summary">Proverite koliko energije troše aplikacije jednom nedeljno</string>
+    <string name="apps_monitor_title">Podsetnik na aplikacije koje retko koristite</string>
+    <string name="apps_monitor_summary">Proverite učestalost upotrebe aplikacija jednom nedeljno</string>
+    <string name="root_monitor_title">Podsetnik na rutovanje</string>
+    <string name="root_monitor_summary">Proverite da li je telefon rutovan</string>
+    <string name="desktop_monitor_title">Nadziranje glavnog ekrana</string>
+    <string name="desktop_monitor_summary">Provera da li je glavni ekran zamenjen od treće strane će se vršiti svake sedmice. Ako je zamenjen bićete obavešteni na traci sa obaveđtenjima</string>
+    <string name="utilization_title">Upozorenje sistema</string>
+    <string name="utilization_content">Dobrodošli u Menadžer sistema. U okviru ove aplikacije može doći do razmene podataka. Kontaktirajte mrežnog operatera za više informacija o troškovima razmene podataka, kao i za druge informacije koje se odnose na razmenu podataka.</string>
+    <string name="dialog_checkbox_description">Ne podsećaj me ponovo</string>
+    <string name="dialog_exit_btn">Izađite</string>
+    <string name="dialog_continue_btn">Nastavi</string>
+    <string name="text_antivirus">Detekcija virusa</string>
+    <string name="text_start_scan">Započni skeniranje</string>
+    <string name="text_cancel_scan">Otkaži skeniranje</string>
+    <string name="text_scaning">Skenira se...</string>
+    <string name="text_scaning_result">Skeniranje je završeno</string>
+    <string name="text_scaning_reminder">Preporučuje se hitno ispitivanje</string>
+    <string name="text_menu_savepower">Menadžer potrošnje energije</string>
+    <string name="text_menu_traffic">Nadgledanje saobraćaja</string>
+    <string name="text_menu_pure">Eko režim</string>
+    <string name="text_menu_ram">Memorija</string>
+    <string name="text_one_key_check">Proveri</string>
+    <string name="text_one_key_check_complete">Gotovo</string>
+    <string name="text_scan_daily_none">Dodirnite za čišćenje memorije</string>
+    <string name="text_scan_daily_cancel">Provera je otkazana. Preporučujemo da odmah proverite o čemu se radi.</string>
+    <string name="text_scan_daily_last">Poslednja provera <xliff:g id="ID_1">%s</xliff:g></string>
+    <string name="text_scan_result_good">Mobilni telefon je u dobrom stanju, ali ipak može da se optimizuje</string>
+    <string name="text_scan_result_better">Mobilni telefon je u dobrom stanju. Nastavite da ga održavate na ovaj način</string>
+    <string name="text_scan_result_problem">Postoje problemi u mobilnom telefonu. Preporučujemo da izvršite optimizaciju.</string>
+    <string name="text_accelerating">Ubrzava se</string>
+    <string name="text_memory_release">Oslobodi memoriju <xliff:g id="ID_1">%s</xliff:g></string>
+    <string name="text_memory_release_running">Oslobađanje memorije u toku</string>
+    <string name="text_memory_release_display">Ubrzavanje uspešno, oslobađanje memorije <xliff:g id="ID_1">%s</xliff:g></string>
+    <string name="text_memory_used">Korišćeno <xliff:g id="ID_1">%s</xliff:g></string>
+    <string name="text_phone_state_better">Memorija je očišćena</string>
+    <string name="text_phone_state_problem">Mobilni telefon je u veoma lošem stanju. Hitno ga ubrzajte</string>
+    <string name="text_root_remind">Telefon je rutovan</string>
+    <string name="text_root_remind_restore">Obnovi</string>
+    <string name="msg_superpower_error">Poslednja promena je neuobičajena. Ponovo pokrenite radi popravke.</string>
+    <string name="msg_error_title">obaveštenje o neuobičajenom ponašanju</string>
+    <string name="msg_reboot">Ponovno pokretanje</string>
+    <string name="app_process_limit_title">Ograničenje pozadinskih procesa</string>
+    <string name="app_process_limit_txt">Ograničenje pozadinskih procesa %s</string>
+    <string name="msg_background_process">Bela lista</string>
+    <string name="pressure_sensor_menu_first">Čišćenje nepotrebnih podataka</string>
+    <string name="pressure_sensor_menu_second">Zamrzavanje aplikacije</string>
+    <string name="pressure_sensor_menu_third">Podešavanja podrazumevanih aplikacija</string>
+    <string name="pressure_sensor_menu_fourth">Upravljanje mrežom</string>
+    <string name="text_in_screenpin">Sada je u režimu ekrana, nije moguće pokrenuti super režim</string>
+    <string name="required_permissions_promo">Menadžeru sistema je potrebno odobrenje za Telefon i SD kartice</string>
+    <string name="enable_permission_procedure">Možete da promenite dozvole u podešavanjima &gt; Aplikacije &gt; SystemManager &gt; Dozvole.</string>
+    <string name="enable_permission_procedure_description">Odobrenja možete promeniti u Podešavanjima, Aplikacijama, Menadžeru sistema, Odobrenjima.</string>
+    <string name="next_with_arrow">Sledeće &gt;</string>
+    <string name="next">Sledeće</string>
+    <string name="settings_with_arrow">Podešavanja &gt;</string>
+    <string name="settings">Podešavanja</string>
+</resources>

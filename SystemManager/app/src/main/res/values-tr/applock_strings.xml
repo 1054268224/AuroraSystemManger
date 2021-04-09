@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="cancel">İptal</string>
+    <string name="gn_securitypassword_forget">Şifreyi unut</string>
+    <string name="lockpassword_confirm_your_pattern_header">Deseninizi onaylayın</string>
+    <string name="lockpassword_confirm_your_pattern_generic">Devam etmek için cihaz modelinizi kullanın.</string>
+    <string name="lockpattern_need_to_unlock_wrong">Yanlış desen</string>    
+    <!--Gionee luoguangming 2017.03.02 modify CR01778824 begin-->
+    <string name="gn_securitypassword_retry_note">Lütfen sonra tekrar deneyin "%1$s" min(s)</string>
+    <string name="gn_securitypassword_retry_note2">Lütfen tekrar deneyin. "%1$s second(s)"</string>
+    <string name="gn_securitypassword_retry">Tekrar dene</string>
+    <string name="gn_fingerprint_unlock_wrong">Şifre yanlış</string>
+    <string name="gn_securitypassword_input_error_note">Şifre yanlış, "%1$s" deneme kaldı</string>
+    <!--Gionee luoguangming 2017.03.02 modify CR01778824  end -->
+    <string name="gn_lockpattern_recording_intro_header">"Kilit açma deseni çiz"</string>
+    <string name="gn_fingerprint_confirm_your_password_header2">Kilit açma modeli veya parmak izi tanıma</string>
+    <string name="gn_fingerprint_confirm_your_password_header">Lütfen parola veya parmak izi tanıma bilgilerini girin</string>
+    <string name="lockpassword_confirm_your_password_header">Parolanızı doğrulayın</string>
+    <string name="gn_confirm_your_password_header">Lütfen şifreyi giriniz</string>
+    <string name="lockpattern_too_many_failed_confirmation_attempts">Çok fazla yanlış girişim. Tekrar deneyin <xliff:g id="number">%d</xliff:g> seconds.</string>
+    <string name="lockpattern_tutorial_cancel_label">İptal</string>
+    <string name="lockpattern_tutorial_continue_label">Sonraki</string>
+    <string name="lockpassword_confirm_your_pin_header">PIN\'inizi onaylayın</string>
+    <string name="lockpassword_confirm_your_password_generic">Devam etmek için cihaz şifrenizi girin.</string>
+    <string name="lockpassword_confirm_your_pin_generic">Devam etmek için cihaz PIN kodunuzu girin.</string>
+    <string name="lockpassword_confirm_app_header">%s Korundu</string>
+
+    <string name="applock_verify_success_prompt">Başarıyla Doğrulandı</string>
+    <string name="applock_verify_pwd_prompt">Şifre/Desen izi kullan</string>
+    <string name="applock_verify_use_prompt">""</string>
+    <string name="applock_verify_fr_prompt">Face/</string>
+    <string name="applock_verify_fp_prompt">Parmak/</string>
+    <string name="applock_verify_fp_fail_more">Çok fazla parmak izi doğrulama başarısız, sonra tekrar deney %1$ss, Lütfen</string>
+    <string name="applock_verify_fr_wait_prompt">Lütfen tut</string>
+    <string name="applock_verify_fr_timeout_prompt">Face </string>
+    <string name="applock_verify_fr_input_error_prompt">Parmak izi doğrulama başarısız，sonra tekrar deney %1$ss, Lütfen</string>
+</resources>

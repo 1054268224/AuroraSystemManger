@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="is_charging_now">A carregar...</string>
+    <string name="charged_completely">Bateria carregada. Desligue para economizar energia.</string>
+    <string name="other_powersaver">Outros</string>
+    <string name="power_phone">Chamadas de voz</string>
+    <string name="power_screen">Ecrã</string>
+    <string name="power_wifi">Wi‑Fi</string>
+    <string name="power_gps">GPS</string>
+    <string name="power_bluetooth">Bluetooth</string>
+    <string name="usage_description">Descrição</string>
+    <string name="display">Ecrã</string>
+    <string name="details_title">Utilizar detalhes</string>
+    <string name="power_monitor_message">
+        <xliff:g id="name">%s</xliff:g>
+    </string>
+    <string name="dialog_negativebutton_txt">Cancelar</string>
+    <string name="dialog_neutralbutton_txt">Ver detalhes</string>
+    <!--Gionee huagd 2015-11-23 modify for CR01596959 begin-->
+    <string name="dialog_positivebutton_txt">Ligado</string>
+    <string name="power_saving_mode_title">Definições de poupança de energia</string>
+    <!--Gionee huagd 2015-11-23 modify for CR01596959 end-->
+    <string name="power_app_name">Gestor de energia</string>
+    <string name="can_use_time">Disponível:%s</string>
+    <string name="need_charging_time">É necessário carregar %s</string>
+    <string name="power_cannotget">Foi impossível calcular</string>
+    <!--Gionee luoguangming 2015.10.25 modify CR01597701 begin-->
+    <string name="power_hours">" Horas "</string>
+    <string name="power_minutes">" Minutos "</string>
+    <!--Gionee luoguangming 2015.10.25 modify CR01597701  end -->
+    <string name="none_power_mode">Modo normal</string>
+    <!--Gionee luoguangming 2015.12.09 modify CR01597701 begin-->
+    <string name="normal_power_mode">Modo de poupança moderada</string>
+    <!--Gionee luoguangming 2015.12.09 modify CR01597701  end -->
+    <string name="super_power_mode">Modo Extremo</string>
+    <string name="none_power_mode_summary">Nenhum processo de otimização de consumo de energia</string>
+    <string name="normal_power_mode_summary">Para reduzir a eficiência do telemóvel e limitar a atividade em 2º plano</string>
+    <string name="time_use_inmode">Disponível:%s</string>
+    <string name="time_use_in_supermode">Em espera:%s</string>
+    <string name="mode_change_alert">A alternar…</string>
+    <string name="powersaver_mode_category_title">Outros itens de poupança de energia</string>
+    <string name="close_gesture">Desligar todos os gestos</string>
+    <string name="close_bluetooth">Desligar Bluetooth</string>
+    <string name="close_gps">Desligar GPS</string>
+    <string name="close_sync">Desligar sincronização</string>
+    <string name="close_push_notification">Desligar as notificações automáticas</string>
+    <string name="set_custom_screen_light">Ajustar o brilho do ecrã</string>
+    <string name="close_wifi">Desligar Wi-Fi</string>
+    <string name="process_kernel_label">SO Android</string>
+    <string name="battery_level_tab_title">Nível da bateria</string>
+    <string name="shotcut_operation">Operação rápida</string>
+    <string name="airplane">Modo de avião</string>
+    <string name="super_power_save_label">Modo Extremo</string>
+    <string name="super_power_mode_summary">Apenas o telefone, contactos, mensagens e relógio podem ser usados</string>
+    <string name="set_custom_sleep_time">Nenhuma operação após 15 segundos de entrar dormência</string>
+    <string name="set_cpu_state">Abrir a redução inteligente da frequência de CPU</string>
+    <string name="set_screen_save_power">Abrir a poupança de ecrã</string>
+    <string name="close_data_connection">A fechar ligação de dados</string>
+    <string name="screen_light_sumarry">Ajustar automaticamente o brilho do ecrã para um estado de economia de energia</string>
+    <string name="set_sleep_time">Ajuste o tempo de suspensão</string>
+    <string name="sleep_time_summary">Nenhuma operação após 15 segundos depois de entrar em dormência</string>
+    <string name="set_screen_light">Ajustar o brilho do ecrã</string>
+    <string name="save_power_notifi">O aviso de economia de energia</string>
+    <string name="save_power_notifi_title">Centro de notificação de estado de economia de energia</string>
+    <!--Gionee huagd 2015-11-23 modify for CR01596959 begin-->
+    <string name="smart_saving">ECONOMIA DE ENERGIA</string>
+    <string name="night_saving_title">Poupança inteligente durante a noite</string>
+   <string name="auto_clean_title">Limpeza inteligente de memória</string>
+    <!--Gionee huagd 2015-11-23 modify for CR01596959 end-->
+    <string name="auto_clean_summary">A fim de reduzir o consumo de energia de aplicação limpar aplicações de segundo plano</string>
+    <string name="user_manual">Sugestões de economia de energia</string>
+    <string name="create_shortcut_title">Super economia de energia</string>
+    <string name="create_shortcut_summary">Se aberto ir rapidamente para o modo de super economia</string>
+    <string name="super_power_save">Super economia de energia</string>
+    <string name="battery">Manutenção da bateria</string>
+    <string name="daily_use">Sugestões de economia de bateria</string>
+    <string name="battery_use_desc">Por favor, carregue a uma temperatura de 0~35ºC . Efetue um carga completa, uma vez por mês, para manter a atividade da bateria. Em favor da manutenção da bateria, carregue a qualquer momento assim que o nível de bateria atinja os 20% de carga.</string>
+    <string name="daily_use_desc">Sempre que possível reduza a luminosidade do ecrã, desligue a animação, efeitos especiais e use papel de parede estático. Deixe apenas os processos necessários de widgets do ambiente de trabalho, limpe aplicações de segundo plano e não permita aplicações de inicialização no arranque.</string>
+    <string name="power_consumption_tab_title">Mais detalhes sobre o consumo de energia</string>
+    <string name="hardware">Consumo de energia de Hardware</string>
+    <string name="software">Consumo de energia de Software</string>
+    <string name="process_mediaserver_label">O servidor mídia</string>
+    <string name="power_usage_not_available">Impossível obter dados de uso da bateria</string>
+    <string name="power_cell">Rede do telefone</string>
+    <string name="power_idle">Telefone em espera</string>
+    <string name="power_sensors">Outros (sensores)</string>
+    <string name="data_conn">Ligação de dados</string>
+    <string name="idle_descrip">Processo em espera do telefone móvel, a fim de manter os processos necessários do sistema, irá consumir parte da energia</string>
+    <string name="screen_descrip">Ecrã em utilização, a iluminação de fundo vai consumir mais energia</string>
+    <string name="wlan_descrip">Wi-Fi aberto, o telefone móvel irá procurar redes sem fios com frequência, resultando em perda de energia</string>
+    <string name="bt_descrip">Ligar o Bluetooth do telefone móvel, irá consumir mais energia</string>
+    <string name="gps_descrip">Aplicação de GPS ligada, o serviço de localização irá consumir mais energia</string>
+    <string name="radio_descrip">O uso da função de chamada de voz vai consumir mais energia</string>
+    <string name="cell_descrip">Sinal fraco, telefone irá constantemente procurar sinal de comunicação, irá consumir muita energia</string>
+    <string name="others_descrip">Os sensores móveis, tais como sensores de gravidade, sensores de luz, se estiverem sempre em estado de funcionamento, vão consumir mais energia</string>
+    <string name="idle_title">Detalhes consumo de energia em espera do telefone</string>
+    <string name="screen_title">Detalhes de consumo de energia do ecrã</string>
+    <string name="wlan_title">Detalhes de consumo de energia da rede Wi-Fi</string>
+    <string name="bt_title">Detalhes de consumo de energia do Bluetooth</string>
+    <string name="gps_title">Detalhes de consumo de energia do GPS</string>
+    <string name="radio_title">Detalhes de consumo de energia do rádio</string>
+    <string name="cell_title">Detalhes consumo de energia da rede</string>
+    <string name="others_title">Outros detalhes sobre o consumo de energia</string>
+    <string name="power_monitor_title">Aplicação com maior consumo de energia semanal</string>
+    <string name="daily_power_open_noti">Modo normal está ativo</string>
+    <string name="super_power_mode_introduction_string2">O telefone entrará no ambiente de trabalho minimalista</string>
+    <!--Gionee luoguangming 2015.12.01 modify CR01597701 begin-->
+    <string name="super_power_mode_introduction_string1">Em modo extremo, apenas pode usar o Telefone, Contactos, Mensagens e Relógio.</string>
+    <!--Gionee luoguangming 2015.12.01 modify CR01597701  end -->
+    <string name="super_power_mode_introduction_string4">O modo extremo irá fechar os widgets do ambiente de trabalho</string>
+    <string name="waiting_load">Inicie ou saia do modo extremo.</string>
+    <string name="waiting_load1">Por favor aguarde, não faça quaisquer outras coisas</string>
+    <string name="super_mode_toast">Já no modo extremo</string>
+    <string name="power_ranking_noname">Segundo plano Android</string>
+    <!--Gionee luoguangming 2015.12.09 modify CR01597701 begin-->
+    <string name="dialog_superpower_message">O modo Extremo pode fazer a bateria durar mais <xliff:g id="ID_1">%s\n\nApenas telefone, contactos, mensagens e relógio podem ser utilizados no modo extremo.\nO telemóvel vai entrar no modo de menu minimalista</xliff:g></string>
+    <string name="super_power_mode_introduction_string3">Em modo Extremo o telemóvel pode permanecer em modo de espera cerca de %s</string>
+    <string name="dialog_dailypower_message">Modo moderado pode prolongar a bateria em <xliff:g id="ID_1">%s</xliff:g>\n\nO uso de papéis de fundo escuros podem reduzir o consumo.\nUtilize o service verde de fundo, a partir do qual as aplicações de fundo sem permissões serão proibidas.\nReduz BT, GPS e outras funções de elevado consumo. </string>
+    <!--Gionee luoguangming 2015.12.09 modify CR01597701  end -->
+</resources>

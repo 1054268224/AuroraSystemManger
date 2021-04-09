@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+  Copyright (C) 2012 The Android Open Source Project
+
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+  -->
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">  
+    <string name="text">متن</string>
+    <string name="trafficassistant_app_name">نظارت بر ترافیک</string>
+    <string name="tabbar_name1">شیار سیم کارت 1</string>
+    <string name="tabbar_name2">شیار سیم کارت 2</string>
+    <string name="remained_flow_string">اضافی</string>
+    <string name="exceed_flow_string">فراتر از حد</string>
+    <string name="used">استفاده شده</string>
+    <string name="used_flow_string"><xliff:g id="ID_1">%s</xliff:g>MB استفاده شده</string>
+    <string name="total_flow_string">کل<xliff:g id="ID_1">%s</xliff:g>M</string>
+    <string name="prompt_no_settings_traffic">تعیین نشده</string>
+    <string name="no_settings">تعیین نشده</string>
+    <string name="prompt_used_traffic">استفاده شده\n<xliff:g id="ID_1">%s</xliff:g>M</string>
+    <string name="month">ماه</string>
+    <string name="day">روز</string>
+    <string name="noti_today">برنامه امروز</string>
+    <string name="noti_surplus">آزاد</string>
+    <string name="noti_exceed">فراتر از حد</string>
+    <string name="noti_total">کل</string>
+    <string name="noti_no_settings">بسته داده مشخص نشده</string>
+    <string name="noti_no_card">سیم کارت در شیار موجود نیست</string>
+    <string name="start_date_string">ماهانه</string>
+    <string name="limit_flow">بسته داده را مشخص کنید</string>
+    <string name="detail_flow">الگوی ترسیمی</string>
+    <string name="network_control">کنترل شبکه ها</string>
+    <string name="more_settings">تنظیمات بیشتر کنترل ها</string>
+    <string name="traffic_save">ذخیره سازی حجم داده</string>
+    <string name="no_card_warning">لطفا سیم کارت را وارد کنید</string>
+    <string name="action_known">انجام</string>
+    <string name="action_settings">تنظیم کردن</string>
+    <string name="action_cancel">لغو</string>
+    <string name="action_done">انجام</string>
+    <string name="action_save">ذخیره</string>
+    <string name="action_sure">تایید</string>
+    <string name="action_allow">اجازه</string>
+    <string name="action_prohibit">لغو اجازه</string>
+    <string name="action_all_allow">اجازه دادن همه</string>
+    <string name="action_all_prohibit">غیرفعال کردن همه</string>
+    <string name="application_info">اطلاعات برنامه</string>
+    <string name="data_connect_allow">کنترل کردن اتصالات</string>
+    <string name="total_flow_settings">محدودیت حجم ماهانه</string>
+    <string name="input_hint">لطفا وارد نمایید</string>
+    <string name="warning_settings">اخطار مقدار</string>
+    <string name="date_start_settings">شروع روز جاری</string>
+    <string name="used_flow_settings">استفاده از جاری</string>
+    <string name="flow_unit">MB</string>
+    <string name="percent_unit">%</string>
+    <string name="mobile_data_stop_title">هشدار حجم داده</string>
+    <string name="mobile_data_stop_contetn">حجم داده ماهانه شما به پایان رسید ادامه استفاده ممکن است برای شما هزینه در بر داشته باشد آیا میخواهید ادامه دهید ؟</string>
+    <string name="action_restart">به استفاده ادامه دهید</string>
+    <string name="action_stop">استفاده نکن</string>
+    <string name="info_save_error_no_flow_input">لطفا مقدار حجم داده ماهیانه را مشخص کنید</string>
+    <string name="info_prompt">شما میتوانید به صورت دستی مقدار جاری را مشخص کنید</string>
+    <string name="popup_notification_title">مقدار بسته داده مشخص نیست</string>
+    <string name="popup_notification_ticker_title">داده جاری تنظیمات حفاظتی بسته را ندارد</string>
+    <string name="popup_notification_content">برای تنظیم کردن لمس کنید نظارت لحظه ای بر مصرف داده</string>
+    <string name="popup_setting_title_dialog">تنظیم کردن بسته داده</string>
+    <string name="popup_setting_content_dialog">تنظیم کردن بسته داده و تنظیم امنیتی برای قفل کردن و ثابت کردن هزینه‌های تلفن</string>
+    <string name="notification_warn_exceed_warning_title">خط قرمز استفاده از داده</string>
+    <string name="notification_warn_exceed_warning_content">میزان مصرف ترافیک داده جاری شما، به مقدار هشدار رسیده است برای مشاهده کارکرد روی آن لمس کنید</string>
+    <string name="percent_value">80</string>
+    <string name="warning_value">0</string>
+    <string name="zero_percent">80%</string>
+    <string name="total_percent">100%</string>
+    <string name="process_kernel_labels">سیستم عامل android</string>
+    <string name="data_usage_uninstalled_apps_users">برنامه‌ها و کاربر‌ها را حذف کن</string>
+    <string name="data_usage_uninstalled_apps">برنامه‌ها را حذف کن</string>
+    <string name="tether_settings_title_all">تنظیمات اتصال</string>
+    <string name="tether_settings_title_usb_bluetooth">اتصال / اشتراک گذاری</string>
+    <string name="tether_settings_title_usb">اشتراک گذاری USB</string>
+    <string name="tether_settings_title_bluetooth">اشتراک گذاری از طریق بلوتوث</string>
+    <string name="running_process_item_user_label">کاربر：%1$s</string>
+    <string name="data_usage_app_restricted">محدود شده</string>
+    <string name="usage_detail">جزئیات ترافیک مصرفی</string>
+    <string name="version_name">نسخه</string>
+    <string name="traffic_time_day">"ترافیک مصرفی امروز(<xliff:g id="ID_1">%s</xliff:g>)"</string>
+    <string name="traffic_time_week">ترافیک مصرفی هفته جاری(<xliff:g id="ID_1">%s</xliff:g>)</string>
+    <string name="traffic_time_month">ترافیک مصرفی ماه جاری(<xliff:g id="ID_2">%s</xliff:g>)</string>
+    <string name="traffic_day">ترافیک امروز</string>
+    <string name="traffic_week">ترافیک هفتگی</string>
+    <string name="traffic_month">ترافیک ماهانه</string>
+    <string name="traffic_day_no">ترافیک استفاده نشده امروز</string>
+    <string name="traffic_week_no">ترافیک استفاده نشده این هفته</string>
+    <string name="traffic_month_no">ترافیک استفاده نشده این ماه</string>
+    <string name="network_selection">مصرف داده این ماه</string>
+    <string name="no_value">هیچ</string>
+    <string name="text_loading">درحال بارگذاری</string>
+    <string name="text_noti">درحال پردازش</string>
+    <string name="traffic_monitor_display"><xliff:g id="ID_1">%s</xliff:g>استفاده از 2G/3G/4G بدین شرح :</string>
+    <string name="traffic_monitor_title">بیشترین مصرف ترافیک این هفته</string>
+    <string name="traffic_monitor_message"><xliff:g id="ID_1">%s</xliff:g></string>
+    <string name="traffic_settings_main_title">نمایش مرکز اعلان ها</string>
+    <string name="traffic_network_speed_title">نمایش دادن سرعت شبکه</string>
+    <string name="traffic_network_speed_summary">وقتی که این دکمه روشن باشد سرعت شبکه روی نوار اعلان نمایش داده خواهد شد</string>
+    <string name="traffic_notification_title">نشان دادن اطلاعات ترافیک ماهانه</string>
+    <string name="traffic_notification_summary">باز کردن منو اعلان‌ها در هنگام نشان دادن اطلاعات ترافیک</string>
+    <string name="traffic_netcontrol_bar_allow_text">اجازه اتصال (<xliff:g id="ID_1">%1$s</xliff:g>)</string>
+    <string name="traffic_netcontrol_bar_prohibit_text">اینترنت مسدود شده برای (<xliff:g id="ID_1">%1$s</xliff:g>)</string>
+    <string name="net_link_allowed_txt">هیچ نرم افزاری به اینترنت دسترسی ندارد</string>
+    <string name="net_link_prohibited_txt">هیچ برنامه ای از اینترنت محروم نشده</string>
+    <string name="traffic_save_setting">تنظیمات ذخیره سازی حجم داده</string>
+    <string name="switch_off">خاموش کردن</string>
+    <string name="switch_on">روشن کردن</string>
+    <string name="traffic_save_off">صرفه جویی در مصرف بسته ترافیک</string>
+    <string name="traffic_save_off_summary">این عملکرد فقط در هنگام استفاده از داده تلفن همراه معتبر است</string>
+    <string name="traffic_save_total_title">شما از مقدار پس انداز خود تجاوز کرده اید</string>
+    <string name="traffic_save_total_num_string">328</string>
+    <string name="total_volume_string">مگابایت</string>
+    <string name="money_save_total_title">Renminbi درباره</string>
+    <string name="money_save_total_num_string">32.8</string>
+    <string name="total_money">یوان</string>
+    <string name="traffic_save_support_txt">راه اندازی شده توسط OPERA</string>
+    <string name="traffic_save_history">نمایش سابقه میزان ترافیک ذخیره شده</string>
+    <string name="traffic_save_history_total">میزان جاری ذخیره شده</string>
+    <string name="traffic_question1">1. چگونگی بدست آوردن ذخیره جاری</string>
+    <string name="traffic_question2">2. چرا از ترافیک بعد از زمانی که ذخیره میکنید استفاده میکنید، آیا ذخیره سازی را مشاهده نمیکنید ؟</string>
+    <string name="traffic_question3">3. عملکرد جاری از ذخیره سازی جاری استفاده میکند ؟</string>
+    <string name="traffic_question4">4. آیا تمایل دارید پس از ذخیره تنظیمات امنیتی شخصی اینترنت خود، از ترافیک داده استفاده کنید؟</string>
+    <string name="traffican_answer1">قابلیت ذخیره سازی جاری روشن شده است که منجر به کاهش حجم متن عکس و دیگر استفاده کنندگان از ترافیک میشود درحالی QQ, weixin, Taobao را برای برنامه‌هایی مثل traffic consumption باعث ایجاد نتایج بهتری میشود</string>
+    <string name="traffican_answer2">ذخیره سازی مقدار ترافیک داده فقط روی داده شبکه تاثیر میگذارد، درحالی که WLAN فعال نباشد. جریان فقط باعث ذخیره سازی تصاویر متن صدا و دریافت ویدیو و فایل‌ها باعث ذخیره سازی ترافیک نمیشود.</string>
+    <string name="traffican_answer3">خود ذخیره سازی جاری هیچ ترافیکی مصرف نمیکند بعد از روشن شدن این قابلیت تمام ترافیک‌های 2G/3G/4G از مدیریت سیستم برای فشرده سازی و کم کردن داده و افزایش امنیت شخصی نرم افزار‌ها کمک میکنند که با استفاده از عملکرد جاری سیستم امکان پذیر است ما از ترافیک ارزشمند شما استفاده نمیکنیم لطفا با خیال راحت از آن استفاده کنید</string>
+    <string name="traffican_answer4">این قابلیات به هیچ کدام از اطلاعات شخصی شما دسترسی پیدا نمیکند، با خیال راحت از آن استفاده کنید</string>
+    <string name="traffican_question_answer">کمک</string>
+    <string name="traffican_whitelist_title">برنامه‌هایی که نیاز به ذخیره سازی ترافیک ندارند</string>
+    <string name="text_no_traffic_whitelist">نیازی به ذخیره سازی ترافیک نیست</string>
+    <string name="traffic_simcard_focus1">سیم کارت 1</string>
+    <string name="traffic_simcard_focus2">سیم کارت 2</string>
+    <string name="traffic_netcontrol_tab_bar_allow_text">شبکه WLAN</string>
+    <string name="traffic_netcontrol_tab_bar_prohibit_text">شبکه داده</string>
+    <string name="traffic_title_text">برنامه‌های <xliff:g id="ID_1">%1$s</xliff:g></string>
+    <string name="time_format">سال-ماه</string>
+    <string name="traffic_back_toast_text">نرم افزار کنترل فعالیت شبکه در حال پردازش است لطفا صبر کنید</string>
+    <string name="traffic_save_wait_text">"داده درحال بروز رسانی است، لطفا منتظر بمانید..."</string>
+    <string name="traffic_btn_calibration_text">تنظیم دقیق</string>
+    <string name="traffic_limit_settings_title">تنظیمات محدودیت ترافیک</string>
+    <string name="traffic_origan">ترافیک عمومی</string>
+    <string name="traffic_idle_show_title">ترافیک مصرف نشده</string>
+    <string name="traffic_idle_available">ترافیک مصرف نشده در دسترس</string>
+    <string name="traffic_idle_used">ترافیک رایگان استفاده شده</string>
+    <string name="traffic_buy_title">خرید ترافیک</string>
+    <string name="buy_step1_title">1 وارد کردن شماره</string>
+    <string name="buy_step2_title">2 وارد کردن مقدار صورت</string>
+    <string name="buy_step3_title">3 پرداخت و خرید</string>
+    <string name="buy_step_title">1 وارد کردن شماره &gt; 2 وارد کردن مقدار صورت&gt; 3 پرداخت و خرید</string>
+    <string name="temp_carrieroperator_title">beijing chnio</string>
+    <string name="order_info_title">شماره سفارش</string>
+    <string name="traffic_packge_text"><xliff:g id="ID_1">%1$s</xliff:g>بسته ترافیک داده</string>
+    <string name="traffic_packge_default_money">2 یوان</string>
+    <string name="traffic_packge_default_instruction">عمومی بین المللی،پرداخت آنی</string>
+    <string name="mobile_info_numble">پرداخت مجهول:<xliff:g id="ID_1">%1$s</xliff:g></string>
+    <string name="pay_order_title">پرداخت و سفارش</string>
+    <string name="pay_order_Immediately_title">پرداخت آنی</string>
+    <string name="show_problem_title">مشکلات عمومی</string>
+    <string name="buy_record_title">شماره سفارش</string>
+    <string name="problem1_title">1 آیا یک شارژ مجدد جاری پویا است ؟</string>
+    <string name="problem1_content">لطفا به بازخورد صفحات توجه فرمایید زیرا کشور می تواند به عنوان نشانگر رومینگ داخلی باشد</string>
+    <string name="problem2_title">۲ شارژ مجدد دوره موثر چه مدت طول میکشد ؟</string>
+    <string name="problem2_content">شارژ مجدد جاری برای یک ماه معتبر است، تا زمان بروز خطا لطفا اطلاعات عملیات را بررسی کنید</string>
+    <string name="problem3_title">3چگونه مقدار هزینه را بعد از رسیدن بررسی کنیم؟</string>
+    <string name="problem3_content">بعد از شارژ کردن لطفا اطلاعات در دسترس سرویس دهنده را بررسی کنید، شما همچنین می توانید با سرویس دهنده جهت تایید حساب تماس بگیرید</string>
+    <string name="problem4_title">4 شماره شارژ جاری اشتباه است</string>
+    <string name="problem4_content">در صورت تماس با شماره اشتباه سرویس دهنده‌های خدمات مخابراتی هیچ گونه مسئولیتی در قبال هزینه‌ها نخواهند داشت</string>
+    <string name="problem5_title">5 تعیین زمان، پس از بروز خطا</string>
+    <string name="problem5_content">درحالت عادی ما هزینه‌هایی که بر اثر خطا از جانب ما ایجاد شده را بازگردانی میکنیم برای 24 ساعت شما میتوانید به صورت رسمی به عضویت QQ درآمده و به ما بازخورد بدهید(188473978)</string>
+    <string name="problem6_title">6. چگونه میتوانم سابقه سفارشات و کپی از مبادلاتم داشته باشم؟</string>
+    <string name="problem6_content">مصرف داده میتواند از بالای صفحه ی تاریخچه شارژ‌های مجدد ادامه داشته باشد</string>
+    <string name="mobile_invalid_text">شماره/سیم کارت نامعتبر است</string>
+    <string name="sell_alipay">پرداخت با alipay</string>
+    <string name="sell_weixin_pay">پرداخت با weixin</string>
+    <string name="payment_success_txt">سفارش موفق!</string>
+    <string name="payment_failed_txt">سفارش ناموفق</string>
+    <string name="payment_pre_txt">شارژ مجدد</string>
+    <string name="btn_try_again_txt">تلاش مجدد</string>
+    <string name="no_record_txt">هیچ سابقه‌ای یافت نشد</string>
+    <string name="query_record_falil_txt">جستجو ناموفق!</string>
+    <string name="data_load_txt">"بارگذاری..."</string>
+    <string name="net_error_text">خطای شبکه، لطفا بررسی کنید</string>
+    <string name="exit_Contacts_text">دفترچه آدرس ندارد</string>
+    <string name="traffic_origan_txt">مبدا ترافیک</string>
+    <string name="traffic_idle_txt">ترافیک استفاده نشده</string>
+    <string name="traffic_idle_set_title">تنظیمات جاری آزاد</string>
+    <string name="traffic_correctting_txt">تنظیم کردن</string>
+    <string name="correctting_wait_txt">درحال انتظار</string>
+    <string name="correctting_fail_txt">خطا در تصحیح کردن لطفا بعدا تلاش کنید</string>
+    <string name="correctting_success_txt">جریان تنظیم شده است، مقدار باقی مانده <xliff:g id="ID_1">%1$s</xliff:g>M</string>
+    <string name="query_traffic_txt">در جستجو ی مقدار مصرف ترافیک داده شما....</string>
+    <string name="query_product_fail_txt">هیچ بسته اشتراکی ای موجود نیست</string>
+    <string name="query_product_record_fail_txt">جستجو برای نگاره محصول ناموفق بود</string>
+    <string name="no_install_weixin_txt">لطفا در صورت نصب micro letter تایید نمایید</string>
+    <string name="no_correct_service_txt">"درحال حاظر در چرخه آماده سازی می باشیم، لطفا بعدا مجددا تلاش نمایید..."</string>
+    <string name="buy_number_hint_txt">لطفا شماره تلفن خود را وارد نمایید</string>
+    <string name="no_query_code_txt">دقیق سازی ناموفق بود، لطفا تنظیمات جاری بسته را دستی تنظیم کنید</string>
+    <string name="buy_omitted_displayname"><xliff:g id="ID_1">%1$s</xliff:g>...</string>
+    <string name="sell_baseinfo_symbol">/</string>
+    <string name="calibrate_setting_txt">تنظیمات دقیق سازی</string>
+    <string name="calibrate_setting_province">ایالت</string>
+    <string name="calibrate_setting_brand">نام تجاری سرویس دهنده</string>
+    <string name="calibrate_setting_province_choice">انتخاب استانی</string>
+    <string name="calibrate_setting_brand_choice">انتخاب نام تجاری سرویس دهنده</string>
+    <string name="calibrate_send_msg_fail">خطا در ارسال پیام متنی لطفا نام تجاری سرویس دهنده خود را در تنظیمات بررسی کنید</string>
+    <string name="traffic_flaw_price_txt"><xliff:g id="ID_1">%1$s</xliff:g>YUAN</string>
+    <string name="buy_record_baseinfo_txt"><xliff:g id="ID_1">%1$s</xliff:g>شارژ مجدد<xliff:g id="ID_2">%2$s</xliff:g> /<xliff:g id="ID_3">%3$s</xliff:g>YUAN</string>
+    <string name="buy_record_paytype_txt"><xliff:g id="ID_1">%1$s</xliff:g><xliff:g id="ID_2">%2$s</xliff:g></string>
+    <string name="noti_softap_setting_title">اعلان اشتراک گذاری داده های نتطه اتصال</string>
+    <string name="noti_softap_setting_text">زمانی که داده در یک زمان به مقدار <xliff:g id="ID_1">%s</xliff:g> رسید طی یک اعلان نشان بده</string>
+    <string name="noti_softap_group_title">تنظیمات داده نقطه اتصال WLAN قابل حمل</string>
+    <string name="noti_softap_setting_cancel">لغو</string>
+    <string name="noti_softap_setting_userDefine">سفارشی سازی</string>
+    <string name="noti_softap_setting_commit">تعهد</string>
+    <string name="noti_softap_setting_units">M</string>
+    <string name="noti_softap_warning_title">اعلان داده</string>
+    <string name="noti_softap_warning_message">میزان مصرف داده در نقطه اتصال به <xliff:g id="ID_1">%s</xliff:g>,رسید، آیا مایلید آن را خاموش کنید؟</string>
+    <string name="noti_softap_close_text">خاموش کردن</string>
+    <string name="noti_softap_no_warning_text">هیچ یادآوری تنظیم نشده</string>
+    <string name="error_phone_number_text">شماره تلفن نامعتبر</string>
+</resources>

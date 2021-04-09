@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="security_wallet_header_on">Włącz</string>
+    <string name="security_wallet_header_off">Wył.</string>
+    <string name="security_wallet_title">Ochrona płatności</string>
+    <string name="security_wallet_empty">Nie znaleziono aplikacji płatniczej</string>
+    <string name="security_wallet_header">Ochrona aplikacji</string>
+    <string name="security_wallet_mini_bar_tip">Następujące aplikacje zostały zweryfikowane jako autentyczne</string>
+    <string name="security_wallet_support">Dostarczone przez AVL</string>
+    <string name="security_wallet_mini_bar_tip_off">Ochrona płatności jest wyłączona</string>
+    <string name="security_wallet_mini_bar_tip_root">System jest zrootowany, płatność jest ryzykowna</string>
+    <string name="security_wallet_off_info">Włączenie ochrony płatności spowoduje skanowanie środowiska, wykrywanie połączeń Wi-Fi i przechwycenie złośliwych kodów w celu ochrony płatności, gdy aplikacja płatności jest uruchomiona.</string>
+    <string name="security_wallet_jump_to_app_store">pobierz więcej zweryfikowanych aplikacji</string>
+    <string name="security_wallet_jump_to_app_store_not_found">nie można uruchomić sklepu z aplikacjami</string>
+    <string name="security_safed_list_installed_toast">
+        <xliff:g>%1$s</xliff:g> zainstalowano do ochrony płatności</string>
+    <string name="security_safed_list_updated_toast">Pomyślnie zaktualizowano regułę listy aplikacji finansowych\nwersja:<xliff:g>%1$s</xliff:g></string>
+</resources>

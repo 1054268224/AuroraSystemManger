@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="security_wallet_header_on">Activado</string>
+    <string name="security_wallet_header_off">Cerrar</string>
+    <string name="security_wallet_title">Proteccion de pagos</string>
+    <string name="security_wallet_empty">Apps no geniuna de pagos encontrada</string>
+    <string name="security_wallet_header">Protegiendo apps</string>
+    <string name="security_wallet_mini_bar_tip">Las siguientes apps han sido verificadas para ser geniunas</string>
+    <string name="security_wallet_support">Ofrecido por AVL</string>
+    <string name="security_wallet_mini_bar_tip_off">Proteccion de pagos esta cerrado</string>
+    <string name="security_wallet_mini_bar_tip_root">Hay un riesgo por pagos</string>
+    <string name="security_wallet_off_info">La proteccion de pagos buscará el ambiente, detectar Wifi y interceptar codigos maliciosos para proteger el pago y su seguridad cuando se ejecute la app</string>
+    <string name="security_wallet_jump_to_app_store">obtener mas apps verificadas</string>
+    <string name="security_wallet_jump_to_app_store_not_found">no se puede inciar la app store</string>
+    <string name="security_safed_list_installed_toast">
+        <xliff:g>%1$s</xliff:g> instalado para proteccion de pagos</string>
+    <string name="security_safed_list_updated_toast">Actualización con éxito de las reglas de la aplicación financiera\nversion:<xliff:g>%1$s</xliff:g></string>
+</resources>

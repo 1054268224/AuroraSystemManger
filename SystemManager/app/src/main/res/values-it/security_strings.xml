@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="security_wallet_title">Protezione del pagamento</string>
+    <string name="security_wallet_empty">Nessuna app di pagamento autentica trovata</string>
+    <string name="security_wallet_header">Protezione delle app</string>
+    <string name="security_wallet_header_on">Apri</string>
+    <string name="security_wallet_header_off">Closed</string>
+    <string name="security_wallet_mini_bar_tip">Le seguenti app sono state verificate come genuine</string>
+    <string name="security_wallet_support">Alimentato da AVL</string>
+    <string name="security_wallet_mini_bar_tip_off">La protezione del pagamento è chiusa</string>
+    <string name="security_wallet_mini_bar_tip_root">Il sistema rooted esiste il rischio di pagamento</string>
+    <string name="security_wallet_off_info">La protezione aperta dei pagamenti esegue la scansione dell\'ambiente, rileva le connessioni WLAN e intercetta i codici dannosi per proteggere la sicurezza dei pagamenti quando l\'app di pagamento viene eseguita</string>
+    <string name="security_wallet_jump_to_app_store">ottieni più app verificate</string>
+    <string name="security_wallet_jump_to_app_store_not_found">​​non può avviare l\'app store</string>
+    <string name="security_safed_list_installed_toast">
+        <xliff:g>%1$s</xliff:g> installato per la protezione del pagamento</string>
+    <string name="security_safed_list_updated_toast">Aggiornamento regola delle app delle app finanziarie \ nversion: <xliff:g>%1$s</xliff:g></string>
+</resources>

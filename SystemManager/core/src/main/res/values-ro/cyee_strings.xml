@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">  
+  <string name="cyee_app_name">UI Cyee</string>  
+  <string name="cyee_capital_on">ON</string>  
+  <string name="cyee_capital_off">OFF</string>  
+  <string name="cyee_time_picker_dialog_title">Setare oră</string>  
+  <string name="cyee_date_picker_dialog_title">Setare dată</string>  
+  <string name="cyee_date_time_done">Realizat</string>  
+  <string name="cyee_copy">Copiere</string>  
+  <string name="cyee_paste">Inserare</string>  
+  <string name="cyee_cut">Decupare</string>  
+  <string name="cyee_selectAll">Selectare toate</string>  
+  <string name="cyee_select">Selectare</string>  
+  <string name="cyee_inputMethod">Metodă introducere</string>  
+  <string name="cyee_back_button_label">Înapoi</string>  
+  <string name="cyee_next_button_label">Următorul</string>  
+  <string name="cyee_skip_button_label">Omiteți</string>  
+  <string name="cyee_ok">OK</string>  
+  <string name="cyee_cancel">Anulare</string>  
+  <string name="cyee_yes">OK</string>  
+  <string name="cyee_no">Anulare</string>  
+  <string name="cyee_action_mode_done">Realizat</string>  
+  <string name="cyee_action_bar_home_description">Navigare acasă</string>  
+  <string name="cyee_action_bar_up_description">Navigare sus</string>  
+  <string name="cyee_smart_full_btn_label">OK</string>  
+  <string name="cyee_activity_resolver_use_always">Întodeauna</string>  
+  <string name="cyee_activity_resolver_use_once">O dată</string>  
+  <string name="cyee_noApplications">Nicio aplicație nu poate realiza această acțiune.</string>  
+  <string name="cyee_system_label">Sistem Android</string>  
+  <string name="cyee_whichApplication">Realizați acțiunea utilizând</string>  
+  <string name="cyee_chooseActivity">Alege o acțiune</string>  
+  <string name="cyee_actionbar_magic_item_more">Mai multe</string>  
+  <string name="cyee_actionbar_magic_item_close">Închide</string>  
+  <string name="cyee_edit_mode_leftbtn_txt">Anulare</string>  
+  <string name="cyee_edit_mode_rightbtn_txt">ОК</string>  
+  <string name="cyee_strong_warning">Avertisment</string>
+  <string name="cyee_multichoice_select_text"> %1$s selectate</string>
+  <string name="cyee_multichoice_select_all">Selectare toate</string>
+    <string name="cyee_multichoice_cancel_select_all">Deselectare toate</string>  
+    <string name="unit_year">A</string>  
+    <string name="unit_month">L</string>  
+    <string name="unit_day">Z</string>  
+    <string name="unit_hour">O</string>  
+    <string name="unit_minute">M</string>  
+    <string name="clone_suffix">clonare</string>  
+    <string name="cyee_loading">Se încarcă\u2026</string>
+</resources>

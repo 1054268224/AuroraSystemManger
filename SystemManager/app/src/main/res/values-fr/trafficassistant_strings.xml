@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="text">Texte</string>
+    <string name="trafficassistant_app_name">Moniteur de trafic</string>
+    <string name="tabbar_name1">Logement SIM 1</string>
+    <string name="tabbar_name2">Logement SIM 2</string>
+    <string name="remained_flow_string">Surplus</string>
+    <string name="exceed_flow_string">Dépassement</string>
+    <string name="used">Utilisé</string>
+    <string name="used_flow_string">
+        <xliff:g id="ID_1">%s</xliff:g> Mo utilisés</string>
+    <string name="total_flow_string">Total <xliff:g id="ID_1">%s</xliff:g> Mo</string>
+    <string name="prompt_no_settings_traffic">Non défini</string>
+    <string name="no_settings">Non défini</string>
+    <string name="prompt_used_traffic">Utilisé\n<xliff:g id="ID_1">%s</xliff:g> Mo</string>
+    <string name="month">Mois</string>
+    <string name="day">Jour(s)</string>
+    <string name="noti_today">Données utilisées aujourd\'hui</string>
+    <string name="noti_surplus">Gratuit</string>
+    <string name="noti_exceed">Dépassement</string>
+    <string name="noti_total">Global</string>
+    <string name="noti_no_settings">Forfait de données non défini</string>
+    <string name="noti_no_card">SIM non insérée.</string>
+    <string name="start_date_string">Mensuel</string>
+    <string name="limit_flow">Définir le forfait de données</string>
+    <string name="detail_flow">Organigrammes</string>
+    <string name="network_control">Contrôle du réseau</string>
+    <string name="more_settings">Plus de paramètres</string>
+    <string name="traffic_save">Économie de données</string>
+    <string name="no_card_warning">Veuillez insérer la carte SIM</string>
+    <string name="action_known">OK</string>
+    <string name="action_settings">À définir</string>
+    <string name="action_cancel">Annuler</string>
+    <string name="action_done">OK</string>
+    <string name="action_save">Enregistrer</string>
+    <string name="action_sure">OK</string>
+    <string name="action_allow">Autoriser</string>
+    <string name="action_prohibit">Interdire</string>
+    <string name="action_all_allow">Tout autoriser</string>
+    <string name="action_all_prohibit">Tout désactiver</string>
+    <string name="application_info">Informations sur l\'application</string>
+    <string name="data_connect_allow">Contrôler les connexions</string>
+    <string name="total_flow_settings">Limite mensuelle d\'utilisation des données</string>
+    <string name="input_hint">Veuillez saisir</string>
+    <string name="warning_settings">Valeur d\'avertissement</string>
+    <string name="date_start_settings">Date de début d\'utilisation des données</string>
+    <string name="used_flow_settings">Données consommées</string>
+    <string name="flow_unit">Mo</string>
+    <string name="percent_unit">%</string>
+    <string name="mobile_data_stop_title">Alerte de consommation des données</string>
+    <string name="mobile_data_stop_contetn">Votre forfait mensuel de données mobiles a expiré. Continuer à utiliser les données mobiles entraînera des frais, voulez-vous continuer ?</string>
+    <string name="action_restart">Continuer à utiliser</string>
+    <string name="action_stop">Ne pas utiliser</string>
+    <string name="info_save_error_no_flow_input">Veuillez saisir la limite de données mensuelle.</string>
+    <string name="info_prompt">Vous pouvez ajuster manuellement la valeur de l\'utilisation des données.</string>
+    <string name="popup_notification_title">Forfait de données non défini</string>
+    <string name="popup_notification_ticker_title">Vous n\'avez pas défini la limite de consommation de données</string>
+    <string name="popup_notification_content">Cliquez pour définir un moniteur de l\'utilisation des données en temps réel</string>
+    <string name="popup_setting_title_dialog">Définir le forfait de données</string>
+    <string name="popup_setting_content_dialog">Définissez le forfait de données et ajoutez une sécurité afin de limiter les frais du téléphone.</string>
+    <string name="notification_warn_exceed_warning_title">Alerte rouge du forfait de données</string>
+    <string name="notification_warn_exceed_warning_content">La consommation de données a atteint la limite d\'avertissement. Appuyez pour consulter l\'utilisation.</string>
+    <string name="percent_value">80</string>
+    <string name="warning_value">0.0</string>
+    <string name="zero_percent">80%</string>
+    <string name="total_percent">100%</string>
+    <string name="process_kernel_labels">Android OS</string>
+    <string name="data_usage_uninstalled_apps_users">Applications et utilisateurs désinstallés</string>
+    <string name="data_usage_uninstalled_apps">Applications désinstallées</string>
+    <string name="tether_settings_title_all">paramètres de partage de connexion</string>
+    <string name="tether_settings_title_wifi">Point d\'accès Wi-Fi mobile</string>
+    <string name="tether_settings_title_usb_bluetooth">Partage de connexion</string>
+    <string name="tether_settings_title_usb">Partage de connexion USB</string>
+    <string name="tether_settings_title_bluetooth">Partage de connexion Bluetooth</string>
+    <string name="running_process_item_user_label">Utilisateur : %1$s</string>
+    <string name="data_usage_app_restricted">restreint</string>
+    <string name="usage_detail">Détails de consommation</string>
+    <string name="version_name">Version :</string>
+    <string name="traffic_time_day">Données utilisées aujourd\'hui (<xliff:g id="ID_1">%s</xliff:g>)</string>
+    <string name="traffic_time_week">Données utilisées cette semaine (<xliff:g id="ID_1">%s</xliff:g>)</string>
+    <string name="traffic_time_month">Données utilisées ce mois-ci (<xliff:g id="ID_2">%s</xliff:g>)</string>
+    <!--Gionee baiyh 2015-01-14 modify for CR01430127 begin -->
+    <string name="traffic_day">Données utilisées\n aujourd\'hui</string>
+    <!--Gionee xionghonggang 2017-03-09 modify for 80163 begin -->
+    <string name="traffic_week">Données utilisées\ncette semaine</string>
+    <!--Gionee xionghonggang 2017-03-09 modify for 80163 end -->
+    <string name="traffic_month">Données utilisées\nce mois-ci</string>
+    <!--Gionee baiyh 2015-01-14 modify for CR01430127 end -->
+    <string name="traffic_day_no">Données restantes aujourd\'hui</string>
+    <string name="traffic_week_no">Données non utilisées cette semaine</string>
+    <string name="traffic_month_no">Données non utilisées ce mois-ci</string>
+    <string name="network_selection">Données utilisées ce mois-ci</string>
+    <string name="no_value">Aucun</string>
+    <string name="text_loading">Chargement en cours…</string>
+    <string name="text_noti">Traitement en cours…</string>
+    <string name="traffic_monitor_display">
+        <xliff:g id="ID_1">%s</xliff:g> la consommation de données 2G/3G/4G est comme suit :</string>
+    <string name="traffic_monitor_title">La plupart de la consommation cette semaine</string>
+    <string name="traffic_monitor_message">
+        <xliff:g id="ID_1">%s</xliff:g>
+    </string>
+    <string name="traffic_settings_main_title">Afficher le Centre de notifications</string>
+    <string name="traffic_network_speed_title">Afficher la vitesse du réseau</string>
+    <string name="traffic_network_speed_summary">La vitesse du réseau sera affichée dans la barre d\'état lorsque cette fonction est activée</string>
+    <string name="traffic_notification_title">Afficher les informations de consommation</string>
+    <string name="traffic_notification_summary">Consultez la barre de notification pour afficher les informations de consommation des données</string>
+    <string name="traffic_netcontrol_bar_allow_text">Autoriser la mise en réseau (<xliff:g id="ID_1">%1$s</xliff:g>)</string>
+    <string name="traffic_netcontrol_bar_prohibit_text">Internet interdit (<xliff:g id="ID_1">%1$s</xliff:g>)</string>
+    <string name="net_link_allowed_txt">Aucune application n\'est autorisée à accéder à Internet</string>
+    <string name="net_link_prohibited_txt">Toutes les applications sont autorisées à accéder à Internet</string>
+    <string name="traffic_save_setting">Paramètres d\'économie de données</string>
+    <string name="switch_off">Désactiver</string>
+    <string name="switch_on">Activer</string>
+    <string name="traffic_save_off">Le mode d\'économie de données est désactivé</string>
+    <string name="traffic_save_off_summary">Cette fonction est n\'est valable qu\'avec le réseau de données mobiles</string>
+    <string name="traffic_save_total_title">Vous avez accumulé des économies</string>
+    <string name="traffic_save_total_num_string">328</string>
+    <string name="total_volume_string">Mo</string>
+    <string name="money_save_total_title">A propos du Renminbi</string>
+    <string name="money_save_total_num_string">32.8</string>
+    <string name="total_money">Yuan</string>
+    <string name="traffic_save_support_txt">Par OPERA</string>
+    <string name="traffic_save_history">Voir l\'historique du mode d\'économie de données</string>
+    <string name="traffic_save_history_total">Données économisées au total</string>
+    <string name="traffic_question1">1. Comment réduisons-nous l\'utilisation des données ?</string>
+    <string name="traffic_question2">2. Pourquoi ne réalisez-vous pas la quantité de données que vous avez économisées ?</string>
+    <string name="traffic_question3">3. Le mode d\'économie de données utilise-t-il lui-même des données ?</string>
+    <string name="traffic_question4">4. La navigation sur Internet est-elle sécurisée en mode d\'économie de données ?</string>
+    <string name="traffican_answer1">Lorsque l\'Économiseur de données est activé, il redimensionnera vos textes, images, etc. et réduira les données consommées par des applications telles que QQ, WeChat, Taobao. L\'utilisation continue de cette fonctionnalité entraînera de meilleurs résultats.</string>
+    <string name="traffican_answer2">5. Le mode d\'économie de données ne fonctionne que lorsque vous naviguez à l\'aide d\'un forfait de données, il sera désactivé avec le Wi-Fi. Ce mode fonctionne uniquement pour les mots et les images, et non pour la vidéo et le téléchargement d\'autres fichiers.</string>
+    <string name="traffican_answer3">Le mode d\'économie de données ne consomme pas lui-même de données. Une fois activé, toute l\'utilisation de données 2G/3G/4G sera réduite. Certaines applications de sécurité considèrent qu\'il consomme lui-même des données, Mais en réalité, ce n\'est pas le cas, ne vous inquiétez pas.</string>
+    <string name="traffican_answer4">Cette fonction ne nécessite l\'accès à aucune de vos informations confidentielles, n\'hésitez pas à l\'utiliser.</string>
+    <string name="traffican_question_answer">Aide</string>
+    <string name="traffican_whitelist_title">Liste blanche de consommation de données</string>
+    <string name="text_no_traffic_whitelist">Pas besoin d\'économiser des données</string>
+    <string name="traffic_simcard_focus1">SIM 1</string>
+    <string name="traffic_simcard_focus2">SIM 2</string>
+    <!--Gionee baiyh 2015-01-14 modify for CR01430127 begin -->
+    <string name="traffic_netcontrol_tab_bar_allow_text">Réseau Wi-Fi</string>
+    <string name="traffic_netcontrol_tab_bar_prohibit_text">Réseau de données</string>
+    <!--Gionee baiyh 2015-01-14 modify for CR01430127 end -->
+    <string name="traffic_title_allow_text">
+        <xliff:g id="ID_1">%1$s</xliff:g> Applications réseau autorisés
+    </string>
+    <string name="traffic_title_prohibit_text">
+        <xliff:g id="ID_1">%1$s</xliff:g> Applications Réseau interdit
+    </string>
+    <string name="time_format">aaaa-MM</string>
+    <string name="traffic_back_toast_text">Application de l\'opération de contrôle du réseau en cours, veuillez patienter</string>
+    <string name="traffic_title_text">
+        <xliff:g id="ID_1">%1$s</xliff:g> applications</string>
+    <string name="btn_try_again_txt">réessayer</string>
+    <string name="data_load_txt">chargement…</string>
+    <string name="calibrate_setting_province">Province</string>
+    <string name="noti_softap_setting_cancel">Annuler</string>
+    <string name="noti_softap_setting_userDefine">Personnaliser</string>
+    <string name="noti_softap_close_text">Désactiver</string>
+    <string name="noti_softap_group_title">Paramètre de données du point d\'accès Wi-Fi mobile</string>
+    <string name="noti_softap_setting_title">Notification de partage de données du point d\'accès</string>
+    <string name="noti_softap_setting_text">Afficher une notification lorsque <xliff:g id="ID_1">%s</xliff:g> de données sont partagées en une seule fois</string>
+    <!--Gionee chenyu 2016-06-01 add for CR01709765 begin -->
+    <string name="noti_softap_no_warning_text">Aucun rappel</string>
+    <!--Gionee chenyu 2016-06-01 add for CR01709765 end -->
+    <string name="traffic_origan_txt">Données normales</string>
+    <string name="traffic_idle_txt">Données en inactivité</string>
+    <string name="noti_softap_setting_commit">Commettre</string>
+    <string name="dialog_btn_cancel">Annuler</string>
+    <string name="hotspot_restart">Redémarrer</string>
+    <string name="lockscreen_traffic_remind_close">Aucun rappel</string>
+    <string name="traffic_save_wait_text">Mise à jour des données en cours, veuillez patienter.</string>
+    <string name="traffic_btn_calibration_text">étalonner</string>
+    <string name="traffic_limit_settings_title">Paramètre de consommation des données</string>
+    <string name="traffic_origan">Forfait de données normal</string>
+    <string name="traffic_idle_show_title">Données en inactivité la nuit</string>
+    <string name="traffic_idle_available">Données en inactivité disponibles</string>
+    <string name="traffic_idle_used">Données en inactivité utilisées</string>
+    <string name="traffic_buy_title">Acheter des données</string>
+    <string name="buy_step1_title">1. Saisissez le numéro</string>
+    <string name="buy_step2_title">2. Sélectionnez la valeur à ajouter</string>
+    <string name="buy_step3_title">3. Payez et achetez</string>
+    <string name="buy_step_title">1. Saisissez le numéro &gt; 2. Sélectionnez la valeur à ajouter &gt; 3. Payez et achetez</string>
+    <string name="order_info_title">informations de commande</string>
+    <string name="traffic_packge_text">
+        <xliff:g id="ID_1">%1$s</xliff:g> packages de consommation</string>
+    <string name="traffic_packge_default_money">2 YUAN</string>
+    <string name="traffic_packge_default_instruction">Fonctionnement au niveau national, paiement immédiat</string>
+    <string name="mobile_info_numble">Numéro de recharge : <xliff:g id="ID_1">%1$s</xliff:g></string>
+    <string name="pay_order_title">Payer et commander</string>
+    <string name="pay_order_Immediately_title">Payer immédiatement</string>
+    <string name="show_problem_title">Problème courant</string>
+    <string name="buy_record_title">historique des achats</string>
+    <string name="problem1_title">1. Les données rechargées peuvent-elles être utilisées en itinérance ?</string>
+    <string name="problem1_content">Veuillez prêter attention à la fenêtre contextuelle, par exemple le pays affiché peut exprimer l\'itinérance nationale.</string>
+    <string name="problem2_title">2. Quelle est la durée de validité de la recharge de données ?</string>
+    <string name="problem2_content">Les données rechargées peuvent uniquement être utilisées le mois au cours duquel vous avez rechargé, la date limite est à la fin du mois, veuillez vérifier les détails dans le message du fournisseur de services.</string>
+    <string name="problem3_title">Comment vérifier si votre compte a été crédité après la recharge ?</string>
+    <string name="problem3_content">Veuillez consulter les détails du message de l\'opérateur après la recharge, vous pouvez également appeler le numéro du fournisseur de services pour confirmer que la recharge est arrivée sur votre compte.</string>
+    <string name="problem4_title">Que se passe-t-il si vous avez rechargé un mauvais numéro ?</string>
+    <string name="problem4_content">Désolé, lorsqu\'un mauvais numéro est saisi, les opérateurs (mobile, China Unicom, telecom) ne réalisent pas de remboursement. Vous pouvez choisir les moyens suivants pour essayer de compenser la perte : 1. Contactez le numéro rechargé et demandez au client s\'il est prêt à vous compenser pour le flux de données ; 2. Contactez le service client de l\'opérateur et demandez s\'il est possible de rembourser les données sous forme de recharge.</string>
+    <string name="problem5_title">Combien de temps prend le remboursement en cas d\'échec de la recharge ?</string>
+    <string name="problem5_content">Normalement, nous vous rembourserons en cas d\'échec. Pendant 24 heures, vous pouvez rejoindre le groupe QQ officiel (188473978) pour recevoir un retour.</string>
+    <string name="problem6_title">6. Comment puis-je vérifier l\'historique de mes commandes et de mes achats ?</string>
+    <string name="problem6_content">Vous pouvez consulter l\'historique des recharges dans la partie supérieure de la recharge de données.</string>
+    <string name="mobile_invalid_text">mobile non valide</string>
+    <string name="sell_alipay">payer via alipay</string>
+    <string name="sell_weixin_pay">payer via wechat</string>
+    <string name="payment_success_txt">Commande réussie // Commande placée avec réussie</string>
+    <string name="payment_failed_txt">échec de la commande</string>
+    <string name="payment_pre_txt">Recharge</string>
+    <string name="no_record_txt">Aucun historique</string>
+    <string name="query_record_falil_txt">Échec de la requête</string>
+    <string name="net_error_text">Veuillez vérifier votre connexion de données</string>
+    <string name="exit_Contacts_text">Ne figure pas dans le carnet d\'adresses</string>
+    <string name="traffic_idle_set_title">Paramètre des données en inactivité</string>
+    <string name="traffic_correctting_txt">Étalonnage en cours…</string>
+    <string name="correctting_wait_txt">Veuillez patienter…</string>
+    <string name="correctting_fail_txt">Échec de la correction, veuillez réessayer ultérieurement</string>
+    <string name="correctting_success_txt">L\'utilisation de données a été confirmée, <xliff:g id="ID_1">%1$s</xliff:g> Mo restants</string>
+    <string name="query_traffic_txt">Recherche de votre utilisation de données…</string>
+    <string name="query_product_fail_txt">Aucun package d\'abonnement disponible</string>
+    <string name="query_product_record_fail_txt">Échec de la vérification de l\'historique des produits</string>
+    <string name="no_install_weixin_txt">Veuillez confirmer que vous avez installé WeChat</string>
+    <string name="no_correct_service_txt">Initialisation en cours, réessayez ultérieurement…</string>
+    <string name="buy_number_hint_txt">Veuillez saisir votre numéro de téléphone.</string>
+    <string name="no_query_code_txt">Échec de l\'étalonnage, veuillez régler le flux de packages manuellement</string>
+    <string name="buy_omitted_displayname">
+        <xliff:g id="ID_1">%1$s</xliff:g>…</string>
+    <string name="calibrate_setting_txt">Paramètre d\'étalonnage</string>
+    <string name="calibrate_setting_brand">Marque de l\'opérateur</string>
+    <string name="calibrate_setting_province_choice">Choix de la province</string>
+    <string name="calibrate_setting_brand_choice">Choix du fournisseur de services</string>
+    <string name="calibrate_send_msg_fail">Échec de l\'envoi du SMS. Veuillez vérifier vos paramètres réseau.</string>
+    <string name="traffic_flaw_price_txt">
+        <xliff:g id="ID_1">%1$s</xliff:g>YUAN</string>
+    <string name="buy_record_baseinfo_txt">
+        <xliff:g id="ID_1">%1$s</xliff:g> Recharge<xliff:g id="ID_2">%2$s</xliff:g> /<xliff:g id="ID_3">%3$s</xliff:g>YUAN</string>
+    <string name="buy_record_paytype_txt">
+        <xliff:g id="ID_1">%1$s</xliff:g>
+        <xliff:g id="ID_2">%2$s</xliff:g>
+    </string>
+    <string name="noti_softap_setting_units">M</string>
+    <string name="noti_softap_warning_title">Notification des données</string>
+    <string name="noti_softap_warning_message">Le partage de données du point d\'accès a atteint <xliff:g id="ID_1">%s</xliff:g>, voulez-vous désactiver le point d\'accès ?</string>
+    <string name="error_phone_number_text">Numéro de téléphone incorrect</string>
+    <string name="nogi_entry_buy_text">Cliquez pour acheter des packs de données</string>
+    <string name="info_save_error_no_used_input">Veuillez saisir l\'utilisation des données</string>
+    <string name="payment_sended_txt">Les commandes ont été envoyées, en attente de la recharge de l\'opérateur…</string>
+    <string name="payment_explain_txt">Les données que vous avez rechargées sont généralement créditées sur votre compte dans l\'heure, mais la recharge peut parfois être retardée à cause d\'une mauvaise connexion. Vous pouvez appeler ou envoyer un message à votre fournisseur de services pour vérifier quand elles seront sur votre compte. \n La recharge peut échouer et être remboursée si le solde de votre compte est insuffisant, s\'il comporte des packages incompatibles ou s\'il n\'a pas été réglé par le fournisseur de services, etc., cela peut être confirmé par un message du fournisseur de services.</string>
+    <string name="payment_fail_reason_txt">Échec de l\'opération. Cela peut être dû à des problèmes de réseau, le système de l\'opérateur est occupé ou d\'autres causes inconnues</string>
+    <string name="weixin_freezed_txt">WeChat a été désactivé, et ne peut pas être utilisé</string>
+    <string name="dialog_btn_unlock">Libérer</string>
+    <string name="dialog_network_control_title">Alerte du Gestionnaire du système</string>
+    <string name="net_type_mobile">Réseau mobile</string>
+    <string name="net_type_wifi">Réseau Wi-Fi</string>
+    <string name="dialog_not_alert_again">Pas d\'avertissement</string>
+    <string name="dialog_network_control_content">L\'utilisation de <xliff:g id="ID_1">%1$s</xliff:g> a été interdite <xliff:g id="ID_1">%1$s</xliff:g>, voulez-vous l\'activer à nouveau ?</string>
+    <string name="noti_softap_use_agiain_txt">Utiliser <xliff:g id="ID_1">%1$d</xliff:g> Mo</string>
+    <string name="dialog_know">OK</string>
+    <string name="hotspot_settingvalue_valid">Vous recevrez à nouveau un rappel lorsque le point d\'accès a partagé <xliff:g id="ID_1">%1$d</xliff:g> Mo</string>
+    <string name="hotspot_settingvalue_invalid">
+        <xliff:g id="ID_1">%1$1.2f</xliff:g>Mo utilisés, veuillez redémarrer.</string>
+    <string name="hotspot_userdefine_settingvalue_invalid">Données non valides, veuillez redémarrer.</string>
+    <string name="hotspot_auto_close_message">La limite de partage des données du point d\'accès a atteint <xliff:g id="ID_1">%d</xliff:g> Mo, désactivez le point d\'accès pour éviter une consommation excessive</string>
+    <string name="weixin_disenabled_txt">WeChat a été désactivé, et ne peut pas être utilisé</string>
+    <string name="lockscreen_traffic_limit_one">100 k</string>
+    <string name="lockscreen_traffic_limit_two">1 M</string>
+    <string name="lockscreen_traffic_limit_three">5 M</string>
+    <string name="lockscreen_traffic_remid_title">Rappel d\'utilisation de données sur l\'écran de verrouillage</string>
+    <string name="traffic_remind_group_title">Rappel de données</string>
+    <string name="lockscreen_traffic_remid_txt">L\'utilisation des données a atteint <xliff:g id="ID_1">%1$s</xliff:g></string>
+    <string name="lock_screen_traffic_title">L\'utilisation des données a atteint <xliff:g id="ID_1">%s</xliff:g></string>
+    <string name="lock_screen_traffic_content">Appuyez pour consulter les détails</string>
+    <string name="lock_screen_traffic_unknow_app">Application inconnue</string>
+    <string name="traffic_monitor_display_kr">
+        <xliff:g id="ID_1">%s</xliff:g> la consommation de données 3G est comme suit :</string>
+    <string name="temp_carrieroperator_title">Pékin, Chine</string>
+    <string name="traffic_original_price_txt">
+        <xliff:g id="ID_1">%1$s</xliff:g>
+    </string>
+    <string name="traffic_pay_dialag_title">payer <xliff:g id="ID_1">%1$1.2f</xliff:g>YUAN, sélectionnez la méthode de paiement</string>
+    <string name="traffic_packge_title">
+        <xliff:g id="ID_1">%1$s</xliff:g>
+        <xliff:g id="ID_2">%2$1.2f</xliff:g>YUAN<xliff:g id="ID_3">%3$s</xliff:g>package</string>
+    <string name="traffic_pay_mobile">mobile : <xliff:g id="ID_1">%1$s</xliff:g></string>
+    <string name="traffic_pay_time">heure de paiement : <xliff:g id="ID_1">%1$s</xliff:g></string>
+    <string name="traffic_pay_type">type de paiement : <xliff:g id="ID_1">%1$s</xliff:g></string>
+    <string name="traffic_pay_original_price">prix d\'origine : <xliff:g id="ID_1">%1$1.2f</xliff:g>YUAN</string>
+    <string name="traffic_pay_price">prix à payer : <xliff:g id="ID_1">%1$1.2f</xliff:g>YUAN</string>
+    <string name="traffic_pay_orider_id">ID de commande : <xliff:g id="ID_1">%1$s</xliff:g></string>
+    <string name="traffic_buy_open_fail">Échec dû à une mauvaise connexion ou d\'autres causes, veuillez réessayer ultérieurement</string>
+    <string name="traffic_buy_alipay">Alipay</string>
+    <string name="traffic_buy_weixin">WeChat</string>
+    <string name="product_description">Disponible dans tout le pays, valide ce mois-ci uniquement</string>
+    <string name="historyorder_title">Historique des commandes</string>
+    <string name="historyorder_detail_title">Détail de l\'historique des commandes</string>
+    <string name="historyorder_empty_txt">Historique des commandes vide</string>
+    <string name="historyorder_alipay">Alipay</string>
+    <string name="historyorder_wechat_pay">wechat pay</string>
+    <string name="historyorder_paying">paiement en cours</string>
+    <string name="historyorder_payed_success">paiement réussi</string>
+    <string name="historyorder_payed_fail">échec du paiement</string>
+    <string name="historyorder_chargeback_success">remboursement réussi</string>
+    <string name="historyorder_payment_success">paiement réussi</string>
+    <string name="historyorder_payment_fail">échec du paiement</string>
+    <string name="historyorder_supporttel">assistance téléphone</string>
+    <string name="historyorder_dial">composer</string>
+    <string name="historyorder_status">état de l\'historique des commandes : <xliff:g id="ID_1">%1$s</xliff:g></string>
+    <string name="historyorder_query_failed">échec de la requête</string>
+    <string name="historyorder_retry">réessayer</string>
+    <string name="noti_surplus_message">Disponible ce mois-ci <xliff:g id="ID_1">%1$s</xliff:g></string>
+    <string name="noti_exceed_message">Dépassé ce mois-ci <xliff:g id="ID_1">%1$s</xliff:g></string>
+    <string name="unknow_app">Application inconnue</string>
+</resources>

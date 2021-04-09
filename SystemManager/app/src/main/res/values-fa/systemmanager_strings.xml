@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+  Copyright (C) 2012 The Android Open Source Project
+
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+  -->
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">  
+    <string name="app_name">مدیر سیستم</string>
+    <string name="cell_accelerator">پاکسازی حافظه</string>
+    <string name="cell_accelerator_summary">مقدار حافظه مصرفی <![CDATA[<font color="#d23030">%1$s%%</font>]]></string>
+    <string name="rubbish_clean">پاکسازی حافظه موقت</string>
+    <string name="rubblish">حافظه موقت</string>
+    <string name="power_optimizer">بهینه سازی توان</string>
+    <string name="can_use">میتوان از<![CDATA[<font color="#6eb330">%1$s</font>]]> استفاده کرد</string>
+    <string name="charge_time">نیاز به <![CDATA[<font color="#6eb330">%1$s</font>]]></string>
+    <string name="traffic_monitor">نظارت بر ترافیک</string>
+    <string name="traffic_remained">باقی مانده ترافیک <![CDATA[<font color="#6eb330">%1$s</font>]]></string>
+    <string name="traffic_exceed">ترافیک <![CDATA[<font color="#6eb330">%1$s</font>]]> از حد مجاز گذشت</string>
+    <string name="antivirus"><![CDATA[<font color="#d23030">%1$s个</font>]]>برنامه شک برانگیز</string>
+    <string name="traffic_no_setting">تنظیماتی برای بسته‌های ترافیک داده انجام نشده است</string>
+    <string name="traffic_no_simcard">سیم کارت وارد نشده است</string>
+    <string name="soft_manager">مدیریت برنامه</string>
+    <string name="app_installed">کلیه برنامه‌ها<![CDATA[<font color="#d23030">%1$s</font>]]></string>
+    <string name="perm_manager">"دسترسی برنامه "</string>
+    <string name="minutes">دقیقه</string>
+    <string name="hours">ساعت</string>
+    <string name="cannotget">عدم دسترسی</string>
+    <string name="quick_accelerate">شتاب دهنده دستگاه</string>
+    <string name="toast_content">آزاد کردن%1$s حافظه</string>
+    <string name="menu_setting">تنظیمات</string>
+    <string name="items_switch">نظارت بر پس زمینه</string>
+    <string name="net_monitor_title">یادآوری کننده مصرف ترافیک داده</string>
+    <string name="net_monitor_summary">مصرف ترافیک داده هر نرم افزار را هفته ای یک بار بررسی کن</string>
+    <string name="energy_monitor_title">یادآوری مصرف توان</string>
+    <string name="energy_monitor_summary">مصرف توان هر نرم افزار را هفته‌ای یک بار بررسی کن</string>
+    <string name="apps_monitor_title">به ندرت از یادآورنده ی نرم افزار‌ها استفاده کن</string>
+    <string name="apps_monitor_summary">تعداد دفعات استفاده از هر برنامه را در هفته یکبار بررسی کن</string>
+    <string name="root_monitor_title">یادآوری کننده روت</string>
+    <string name="root_monitor_summary">بررسی کن آیا گوشی روت شده است</string>
+    <string name="desktop_monitor_title">نظارت بر میزکار</string>
+    <string name="desktop_monitor_summary">نظارت کن که آیا میزکار در حالت پیش فرض است و آن را در نوار حالت نشان بده</string>
+    <string name="utilization_title">هشدار سیستمی</string>
+    <string name="utilization_content">به سامانه مدیریت سیستم خوش آمدید این برنامه ممکت است ترافیک داده شما را مصرف کند لطفا با سرویس دهنده شبکه خود در مورد هزینه‌های استفاده و اطلاعات مربوط ارتباط برقرار کنید</string>
+    <string name="dialog_checkbox_description">دیگر یادآوری نکن</string>
+    <string name="dialog_exit_btn">خروج</string>
+    <string name="dialog_continue_btn">ادامه</string>
+    <string name="text_antivirus">شناسایی ویروس</string>
+    <string name="text_start_scan">شروع بررسی</string>
+    <string name="text_cancel_scan">لغو بررسی</string>
+    <string name="text_scaning">درحال بررسی ....</string>
+    <string name="text_scaning_result">بررسی کامل شد</string>
+    <string name="text_scaning_reminder">بررسی فوری پیشنهاد میشود</string>
+    <string name="text_score_unit">%</string>
+    <string name="text_menu_savepower">مدیریت انرژی</string>
+    <string name="text_menu_traffic">نظارت بر ترافیک</string>
+    <string name="text_menu_pure">حالت اقتصادی</string>
+    <string name="text_menu_ram">حافظه</string>
+    <string name="text_one_key_check">بازرسی</string>
+    <string name="text_one_key_check_complete">انجام</string>
+    <string name="text_scan_daily_none">برای پاکسازی حافظه لمس کنید</string>
+    <string name="text_scan_daily_cancel">بررسی لغو شد پیشنهاد میشود که دوباره سریعا آن را چک کنید</string>
+    <string name="text_scan_daily_last">آخرین بررسی : <xliff:g id="ID_1">%s</xliff:g></string>
+    <string name="text_scan_result_good">وضعیت گوشی شما مناسب است به بهینه سازی ادامه دهید</string>
+    <string name="text_scan_result_better">"وضعیت گوشی شما مناسب است، شرایط را حفظ کنید"</string>
+    <string name="text_scan_result_problem">"گوشی شما دارای اشکالاتی است، بهینه سازی پیشنهاد میشود"</string>
+    <string name="text_accelerating">شتاب‌دهی</string>
+    <string name="text_memory_release">آزاد سازی حافظه <xliff:g id="ID_1">%s</xliff:g></string>
+    <string name="text_memory_release_running">درحال آزاد سازی حافظه</string>
+    <string name="text_memory_release_display">شتابدهی موفقیت آمیز بود <xliff:g id="ID_1">%s</xliff:g> حافظه آزاد شده</string>
+    <string name="text_memory_used"><xliff:g id="ID_1">%s</xliff:g> استفاده شده</string>
+    <string name="text_phone_state_better">حافظه پاکسازی شد</string>
+    <string name="text_phone_state_problem">وضعیت گوشی نامناسب است فورا شتاب دهی شود</string>
+    <string name="text_root_remind">گوشی روت شده است</string>
+    <string name="text_root_remind_restore">بازیابی</string>
+    <string name="msg_superpower_error">آخرین کلید غیر عادی است لطفا برای تعمیرات راه اندازی مجدد نمایید</string>
+    <string name="msg_error_title">یادآوری غیرعادی</string>
+    <string name="msg_reboot">راه اندازی مجدد</string>
+    <string name="app_process_limit_title">محدودیت فرآیند‌های پس زمینه</string>
+    <string name="app_process_limit_txt">"محدودیت فرآیند‌های پس زمینه %s"</string>
+    <string name="msg_background_process">لیست سفید</string>
+    <string name="pressure_sensor_menu_first">پاکسازی زباله</string>
+    <string name="pressure_sensor_menu_second">برنامه متوقف شد</string>
+    <string name="pressure_sensor_menu_third">تنظیمات پیش فرض برنامه</string>
+    <string name="pressure_sensor_menu_fourth">کنترل شبکه ای</string>
+    <string name="text_in_screenpin">"درحال حاضر در حالت نمایش صفحه است، امکان باز کردن حالت فوق العاده وجود ندارد"</string>
+    <string name="required_permissions_promo">مدیریت سیستم نیاز به اجازه برای دسترسی به گوشی و SDکارت دارد</string>
+    <string name="enable_permission_procedure">شما میتوانید دسترسی به &gt; برنامه‌ها&gt; مدیریت سیستم &gt; در تنظیمات تغییر دهید</string>
+    <string name="enable_permission_procedure_description">شما میتوانید دسترسی به برنامه‌هاو مدیریت سیستم را در تنظیمات تغییر دهید</string>
+    <string name="next_with_arrow">بعدی &gt;</string>
+    <string name="next">بعدی</string>
+    <string name="settings_with_arrow">تنظیمات &gt;</string>
+    <string name="settings">تنظیمات</string>
+</resources>

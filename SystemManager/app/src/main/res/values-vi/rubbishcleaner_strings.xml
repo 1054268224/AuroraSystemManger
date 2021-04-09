@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">  
+    <string name="rubbish_is_scanning">Đang quét</string>
+    <string name="clean_deeply">Làm sạch kĩ</string>
+    <string name="rubbish_file_size">220MB</string>
+    <string name="quickly_clean_rubbish">làm sạch</string>
+    <string name="normal_clean_advice">gợi ý làm sạch</string>
+    <string name="deeplyclean_item_advice">Không gợi ý làm sạch</string>
+    <string name="rubbish_cleaner">làm sạch cache</string>
+    <string name="rubbish_was_cleaned">rác đã được dọn sạch</string>
+    <string name="clean_end">Hoàn tất</string>
+    <string name="rubbish_clean_settings">Cài đặt làm sạch rác</string>
+    <string name="rubbish_clean_alert">Đề xuất làm sạch</string>
+    <string name="rubbish_size_alert">Đề xuất kích cỡ rác</string>
+    <string name="apk_delete_alert">Đề xuất xóa gói cài đặt</string>
+    <string name="apk_delete_alert_summary">Đề xuất xóa gói cài đặt sau khi đã cài đặt</string>
+    <string name="residual_delete_alert">Đề xuất xóa các văn kiện rác còn lại</string>
+    <string name="residual_delete_alert_summary">Đề xuất xóa văn kiện rác còn lại sau xóa ứng dụng xong</string>
+    <string name="deeply_clean_end">Làm sạch hoàn tất</string>
+    <string name="deeply_clean_description">Đã xóa dữ liệu</string>
+    <string name="apk_not_installed">Không cài đặt</string>
+    <string name="apk_was_installed">Đã cài đặt</string>
+    <string name="liebao_supply">Được hỗ trợ kĩ thuật bởi Clean master</string>
+    <string name="deepclean_total_desc">Tổng</string>
+    <string name="deepclean_selected_desc">Đã chọn</string>
+    <string name="go_cancel">Hủy bỏ</string>
+    <string name="go_install_apk">Cài đặt</string>
+    <string name="go_clean">Làm sạch</string>
+    <string name="show_rubbish_size">Kích cỡ</string>
+</resources>

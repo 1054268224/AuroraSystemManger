@@ -1,0 +1,213 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="power_app_name">पावर मैनेजर</string>
+  <!-- 省电主界面 -->
+  <string name="need_charging_time">%s चार्ज करने की आवश्यकता है</string>
+  <string name="is_charging_now">चार्ज हो रहा है</string>
+  <string name="charged_completely">चार्ज है</string>
+  <string name="power_cannotget">पूर्व-सूचना देना में असमर्थ</string>
+  <string name="power_hours">h&#160;</string>
+  <string name="power_minutes">m&#160;</string>
+  <string name="none_power_mode">सामान्य मोड</string>
+  <string name="normal_power_mode">पावर सेविंग मोड</string>
+  <string name="super_power_mode">एक्सट्रीम मोड</string>
+  <string name="none_power_mode_summary">कोई पावर अनुकूलन प्रोसेस नहीं हो रहा है</string>
+  <string name="normal_power_mode_summary">परफॉर्मेंस कम करें</string>
+  <string name="super_power_mode_summary">केवल फोन, कॉन्टैक्ट, मैसेजिंग और घड़ी का उपयोग किया जा सकता है</string>
+  <string name="time_use_in_supermode">स्टैंडबाय: %s</string>
+  <!-- Gionee <yangxinruo> <2016-3-18> <add> for CR01654969 begin -->
+  <string name="mode_item_config_changed">आपने डिफॉल्ट कॉन्फिगरेशन को बदल दिया है</string>
+  <string name="time_use_in_configurable_mode_default">उपलब्ध डिफॉल्ट कॉन्फिग्रेशन : %s</string>
+  <string name="time_use_in_configurable_mode">उपलब्ध:%s</string>
+  <string name="time_use_in_original_mode">यह वर्तमान स्थिति है: %s</string>
+  <string name="power_about">%s</string>
+  <string name="power_low">%s से कम</string>
+  <!-- Gionee <yangxinruo> <2016-3-18> <add> for CR01654969 end -->
+  <!-- 日常省电模式界面 -->
+  <!-- Gionee <yangxinruo> <2016-3-18> <modify> for CR01654969 begin -->
+  <string name="powersaver_mode_category_title">अन्य ऊर्जा सेविंग के आइटम</string>
+  <string name="close_gesture">स्मार्ट जेस्‍चर</string>
+  <string name="close_bluetooth">ब्लूटूथ</string>
+  <string name="close_gps">GPS</string>
+  <string name="close_sync">सिंक करें</string>
+  <string name="close_push_notification">पुश</string>
+  <string name="set_custom_screen_light">ब्राइटनेस</string>
+  <string name="set_cpu_state">CPU इंटेलीजेंट फ्रिक्वेंसी रिडक्शन को खोलें</string>
+  <string name="close_wifi">WLAN ऑफ करें</string>
+  <string name="close_wifi_ap">WLAN हॉटस्पॉट को ऑफ करें</string>
+  <string name="close_nfc">NFC</string>
+  <!-- vibration for cmcc -->
+  <string name="close_vibration">वाइब्रेट</string>
+  <string name="close_data_connection">डेटा कनेक्शन बंद हो रहा है</string>
+  <string name="set_sleep_time">स्लीप</string>
+  <!-- Gionee <yangxinruo> <2016-3-18> <modify> for CR01654969 end -->
+  <!-- Gionee <yangxinruo> <2016-3-18> <add> for CR01654969 begin -->
+  <string name="mode_item_switch_on">ऑन करें</string>
+  <string name="mode_item_switch_off">ऑफ करें</string>
+  <string name="mode_item_switch_pass">अपरिवर्तित रहा</string>
+  <string name="mode_item_cancel">कैंसल करें</string>
+  <string name="set_darktheme">डार्क पावर सेविंग थीम</string>
+  <string name="set_greenbackground">ईको मोड</string>
+  <!-- Gionee <GN_Oversea_Bug> <xuyongji> <20161214> modify for CR01776095 beign -->
+  <string name="mode_item_timeout_s">%d सेकेंड</string>
+  <string name="mode_item_timeout_m">%d मिनट</string>
+  <string name="mode_item_timeout_ms">%d मिनट</string>
+  <!-- Gionee <GN_Oversea_Bug> <xuyongji> <20161214> modify for CR01776095 end -->
+  <string name="mode_item_timeout_perfix">%s के बाद कोई ऑपरेशन नहीं</string>
+  <string name="mode_item_brightness_perfix">%s%%</string>
+  <string name="mode_setting_reset">डिफॉल्ट कॉन्फिगरेशन को रिस्टोर करें</string>
+  <!-- Gionee <yangxinruo> <2016-3-18> <add> for CR01654969 end -->
+  <!-- 省电设置界面 -->
+  <string name="power_saving_mode_title">पॉवर सेविंग सेटिंग</string>
+  <string name="smart_saving">सिस्टम बैकस्टेज पावर सेविंग</string>
+  <!-- Gionee <yangxinruo> <2016-3-1> <modify> for CR01643609 begin -->
+  <string name="night_saving_title">स्लीप मोड में इंटेलीजेंट रूप से पावर सेव करेगा</string>
+  <string name="night_saving_summary">जब स्क्रीन ऑफ होने के बाद लंबे समय तक फोन का उपयोग नहीं किया जाता है, तो नेटवर्क, BT,GPS, सिंक ऑफ हो जाएगा। जब तक कि स्क्रीन ऑन नहीं होती.</string>
+  <!-- Gionee <yangxinruo> <2016-3-1> <modify> for CR01643609 end -->
+  <string name="auto_clean_title">इंटेलिजेंट मेमोरी क्लीन-अप</string>
+  <string name="other_powersaver">अन्य</string>
+  <string name="user_manual">ऊर्जा बचत की युक्तियां</string>
+  <string name="create_shortcut_title">सुपर पॉवर सेव मोड में प्रवेश</string>
+  <string name="create_shortcut_summary">खुले होने पर सुपर पावर मोड में तुरंत</string>
+  <string name="super_power_save">एक्सट्रीम मोड</string>
+  <!-- 省电小贴士内容 -->
+  <string name="battery">बैटरी का रखरखाव</string>
+  <string name="daily_use">बैटरी बचत के सुझाव</string>
+  <string name="battery_use_desc">कृपया 0 से 35 डिग्री सेल्सियस पर चार्ज करें। बैटरी को सुचारु बनाए रखने के लिए महीने में एक बार पूरा चार्ज करें। बैटरी के रख-रखाव के लिए इसके 20% होने पर कभी भी चार्ज करें.</string>
+  <string name="daily_use_desc">स्क्रीन की ब्राइटनेस बिल्कुल कम करने के लिए, एनीमेशन और स्पेशल इफेक्ट बंद करें, स्थिर वॉलपेपर का उपयोग करें। केवल आवश्यक डेस्कटॉप विजेट को छोड़कर, मोबाइल स्पैम और बैकग्राउंड की प्रक्रियाओं का क्लीन करें और एप्लीकेशन को बूट होने से रोकें.</string>
+  <!-- Gionee <yangxinruo> <2016-3-3> add for CR01645219 begin -->
+  <!-- 新版更多耗电详情界面 -->
+  <string name="battery_desc_voice">वॉयस कॉल में प्रयुक्त बैटरी</string>
+  <string name="battery_desc_standby">फोन के निष्क्रिय होने पर प्रयुक्त बैटरी</string>
+  <string name="battery_desc_radio">सेल रेडियो द्वारा उपयोग की गई बैटरी</string>
+  <string name="battery_desc_flashlight">फ्लैशलाइट में प्रयुक्त बैटरी</string>
+  <string name="battery_desc_display">डिस्प्ले और बैकलाइट में प्रयुक्त बैटरी</string>
+  <string name="battery_desc_wifi">WLAN द्वारा उपयोग की गई बैटरी</string>
+  <string name="battery_desc_bluetooth">ब्लूटूथ में प्रयुक्त बैटरी</string>
+  <string name="battery_desc_apps">ऐप में प्रयुक्त बैटरी</string>
+  <string name="battery_desc_users">यूजर द्वारा उपयोग की गई बैटरी</string>
+  <string name="battery_desc_unaccounted">पावर का विविध उपयोग</string>
+  <string name="battery_desc_overcounted">अधिक आंका गया पावर का उपयोग</string>
+  <string name="usage_type_cpu">कुल CPU</string>
+  <string name="usage_type_cpu_foreground">CPU फोरग्राउंड</string>
+  <string name="usage_type_wake_lock">सक्रिय रखें</string>
+  <string name="usage_type_wifi_running">WLAN चल रहा है</string>
+  <string name="usage_type_data_send">मोबाइल पैकेट भेजे गए हैं</string>
+  <string name="usage_type_data_recv">मोबाइल पैकेट प्राप्त हुए हैं</string>
+  <string name="usage_type_radio_active">मोबाइल रेडियो सक्रिय है</string>
+  <string name="usage_type_data_wifi_send">WLAN पैकेट भेजा गया है</string>
+  <string name="usage_type_data_wifi_recv">WLAN पैकेट प्राप्त हुआ है</string>
+  <string name="usage_type_audio">ऑडियो</string>
+  <string name="usage_type_video">वीडियो</string>
+  <string name="usage_type_on_time">टाइम ऑन</string>
+  <string name="usage_type_no_coverage">सिग्नल रहित समय</string>
+  <string name="usage_type_total_battery_capacity">बैटरी की कुल क्षमता</string>
+  <string name="usage_type_computed_power">परिकलित पावर उपयोग</string>
+  <string name="usage_type_actual_power">निरीक्षित पावर का उपयोग</string>
+  <string name="details_subtitle">उपयोग का विवरण</string>
+  <string name="controls_subtitle">पावर के उपयोग को एडजस्ट करें</string>
+  <string name="packages_subtitle">पैकेज शामिल हैं</string>
+  <string name="force_stop">ऐप बंद करें</string>
+  <string name="mah"><xliff:g id="number" example="30">%d</xliff:g> mAh</string>
+  <string name="battery_action_app_details">ऐप की जानकारी</string>
+  <string name="battery_sugg_apps_info">ऐप को रोकें या अनइंस्टॉल करें</string>
+  <string name="location_settings_title">लोकेशन</string>
+  <string name="battery_sugg_apps_gps">बैटरी-सेविंग मोड चुनें</string>
+  <string name="display_settings">डिस्प्ले</string>
+  <string name="battery_sugg_display">स्क्रीन की ब्राइटनेस और/या स्क्रीन समय समाप्त को कम करें</string>
+  <string name="wifi_settings">WLAN</string>
+  <string name="battery_sugg_wifi">उपयोग में न होने या उपलब्ध न होने पर WLAN को ऑफ कर दें</string>
+  <string name="bluetooth_settings">ब्लूटूथ</string>
+  <string name="battery_sugg_bluetooth_basic">ब्लूटूथ का उपयोग न होने पर, उसे ऑफ कर दें</string>
+  <string name="radio_controls_title">अधिक</string>
+  <string name="battery_sugg_radio">जहां सेल कवरेज नहीं होता, वहां पावर सेव करने के लिए एयर प्लेन मोड में स्विच करें</string>
+  <string name="battery_msg_unaccounted">बैटरी का उपयोग पावर का अनुमानित उपयोग है और बैटरी खर्च करने वाले हर स्रोत को शामिल नहीं करता है। विविध, गणना द्वारा प्राप्त पावर का लगभग उपयोग और बैटरी के वास्तविक खर्च के बीच का अंतर है.</string>
+  <string name="battery_history_days"><xliff:g id="days">%1$d</xliff:g>d <xliff:g id="hours">%2$d</xliff:g>h <xliff:g id="minutes">%3$d</xliff:g>m <xliff:g id="seconds">%4$d</xliff:g>s</string>
+  <string name="battery_history_hours"><xliff:g id="hours">%1$d</xliff:g>h <xliff:g id="minutes">%2$d</xliff:g>m <xliff:g id="seconds">%3$d</xliff:g>s</string>
+  <string name="battery_history_minutes"><xliff:g id="minutes">%1$d</xliff:g>m <xliff:g id="seconds">%2$d</xliff:g>s</string>
+  <string name="battery_history_seconds"><xliff:g id="seconds">%1$d</xliff:g>s</string>
+  <string name="battery_history_days_no_seconds"><xliff:g id="days">%1$d</xliff:g>d <xliff:g id="hours">%2$d</xliff:g>h <xliff:g id="minutes">%3$d</xliff:g>m</string>
+  <string name="battery_history_hours_no_seconds"><xliff:g id="hours">%1$d</xliff:g>h <xliff:g id="minutes">%2$d</xliff:g>m</string>
+  <string name="battery_history_minutes_no_seconds"><xliff:g id="minutes">%1$d</xliff:g>M</string>
+  <!-- Gionee <yangxinruo> <2016-4-19> add for CR01680614 begin -->
+  <string name="power_app_others">अन्य</string>
+  <!-- Gionee <yangxinruo> <2016-4-19> add for CR01680614 end -->
+  <!-- Gionee <yangxinruo> <2016-3-3> add for CR01645219 end -->
+  <!-- 更多耗电详情界面 -->
+  <string name="power_consumption_tab_title">पावर के उपयोग की अधिक जानकारी</string>
+  <string name="hardware">हार्डवेयर पावर की खपत</string>
+  <string name="software">सॉफ्टवेयर पावर की खपत</string>
+  <string name="process_kernel_label">Android OS</string>
+  <string name="process_mediaserver_label">मीडिया सर्वर</string>
+  <string name="percentage"><xliff:g id="NUMBER">%.1f</xliff:g> %%</string>
+  <string name="power_phone">वॉयस कॉल</string>
+  <string name="power_screen">स्क्रीन</string>
+  <string name="power_cell">मोबाइल फोन RF</string>
+  <string name="power_wifi">WLAN</string>
+  <string name="power_idle">मोबाइल फोन स्टैंडबाय</string>
+  <string name="power_bluetooth">ब्लूटूथ</string>
+  <string name="power_monitor_title">एप्लीकेशन जिन्होंने इस सप्ताह सबसे अधिक पावर का उपयोग किया</string>
+  <string name="power_monitor_message"><xliff:g id="name">%s</xliff:g></string>
+  <string name="daily_power_open_noti">पावर सेविंग मोड चालू है</string>
+  <!-- Gionee <yangxinruo> <2016-3-18> <add> for CR01654969 begin -->
+  <string name="daily_power_Intelligent_scene_title">GPU डायनामिक ग्राफ अनुकूलन</string>
+  <!-- Gionee <yangxinruo> <2016-3-18> <add> for CR01654969 end -->
+  <string name="dialog_negativebutton_txt">कैंसल करें</string>
+  <string name="dialog_neutralbutton_txt">विवरण देखें</string>
+  <string name="dialog_positivebutton_txt">खोलें</string>
+  <!-- Gionee <yangxinruo> <2016-3-18> <modify> for CR01654969 begin -->
+  <string name="dialog_dailypower_message">यह मोड पावर सेव करने के लिए CPU/GPU की अधिकतम परफॉर्मेंस को सीमित करेगा। <xliff:g id="ID_1">%s</xliff:g>\n\nडिफॉल्ट कॉन्फिगरेशन, ब्लूटूथ, जेस्चर, GPS आदि को ऑफ कर देगा, आप डिफॉल्ट कॉन्फिगरेशन को भी कस्टमाइज कर सकते हैं।\n\nयह मोड आपकी नेटवर्क स्थिति को नहीं बदलेगा.</string>
+  <!-- Gionee <yangxinruo> <2016-3-18> <modify> for CR01654969 end -->
+  <string name="dialog_superpower_message_normal">"एक्‍स्ट्रीम मोड मोबाइल फोन की सेवा को लम्बा खींच सकता है "</string>
+  <string name="dialog_superpower_message_low"></string>
+  <string name="dialog_superpower_message"><xliff:g id="ID_0">%1$s</xliff:g><xliff:g id="ID_1">%2$s\n\nएक्सट्रीम मोड में केवल फोन, कॉन्टैक्ट, SMS और घड़ी का उपयोग कर सकते हैं.\nमोबाइल फोन न्यूनतावादी डेस्कटॉप एंटर करेगा\n\nएक्सट्रीम मोड डेस्कटॉप से विजेट को हटा देगा</xliff:g></string>
+  <string name="super_power_save_label">एक्सट्रीम मोड</string>
+  <string name="super_power_mode_introduction_string1">एक्सट्रीम मोड में केवल <b>फोन, कॉन्टैक्ट, SMS और घड़ी </b>का उपयोग कर सकते हैं</string>
+  <string name="super_power_mode_introduction_string2">मोबाइल फोन न्यूनतावादी डेस्कटॉप एंटर करेगा</string>
+  <string name="super_power_mode_introduction_string3"><xliff:g id="ID_0">%1$s</xliff:g>\nलगभग <xliff:g id="ID_1">%2$s</xliff:g></string>
+  <string name="super_power_mode_introduction_string4"> एक्सट्रीम मोड डेस्कटॉप से विजेट को हटा देगा</string>
+  <string name="waiting_load">थोड़ी देर के लिए एक्सट्रीम मोड को शुरू या इससे बाहर निकलने की आवश्यकता है</string>
+  <!-- Gionee <yangxinruo> <2015-12-8> <modify> for CR01606348 begin -->
+  <string name="waiting_load1">कृपया प्रतीक्षा करें, कुछ भी और न करें</string>
+  <string name="waiting_load2">अन्यथा इंटरफेस असामान्य हो सकता है</string>
+  <!-- Gionee <yangxinruo> <2015-12-8> <modify> for CR01606348 end -->
+  <string name="super_mode_toast">पहले से ही एक्सट्रीम मोड में है</string>
+  <!-- Gionee <yangxinruo> <2015-5-29> <add> for CR01528508 begin -->
+  <string name="power_ranking_noname">Android बैकग्राउंड</string>
+  <!-- Gionee <yangxinruo> <2015-5-29> <add> for CR01528508 end -->
+  <!-- Gionee <yangxinruo> <2015-11-18> <add> for CR01593050 begin -->
+  <string name="in_lock_task_toast">वर्तमान में लॉक टास्क मोड में है, एक्सट्रीम मोड में स्विच नहीं किया जा सकता है</string>
+  <!-- Gionee <yangxinruo> <2015-11-18> <add> for CR01593050 end -->
+  <!-- Gionee <yangxinruo> <2015-9-17> <add> for CR01555251 begin -->
+  <string name="power_consume_notification_title">खपत का रिमाइंडर</string>
+  <string name="power_consume_notification_content">&lt;font color=\"red\"&gt;<xliff:g>%1$s</xliff:g>&lt;\//font%2$gt; बैकग्राउंड में उपभोक्ता शक्ति का विवरण, विवरण देखने के लिए टैब</string>
+  <string name="power_consume_notification_kill">ऐप बंद करें</string>
+  <!-- Gionee: jiangsj <2017-3-24> modify for 91354 begin -->
+  <!--Gionee lijinfang 2017.5.4 modify for CR01780138 begin-->
+  <string name="power_consume_processed_kill">बंद करें&#160;</string>
+  <!--Gionee lijinfang 2017.5.4 modify for CR01780138 end-->
+  <!-- Gionee: jiangsj <2017-3-24> modify for 91354 end -->
+  <string name="power_consume_notification_ignore">इसे प्रॉम्‍प्ट न करें</string>
+  <string name="power_consume_background_list_title">बैकग्राउंड में पॉवर की खपत</string>
+  <!-- Gionee <yangxinruo> <2015-11-13> <modify> for CR01590432 begin -->
+  <string name="power_consume_header">बैकग्राउंड में चल रही ऐप की खपत</string>
+  <!-- Gionee <yangxinruo> <2015-11-13> <modify> for CR01590432 end -->
+  <string name="text_power_consume_empty">कोई भी ऐप बैकग्राउंड में नहीं चल रहा है</string>
+  <string name="power_consume_setting_summary">पॉवर का अधिक उपयोग करने वाले ऐप का पता चलने पर मुझे सूचित करें</string>
+  <string name="power_consume_setting_title">पावर-इंटेंसिव रिमाइंडर</string>
+  <string name="power_consume_clean">ऐप बंद करें</string>
+  <string name="power_consume_whitelist_tip">व्हाइट लिस्ट</string>
+  <string name="power_consume_ignore_tip">अनदेखा करें</string>
+  <!-- Gionee <yangxinruo> <2016-2-1> <add> for CR01634814 begin -->
+  <string name="background_running_remove_ignore_title">रिमाइंडर सेटिंग</string>
+  <string name="background_running_remove_ignore_message">इस ऐप को प्रॉम्प्ट होने की अनुमति दें</string>
+  <string name="background_running_set_ignore_message">इसे प्रॉम्‍प्ट न करें</string>
+  <string name="background_running_set_power_monitor_message">पावर-इंटेंसिव</string>
+  <string name="background_running_set_wakelock_monitor_message">सिस्टम को स्लीप मोड में जाने से रोकें</string>
+  															
+  <!-- Gionee <yangxinruo> <2016-2-1> <add> for CR01634814 end -->
+  <!-- Gionee <yangxinruo> <2015-9-17> <add> for CR01555251 end -->
+  <!-- Gionee <yangxinruo> <2016-2-1> <add> for CR01634814 begin -->
+  <string name="enter_background_running_processes">पावर का उपयोग चेक करें</string>
+  <!-- Gionee <yangxinruo> <2016-2-1> <add> for CR01634814 end -->
+</resources>

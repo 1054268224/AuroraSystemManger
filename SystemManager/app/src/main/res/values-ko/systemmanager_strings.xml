@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+**
+** Copyright 2007 The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+-->
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">시스템 관리자</string>
+    <string name="cell_accelerator">메모리 청소</string>
+    <string name="cell_accelerator_summary">메모리 사용 <![CDATA[<font color="#d23030">%1$s%%</font>]]></string>
+    <string name="rubbish_clean">캐시 삭제</string>
+    <string name="rubblish">캐시 <![CDATA[<font color="#d23030">%1$s</font>]]></string>
+    <string name="power_optimizer">전력 최적화</string>
+    <string name="can_use"><![CDATA[<font color="#6eb330">%1$s</font>]]>을(를) 사용가능</string>
+    <string name="charge_time"><![CDATA[<font color="#6eb330">%1$s</font>]]>이(가) 필요함</string>
+    <string name="traffic_monitor">교통 모니터</string>
+    <string name="traffic_remained">트래픽 잔여 <![CDATA[<font color="#6eb330">%1$s</font>]]></string>
+    <string name="traffic_exceed">트래픽 초과 <![CDATA[<font color="#6eb330">%1$s</font>]]></string>
+    <string name="antivirus">의심 스러운 앱 <![CDATA[<font color="#d23030">%1$s개</font>]]></string>
+    <string name="traffic_no_setting">트래픽 패키지는 설정되어 있지 않습니다</string>
+    <string name="traffic_no_simcard">SIM 카드가 삽입되지 않습니다</string>
+    <string name="soft_manager">응용 프로그램 관리자</string>
+    <string name="app_installed">총 앱 <![CDATA[<font color="#d23030">%1$s</font>]]></string>
+    <string name="perm_manager">앱의 권한</string>
+    <string name="minutes">분</string>
+    <string name="hours">시간</string>
+    <string name="cannotget">얻을 수 없다</string>
+    <string name="quick_accelerate">폰 가속</string>
+    <string name="toast_content">%1$s메모리는 해제 해 주세요.</string>
+    <string name="menu_setting">설정</string>
+    <string name="items_switch">배경 모니터</string>
+    <string name="net_monitor_title">트래픽 사용량 알림</string>
+    <string name="net_monitor_summary">일주일에 한 번 애플리케이션의 트래픽 사용량을 확인</string>
+    <string name="energy_monitor_title">소비 전력 알림</string>
+    <string name="energy_monitor_summary">일주일에 한 번 앱의 소비 전력을 확인</string>
+    <string name="apps_monitor_title">거의 사용하지 않는 응용 프로그램 알림</string>
+    <string name="apps_monitor_summary">일주일에 한 번 응용 프로그램의 사용 빈도를 확인</string>
+    <string name="root_monitor_title">루트 알림</string>
+    <string name="root_monitor_summary">휴대폰이 루팅 되어 있는지를 확인</string>
+    <string name="desktop_monitor_title">데스크톱 모니터</string>
+    <string name="desktop_monitor_summary">바탕 화면이 기본인지 여부를 모니터링하고 상태 표시 줄에 표시</string>
+    <string name="utilization_title">시스템 경고</string>
+    <string name="utilization_content">시스템 관리자를 사용에 오신 것을 환영합니다. 이 응용 프로그램은 데이터를 사용할 수 있습니다. 관련 정보 데이터 요금 및 기타 데이터를 통신 사업자에게 문의하시기 바랍니다.</string>
+    <string name="dialog_checkbox_description">다시 알리지 않음</string>
+    <string name="dialog_exit_btn">종류</string>
+    <string name="dialog_continue_btn">계속</string>
+    <string name="text_antivirus">안티 바이러스</string>
+    <string name="text_start_scan">스캔 시작</string>
+    <string name="text_cancel_scan">스캔 취소</string>
+    <string name="text_scaning">스캔 중…</string>
+    <string name="text_scaning_result">검사 완료</string>
+    <string name="text_scaning_reminder">즉시 검사를 추천</string>
+    <string name="text_score_unit">%</string>
+    <string name="text_menu_savepower">전력</string>
+    <!--Gionee luoguangming 2015.08.13 modify CR01537362 begin-->
+    <string name="text_menu_traffic">트래픽</string>
+    <!--Gionee luoguangming 2015.08.13 modify CR01537362  end -->
+    <string name="text_menu_pure">에코 모드</string>
+    <string name="text_menu_ram">기억</string>
+    <string name="text_one_key_check">검사</string>
+    <string name="text_one_key_check_complete">완료</string>
+    <string name="text_scan_daily_none">메모리 정리를 시작</string>
+    <string name="text_scan_daily_cancel">검사가 취소, 즉시 검사를하는 것이 좋습니다</string>
+    <string name="text_scan_daily_last">지난 검사 : <xliff:g id="ID_1">%s</xliff:g></string>
+    <string name="text_scan_result_good">휴대폰 상태가 좋습니다. 계속 최적화 하세요.</string>
+    <string name="text_scan_result_better">휴대폰 상태가 좋습니다. 계속 유지 하세요.</string>
+    <string name="text_scan_result_problem">휴대폰에 문제가 있습니다. 최적화를 해주세요.</string>
+    <string name="text_accelerating">가속</string>
+    <string name="text_memory_release">메모리 해제 <xliff:g id="ID_1">%s</xliff:g></string>
+    <string name="text_memory_release_running">메모리 해제</string>
+    <string name="text_memory_release_display">가속화 성공, <xliff:g id="ID_1">%s</xliff:g>메모리를 해제 해 주세요.</string>
+    <string name="text_memory_used">사용된 <xliff:g id="ID_1">%s</xliff:g></string>
+    <string name="text_phone_state_better">메모리 정리</string>
+    <string name="text_phone_state_problem">휴대 전화 상태 안좋음, 즉시 정리 하세요.</string>
+    <string name="text_root_remind">전화 뿌리</string>
+    <string name="text_root_remind_restore">복원</string>
+    <string name="msg_superpower_error">마지막에 비정상적으로 종료 되었습니다. 다시 복구를 위해 재 부팅 해주세요.</string>
+    <string name="msg_error_title">비정상 알림</string>
+    <string name="msg_reboot">재부팅</string>
+    <string name="app_process_limit_title">배경처리제한</string>
+    <string name="msg_background_process">정상 리스트</string>
+    <string name="pressure_sensor_menu_third">기본 응용 프로그램 설정</string>
+    <string name="pressure_sensor_menu_fourth">네트워크 제어</string>
+    <string name="next">다음</string>
+    <string name="settings">설정</string>
+</resources>

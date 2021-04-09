@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+  Copyright (C) 2012 The Android Open Source Project
+
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+  -->
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">  
+    <string name="power_app_name">مدیریت انرژی</string>
+    <string name="can_use_time">در دسترس %s</string>
+    <string name="need_charging_time">نیاز به شارژ باتری %s</string>
+    <string name="is_charging_now">درحال شارژ</string>
+    <string name="charged_completely">شارژ شد</string>
+    <string name="power_mode_use_time">( در دسترس <xliff:g id="time">%s</xliff:g>)</string>
+    <string name="power_cannotget">غیرقابل پیش بینی</string>
+    <string name="power_hours">ساعت</string>
+    <string name="power_minutes">دقیقه</string>
+    <string name="none_power_mode">حالت عادی</string>
+    <string name="normal_power_mode">صرفه جویی انرژی</string>
+    <string name="super_power_mode">حداکثر صرفه جویی انرژی</string>
+    <string name="none_power_mode_summary">هیچ فرآیند بهینه سازی توانی درحال اجرا نیست</string>
+    <string name="normal_power_mode_summary">برای کاهش کارایی گوشی و محدود کردن فعالیت برنامه‌های پشت پرده</string>
+    <string name="super_power_mode_summary">فقط گوشی، مخاطبین، پیام رسانی و ساعت قابل استفاده است</string>
+    <string name="time_use_inmode">در دسترس %s</string>
+    <string name="time_use_in_supermode">آماده به کار : %s</string>
+    <string name="mode_change_alert">"درحال تغییر..."</string>
+    <string name="powersaver_mode_category_title">موارد ذخیره انرژی دیگر</string>
+    <string name="close_gesture">بستن تمام جستار‌ها</string>
+    <string name="close_bluetooth">خاموش کردن بلوتوث</string>
+    <string name="close_gps">خاموش کردن GPS</string>
+    <string name="close_sync">خاموش کردن همگام سازی</string>
+    <string name="close_push_notification">تمام برنامه‌هایی که اعلان‌های کشیدنی دارند را ببند</string>
+    <string name="set_custom_screen_light">تنظیم نور صفحه نمایش</string>
+    <string name="set_custom_sleep_time">هیچ عملی 15 ثانیه بعد از ورود به حالت رکود انجام نده</string>
+    <string name="set_cpu_state">برنامه هوشمند کاهش فرکانس پردازشگر را فعال کن</string>
+    <string name="set_screen_save_power">محافظ صفحه نمایش را فعال کن</string>
+    <string name="close_wifi">Wlan را خاموش کن</string>
+    <string name="close_wifi_ap">نقطه دسترسی Wlan را خاموش کن</string>
+    <string name="close_data_connection">در حال بستن اتصال داده</string>
+    <string name="screen_light_sumarry">به صورت خودکار نور صفحه نمایش را به حالت ذخیره سازی باتری تغییر بده</string>
+    <string name="set_sleep_time">تنظیم کردن حالت استراحت</string>
+    <string name="sleep_time_summary">هیچ فعالیتی 15 ثانیه بعد از ورود به حالت رکود انجام نده</string>
+    <string name="set_screen_light">تنظیم نور صفحه نمایش</string>
+    <string name="set_gpu_fps_limit">فعال کردن برنامه کاهش فرکانس پردازنده گرافیکی</string>
+    <string name="power_saving_mode_title">تنظیمات قسمت ذخیره سازی باتری</string>
+    <string name="save_power_notifi">هشدار ذخیره سازی باتری</string>
+    <string name="save_power_notifi_title">پیغام دادن اعلان حالت ذخیره سازی باتری</string>
+    <string name="smart_saving">ذخیره باتری در پشت صحنه سیستم</string>
+    <string name="night_saving_title">ذخیره هوشمند باتری در شب</string>
+    <string name="night_saving_summary">زمانی که گوشی برای مدت زیادی از زمان خاموش کردن صفحه استفاده نشود این قابلیت داده شبکه، بلوتوث، GPS، همگام سازی وغیره را تا زمان روشن شدن صفحه نمایش خاموش میکند</string>
+    <string name="auto_clean_title">پاکسازی هوشمند حافظه</string>
+    <string name="auto_clean_summary">به منظور کاهش مصرف توان و پاکسازی برنامه‌های پس زمینه</string>
+    <string name="other_powersaver">دیگران</string>
+    <string name="user_manual">نکات ذخیره باتری</string>
+    <string name="create_shortcut_title">ورودی حالت فوق العاده ذخیره باتری</string>
+    <string name="create_shortcut_summary">به صورت سریع در صورت باز بودن وارد بخش حالت فوق العاده ذخیره باتری شود</string>
+    <string name="super_power_save">حالت فوق العاده ذخیره باتری</string>
+    <string name="battery">نگهداری از باتری</string>
+    <string name="daily_use">نکات ذخیره باتری</string>
+    <string name="battery_use_desc">لطفا باتری را در دمای بین 0 تا 35 شارژ نمایید.برای حفظ فعالیت باتری حداقل یک بار در ماه به صورت کامل شارژ بنمایید.برای نگهداری باتری برق باید در هنگام شارژ 20 درصد توان باتری باشد.</string>
+    <string name="daily_use_desc">تا حد ممکن نور صفحه را کم نموده پویانمایی‌هایی و جلوه‌های ویژه را خاموش کرده و ترجیحا از یک تصویر پس زمینه ساده استفاده بنمایید. این باعث میشود که فقط برخی هرزنامه‌های موبایلی ابزارک‌های میز کار وبرنامه‌های پی زمینه پاکسازی شود و از راه اندازی برنامه‌های اضافی جلوگیری شود</string>
+    <string name="power_consumption_tab_title">اطلاعات بیشتر در مورد مصرف توان</string>
+    <string name="hardware">توان مصرفی سخت افزار</string>
+    <string name="software">توان مصرفی نرم افزار</string>
+    <string name="process_kernel_label">سیستم عامل اندروید</string>
+    <string name="process_mediaserver_label">سرور رسانه</string>
+    <string name="percentage"><xliff:g id="NUMBER">%.1f</xliff:g> %%</string>
+    <string name="battery_level_tab_title">میزان باتری</string>
+    <string name="power_usage_not_available">دریافت اطلاعات مصرفی باتری ممکن نیست</string>
+    <string name="power_phone">تماس صوتی</string>
+    <string name="power_screen">صفحه نمایش</string>
+    <string name="power_cell">فرکانس رادیویی گوشی تلفن همراه</string>
+    <string name="power_wifi">WLAN</string>
+    <string name="power_idle">گوشی در حالت آماده به کار</string>
+    <string name="power_gps">GPS</string>
+    <string name="power_sensors">دیگر(سنسور‌های مختلف)</string>
+    <string name="power_bluetooth">بلوتوث</string>
+    <string name="usage_description">توصیفات</string>
+    <string name="shotcut_operation">عملیات سریع</string>
+    <string name="airplane">حالت هواپیما</string>
+    <string name="data_conn">اتصال داده</string>
+    <string name="display">صفحه نمایش</string>
+    <string name="idle_descrip">گوشی در فرآیند حالت آماده بکار برای نگهداری از فرآیند سیستمی ضروری مقداری برق مصرف میشود</string>
+    <string name="screen_descrip">زمانی که صفحه نمایش در حال کار است مقدار بیشتری برق مصرف میکند</string>
+    <string name="wlan_descrip">WLAN را باز نمایید گوشی به طور مداوم در جستجو سیگنال WIFI است که باعث از دست رفتن توان میشود</string>
+    <string name="bt_descrip">در روشن بودن بلوتوث توان بیشتری مصرف میشود</string>
+    <string name="gps_descrip">فعال بودنGPS باعث افزایش مصرف بیشتر باتری میشود</string>
+    <string name="radio_descrip">استفاده از توابع تماس صوتی منجر به مصرف بیشتر باتری میشود</string>
+    <string name="cell_descrip">سیگنال ضعیف باعث میشود گوشی به طور مداوم در جستجو سیگنال ارتباطی باشد که منجر به مصرف بیشتر باتری میشود</string>
+    <string name="others_descrip">سنسورهای گوشی مانند سنسور جاذبه و نور اگر همیشه در شرایط کاری باشند منجر به مصرف بیشتر باتری میشود</string>
+    <string name="idle_title">جزئیات مصرف باتری گوشی در حالت آماده بکار</string>
+    <string name="screen_title">جزئیات مصرف باتری صفحه نمایش</string>
+    <string name="wlan_title">جزئیات مصرف باتریWLAN</string>
+    <string name="bt_title">جزئیات مصرف باتری بلوتوث</string>
+    <string name="gps_title">جزئیات مصرف باتری GPS</string>
+    <string name="radio_title">جزئیات مصرف باتری صدا</string>
+    <string name="cell_title">جزئیات مصرف باتری فرکانس‌های رادیویی گوشی</string>
+    <string name="others_title">دیگر جزئیات مصرف باتری</string>
+    <string name="details_title">دیگر استفاده ها</string>
+    <string name="power_monitor_title">برنامه دارای بیشترین مصرف برق در این هفته</string>
+    <string name="power_monitor_message"><xliff:g id="name">%s</xliff:g></string>
+    <string name="daily_power_open_noti">حالت ذخیره باتری روشن است</string>
+    <string name="dialog_negativebutton_txt">لغو</string>
+    <string name="dialog_neutralbutton_txt">نمایش جزئیات</string>
+    <string name="dialog_positivebutton_txt">بازکردن</string>
+    <string name="dialog_dailypower_message">حالت عادی میتواند خدمات دهی گوشی را افزایش دهد <xliff:g id="ID_1">%s</xliff:g>\n\n استفاده از قالب‌های تیره زمان استفاده را افزایش میدهد برنامه‌هایی که بدون اجازه در پس زمینه توان مصرف میکنند منع شده اند تصویر پس زمینه سیز مصرف توان راا کاهش میدهد و توابع بلوتوث و موقعیت یابی را خاموش میکند</string>
+    <string name="dialog_superpower_message">حالت فوقالعاده زمان خدمات دهی گوشی را افزایش میدهد <xliff:g id="ID_1">%s\n\n فقط تلفن، مخاطبین، ساعت و پیام رسانی در این حالت قابل استفاده هستند موبایل به حالت حداقلی میز کار وارد میشود </xliff:g></string>
+    <string name="super_power_save_label">حالت فوق العاده ذخیره توان</string>
+    <string name="super_power_mode_introduction_string1">فقط <b> تلفن، مخاطبین، ساعت </b>و پیام رسانی در حالت فوق العاده ذخیره توان قابل استفاده هستند</string>
+    <string name="super_power_mode_introduction_string2">گوشی به حالت حداقلی میز کار وارد میشود</string>
+    <string name="super_power_mode_introduction_string3">در حالت فوق العاده گوشی میتواند حدود مدت %s در حالت آماده بکار باقی بماند</string>
+    <string name="super_power_mode_introduction_string4">حالت فوق العاده ابزارک‌های روی صفحه کار را خاموش میکند</string>
+    <string name="waiting_load">ورود و خروج به حالت فوق العاده یک لحظه زمان میبرد</string>
+    <string name="waiting_load1">یک لحظه صبر کنید و هیچ کار دیگری انجام ندهید</string>
+    <string name="waiting_load2">در غیر اینصورت رابط ممکن است غیر عادی شود</string>
+    <string name="super_mode_toast">از قبل در حالت فوق العاده است</string>
+    <string name="power_ranking_noname">پس زمینه اندروید</string>
+    <string name="in_lock_task_toast">حالا در حالت قفل وظیفه امکان تغییر به حالت فوق العاده وجود ندارد</string>
+    <string name="power_consume_notification_title">یادآور مصرف</string>
+    <string name="power_consume_notification_content"><xliff:g>%1$s</xliff:g>در حال مصرف توان در پس زمینه است برای نمایش جزئیات لمس کنید</string>
+    <string name="power_consume_notification_kill">برنامه را ببند</string>
+    <string name="power_consume_processed_kill">ببند</string>
+    <string name="power_consume_notification_ignore">یادآوری نکن</string>
+    <string name="power_consume_background_list_title">مصرف توان در پس زمینه</string>
+    <string name="power_consume_header">مصرف برنامه‌های در حال اجرا در پس زمینه</string>
+    <string name="text_power_consume_empty">هیچ برنامه ای در پس زمینه در حال اجرا نیست</string>
+    <string name="power_consume_setting_summary">وقتی برنامه‌هایی با مصرف زیاد باتری یافت شدن به ما اطلاع بده</string>
+    <string name="power_consume_setting_title">یادآوری مصرف زیاد</string>
+    <string name="power_consume_clean">برنامه را ببند</string>
+    <string name="power_consume_whitelist_tip">لیست سفید</string>
+</resources>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Rendszer Kezelő</string>
+    <string name="cell_accelerator">Memória Felszabadítás</string>
+    <string name="cell_accelerator_summary">Memória felhasználás <![CDATA[<font color="#d23030">%1$s%%</font>]]></string>
+    <string name="rubbish_clean">Cache Tisztító</string>
+    <string name="rubblish">cache <![CDATA[<font color="#d23030">%1$s</font>]]></string>
+    <string name="power_optimizer">Energia Optimalizálás</string>
+    <string name="can_use"><![CDATA[<font color="#6eb330">%1$s</font>]]> felhasználható</string>
+    <string name="charge_time"><![CDATA[<font color="#6eb330">%1$s</font>]]> szükséges</string>
+    <string name="traffic_monitor">Forgalom Figyelő</string>
+    <string name="traffic_remained">Fennmaradó adat <![CDATA[<font color="#6eb330">%1$s</font>]]></string>
+    <string name="traffic_exceed">Adathasználat több, mint <![CDATA[<font color="#6eb330">%1$s</font>]]></string>
+    <string name="traffic_no_setting">Forgalom csomag nincs beállítva</string>
+    <string name="traffic_no_simcard">SIM kártya nincs behelyezve</string>
+    <string name="soft_manager">Alkalmazás kezelő</string>
+    <string name="app_installed">Összes alkalmazás <![CDATA[<font color="#d23030">%1$s</font>]]></string>
+    <string name="perm_manager">Alkalmazás Engedély</string>
+    <string name="minutes">perc</string>
+    <string name="hours">óra</string>
+    <string name="cannotget">nem lehet lehívni</string>
+    <string name="quick_accelerate">Telefon Felgyorsítás</string>
+    <string name="toast_content">felszabadít%1$smemóriát</string>
+    <string name="menu_setting">Beállítások</string>
+    <string name="items_switch">Háttér figyelő</string>
+    <string name="net_monitor_title">Forgalom használat értesítő</string>
+    <string name="net_monitor_summary">Hetente egyszer ellenőrzi az alkalmazások forgalmát</string>
+    <string name="energy_monitor_title">Energia fogyasztás értesítő</string>
+    <string name="energy_monitor_summary">Hetente egyszer ellenőrzi az alkalmazások energia fogyasztását</string>
+    <string name="apps_monitor_title">Ritkán használt alkalmazás értesítő</string>
+    <string name="apps_monitor_summary">Hetente egyszer ellenőrzi az alkalmazások használatának gyakoriságát</string>
+    <string name="root_monitor_title">Root értesítő</string>
+    <string name="root_monitor_summary">Ellenőrizi, hogy a telefon rootolását</string>
+    <string name="desktop_monitor_title">Asztal figyelő</string>
+    <string name="desktop_monitor_summary">Figyeli, hogy az asztal alapértelmezett-e, és megmutatja az állapotsávon</string>
+    <string name="utilization_title">Rendszer figyelmeztetés</string>
+    <string name="utilization_content">Üdvözlöm a rendszer kezelőben. Ez az alkalmazás adatforgalommal járhat. Kérem, lépjen kapcsolatba mobilszolgáltatójával a részletekkel kapcsolatban.</string>
+    <string name="dialog_checkbox_description">Ne emlékeztessen újra.</string>
+    <string name="dialog_exit_btn">Kilépés</string>
+    <string name="dialog_continue_btn">Folytatás</string>
+    <string name="text_antivirus">Vírus Keresés</string>
+    <string name="text_start_scan">Keresés indítása</string>
+    <string name="text_cancel_scan">Keresés visszavonása</string>
+    <string name="text_scaning">Beolvasás…</string>
+    <string name="text_scaning_result">Beolvasás befejeződött</string>
+    <string name="text_scaning_reminder">Ajánlott az azonnali vizsgálat</string>
+    <string name="text_menu_savepower">Energiagazdálkodás</string>
+    <string name="text_menu_traffic">Forgalom Figyelő</string>
+    <string name="text_menu_pure">Csökkentett Üzemmód</string>
+    <string name="text_menu_ram">Memória</string>
+    <string name="text_one_key_check">Megvizsgál</string>
+    <string name="text_one_key_check_complete">Kész</string>
+    <string name="text_scan_daily_none">Kattintson a memória tisztításhoz</string>
+    <string name="text_scan_daily_cancel">A vizsgálat le lett állítva, azonnali ellenőrzés ajánlott</string>
+    <string name="text_scan_daily_last">Utolsó ellenőrzés : <xliff:g id="ID_1">%s</xliff:g></string>
+    <string name="text_scan_result_good">A telefon állapota kielégítő,folytatás az optimalizáláshoz</string>
+    <string name="text_scan_result_better">A telefon állapota kielégítő,kérem, tartsa meg</string>
+    <string name="text_scan_result_problem">A telefon állapota problémás,ajánlott az optimalizáció</string>
+    <string name="text_accelerating">Felgyorsítás</string>
+    <string name="text_memory_release">Felszabadított memória <xliff:g id="ID_1">%s</xliff:g></string>
+    <string name="text_memory_release_running">Memória felszabadítása</string>
+    <string name="text_memory_release_display">Sikeres gyorsítás. <xliff:g id="ID_1">%s</xliff:g> memória felszabadítva.</string>
+    <string name="text_memory_used">Felhasznált <xliff:g id="ID_1">%s</xliff:g></string>
+    <string name="text_phone_state_better">Memória tisztítva</string>
+    <string name="text_phone_state_problem">A telefon rossz állapotban van, gyorsítsa fel azonnal</string>
+    <string name="text_root_remind">Rootolt telefon</string>
+    <string name="text_root_remind_restore">helyreállítás</string>
+    <string name="msg_superpower_error">Az utolsó váltás rendellenes, kérem, indítsa újra a helyreállításhoz</string>
+    <string name="msg_error_title">Rendellenesség értesítő</string>
+    <string name="msg_reboot">Újraindítás</string>
+    <string name="app_process_limit_title">Háttérfolyamat-korlátozás</string>
+    <string name="app_process_limit_txt">Háttér folyamat határ %s</string>
+    <string name="msg_background_process">Engedélyezett lista</string>
+    <string name="pressure_sensor_menu_first">Szemét törlése</string>
+    <string name="pressure_sensor_menu_second">Alkalmazás leállítása</string>
+    <string name="pressure_sensor_menu_third">Alapértelmezett alkalmazás beállítások</string>
+    <string name="pressure_sensor_menu_fourth">Hálózat kezelés</string>
+    <string name="text_in_screenpin">Képernyő módban van,nem tud szuper üzemmódot megnyitni.</string>
+    <string name="required_permissions_promo">RendszerKezelő engedélyt kér a Telefonhoz és a Memóriakártyához.</string>
+    <string name="enable_permission_procedure">Az engedélyeket az alábbi menüben módosíthatja Beállítások &gt; Alkalmazások &gt; Rendszerkezelő &gt; Engedélyek.</string>
+    <string name="enable_permission_procedure_description">Az engedélyeket az alábbi menüben módosíthatja Beállítások, Alkalmazások, Rendszerkezelő, Engedélyek.</string>
+    <string name="next_with_arrow">Következő &gt;</string>
+    <string name="next">Következő</string>
+    <string name="settings_with_arrow">Beállítások &gt;</string>
+    <string name="settings">Beállítások</string>
+</resources>

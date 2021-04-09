@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="header_list">
+        <item>Aktivieren</item>
+        <item>Deaktivieren</item>
+    </string-array>
+    <string-array name="listitem_soft_manager_activity">
+        <item>Anwendung auto. starten</item>
+        <item>Anwendung deinstallieren</item>
+        <item>Anwendung ausblenden</item>
+        <item>Standard-App-Einstellungen</item>
+    </string-array>
+    <string-array name="listitem_permission_setting">
+        <item>Allen vertrauen</item>
+        <item>Teilweise vertrauen</item>
+        <item>Nicht vertrauen</item>
+    </string-array>
+    <string-array name="listitem_permission_setting_summary">
+        <item>Kein Feld-Prompt, wenn die Anwendung eine Berechtigung aufrufen</item>
+        <item>Nur Warnunganzeige, wenn die Anwendung für eine wichtige Berechtigungen aufruft</item>
+        <item>Wenn die Anwendung keine Berechtigungen werden Feld Aufforderungen zu bombardieren</item>
+    </string-array>
+    <string-array name="listitem_freeze_app_summary">
+        <item>App(s) neu installiert</item>
+        <item>App(s) vorinstalliert</item>
+    </string-array>
+    <string-array name="uninstall_sort">
+        <item>Nach App-Name sortieren</item>
+        <item>Nach Installationszeit sortieren</item>
+        <item>Nach Nutzungsrate sortieren</item>
+        <item>Nach App-Größe sortieren</item>
+    </string-array>
+    <string-array name="green_list_item">
+        <item>White-Liste verfahren</item>
+    </string-array>
+    <string-array name="freeze_tab_item">
+        <item>Ausblendbar</item>
+        <item>Ausgeblendet</item>
+    </string-array>
+    <string-array name="auto_start_tab_item">
+        <item>Zulassen</item>
+        <item>Verbieten</item>
+    </string-array>
+    <string-array name="move_tab_item">
+        <item>System-Platz</item>
+        <item>Interner</item>
+    </string-array>
+    <string-array name="move_tab_item_sd">
+        <item>System-Platz</item>
+        <item>SD-Karte</item>
+    </string-array>
+</resources>

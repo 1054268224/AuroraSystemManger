@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="security_wallet_title">Zahlungsschutz</string>
+    <string name="security_wallet_empty">Es wurde keine echte Bezahl-App gefunden</string>
+    <string name="security_wallet_header">Apps schützen</string>
+    <string name="security_wallet_header_on">Aktiviert</string>
+    <string name="security_wallet_header_off">Deaktiviert</string>
+    <string name="security_wallet_mini_bar_tip">Die folgenden Apps wurden als echt bestätigt</string>
+    <string name="security_wallet_support">Angetrieben von AVL</string>
+    <string name="security_wallet_mini_bar_tip_off">Der Zahlungsschutz ist geschlossen</string>
+    <string name="security_wallet_mini_bar_tip_root">Das verwurzelte System besteht das Risiko der Zahlung</string>
+    <string name="security_wallet_off_info">Der offene Zahlungsschutz scannt die Umgebung, erkennt Wi-Fi-Verbindungen und fängt bösartige Codes ab, um die Zahlungssicherheit zu schützen, wenn die Zahlungsanwendung ausgeführt wird</string>
+    <string name="security_wallet_jump_to_app_store">Erhalte mehr verifizierte Apps</string>
+    <string name="security_wallet_jump_to_app_store_not_found">Der App Store kann nicht gestartet werden</string>
+    <string name="security_safed_list_installed_toast">
+        <xliff:g>%1$s</xliff:g> wurde für den Zahlungsschutz installiert</string>
+    <string name="security_safed_list_updated_toast">Aktualisierung der Financial AppList erfolgreich \nVersion: <xliff:g>%1$s</xliff:g></string>
+</resources>

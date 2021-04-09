@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="rubbish_is_scanning">فحص...</string>
+    <string name="clean_deeply">تنظيف عميق</string>
+    <string name="rubbish_file_size">220 ميجابايت</string>
+    <string name="normal_clean_advice">الاقتراح بالتنظيف</string>
+    <string name="deeplyclean_item_advice">الاقتراح بالإبقاء</string>
+    <string name="rubbish_cleaner">منظف ذاكرة التخزين</string>
+    <string name="rubbish_was_cleaned">يتم تنظيف سلة المحذوفات</string>
+    <string name="rubbish_clean_settings">إعدادات تنظيف سلة المحذوفات</string>
+    <string name="rubbish_clean_alert">التذكير بالتنظيف</string>
+    <string name="rubbish_size_alert">التذكير بوجود قمامة</string>
+    <string name="apk_delete_alert">حذف تثبيت تذكير الحزمة</string>
+    <string name="apk_delete_alert_summary">تذكر إزالة الحزمة بعد التثبيت</string>
+    <string name="residual_delete_alert">تذكر حذف ملفات سلة المهملات</string>
+    <string name="residual_delete_alert_summary">تذكر حذف ملفات سلة المهملات بعد حذف التطبيق</string>
+    <string name="deeply_clean_end">التنظيف الكامل</string>
+    <string name="deeply_clean_description">تنظيف الملفات</string>
+    <string name="apk_not_installed">غير مثبتة</string>
+    <string name="apk_was_installed">مثبتة</string>
+    <string name="liebao_supply">الدعم الفني المقدم بواسطة Clean Master</string>
+    <string name="deepclean_total_desc">الإجمالي</string>
+    <string name="go_cancel">إلغاء الأمر</string>
+    <string name="show_rubbish_size">الحجم:</string>
+</resources>

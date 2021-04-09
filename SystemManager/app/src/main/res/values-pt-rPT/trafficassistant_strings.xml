@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="text">Enviar SMS para</string>
+    <string name="tabbar_name1">Ranhura SIM 1</string>
+    <string name="tabbar_name2">Ranhura SIM 2</string>
+    <string name="prompt_no_settings_traffic">Não definido</string>
+    <string name="no_settings">Não definido</string>
+    <string name="month">Mês</string>
+    <string name="day">Dia</string>
+    <string name="noti_surplus">Livre</string>
+    <string name="noti_total">Total</string>
+    <string name="noti_no_card">O SIM não está inserido.</string>
+    <string name="start_date_string">Mensalmente</string>
+    <string name="more_settings">Mais controlos de definições</string>
+    <string name="action_known">Concluído</string>
+    <string name="action_cancel">Cancelar</string>
+    <string name="action_done">Concluído</string>
+    <string name="action_save">Guardar</string>
+    <string name="action_sure">OK</string>
+    <string name="action_allow">Permitir</string>
+    <string name="application_info">Informações da aplicação</string>
+    <string name="input_hint">Introduza</string>
+    <string name="flow_unit">MB</string>
+    <string name="percent_unit">%</string>
+    <string name="warning_value">0.0</string>
+    <string name="tether_settings_title_bluetooth">Ligação Bluetooth</string>
+    <string name="traffic_network_speed_title">Apresentar velocidade da rede</string>
+    <string name="traffic_network_speed_summary">A velocidade da rede vai ser apresentada na barra de notificações quando a opção estiver ativa</string>
+    <string name="switch_off">Desligar</string>
+    <string name="switch_on">Ativar</string>
+    <string name="total_volume_string">MB</string>
+    <string name="traffican_question_answer">Problemas comuns</string>
+    <string name="traffic_simcard_focus1">SIM 1</string>
+    <string name="traffic_simcard_focus2">SIM 2</string>
+    <string name="trafficassistant_app_name">Monitor de tráfego</string>
+    <string name="used">Utilizada</string>
+    <string name="no_card_warning">Por favor insira o cartão SIM</string>
+    <string name="action_settings">Aplicar</string>
+    <string name="action_prohibit">Inibir</string>
+    <string name="action_all_allow">Permitir tudo</string>
+    <string name="action_all_prohibit">Desativar tudo</string>
+    <string name="warning_settings">Aviso</string>
+    <string name="mobile_data_stop_title">alerta de consumo</string>
+    <string name="mobile_data_stop_contetn">Foi atingido o seu limite de tráfego mensal, se continuar a utilizar dados irá ter custos. Pretende continuar?</string>
+    <string name="action_restart">Continuar a usar</string>
+    <string name="action_stop">Não usar</string>
+    <string name="info_save_error_no_flow_input">Por favor introduza o seu limite de tráfego mensal</string>
+    <string name="info_prompt">Pode ajustar manualmente o valor</string>
+    <string name="popup_notification_title">Plano de dados não definido</string>
+    <string name="popup_notification_ticker_title">Plano de dados não definido</string>
+    <string name="popup_notification_content">Clique para aplicar, monitor de tráfego em tempo real</string>
+    <string name="popup_setting_title_dialog">Aplicar o plano de dados</string>
+    <string name="popup_setting_content_dialog">Aplique o plano de dados e ative a segurança de bloqueio do telefone</string>
+    <string name="notification_warn_exceed_warning_title">Aviso de limite de dados móveis</string>
+    <string name="notification_warn_exceed_warning_content">Os dados atingiram o limite definido, toque para ver a utilização</string>
+    <string name="zero_percent">80%</string>
+    <string name="total_percent">100%</string>
+    <string name="process_kernel_labels">SO Android</string>
+    <string name="data_usage_uninstalled_apps_users">Aplicações e utilizadores removidos</string>
+    <string name="data_usage_uninstalled_apps">Aplicações removidas</string>
+    <string name="tether_settings_title_wifi">Hotspot portátil</string>
+    <string name="tether_settings_title_usb_bluetooth">Associação</string>
+    <string name="tether_settings_title_usb">Ligação USB</string>
+    <string name="running_process_item_user_label">Utilizador：%1$s</string>
+    <string name="data_usage_app_restricted">restrito</string>
+    <string name="usage_detail">Detalhes tráfego</string>
+    <string name="version_name">Versão :</string>
+    <!--Gionee luoguangming 2015.12.09 modify CR01597701 begin-->
+    <string name="traffic_day">Tráfego de hoje\nConsumido</string>
+    <!--Gionee luoguangming 2015.12.09 modify CR01597701  end -->
+    <!--Gionee huagd 2015-11-23 modify for CR01596959 begin-->
+    <string name="traffic_week">Consumo\nsemanal</string>
+    <string name="traffic_month">Consumo\nmensal</string>
+    <!--Gionee huagd 2015-11-23 modify for CR01596959 end-->
+    <string name="traffic_day_no">Tráfego de hoje não utilizado</string>
+    <string name="traffic_week_no">Tráfego semanal não utilizado</string>
+    <string name="traffic_month_no">Tráfego mensal não utilizado</string>
+    <string name="network_selection">Tráfego mensal de dados</string>
+    <string name="no_value">Nenhum</string>
+    <string name="text_loading">A carregar…</string>
+    <string name="text_noti">A processar…</string>
+    <string name="traffic_netcontrol_tab_bar_allow_text">Rede Wi-Fi</string>
+    <string name="time_format">yyyy-MM</string>
+    <string name="remained_flow_string">Excesso</string>
+    <string name="exceed_flow_string">Passo acima</string>
+    <string name="noti_today">Fluxo de hoje</string>
+    <string name="noti_exceed">Passo acima</string>
+    <string name="noti_no_settings">O plano de dados não está definido</string>
+    <string name="limit_flow">Definir plano de dados</string>
+    <string name="detail_flow">Fluxogramas</string>
+    <string name="network_control">Controlo de rede</string>
+    <string name="traffic_save">Guardar tráfego</string>
+    <string name="data_connect_allow">Controlo ligações</string>
+    <string name="total_flow_settings">Limites de tráfego mensais</string>
+    <string name="date_start_settings">Data de início</string>
+    <string name="used_flow_settings">Uso</string>
+    <string name="tether_settings_title_all">Definições de ligação</string>
+    <string name="traffic_monitor_title">Maior consumo de tráfego esta semana</string>
+    <string name="traffic_settings_main_title">Exibir centro de notificação</string>
+    <string name="traffic_notification_title">Mostrar informação de tráfego do mês corrente</string>
+    <string name="traffic_notification_summary">Abrir a barra de notificações quando a informação de tráfego for exibida</string>
+    <string name="net_link_allowed_txt">Nenhuma aplicação de Internet permitida</string>
+    <string name="net_link_prohibited_txt">Nenhuma aplicação de Internet inibida</string>
+    <string name="traffic_save_setting">Definições de economia de tráfego</string>
+    <string name="traffic_save_off">Tráfego guardado fechado</string>
+    <string name="traffic_save_off_summary">Esta função só é válida no âmbito da rede de dados</string>
+    <string name="traffic_save_total_title">Você acumulou economias</string>
+    <string name="money_save_total_title">Sobre a moeda</string>
+    <string name="money_save_total_num_string">32.9</string>
+    <string name="total_money">Eur</string>
+    <string name="traffic_save_support_txt">Powered by OPERA</string>
+    <string name="traffic_save_history">Ver histórico de tráfego guardado</string>
+    <string name="traffic_save_history_total">Economias acumuladas</string>
+    <string name="traffic_question1">1, Como conseguir ecnomias de fluxo?</string>
+    <string name="traffic_question2">2, Por que o tráfego de uso que guarda não vê economias?</string>
+    <string name="traffic_question3">3, A função de fluxo por si usa economias de fluxo?</string>
+    <string name="traffic_question4">4, Usando o tráfego depois de guardar a minha Privacidade de Segurança na Internet ?</string>
+    <string name="traffican_answer1">A funcionalidade de economia de fluxo sempre que ativada, será usada para redimensionar o texto, imagens e outros tipos de tráfego, reduzindo assim o tráfego consumido pelas aplicações como QQ, Weixin, Taobao, Snapchat, Whatsapp.</string>
+    <string name="traffican_answer2">A economia de fluxo só produz efeitos para redes de dados, sem Wi-Fi habilitado. Esta funcionalidade guarda somente o texto e efeitos de imagem, áudio e vídeo e transferências de arquivos, não guarda tráfego.</string>
+    <string name="traffican_answer3">A funcionalidade de economia de fluxo por si não consome tráfego, depois de ativar esta funcionalidade, todo o tráfego 2G/3G/4G de Internet vai usar o Gestor de Sistema para agregar e comprimir, e o software de segurança individual verá todo o fluxo do sistema. Esta funcionalidade não irá consumir o seu tráfego, por favor, sinta-se livre para usar.</string>
+    <string name="traffican_answer4">Este recurso não lidar com qualquer de suas informações pessoais, por favor, sinta-se livre para usar</string>
+    <string name="traffican_whitelist_title">Lista de aplicações que não necessitam de guardar tráfego</string>
+    <string name="text_no_traffic_whitelist">Não necessita de guardar tráfego</string>
+    <string name="traffic_netcontrol_tab_bar_prohibit_text">Rede de dados</string>
+    <string name="traffic_back_toast_text">A aplicação de operação de controle de rede está a correr, por favor aguarde</string>
+    <!--Gionee huagd 2015-11-23 modify for CR01596959 begin-->
+    <string name="used_flow_string">Usado <xliff:g id="ID_1">%s</xliff:g>M</string>
+    <string name="traffic_monitor_display"><xliff:g id="ID_1">%s</xliff:g> Consumo em 2G/3G/4G das aplicações:</string>
+    <string name="traffic_time_day">"Consumido hoje(<xliff:g id="ID_1">%s</xliff:g>)"</string>
+    <!--Gionee huagd 2015-11-23 modify for CR01596959 end-->
+    <!--Gionee luoguangming 2015.12.01 modify CR01597701 begin-->
+    <string name="traffic_title_text"><xliff:g id="ID_1">%1$s</xliff:g> Aplicações</string>
+    <!--Gionee luoguangming 2015.12.01 modify CR01597701  end -->
+</resources>

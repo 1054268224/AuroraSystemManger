@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="app_name">ಸಿಸ್ಟಂ ಮ್ಯಾನೇಜರ್</string>
+  <string name="cell_accelerator">ಮೆಮೊರಿ ಕ್ಲೀನ್</string>
+  <string name="cell_accelerator_summary">ಮೆಮೊರಿ ಬಳಕೆ <![CDATA[<font color=#d23030">%1$s%%</font>]]></string>
+  <string name="rubbish_clean">ಕ್ಯಾಶೆ ಕ್ಲೀನರ್</string>
+  <string name="rubblish">ಕ್ಯಾಶೆಗಳು <![CDATA[<font color=#d23030">%1$s</font>]]></string>
+  <string name="power_optimizer">ಪವರ್‌ ಆಪ್ಟಿಮೈಸರ್‌</string>
+  <string name="can_use">ಬಳಸಬಹುದು<![CDATA[<font color="#6eb330">%1$s</font>]]></string>
+  <string name="charge_time">ಅಗತ್ಯ <![CDATA[<font color="#6eb330">%1$s</font>]]></string>
+  <string name="traffic_monitor">ಟ್ರಾಫಿಕ್ ಮಾನಿಟರ್</string>
+  <string name="traffic_remained">ಟ್ರಾಫಿಕ್‌ ಉಳಿಕೆ <![CDATA[<font color=#6eb330">%1$s</font>]]></string>
+  <string name="traffic_exceed">ಹೆಚ್ಚುವರಿ ಟ್ರಾಫಿಕ್‌ <![CDATA[<font color=#6eb330">%1$s</font>]]></string>
+  <string name="antivirus">Suspicious apps <![CDATA[<font color="#d23030">%1$s个</font>]]></string>
+  <string name="traffic_no_setting">ಟ್ರಾಫಿಕ್ ಪ್ಯಾಕೇಜ್‌ಗಳು ಸೆಟ್ ಆಗಿಲ್ಲ</string>
+  <string name="traffic_no_simcard">ಸಿಮ್‌ ಕಾರ್ಡನ್ನು ಸೇರಿಸಿಲ್ಲ</string>
+  <string name="soft_manager">ಆ್ಯಪ್ ಮ್ಯಾನೇಜರ್</string>
+  <string name="app_installed">ಒಟ್ಟು ಆ್ಯಪ್ಗಳು <![CDATA[<font color=#d23030>%1$s</font>]]></string>
+  <string name="perm_manager">ಆ್ಯಪಿನ ಪರವಾನಗಿ</string>
+  <string name="danger_apps"></string>
+  <string name="minutes">ನಿಮಿಷಗಳು</string>
+  <string name="hours">ಗಂಟೆಗಳು</string>
+  <string name="cannotget">ಪಡೆಯಲು ಸಾಧ್ಯವಿಲ್ಲ</string>
+  <string name="quick_accelerate">ಫೋನ್ ಅಕ್ಸೆಲರೇಟ್‌</string>
+  <string name="toast_content">ಮೆಮೊರಿ ಬಿಡುಗಡೆ ಮಾಡಿ %1$s</string>
+  <string name="menu_setting">ಸೆಟ್ಟಿಂಗ್‌ಗಳು</string>
+  <string name="items_switch">ಹಿನ್ನೆಲೆ ಮೇಲ್ವಿಚಾರಕ</string>
+  <string name="net_monitor_title">ಟ್ರಾಫಿಕ್‌ ಬಳಕೆ ಜ್ಞಾಪನೆ</string>
+  <string name="net_monitor_summary">ವಾರಕ್ಕೊಮ್ಮೆ ಆ್ಯಪ್‌ಗಳ ಟ್ರಾಫಿಕ್ ಬಳಕೆಯನ್ನು ಪರೀಕ್ಷಿಸಿ</string>
+  <string name="energy_monitor_title">ಪವರ್‌ ಬಳಕೆ ಜ್ಞಾಪನೆ</string>
+  <string name="energy_monitor_summary">ವಾರಕ್ಕೊಮ್ಮೆ ಆ್ಯಪ್‌ಗಳ ಬ್ಯಾಟರಿ ಬಳಕೆಯನ್ನು ಪರೀಕ್ಷಿಸಿ</string>
+  <string name="apps_monitor_title">ಅಪರೂಪಕ್ಕೆ ಬಳಸಿದ ಆ್ಯಪ್‌ಗಳ ನೆನಪು</string>
+  <string name="apps_monitor_summary">ವಾರಕ್ಕೊಮ್ಮೆ ಆ್ಯಪ್‌ಗಳು ಬಳಸುವ ಫ್ರಿಕ್ವೆನ್ಸಿ ಪರೀಕ್ಷಿಸಿ</string>
+  <string name="root_monitor_title">ರೂಟ್‌ ಜ್ಞಾಪನೆ</string>
+  <string name="root_monitor_summary">ಫೋನ್ ನೆಲೆಗೊಳಿಸಲಾಗಿದೆಯೆ ಎಂಬುದನ್ನು ಪರೀಕ್ಷಿಸಿ</string>
+  <string name="desktop_monitor_title">ಡೆಸ್ಕ್‌ಟಾಪ್ ಮಾನಿಟರ್</string>
+  <string name="desktop_monitor_summary">ಡೆಸ್ಕ್‌ಟಾಪ್ ಡಿಫಾಲ್ಟ್ ಆಗಿದೆಯೇ ಮತ್ತು ಸ್ಟೇಟಸ್‌ ಬಾರಿನಲ್ಲಿ ಕಾಣಿಸುತ್ತಿದೆಯೇ ಎಂದು ಮಾನಿಟರ್‌ ಮಾಡಿ</string>
+  <string name="utilization_title">ಸಿಸ್ಟಂ ಅಲರ್ಟ್‌</string>
+  <string name="utilization_content">ಸಿಸ್ಟಂ ಮ್ಯಾನೇಜರ್ ಬಳಸಲು ಸ್ವಾಗತ. ಈ ಆ್ಯಪ್‌ ಡೇಟಾವನ್ನು ಬಳಸಬಹುದು. ದಯವಿಟ್ಟು ಡೇಟಾ ಶುಲ್ಕ ಹಾಗೂ ಇತರ ಡೇಟಾ ಸಂಬಂದಿತ ಮಾಹಿತಿಗಾಗಿ ನೆಟ್ವರ್ಕ್ ಆಪರೇಟರನ್ನು ಸಂಪರ್ಕಿಸಿ.</string>
+  <!-- gionee li_j modify for CR01456639 20150322 start -->
+  <string name="dialog_checkbox_description">ಮತ್ತೊಮ್ಮೆ ನನಗೆ ನೆನಪಿಸಬೇಡಿ</string>
+  <!-- gionee li_j modify for CR01456639 20150322 end-->
+  <string name="dialog_exit_btn">ನಿರ್ಗಮಿಸಿ</string>
+  <string name="dialog_continue_btn">ಮುಂದುವರಿಸಿ</string>
+  <string name="text_antivirus">ವೈರಸ್ ಪತ್ತೆಯಾಗಿದೆ</string>
+  <string name="text_start_scan">ಸ್ಕ್ಯಾನ್ ಆರಂಭಿಸಿ</string>
+  <string name="text_cancel_scan">ಸ್ಕ್ಯಾನ್ ರದ್ದುಪಡಿಸಿ</string>
+  <string name="text_scaning">ಸ್ಕ್ಯಾನ್ ಮಾಡಲಾಗುತ್ತಿದೆ…</string>
+  <string name="text_scaning_result">ಸ್ಕ್ಯಾನ್ ಪೂರ್ಣಗೊಂಡಿದೆ</string>
+  <string name="text_scaning_reminder">ತಕ್ಷಣದ ಪರೀಕ್ಷೆಯನ್ನು ಶಿಫಾರಸು ಮಾಡಿ</string>
+  <string name="text_score_unit">%</string>
+  <string name="text_menu_savepower">ಪವರ್‌ ಮ್ಯಾನೇಜರ್‌</string>
+  <string name="text_menu_traffic">ಟ್ರಾಫಿಕ್ ಮಾನಿಟರ್</string>
+  <string name="text_menu_pure">ಇಕೊ ಮೋಡ್</string>
+  <string name="text_menu_ram">ಮೆಮೊರಿ</string>
+  <string name="text_one_key_check">ತಪಾಸಣೆ ಮಾಡಿ</string>
+  <string name="text_one_key_check_complete">ಮುಗಿಯಿತು</string>
+  <string name="text_scan_daily_none">ಮೆಮೊರಿಯನ್ನು ಕ್ಲೀನ್ ಮಾಡಲು ಟಚ್ ಮಾಡಿ</string>
+  <string name="text_scan_daily_cancel">ಪರೀಕ್ಷೆ ರದ್ದಾಗಿದೆ, ತಕ್ಷಣ ಚೆಕ್ ಮಾಡಲು ಶಿಫಾರಸು ಮಾಡಲಾಗುತ್ತದೆ</string>
+  <string name="text_scan_daily_last">ಕೊನೆಯ ಪರೀಕ್ಷೆ: <xliff:g id="ID_1">%s</xliff:g></string>
+  <string name="text_scan_result_good">ಮೊಬೈಲ್ ಫೋನ್ ಒಳ್ಳೆಯದಾಗಿದೆ, ಆಪ್ಟಿಮೈಸ್‌ ಮುಂದುವರಿಸಿ</string>
+  <string name="text_scan_result_better">ಮೊಬೈಲ್ ಫೋನ್ ಉತ್ತಮವಾಗಿದೆ, ದಯವಿಟ್ಟು ಇಟ್ಟುಕೊಳ್ಳಿ</string>
+  <string name="text_scan_result_problem">ಮೊಬೈಲ್‌ ಫೋನ್‌ ಸಮಸ್ಯೆಗಳನ್ನು ಹೊಂದಿದೆ, ಆಪ್ಟಿಮೈಸ್‌ ಮಾಡಲು ಸಲಹೆ</string>
+  <string name="text_accelerating">ತ್ವರಿತಗೊಳಿಸಲಾಗುತ್ತಿದೆ</string>
+  <string name="text_memory_release">ಮೆಮೊರಿ ಬಿಡುಗಡೆ ಮಾಡಿ <xliff:g id="ID_1">%s</xliff:g></string>
+  <string name="text_memory_release_running">ಮೆಮೊರಿ ರಿಲೀಸ್‌ ಮಾಡುತ್ತಿರುವುದು</string>
+  <string name="text_memory_release_display">ಯಶಸ್ವಿಯಾಗಿ ಆಕ್ಸಲರೇಟ್ ಮಾಡಲಾಗಿದೆ, <xliff:g id="ID_1">%s</xliff:g> ಮೆಮೊರಿ ಬಿಡುಗಡೆಯಾಗಿದೆ</string>
+  <string name="text_memory_used">ಬಳಸಲಾದ <xliff:g id="ID_1">%s</xliff:g></string>
+  <string name="text_phone_state_better">ಮೆಮೊರಿಯನ್ನು ಕ್ಲೀನ್ ಮಾಡಲಾಗಿದೆ</string>
+  <string name="text_phone_state_problem">ಮೊಬೈಲ್‌ ಫೋನ್‌ ಕೆಟ್ಟದು, ತಕ್ಷಣ ಅಕ್ಸೆಲರೇಟ್‌ ಮಾಡಿ</string>
+  <string name="text_root_remind">ಫೋನ್‌ ರೂಟ್‌ ಮಾಡಲಾಗಿದೆ</string>
+  <string name="text_root_remind_restore"> ರೀಸ್ಟೋರ್‌</string>
+  <string name="msg_superpower_error">ಕೊನೆಯ ಸ್ವಿಚ್ ಅಸಹಜವಾಗಿದೆ , ದುರಸ್ತಿಗೆ ಮತ್ತೆ ರೀಬೂಟ್ ಮಾಡಿ</string>
+  <string name="msg_error_title">ಅಸಹಜ ಜ್ಞಾಪನೆ</string>
+  <string name="msg_reboot">ರೀಬೂಟ್</string>
+  <string name="app_process_limit_title">ಹಿನ್ನೆಲೆ ಪ್ರಕ್ರಿಯೆ ಮಿತಿ</string>
+  <string name="app_process_limit_txt">"ಹಿನ್ನೆಲೆ ಪ್ರಕ್ರಿಯೆ ಮಿತಿ %s"</string>
+  <!-- Gionee <yangxinruo> <2015-12-11> modify for CR01608017 begin -->
+  <string name="msg_background_process">ವೈಟ್ ಲಿಸ್ಟ್</string>
+  <!-- Gionee <yangxinruo> <2015-12-11> modify for CR01608017 end -->
+  <string name="pressure_sensor_menu_first">ರಬ್ಬಿಶ್ ಕ್ಲೀನ್</string>
+  <string name="pressure_sensor_menu_second">ಆ್ಯಪ್‌ ಫ್ರೀಜ್</string>
+  <string name="pressure_sensor_menu_third">ಡಿಫಾಲ್ಟ್ ಅಪ್ಲಿಕೇಶನ್ ಸೆಟ್ಟಿಂಗ್‌ಗಳು</string>
+  <string name="pressure_sensor_menu_fourth">ನಿಯಂತ್ರಣಾ ನೆಟ್ವರ್ಕಿಂಗ್</string>
+  <string name="text_in_screenpin">"ಈಗ ಸ್ಕ್ರೀನ್ ಮೋಡಿನಲ್ಲಿದೆ, ಸೂಪರ್ ಮೋಡ್ ತೆರೆಯಲು ಸಾಧ್ಯವಿಲ್ಲ."</string>
+  <string name="required_permissions_promo">ಫೋನ್ ಮತ್ತು SD ಕಾರ್ಡಿಗಾಗಿ ಸಿಸ್ಟಂ ಮ್ಯಾನೇಜರ್ ಅನುಮತಿಯನ್ನು ಬಯಸುತ್ತದೆ.</string>
+  <string name="enable_permission_procedure">ನೀವು ಸೆಟ್ಟಿಂಗ್‌ಗಳು > ಆ್ಯಪ್‌ಗಳು > ಸಿಸ್ಟಂ ಮ್ಯಾನೇಜರ್ >ಅನುಮತಿಗಳು ಇಲ್ಲಿ ಅನುಮತಿಗಳನ್ನು ಬದಲಿಸಬಹುದು.</string>
+  <string name="enable_permission_procedure_description">ನೀವು ಸೆಟ್ಟಿಂಗ್‌ಗಳು,ಆ್ಯಪ್‌ಗಳು,ಸಿಸ್ಟಂ ಮ್ಯಾನೇಜರ್, ಅನುಮತಿಗಳು ಇಲ್ಲಿ ಅನುಮತಿಗಳನ್ನು ಬದಲಿಸಬಹುದು.</string>
+  <string name="next_with_arrow">ಮುಂದಿನದು></string>
+  <string name="next">ಮುಂದಿನದು</string>
+  <string name="settings_with_arrow">ಸೆಟ್ಟಿಂಗ್‌ಗಳು></string>
+  <string name="settings">ಸೆಟ್ಟಿಂಗ್‌ಗಳು</string>
+</resources>

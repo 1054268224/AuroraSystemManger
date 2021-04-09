@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="traffica_save_setting_list_item">
+        <item>รายการอนุญาตใช้ปริมาณการรับส่งข้อมูล</item>
+        <item>ความช่วยเหลือ</item>
+    </string-array>
+    <string-array name="traffica_save_list_item">
+        <item>บันทึกวันนี้</item>
+        <item>บันทึกเดือนนี้</item>
+        <item>บันทึกประวัติ</item>
+    </string-array>
+</resources>

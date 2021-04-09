@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Gestionnaire du système</string>
+    <string name="cell_accelerator">Mémoire nettoyée</string>
+    <string name="cell_accelerator_summary">Utilisation de la mémoire <![CDATA[<font color="#d23030">%1$s%%</font>]]></string>
+    <string name="rubbish_clean">Nettoyeur du cache</string>
+    <string name="rubblish">Mise en cache de <![CDATA[<font color="#d23030">%1$s</font>]]></string>
+    <string name="power_optimizer">Optimisation de l\'énergie</string>
+    <string name="can_use"><![CDATA[<font color="#6eb330">%1$s</font>]]> peut être utilisé</string>
+    <string name="charge_time"><![CDATA[<font color="#6eb330">%1$s</font>]]> est nécessaire</string>
+    <string name="traffic_monitor">Moniteur de trafic</string>
+    <string name="traffic_remained">Données restantes <![CDATA[<font color="#6eb330">%1$s</font>]]></string>
+    <string name="traffic_exceed">L\'utilisation des données a dépassé <![CDATA[<font color="#6eb330">%1$s</font>]]></string>
+    <string name="antivirus">Applications suspectes <![CDATA[<font color = "# d23030">%1$s 个 </ font>]]></string>
+    <string name="traffic_no_setting">Le package de données n\'a pas été défini</string>
+    <string name="traffic_no_simcard">Carte SIM non insérée</string>
+    <string name="soft_manager">Gestionnaire d\'applications</string>
+    <string name="app_installed">Applications totales <![CDATA[<font color="#d23030">%1$s</font>]]></string>
+    <string name="perm_manager">Autorisation de l\'application</string>
+    <string name="danger_apps"></string>
+    <string name="minutes">minutes</string>
+    <string name="hours">heures</string>
+    <string name="cannotget">N\'est pas prévisible</string>
+    <string name="quick_accelerate">Accélération du téléphone</string>
+    <string name="toast_content">libérer%1$smémoire</string>
+    <string name="menu_setting">Paramètres</string>
+    <string name="items_switch">Moniteur d\'arrière-plan</string>
+    <string name="net_monitor_title">Rappel de consommation des données</string>
+    <string name="net_monitor_summary">Vérifier les données consommées par les applications une fois par semaine</string>
+    <string name="energy_monitor_title">Rappel de consommation d\'énergie</string>
+    <string name="energy_monitor_summary">Vérifier l\'énergie consommée par les applications une fois par semaine</string>
+    <string name="apps_monitor_title">Rappel d\'applications rarement utilisées</string>
+    <string name="apps_monitor_summary">Vérifier la fréquence d\'utilisation des applications une fois par semaine</string>
+    <string name="root_monitor_title">Rappel de débridage</string>
+    <string name="root_monitor_summary">Vérifier si le téléphone est débridé</string>
+    <string name="desktop_monitor_title">Moniteur d\'écran d\'accueil</string>
+    <string name="desktop_monitor_summary">Le téléphone vérifiera chaque semaine si l\'écran d\'accueil est remplacé par un écran d\'accueil tiers et vous informera dans la barre de notifications si c\'est le cas</string>
+    <string name="utilization_title">Alerte système</string>
+    <string name="utilization_content">Bienvenue dans Gestionnaire du système. Cette application est susceptible d\'utiliser des données. Veuillez contacter votre opérateur de réseau pour les tarifs des données et les autres informations liées aux données.</string>
+    <!-- gionee li_j modify for CR01456639 20150322 start -->
+    <string name="dialog_checkbox_description">Ne plus me le rappeler</string>
+    <!-- gionee li_j modify for CR01456639 20150322 end-->
+    <string name="dialog_exit_btn">Quitter</string>
+    <string name="dialog_continue_btn">Continuer</string>
+    <string name="text_antivirus">Détection de virus</string>
+    <string name="text_start_scan">Commencer l\'analyse</string>
+    <string name="text_cancel_scan">Annuler l\'analyse</string>
+    <string name="text_scaning">Analyse en cours…</string>
+    <string name="text_scaning_result">Analyse terminée</string>
+    <string name="text_scaning_reminder">Examen immédiat recommandé</string>
+    <string name="text_score_unit">%</string>
+    <string name="text_menu_savepower">Gestionnaire de l\'alimentation</string>
+    <string name="text_menu_traffic">Moniteur de trafic</string>
+    <string name="text_menu_pure">Mode éco</string>
+    <string name="text_menu_ram">Mémoire</string>
+    <string name="text_one_key_check">Inspecter</string>
+    <string name="text_one_key_check_complete">Terminé</string>
+    <string name="text_scan_daily_none">Appuyez pour nettoyer la mémoire</string>
+    <string name="text_scan_daily_cancel">L\'examen a été annulé. Nous vous recommandons d\'effectuer une vérification immédiate.</string>
+    <string name="text_scan_daily_last">Dernier examen : <xliff:g id="ID_1">%s</xliff:g></string>
+    <string name="text_scan_result_good">L\'état du téléphone portable est bon, mais il peut tout de même être optimisé</string>
+    <string name="text_scan_result_better">L\'état du téléphone portable est bon, continuez comme cela</string>
+    <string name="text_scan_result_problem">Le téléphone mobile présente des problèmes. Nous vous recommandons d\'effectuer une optimisation.</string>
+    <string name="text_accelerating">Accélération</string>
+    <string name="text_memory_release">Libérer la mémoire <xliff:g id="ID_1">%s</xliff:g></string>
+    <string name="text_memory_release_running">Libération de la mémoire</string>
+    <string name="text_memory_release_display">Accélération réussie, <xliff:g id="ID_1">%s</xliff:g> de mémoire libérée</string>
+    <string name="text_memory_used">Utilisé <xliff:g id="ID_1">%s</xliff:g></string>
+    <string name="text_phone_state_better">Mémoire nettoyée</string>
+    <string name="text_phone_state_problem">L\'état du téléphone portable est très mauvais, veuillez accélérer immédiatement</string>
+    <string name="text_root_remind">Téléphone débridé</string>
+    <string name="text_root_remind_restore">restaurer</string>
+    <string name="msg_superpower_error">La dernière modification n\'est pas normale, veuillez redémarrer à nouveau pour réparer</string>
+    <string name="msg_error_title">rappel d\'anomalie</string>
+    <string name="msg_reboot">Redémarrer</string>
+    <string name="app_process_limit_title">Limiter les processus en arrière-plan</string>
+    <string name="pressure_sensor_menu_third">Paramètres d\'application par défaut</string>
+    <string name="pressure_sensor_menu_fourth">Contrôle du réseau</string>
+    <string name="msg_background_process">Liste blanche</string>
+    <string name="next">Suivant</string>
+    <string name="settings">Paramètres</string>
+    <string name="pressure_sensor_menu_first">Corbeille vidée</string>
+    <string name="next_with_arrow">Suivant &gt;</string>
+    <string name="settings_with_arrow">Paramètres &gt;</string>
+    <string name="app_process_limit_txt">Limiter les processus en arrière-plan %s</string>
+    <string name="text_in_screenpin">Le mode écran est désormais activé, ouverture du mode super impossible.</string>
+    <string name="required_permissions_promo">Le Gestionnaire du système nécessite les autorisations d\'accès à la mémoire du téléphone et aux cartes SD.</string>
+    <string name="enable_permission_procedure">Vous pouvez modifier les autorisations dans Paramètres &gt; Applications &gt; Gestionnaire système &gt; Autorisations.</string>
+    <string name="enable_permission_procedure_description">Vous pouvez modifier les autorisations dans Paramètres, Applications, Gestionnaire système, Autorisations.</string>
+    <string name="pressure_sensor_menu_second">Blocage d\'applications</string>
+</resources>

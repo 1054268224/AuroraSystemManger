@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- 手机加速主界面 -->
+    <string name="phone_accelerate">Mémoire nettoyée</string>
+    <string name="text_one_accelerate">Accélération en une touche</string>
+    <string name="searching">Recherche de données en cours…</string>
+    <string name="summary_process_clean">Les processus peuvent être fermés</string>
+    <string name="summary_process_clean_no">Aucun processus ne peut être fermé</string>
+    <string name="summary_cache_clean">Le caches peuvent être fermés</string>
+    <string name="summary_cache_clean_no">Pas d\'espace à libérer</string>
+    <string name="summary_boot_optimization">éléments dont le démarrage automatique peut être interdit</string>
+    <string name="summary_boot_optimization_no">Aucun élément démarré automatiquement ne peut être limité</string>
+    <string name="text_clean_result">
+        <xliff:g>%1$s</xliff:g> d\'espace libéré</string>
+    <string name="text_clean_result_no">Le téléphone mobile est dans le meilleur état, pas besoin d\'accélérer</string>
+    <string name="text_main_ui_notice">Secouez pour nettoyer le téléphone, gardez le téléphone dans le meilleur état</string>
+    <string name="text_shake">Il vous suffit de secouer pour accélérer le téléphone !</string>
+    <string name="text_clean_load">Nettoyage des processus et des caches. Optimisation de l\'élément de démarrage en cours…</string>
+    <!-- 进程清理 -->
+    <string name="notice_process_running">
+        <xliff:g>%1$s</xliff:g> processus en cours d\'exécution, <xliff:g>%2$s</xliff:g> disponible</string>
+    <string name="notice_process_whitelist">Les applications vérifiées ne seront pas fermées en appuyant sur la touche accélération</string>
+    <string name="text_result_clean_process">
+        <xliff:g>%1$s</xliff:g> processus ont été fermés</string>
+    <string name="title_activiy_process_clean">Nettoyage des processus</string>
+    <string name="no_select">Aucun processus sélectionné. Veuillez sélectionner un processus.</string>
+    <string name="one_clean">Nettoyage en une touche</string>
+    <string name="text_loader_process">Nettoyage des processus en cours…</string>
+    <string name="title_activity_process_protected">Ajouter des applications à la liste blanche</string>
+    <string name="text_empty_process">Aucun processus n\'est actuellement en cours d\'exécution</string>
+    <string name="summary_item_process">RAM : <xliff:g>%1$s</xliff:g></string>
+    <!-- 垃圾清理 -->
+    <string name="title_activiy_cache_clean">Nettoyage des caches</string>
+    <string name="text_no_select">Veuillez sélectionner des applications à nettoyer</string>
+    <string name="text_loader_cache">Nettoyage des caches en cours…</string>
+    <string name="text_header_cache_clean">Cache de <xliff:g>%1$s</xliff:g>, <xliff:g>%2$s</xliff:g> d\'espace utilisé</string>
+    <string name="text1_cache_clean_no">Aucun cache à nettoyer</string>
+    <string name="text2_cache_clean_no">Le nettoyage régulier des fichiers inutiles garde votre téléphone mobile propre et bien rangé.</string>
+    <!-- 开机加速 -->
+    <string name="title_activiy_boot_opt">Optimisation du démarrage</string>
+    <string name="text_loader_boot">Optimisation de l\'élément de démarrage en cours…</string>
+    <string name="text_result_bootopt">Élément de démarrage optimisé</string>
+    <string name="text_no_opt">Aucun élément de démarrage n\'a besoin d\'optimisation</string>
+    <string name="one_key_opti">Optimisation en une touche</string>
+    <string name="one_key_allow">Opération en une touche autorisée</string>
+    <string name="title_activity_add_auto_start">Ajouter l\'application de démarrage automatique</string>
+    <string name="text_empty_auto_start">Aucune application ne peut démarrer automatiquement</string>
+    <string name="text_empty_auto_start_forbid">Le démarrage automatique est activé pour toutes les applications</string>
+    <string name="text_header_auto_start">Démarrage automatique pour <xliff:g>%1$s</xliff:g> applications au total</string>
+    <string name="text_header_auto_start_forbid">Interdire le démarrage automatique (<xliff:g>%1$s</xliff:g>)</string>
+    <string name="one_key_opt">OneClean</string>
+    <string name="limited">Interdire</string>
+    <string name="allow">Autoriser</string>
+    <string name="has_allow">Autorisé</string>
+    <!-- Gionee <xuhz> <2013-02-14> add for CR01045806 begin -->
+    <string name="protected_process">Processus protégé</string>
+    <string name="important_process">Processus Important</string>
+    <!-- Gionee <xuhz> <2013-02-14> add for CR01045806 end -->
+    <!-- Gionee <jianghuan> <2014-05-06> add for CR01238335 begin -->
+    <string name="title_memory_settings">Paramètres de nettoyage mémoire</string>
+    <string name="title_activiy_green_bg">Mode éco</string>
+    <string name="memory_settings_main_title">Nettoyage des processus</string>
+    <string name="close_screen_clean_title">Nettoyage automatique 2 minutes après que l\'écran soit éteint</string>
+    <string name="close_screen_clean_summary">Nettoyer automatiquement tous les processus fonctionnant en arrière-plan lorsque l\'écran est éteint</string>
+    <string name="low_memory_clean_title">Espace disponible inférieur à 20 %</string>
+    <string name="low_memory_clean_summary">Les processus exécutés en arrière-plan seront nettoyés automatiquement lorsque la mémoire est insuffisante</string>
+    <string name="run_game_memory_clean_title">Nettoyer automatiquement lors du lancement d\'un jeu</string>
+    <string name="run_game_memory_clean_summary">Nettoie la mémoire lors du lancement d\'un jeu</string>
+    <string name="result_display_title">Résultat du nettoyage</string>
+    <string name="result_display_summary">Vous recevrez une notification à propos du résultat du nettoyage une fois celui-ci terminé</string>
+    <string name="white_list_main_title">Liste blanche</string>
+    <string name="process_white_list_title">Nettoyer la liste blanche</string>
+    <string name="process_white_list_summary">Les applications de la liste blanche sont protégées et ne seront pas nettoyées.</string>
+    <string name="green_bg_summary">Le fonctionnement en arrière-plan des applications est interdit afin de réduire la consommation d\'énergie</string>
+    <string name="radiobutton_allow">Autoriser le démarrage automatique</string>
+    <string name="radiobutton_prohibit">Interdire le démarrage</string>
+    <string name="one_key_prohibit">Interdire avec une touche</string>
+    <string name="text_empty_allow_start">Aucune application n\'est autorisée à démarrer automatiquement</string>
+    <string name="text_empty_prohibit_start">Le démarrage automatique n\'est interdit pour aucune application</string>
+    <string name="text_empty_white_app">Aucune application ajoutée</string>
+    <string name="white_list_add">Ajouter à la liste blanche</string>
+    <string name="white_list_cancel">Supprimer de la liste blanche</string>
+    <string name="text_empty_white_list">Aucune application ajoutée à la liste protégée</string>
+    <string name="text_add_white_list">Ajouter à la liste blanche</string>
+    <string name="remove">Supprimer</string>
+    <string name="ok_btn">OK</string>
+    <string name="cancel_btn">Annuler</string>
+    <string name="system_process">Processus système</string>
+    <string name="user_process">Processus utilisateur</string>
+    <string name="whitelist_remind_text">Les applications suivantes sont protégées</string>
+    <string name="add_whitelist_remind_text">Les applications sélectionnées sont protégées</string>
+    <string name="oneclean_action">Mémoire</string>
+    <string name="oneclean_action_running">Nettoyage</string>
+    <string name="percent_symbol">%</string>
+    <string name="surplus_text">Surplus</string>
+    <string name="oneclean_process_running_txt">
+        <xliff:g>%1$s</xliff:g> applications en cours d\'exécution peuvent être nettoyées</string>
+    <string name="oneclean_no_process_running_txt">Votre téléphone a été accéléré au meilleur état\n Pas besoin de le nettoyer à nouveau</string>
+    <!-- Gionee <jianghuan> <2014-05-06> add for CR01238335 end -->
+    <string name="auto_start_power">Auto</string>
+    <string name="auto_start_back">Auto</string>
+    <string name="auto_start_both">Auto</string>
+    <string name="auto_clean_result">Les processus d\'arrière-plan ont été arrêtés. <xliff:g>%1$s</xliff:g> M de mémoire sont désormais disponibles.</string>
+    <string name="auto_clean_finish">nettoyage automatique terminé</string>
+    <string name="low_mem_clean_finish">Nettoyage automatique lorsque la mémoire est faible</string>
+    <string name="clean_setings_summary">Accédez aux paramètres de nettoyage mémoire</string>
+    <string name="caches_clean_result_text">Espace libre <xliff:g>%1$s</xliff:g></string>
+    <string name="caches_clean_complete">Des fichiers inutiles ont été supprimés</string>
+    <string name="process_clean_result_note">Vous souhaitez ne pas nettoyer certaines applications ? Ajoutez-les immédiatement à la liste blanche.</string>
+    <string name="process_clean_result">
+        <xliff:g>%1$s</xliff:g> de mémoire libérés</string>
+    <string name="process_clean_complete">Accélération terminée</string>
+    <string name="action_complete">Terminé</string>
+    <string name="system_app_action">Attention</string>
+    <string name="system_app_dialog_title">Interdire le démarrage automatique de <xliff:g>%1$s</xliff:g></string>
+    <string name="system_app_dialog_message">
+        <xliff:g>%1$s</xliff:g> est une application système. Son interdiction peut entraîner une panne. Continuer ?</string>
+    <string name="cpu_monitor_setting_title">Rappel mémoire/CPU</string>
+    <string name="cpu_monitor_setting_summary">M\'informer lorsque l\'utilisation de la mémoire ou du CPU est élevée</string>
+    <string name="cpu_monitor_headup_title">L\'utilisation de la de la mémoire/du CPU est élevée</string>
+    <string name="clean_memory_title">Nettoyage automatique de la mémoire</string>
+    <string name="screenoff_clean_setting_summary">Nettoie intelligemment les applications en arrière-plan et réduit la consommation d\'énergie</string>
+    <string name="screenoff_clean_toast_setting_summary">Demander lorsque le téléphone est déverrouillé</string>
+    <string name="screenoff_clean_toast_setting_title">Rappel de résultat du nettoyage</string>
+    <string name="screenoff_clean_setting_title">Nettoyage automatique lorsque l\'écran est éteint</string>
+    <!-- Gionee <chenyu><2016-07-13> add for CR01731199 begin -->
+    <string name="screenoff_clean_toast_msg">Le Gestionnaire du système a libéré <xliff:g id="ID_1">%s</xliff:g> M de mémoire pendant le mode veille.</string>
+    <!-- Gionee <chenyu><2016-07-13> add for CR01731199 end -->
+    <string name="add">Ajouter</string>
+    <string name="cpu_monitor_headup_summary">Peut entraîner un ralentissement du téléphone</string>
+    <string name="cpu_monitor_headup_to_clean">accélérer</string>
+    <string name="running_apps_title">Programmes en cours d\'exécution</string>
+    <string name="running_apps_header">
+        <xliff:g id="ID_1">%s</xliff:g> applications en cours d\'exécution peuvent être nettoyées.</string>
+    <string name="running_apps_finish">Applications arrêtées <xliff:g id="ID_1">%s</xliff:g> mémoire</string>
+    <string name="running_apps_result_title">Accélération du téléphone</string>
+    <string name="running_apps_result_tip">Les applications nettoyées seront redémarrées, mais vous pouvez ajouter celles qui sont fréquemment utilisées à la liste blanche</string>
+    <string name="screenoff_whitelist_noti_title">Liste blanche de nettoyage du Gestionnaire du système</string>
+    <string name="screenoff_whitelist_noti_message">Les applications de la liste blanche sont protégées du nettoyage automatique lors du verrouillage de l\'écran et du nettoyage en une touche dans l\'interface multitâche, appuyez pour ajouter à la liste blanche. Si certaines applications ne reçoivent pas de nouveaux messages ou leur téléchargement est interrompu après le verrouillage de l\'écran, vous pouvez les ajouter à la liste blanche</string>
+    <string name="encryptions_app_fake_name">Autre</string>
+    <string name="screenoff_clean_setting_summary_sleep2h">Nettoyez intelligemment les applications en arrière-plan lorsque le sommeil dépasse 2 heures</string>
+    <string name="auto_clean_timing_summary">Nettoyage automatique de cache a 4heres</string>
+    <string name="auto_clean_timing_title">Nettoyage automatique de cache</string>
+    <string name="system_manager_preference_screen_preference_title">Nettoyage intelligente de memoire cache</string>
+</resources>

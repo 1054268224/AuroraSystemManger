@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">  
+    <string name="cyee_app_name">CyeeUI</string>
+    <string name="cyee_capital_on">অন</string>
+    <string name="cyee_capital_off">অফ</string>
+    <string name="cyee_time_picker_dialog_title">সময় সেট করুন</string>
+    <string name="cyee_date_picker_dialog_title">তারিখ সেট করুন</string>
+    <string name="cyee_date_time_done">সম্পন্ন</string>
+    <string name="cyee_copy">কপি করুন</string>
+    <string name="cyee_paste">পেস্ট করুন</string>
+    <string name="cyee_cut">কাট করুন</string>
+    <string name="cyee_selectAll">সবগুলি সিলেক্ট করুন</string>
+    <string name="cyee_select">সিলেক্ট করুন</string>
+    <string name="cyee_inputMethod">ইনপুট পদ্ধতি</string>
+    <string name="cyee_back_button_label">ব্যাক</string>
+    <string name="cyee_next_button_label">পরবর্তী</string>
+    <string name="cyee_skip_button_label">স্কিপ করুন</string>
+    <string name="cyee_ok">ওকে</string>
+    <string name="cyee_cancel">বাতিল করুন</string>
+    <string name="cyee_yes">ওকে</string>
+    <string name="cyee_no">বাতিল করুন</string>
+    <string name="cyee_action_mode_done">সম্পন্ন</string>
+    <string name="cyee_action_bar_home_description">হোম স্ক্রীনে ন্যাভিগেট করুন</string>
+    <string name="cyee_action_bar_up_description">উপরে ন্যাভিগেট করুন</string>
+    <string name="cyee_smart_full_btn_label">ওকে</string>
+    <string name="cyee_activity_resolver_use_always">সবসময়</string>
+    <string name="cyee_activity_resolver_use_once">একবার</string>
+    <string name="cyee_noApplications">কোন অ্যাপ এই কাজটি করতে পারবে না.</string>
+    <string name="cyee_system_label">Android সিস্টেম</string>
+    <string name="cyee_whichApplication">অ্যাকশন সম্পন্ন করুন ব্যবহার করে</string>
+    <string name="cyee_chooseActivity">শেয়ার করুন</string>
+    <string name="cyee_actionbar_magic_item_more">আরও</string>
+    <string name="cyee_actionbar_magic_item_close">বন্ধ করুন</string>
+    <string name="cyee_edit_mode_leftbtn_txt">বাতিল করুন</string>
+    <string name="cyee_edit_mode_rightbtn_txt">সেভ করুন</string>
+    <string name="cyee_strong_warning">দৃঢ় সতর্কতা</string>
+    <string name="cyee_multichoice_select_text">%1$s সিলেক্ট করা হয়েছে</string>
+    <string name="cyee_multichoice_select_all">সবগুলি সিলেক্ট করুন</string>
+    <string name="cyee_multichoice_cancel_select_all">সবগুলি অনির্বাচিত করুন</string>
+    <string name="unit_year">Y</string>
+    <string name="unit_month">M</string>
+    <string name="unit_day">D</string>
+    <string name="unit_hour">H</string>
+    <string name="unit_minute">M</string>
+    <string name="clone_suffix"> ক্লোন </string>
+    <string name="cyee_loading">লোড হচ্ছে\u2026</string>
+    <string name="cyee_today">আজ</string>
+</resources>

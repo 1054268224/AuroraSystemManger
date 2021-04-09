@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="text">"Wyślij wiadomość"</string>
+    <string name="trafficassistant_app_name">"Monitor ruchu"</string>
+    <string name="tabbar_name1">"Gniazdo karty SIM 1"</string>
+    <string name="tabbar_name2">"Gniazdo karty SIM 2"</string>
+    <string name="remained_flow_string">"Nadmiar"</string>
+    <string name="exceed_flow_string">"Przekroczenie"</string>
+    <string name="used">"Używane"</string>
+    <string name="used_flow_string">Używane: <xliff:g id="ID_1">%s</xliff:g>MB</string>
+    <string name="total_flow_string">Łącznie: <xliff:g id="ID_1">%s</xliff:g>MB</string>
+    <string name="prompt_no_settings_traffic">"Nie ustawiono"</string>
+    <string name="no_settings">"Nie ustawiono"</string>
+    <string name="prompt_used_traffic">Używane\n <xliff:g id="ID_1">%s</xliff:g>MB</string>
+    <string name="month">"Miesiąc"</string>
+    <string name="day">"dzień"</string>
+    <string name="noti_today">"Przepływ dziś"</string>
+    <string name="noti_surplus">"Wolne"</string>
+    <string name="noti_exceed">"Przekroczenie"</string>
+    <string name="noti_total">"Łącznie"</string>
+    <string name="noti_no_settings">"Nie ustawiono planu danych"</string>
+    <string name="noti_no_card">"Karta SIM nie jest podłączona."</string>
+    <string name="start_date_string">"Co miesiąc"</string>
+    <string name="limit_flow">"Ustaw plan danych"</string>
+    <string name="detail_flow">"Wykresy"</string>
+    <string name="network_control">"Kontrola sieci"</string>
+    <string name="more_settings">"Więcej kontroli ustawienia"</string>
+    <string name="traffic_save">"Oszczędzanie ruchu danych"</string>
+    <string name="no_card_warning">"Włóż SIM"</string>
+    <string name="action_known">"Gotowe"</string>
+    <string name="action_settings">"Ustaw"</string>
+    <string name="action_cancel">"Anuluj"</string>
+    <string name="action_done">"Gotowe"</string>
+    <string name="action_save">"Zapisz"</string>
+    <string name="action_sure">"OK"</string>
+    <string name="action_allow">"Zezwól"</string>
+    <string name="action_prohibit">"Zabroń"</string>
+    <string name="action_all_allow">"Zezwól na wszystko"</string>
+    <string name="action_all_prohibit">"Wyłącz wszystko"</string>
+    <string name="application_info">"O aplikacji"</string>
+    <string name="data_connect_allow">"Kontrola połączeń"</string>
+    <string name="total_flow_settings">"Miesięczne limity danych"</string>
+    <string name="input_hint">"Wprowadź"</string>
+    <string name="warning_settings">"Ostrzegaj po zużyciu"</string>
+    <string name="date_start_settings">"Data rozpoczęcia pakietów danych"</string>
+    <string name="used_flow_settings">"Wykorzystane pakiety danych"</string>
+    <string name="flow_unit">"MB"</string>
+    <string name="percent_unit">"%"</string>
+    <string name="mobile_data_stop_title">"Alert danych"</string>
+    <string name="mobile_data_stop_contetn">"Wykorzystano miesięczny limit danych, dalsze użycie danych mobilnych może wiązać się z kosztami, kontynuować ?"</string>
+    <string name="action_restart">"Kontynuj używanie"</string>
+    <string name="action_stop">"Nie używaj"</string>
+    <string name="info_save_error_no_flow_input">"Ustaw miesięczny limit danych"</string>
+    <string name="info_prompt">"Może ręcznie dostosować wartość limitu."</string>
+    <string name="popup_notification_title">"Nie ustawiono planu danych"</string>
+    <string name="popup_notification_ticker_title">"Bieżący ruch danych nie zapewnia ochrony pakietów"</string>
+    <string name="popup_notification_content">"Kliknij, aby ustawić monitor zuzycia danych w czasie rzeczywistym"</string>
+    <string name="popup_setting_title_dialog">"Ustaw plan danych"</string>
+    <string name="popup_setting_content_dialog">"Ustaw plan danych oraz zabezpiecz telefon."</string>
+    <string name="notification_warn_exceed_warning_title">"Czerwone ostrzeżenie planu danych"</string>
+    <string name="notification_warn_exceed_warning_content">"Przepływ danych osiągnął wartość ostrzegawczą, dotknij, aby zobaczyć zużycie"</string>
+    <string name="percent_value">"80"</string>
+    <string name="warning_value">"0.0"</string>
+    <string name="zero_percent">"80%"</string>
+    <string name="total_percent">"100%"</string>
+    <string name="process_kernel_labels">"System Android"</string>
+    <string name="data_usage_uninstalled_apps_users">"Usunięte aplikacje i użytkownicy"</string>
+    <string name="data_usage_uninstalled_apps">"Usunięte aplikacje"</string>
+    <string name="tether_settings_title_all">"Ustawienie tetheringu"</string>
+    <string name="tether_settings_title_wifi">"Przenośny punkt dostępu"</string>
+    <string name="tether_settings_title_usb_bluetooth">"Tethering"</string>
+    <string name="tether_settings_title_usb">"Tethering przez USB"</string>
+    <string name="tether_settings_title_bluetooth">"Tethering przez Bluetooth"</string>
+    <string name="running_process_item_user_label">"Użytkownik: %1$s"</string>
+    <string name="data_usage_app_restricted">"z ograniczeniami"</string>
+    <string name="usage_detail">"Szczegóły ruchu"</string>
+    <string name="version_name">"Wersja:"</string>
+    <string name="traffic_time_day">Dzisiejszy transfer danych(<xliff:g id="ID_1">%s</xliff:g>)</string>
+    <string name="traffic_time_week">Transfer danych w tym tygodniu (<xliff:g id="ID_1">%s</xliff:g>)</string>
+    <string name="traffic_time_month">Transfer danych w tym miesiącu(<xliff:g id="ID_2">%s</xliff:g>)</string>
+    <string name="traffic_day">"Dzisiejszy ruch danych"</string>
+    <string name="traffic_week">"Tygodniowy ruch danych"</string>
+    <string name="traffic_month">"Miesięczny ruch danych"</string>
+    <string name="traffic_day_no">"Dane nie zużyte dzisiaj"</string>
+    <string name="traffic_week_no">"Dane nie zużyte w tym tygodniu"</string>
+    <string name="traffic_month_no">"Dane nie zużyte w tym miesiącu"</string>
+    <string name="network_selection">"Ruch danych w tym miesiącu"</string>
+    <string name="no_value">"Brak"</string>
+    <string name="text_loading">"ładowanie…"</string>
+    <string name="text_noti">"Przetwarzanie…"</string>
+    <string name="traffic_monitor_display">
+        <xliff:g id="ID_1">%s</xliff:g> Używanie pakietu danych 2G/3G/4G:</string>
+    <string name="traffic_monitor_title">"Zużycie danych w tym tygodniu"</string>
+    <string name="traffic_monitor_message">
+        <xliff:g id="ID_1">%s</xliff:g>
+    </string>
+    <string name="traffic_settings_main_title">"Centrum powiadomień"</string>
+    <string name="traffic_network_speed_title">"Wyświetl prędkość sieci"</string>
+    <string name="traffic_network_speed_summary">"Prędkość sieci zostanie wyświetlona na pasku powiadomień, gdy przycisk będzie włączony"</string>
+    <string name="traffic_notification_title">"Pokaż informacje o bieżącym miesięcznym zużyciu danych"</string>
+    <string name="traffic_notification_summary">"Otwórz pasek powiadomień podczas wyświetlania informacji o zużyciu danych"</string>
+    <string name="traffic_netcontrol_bar_allow_text">Zezwalaj na sieci (<xliff:g id="ID_1">%1$s</xliff:g>)</string>
+    <string name="traffic_netcontrol_bar_prohibit_text">Zabronił internetu(<xliff:g id="ID_1">%1$s</xliff:g>)</string>
+    <string name="net_link_allowed_txt">"Brak aplikacji mogącej mieć dostęp do internetu"</string>
+    <string name="net_link_prohibited_txt">"Brak aplikacji"</string>
+    <string name="traffic_save_setting">"Ustawienia oszczędzania danych"</string>
+    <string name="switch_off">"Wyłącz"</string>
+    <string name="switch_on">"Włącz"</string>
+    <string name="traffic_save_off">"Oszczędzanie ruchy danych wył."</string>
+    <string name="traffic_save_off_summary">"Ta funkcja działa tylko w sieci danych"</string>
+    <string name="traffic_save_total_title">"Zgromadzonych oszczędności"</string>
+    <string name="traffic_save_total_num_string">"328"</string>
+    <string name="total_volume_string">"MB"</string>
+    <string name="money_save_total_title">"O Renminbi"</string>
+    <string name="money_save_total_num_string">"32.8"</string>
+    <string name="total_money">"Juan"</string>
+    <string name="traffic_save_support_txt">"Dostarczone przez OPERA"</string>
+    <string name="traffic_save_history">"Pokaż historię oszczędzania danych"</string>
+    <string name="traffic_save_history_total">"Cumulative savings flow"</string>
+    <string name="traffic_question1">"1、How to achieve flow saves?"</string>
+    <string name="traffic_question2">"2、Why use traffic after you save, you don\'t see Save?"</string>
+    <string name="traffic_question3">"3、Flow function itself uses savings flow？"</string>
+    <string name="traffic_question4">"4、Using traffic after you save my Internet Privacy Security?"</string>
+    <string name="traffican_answer1">"Flow saves feature turned on, will used to resize the text, pictures and other traffic, thus reducing QQ, weixin, Taobao for applications such as traffic consumption. Sustained results better."</string>
+    <string name="traffican_answer2">"Flow rate savings take effect only for data networking, WLAN is not enabled. Flow saves only the text and picture effect, audio and video and file download does not save traffic."</string>
+    <string name="traffican_answer3">"Flow saves itself consumes no traffic, after you turn on this feature, all of the 2/3/4G Internet traffic will use System Manager to aggregate and compress, and individual security software will see Butler using the flow of the system. We will not consume your valuable traffic, please feel free to use."</string>
+    <string name="traffican_answer4">"Ta funkcja nie zapisuje Twoich prywatnych informacji, możesz jej bezpieczeni używać."</string>
+    <string name="traffican_question_answer">"Popularne problemy"</string>
+    <string name="traffican_whitelist_title">"Lista aplikacji nie wymaga oszczędzania danych"</string>
+    <string name="text_no_traffic_whitelist">"Nie ma potrzeby oszczędzania danych"</string>
+    <string name="traffic_simcard_focus1">"SIM 1"</string>
+    <string name="traffic_simcard_focus2">"SIM 2"</string>
+    <string name="traffic_netcontrol_tab_bar_allow_text">"Dozwolone w sieci"</string>
+    <string name="traffic_netcontrol_tab_bar_prohibit_text">"Zakazane w sieci"</string>
+    <string name="traffic_title_text">
+        <xliff:g id="ID_1">%1$s</xliff:g> Apllikacji</string>
+    <string name="time_format">"rrrr-MM"</string>
+    <string name="traffic_back_toast_text">"Aplikacja kontroli sieci jest uruchomiona, proszę czekać"</string>
+    <string name="traffic_save_wait_text">Aktualizacja danych, proszę czekać…</string>
+    <string name="traffic_btn_calibration_text">Kalibruj</string>
+    <string name="traffic_limit_settings_title">Ustawienia LimituRuchu</string>
+    <string name="traffic_origan">Standardowy ruch</string>
+    <string name="traffic_idle_show_title">Pokaż ruch w bezczynności</string>
+    <string name="traffic_idle_available">Ruch dostępny w bezczynności</string>
+    <string name="traffic_idle_used">Ruch zużyty w bezczynności</string>
+    <string name="traffic_buy_title">Kup ruch</string>
+    <string name="buy_step1_title">1 wprowadź numer</string>
+    <string name="buy_step2_title">2 wybierz wartość</string>
+    <string name="buy_step3_title">3 płać i kup</string>
+    <string name="buy_step_title">1 wprowadź numer &gt; 2 wybierz wartość &gt; 3 płać i kup</string>
+    <string name="temp_carrieroperator_title">beijing chnio</string>
+    <string name="order_info_title">Informacje o zamówieniu</string>
+    <string name="traffic_packge_text">
+        <xliff:g id="ID_1">%1$s</xliff:g> pakietów ruchu</string>
+    <string name="traffic_packge_default_money">2 YUANY</string>
+    <string name="traffic_packge_default_instruction">Płatność natychmiastowa</string>
+    <string name="mobile_info_numble">Płatność: <xliff:g id="ID_1">%1$s</xliff:g></string>
+    <string name="pay_order_title">Płatność i zamówienie</string>
+    <string name="pay_order_Immediately_title">Płatność natychmiastowa</string>
+    <string name="show_problem_title">Częste problemy</string>
+    <string name="buy_record_title">Historia zakupów</string>
+    <string name="problem1_title">1 Doładowanie w roamingu?</string>
+    <string name="problem1_content">Proszę zwrócić uwagę na podpowiedzi stron, takie jak wyświetlanie kraju.</string>
+    <string name="problem2_title">2 Jaki jest okres ważności doładowania?</string>
+    <string name="problem2_content">Doładowanie jest ważne przez miesiąc</string>
+    <string name="problem3_title">3 Jak sprawdzić czy doładowanie się powiodło?</string>
+    <string name="problem3_content">Po doładowaniu, oczekuj na potwierdzenie od operatora. Możesz również zadzwonić do operatora w celu potwierdzenia doładowania.</string>
+    <string name="problem4_title">4 Co jeśli doładuje błędny numer?</string>
+    <string name="problem4_content">Przykro nam, po wpisaniu błędnego numeru, operator nie ma możliwości zwrotu środków.</string>
+    <string name="problem5_title">5 Jak długo czekać na zwrot środków po błędzie usługi?</string>
+    <string name="problem5_content">Standardowo, w przypadku błędu zwracamy środki. W ciągu 24 godzin. Możesz dołączyć do naszej oficjalnej grupy QQ (188473978) , aby dowiedzieć się więcej.</string>
+    <string name="problem6_title">6 Jak sprawdzić historię moich zamówień ?</string>
+    <string name="problem6_content">Historia zamówień dostępna jest na górze strony</string>
+    <string name="mobile_invalid_text">Błąd sieci</string>
+    <string name="sell_alipay">Płać przez Alipay</string>
+    <string name="sell_weixin_pay">Płać przez Weixin</string>
+    <string name="payment_success_txt">Zamówiono pomyślnie!</string>
+    <string name="payment_failed_txt">Błąd zamówienia!</string>
+    <string name="payment_pre_txt">Doładuj</string>
+    <string name="btn_try_again_txt">Spróbuj ponownie</string>
+    <string name="no_record_txt">Brak zapisów</string>
+    <string name="query_record_falil_txt">Błąd zapytania!</string>
+    <string name="data_load_txt">Trwa ładowanie...</string>
+    <string name="net_error_text">Błąd sieci, sprawdź ją</string>
+    <string name="exit_Contacts_text">Brak książki telefonicznej</string>
+    <string name="traffic_origan_txt">Ruch Origan</string>
+    <string name="traffic_idle_txt">Ruch podczas bezczynności</string>
+    <string name="traffic_idle_set_title">Ustawienia wolnego ruchu</string>
+    <string name="traffic_correctting_txt">Kalibrowanie</string>
+    <string name="correctting_wait_txt">Proszę czekać…</string>
+    <string name="correctting_fail_txt">Naprawianie błędu, proszę czekać…</string>
+    <string name="correctting_success_txt">Ruch został skalibrowany, pozostało <xliff:g id="ID_1">%1$s</xliff:g>MB</string>
+    <string name="query_traffic_txt">Wyszukiwanie zużycia ruchu</string>
+    <string name="query_product_fail_txt">Brak dostępnych pakietów abonamentowych</string>
+    <string name="query_product_record_fail_txt">Błąd zapisu zapytania produktu</string>
+    <string name="no_install_weixin_txt">Proszę potwierdzić, czy zainstalowano listę mikro</string>
+    <string name="no_correct_service_txt">Trwa inicjalizacja, spróbuj ponownie później…</string>
+    <string name="buy_number_hint_txt">Wprowadź numer swojego telefonu</string>
+    <string name="no_query_code_txt">Błąd kalibracji, ręcznie ustaw przepływ pakietów</string>
+    <string name="buy_omitted_displayname">
+        <xliff:g id="ID_1">%1$s</xliff:g>...</string>
+    <string name="sell_baseinfo_symbol">/</string>
+    <string name="calibrate_setting_txt">Ustawienia kalibracji</string>
+    <string name="calibrate_setting_province">Województwo</string>
+    <string name="calibrate_setting_brand">Pasmo operatora</string>
+    <string name="calibrate_setting_province_choice">Wybór województwa</string>
+    <string name="calibrate_setting_brand_choice">Wybór pasma operatora</string>
+    <string name="calibrate_send_msg_fail">Błąd wysyłania SMS, sprawdź ustawienia pasma operatora.</string>
+    <string name="traffic_flaw_price_txt">
+        <xliff:g id="ID_1">%1$s</xliff:g>YUAN</string>
+    <string name="buy_record_baseinfo_txt">
+        <xliff:g id="ID_1">%1$s</xliff:g> Doładuj<xliff:g id="ID_2">%2$s</xliff:g> /<xliff:g id="ID_3">%3$s</xliff:g>YUAN</string>
+    <string name="buy_record_paytype_txt">
+        <xliff:g id="ID_1">%1$s</xliff:g>
+        <xliff:g id="ID_2">%2$s</xliff:g>
+    </string>
+    <string name="noti_softap_setting_title">Powiadomienie udostępniania danych hotspotu</string>
+    <string name="noti_softap_setting_text">Pokaż powiadomienie po osiągnięciu limitu <xliff:g id="ID_1">%s</xliff:g> danych</string>
+    <string name="noti_softap_group_title">Ustawienia danych przenośnego hotspotu Wi-Fi</string>
+    <string name="noti_softap_setting_cancel">Anuluj</string>
+    <string name="noti_softap_setting_userDefine">Niestandardowe</string>
+    <string name="noti_softap_setting_commit">Uruchom</string>
+    <string name="noti_softap_setting_units">M</string>
+    <string name="noti_softap_warning_title">Powiadomienie danych</string>
+    <string name="noti_softap_warning_message">Osiągnięto limit udostępniania danych hotspotu <xliff:g id="ID_1">%s</xliff:g>, wyłączyć hotspot?</string>
+    <string name="noti_softap_close_text">Wyłącz</string>
+    <string name="noti_softap_no_warning_text">Nie przypominaj</string>
+    <string name="dialog_btn_cancel">Anuluj</string>
+    <string name="dialog_btn_unlock">Zwolnij</string>
+    <string name="dialog_network_control_title">Alert ManageraSystemu</string>
+    <string name="net_type_mobile">Sieć komórkowa</string>
+    <string name="net_type_wifi">Sieć Wi-Fi</string>
+    <string name="dialog_not_alert_again">Brak ostrzeżenia</string>
+    <string name="dialog_network_control_content">
+        <xliff:g id="ID_1">%1$s</xliff:g> nie ma uprawnień do używania <xliff:g id="ID_1">%1$s</xliff:g> , czy usunąć to zastrzeżenie?</string>
+    <string name="dialog_know">OK</string>
+    <string name="hotspot_restart">Uruchom ponownie</string>
+    <string name="lockscreen_traffic_remind_close">Nie przypominaj</string>
+    <string name="error_phone_number_text">Nieprawidłowy numer telefonu</string>
+    <string name="nogi_entry_buy_text">Kliknij, aby kupić pakiet danych</string>
+    <string name="info_save_error_no_used_input">Wprowadź użyty ruch danych</string>
+    <string name="payment_sended_txt">Zamówienia został wysłane, oczekiwanie na doładowanie od operatora ...</string>
+    <string name="payment_explain_txt">Zwykle dodanie danych do konta trwa około 1 godziny, jednak ze względu na problemy z siecią czas ten może się wydłużyć.</string>
+    <string name="payment_fail_reason_txt">Błąd może być spowodowany problemami z siecią, przeciążąną siecią operatora lub innymi nieznanymi przyczynami.</string>
+    <string name="weixin_freezed_txt">WeChat został zamrożony, nie może zostać użyty</string>
+    <string name="hotspot_userdefine_settingvalue_invalid">Nieprawidłowe dane, uruchom ponownie</string>
+    <string name="weixin_disenabled_txt">WeChat został wyłączony, nie może zostać użyty</string>
+    <string name="lockscreen_traffic_limit_one">100kB</string>
+    <string name="lockscreen_traffic_limit_two">1M</string>
+    <string name="lockscreen_traffic_limit_three">5MB</string>
+    <string name="lockscreen_traffic_remid_title">Przypomnienie o ruchu danych blokady ekranu</string>
+    <string name="traffic_remind_group_title">Przypomnienie o ruchu danych</string>
+    <string name="lock_screen_traffic_content">Dotknij, aby wyświetlić szczegóły</string>
+    <string name="lock_screen_traffic_unknow_app">Nieznana aplikacja</string>
+    <string name="historyorder_dial">wybierz numer</string>
+    <string name="historyorder_query_failed">Błąd zapytania!</string>
+    <string name="historyorder_retry">Spróbuj ponownie</string>
+    <string name="unknow_app">Nieznana aplikacja</string>
+    <string name="traffic_monitor_display_kr">
+        <xliff:g id="ID_1">%s</xliff:g> Zużycie danych 3G wynosi:</string>
+    <string name="traffic_original_price_txt">
+        <xliff:g id="ID_1">%1$s</xliff:g>
+    </string>
+    <string name="noti_softap_use_agiain_txt">Use <xliff:g id="ID_1">%1$d</xliff:g>M</string>
+    <string name="hotspot_settingvalue_valid">Gdy hotspot udostępni <xliff:g id="ID_1">%1$d</xliff:g>MB , nastąpi ponowne przypomnienie</string>
+    <string name="hotspot_settingvalue_invalid">Wykorzystano <xliff:g id="ID_1">%1$1.2f</xliff:g>MB. Uruchom ponownie.</string>
+    <string name="hotspot_auto_close_message">Osiągnięto limit udostępniania danych Hotspotu <xliff:g id="ID_1">%d</xliff:g>MB, wyłącz hotspot, aby uniknąć nadmiernego zużycia danych.</string>
+    <string name="traffic_pay_dialag_title">zapłać <xliff:g id="ID_1">%1$1.2f</xliff:g>Juanów, wybierz typ płatności</string>
+    <string name="traffic_packge_title">
+        <xliff:g id="ID_1">%1$s</xliff:g>
+        <xliff:g id="ID_2">%2$1.2f</xliff:g>YUAN<xliff:g id="ID_3">%3$s</xliff:g>package</string>
+    <string name="traffic_pay_mobile">komórkowe: <xliff:g id="ID_1">%1$s</xliff:g></string>
+    <string name="traffic_pay_time">czas płatności: <xliff:g id="ID_1">%1$s</xliff:g></string>
+    <string name="traffic_pay_type">typ płatności: <xliff:g id="ID_1">%1$s</xliff:g></string>
+    <string name="traffic_pay_original_price">pierwotna cena: <xliff:g id="ID_1">%1$1.2f</xliff:g>Juanów</string>
+    <string name="traffic_pay_price">aktualna cena: <xliff:g id="ID_1">%1$1.2f</xliff:g>Juanów</string>
+    <string name="traffic_pay_orider_id">ID zamówienia: <xliff:g id="ID_1">%1$s</xliff:g></string>
+    <string name="traffic_buy_open_fail">Błąd spowodowany brakiem sieci lub inną przyczyną, spróbuj ponownie później</string>
+    <string name="traffic_buy_alipay">Alipay</string>
+    <string name="traffic_buy_weixin">WeChat</string>
+    <string name="product_description">Dostępne w całym kraju, ważne tylko w tym miesiącu</string>
+    <string name="lockscreen_traffic_remid_txt">Użycie danych osiągnęło limit <xliff:g id="ID_1">%1$s</xliff:g></string>
+    <string name="lock_screen_traffic_title">Użycie danych osiągnęło limit <xliff:g id="ID_1">%s</xliff:g></string>
+    <string name="historyorder_title">Historia zamówienia</string>
+    <string name="historyorder_detail_title">Szczczegóły historii zamówienia</string>
+    <string name="historyorder_empty_txt">Pusta historia zamówienia</string>
+    <string name="historyorder_alipay">Alipay</string>
+    <string name="historyorder_wechat_pay">Płatność WeChat</string>
+    <string name="historyorder_paying">płacenie</string>
+    <string name="historyorder_payed_success">pomyślnie zapłacono</string>
+    <string name="historyorder_payed_fail">błąd płatności</string>
+    <string name="historyorder_chargeback_success">pomyślny chargeback</string>
+    <string name="historyorder_payment_success">pomyślna płatność</string>
+    <string name="historyorder_payment_fail">błąd płatności</string>
+    <string name="historyorder_supporttel">obsługa klienta</string>
+    <string name="historyorder_status">stan historii zamówienia: <xliff:g id="ID_1">%1$s</xliff:g></string>
+    <string name="noti_surplus_message">Za darmo w tym miesiącu <xliff:g id="ID_1">%1$s</xliff:g></string>
+    <string name="noti_exceed_message">Przekroczono w tym miesiącu <xliff:g id="ID_1">%1$s</xliff:g></string>
+</resources>

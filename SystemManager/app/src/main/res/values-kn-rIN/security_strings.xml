@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="security_wallet_title">ಪಾವತಿಯ ರಕ್ಷಣೆ</string>
+  <string name="security_wallet_empty">ಯಾವುದೇ ನಿಜವಾದ ಪಾವತಿ ಆ್ಯಪ್‌ ಕಂಡುಬಂದಿಲ್ಲ</string>
+  <string name="security_wallet_header">ಆ್ಯಪ್‌ಗಳು ರಕ್ಷಿಸಲಾಗುತ್ತಿದೆ</string>
+  <string name="security_wallet_header_on">ತೆರೆಯಿರಿ</string>
+  <string name="security_wallet_header_off">ಮುಚ್ಚಲಾಗಿದೆ</string>
+  <string name="security_wallet_mini_bar_tip">ಕೆಳಗಿನ ಆ್ಯಪ್‌ಗಳನ್ನು ಜೆನ್ಯೂನ್ ಎಂದು ಪರಿಶೀಲಿಸಲಾಗಿದೆ</string>
+  <string name="security_wallet_support">AVL ಪ್ರಾಯೋಜಕತ್ವ</string>
+  <string name="security_wallet_mini_bar_tip_off">ಪಾವತಿಯ ರಕ್ಷಣೆ ಮುಗಿದಿದೆ</string>
+  <string name="security_wallet_mini_bar_tip_root">ರೂಟ್ ಮಾಡಲಾದ ಸಿಸ್ಟಮ್ ಪಾವತಿಯ ಅಪಾಯವನ್ನು ಹೊಂದಿದೆ</string>
+  <string name="security_wallet_off_info">ಪಾವತಿ ಆ್ಯಪ್ ಚಾಲನೆಯಲ್ಲಿರುವಾಗ ಪಾವತಿ ಭದ್ರತೆಯನ್ನು ರಕ್ಷಿಸಲು ಪಾವತಿ ರಕ್ಷಣೆಯನ್ನು ತೆರೆಯುವುದರಿಂದ ಇದು ಸುತ್ತಮುತ್ತಲಿನ ಪರಿಸರವನ್ನು ಸ್ಕ್ಯಾನ್ ಮಾಡುತ್ತದೆ, WLAN ಕನೆಕ್ಷನ್ ಪತ್ತೆ ಮಾಡುತ್ತದೆ ಮತ್ತು ದುರುದ್ದೇಶಪೂರಿತ ಕೋಡುಗಳನ್ನು ತಡೆಯುತ್ತದೆ</string>
+  <string name="security_wallet_jump_to_app_store">ಇನ್ನಷ್ಟು ಪರಿಶೀಲಿಸಲಾದ ಆ್ಯಪ್‌ಗಳನ್ನು ಪಡೆಯಿರಿ</string>
+  <string name="security_wallet_jump_to_app_store_not_found">ಆ್ಯಪ್‌ ಸ್ಟೋರನ್ನು ಆರಂಭಿಸಲಾಗುವುದಿಲ್ಲ</string>
+  <string name="security_safed_list_installed_toast"><xliff:g>%1$s</xliff:g> ನ್ನು ಪಾವತಿ ಸುರಕ್ಷತೆಗಾಗಿ ಇನ್ಸ್ಟಾಲ್ ಮಾಡಲಾಗಿದೆ</string>
+</resources>

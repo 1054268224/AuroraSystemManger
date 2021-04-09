@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="cell_accelerator">الذاكرة خالية</string>
+    <string name="rubbish_clean">منظف ذاكرة التخزين</string>
+    <string name="rubblish">ذاكرات التخزين المؤقت <![CDATA[<font color="#d23030">%1$s</font>]]></string>
+    <string name="power_optimizer">تحسين استهلاك الطاقة</string>
+    <string name="charge_time"><![CDATA[<font color="#6eb330">%1$s</font>]]> مطلوب</string>
+    <string name="traffic_monitor">مراقبة حركة البيانات</string>
+    <string name="traffic_remained">البيانات المتبقية <![CDATA[<font color="#6eb330">%1$s</font>]]></string>
+    <string name="traffic_exceed">تم تجاوز حد استخدام البيانات <![CDATA[<font color="#6eb330">%1$s</font>]]></string>
+    <string name="traffic_no_setting">لم يتم تعيين حزم البيانات</string>
+    <string name="cannotget">لا يمكن التنبؤ به</string>
+    <string name="toast_content">تحرير مساحة %1$s بالذاكرة</string>
+    <string name="menu_setting">الإعدادات</string>
+    <string name="items_switch">شاشة الخلفية</string>
+    <string name="net_monitor_title">التذكير باستخدام البيانات</string>
+    <string name="net_monitor_summary">تحقق من استخدام حركة البيانات الخاصة بالتطبيقات مرة واحدة في الأسبوع</string>
+    <string name="energy_monitor_title">التذكير باستهلاك الطاقة</string>
+    <string name="apps_monitor_title">التذكير بالتطبيقات التي يندر استخدامها</string>
+    <string name="apps_monitor_summary">تحقق من تكرار استخدام التطبيقات مرة واحدة أسبوعيًا</string>
+    <string name="root_monitor_title">التذكير بالجذر</string>
+    <string name="root_monitor_summary">تحقق من أن الهاتف قد تم تجذيره</string>
+    <string name="desktop_monitor_title">مراقبة سطح المكتب</string>
+    <string name="desktop_monitor_summary">ستقوم بالمراقبة أسبوعيًا في حالة استبداله بسطح مكتب لجهة خارجية، وسيتم إبلاغك على شريط الإشعارات في حالة استبداله</string>
+    <string name="utilization_content">مرحبا بكم في إدارة النظام. قد يستخدم هذا التطبيق البيانات. الرجاء الاتصال بمشغل الشبكة للحصول على تكلفة البيانات وغيرها من المعلومات ذات الصلة.</string>
+    <string name="dialog_checkbox_description">لا تذكّرني مرة أخرى</string>
+    <string name="dialog_exit_btn">إنهاء</string>
+    <string name="dialog_continue_btn">استمرار</string>
+    <string name="text_start_scan">بدء الفحص</string>
+    <string name="text_cancel_scan">إلغاء الفحص</string>
+    <string name="text_scaning">فحص...</string>
+    <string name="text_scaning_result">تم الفحص</string>
+    <string name="text_scaning_reminder">الفحص الفوري الموصى به</string>
+    <string name="text_menu_savepower">إدارة الطاقة</string>
+    <string name="text_menu_traffic">مراقبة حركة البيانات</string>
+    <string name="text_scan_daily_none">المس لتنظيف الذاكرة</string>
+    <string name="text_scan_daily_cancel">تم إلغاء الفحص. يوصي بإجراء الفحص على الفور.</string>
+    <string name="text_scan_result_good">الهاتف المحمول بحالة جيدة، ولكن يمكن الاستمرار في تحسينه</string>
+    <string name="text_scan_result_better">الهاتف المحمول بحالة جيدة، الرجاء الحافظ على حالته هذه</string>
+    <string name="text_scan_result_problem">يحتوي الهاتف المحمول على مشاكل. نحن نوصي بتحسينه.</string>
+    <string name="text_memory_release">إخلاء مساحة بالذاكرة <xliff:g id="ID_1">%s</xliff:g></string>
+    <string name="text_memory_release_running">يتم إخلاء مساحة بالذاكرة</string>
+    <string name="text_memory_release_display">
+        <xliff:g id="ID_1">%s</xliff:g> تم التسريع بنجاح. تم إخلاء مساحة بالذاكرة.</string>
+    <string name="text_phone_state_better">تم تنظيف الذاكرة</string>
+    <string name="text_phone_state_problem">الهاتف المحمول بحالة سيئة للغاية، الرجاء تسريعه على الفور</string>
+    <string name="text_root_remind">تم تجذير الهاتف</string>
+    <string name="msg_superpower_error">التحويل الأخير غير طبيعي، الرجاء إعادة تشغيل الكمبيوتر مرة أخرى للإصلاح</string>
+    <string name="msg_error_title">التذكير بالظروف غير الطبيعية</string>
+    <string name="pressure_sensor_menu_second">تجميد التطبيق</string>
+    <string name="pressure_sensor_menu_third">الإعدادات الافتراضية للتطبيق</string>
+    <string name="pressure_sensor_menu_fourth">التحكم في الشبكات</string>
+    <string name="text_in_screenpin">إنه الآن في وضع الشاشة، لا يمكن فتح الوضع الفائق.</string>
+    <string name="required_permissions_promo">تحتاج إدارة النظام إلى إذن للهاتف وبطاقات SD.</string>
+    <string name="enable_permission_procedure">يمكنك تغيير الأذونات في الإعدادات &gt; التطبيقات &gt; إدارة النظام &gt; الأذونات.</string>
+    <string name="enable_permission_procedure_description">يمكنك تغيير الأذونات في الإعدادات، التطبيقات، إدارة النظام، الأذونات.</string>
+    <string name="next_with_arrow">التالي &gt;</string>
+    <string name="next">التالي</string>
+    <string name="settings">الإعدادات</string>
+</resources>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="text_load">Notiek ielāde…</string>
+    <string name="text_internal_storage">Tālruņa numurs</string>
+    <string name="text_total_internal">Iekšējā atmiņa</string>
+    <string name="text_total_sd">SD</string>
+    <string name="text_available_space">Pieejams</string>
+    <string name="text_used_space">izmantots</string>
+    <string name="uninstall">Atinstalēt</string>
+    <string name="text_btn_move_to_sdcard">Pārvietot uz SD karti</string>
+    <string name="text_allow_permission">Atļauts</string>
+    <string name="text_forbidden_permission">aizliegts</string>
+    <string name="text_allow">Atļaut</string>
+    <string name="text_ask">Vaicāt</string>
+    <string name="send_sms_mms">Sūtīt multiziņu</string>
+    <string name="nfc_switch_open">NFC ir iespējoti</string>
+    <string name="nfc_switch_close">NFC ir atspējoti</string>
+    <string name="text_permission_mrg">Atļauja</string>
+    <string name="text_permission_mrg_app">Lietojumprogramma</string>
+    <string name="perm_send_mms">Sūtīt multiziņu</string>
+    <string name="perm_default">Noklusējuma</string>
+    <string name="permission_important">Svarīgi</string>
+    <string name="freeze_cancel">Atcelt</string>
+    <string name="freeze_continue">Labi</string>
+    <string name="button_close">Aizvērt</string>
+    <string name="sd_card_title">SDkarte</string>
+    <string name="uninstall_header_name">Kārtot pēc nosaukuma</string>
+    <string name="phone_inner_storage">Tālruņa krātuve</string>
+    <string name="single_phone_inner_storage">Iekšējā kopīgotā krātuve</string>
+    <string name="phone_outer_sd_storage">SD karte</string>
+    <string name="single_progress_title">izmantots</string>
+    <string name="move_to_sdcard">Pārvietot uz SD karti</string>
+    <string name="green_summary_on">Atvērt</string>
+    <string name="green_whitelist_manage">Pārvaldīt</string>
+    <string name="select_all">Atlasīt visu</string>
+    <string name="removed">Noņemts</string>
+    <string name="title_about">Par</string>
+    <string name="title_activity_soft_manager">lietotnes pārvaldnieks</string>
+    <string name="gn_sdcard_unmounted">SD karte nav pieejama</string>
+    <string name="text_moving">Pārvieto...</string>
+    <string name="permission_end">
+        <xliff:g>%1$s</xliff:g> </string>
+    <string name="read_sms_mms">Lasīt MMS</string>
+    <string name="permlab_readMms">Lasīt MMS</string>
+    <string name="text_freezed_btn">Atjaunot</string>
+    <string name="unselect_all">Neatlasīt neko</string>
+</resources>

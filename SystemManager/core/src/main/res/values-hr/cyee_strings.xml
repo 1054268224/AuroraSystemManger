@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">  
+  <string name="cyee_app_name">Cyee UI</string>  
+  <string name="cyee_capital_on">ON</string>  
+  <string name="cyee_capital_off">OFF</string>  
+  <string name="cyee_time_picker_dialog_title">Postavljanje vremena</string>  
+  <string name="cyee_date_picker_dialog_title">Postavite datum</string>  
+  <string name="cyee_date_time_done">Pospremljen</string>  
+  <string name="cyee_copy">Kopija</string>  
+  <string name="cyee_paste">Paste</string>  
+  <string name="cyee_cut">Rez</string>  
+  <string name="cyee_selectAll">Odaberi sve</string>  
+  <string name="cyee_select">Odabrati</string>  
+  <string name="cyee_inputMethod">Način unosa</string>  
+  <string name="cyee_back_button_label">Natrag</string>  
+  <string name="cyee_next_button_label">Sljedeći</string>  
+  <string name="cyee_skip_button_label">Preskočiti</string>  
+  <string name="cyee_ok">OK</string>  
+  <string name="cyee_cancel">Otkazati</string>  
+  <string name="cyee_yes">OK</string>  
+  <string name="cyee_no">Otkazati</string>  
+  <string name="cyee_action_mode_done">Pospremljen</string>  
+  <string name="cyee_action_bar_home_description">Kretanje dom</string>  
+  <string name="cyee_action_bar_up_description">Krećite se</string>  
+  <string name="cyee_smart_full_btn_label">OK</string>  
+  <string name="cyee_activity_resolver_use_always">Uvijek</string>  
+  <string name="cyee_activity_resolver_use_once">Samo jednom</string>  
+  <string name="cyee_noApplications">Nema aplikacije mogu obavljati ovu akciju.</string>  
+  <string name="cyee_system_label">Android sustav</string>  
+  <string name="cyee_whichApplication">Kompletan akciju pomoću</string>  
+  <string name="cyee_chooseActivity">Odaberite radnju</string>
+  <string name="cyee_actionbar_magic_item_more">Više</string>  
+  <string name="cyee_actionbar_magic_item_close">Zatvori</string>  
+  <string name="cyee_edit_mode_leftbtn_txt">Odustani</string>  
+  <string name="cyee_edit_mode_rightbtn_txt">ОК</string>  
+  <string name="cyee_strong_warning">važno upozorenje</string>
+  <string name="cyee_multichoice_select_text">Odabane %1$s stavke</string>
+  <string name="cyee_multichoice_select_all">Odaberi sve</string>
+  <string name="cyee_multichoice_cancel_select_all">Poništi odabir</string>
+</resources>

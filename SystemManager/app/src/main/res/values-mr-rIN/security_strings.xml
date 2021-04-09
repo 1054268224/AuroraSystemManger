@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="security_wallet_title">पेमेंट संरक्षण</string>
+  <string name="security_wallet_empty">कोणतेही अस्सल पेमेंट ॲप आढळले नाही</string>
+  <string name="security_wallet_header">ॲप्स संरक्षित करीत आहे</string>
+  <string name="security_wallet_header_on">उघडा</string>
+  <string name="security_wallet_header_off">बंद केले</string>
+  <string name="security_wallet_mini_bar_tip">खालील ॲप्स खरे असल्याचे पडताळले आहे</string>
+  <string name="security_wallet_support">AVL द्वारे समर्थित</string>
+  <string name="security_wallet_mini_bar_tip_off">पेमेंट संरक्षण बंद आहे</string>
+  <string name="security_wallet_mini_bar_tip_root">रूट झालेल्या सिस्टीममध्ये पेमेंटच्या बाबतीत धोका आहे</string>
+  <string name="security_wallet_off_info">पेमेंट संरक्षण सुरू केल्यास सभोवतालची स्थिती स्कॅन करेल, WLAN कनेक्शन शोधेल आणि जेव्हा पेमेंट ॲप सुरू असेल तेव्हा पेमेंट सुरक्षा संरक्षित करण्यासाठी त्रुटीयुक्त कोड्स इंटरसेप्ट करेल</string>
+  <string name="security_wallet_jump_to_app_store">अधिक पडताळलेले ॲप्स मिळवा</string>
+  <string name="security_wallet_jump_to_app_store_not_found">ॲप स्टोर सुरू होऊ शकत नाही</string>
+  <string name="security_safed_list_installed_toast">पेमेंट संरक्षणासाठी <xliff:g>%1$s</xliff:g> इंस्टॉल केले आहे</string>
+</resources>

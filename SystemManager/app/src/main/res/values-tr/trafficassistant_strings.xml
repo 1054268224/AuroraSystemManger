@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">  
+    <string name="text">Metin</string>
+    <string name="trafficassistant_app_name">Mobil Veri</string>
+    <string name="tabbar_name1">SIM1</string>
+    <string name="tabbar_name2">SIM2</string>
+    <!-- Gionee liwenbin 2016-09-21 modify for CR01762429 begin -->  
+    <string name="remained_flow_string">sınırı</string>
+    <!-- Gionee liwenbin 2016-09-21 modify for CR01762429 begin -->  
+    <string name="exceed_flow_string">Aşan</string>
+    <string name="used">Kullanılmış</string>
+    <string name="used_flow_string">Kullanıldı: <xliff:g id="ID_1">%s</xliff:g>MB</string>
+    <string name="total_flow_string">Toplam: <xliff:g id="ID_1">%s</xliff:g>MB</string>
+    <string name="prompt_no_settings_traffic">Ayarlanmadı</string>
+    <string name="no_settings">Ayarlanmadı</string>
+    <string name="prompt_used_traffic">Kullanıldı\n <xliff:g id="ID_1">%s</xliff:g>MB</string>
+    <string name="month">Ay</string>
+    <string name="day">Gün</string>
+    <string name="noti_today">Akış bugün</string>
+    <string name="noti_surplus">Serbest</string>
+    <string name="noti_exceed">Aşırı</string>
+    <string name="noti_total">Toplam</string>
+    <string name="noti_no_settings">Veri planı ayarlanmadı</string>
+    <string name="noti_no_card">SIM takılmadı</string>
+    <string name="start_date_string">Aylık</string>
+    <string name="limit_flow">Veri planını ayarlayın</string>
+    <string name="detail_flow">Akış şemaları</string>
+    <string name="network_control">Ağ kontrolü</string>
+    <string name="more_settings">Daha fazla kontrol ayarları</string>
+    <string name="traffic_save">Trafik tasarrufu</string>
+    <string name="no_card_warning">Lütfen SIM kartı takın</string>
+    <string name="action_known">Bitti</string>
+    <string name="action_settings">Ayarla</string>
+    <string name="action_cancel">İptal</string>
+    <string name="action_done">Bitti</string>
+    <string name="action_save">Kaydet</string>
+    <string name="action_sure">Tamam</string>
+    <string name="action_allow">İzin ver</string>
+    <string name="action_prohibit">Yasakla</string>
+    <string name="action_all_allow">Tümüne İzin ver</string>
+    <string name="action_all_prohibit">Tümünü Yasakla</string>
+    <string name="application_info">Uygulama bilgisi</string>
+    <string name="data_connect_allow">Veri bağlantıları kullanımına\nizin ver</string>
+    <string name="total_flow_settings">Aylık kısıtlamalar</string>
+    <string name="input_hint">Lütfen giriniz</string>
+    <string name="warning_settings">Uyarı değeri</string>
+    <string name="date_start_settings">Başlangıç Tarihi</string>
+    <string name="used_flow_settings">Kullanılan</string>
+    <string name="flow_unit">MB</string>
+    <string name="percent_unit">%</string>
+    <!-- Gionee liwenbin 2016-09-21 modify for CR01762429 begin -->  
+    <string name="traffic_origan_txt">"Mobil veri "</string>
+    <!-- Gionee liwenbin 2016-09-21 modify for CR01762429 begin -->  
+    <string name="mobile_data_stop_title">Akış Uyarısı</string>
+    <string name="mobile_data_stop_contetn">Aylık mobil veri akışınız kullanıldı, mobil verileri kullanmak ekstra ücrete neden olabilir, kullanmaya devam etmek istiyormusunuz?</string>
+    <string name="action_restart">Kullanmaya devam et</string>
+    <string name="action_stop">Kullanma</string>
+    <string name="info_save_error_no_flow_input">Lütfen veri akış kısıtlamalarını girin</string>
+    <string name="info_prompt">Kullanılan veri akışı miktarını el ile ayarlayabilirsiniz</string>
+    <string name="popup_notification_title">Veri planı ayarlanmadı</string>
+    <string name="popup_notification_ticker_title">Şuanki akış paket korumasını ayarlamıyor</string>
+    <string name="popup_notification_content">Anlık veri akış kontrolünü ayarlamak için tıklayın</string>
+    <string name="popup_setting_title_dialog">Veri planını ayarlayın</string>
+    <string name="popup_setting_content_dialog">Veri planını ayarlayın ve güvenlik için telefon kilidini ayarlayın.</string>
+    <string name="notification_warn_exceed_warning_title">Mobil Veri Planı Uyarısı</string>
+    <string name="notification_warn_exceed_warning_content">Kullanım verilerini göstermek için tıklayın.</string>
+    <string name="percent_value">80</string>
+    <string name="warning_value">0.0</string>
+    <string name="zero_percent">80%</string>
+    <string name="total_percent">100%</string>
+    <string name="process_kernel_labels">Android İşletim Sistemi</string>
+    <string name="data_usage_uninstalled_apps_users">Silinen uygulamalar ve Kullanıcılar</string>
+    <string name="data_usage_uninstalled_apps">Silinen uygulamalar</string>
+    <string name="tether_settings_title_all">Taşınabilir WiFi ayarları</string>
+    <string name="tether_settings_title_wifi">Taşınabilir WiFi</string>
+    <string name="tether_settings_title_usb_bluetooth">Ağ paylaşımı</string>
+    <string name="tether_settings_title_usb">USB ağ paylaşımı</string>
+    <string name="tether_settings_title_bluetooth">Bluetooth ağ paylaşımı</string>
+    <string name="running_process_item_user_label">Kullanıcı：%1$s</string>
+    <string name="data_usage_app_restricted">Yasaklandı</string>
+    <string name="usage_detail">Veri Akış Detayları</string>
+    <string name="version_name">Sürüm：</string>
+    <string name="traffic_time_day">Günlük akış(<xliff:g id="ID_1">%s</xliff:g>)</string>
+    <string name="traffic_time_week">Haftalık akış(<xliff:g id="ID_1">%s</xliff:g>)</string>
+    <string name="traffic_time_month">Aylık akış(<xliff:g id="ID_2">%s</xliff:g>)</string>
+    <string name="traffic_day">"Bugün\'ün trafiği"</string>
+    <string name="traffic_week">Haftalık akış</string>
+    <string name="traffic_month">Aylık akış</string>
+    <string name="traffic_day_no">"Bugünün kullanılmayan akış oranı"</string>
+    <string name="traffic_week_no">"Bu haftanın kullanılmayan akış oranı"</string>
+    <string name="traffic_month_no">"Bu ayın kullanılmayan akış oranı"</string>
+    <string name="network_selection">Veri akışı ile bu hafta</string>
+    <string name="no_value">Hiçbiri</string>
+    <string name="text_loading">Yükleniyor…</string>
+    <string name="text_noti">İşleniyor…</string>
+    <string name="traffic_monitor_display"><xliff:g id="ID_1">%s</xliff:g> 2G/3G/4G akışının kullanımı aşağıdaki gibidir :</string>
+    <string name="traffic_monitor_title">Bu haftaki en fazla veri tüketimi</string>
+    <string name="traffic_monitor_message"><xliff:g id="ID_1">%s</xliff:g></string>
+    <string name="traffic_settings_main_title">Bildirim merkezini görüntüle</string>
+    <string name="traffic_network_speed_title">Ağ hızını görüntüle</string>
+    <string name="traffic_network_speed_summary">Bu buton açıldığında ağ hızı bildirim çubuğunda görüntülenecektir.</string>
+    <string name="traffic_notification_title">Aylık veri bilgisini görüntüle</string>
+    <string name="traffic_notification_summary">Veri bilgisini görüntülemek için bildirim çubuğunu açın.</string>
+    <string name="traffic_netcontrol_bar_allow_text">Allow networking(<xliff:g id="ID_1">%1$s</xliff:g>)</string>
+    <string name="traffic_netcontrol_bar_prohibit_text">Has banned Internet(<xliff:g id="ID_1">%1$s</xliff:g>)</string>
+    <string name="net_link_allowed_txt">Hiç bir uygulamanın internete erişimine izin verilmiyor</string>
+    <string name="net_link_prohibited_txt">Hiç bir uygulamanın internete erişimi engellenmiyor</string>
+    <string name="traffic_save_setting">Veri tasarruf ayarları</string>
+    <string name="switch_off">Kapat</string>
+    <string name="switch_on">Aç</string>
+    <string name="traffic_save_off">Veri tasarrufu açılmadı</string>
+    <string name="traffic_save_off_summary">Bu fonksiyon sadece ağ olduğunda geçerlidir.</string>
+    <string name="traffic_save_total_title">Birikmiş tasarruflarınız var</string>
+    <string name="traffic_save_total_num_string">328</string>
+    <string name="total_volume_string">MB</string>
+    <string name="money_save_total_title">Renminbi hakkında</string>
+    <string name="money_save_total_num_string">32.8</string>
+    <string name="total_money">Yuan</string>
+    <string name="traffic_save_support_txt">Powered by OPERA</string>
+    <string name="traffic_save_history">Veri tasarruf geçmişini görüntüle</string>
+    <string name="traffic_save_history_total">Birikmiş tasarruf akışları</string>
+    <string name="traffic_question1">1. Akış tasarruflarına nasıl ulaşılır?</string>
+    <string name="traffic_question2">2. Neden veri kullanımını tasarruf moduna aldıktan sonra tasarruf modunu göremiyorsunuz?</string>
+    <string name="traffic_question3">3. Akış fonksiyonu kendiliğinden akış tasarrufunu kullansın mı？</string>
+    <string name="traffic_question4">4. İnternet gizlilik güvenliğini kaydettikten sonra veri kullanılsın mı?</string>
+    <string name="traffican_answer1">Akış tasarruf özelliği açıldığında metnin boyutunu, resimleri ve diğer verileri yeniler, QQ\'yu azaltır, uygulamalar için veri tüketimi gibi Taobao yapar. Sonuçlar daha etkili olur.</string>
+    <string name="traffican_answer2">Akış oranı tasarrufu sadece veri ağı için etkilidir, WLAN için değil. Akış sadece metin ve resim etkisini tasarruf eder, ses ve video ve dosya indirme trafiği tasarruf edilmez.</string>
+    <string name="traffican_answer3">Akış bu özelliği açtıktan sonra veriyi kendi tasarruf eder, 2/3/4G internet trafiğinin tümü sistem yöneticisi kullanılarak toplanır ve sıkıştırılır ve özel güvenlik yazılımı sistemin akışını kullanarak butler görür. Sizin trafiğini harcamaz. Kullanmaktan çekinmeyin.</string>
+    <string name="traffican_answer4">Bu özellik özel ayarlarınıza dokunmaz, kullanmaktan çekinmeyin.</string>
+    <string name="traffican_question_answer">Yardım</string>
+    <string name="traffican_whitelist_title">Uygulama listesi trafiği tasarruf etmeye gerek duymaz</string>
+    <string name="text_no_traffic_whitelist">Trafiği tasarruf etmeye gerek yok</string>
+    <string name="traffic_simcard_focus1">SIM 1</string>
+    <string name="traffic_simcard_focus2">SIM 2</string>
+    <string name="traffic_netcontrol_tab_bar_allow_text">Kablosuz Ağ</string>
+    <string name="traffic_netcontrol_tab_bar_prohibit_text">Mobil Veri Ağı</string>
+    <string name="traffic_title_text"><xliff:g id="ID_1">%1$s</xliff:g> Uygulamalar</string>
+    <string name="time_format">MM-yyyy</string>
+    <string name="traffic_back_toast_text">Ağ kontrolü uygulaması işleniyor, lütfen bekleyiniz</string>
+    <string name="traffic_save_wait_text">Veri güncelleniyor, lütfen bekleyiniz</string>
+    <string name="traffic_btn_calibration_text">Kalibre et</string>
+    <string name="traffic_limit_settings_title">Veri Akış Limiti Ayarları</string>
+    <string name="traffic_origan">Genel veri akışı</string>
+    <string name="traffic_idle_show_title">Veri akışını göster</string>
+    <string name="traffic_idle_available">Kalan akışı göster</string>
+    <string name="traffic_idle_used">Kullanılan akışı göster</string>
+    <string name="traffic_buy_title">Akış satın al</string>
+    <string name="buy_step1_title">1. Numaranızı girin</string>
+    <string name="buy_step2_title">2. İstediğiniz değeri seçin</string>
+    <string name="buy_step3_title">3. Öde ve satın al</string>
+    <string name="buy_step_title">1. Numaranızı girin &gt; 2. İstediğiniz değeri seçin &gt; 3. Öde ve satın al</string>
+    <string name="order_info_title">Sipariş Bilgisi</string>
+    <string name="traffic_packge_text"><xliff:g id="ID_1">%1$s</xliff:g>akış paketi</string>
+    <string name="traffic_packge_default_instruction">Ulusal genel, hemen ödeme</string>
+    <string name="mobile_info_numble">Ödenecek fiyat: <xliff:g id="ID_1">%1$s</xliff:g></string>
+    <string name="pay_order_title">Ödeme ve sipariş</string>
+    <string name="pay_order_Immediately_title">Hemen Ödeme</string>
+    <string name="show_problem_title">Genel Problemler</string>
+    <string name="buy_record_title">Satın almayı kaydet</string>
+    <string name="problem1_title">1. Veri akışı tekrar yüklenebilir mi?</string>
+    <string name="problem1_content">Lütfen sayfa yönlendirmelerini dikkate alın.</string>
+    <string name="problem2_title">2. Etkin sürecin veri akışını tekrar yüklemek ne kadar sürer?</string>
+    <string name="problem2_content">Veri akışını tekrar yüklemek yaklaşık 1 ay sürer.</string>
+    <string name="problem3_title">3. Yüklemenin olup olmadığı nasıl kontrol edilir?</string>
+    <string name="problem3_content">Yüklemeden sonra, operatörünüzün sağladığı uygulamayla ya da operatörünüzü arayarak kontrol edebilirsiniz?</string>
+    <string name="problem4_title">4. Yanlış numaraya yükleme yapılırsa?</string>
+    <string name="problem4_content">Özür dileriz! Operatörünüz para iadesi yapmamaktadır. Şu adımları takip edebilirsiniz: 1. cihazınızın gerçek numarasıyla irtibata geçin; 2. operatörünüzün müşteri hizmetleri ile irtibata geçin ve başarılı bir şekilde tekrar yüklenmesi için danışın.</string>
+    <string name="problem5_title">5. Yanlış yüklemeden sonra tekrar yüklemek ne kadar sürer?</string>
+    <string name="problem5_content">Normal süreçte 24 saat içerisinde geri ödeme yapılacaktır.</string>
+    <string name="problem6_title">6. Sipariş geçmişimi nasıl kontrol edebilirim?</string>
+    <string name="problem6_content">Tekrar yükleme sayfasının üst kısmından kontrol edebilirsiniz.</string>
+    <string name="mobile_invalid_text">Geçersiz Mobil</string>
+    <string name="payment_success_txt">Sipariş Başarılı</string>
+    <string name="payment_failed_txt">Sipariş Başarısız</string>
+    <string name="payment_pre_txt">Tekrar Yükle</string>
+    <string name="btn_try_again_txt">Tekrar dene</string>
+    <string name="no_record_txt">Kaydedilmedi</string>
+    <string name="query_record_falil_txt">Sorgu Başarısız</string>
+    <string name="data_load_txt">Yükleniyor …</string>
+    <string name="net_error_text">Ağ hatası, lütfen ağ bağlantınızı kontrol edin</string>
+    <string name="exit_Contacts_text">Adres defterine not et</string>
+    <string name="traffic_idle_txt">Kullanılmayan veri akışı</string>
+    <string name="traffic_idle_set_title">Serbest akış ayarı</string>
+    <string name="traffic_correctting_txt">Kalibre ediyor</string>
+    <string name="correctting_wait_txt">lütfen bekleyin…</string>
+    <string name="correctting_fail_txt">Başarısız düzeltme, lütfen tekrar deneyin</string>
+    <string name="correctting_success_txt">Akış kalibre edildi. Kalan <xliff:g id="ID_1">%1$s</xliff:g>MB</string>
+    <string name="query_traffic_txt">Veri akışınızı kullanmak için aranıyor…</string>
+    <string name="query_product_fail_txt">Uygun abonelik paketiniz bulunmamaktadır</string>
+    <string name="query_product_record_fail_txt">Ürün kaydı sorgulaması başarısız</string>
+    <string name="no_install_weixin_txt">Eğer mektubu yüklediyseniz, lütfen onaylayın</string>
+    <string name="no_correct_service_txt">Yükleniyorken lütfen bekleyin…</string>
+    <string name="buy_number_hint_txt">Lütfen telefon numaranızı girin</string>
+    <string name="no_query_code_txt">Kalibre etme başarısız, lütfen paketlerin akışlarını manuel olarak ayarlayın</string>
+    <string name="buy_omitted_displayname"><xliff:g id="ID_1">%1$s</xliff:g>…</string>
+    <string name="sell_baseinfo_symbol">/</string>
+    <string name="calibrate_setting_txt">Kalibre Ayarları</string>
+    <string name="calibrate_setting_province">Bölge</string>
+    <string name="calibrate_setting_brand">Operatör Firması</string>
+    <string name="calibrate_setting_province_choice">Bölge Seçimi</string>
+    <string name="calibrate_setting_brand_choice">Operatör Firması Seçimi</string>
+    <string name="calibrate_send_msg_fail">SMS göndermesi başarısız, lütfen operatör firma ayarınızı kontrol edin.</string>
+    <string name="traffic_flaw_price_txt"><xliff:g id="ID_1">%1$s</xliff:g>TL</string>
+    <string name="buy_record_baseinfo_txt"><xliff:g id="ID_1">%1$s</xliff:g> Yükle <xliff:g id="ID_2">%2$s</xliff:g> /<xliff:g id="ID_3">%3$s</xliff:g>TL</string>
+    <string name="buy_record_paytype_txt"><xliff:g id="ID_1">%1$s</xliff:g> <xliff:g id="ID_2">%2$s</xliff:g></string>
+    <string name="noti_softap_setting_title">Kablosuz ağ veri bildirimini paylaştı</string>
+    <string name="noti_softap_setting_text"><xliff:g id="ID_1">%s</xliff:g> veri ulaşılabilir olduğunda bildirimi göster</string>
+    <string name="noti_softap_group_title">Taşınabilir WiFi Veri Ayarları</string>
+    <string name="noti_softap_setting_cancel">İptal</string>
+    <string name="noti_softap_setting_userDefine">Özelleştir</string>
+    <string name="noti_softap_setting_commit">İşle</string>
+    <string name="noti_softap_setting_units">MB</string>
+    <string name="noti_softap_warning_title">Veri Bildirimi</string>
+    <string name="noti_softap_warning_message">Taşınabilir WiFi <xliff:g id="ID_1">%s</xliff:g> a ulaşabilir veriyi paylaşıyor, Kapatmak istermisiniz?</string>
+    <string name="noti_softap_close_text">Kapat</string>
+    <string name="noti_softap_no_warning_text">Hatırlatma</string>
+    <string name="error_phone_number_text">Yanlış telefon numarası</string>
+    <string name="dialog_not_alert_again">Uyarı yok</string>
+    <string name="noti_softap_use_agiain_txt"><xliff:g id="ID_1">%1$d</xliff:g>Mb daha</string>
+    <string name="dialog_know">Anladım</string>
+    <string name="hotspot_restart">Tekrar Başlat</string>
+    <string name="hotspot_settingvalue_valid">Data paylaşımı <xliff:g id="ID_1">%1$d</xliff:g>M ,ulaştığında tekrar hatırlatılacaksınız</string>
+    <string name="hotspot_settingvalue_invalid"><xliff:g id="ID_1">%1$1.2f</xliff:g>M kullanıldı, lütfen yeniden başlatın.</string>
+    <string name="hotspot_userdefine_settingvalue_invalid">Geçersiz veri. Lütfen yeniden başlatın.</string>
+    <string name="hotspot_auto_close_message">Hotspot veri paylaşımı limiti <xliff:g id="ID_1">%d</xliff:g>M\'ye ulaştı, aşırı data tüketiminden kaçınmak için hotspotu kontrol edin.</string>
+    <string name="lockscreen_traffic_remid_title">Screen lock data traffic reminder</string>
+    <string name="traffic_remind_group_title">Veri Hatırlatıcı</string>
+    <string name="lockscreen_traffic_remid_txt">Data usage has reached <xliff:g id="ID_1">%1$s</xliff:g></string>
+     <string name="unknow_app">Bilinmeyen uygulama</string>
+</resources>
