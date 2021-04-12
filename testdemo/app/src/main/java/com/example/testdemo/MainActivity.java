@@ -2,6 +2,7 @@ package com.example.testdemo;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Context;
 import android.graphics.Color;
 import android.os.Build;
 import android.os.Bundle;
@@ -14,26 +15,66 @@ import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
 import android.util.Log;
+import android.widget.Button;
+import android.widget.CompoundButton;
 import android.widget.SeekBar;
+import android.widget.Switch;
 import android.widget.TextView;
+import android.widget.Toast;
+
 import com.example.testdemo.TrafficaBallView;
 
 public class MainActivity extends AppCompatActivity {
 
-    /*@Override
+    private Context  mContext;
+
+
+    @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         transparentStatusBar();
-        setContentView(R.layout.traffic_ball_view);
+        mContext = this;
+        setContentView(R.layout.switch_view);
+        final Switch switchMsg = findViewById(R.id.switchMsg);
+
+        switchMsg.setChecked(false);
+        switchMsg.setTextAppearance(mContext,R.style.s_false);
+
+        switchMsg.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+            @Override
+            public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
+                if(isChecked=true){
+                    switchMsg.setTextAppearance(mContext,R.style.s_true);
+                }else{
+                    switchMsg.setTextAppearance(mContext,R.style.s_false);
+                }
+            }
+        });
+
+        switchMsg.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                if(switchMsg.isChecked()==true){
+                    Toast.makeText(mContext,"开启消息提醒",Toast.LENGTH_SHORT).show();
+                }else{
+                    Toast.makeText(mContext,"关闭消息提醒",Toast.LENGTH_SHORT).show();
+                }
+            }
+        });
     }
-*/
+
+
+    /*#############################################TrafficBallView Start####################################*/
+
+/*
     private TrafficaBallView mCircleView;
     private SeekBar mSeekBar;
     private TextView power;
     private int max = 1024;
     private int min = 102;
 
-  /*  private Handler handler = new Handler() {
+  */
+/*  private Handler handler = new Handler() {
         public void handleMessage(android.os.Message msg) {
             if (msg.what == 1) {
                 int num = msg.getData().getInt("progress");
@@ -41,16 +82,21 @@ public class MainActivity extends AppCompatActivity {
                 power.setText((float) num / 100 * max + "M/" + max + "M");
             }
         }
-    };*/
+    };*//*
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        /*getActionBar().hide();*/
+        */
+/*getActionBar().hide();*//*
+
         setContentView(R.layout.traffic_ball_view);
 
         power = (TextView) findViewById(R.id.power);
-        /*power.setText(min + "M/" + max + "M");*/
+        */
+/*power.setText(min + "M/" + max + "M");*//*
+
 
         mCircleView = (TrafficaBallView) findViewById(R.id.wave_view);
         // 设置多高，float，0.1-1F
@@ -65,7 +111,8 @@ public class MainActivity extends AppCompatActivity {
                 mCircleView.setmWaterLevel((float) progress / 100);
                 mCircleView.setUsedFlow((float) progress / 100*1024);
                 // 创建一个消息
-                /*Message message = new Message();
+                */
+/*Message message = new Message();
                 Bundle bundle = new Bundle();
                 // put一个int值
                 bundle.putInt("progress", progress);
@@ -74,7 +121,8 @@ public class MainActivity extends AppCompatActivity {
                 // 发送消息
                 handler.sendMessage(message);
                 // 创建表示
-                message.what = 1;*/
+                message.what = 1;*//*
+
             }
 
             @Override
@@ -98,6 +146,9 @@ public class MainActivity extends AppCompatActivity {
         mCircleView = null;
         super.onDestroy();
     }
+*/
+
+    /*#############################################TrafficBallView End####################################*/
 
     private void transparentStatusBar() {
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
