@@ -1,4 +1,4 @@
-package com.example.rubbishcleanerdemo.Adapter;
+package com.example.systemmanageruidemo.Adapter;
 
 import android.view.View;
 

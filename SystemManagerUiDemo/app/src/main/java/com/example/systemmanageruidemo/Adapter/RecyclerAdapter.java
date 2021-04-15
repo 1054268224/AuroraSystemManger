@@ -1,6 +1,5 @@
-package com.example.rubbishcleanerdemo.Adapter;
+package com.example.systemmanageruidemo.Adapter;
 
-import android.bluetooth.le.ScanSettings;
 import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -9,8 +8,8 @@ import android.view.ViewGroup;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.rubbishcleanerdemo.R;
-import com.example.rubbishcleanerdemo.modle.DataBean;
+import com.example.systemmanageruidemo.R;
+import com.example.systemmanageruidemo.modle.DataBean;
 
 import java.util.List;
 

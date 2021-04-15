@@ -1,3 +1,9 @@
 <resources>
-    <string name="app_name">SystemManagerUiDemo</string>
+    <string name="app_name">系统管家</string>
+    <string name="action_rubcleaner_back">垃圾清理</string>
+    <string name="action_bootspeed_back">优化加速</string>
+    <string name="action_powermanager_back">省电管理</string>
+    <string name="action_trfficmonitor_back">流量监控</string>
+    <string name="action_appmanager_back">应用管理</string>
+    <string name="action_set_back">设置</string>
 </resources>

@@ -1,4 +1,4 @@
-package com.example.rubbishcleanerdemo.modle;
+package com.example.systemmanageruidemo.modle;
 
 public class DataBean {
 

@@ -1,15 +1,11 @@
-package com.example.rubbishcleanerdemo.Adapter;
+package com.example.systemmanageruidemo.Adapter;
 
 import android.content.Context;
 import android.view.View;
 import android.widget.TextView;
 
-import androidx.annotation.NonNull;
-
-import com.example.rubbishcleanerdemo.modle.DataBean;
-import com.example.rubbishcleanerdemo.R;
-
-import java.util.List;
+import com.example.systemmanageruidemo.R;
+import com.example.systemmanageruidemo.modle.DataBean;
 
 public class ChildViewHolder extends BaseViewHolder {
 

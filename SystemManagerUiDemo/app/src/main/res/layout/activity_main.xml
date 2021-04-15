@@ -1,18 +1,184 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
     tools:context=".MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+    <RelativeLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="6">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+        <com.example.systemmanageruidemo.AnimBallView
+            android:id="@+id/anim_ball_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white"
+            app:ball_color="#95C8FC" />
+
+        <View
+            android:id="@+id/bottom_cicleview"
+            android:layout_width="280dp"
+            android:layout_height="280dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/bottom_circle_shape" />
+
+        <View
+            android:id="@+id/middle_cicleview"
+            android:layout_width="220dp"
+            android:layout_height="220dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/middle_circle_shape" />
+        <TextView
+            android:layout_width="174dp"
+            android:layout_height="174dp"
+            android:layout_centerInParent="true"
+            android:background="@drawable/top_circle_shape"
+            android:text="100"
+            android:textSize="65sp"
+            android:textStyle="bold"
+            android:gravity="center"/>
+
+        <!--<com.cydroid.softmanager.view.ScoreCountView
+            android:id="@+id/score_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/top_circle_shape"
+            app:hint_color="@color/text_deeply_black_color"
+            app:hint_size="@dimen/score_view_hint_size"
+            app:number_color="@color/text_deeply_black_color"
+            app:number_hint_margin="@dimen/score_view_number_hint_margin"
+            app:number_size="@dimen/score_view_number_size"
+            app:size="@dimen/score_view_size"
+            app:unit="@string/score_unit_text"
+            app:unit_color="@color/text_deeply_black_color"
+            app:unit_size="12dp" />-->
+
+        <ImageView
+            android:id="@+id/scan_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/scan_system_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="38dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="2dp"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/optimize_shape"
+            android:text="一键优化"
+            android:textColor="#ff0277f2"
+            android:textSize="20sp"
+            android:gravity="center"/>
+
+
+<!--
+        <cyee.widget.CyeeButton
+            android:id="@+id/scan_system_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="38dp"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/optimize_shape"
+            android:ellipsize="end"
+            android:maxWidth="90dp"
+            android:singleLine="true"
+            android:text="一键优化"
+            android:textColor="#ff0277f2"
+            android:textSize="20sp" />
+-->
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="0dp"
+        android:layout_weight="2">
+
+        <TextView
+            android:id="@+id/rub_cleaner_btn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/cache_cleaner_new"
+            android:drawablePadding="6dp"
+            android:gravity="center_horizontal"
+            android:text="垃圾清理" />
+
+        <TextView
+            android:id="@+id/boot_speed_btn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="center_vertical"
+            android:drawableTop="@drawable/boot_speed_new"
+            android:drawablePadding="6dp"
+            android:gravity="center_horizontal"
+            android:text="优化加速" />
+
+        <TextView
+            android:id="@+id/power_manager_btn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="center_vertical"
+            android:layout_toEndOf="@id/boot_speed_btn"
+            android:layout_toRightOf="@id/boot_speed_btn"
+            android:drawableTop="@drawable/power_manager_new"
+            android:drawablePadding="6dp"
+            android:gravity="center_horizontal"
+            android:text="省电管理" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="0dp"
+        android:layout_weight="2">
+
+        <TextView
+            android:id="@+id/traffic_monitor_btn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/traffic_monitor_new"
+            android:drawablePadding="6dp"
+            android:gravity="center_horizontal"
+            android:text="流量监控" />
+
+        <TextView
+            android:id="@+id/app_manager_btn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/app_manager_new"
+            android:drawablePadding="6dp"
+            android:gravity="center_horizontal"
+            android:text="应用管理" />
+
+        <TextView
+            android:id="@+id/setting_btn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/set"
+            android:drawablePadding="6dp"
+            android:gravity="center_horizontal"
+            android:text="设置" />
+    </LinearLayout>
+</LinearLayout>

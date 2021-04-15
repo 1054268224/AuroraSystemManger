@@ -1,4 +1,4 @@
-package com.example.rubbishcleanerdemo.Adapter;
+package com.example.systemmanageruidemo.Adapter;
 
 import android.animation.ValueAnimator;
 import android.annotation.TargetApi;
@@ -10,10 +10,8 @@ import android.widget.ImageView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
-import androidx.annotation.NonNull;
-
-import com.example.rubbishcleanerdemo.R;
-import com.example.rubbishcleanerdemo.modle.DataBean;
+import com.example.systemmanageruidemo.R;
+import com.example.systemmanageruidemo.modle.DataBean;
 
 public class ParentViewHolder extends BaseViewHolder{
 

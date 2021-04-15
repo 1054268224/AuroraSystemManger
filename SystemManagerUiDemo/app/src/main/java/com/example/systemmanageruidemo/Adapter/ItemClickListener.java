@@ -1,6 +1,6 @@
-package com.example.rubbishcleanerdemo.Adapter;
+package com.example.systemmanageruidemo.Adapter;
 
-import com.example.rubbishcleanerdemo.modle.DataBean;
+import com.example.systemmanageruidemo.modle.DataBean;
 
 public interface ItemClickListener {
 
