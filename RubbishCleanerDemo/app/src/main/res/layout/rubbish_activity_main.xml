@@ -1,0 +1,217 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!-- Gionee <yangxinruo> <2016-5-10> modify for CR01658695 begin -->
+    <LinearLayout
+        android:id="@+id/top_part_window"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4"
+        android:background="@drawable/common_blue_bg"
+        android:gravity="center"
+        android:orientation="vertical" >
+    <!-- Gionee <yangxinruo> <2016-5-10> modify for CR01658695 end -->
+
+        <RelativeLayout
+            android:id="@+id/total_rubbish_layout"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="9"
+            android:gravity="center_vertical" >
+
+            <ImageView
+                android:id="@+id/end_flag_image"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:src="@drawable/delete_end_image"
+                android:visibility="invisible" />
+
+            <TextView
+                android:id="@+id/clean_end_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/end_flag_image"
+                android:paddingTop="@dimen/text_padding_top"
+                android:paddingBottom="@dimen/text_padding_bottom"
+                android:layout_centerHorizontal="true"
+                android:text="@string/deeply_clean_end"
+                android:textColor="@color/textview_color_white"
+                android:textSize="@dimen/clean_end_textSize"
+                android:visibility="invisible" />
+
+            <TextView
+                android:id="@+id/clean_end_size_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/clean_end_text"
+                android:layout_centerHorizontal="true"
+                android:textColor="@color/textview_color_white"
+                android:textSize="@dimen/clean_end_textSize"
+                android:visibility="invisible" />
+
+            <RelativeLayout
+                android:id="@+id/rubbish_text_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true" >
+
+                <cyee.widget.CyeeTextView
+                    android:id="@+id/total_rubbish_size"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:textColor="@color/textview_color_white"
+                    android:textSize="@dimen/total_rubbish_textsize"
+                    android:textStyle="bold"/>
+
+				<!--<LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_alignBottom="@id/total_rubbish_size"
+                    android:layout_alignTop="@id/total_rubbish_size"
+                    android:layout_toStartOf="@id/total_rubbish_size"
+                    android:gravity="center_vertical"
+                    android:orientation="vertical" >
+
+                    <View
+                        android:layout_width="0dp"
+                        android:layout_height="0dp"
+                        android:layout_weight="4" />
+
+                    <cyee.widget.CyeeTextView
+                        android:id="@+id/total_rubbish_desc"
+                        android:layout_width="wrap_content"
+                        android:layout_height="0dp"
+                        android:layout_weight="2"
+                        android:gravity="top"
+                        android:text="@string/total_rubbish_desc"
+                        android:textColor="@color/textview_color_white"
+                        android:textSize="@dimen/total_rubbish_unit_textsize" />
+
+                    <View
+                        android:layout_width="0dp"
+                        android:layout_height="0dp"
+                        android:layout_weight="1" />
+                </LinearLayout>-->
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_alignBottom="@id/total_rubbish_size"
+                    android:layout_alignTop="@id/total_rubbish_size"
+                    android:layout_toEndOf="@id/total_rubbish_size"
+                    android:gravity="center_vertical"
+                    android:orientation="vertical" >
+
+                    <View
+                        android:layout_width="wrap_content"
+                        android:layout_height="0dp"
+                        android:layout_weight="4" />
+
+                    <cyee.widget.CyeeTextView
+                        android:id="@+id/total_rubbish_unit"
+                        android:layout_width="wrap_content"
+                        android:layout_height="0dp"
+                        android:layout_weight="2"
+                        android:gravity="top"
+                        android:textColor="@color/textview_color_white"
+                        android:textSize="@dimen/total_rubbish_unit_textsize"
+                        android:textStyle="bold"/>
+
+                    <View
+                        android:layout_width="wrap_content"
+                        android:layout_height="0dp"
+                        android:layout_weight="1" />
+                </LinearLayout>
+
+                <cyee.widget.CyeeTextView
+                    android:id="@+id/cleanned_display"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/total_rubbish_size"
+                    android:layout_centerHorizontal="true"
+                    android:text="@string/deleted_rubbish_size"
+                    android:textColor="@color/textview_color_white"
+                    android:textSize="@dimen/advise_textsize"
+                    android:visibility="gone" />
+            </RelativeLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="3"
+            android:id="@+id/rubbishinfo_description_container"
+            android:gravity="center_vertical" >
+
+            <cyee.widget.CyeeTextView
+                android:id="@+id/rubbishinfo_description"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/textview_color_white"
+                android:textSize="@dimen/advise_textsize" />
+
+        </RelativeLayout>
+
+        <cyee.widget.CyeeTextView
+            android:id="@+id/total_select_size"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:textColor="@color/textview_color_white"
+            android:textSize="@dimen/rubbish_handle_state_textsize"
+            android:textStyle="bold" />
+
+        <!--<RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="3"
+            android:gravity="center_vertical" >
+
+            <cyee.widget.CyeeTextView
+                android:id="@+id/cm_supply"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:alpha="0.5"
+                android:text="@string/liebao_supply_info"
+                android:textColor="@color/textview_color_white"
+                android:textSize="@dimen/supporter_desc_textsize" />
+        </RelativeLayout>-->
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/sticky_content"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="7"
+        android:layout_below="@id/top_part_window"
+        android:orientation="vertical" >
+
+        <ExpandableListView
+            android:id="@+id/expandablelist"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:cacheColorHint="@null"
+            android:childIndicatorLeft="0dp"
+            android:groupIndicator="@null"
+            android:scrollbarAlwaysDrawHorizontalTrack="false" >
+        </ExpandableListView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/button_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_alignParentBottom="true"
+        android:background="#ffffff"
+        android:orientation="horizontal" >
+
+    </LinearLayout>
+
+</LinearLayout>
