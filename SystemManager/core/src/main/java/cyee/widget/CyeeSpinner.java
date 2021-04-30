@@ -1,7 +1,5 @@
 package cyee.widget;
 
-import cyee.app.CyeeAlertDialog;
-import cyee.changecolors.ChameleonColorManager;
 import android.content.Context;
 import android.content.res.ColorStateList;
 import android.content.res.TypedArray;
@@ -21,11 +19,15 @@ import android.view.ViewTreeObserver.OnGlobalLayoutListener;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListAdapter;
-import android.widget.ListPopupWindow;
 import android.widget.ListView;
 import android.widget.PopupWindow.OnDismissListener;
 import android.widget.Spinner;
 import android.widget.SpinnerAdapter;
+
+import androidx.appcompat.widget.ListPopupWindow;
+
+import cyee.app.CyeeAlertDialog;
+import cyee.changecolors.ChameleonColorManager;
 
 public class CyeeSpinner extends Spinner {
 
@@ -443,7 +445,7 @@ public class CyeeSpinner extends Spinner {
    
     
 
-    private class DropdownPopup extends ListPopupWindow{
+    private class DropdownPopup extends ListPopupWindow {
         
         private static final int MAX_ITEMS_MEASURED = 15;
         private final Rect mTempRect = new Rect();

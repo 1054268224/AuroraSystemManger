@@ -10,11 +10,12 @@
 package com.cydroid.softmanager;
 
 import android.Manifest;
-import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.os.Build;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 import com.cydroid.softmanager.utils.Log;
 
@@ -34,7 +35,7 @@ public class RuntimePermissionsManager {
         //guoxt modify for CR01775652 end
     }
 
-    public static void redirectToPermissionCheck(final Activity activity) {
+    public static void redirectToPermissionCheck(final AppCompatActivity activity) {
         launcherPermissionCheckActivity(activity);
     }
 
@@ -42,7 +43,7 @@ public class RuntimePermissionsManager {
         return Build.VERSION.SDK_INT >= Build.VERSION_CODES.M;
     }
 
-    public static boolean hasNeedRequiredPermissions(Activity activity) {
+    public static boolean hasNeedRequiredPermissions(AppCompatActivity activity) {
         for (String permission : REQUIRED_PERMISSIONS) {
             if (activity.checkCallingOrSelfPermission(permission)
                     != PackageManager.PERMISSION_GRANTED) {
@@ -62,7 +63,7 @@ public class RuntimePermissionsManager {
         context.startActivity(intent);
     }
 
-    public static void requestRequiredPermissions(Activity activity, int resultCode) {
+    public static void requestRequiredPermissions(AppCompatActivity activity, int resultCode) {
         List<String> requiredPermissions = getNoGrantedPermissions(activity);
         if (requiredPermissions.isEmpty()) {
             return;
@@ -70,7 +71,7 @@ public class RuntimePermissionsManager {
         requestPermissions(activity, requiredPermissions, resultCode);
     }
 
-    private static List<String> getNoGrantedPermissions(Activity activity) {
+    private static List<String> getNoGrantedPermissions(AppCompatActivity activity) {
         List<String> noGrantedPermissions = new ArrayList<String>();
         for (String permission : REQUIRED_PERMISSIONS) {
             if (activity.checkCallingOrSelfPermission(permission)
@@ -81,7 +82,7 @@ public class RuntimePermissionsManager {
         return noGrantedPermissions;
     }
 
-    private static void requestPermissions(Activity activity,
+    private static void requestPermissions(AppCompatActivity activity,
                                            List<String> requiredPermissions, int resultCode) {
         String[] permissions = requiredPermissions.toArray(new String[requiredPermissions.size()]);
         activity.requestPermissions(permissions, resultCode);

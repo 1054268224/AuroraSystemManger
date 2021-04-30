@@ -9,10 +9,11 @@
  */
 package com.cydroid.softmanager.powersaver.notification;
 
-import android.app.Fragment;
 import android.content.res.Configuration;
 import android.content.res.Resources;
 import android.os.Bundle;
+
+import androidx.fragment.app.Fragment;
 
 import com.cydroid.softmanager.BaseActivity;
 import com.cydroid.softmanager.R;
@@ -29,7 +30,7 @@ public class BackgroundAppListActivity extends BaseActivity {
         mBundle = getIntent().getExtras();
         Fragment backgroundAppListFragment = new BackgroundAppListFragment();
         backgroundAppListFragment.setArguments(mBundle);
-        getFragmentManager().beginTransaction()
+        getSupportFragmentManager().beginTransaction()
                 .replace(R.id.background_app_list_fragment, backgroundAppListFragment).commit();
     }
 

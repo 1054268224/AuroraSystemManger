@@ -19,7 +19,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="2dip"
-        android:minHeight="?android:attr/listPreferredItemHeight"
+        android:minHeight="?attr/listPreferredItemHeight"
         android:paddingStart="4dip"
         android:paddingEnd="?android:attr/scrollbarSize"
         android:paddingBottom="4dip"

@@ -1,10 +1,11 @@
 package com.cydroid.softmanager.powersaver.notification;
 
-import android.content.AsyncTaskLoader;
 import android.content.Context;
 import android.os.BatteryStats;
 import android.os.Bundle;
 import android.util.SparseArray;
+
+import androidx.loader.content.AsyncTaskLoader;
 
 import com.android.internal.os.BatterySipper;
 import com.android.internal.os.BatteryStatsHelper;

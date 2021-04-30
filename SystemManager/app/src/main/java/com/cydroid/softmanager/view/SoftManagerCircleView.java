@@ -1,7 +1,5 @@
 package com.cydroid.softmanager.view;
 
-import com.cydroid.softmanager.utils.UnitUtil;
-
 import cyee.changecolors.ChameleonColorManager;
 import android.content.Context;
 import android.content.res.TypedArray;

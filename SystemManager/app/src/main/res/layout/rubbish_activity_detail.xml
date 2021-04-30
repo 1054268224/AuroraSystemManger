@@ -1,8 +1,10 @@
 <!-- Gionee: <houjie> <2015-10-27> add for CR01575153 begin -->
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/root_layout"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent" >
 
     <!-- Gionee <yangxinruo> <2016-5-10> modify for CR01658695 begin -->
 	<LinearLayout
@@ -26,7 +28,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_centerInParent="true"
-                android:src="@drawable/delete_end_image"
+                app:srcCompat="@drawable/delete_end_image"
                 android:visibility="invisible" />
 
             <TextView
@@ -52,11 +54,12 @@
                 android:textSize="@dimen/clean_end_textSize"
                 android:visibility="invisible" />
 
+            <!-- Replace by HZH on 2019/5/11 for ui start ^_^ -->
             <RelativeLayout
                 android:id="@+id/rubbish_text_layout"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_centerInParent="true" >
+                android:gravity="center">
 
                 <cyee.widget.CyeeTextView
                     android:id="@+id/total_rubbish_size"
@@ -66,34 +69,14 @@
                     android:textColor="@color/textview_color_white"
                     android:textSize="@dimen/total_rubbish_textsize" />
 
-                <LinearLayout
+                <cyee.widget.CyeeTextView
+                    android:id="@+id/total_rubbish_unit"
                     android:layout_width="wrap_content"
-                    android:layout_height="match_parent"
-                    android:layout_alignBottom="@id/total_rubbish_size"
-                    android:layout_alignTop="@id/total_rubbish_size"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@id/total_rubbish_size"
                     android:layout_toEndOf="@id/total_rubbish_size"
-                    android:gravity="center_vertical"
-                    android:orientation="vertical" >
-
-                    <View
-                        android:layout_width="wrap_content"
-                        android:layout_height="0dp"
-                        android:layout_weight="4" />
-
-                    <cyee.widget.CyeeTextView
-                        android:id="@+id/total_rubbish_unit"
-                        android:layout_width="wrap_content"
-                        android:layout_height="0dp"
-                        android:layout_weight="2"
-                        android:gravity="top"
-                        android:textColor="@color/textview_color_white"
-                        android:textSize="@dimen/total_rubbish_unit_textsize" />
-
-                    <View
-                        android:layout_width="wrap_content"
-                        android:layout_height="0dp"
-                        android:layout_weight="1" />
-                </LinearLayout>
+                    android:textColor="@color/textview_color_white"
+                    android:textSize="@dimen/total_rubbish_unit_textsize" />
 
                 <cyee.widget.CyeeTextView
                     android:id="@+id/cleanned_display"
@@ -106,6 +89,8 @@
                     android:textSize="@dimen/advise_textsize"
                     android:visibility="gone" />
             </RelativeLayout>
+            <!-- Replace by HZH on 2019/5/11 for ui end ^_^ -->
+
         </RelativeLayout>
     </LinearLayout>
     

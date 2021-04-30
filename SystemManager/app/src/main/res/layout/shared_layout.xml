@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/shared_layout"
     android:layout_width="match_parent"
     android:layout_height="@dimen/listview_height"
     android:layout_marginTop="8dip"
-    android:background="?android:attr/listChoiceBackgroundIndicator" >
+    android:background="?attr/listChoiceBackgroundIndicator" >
 
     <ImageView
         android:id="@+id/icon"
@@ -45,7 +46,7 @@
         android:layout_marginRight="12dp"
         android:layout_alignParentEnd="true"
         android:layout_centerVertical="true"
-        android:src="@drawable/gn_refresh_imageview_bg"
+        app:srcCompat="@drawable/gn_refresh_imageview_bg"
         android:visibility="gone" />
 
 </RelativeLayout>

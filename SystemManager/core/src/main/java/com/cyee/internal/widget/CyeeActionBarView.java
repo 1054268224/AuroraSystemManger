@@ -2,8 +2,6 @@ package com.cyee.internal.widget;
 
 
 import android.animation.LayoutTransition;
-import android.app.ActionBar;
-import android.app.Activity;
 import android.content.Context;
 import android.content.pm.ApplicationInfo;
 import android.content.pm.PackageManager;
@@ -39,6 +37,10 @@ import android.widget.LinearLayout;
 import android.widget.ProgressBar;
 import android.widget.Spinner;
 import android.widget.SpinnerAdapter;
+
+import androidx.appcompat.app.ActionBar;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.view.MenuItemCompat;
 
 import com.android.internal.view.menu.ActionMenuItem;
 import com.android.internal.view.menu.MenuBuilder;
@@ -127,7 +129,7 @@ public class CyeeActionBarView extends CyeeAbsActionBarView {
         public void onClick(View v) {
             final MenuItemImpl item = mExpandedMenuPresenter.mCurrentExpandedItem;
             if (item != null) {
-                item.collapseActionView();
+                MenuItemCompat.collapseActionView(item);
             }
         }
     };
@@ -169,9 +171,9 @@ public class CyeeActionBarView extends CyeeAbsActionBarView {
         mSubtitle = a.getText(R.styleable.CyeeActionBar_cyeesubtitle);
         
         if (mTitle == null) {
-			if (context instanceof Activity) {
+			if (context instanceof AppCompatActivity) {
 				try {
-					mTitle = ((Activity) context).getTitle();
+					mTitle = ((AppCompatActivity) context).getTitle();
 				} catch (Exception e) {
 					Log.e(TAG, "Activity title name not found!", e);
 				}
@@ -183,9 +185,9 @@ public class CyeeActionBarView extends CyeeAbsActionBarView {
         
         mLogo = a.getDrawable(R.styleable.CyeeActionBar_cyeelogo);
         if (mLogo == null) {
-            if (context instanceof Activity) {
+            if (context instanceof AppCompatActivity) {
                 try {
-                    mLogo = pm.getActivityLogo(((Activity) context).getComponentName());
+                    mLogo = pm.getActivityLogo(((AppCompatActivity) context).getComponentName());
                 } catch (NameNotFoundException e) {
                     Log.e(TAG, "Activity component name not found!", e);
                 }
@@ -596,7 +598,7 @@ public class CyeeActionBarView extends CyeeAbsActionBarView {
                 mExpandedMenuPresenter != null && mOptionsMenu != null) {
             final MenuItem item = mOptionsMenu.findItem(state.expandedMenuItemId);
             if (item != null) {
-                item.expandActionView();
+                MenuItemCompat.expandActionView(item);
             }
         }
 
@@ -1255,7 +1257,7 @@ public class CyeeActionBarView extends CyeeAbsActionBarView {
         final MenuItemImpl item = mExpandedMenuPresenter == null ? null :
                 mExpandedMenuPresenter.mCurrentExpandedItem;
         if (item != null) {
-            item.collapseActionView();
+            MenuItemCompat.collapseActionView(item);
         }
     }
     
@@ -1597,7 +1599,7 @@ public class CyeeActionBarView extends CyeeAbsActionBarView {
 
         @Override
         public boolean expandItemActionView(MenuBuilder menu, MenuItemImpl item) {
-            mExpandedActionView = item.getActionView();
+            mExpandedActionView = MenuItemCompat.getActionView(item);
             // Gionee <lihq> <2014-6-10> modify for CR00873172 begin
             if (mIcon != null) {
                 mExpandedHomeLayout.setIcon(mIcon.getConstantState().newDrawable(getResources()));

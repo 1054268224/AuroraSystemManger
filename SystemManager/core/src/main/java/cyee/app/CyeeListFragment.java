@@ -16,9 +16,6 @@
 
 package cyee.app;
 
-import cyee.widget.CyeeListView;
-import cyee.widget.CyeeWidgetResource;
-import android.app.Fragment;
 import android.os.Bundle;
 import android.os.Handler;
 import android.view.LayoutInflater;
@@ -29,6 +26,10 @@ import android.widget.AdapterView;
 import android.widget.ListAdapter;
 import android.widget.ListView;
 import android.widget.TextView;
+
+import androidx.fragment.app.Fragment;
+
+import cyee.widget.CyeeListView;
 
 /**
  * A fragment that displays a list of items by binding to a data source such as

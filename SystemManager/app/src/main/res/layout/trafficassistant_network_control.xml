@@ -8,7 +8,7 @@
         android:id="@+id/title_layout"
         android:layout_width="match_parent"
         android:layout_height="@dimen/traffic_control_menu_height"
-        android:background="?android:attr/listChoiceBackgroundIndicator"
+        android:background="?attr/listChoiceBackgroundIndicator"
         android:layout_marginTop="0dp">
 
         <cyee.widget.CyeeTextView

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:cusattrs="http://schemas.android.com/apk/res/com.cydroid.softmanager"
+    xmlns:cusattrs="http://schemas.android.com/apk/res-auto"
     android:id="@+id/root"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -54,7 +54,7 @@
         android:id="@+id/green_background_switch_layout"
         android:layout_width="match_parent"
         android:layout_height="40dp"
-        android:background="?android:attr/listChoiceBackgroundIndicator"
+        android:background="?attr/listChoiceBackgroundIndicator"
         android:clickable="true"
         android:focusable="true" >
 

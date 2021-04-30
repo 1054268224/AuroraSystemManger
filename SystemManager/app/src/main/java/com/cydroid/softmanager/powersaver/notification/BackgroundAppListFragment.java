@@ -9,11 +9,10 @@
  */
 package com.cydroid.softmanager.powersaver.notification;
 
-import android.app.Fragment;
-import android.app.LoaderManager.LoaderCallbacks;
+
 import android.content.Context;
 import android.content.DialogInterface;
-import android.content.Loader;
+
 import android.content.res.Resources;
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -24,6 +23,10 @@ import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemClickListener;
 import android.widget.AdapterView.OnItemLongClickListener;
 import android.widget.LinearLayout;
+
+import androidx.fragment.app.Fragment;
+import androidx.loader.app.LoaderManager;
+import androidx.loader.content.Loader;
 
 import com.cydroid.softmanager.R;
 import com.cydroid.softmanager.memoryclean.IMemoryCleanNativeCallback;
@@ -48,7 +51,7 @@ import cyee.widget.CyeeTextView;
 
 //Gionee <yangxinruo> <2016-02-1> modify for CR01634814 begin
 public class BackgroundAppListFragment extends Fragment
-        implements OnItemLongClickListener, OnItemClickListener, LoaderCallbacks<List<PowerConsumeAppData>> {
+        implements OnItemLongClickListener, OnItemClickListener, LoaderManager.LoaderCallbacks<List<PowerConsumeAppData>> {
 //Gionee <yangxinruo> <2016-02-1> modify for CR01634814 end
     public static final String TAG = "BackgroundAppListFragment";
 

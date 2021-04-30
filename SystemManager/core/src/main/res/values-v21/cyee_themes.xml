@@ -2,9 +2,12 @@
 <!-- 
      Gionee <zhangxx> <2013-06-20> add for cyeeframework.
  -->
-<resources xmlns:android="http://schemas.android.com/apk/res/android"> 
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
     <!--shaozj <style name="Theme.Cyee.Light" parent="@android:style/Theme.Holo.Light"> -->
-    <style name="Theme.Cyee.Light" parent="@android:style/Theme.Material.Light">
+    <style name="Theme.Cyee.Light" parent="Theme.AppCompat.DayNight">
+        <item name="android:navigationBarColor" tools:targetApi="lollipop">@color/cyee_white</item>
+        <item name="android:windowTranslucentNavigation">false</item>
+        <item name="android:windowLightNavigationBar" tools:targetApi="o_mr1">true</item>
         <!-- weidong begin  -->
         <item name="android:colorAccent">@color/cyee_alert_dialog_button_text_color</item>
         <item name="android:actionBarSize">@dimen/cyee_actionbar_height</item>

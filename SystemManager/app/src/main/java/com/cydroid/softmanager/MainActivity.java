@@ -32,7 +32,6 @@ import com.cydroid.softmanager.model.ItemInfo;
 import com.cydroid.softmanager.oneclean.utils.RamAndMemoryHelper;
 import com.cydroid.softmanager.oneclean.whitelist.WhiteListManager;
 import com.cydroid.softmanager.powersaver.activities.PowerManagerMainActivity;
-import com.cydroid.softmanager.rubbishcleaner.activities.RubbishCleanerMainActivity;
 import com.cydroid.softmanager.softmanager.SoftManagerActivity;
 import com.cydroid.softmanager.softmanager.model.SDCardInfo;
 import com.cydroid.softmanager.softmanager.uninstall.UninstallAppManager;
@@ -50,6 +49,7 @@ import com.cydroid.softmanager.utils.NameSorting;
 import com.cydroid.softmanager.view.AnimBallView;
 import com.cydroid.softmanager.view.BoostSpeedActivity;
 import com.cydroid.softmanager.view.ScoreCountView;
+import com.cydroid.systemmanager.rubbishcleaner.RubbishCleanerMainActivity;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -70,9 +70,9 @@ public class MainActivity extends BaseActivity
 
     private final int REQUEST_SCORE_CODE = 0;
 
-    private final static int UPDATE_RAM_INFO = 1000;
-    private final static int UPDATE_ROM_INFO = 1001;
-    private final static int UPDATE_SYSTEM_SCORE = 1002;
+    public final static int UPDATE_RAM_INFO = 1000;
+    public final static int UPDATE_ROM_INFO = 1001;
+    public final static int UPDATE_SYSTEM_SCORE = 1002;
 
     private int mSystemScore = 100;
     private int mIntentScore = 0;
@@ -85,7 +85,6 @@ public class MainActivity extends BaseActivity
     private CyeeButton mOptimizeBtn;
     private CyeeListView mSystemMainList;
     private SystemMainAdapter mAdapter;
-    private RelativeLayout mTopHalfLayout;
 
     private HandlerThread mUpdateMemoryInfoThread;
     private Handler mUpdateMemoryHandler;
@@ -93,7 +92,9 @@ public class MainActivity extends BaseActivity
     private SoftHelperUtils mStorageHelper;
     private StorageManager mStorageManager;
     private UninstallAppManager mUninstallAppManager;
-
+    private boolean isSystemCheckOver = false;
+    private final StateHandler mStateHandler = new StateHandler();
+    private final List<String> mUserWhitelistedApps = new ArrayList<>();
     //guoxt modify for main page animation begin
     private ImageView mScanView;
     private ObjectAnimator mScanAnim;
@@ -101,7 +102,8 @@ public class MainActivity extends BaseActivity
     private ScoreCountView mScoreView;
     //guoxt modify for main page animation end
     private int mCurrentColor;
-    private boolean isSystemCheckOver = false;
+
+
     private long mRubbishSize = -1;
     private boolean isNeedChangeColor;
     private AnimBallView mAnimBallView;
@@ -116,10 +118,9 @@ public class MainActivity extends BaseActivity
     public final static String MAIN_PROCESS_PREFERENCE = "softmanager_preferences_main_process";
     // Gionee <yangxinruo> <2015-10-21> add for CR01571937 end
 
-    private final StateHandler mStateHandler = new StateHandler();
 
     private WhiteListManager mWhiteListManager;
-    private final List<String> mUserWhitelistedApps = new ArrayList<>();
+
 
     public boolean isanimstart;
 
@@ -174,13 +175,12 @@ public class MainActivity extends BaseActivity
     }
 
     private void transparentStatusBar() {
-        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
             Window window = getWindow();
             window.clearFlags(WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS);
             window.getDecorView().setSystemUiVisibility(View.SYSTEM_UI_FLAG_LAYOUT_FULLSCREEN | View.SYSTEM_UI_FLAG_LAYOUT_STABLE |View.SYSTEM_UI_FLAG_LIGHT_STATUS_BAR);
             window.addFlags(WindowManager.LayoutParams.FLAG_DRAWS_SYSTEM_BAR_BACKGROUNDS);
             window.setStatusBarColor(Color.TRANSPARENT);
-        }
+
     }
 
 
@@ -265,7 +265,7 @@ public class MainActivity extends BaseActivity
                 startActivityForResult(intent, REQUEST_SCORE_CODE);
                 break;
             case R.id.cache_cleaner_btn:
-                actionNewActivity(mContext,RubbishCleanerMainActivity.class);
+                actionNewActivity(mContext, RubbishCleanerMainActivity.class);
                 break;
             case R.id.boot_speed_btn:
                 actionNewActivity(mContext,BoostSpeedActivity.class);
@@ -313,7 +313,7 @@ public class MainActivity extends BaseActivity
         }
         int beforeColor = mCurrentColor;
         mCurrentColor = ColorUtils.getCurrentColorByScore(score);
-        ColorUtils.colorChangeAnim(mTopHalfLayout, MainActivity.this, beforeColor, mCurrentColor);
+//        ColorUtils.colorChangeAnim(mTopHalfLayout, MainActivity.this, beforeColor, mCurrentColor);
     }
 
     @Override
@@ -364,7 +364,7 @@ public class MainActivity extends BaseActivity
         mOptimizeBtn = (CyeeButton) findViewById(R.id.scan_system_btn);
         mOptimizeBtn.setOnClickListener(this);
         /*mSystemMainList = (CyeeListView) findViewById(R.id.system_main_list);*/
-        //mTopHalfLayout = (RelativeLayout) findViewById(R.id.system_main_top);
+
 
         mScanView = (ImageView) findViewById(R.id.scan_view);
 
@@ -406,7 +406,7 @@ public class MainActivity extends BaseActivity
     private void setCurrentBackgroundColor(){
         if (isNeedChangeColor){
             int color_A1 = ChameleonColorManager.getAppbarColor_A1();
-            ColorUtils.changeBackgroundColor(mTopHalfLayout, MainActivity.this, color_A1);
+//            ColorUtils.changeBackgroundColor(mTopHalfLayout, MainActivity.this, color_A1);
         }else {
             if (mIntentScore != 0){
                 mCurrentColor = ColorUtils.getCurrentColorByScore(mIntentScore);
@@ -414,7 +414,7 @@ public class MainActivity extends BaseActivity
             }else {
                 mCurrentColor = ColorUtils.getCurrentColorByScore(mSystemScore);
             }
-            ColorUtils.changeBackgroundColor(mTopHalfLayout, MainActivity.this, mCurrentColor);
+//            ColorUtils.changeBackgroundColor(mTopHalfLayout, MainActivity.this, mCurrentColor);
         }
     }
 
@@ -427,7 +427,7 @@ public class MainActivity extends BaseActivity
             int color_A1 = ChameleonColorManager.getAppbarColor_A1();
             int color_B4 = ChameleonColorManager.getButtonBackgroudColor_B4();
 
-            ColorUtils.changeBackgroundColor(mTopHalfLayout, MainActivity.this, color_A1);
+//            ColorUtils.changeBackgroundColor(mTopHalfLayout, MainActivity.this, color_A1);
             mOptimizeBtn.setTextColor(color_T1);
             mOptimizeBtn.setBackgroundColorFilter(color_B4);
             /*mRamInfoText.setTextColor(color_T1);

@@ -27,4 +27,5 @@
     <string name="go_install_apk">安装</string>
     <string name="go_clean">清理</string>
     <string name="show_rubbish_size">大小:</string>
+    <string name="rubbish_clean_size_setting">垃圾大小提醒</string>
 </resources>

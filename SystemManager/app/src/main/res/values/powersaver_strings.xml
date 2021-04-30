@@ -302,5 +302,51 @@
     <!-- chenyee zhaocaili 20180619 add for SystemManagerLite begin -->
     <string name="power_consume_background_list_title_lite">Check</string>
     <!-- chenyee zhaocaili 20180619 add for SystemManagerLite end -->
+    <string name="power_mode_use_time">(Available： <xliff:g id="time">%s</xliff:g>)</string>
+    <string name="can_use_time">Available:%s</string>
+    <string name="mode_change_alert">Switching...</string>
 
+    <string name="enter_into_mode">Colocar em modo economizador de energia</string>
+    <string name="exit_mode">Sair do modo de economizador</string>
+
+    <string name="power_gps">GPS</string>
+    <string name="power_sensors">Otros (sensores varios)</string>
+
+    <string name="set_custom_sleep_time">Ninguna operación entrará en itinerancia después de 15 segundos</string>
+    <string name="set_screen_save_power">Abra la pantalla de ahorro</string>
+
+    <string name="screen_light_sumarry">Ajustar automáticamente el brillo de la pantalla a un estado de ahorro de energía</string>
+    <string name="time_use_inmode">Disponible:%s</string>
+    <string name="sleep_time_summary">No operar pasado 15 segundos después de entrar en latencia</string>
+    <string name="set_screen_light">Ajuste brillo de pantalla</string>
+    <string name="save_power_notifi">El aviso de ahorro de energía</string>
+    <string name="save_power_notifi_title">El centro de notificaciones mostrará el estado de ahorro de energía</string>
+    <string name="auto_clean_summary">Para reducir el consumo de energía, limpie las aplicaciones en segundo plano</string>
+    <string name="battery_level_tab_title">Nivel de batería</string>
+    <string name="power_usage_not_available">No se puede obtener los datos de uso de la batería</string>
+    <string name="usage_description">Descripción</string>
+    <string name="shotcut_operation">Operación rápida</string>
+    <string name="airplane">Modo avión</string>
+    <string name="data_conn">Conexión de datos</string>
+    <string name="display">Pantalla</string>
+    <string name="idle_descrip">Durante el proceso de modo de espera del teléfono móvil, el equipo consumirá parte de la energía para mantener los procesos necesarios del sistema.</string>
+    <string name="screen_descrip">La pantalla está en proceso de uso, se consumirá mas energía</string>
+    <string name="wlan_descrip">Abra WLAN, el teléfono móvil buscará frecuentemente la señal de WLAN, resultando en una pérdida de energía</string>
+    <string name="bt_descrip">Encienda el Bluetooth del teléfono móvil, se consumirá mas energía</string>
+    <string name="gps_descrip">Aplicación de GPS activada. El servicio de ubicación consumirá mas energía</string>
+    <string name="radio_descrip">El uso de la función de llamada por voz consumirá mas energía</string>
+    <string name="cell_descrip">Señal débil. El teléfono móvil buscará constantemente señal de comunicación. Se consumirá mucha energía</string>
+    <string name="others_descrip">Sensores móviles, tales como sensores de gravedad, sensores de luz, si están siempre funcionando, consumirán más energía.</string>
+    <string name="idle_title">Detalles de consumo de energía del teléfono móvil en modo Espera</string>
+    <string name="screen_title">Detalles de consumo de la pantalla</string>
+    <string name="wlan_title">Detalles de consumo de WIFI</string>
+    <string name="bt_title">Detalles de consumo de Bluetooth</string>
+    <string name="gps_title">Detalles de consumo de GPS</string>
+    <string name="radio_title">Detalle de consumo de energía de voz</string>
+    <string name="cell_title">Teléfono móvil detalles de consumo de energía de RF</string>
+    <string name="others_title">Otros detalles de consumo de energía</string>
+    <string name="details_title">Detalles de uso</string>
+    <string name="set_gpu_fps_limit">Open the GPU intelligent frequency reduction</string>
+    <string name="adapter_toast">não utilize por favor.</string>
+    <string name="system_setting">Sistema de economia de energia</string>
 </resources>

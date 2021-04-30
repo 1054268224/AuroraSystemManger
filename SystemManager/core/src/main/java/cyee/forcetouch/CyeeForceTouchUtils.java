@@ -1,8 +1,5 @@
 package cyee.forcetouch;
 
-import java.lang.reflect.Method;
-
-import android.app.Activity;
 import android.content.Context;
 import android.graphics.Bitmap;
 import android.graphics.Bitmap.Config;
@@ -17,10 +14,15 @@ import android.graphics.RectF;
 import android.graphics.drawable.BitmapDrawable;
 import android.graphics.drawable.Drawable;
 import android.os.Vibrator;
-import com.cyee.utils.Log;
 import android.view.MotionEvent;
 import android.view.View;
 import android.view.WindowManager;
+
+import androidx.appcompat.app.AppCompatActivity;
+
+import com.cyee.utils.Log;
+
+import java.lang.reflect.Method;
 
 public class CyeeForceTouchUtils {
 
@@ -66,8 +68,8 @@ public class CyeeForceTouchUtils {
 
     public static Bitmap getCurrentScreenShot(Context cxt) {
         Bitmap screenShot = null;
-        if (cxt instanceof Activity) {
-            Activity a = ((Activity) cxt);
+        if (cxt instanceof AppCompatActivity) {
+            AppCompatActivity a = ((AppCompatActivity) cxt);
             View view = a.getWindow().getDecorView();
             view.setDrawingCacheEnabled(true);
             view.buildDrawingCache();
@@ -201,8 +203,8 @@ public class CyeeForceTouchUtils {
     public static boolean isFullScreen(Context cxt) {
         boolean ret = false;
 
-        if (cxt instanceof Activity) {
-            Activity a = ((Activity) cxt);
+        if (cxt instanceof AppCompatActivity) {
+            AppCompatActivity a = ((AppCompatActivity) cxt);
             WindowManager.LayoutParams attrs = a.getWindow().getAttributes();
             if ((attrs.flags & WindowManager.LayoutParams.FLAG_FULLSCREEN) == WindowManager.LayoutParams.FLAG_FULLSCREEN) {
                 ret = true;
@@ -213,9 +215,9 @@ public class CyeeForceTouchUtils {
     }
 
     public static void hideStatusBar(Context cxt, boolean hide) {
-        if (cxt instanceof Activity) {
+        if (cxt instanceof AppCompatActivity) {
             Log.d(LOGTAG, "hideStatusBar hide=" + hide);
-            Activity a = ((Activity) cxt);
+            AppCompatActivity a = ((AppCompatActivity) cxt);
             if (hide) {
                 a.getWindow().setFlags(
                         WindowManager.LayoutParams.FLAG_FULLSCREEN,

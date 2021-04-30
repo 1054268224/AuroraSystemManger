@@ -68,6 +68,8 @@
                         android:ellipsize="end"
                         android:fadingEdge="horizontal"
                         android:maxLines="2"
+                        android:textColor="#333333"
+                        android:textSize="16sp"
                         android:textAppearance="?android:attr/textAppearanceMedium" />
 
                     <cyee.widget.CyeeTextView
@@ -76,6 +78,8 @@
                         android:layout_height="wrap_content"
                         android:ellipsize="end"
                         android:maxLines="10"
+                        android:textColor="#999999"
+                        android:textSize="12sp"
                         android:textAppearance="?android:attr/textAppearanceSmall" />
                 </LinearLayout>
 
@@ -88,6 +92,8 @@
                     android:layout_marginStart="@dimen/cyee_preference_text_margin_right"
                     android:ellipsize="end"
                     android:gravity="end"
+                    android:textColor="#999999"
+                    android:textSize="12sp"
                     android:maxLines="2"
                     android:textAppearance="?android:attr/textAppearanceSmall" />
             </RelativeLayout>
@@ -119,7 +125,7 @@
             <View
                 android:id="@+id/cyee_preference_divider"
                 android:layout_width="match_parent"
-                android:layout_height="@dimen/cyee_divider_height"
+                android:layout_height="1px"
                 android:layout_alignParentBottom="true"
                 android:layout_marginBottom="0dp"
                 android:background="@color/cyee_list_divider_color" />
@@ -130,7 +136,7 @@
     <View
         android:id="@+id/cyee_preference_bottom_line"
         android:layout_width="match_parent"
-        android:layout_height="@dimen/cyee_divider_height"
+        android:layout_height="0dp"
         android:layout_gravity="bottom"
         android:background="@color/cyee_list_divider_color" />
 

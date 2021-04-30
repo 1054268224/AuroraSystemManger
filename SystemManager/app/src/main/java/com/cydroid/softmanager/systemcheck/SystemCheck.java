@@ -282,7 +282,7 @@ public class SystemCheck {
      **/
     public static void checkRubbishCleanedDirectly(Context context){
         Intent intentCache = new Intent();
-        intentCache.setComponent(new ComponentName("com.cydroid.systemmanager",
+        intentCache.setComponent(new ComponentName(context.getPackageName(),
                 "com.cydroid.systemmanager.rubbishcleaner.service.RubbishScanService"));
         intentCache.putExtra("startBySystemCheck", true);
         ServiceUtil.startForegroundService(context,intentCache);
@@ -399,7 +399,7 @@ public class SystemCheck {
     public static void startDeeplyCleanForResult(BaseActivity context, int requestCode) {
         Intent intent = new Intent();
         try {
-            intent.setComponent(new ComponentName("com.cydroid.systemmanager",
+            intent.setComponent(new ComponentName(context.getPackageName(),
                     "com.cydroid.systemmanager.rubbishcleaner.DeeplyCleanerMainActivity"));
             context.startActivityForResult(intent, requestCode);
         } catch (Exception localException) {

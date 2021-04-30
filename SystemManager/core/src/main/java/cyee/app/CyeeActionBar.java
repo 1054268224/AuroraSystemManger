@@ -1,7 +1,5 @@
 package cyee.app;
 
-import cyee.changecolors.IChangeColors;
-import android.app.FragmentTransaction;
 import android.content.Context;
 import android.content.res.ColorStateList;
 import android.graphics.drawable.Drawable;
@@ -14,6 +12,11 @@ import android.view.ViewGroup;
 import android.view.ViewGroup.MarginLayoutParams;
 import android.view.Window;
 import android.widget.SpinnerAdapter;
+
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.fragment.app.FragmentTransaction;
+
+import cyee.changecolors.IChangeColors;
 
 /**
  * A window feature at the top of the activity that may display the activity title, navigation modes, and
@@ -31,7 +34,7 @@ import android.widget.SpinnerAdapter;
  * </p>
  * <p>
  * From your activity, you can retrieve an instance of {@link ActionBar} by calling
- * {@link android.app.Activity#getActionBar getActionBar()}.
+ * {@link AppCompatActivity#getActionBar getActionBar()}.
  * </p>
  * <p>
  * In some cases, the action bar may be overlayed by another bar that enables contextual actions, using an

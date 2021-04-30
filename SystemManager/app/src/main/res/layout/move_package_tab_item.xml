@@ -9,7 +9,7 @@
         android:layout_height="40dp"
         android:gravity="center_vertical"
         android:visibility="gone"
-        android:background="?android:attr/listChoiceBackgroundIndicator" >
+        android:background="?attr/listChoiceBackgroundIndicator" >
 
         <cyee.widget.CyeeTextView
             android:id="@+id/move_header_title"

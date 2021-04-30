@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/root_layout"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical">
+    android:layout_height="match_parent" >
 
     <!-- Gionee <yangxinruo> <2016-5-10> modify for CR01658695 begin -->
     <LinearLayout
         android:id="@+id/deeply_sticky_header"
         android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="4"
+        android:layout_height="@dimen/top_half_height"
         android:background="@color/common_green_bg"
         android:gravity="center"
         android:orientation="vertical" >
@@ -28,7 +28,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_centerInParent="true"
-                android:src="@drawable/delete_end_image"
+                app:srcCompat="@drawable/delete_end_image"
                 android:visibility="invisible" />
 
             <TextView
@@ -54,80 +54,39 @@
                 android:textSize="@dimen/clean_end_textSize"
                 android:visibility="invisible" />
 
+            <!-- Replace by HZH on 2019/5/11 for ui start ^_^ -->
             <RelativeLayout
                 android:id="@+id/rubbish_text_layout"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_centerInParent="true" >
+                android:gravity="center">
 
                 <cyee.widget.CyeeTextView
                     android:id="@+id/deepclean_total_size"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_centerHorizontal="true"
-                    android:textColor="#ffffff"
-                    android:textSize="@dimen/deeplyclean_rubbish_textsize"
-                    android:textStyle="bold"/>
+                    android:layout_centerInParent="true"
+                    android:textColor="@color/textview_color_white"
+                    android:textSize="@dimen/total_rubbish_textsize" />
 
-				<!--<LinearLayout
+                <cyee.widget.CyeeTextView
+                    android:id="@+id/deepclean_total"
                     android:layout_width="wrap_content"
-                    android:layout_height="match_parent"
-                    android:layout_alignBottom="@id/deepclean_total_size"
-                    android:layout_alignTop="@id/deepclean_total_size"
+                    android:layout_height="wrap_content"
+                    android:text="@string/total_rubbish_desc"
+                    android:layout_alignBaseline="@id/deepclean_total_size"
                     android:layout_toStartOf="@id/deepclean_total_size"
-                    android:gravity="center_vertical"
-                    android:orientation="vertical" >
+                    android:textColor="@color/textview_color_white"
+                    android:textSize="@dimen/total_rubbish_unit_textsize" />
 
-                    <View
-                        android:layout_width="0dp"
-                        android:layout_height="0dp"
-                        android:layout_weight="4" />
-
-                    <cyee.widget.CyeeTextView
-                        android:id="@+id/deepclean_total"
-                        android:layout_width="wrap_content"
-                        android:layout_height="0dp"
-                        android:layout_weight="2"
-                        android:gravity="top"
-                        android:text="@string/total_rubbish_desc"
-                        android:textColor="#ffffff"
-                        android:textSize="@dimen/total_rubbish_unit_textsize" />
-
-                    <View
-                        android:layout_width="0dp"
-                        android:layout_height="0dp"
-                        android:layout_weight="1" />
-                </LinearLayout>-->
-                
-                <LinearLayout
+                <cyee.widget.CyeeTextView
+                    android:id="@+id/deepclean_total_unit"
                     android:layout_width="wrap_content"
-                    android:layout_height="match_parent"
-                    android:layout_alignBottom="@id/deepclean_total_size"
-                    android:layout_alignTop="@id/deepclean_total_size"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@id/deepclean_total_size"
                     android:layout_toEndOf="@id/deepclean_total_size"
-                    android:gravity="center_vertical"
-                    android:orientation="vertical" >
-
-                    <View
-                        android:layout_width="wrap_content"
-                        android:layout_height="0dp"
-                        android:layout_weight="4" />
-
-                    <cyee.widget.CyeeTextView
-                        android:id="@+id/deepclean_total_unit"
-                        android:layout_width="wrap_content"
-                        android:layout_height="0dp"
-                        android:layout_weight="2"
-                        android:gravity="top"
-                        android:textColor="#ffffff"
-                        android:textSize="@dimen/deeplyclean_rubbish_unit_textsize"
-                        android:textStyle="bold"/>
-
-                    <View
-                        android:layout_width="wrap_content"
-                        android:layout_height="0dp"
-                        android:layout_weight="1" />
-                </LinearLayout>
+                    android:textColor="@color/textview_color_white"
+                    android:textSize="@dimen/total_rubbish_unit_textsize" />
 
                 <cyee.widget.CyeeTextView
                     android:id="@+id/deepcleaned_display"
@@ -140,6 +99,8 @@
                     android:textSize="@dimen/advise_textsize"
                     android:visibility="gone" />
             </RelativeLayout>
+            <!-- Replace by HZH on 2019/5/11 for ui end ^_^ -->
+
         </RelativeLayout>
 
         <RelativeLayout
@@ -176,8 +137,7 @@
     <LinearLayout
         android:id="@+id/deeply_sticky_content"
         android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="7"
+        android:layout_height="match_parent"
         android:layout_below="@id/deeply_sticky_header"
         android:orientation="vertical" >
 
@@ -197,10 +157,8 @@
         android:id="@+id/button_layout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_weight="1"
         android:layout_alignParentBottom="true"
-        android:background="#ffffff"
-        android:orientation="horizontal">
+        android:background="#ffffff" >
     </LinearLayout>
 
-</LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,85 @@
+<resources>
+    <string name="app_name">System Manager</string>
+
+    <string name="rubcleaner">Cleaner</string>
+    <string name="bootspeed">Boost speed</string>
+    <string name="powermanager">Battery</string>
+    <string name="trfficmonitor">Data usage</string>
+    <string name="softmanager">Manage apps</string>
+    <string name="setting">Settings</string>
+
+    <string name="one_clean">Clean up</string>
+    <string name="one_accelerate">Boost speed</string>
+    <string name="one_optimise">Fix</string>
+    <string name="optimising">under optimising...</string>
+    <!--############################################################## traffic monitor  ############################################################-->
+    <string name="surplus_flow_month">Remaining</string>
+    <string name="used_flow_today">Used today</string>
+    <string name="traffic_package">Data plan</string>
+    <string name="traffic_ranking_list">Top up</string>
+    <!--############################################################## traffic monitor  ############################################################-->
+
+
+    <!--############################################################## setting  ############################################################-->
+    <string name="rub_set">Cleaner Settings</string>
+    <string name="rub_size">Size Alert</string>
+    <string name="package_delete">Delete Apk File</string>
+    <string name="file_delete">Residual Files Alert</string>
+
+    <string name="powermanager_set">Battery setting</string>
+    <string name="smart_save">Smart sleep power saving</string>
+    <string name="smart_save_detail">If the mobile phone is not used for a long time after the screen is off, 
+	the power consumption items such as network, Bluetooth, GPS,
+	synchronization will be turned off, and the power consumption
+	items will be restored automatically after the screen is on</string>
+    <string name="light">Automatic brightness</string>
+    <string name="light_detai">Optimize brightness according to ambient light</string>
+    <string name="screen_sleep">Screen sleep</string>
+    <string name="screen_sleep_detail">After 30 minutes of inactivity</string>
+    <string name="wifi">WIFI</string>
+    <string name="bluetooth">Bluetooth</string>
+    <string name="power_per">Percentage of battery charge</string>
+
+    <string name="traffic_set">Data usage warning</string>
+    <string name="flow_share">Portable hotspot</string>
+    <string name="flow_share_detail">Single consumption of 10m data flow</string>
+
+    <string name="monitor_set">后台监控项</string>
+    <string name="flow_monitor">流量监控通知</string>
+    <string name="power_monitor">耗电监控通知</string>
+    <string name="app_monitor">不常用应用监控通知</string>
+    <string name="high_power_monitor">高耗电监控通知</string>
+    <string name="memory_moniter">内存/CPU监控提醒</string>
+    <!--############################################################## setting  ############################################################-->
+
+
+    <!--############################################################## rubcleaner  ############################################################-->
+    <string name="cache_type">Cache files</string>
+    <string name="ad_type">Ads files</string>
+    <string name="unload_type">Residual</string>
+    <string name="package_type">Packages</string>
+    <!--############################################################## rubcleaner  ############################################################-->
+
+
+    <!--############################################################## bootspeed ############################################################-->
+    <string name="app_running">Running applications （</string>
+    <string name="app_running_end">）</string>
+    <!--############################################################## bootspeed ############################################################-->
+
+
+    <!--############################################################## powermanager ############################################################-->
+    <string name="battery_state">当前状态： </string>
+    <string name="normal_mode_title">普通模式</string>
+    <string name="normal_mode_desc">普通状态</string>
+    <string name="normal_mode_detail">系统不做任何省电处理</string>
+    <string name="daily_save_mode_title">日常省电模式</string>
+    <string name="daily_save_mode_desc">降低手机性能</string>
+    <string name="daily_save_mode_detail">默认配置可用：约</string>
+    <string name="ultimate_save_mode_title">极致省电模式</string>
+    <string name="ultimate_save_mode_desc">仅可使用电话、联系人、信息和时钟</string>
+    <string name="ultimate_save_mode_detail">可待机：约</string>
+    <string name="power_detail">耗电详情</string>
+    <string name="power_detail_desc">软件和硬件的耗电排行详情</string>
+    <!--############################################################## powermanager ############################################################-->
+
+</resources>

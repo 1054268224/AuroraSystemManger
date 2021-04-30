@@ -1,10 +1,5 @@
 package com.cyee.internal.view.menu;
 
-import java.lang.ref.WeakReference;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.concurrent.CopyOnWriteArrayList;
-
 import android.content.ComponentName;
 import android.content.Context;
 import android.content.Intent;
@@ -16,7 +11,6 @@ import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.os.Parcelable;
 import android.util.SparseArray;
-import android.view.ActionProvider;
 import android.view.ContextMenu.ContextMenuInfo;
 import android.view.KeyCharacterMap;
 import android.view.KeyEvent;
@@ -24,8 +18,14 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.SubMenu;
 import android.view.View;
-import com.cyee.internal.R;
-import cyee.widget.CyeeWidgetResource;
+
+import androidx.core.view.ActionProvider;
+import androidx.core.view.MenuItemCompat;
+
+import java.lang.ref.WeakReference;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.concurrent.CopyOnWriteArrayList;
 
 public class CyeeMenuBuilder implements Menu {
 	// Gionee <fenglp> <2013-07-09> add for CR00812456 begin
@@ -315,13 +315,13 @@ public class CyeeMenuBuilder implements Menu {
 		final int itemCount = size();
 		for (int i = 0; i < itemCount; i++) {
 			final MenuItem item = getItem(i);
-			final View v = item.getActionView();
+			final View v = MenuItemCompat.getActionView(item);
 			if (v != null && v.getId() != View.NO_ID) {
 				if (viewStates == null) {
 					viewStates = new SparseArray<Parcelable>();
 				}
 				v.saveHierarchyState(viewStates);
-				if (item.isActionViewExpanded()) {
+				if (MenuItemCompat.isActionViewExpanded(item)) {
 					outStates.putInt(EXPANDED_ACTION_VIEW_ID, item.getItemId());
 				}
 			}
@@ -346,7 +346,7 @@ public class CyeeMenuBuilder implements Menu {
 		final int itemCount = size();
 		for (int i = 0; i < itemCount; i++) {
 			final MenuItem item = getItem(i);
-			final View v = item.getActionView();
+			final View v = MenuItemCompat.getActionView(item);
 			if (v != null && v.getId() != View.NO_ID) {
 				v.restoreHierarchyState(viewStates);
 			}
@@ -360,7 +360,7 @@ public class CyeeMenuBuilder implements Menu {
 		if (expandedId > 0) {
 			MenuItem itemToExpand = findItem(expandedId);
 			if (itemToExpand != null) {
-				itemToExpand.expandActionView();
+				MenuItemCompat.expandActionView(itemToExpand);
 			}
 		}
 	}
@@ -859,10 +859,10 @@ public class CyeeMenuBuilder implements Menu {
 
 		boolean invoked = itemImpl.invoke();
 
-		final ActionProvider provider = item.getActionProvider();
+		final ActionProvider provider = MenuItemCompat.getActionProvider(item);
 		final boolean providerHasSubMenu = provider != null && provider.hasSubMenu();
 		if (itemImpl.hasCollapsibleActionView()) {
-			invoked |= itemImpl.expandActionView();
+			invoked |= MenuItemCompat.expandActionView(itemImpl);
 			if (invoked)
 				close(true);
 		} else if (itemImpl.hasSubMenu() || providerHasSubMenu) {

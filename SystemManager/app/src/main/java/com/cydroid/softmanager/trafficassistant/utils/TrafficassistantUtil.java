@@ -631,7 +631,7 @@ public class TrafficassistantUtil {
         }
     }
 
-    private static long getTrafficData(Context context, int simIndex, long startTime, long endTime,
+    public static long getTrafficData(Context context, int simIndex, long startTime, long endTime,
                                        long nowTime) {
         if (0 == endTime) {
             endTime = System.currentTimeMillis();

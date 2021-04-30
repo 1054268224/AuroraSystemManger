@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/rubbishcleaner_expandable_group"
     android:layout_width="match_parent"
     android:layout_height="@dimen/rubbish_adapter_group_height"
-    android:paddingStart="@dimen/rubbish_group_item_paddingleft">
+    android:paddingStart="@dimen/rubbish_group_item_paddingleft" >
 
 	<!-- Gionee: <houjie> <2015-10-27> add for CR01575153 begin -->
     <LinearLayout

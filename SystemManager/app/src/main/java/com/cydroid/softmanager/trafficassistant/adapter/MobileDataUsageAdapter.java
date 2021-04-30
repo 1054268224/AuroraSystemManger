@@ -141,7 +141,7 @@ public class MobileDataUsageAdapter extends BaseAdapter {
             }
         }
 
-        private static void bindView(UidDetail detail, View target) {
+        public static void bindView(UidDetail detail, View target) {
 
             final ImageView icon = (ImageView) target.findViewById(android.R.id.icon);
             final TextView title = (TextView) target.findViewById(android.R.id.title);

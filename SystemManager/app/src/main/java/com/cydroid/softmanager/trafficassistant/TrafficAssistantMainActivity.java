@@ -1,6 +1,6 @@
 package com.cydroid.softmanager.trafficassistant;
 
-import android.app.FragmentTransaction;
+
 import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
@@ -23,8 +23,11 @@ import android.widget.LinearLayout.LayoutParams;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
-import com.android.internal.widget.PagerAdapter;
-import com.android.internal.widget.ViewPager;
+import androidx.fragment.app.FragmentTransaction;
+
+import androidx.viewpager.widget.PagerAdapter;
+import androidx.viewpager.widget.ViewPager;
+
 import com.cydroid.framework.SIMInfoFactory;
 import com.cydroid.framework.provider.SIMInfo;
 import com.cydroid.softmanager.BaseActivity;
@@ -328,7 +331,7 @@ public class TrafficAssistantMainActivity extends BaseActivity implements OnClic
         LinearLayout v = (LinearLayout) getLayoutInflater().inflate(R.layout.systemmanager_settings_actionbar,
                 null);
         ImageView img = (ImageView) v.findViewById(R.id.img_actionbar_custom);
-        ImageView otherImg = (ImageView) v.findViewById(R.id.img_other_button);
+        ImageView otherImg = (ImageView) v.findViewById(R.id.img_another_button);
         LinearLayout first = (LinearLayout) v.findViewById(R.id.first_click_field);
         // Gionee: mengdw <2015-11-11> add for CR01589343 begin
         otherImg.setImageResource(R.drawable.power_summary_icon);
@@ -952,10 +955,10 @@ public class TrafficAssistantMainActivity extends BaseActivity implements OnClic
         }
         mViewInit[position] = true;
         mTextViewUsed[position] = (TextView) mPageViews.get(position).findViewById(R.id.gn_used_flow);
-        /*mTextViewState[position] = (TextView) mPageViews.get(position).findViewById(R.id.gn_flow_state);*/
+        mTextViewState[position] = (TextView) mPageViews.get(position).findViewById(R.id.gn_flow_state);
         mTextViewStateValue[position] = (TextView) mPageViews.get(position).findViewById(R.id.gn_state_value);
         mTextViewUnitValue[position] = (TextView) mPageViews.get(position).findViewById(R.id.gn_unit_value);
-        /*mImgPrompt[position] = mPageViews.get(position).findViewById(R.id.img_prompt_settings);*/
+        mImgPrompt[position] = mPageViews.get(position).findViewById(R.id.img_prompt_settings);
         mFlowButton[position] = (CyeeButton) mPageViews.get(position).findViewById(R.id.flow_button);
         mFlowButton[position].setVisibility(View.VISIBLE);
         mFlowButton[position].setOnClickListener(mflowOnClickLister);

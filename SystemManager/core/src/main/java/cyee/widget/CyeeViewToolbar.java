@@ -1,6 +1,5 @@
 package cyee.widget;
 
-import android.app.Activity;
 import android.content.Context;
 import android.content.res.Configuration;
 import android.content.res.Resources;
@@ -12,13 +11,12 @@ import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.view.Window;
 import android.view.ViewGroup.LayoutParams;
+import android.view.Window;
 import android.view.WindowManager;
 import android.widget.ImageView;
-import com.cyee.utils.Log;
 
-import com.cyee.internal.R;
+import androidx.appcompat.app.AppCompatActivity;
 
 /**
  * The base class is used to support toolbar popped up form views.
@@ -318,8 +316,8 @@ public abstract class CyeeViewToolbar {
     private int getStatusBarHeight () {
         Rect rect = new Rect();
         Context context = mHostView.getContext();
-        if (context instanceof Activity) {
-            Window window = ((Activity)context).getWindow();
+        if (context instanceof AppCompatActivity) {
+            Window window = ((AppCompatActivity)context).getWindow();
             if (window != null) {
                 // Gionee <gaoj> <2013-9-3> modify for CR00874531 begin
                 window.getDecorView().getWindowVisibleDisplayFrame(rect);

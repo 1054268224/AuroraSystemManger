@@ -38,7 +38,7 @@
             android:layout_centerVertical="true"
             android:layout_toLeftOf="@+id/battery_level"
             android:layout_marginRight="45dp"
-            android:src="@drawable/battery_image"
+            cusattrs:srcCompat="@drawable/battery_image"
             android:visibility="visible" />
 
         <cyee.widget.CyeeTextView

@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/primary_action_view"
     android:layout_width="match_parent"
     android:layout_height="@dimen/powermode_list_height"
-    android:background="?android:attr/listChoiceBackgroundIndicator"
+    android:background="?attr/listChoiceBackgroundIndicator"
     android:descendantFocusability="blocksDescendants" >
 
     <RelativeLayout
@@ -81,7 +82,7 @@
             android:id="@+id/secondary_action_icon_img"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/savepower_summary_icon_indi" />
+            app:srcCompat="@drawable/savepower_summary_icon_indi" />
     </RelativeLayout>
 
 </LinearLayout>

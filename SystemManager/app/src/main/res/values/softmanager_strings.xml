@@ -215,12 +215,12 @@
     <string name="sdcard_move_app_size">"<xliff:g>%1$s</xliff:g> on SD card "</string>
     <string name="select_default_text">"Select <xliff:g>%1$s</xliff:g></string>
 
-    <!--  
-    <string name="green_bg_dialog_title">"Open green background"</string> 
-    <string name="green_bg_dialog_msg">"Apps not in the whitelist will be cleaned\nSuggest add app that always use to whitelist\nOpen or not?"</string> 
- 	<string name="green_bg_dialog_ok">"Open"</string> 
+
+    <string name="green_bg_dialog_title">"Open green background"</string>
+    <string name="green_bg_dialog_msg">"Apps not in the whitelist will be cleaned\nSuggest add app that always use to whitelist\nOpen or not?"</string>
+ 	<string name="green_bg_dialog_ok">"Open"</string>
     <string name="green_bg_dialog_cancel">"Cancel"</string>
-    -->
+
     <!--Gionee luoguangming 2017.03.02 modify CR01778824 begin-->
     <string name="green_bg_notifi_title">"Green background reminder is enabled"</string>
     <string name="green_bg_notifi_content">"Apps not in the white list will be cleaned. We suggest you to add frequently used apps to the white list."</string>

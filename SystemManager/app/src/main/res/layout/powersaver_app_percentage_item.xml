@@ -4,7 +4,7 @@
     android:layout_height="@dimen/normal_listview_height"
     android:columnCount="3"
     android:layout_gravity="center_vertical"
-    android:minHeight="?android:attr/listPreferredItemHeight"
+    android:minHeight="?attr/listPreferredItemHeight"
     android:paddingEnd="@dimen/usagedetails_image_marginRight" >
 
     <ImageView

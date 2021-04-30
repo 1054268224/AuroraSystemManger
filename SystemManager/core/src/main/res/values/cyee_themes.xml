@@ -2,8 +2,11 @@
 <!-- 
      Gionee <zhangxx> <2013-06-20> add for cyeeframework.
  -->
-<resources xmlns:android="http://schemas.android.com/apk/res/android">
-    <style name="Theme.Cyee.Light" parent="@android:style/Theme.Holo.Light">
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:android="http://schemas.android.com/apk/res/android">
+    <style name="Theme.Cyee.Light" parent="Theme.AppCompat.DayNight">
+        <item name="android:navigationBarColor" tools:targetApi="lollipop">@color/cyee_white</item>
+        <item name="android:windowTranslucentNavigation">false</item>
+        <item name="android:windowLightNavigationBar" tools:targetApi="o_mr1">true</item>
         <!-- Gionee <lihq> <2014-01-06> add for CR00873172 begin -->
         <item name="android:windowContentOverlay">@null</item>
         <!-- Gionee <lihq> <2014-01-06> add for CR00873172 end -->

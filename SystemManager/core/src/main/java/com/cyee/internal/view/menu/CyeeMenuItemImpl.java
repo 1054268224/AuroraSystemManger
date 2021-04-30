@@ -4,18 +4,19 @@ import android.content.ActivityNotFoundException;
 import android.content.Context;
 import android.content.Intent;
 import android.graphics.drawable.Drawable;
-import com.cyee.utils.Log;
 import android.view.ActionProvider;
 import android.view.ContextMenu.ContextMenuInfo;
 import android.view.LayoutInflater;
+
 import android.view.MenuItem;
 import android.view.SubMenu;
 import android.view.View;
 import android.view.ViewDebug;
 import android.widget.LinearLayout;
-import cyee.view.CyeeActionProvider;
+
+
 import com.cyee.internal.view.menu.CyeeMenuView.ItemView;
-import com.cyee.internal.R;
+import com.cyee.utils.Log;
 
 public class CyeeMenuItemImpl implements MenuItem {
 	private static final String TAG = "CyeeMenuItemImpl";

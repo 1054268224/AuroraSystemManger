@@ -70,7 +70,7 @@
     <string name="usage_type_data_wifi_send_new">"发送的Wi-Fi数据包"</string>
     <string name="usage_type_data_wifi_recv_new">"接收的Wi-Fi数据包"</string>
     <string name="wifi_settings_new">"Wi-Fi"</string>
-    <string name="battery_sugg_wifi_new">"未使用或无法使用Wi-Fi网络时将Wi-Fi关闭"</string>
+    <string name="battery_sugg_wifi_new">" -Fi网络时将Wi-Fi关闭"</string>
 
     <string name="status_set">设置</string>
     <string name="status_not_opened">未开启</string>

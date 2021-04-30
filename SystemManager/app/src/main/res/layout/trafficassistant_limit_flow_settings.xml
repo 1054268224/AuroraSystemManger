@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent" >
 
@@ -250,7 +251,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="17dp"
-                android:background="?android:attr/listChoiceBackgroundIndicator"
+                android:background="?attr/listChoiceBackgroundIndicator"
                 android:orientation="horizontal" >
 
                 <cyee.widget.CyeeTextView
@@ -274,7 +275,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="40dp"
                     android:gravity="center_vertical"
-                    android:src="@drawable/gn_expander_open_holo_light"
+                    app:srcCompat="@drawable/gn_expander_open_holo_light"
                     android:visibility="visible" />
                 <!--Gionee:caiqiaoling 2015-04-23 modify for CR01452505 end -->
             </LinearLayout>

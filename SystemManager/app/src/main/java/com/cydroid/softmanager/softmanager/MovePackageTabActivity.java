@@ -1,14 +1,5 @@
 package com.cydroid.softmanager.softmanager;
 
-import java.util.ArrayList;
-import java.util.List;
-
-import cyee.app.CyeeActionBar;
-import cyee.app.CyeeActivity;
-import cyee.widget.CyeeButton;
-import android.R.integer;
-import android.app.ActionBar;
-import android.app.FragmentTransaction;
 import android.app.LoaderManager.LoaderCallbacks;
 import android.content.Context;
 import android.content.Loader;
@@ -17,19 +8,15 @@ import android.content.pm.PackageManager;
 import android.content.res.Resources;
 import android.graphics.Color;
 import android.os.Bundle;
-import android.os.Handler;
-import android.os.Message;
-import android.os.SystemProperties;
 import android.os.storage.StorageManager;
 import android.text.TextUtils;
 import android.view.KeyEvent;
 import android.view.LayoutInflater;
 import android.view.MotionEvent;
 import android.view.View;
-import android.view.ViewGroup;
 import android.view.View.OnClickListener;
 import android.view.View.OnTouchListener;
-import android.widget.CheckBox;
+import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.ListView;
@@ -37,23 +24,31 @@ import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.android.internal.widget.PagerAdapter;
-import com.android.internal.widget.ViewPager;
+import androidx.fragment.app.FragmentTransaction;
+import androidx.viewpager.widget.PagerAdapter;
+import androidx.viewpager.widget.ViewPager;
+
 import com.cydroid.softmanager.R;
-import com.cydroid.softmanager.softmanager.adapter.MoveAdapter;
-import com.cydroid.softmanager.interfaces.PackageChangedCallback;
+import com.cydroid.softmanager.common.Consts;
 import com.cydroid.softmanager.interfaces.StateChangeCallback;
+import com.cydroid.softmanager.softmanager.adapter.MoveAdapter;
 import com.cydroid.softmanager.softmanager.interfaces.SoftMrgCallback;
 import com.cydroid.softmanager.softmanager.loader.SoftManagerLoader;
 import com.cydroid.softmanager.softmanager.model.AppInfo;
 import com.cydroid.softmanager.softmanager.model.ApplicationsInfo;
-import com.cydroid.softmanager.utils.AppFilterUtil;
-import com.cydroid.softmanager.utils.Log;
-import com.cydroid.softmanager.utils.UiUtils;
 import com.cydroid.softmanager.softmanager.utils.SoftHelperUtils;
 import com.cydroid.softmanager.softmanager.utils.SoftMrgUtil;
-import com.cydroid.softmanager.common.Consts;
+import com.cydroid.softmanager.utils.AppFilterUtil;
 import com.cydroid.softmanager.utils.HelperUtils;
+import com.cydroid.softmanager.utils.Log;
+import com.cydroid.softmanager.utils.UiUtils;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import cyee.app.CyeeActionBar;
+import cyee.app.CyeeActivity;
+import cyee.widget.CyeeButton;
 
 public class MovePackageTabActivity extends CyeeActivity
         implements CyeeActionBar.TabListener, LoaderCallbacks<Object>, StateChangeCallback, SoftMrgCallback {

@@ -1,9 +1,6 @@
 package cyee.preference;
 
-import android.app.Fragment;
 import android.app.FragmentBreadCrumbs;
-import android.app.FragmentManager;
-import android.app.FragmentTransaction;
 import android.content.Context;
 import android.content.Intent;
 import android.content.res.Resources;
@@ -28,9 +25,14 @@ import android.widget.BaseAdapter;
 import android.widget.Button;
 import android.widget.FrameLayout;
 import android.widget.ImageView;
-import cyee.widget.CyeeListView;
-import cyee.widget.CyeeWidgetResource;
 import android.widget.TextView;
+
+import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentManager;
+import androidx.fragment.app.FragmentTransaction;
+
+import com.cyee.internal.R;
+import com.cyee.internal.util.CyeeXmlUtils;
 
 import org.xmlpull.v1.XmlPullParser;
 import org.xmlpull.v1.XmlPullParserException;
@@ -40,8 +42,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import cyee.app.CyeeListActivity;
-import com.cyee.internal.util.CyeeXmlUtils;
-import com.cyee.internal.R;
+import cyee.widget.CyeeListView;
 
 /**
  * This is the base class for an activity to show a hierarchy of preferences
@@ -1119,10 +1120,10 @@ public abstract class CyeePreferenceActivity extends CyeeListActivity implements
     }
 
     private void switchToHeaderInner(String fragmentName, Bundle args, int direction) {
-        getFragmentManager().popBackStack(BACK_STACK_PREFS,
+        getSupportFragmentManager().popBackStack(BACK_STACK_PREFS,
                 FragmentManager.POP_BACK_STACK_INCLUSIVE);
         Fragment f = Fragment.instantiate(this, fragmentName, args);
-        FragmentTransaction transaction = getFragmentManager().beginTransaction();
+        FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();
         transaction.setTransition(FragmentTransaction.TRANSIT_FRAGMENT_FADE);
         transaction.replace(com.cyee.internal.R.id.cyee_prefs, f);
         transaction.commitAllowingStateLoss();
@@ -1150,7 +1151,7 @@ public abstract class CyeePreferenceActivity extends CyeeListActivity implements
         if (mCurHeader == header) {
             // This is the header we are currently displaying.  Just make sure
             // to pop the stack up to its root state.
-            getFragmentManager().popBackStack(BACK_STACK_PREFS,
+            getSupportFragmentManager().popBackStack(BACK_STACK_PREFS,
                     FragmentManager.POP_BACK_STACK_INCLUSIVE);
         } else {
             int direction = mHeaders.indexOf(header) - mHeaders.indexOf(mCurHeader);
@@ -1212,7 +1213,7 @@ public abstract class CyeePreferenceActivity extends CyeeListActivity implements
      * the current fragment will be replaced.
      */
     public void startPreferenceFragment(Fragment fragment, boolean push) {
-        FragmentTransaction transaction = getFragmentManager().beginTransaction();
+        FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();
         transaction.replace(com.cyee.internal.R.id.cyee_prefs, fragment);
         if (push) {
             transaction.setTransition(FragmentTransaction.TRANSIT_FRAGMENT_OPEN);
@@ -1251,7 +1252,7 @@ public abstract class CyeePreferenceActivity extends CyeeListActivity implements
             if (resultTo != null) {
                 f.setTargetFragment(resultTo, resultRequestCode);
             }
-            FragmentTransaction transaction = getFragmentManager().beginTransaction();
+            FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();
             transaction.replace(com.cyee.internal.R.id.cyee_prefs, f);
             if (titleRes != 0) {
                 transaction.setBreadCrumbTitle(titleRes);

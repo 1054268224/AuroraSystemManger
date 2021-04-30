@@ -1,26 +1,22 @@
 package cyee.preference;
 
-import android.app.Activity;
-import android.app.Fragment;
-import android.content.Context;
 import android.content.Intent;
-import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
-import android.util.TypedValue;
 import android.view.KeyEvent;
 import android.view.LayoutInflater;
 import android.view.View;
-import android.view.ViewGroup;
 import android.view.View.OnKeyListener;
-import com.cyee.internal.R;
+import android.view.ViewGroup;
+
+import androidx.fragment.app.Fragment;
+
 import cyee.widget.CyeeListView;
-import cyee.widget.CyeeWidgetResource;
 
 public abstract class CyeePreferenceFragment extends Fragment implements
-        CyeePreferenceManager.OnPreferenceTreeClickListener {
 
+        CyeePreferenceManager.OnPreferenceTreeClickListener {
     private static final String PREFERENCES_TAG = "android:preferences";
 
     private CyeePreferenceManager mPreferenceManager;

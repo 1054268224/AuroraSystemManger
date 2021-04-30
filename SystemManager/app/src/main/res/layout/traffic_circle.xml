@@ -10,7 +10,7 @@
         android:layout_width="match_parent"
         android:layout_centerInParent="true"/>
 
-    <!--<com.cydroid.softmanager.view.TrafficCircleView
+    <com.cydroid.softmanager.view.TrafficCircleView
         android:id="@+id/traffic_circle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -43,7 +43,7 @@
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="@dimen/traffic_time_zone_marginTops"
-        android:textColor="@color/white"
+        android:textColor="#f00"
         android:textSize="@dimen/traffic_gn_flow_state_size" />
 
     <cyee.widget.CyeeTextView
@@ -53,8 +53,8 @@
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="@dimen/traffic_flow_state_marginTops"
-        android:textColor="@color/white"
-        android:textSize="12dp" />-->
+        android:textColor="#0f0"
+        android:textSize="12dp" />
 
     <cyee.widget.CyeeTextView
         android:id="@+id/gn_state_value"
@@ -65,7 +65,7 @@
         android:layout_marginTop="-5dp"
         android:layout_below="@id/traffic_wave"
         android:includeFontPadding="false"
-        android:textColor="@color/white"
+        android:textColor="#00f"
         android:textSize="@dimen/traffic_gn_state_value_size"
         android:visibility="gone"/>
 
@@ -77,7 +77,7 @@
         android:layout_alignBaseline="@id/gn_state_value"
         android:layout_toRightOf="@id/gn_state_value"
         android:includeFontPadding="false"
-        android:textColor="@color/white"
+        android:textColor="#ff0"
         android:textSize="14sp"
         android:visibility="gone"/>
 
@@ -88,7 +88,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="-3dp"
         android:layout_centerInParent="true"
-        android:textColor="@android:color/white"
+        android:textColor="#f0f"
         android:textStyle="bold"
         android:textSize="45sp"/>
 
@@ -100,7 +100,7 @@
         android:layout_centerHorizontal="true"
         android:layout_below="@id/gn_used_flow"
         android:includeFontPadding="false"
-        android:textColor="@color/white"
+        android:textColor="#0ff"
         android:textSize="@dimen/traffic_gn_state_value_size"
         android:visibility="gone" />
 
@@ -112,7 +112,7 @@
         android:layout_alignBaseline="@id/gn_state_value_other"
         android:layout_toRightOf="@id/gn_state_value_other"
         android:includeFontPadding="false"
-        android:textColor="@color/white"
+        android:textColor="#f88"
         android:textSize="14sp"
         android:visibility="gone" />
 

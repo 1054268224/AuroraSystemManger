@@ -13,7 +13,6 @@ import android.text.Selection;
 import android.text.TextUtils;
 import android.text.TextWatcher;
 import android.util.AttributeSet;
-import com.cyee.utils.Log;
 import android.view.KeyEvent;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -26,11 +25,15 @@ import android.widget.AdapterView;
 import android.widget.Filter;
 import android.widget.Filterable;
 import android.widget.ListAdapter;
-import android.widget.ListPopupWindow;
 import android.widget.PopupWindow;
 import android.widget.TextView;
 
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.ListPopupWindow;
+
 import com.cyee.internal.R;
+import com.cyee.utils.Log;
+
 import cyee.changecolors.ChameleonColorManager;
 
 /**
@@ -630,7 +633,7 @@ public class CyeeAutoCompleteTextView extends CyeeEditText implements Filter.Fil
      * A common case is the use of {@link android.widget.CursorAdapter}, which
      * contains a {@link android.database.Cursor} that must be closed.  This can be done
      * automatically (see 
-     * {@link android.app.Activity#startManagingCursor(android.database.Cursor) 
+     * {@link AppCompatActivity#startManagingCursor(android.database.Cursor)
      * startManagingCursor()}),
      * or by manually closing the cursor when the AutoCompleteTextView is dismissed.</p>
      *

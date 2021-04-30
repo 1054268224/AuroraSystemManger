@@ -1,29 +1,33 @@
 package com.cydroid.softmanager.trafficassistant.actionBarTab;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Locale;
-
-import cyee.app.CyeeActionBar.Tab;
-import cyee.app.CyeeActivity;
-import cyee.app.CyeeActionBar;
-import android.app.FragmentTransaction;
 import android.content.Context;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.os.SystemProperties;
+import android.text.TextUtils;
 import android.view.LayoutInflater;
 import android.view.MotionEvent;
 import android.view.View;
-import android.view.ViewGroup;
 import android.view.View.OnTouchListener;
-//Gionee <jiangsj> <20170419> add for 113672 begin
-import android.text.TextUtils;
-//Gionee <jiangsj> <20170419> add for 113672 end
+import android.view.ViewGroup;
 
-import com.android.internal.widget.PagerAdapter;
-import com.android.internal.widget.ViewPager;
+import androidx.fragment.app.FragmentTransaction;
+import androidx.viewpager.widget.PagerAdapter;
+import androidx.viewpager.widget.ViewPager;
+
+
 import com.cydroid.softmanager.R;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Locale;
+
+import cyee.app.CyeeActionBar;
+import cyee.app.CyeeActionBar.Tab;
+import cyee.app.CyeeActivity;
+
+//Gionee <jiangsj> <20170419> add for 113672 begin
+//Gionee <jiangsj> <20170419> add for 113672 end
 
 public abstract class ActionBarTabs extends CyeeActivity implements CyeeActionBar.TabListener {
 

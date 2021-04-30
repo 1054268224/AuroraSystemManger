@@ -16,50 +16,55 @@
 
 package com.cyee.internal.app;
 
-import com.cyee.internal.R;
-import com.cyee.internal.util.ReflectionUtils;
-import com.android.internal.content.PackageMonitor;
-import android.provider.MediaStore;
 import android.app.Activity;
 import android.app.ActivityManager;
 import android.app.ActivityManagerNative;
 import android.app.AppGlobals;
 import android.content.ComponentName;
+import android.content.ContentResolver;
 import android.content.Context;
 import android.content.Intent;
 import android.content.IntentFilter;
 import android.content.pm.ActivityInfo;
+import android.content.pm.ApplicationInfo;
 import android.content.pm.LabeledIntent;
+import android.content.pm.PackageInfo;
 import android.content.pm.PackageManager;
 import android.content.pm.PackageManager.NameNotFoundException;
 import android.content.pm.ResolveInfo;
-import android.content.pm.PackageInfo;
+import android.content.pm.UserInfo;
 import android.content.res.Resources;
 import android.graphics.drawable.Drawable;
 import android.net.Uri;
 import android.os.AsyncTask;
 import android.os.Build;
 import android.os.Bundle;
+import android.os.Parcelable;
 import android.os.PatternMatcher;
-import android.os.Process;
 import android.os.RemoteException;
+import android.os.SystemProperties;
 import android.os.UserHandle;
 import android.os.UserManager;
-import com.cyee.utils.Log;
+import android.provider.MediaStore;
+import android.text.TextUtils;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.view.WindowManager;
 import android.widget.AdapterView;
-import android.widget.BaseAdapter;
-import android.widget.ListView;
-import cyee.widget.CyeeButton;
 import android.widget.GridView;
 import android.widget.ImageView;
-import cyee.widget.CyeeListView;
 import android.widget.TextView;
-import android.view.KeyEvent;
-
 import android.widget.Toast;
+
+import androidx.appcompat.app.AppCompatActivity;
+
+import com.android.internal.content.PackageMonitor;
+import com.cyee.internal.R;
+import com.cyee.internal.util.ReflectionUtils;
+import com.cyee.utils.Log;
+
+import java.lang.reflect.Method;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.HashSet;
@@ -67,29 +72,18 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.Objects;
 import java.util.Set;
-import android.os.Parcelable;
-import android.content.pm.UserInfo;
-import android.content.pm.ApplicationInfo;
 
-
-//Gionee:zhang_xin 2012-10-23 add for CR00717539 start
-import android.os.SystemProperties;
-//Gionee:zhang_xin 2012-10-23 add for CR00717539 end
-
-// Gionee fengjianyi 2012-12-26 add for CR00751916 start
-import android.text.TextUtils;
-//import com.mediatek.common.featureoption.FeatureOption;
-// Gionee fengjianyi 2012-12-26 add for CR00751916 end
-
-import android.content.ContentResolver;
-
-import java.lang.reflect.Method;
-
-import android.view.WindowManager;
-
+import cyee.changecolors.ChameleonColorManager;
 import cyee.widget.CyeeAutoMaticPageGridView;
 import cyee.widget.CyeeBaseAutoAdapter;
-import cyee.changecolors.ChameleonColorManager;
+import cyee.widget.CyeeButton;
+import cyee.widget.CyeeListView;
+
+//Gionee:zhang_xin 2012-10-23 add for CR00717539 start
+//Gionee:zhang_xin 2012-10-23 add for CR00717539 end
+// Gionee fengjianyi 2012-12-26 add for CR00751916 start
+//import com.mediatek.common.featureoption.FeatureOption;
+// Gionee fengjianyi 2012-12-26 add for CR00751916 end
 
 /**
  * This activity is displayed when the system attempts to start an Intent for
@@ -1611,7 +1605,7 @@ public class CyeeResolverActivity extends CyeeAlertActivity implements AdapterVi
          * @param options ActivityOptions bundle
          * @return true if the start completed successfully
          */
-        boolean start(Activity activity, Bundle options);
+        boolean start(AppCompatActivity activity, Bundle options);
 
         /**
          * Start the activity referenced by this target as if the ResolverActivity's caller
@@ -1622,7 +1616,7 @@ public class CyeeResolverActivity extends CyeeAlertActivity implements AdapterVi
          * @param userId userId to start as or {@link UserHandle#USER_NULL} for activity's caller
          * @return true if the start completed successfully
          */
-        boolean startAsCaller(Activity activity, Bundle options, int userId);
+        boolean startAsCaller(AppCompatActivity activity, Bundle options, int userId);
 
         /**
          * Start the activity referenced by this target as a given user.
@@ -1632,7 +1626,7 @@ public class CyeeResolverActivity extends CyeeAlertActivity implements AdapterVi
          * @param user handle for the user to start the activity as
          * @return true if the start completed successfully
          */
-        boolean startAsUser(Activity activity, Bundle options, UserHandle user);
+        boolean startAsUser(AppCompatActivity activity, Bundle options, UserHandle user);
 
         /**
          * Return the ResolveInfo about how and why this target matched the original query
@@ -1683,8 +1677,8 @@ public class CyeeResolverActivity extends CyeeAlertActivity implements AdapterVi
         List<Intent> getAllSourceIntents();
     }
     
-    void selfStartAsCaller(Intent intent, Activity activity, Bundle options,
-            boolean flag, int userId) {
+    void selfStartAsCaller(Intent intent, AppCompatActivity activity, Bundle options,
+                           boolean flag, int userId) {
 
         Class<?>[] paramTypes;
         Object[] paramObjs;
@@ -1795,7 +1789,7 @@ public class CyeeResolverActivity extends CyeeAlertActivity implements AdapterVi
         }
 
         @Override
-        public boolean start(Activity activity, Bundle options) {
+        public boolean start(AppCompatActivity activity, Bundle options) {
             callStrictModeMethod("disableDeathOnFileUriExposure");
             try {
                 activity.startActivity(mResolvedIntent, options);
@@ -1806,7 +1800,7 @@ public class CyeeResolverActivity extends CyeeAlertActivity implements AdapterVi
         }
 
         @Override
-        public boolean startAsCaller(Activity activity, Bundle options,
+        public boolean startAsCaller(AppCompatActivity activity, Bundle options,
                 int userId) {
             selfStartAsCaller(mResolvedIntent, activity, options, false, userId);
 
@@ -1814,7 +1808,7 @@ public class CyeeResolverActivity extends CyeeAlertActivity implements AdapterVi
         }
 
         @Override
-        public boolean startAsUser(Activity activity, Bundle options, UserHandle user) {
+        public boolean startAsUser(AppCompatActivity activity, Bundle options, UserHandle user) {
             activity.startActivityAsUser(mResolvedIntent, options, user);
             return false;
         }

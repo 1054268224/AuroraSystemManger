@@ -1,7 +1,6 @@
 //Gionee <jianghuan> <2013-11-29> add for CR00975553 begin
 package com.cydroid.softmanager.trafficassistant;
 
-import android.app.FragmentTransaction;
 import android.app.LoaderManager.LoaderCallbacks;
 import android.content.Context;
 import android.content.DialogInterface;
@@ -15,8 +14,10 @@ import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
+import androidx.fragment.app.FragmentTransaction;
+
 import com.cydroid.softmanager.R;
-import com.cydroid.softmanager.model.ItemInfo;
+import com.cydroid.softmanager.common.Consts;
 import com.cydroid.softmanager.trafficassistant.actionBarTab.ActionBarTabs;
 import com.cydroid.softmanager.trafficassistant.actionBarTab.TabInfos;
 import com.cydroid.softmanager.trafficassistant.adapter.NetworkControlAdapter;
@@ -28,6 +29,8 @@ import com.cydroid.softmanager.trafficassistant.model.TrafficNetworkControlAppIn
 import com.cydroid.softmanager.trafficassistant.utils.Constant;
 import com.cydroid.softmanager.trafficassistant.utils.TrafficassistantUtil;
 import com.cydroid.softmanager.utils.Log;
+import com.quinny898.library.persistentsearch.SearchBox;
+import com.quinny898.library.persistentsearch.SearchResult;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -36,11 +39,9 @@ import cyee.app.CyeeActionBar.Tab;
 import cyee.app.CyeeProgressDialog;
 import cyee.changecolors.ChameleonColorManager;
 import cyee.widget.CyeeListView;
+
 //Chenyee <bianrong> <2018-1-25> modify for SW17W16KR-83 begin
-import com.cydroid.softmanager.common.Consts;
 //Chenyee <bianrong> <2018-1-25> modify for SW17W16KR-83 end
-import com.quinny898.library.persistentsearch.SearchBox;
-import com.quinny898.library.persistentsearch.SearchResult;
 
 public class TrafficNetworkControlActivity extends ActionBarTabs implements OnClickListener,
         NetworkControlAppChangeCallBack {

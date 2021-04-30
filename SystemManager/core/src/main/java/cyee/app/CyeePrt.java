@@ -11,7 +11,6 @@ public class CyeePrt {
 
     static {
         System.loadLibrary("cy_prt_jni");
-
     }  
 
     public static native int nativeCheckIfRoot();

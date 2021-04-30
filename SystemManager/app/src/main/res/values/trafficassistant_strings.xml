@@ -55,6 +55,19 @@
     <!--Gionee luoguangming 2017.03.02 modify CR01778824  end -->
     <string name="flow_unit">MB</string>
     <string name="percent_unit">% </string>
+    <string name="traffic_title_allow_text">
+        <xliff:g id="ID_1">%1$s</xliff:g> Applications réseau autorisés
+    </string>
+    <string name="traffic_title_prohibit_text">
+        <xliff:g id="ID_1">%1$s</xliff:g> Applications Réseau interdit
+    </string>
+    <string name="noti_total">Total</string>
+    <string-array name="lockscreen_traffic_remind_limit_show_array">
+        <item>@string/lockscreen_traffic_remind_close</item>
+        <item>@string/lockscreen_traffic_limit_one</item>
+        <item>@string/lockscreen_traffic_limit_two</item>
+        <item>@string/lockscreen_traffic_limit_three</item>
+    </string-array>
 
     <!--Gionee luoguangming 2017.03.02 modify CR01778824 begin-->
     <string name="mobile_data_stop_title">Data alert</string>
@@ -395,4 +408,5 @@
     <string name="noti_exceed_message">This month Overstep&#160;<xliff:g id="ID_1">%1$s</xliff:g></string>
     <!-- mengdw <2017-04-17> add for 120343 end -->
     <string name="unknow_app">Unknow app</string>
+    <string name="warnning_notification_title">当警告值到提醒我</string>
 </resources>

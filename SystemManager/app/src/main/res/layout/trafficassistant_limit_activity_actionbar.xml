@@ -26,7 +26,7 @@
         android:layout_height="match_parent"
         android:layout_gravity="center_vertical"
         android:layout_alignParentLeft="true"
-        android:background="?android:attr/actionBarItemBackground"
+        android:background="?attr/actionBarItemBackground"
         android:text="@string/action_cancel"
         android:textSize="@dimen/textsize_level_one"
         android:textColor="#ffffff" />
@@ -37,7 +37,7 @@
         android:layout_height="match_parent"
         android:layout_gravity="center_vertical"
         android:layout_alignParentRight="true"
-        android:background="?android:attr/actionBarItemBackground"
+        android:background="?attr/actionBarItemBackground"
         android:text="@string/action_save"
         android:textSize="@dimen/textsize_level_one"
         android:textColor="#ffffff" />

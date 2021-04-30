@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="cancel">Ακύρωση</string>
-    <string name="lockpattern_need_to_unlock_wrong">Λάθος μοτίβο</string>
-    <string name="gn_securitypassword_retry">Προσπαθήστε ξανά</string>
-    <string name="lockpattern_tutorial_cancel_label">Ακύρωση</string>
-    <string name="lockpattern_tutorial_continue_label">Επόμενο</string>
-</resources>

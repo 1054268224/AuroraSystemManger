@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-
-<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">  
-    <!--Gionee <GN_Oversea_Req> <linggz> <20170625> modify for 162153 begin--> 
-    <string name="dialog_superpower_message_normal">"الوضع الاقصي يمكن ان يمدد خدمة الهاتف الي "</string>
-    <string name="dialog_superpower_message"><xliff:g id="ID_0">%1$s</xliff:g><xliff:g id="ID_1">%2$s\n\nحيث يمكن استخدام المكالمات, جهات الاتصال, الرسائل, الساعة فقط  في الوضع الاقصي.\n   حيث يدخل الهاتف الي الحد الادني من قوائم سطح المكتب.\n\nالوضع الاقصى يجعل الادوات على سطح المكتب تفقد</xliff:g></string>
-    <!--Gionee <GN_Oversea_Req> <linggz> <20170625> modify for 162153 end--> 
-
-</resources>

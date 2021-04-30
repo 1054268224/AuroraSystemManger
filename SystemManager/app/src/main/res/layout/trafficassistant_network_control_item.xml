@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/gn_networkControl_layout"
     android:layout_width="match_parent"
     android:layout_height="@dimen/listview_height"
-    android:background="?android:attr/listChoiceBackgroundIndicator"
+    android:background="?attr/listChoiceBackgroundIndicator"
     android:gravity="center_vertical"
     android:orientation="horizontal" >
 
@@ -12,7 +13,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:paddingStart="@dimen/image_margin_left"
-        android:src="@drawable/gn_ic_icon_networkcontrol" />
+        app:srcCompat="@drawable/gn_ic_icon_networkcontrol" />
 
     <cyee.widget.CyeeTextView
         android:layout_width="wrap_content"
@@ -27,6 +28,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:paddingEnd="@dimen/traffic_menu_arrow_margin_right"
-        android:src="@drawable/right_arrow" />
+        app:srcCompat="@drawable/right_arrow" />
 
 </LinearLayout>

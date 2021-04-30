@@ -352,7 +352,7 @@ public class SystemCheckActivity extends BaseActivity implements IMemoryCleanNat
             @Override
             public void handleMessage(Message msg) {
                 super.handleMessage(msg);
-                mScoreView.setCircleRotateAngle(msg.what);
+                mScoreView.setCircleRotateAngle(msg.what,SystemCheckItem.CHECK_ALLCOUNT);
                 switch (msg.what) {
                     case SystemCheckItem.CHECK_CLOSED_BACKGROUND_PROCESS:
                         onCleanMemory(mContext);

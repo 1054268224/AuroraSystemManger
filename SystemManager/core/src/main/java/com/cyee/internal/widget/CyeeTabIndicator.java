@@ -16,9 +16,6 @@
 
 package com.cyee.internal.widget;
 
-import cyee.changecolors.ChameleonColorManager;
-import cyee.widget.CyeeWidgetResource;
-import android.app.Activity;
 import android.content.Context;
 import android.content.res.Resources;
 import android.graphics.Canvas;
@@ -28,6 +25,10 @@ import android.util.AttributeSet;
 import android.view.View;
 import android.view.Window;
 import android.widget.LinearLayout;
+
+import androidx.appcompat.app.AppCompatActivity;
+
+import cyee.changecolors.ChameleonColorManager;
 
 public class CyeeTabIndicator extends LinearLayout {
     // Gionee <weidong> <2016-04-22> modify for CR01683201 begin
@@ -172,8 +173,8 @@ public class CyeeTabIndicator extends LinearLayout {
     }
     
     private boolean isActionBarOverlay() {
-        if (mContext instanceof Activity) {
-            return ((Activity) mContext).getWindow().hasFeature(Window.FEATURE_ACTION_BAR_OVERLAY);
+        if (mContext instanceof AppCompatActivity) {
+            return ((AppCompatActivity) mContext).getWindow().hasFeature(Window.FEATURE_ACTION_BAR_OVERLAY);
         }
         return false;
     }

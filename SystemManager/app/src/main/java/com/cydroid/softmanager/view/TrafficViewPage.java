@@ -5,7 +5,8 @@ import android.content.Context;
 import android.util.AttributeSet;
 import android.view.MotionEvent;
 
-import com.android.internal.widget.ViewPager;
+import androidx.viewpager.widget.ViewPager;
+
 import com.cydroid.softmanager.utils.Log;
 
 public class TrafficViewPage extends ViewPager {

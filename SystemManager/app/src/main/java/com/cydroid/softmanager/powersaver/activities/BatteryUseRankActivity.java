@@ -1,8 +1,5 @@
 package com.cydroid.softmanager.powersaver.activities;
 
-import android.app.Fragment;
-import android.app.FragmentManager;
-import android.app.FragmentTransaction;
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
@@ -11,20 +8,24 @@ import android.graphics.Color;
 import android.os.BatteryStats;
 import android.os.Bundle;
 import android.os.Handler;
+
 import android.view.MotionEvent;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.LinearLayout;
 //Gionee <jiangsj> <20170419> add for 113672 begin
 import android.text.TextUtils;
-import android.widget.Toast;
 //Gionee <jiangsj> <20170419> add for 113672 end
 
+import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentPagerAdapter;
+import androidx.fragment.app.FragmentTransaction;
+import androidx.viewpager.widget.ViewPager;
 
 import com.android.internal.os.BatterySipper;
 import com.android.internal.os.BatteryStatsHelper;
-import com.android.internal.widget.ViewPager;
+import com.android.internal.os.BatteryStatsImpl;
 import com.cydroid.softmanager.R;
 import com.cydroid.softmanager.powersaver.fuelgauge.ExtendedBatterySipper;
 import com.cydroid.softmanager.powersaver.fuelgauge.UsageSummaryFragment;
@@ -47,44 +48,40 @@ public class BatteryUseRankActivity extends CyeeActivity implements CyeeActionBa
     private ViewPager mViewPager;
     private LinearLayout mLoadingLayout;
     private CyeeActionBar mActionBar;
-    /*private MyFragmentAdapter mAdapter;
+    private MyFragmentAdapter mAdapter;
 
     private BatteryChangeReceiver mBatteryChangeReceiver;
-*/
-    private BatteryStatsHelper mBatteryHelper;
-    private final int mStatsType = BatteryStats.STATS_SINCE_CHARGED;
-    private final ArrayList<ExtendedBatterySipper> mHardwareList = new ArrayList<ExtendedBatterySipper>();
-    private final ArrayList<ExtendedBatterySipper> mSoftwareList = new ArrayList<ExtendedBatterySipper>();
-    private final Handler mHandler = new Handler();
 
-    private final boolean mIsNeedRefresh = true;
-    private final boolean mIsLoading = false;
+    private BatteryStatsHelper mBatteryHelper;
+    private int mStatsType = BatteryStats.STATS_SINCE_CHARGED;
+    private ArrayList<ExtendedBatterySipper> mHardwareList = new ArrayList<ExtendedBatterySipper>();
+    private ArrayList<ExtendedBatterySipper> mSoftwareList = new ArrayList<ExtendedBatterySipper>();
+    private Handler mHandler = new Handler();
+
+    private boolean mIsNeedRefresh = true;
+    private boolean mIsLoading = false;
 
     public final static int TYPE_SOFTWARE_LIST = 0;
     public final static int TYPE_HARDWARE_LIST = 1;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        // if (UiUtils.isSpecialStyleModel()) {
-        //     setTheme(R.style.AppTabTheme);
-        // } else {
-        // always run this code
         setTheme(R.style.AppTabThemeCustom);
-        // }
         super.onCreate(savedInstanceState);
         setContentView(R.layout.power_usage_layout);
-        Toast.makeText(this,"todo migrate to androidx",Toast.LENGTH_LONG).show();
-        /*initUi();
-
+        initUi();
         mBatteryHelper = new BatteryStatsHelper(this, true);
         mBatteryHelper.create(savedInstanceState);
+        if (mBatteryHelper.getStats() instanceof BatteryStatsImpl) {
+            ((BatteryStatsImpl) mBatteryHelper.getStats()).setPowerProfileLocked(mBatteryHelper.getPowerProfile());
+        }
         mBatteryChangeReceiver = new BatteryChangeReceiver();
-        mBatteryChangeReceiver.setReceiver(this);*/
+        mBatteryChangeReceiver.setReceiver(this);
     }
-/*
+
     private void initUi() {
+        getSupportActionBar().hide();
         mActionBar = getCyeeActionBar();
-        // mActionBar.setDisplayShowHomeEnabled(false);
         mActionBar.setDisplayHomeAsUpEnabled(true);
         mActionBar.setIndicatorBackgroundColor(Color.WHITE);
 
@@ -93,18 +90,18 @@ public class BatteryUseRankActivity extends CyeeActivity implements CyeeActionBa
         mViewPager = (ViewPager) findViewById(R.id.power_usage_viewpager);
         mLoadingLayout = (LinearLayout) findViewById(R.id.loading_layout);
 
-        mAdapter = new MyFragmentAdapter(getFragmentManager());
+        mAdapter = new MyFragmentAdapter(getSupportFragmentManager());
         mViewPager.setAdapter(mAdapter);
 
         if (mViewPager.getAdapter() != null) {
             Log.d(TAG, "remove old fragment size=" + mViewPager.getAdapter().getCount());
-            FragmentManager fm = getFragmentManager();
+            FragmentManager fm = getSupportFragmentManager();
             FragmentTransaction ft = fm.beginTransaction();
             int count = mViewPager.getAdapter().getCount();
             Bundle bundle = new Bundle();
             String key = "index";
             for (int i = 0; i < count; i++) {
-                bundle.putInt(key, i);
+                bundle.putString(key, String.valueOf(i));
                 try {
                     ft.remove(fm.getFragment(bundle, key));
                 } catch (Exception e) {
@@ -115,11 +112,11 @@ public class BatteryUseRankActivity extends CyeeActivity implements CyeeActionBa
         }
 
         //Gionee <jiangsj> <20170419> add for 113672 begin
-        if(mViewPager!=null&&TextUtils.getLayoutDirectionFromLocale(getResources().getConfiguration().locale)==1){
+        if (mViewPager != null && TextUtils.getLayoutDirectionFromLocale(getResources().getConfiguration().locale) == 1) {
             mViewPager.setRotationY(180);
         }
         //Gionee <jiangsj> <20170419> add for 113672 end
-        mViewPager.setOnPageChangeListener(new ViewPager.OnPageChangeListener() {
+        mViewPager.addOnPageChangeListener(new ViewPager.OnPageChangeListener() {
 
             @Override
             public void onPageScrollStateChanged(int arg0) {
@@ -137,7 +134,7 @@ public class BatteryUseRankActivity extends CyeeActivity implements CyeeActionBa
         });
 
         // xionghg delete: seems no sense
-        *//*mViewPager.setOnTouchListener(new View.OnTouchListener() {
+        /*mViewPager.setOnTouchListener(new View.OnTouchListener() {
 
             @Override
             public boolean onTouch(View v, MotionEvent event) {
@@ -145,7 +142,7 @@ public class BatteryUseRankActivity extends CyeeActivity implements CyeeActionBa
                 return false;
             }
 
-        });*//*
+        });*/
 
         int[] tabTitle = new int[]{R.string.software, R.string.hardware};
 
@@ -177,7 +174,7 @@ public class BatteryUseRankActivity extends CyeeActivity implements CyeeActionBa
             return;
         }
         mIsLoading = true;
-        mBatteryHelper.clearStats();
+//        mBatteryHelper.clearStats();
         mBatteryHelper.refreshStats(mStatsType, -1);
         mHardwareList.clear();
         mSoftwareList.clear();
@@ -237,8 +234,8 @@ public class BatteryUseRankActivity extends CyeeActivity implements CyeeActionBa
                     continue;
                 }
                 //Chenyee <bianrong> <2018-1-30> add for SW17W16KR-92 begin
-               if(Consts.gnKRFlag){
-                    if(exSipper.getName().equals(getString(R.string.power_wifi_new))){
+                if (Consts.gnKRFlag) {
+                    if (exSipper.getName().equals(getString(R.string.power_wifi_new))) {
                         continue;
                     }
                 }
@@ -348,9 +345,9 @@ public class BatteryUseRankActivity extends CyeeActivity implements CyeeActionBa
 
         @Override
         public Fragment getItem(int position) {
-//            Fragment fragment = new UsageSummaryFragment();
-//            return fragment;
-            return UsageSummaryFragment.newInstance(position);
+            Fragment fragment = new UsageSummaryFragment();
+            return fragment;
+//            return UsageSummaryFragment.newInstance(position);
         }
 
         @Override
@@ -358,26 +355,26 @@ public class BatteryUseRankActivity extends CyeeActivity implements CyeeActionBa
             return 2;
         }
 
-//        @Override
-//        public Object instantiateItem(ViewGroup container, int position) {
-//            UsageSummaryFragment fragment = (UsageSummaryFragment) super.instantiateItem(container, position);
-//            fragment.setDataType(position);
-//            return fragment;
-//        }
+        @Override
+        public Object instantiateItem(ViewGroup container, int position) {
+            UsageSummaryFragment fragment = (UsageSummaryFragment) super.instantiateItem(container, position);
+            fragment.setDataType(position);
+            return fragment;
+        }
 
     }
 
     @Override
-    public void onTabReselected(cyee.app.CyeeActionBar.Tab tab, FragmentTransaction ft) {
+    public void onTabReselected(CyeeActionBar.Tab tab, FragmentTransaction ft) {
     }
 
     @Override
-    public void onTabSelected(cyee.app.CyeeActionBar.Tab tab, FragmentTransaction ft) {
+    public void onTabSelected(CyeeActionBar.Tab tab, FragmentTransaction ft) {
         mViewPager.setCurrentItem(tab.getPosition());
     }
 
     @Override
-    public void onTabUnselected(cyee.app.CyeeActionBar.Tab tab, FragmentTransaction ft) {
+    public void onTabUnselected(CyeeActionBar.Tab tab, FragmentTransaction ft) {
     }
 
     public ArrayList<ExtendedBatterySipper> getExtendedBatterySipperList(int type) {
@@ -434,25 +431,11 @@ public class BatteryUseRankActivity extends CyeeActivity implements CyeeActionBa
                 mIsReceiverSet = false;
             }
         }
-    }*/
+    }
 
     @Override
     protected void onPause() {
         super.onPause();
     }
 
-    @Override
-    public void onTabSelected(CyeeActionBar.Tab tab, FragmentTransaction ft) {
-
-    }
-
-    @Override
-    public void onTabUnselected(CyeeActionBar.Tab tab, FragmentTransaction ft) {
-
-    }
-
-    @Override
-    public void onTabReselected(CyeeActionBar.Tab tab, FragmentTransaction ft) {
-
-    }
 }

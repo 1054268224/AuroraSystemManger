@@ -665,7 +665,7 @@ public class SoftManagerActivity extends BaseActivity implements OnItemClickList
 
         LinearLayout v = (LinearLayout) getLayoutInflater().inflate(R.layout.systemmanager_settings_actionbar,
                 null);
-        ImageView otherImg = (ImageView) v.findViewById(R.id.img_other_button);
+        ImageView otherImg = (ImageView) v.findViewById(R.id.img_another_button);
         ImageView img = (ImageView) v.findViewById(R.id.img_actionbar_custom);
         LinearLayout first = (LinearLayout) v.findViewById(R.id.first_click_field);
         //first.setVisibility(View.GONE);

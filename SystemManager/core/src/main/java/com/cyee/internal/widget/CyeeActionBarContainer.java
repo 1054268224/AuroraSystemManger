@@ -1,15 +1,9 @@
 package com.cyee.internal.widget;
 
-import cyee.app.CyeeActionBar;
-import com.cyee.internal.R;
-import cyee.changecolors.ChameleonColorManager;
-import cyee.widget.CyeeWidgetResource;
 import android.animation.Animator;
 import android.animation.Animator.AnimatorListener;
 import android.animation.ValueAnimator;
 import android.animation.ValueAnimator.AnimatorUpdateListener;
-import android.app.ActionBar;
-import android.app.Activity;
 import android.content.Context;
 import android.content.res.Configuration;
 import android.content.res.TypedArray;
@@ -23,7 +17,13 @@ import android.view.ViewGroup;
 import android.view.animation.AccelerateDecelerateInterpolator;
 import android.widget.FrameLayout;
 
+import androidx.appcompat.app.ActionBar;
+import androidx.appcompat.app.AppCompatActivity;
+
+import com.cyee.internal.R;
 import com.cyee.internal.view.CyeeActionBarPolicy;
+
+import cyee.app.CyeeActionBar;
 
 public class CyeeActionBarContainer extends FrameLayout {
     private CyeeExtraViewContainer mExtraViewContainer;
@@ -646,7 +646,7 @@ public class CyeeActionBarContainer extends FrameLayout {
 
     public View getActivityContent() {
         if (mActivityContent == null) {
-            mActivityContent = ((Activity) mContext).findViewById(com.cyee.internal.R.id.cyee_content);
+            mActivityContent = ((AppCompatActivity) mContext).findViewById(com.cyee.internal.R.id.cyee_content);
         }
         return mActivityContent;
     }

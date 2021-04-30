@@ -1,26 +1,17 @@
 package cyee.app;
 
-import java.lang.ref.WeakReference;
-import java.util.ArrayList;
-
-import cyee.changecolors.ChameleonColorManager;
-import cyee.widget.CyeeMagicBar;
-import cyee.widget.CyeeWidgetResource;
 import android.animation.Animator;
 import android.animation.Animator.AnimatorListener;
 import android.animation.AnimatorListenerAdapter;
 import android.animation.AnimatorSet;
 import android.animation.ObjectAnimator;
-import android.app.Activity;
 import android.app.Dialog;
-import android.app.FragmentTransaction;
 import android.content.Context;
 import android.content.res.ColorStateList;
 import android.content.res.Configuration;
 import android.content.res.Resources;
 import android.graphics.drawable.ColorDrawable;
 import android.graphics.drawable.Drawable;
-import com.cyee.utils.Log;
 import android.util.TypedValue;
 import android.view.ActionMode;
 import android.view.ContextThemeWrapper;
@@ -32,24 +23,34 @@ import android.view.MotionEvent;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.view.ViewGroup;
-// Gionee <gaoj> <2013-9-6> modify for CR00889318 begin
 import android.view.ViewStub;
-// Gionee <gaoj> <2013-9-6> modify for CR00889318 end
 import android.view.Window;
 import android.view.accessibility.AccessibilityEvent;
 import android.view.animation.AnimationUtils;
 import android.widget.SpinnerAdapter;
 
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.fragment.app.FragmentTransaction;
+
+import com.android.internal.view.ActionBarPolicy;
+import com.android.internal.view.menu.MenuBuilder;
+import com.android.internal.view.menu.MenuPopupHelper;
+import com.android.internal.view.menu.SubMenuBuilder;
 import com.cyee.internal.view.CyeeActionBarPolicy;
 import com.cyee.internal.widget.CyeeActionBarContainer;
 import com.cyee.internal.widget.CyeeActionBarContextView;
 import com.cyee.internal.widget.CyeeActionBarOverlayLayout;
 import com.cyee.internal.widget.CyeeActionBarView;
 import com.cyee.internal.widget.CyeeTabContainerView;
-import com.android.internal.view.ActionBarPolicy;
-import com.android.internal.view.menu.MenuBuilder;
-import com.android.internal.view.menu.MenuPopupHelper;
-import com.android.internal.view.menu.SubMenuBuilder;
+
+import java.lang.ref.WeakReference;
+import java.util.ArrayList;
+
+import cyee.changecolors.ChameleonColorManager;
+import cyee.widget.CyeeMagicBar;
+
+// Gionee <gaoj> <2013-9-6> modify for CR00889318 begin
+// Gionee <gaoj> <2013-9-6> modify for CR00889318 end
 
 public class CyeeActionBarImpl extends CyeeActionBar {
 	public class TabImpl extends CyeeActionBar.Tab {
@@ -191,7 +192,7 @@ public class CyeeActionBarImpl extends CyeeActionBar {
 	private static final int CONTEXT_DISPLAY_SPLIT = 1;
 	private static final int INVALID_POSITION = -1;
 	private int mSavedTabPosition = INVALID_POSITION;
-	private Activity mActivity;
+	private AppCompatActivity mActivity;
 	private Context mContext;
 	private View mContentView;
 	private CyeeActionBarView mActionView;
@@ -272,11 +273,11 @@ public class CyeeActionBarImpl extends CyeeActionBar {
 		}
 	};
 
-    public CyeeActionBarImpl(Activity activity) {
+    public CyeeActionBarImpl(AppCompatActivity activity) {
         this(activity, null);
     }
 
-    public CyeeActionBarImpl(Activity activity, View actionbarContainerView) {
+    public CyeeActionBarImpl(AppCompatActivity activity, View actionbarContainerView) {
         mActivity = activity;
         // Window window = activity.getWindow();
         // View decor = window.getDecorView();
@@ -871,7 +872,7 @@ public class CyeeActionBarImpl extends CyeeActionBar {
 			return;
 		}
 
-		final FragmentTransaction trans = mActivity.getFragmentManager().beginTransaction()
+		final FragmentTransaction trans = mActivity.getSupportFragmentManager().beginTransaction()
 				.disallowAddToBackStack();
 
 		if (mSelectedTab == tab) {

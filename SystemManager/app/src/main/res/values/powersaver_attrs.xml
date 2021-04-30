@@ -3,4 +3,5 @@
     <declare-styleable name="PowerModeTextPreference">
         <attr name="stateText" format="string"></attr>
     </declare-styleable>
+
 </resources>

@@ -46,6 +46,9 @@ public class SystemCheckItem {
     public static final int CHECK_IF_FREE_TRAFFIC_NOT_ENOUGH = CHECK_IF_SET_TRAFFIC_SET + 1;//22
     public static final int CHECK_IF_TRAFFIC_SAVE_OPENED = CHECK_IF_FREE_TRAFFIC_NOT_ENOUGH + 1;//23
     public static final int CHECK_OVER = CHECK_IF_TRAFFIC_SAVE_OPENED + 1;//24
+
+    public static final  int CHECK_ALLCOUNT=CHECK_OVER;
+
     /**
      * 清理加速列表
      */

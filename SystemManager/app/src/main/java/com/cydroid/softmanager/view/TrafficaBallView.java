@@ -17,7 +17,6 @@ import android.view.View;
 import android.widget.ProgressBar;
 
 import com.cydroid.softmanager.R;
-import com.cydroid.softmanager.UnitUtil;
 
 public class TrafficaBallView extends BaseView {
 

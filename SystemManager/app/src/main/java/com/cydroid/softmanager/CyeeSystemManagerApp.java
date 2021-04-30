@@ -30,7 +30,9 @@ import com.cydroid.softmanager.update.UpdateService;
 import com.cydroid.softmanager.utils.Log;
 
 import cyee.changecolors.ChameleonColorManager;
+
 import com.chenyee.featureoption.ServiceUtil;
+import com.cydroid.systemmanager.CyeeSystemManagerSDKApp;
 import com.cyee.utils.LogUtil;
 
 public class CyeeSystemManagerApp extends Application {
@@ -38,7 +40,7 @@ public class CyeeSystemManagerApp extends Application {
 
     /*guoxt modify for CR01538372 begin*/
     private static final String LIB_PATH = "/data/app-lib/com.cydroid.systemmanager";
-   // private static final String[] SO_PATH = new String[]{"libkcmutil.so"};
+    // private static final String[] SO_PATH = new String[]{"libkcmutil.so"};
     private static final MemInfoReader mMemInfoReader = new MemInfoReader();
 
     @Override
@@ -47,35 +49,25 @@ public class CyeeSystemManagerApp extends Application {
         super.onCreate();
 //        ChameleonColorManager.getInstance().register(this, false);
 
-        /*new Thread(() -> {
+        CyeeSystemManagerSDKApp.copySoFile(this);
+
+        new Thread(() -> {
             try {
                 Thread.sleep(800);
             } catch (Exception ex) {
             }
-
-            // Gionee <yangxinruo> <2016-4-27> add for CR01610799 begin
             String curProcessName = getCurProcessName();
-            // Gionee <yangxinruo> <2016-4-27> add for CR01610799 end
-            // Gionee <yangxinruo> <2016-2-23> add for CR01639403 begin
-            // Gionee <yangxinruo> <2016-4-7> modify for CR01670129 begin
             String remoteProcessName = getPackageName() + ":remote";
             // if (SystemProperties.getInt("sys.boot_completed", 0) == 0) {
-            // Gionee <yangxinruo> <2016-4-27> modify for CR01610799 begin
             if (curProcessName.equals(remoteProcessName)) {
                 startServiceInRemoteProcess(CyeeSystemManagerApp.this);
             } else if (curProcessName.equals(getPackageName())) {
-                // mengdw <2015-10-20> add for CR01571760 begin
                 startHotSpotService(CyeeSystemManagerApp.this);
-                // mengdw <2015-10-20> add for CR01571760 end
-                // Gionee: mengdw <2016-09-18> add for CR01760277 begin
                 TrafficResidentService.processTrafficServiceIntent(CyeeSystemManagerApp.this, true);
-                // Gionee: mengdw <2016-09-18> add for CR01760277 end
             }
-            // Gionee <yangxinruo> <2016-4-27> modify for CR01610799 end
-            // Gionee <yangxinruo> <2016-4-7> modify for CR01670129 end
-            // Gionee <yangxinruo> <2016-2-23> add for CR01639403 end
+
             Log.d(TAG, "CyeeSystemManagerApp is created!(" + curProcessName + ")");
-        }).start();*/
+        }).start();
         LogUtil.LOGD("Application onCreate end");
     }
 
@@ -85,21 +77,21 @@ public class CyeeSystemManagerApp extends Application {
         Log.d(TAG, "enter startRemoteProcessServiceByAppCreate!");
         //guoxt modfiy begin
         // scheduleUpdateService(context);
-        startPowerModeService(context);
-        startPowerConsumeService(context);
+//        startPowerModeService(context);
+//        startPowerConsumeService(context);
 
-        startGreenBackgroundService(context);
+//        startGreenBackgroundService(context);
 
         //guoxt modify for CSW1702A-514 begin
-       // startAnalysisPowerDataService(context);
+        // startAnalysisPowerDataService(context);
         //guoxt modify for CSW1702A-514 end
         // Gionee <yangxinruo> <2016-01-4> add for CR01617315 begin
         // Gionee <houjie> <2015-08-19> add for CR01559020 begin
-        startCpuMonitorService(context);
+//        startCpuMonitorService(context);
         // Gionee <houjie> <2015-08-19> add for CR01559020 end
         // Gionee <yangxinruo> <2016-01-4> add for CR01617315 end
         // Gionee <yangxinruo><2016-1-5> add for CR01618272 begin
-        startScreenOffCleanService(context);
+//        startScreenOffCleanService(context);
         // Gionee <yangxinruo><2016-1-5> add for CR01618272 end
     }
 
@@ -123,7 +115,7 @@ public class CyeeSystemManagerApp extends Application {
             Intent startIntent = new Intent(context, TrafficHotSportService.class);
             startIntent.setAction(Constant.ACTION_HOTSPOT_SERVICE_START);
             startIntent.putExtra(Constant.HOTSPOT_START_TYPE, Constant.TYPE_HOTSPOT_START_SYSTEM_MANAGER);
-            ServiceUtil.startForegroundService(context,startIntent);
+            ServiceUtil.startForegroundService(context, startIntent);
         }
     }
     // mengdw <2015-10-20> add for CR01571760 end
@@ -133,27 +125,27 @@ public class CyeeSystemManagerApp extends Application {
             return;
         }
         Intent startAnaIntent = new Intent(context, GreenBackgroundService.class);
-        ServiceUtil.startForegroundService(context,startAnaIntent);
+        ServiceUtil.startForegroundService(context, startAnaIntent);
     }
 
     private void startAnalysisPowerDataService(Context context) {
         Intent startAnaIntent = new Intent(context, AnalysisPowerDataService.class);
         startAnaIntent.setAction(AnalysisPowerDataService.ACTION_SERVICE_START);
-        ServiceUtil.startForegroundService(context,startAnaIntent);
+        ServiceUtil.startForegroundService(context, startAnaIntent);
     }
 
     private void startPowerConsumeService(Context context) {
         // Gionee <yangxinruo> <2015-09-17> add for CR01555251 begin
         // Gionee <yangxinruo> <2015-10-29> modify for CR01576434 begin
         boolean defaultValue = true;
-        if (Consts.cyBAFlag){
+        if (Consts.cyBAFlag) {
             defaultValue = false;
         }
         if (PreferenceManager.getDefaultSharedPreferences(context).getBoolean("power_consume_key", defaultValue)) {
             Log.d(TAG, "set startConsumeAlarm start");
             Intent startPowerConsume = new Intent(context, PowerConsumeService.class);
             startPowerConsume.setAction(PowerConsumeService.ACTION_START_ALARM);
-            ServiceUtil.startForegroundService(context,startPowerConsume);
+            ServiceUtil.startForegroundService(context, startPowerConsume);
         }
         // Gionee <yangxinruo> <2015-10-29> modify for CR01576434 end
         // Gionee <yangxinruo> <2015-09-17> add for CR01555251 end
@@ -166,7 +158,7 @@ public class CyeeSystemManagerApp extends Application {
         startIntent.setAction(PowerManagerService.ACTION_CHECK_SUPER_MODE_BOOT_STATE);
         startIntent.putExtra("bootcheck", true);
         startIntent.putExtra("reason", "boot");
-        ServiceUtil.startForegroundService(context,startIntent);
+        ServiceUtil.startForegroundService(context, startIntent);
         // Gionee <xuhz> <2013-12-13> add for CR00974497 end
     }
 
@@ -181,18 +173,18 @@ public class CyeeSystemManagerApp extends Application {
         /*guoxt modfiy for CR01692103 end */
         Log.d(TAG, "totalRam: " + getRamTotalMemory());
         if (pref.getBoolean("cpu_overload_monitor_key", flag)) {
-        /*guoxt modify for CR01692103 begin*/
+            /*guoxt modify for CR01692103 begin*/
             if (flag) {
                 Intent cpuMonitorIntent = new Intent(context, CpuRamMonitorService.class);
                 cpuMonitorIntent.putExtra("event", "start");
-                ServiceUtil.startForegroundService(context,cpuMonitorIntent);
+                ServiceUtil.startForegroundService(context, cpuMonitorIntent);
             }
-        /*guoxt modify for CR01692103 end*/
+            /*guoxt modify for CR01692103 end*/
         }
     }
 
     // Gionee <yangxinruo> <2016-01-4> add for CR01617315 end
-     /*guoxt modfiy for CR01692103 begin */
+    /*guoxt modfiy for CR01692103 begin */
     public static long getRamTotalMemory() {
         long totalSize = mMemInfoReader.getTotalSize();
         return Util.translateCapacity(totalSize);
@@ -216,7 +208,7 @@ public class CyeeSystemManagerApp extends Application {
             Intent cleanIntent = new Intent(context, ScreenOffCleanService.class);
             cleanIntent.setAction("com.cydroid.screenoffclean");
             cleanIntent.putExtra("event", str);
-            ServiceUtil.startForegroundService(context,cleanIntent);
+            ServiceUtil.startForegroundService(context, cleanIntent);
         }
         //Chenyee guoxt modify for CSW1703VF-53 end
     }

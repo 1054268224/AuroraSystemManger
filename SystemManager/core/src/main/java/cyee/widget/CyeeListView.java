@@ -1,20 +1,8 @@
 package cyee.widget;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Locale;
-
-import com.cyee.internal.R;
-import cyee.changecolors.ChameleonColorManager;
-import cyee.forcetouch.CyeeForceTouchListView;
-import cyee.forcetouch.CyeeForceTouchListView.CyeeListViewForceTouchClickCallback;
-import cyee.forcetouch.CyeeForceTouchListView.CyeeListViewForceTouchMenuCallback;
-import cyee.forcetouch.CyeeForceTouchListView.CyeeListViewForceTouchPreviewCallback;
 import android.annotation.SuppressLint;
 import android.app.Activity;
 import android.app.Application.ActivityLifecycleCallbacks;
-// Gionee <gaoj> <2013-9-3> add for CR00882174 end
-import android.app.Fragment;
 import android.content.Context;
 import android.content.res.ColorStateList;
 import android.content.res.Configuration;
@@ -29,8 +17,6 @@ import android.os.Message;
 import android.text.TextUtils;
 import android.util.AttributeSet;
 import android.util.LayoutDirection;
-// Gionee <gaoj> <2013-9-3> add for CR00882174 begin
-import com.cyee.utils.Log;
 import android.util.TypedValue;
 import android.view.ContextMenu.ContextMenuInfo;
 import android.view.GestureDetector;
@@ -49,8 +35,26 @@ import android.widget.HeaderViewListAdapter;
 import android.widget.ListAdapter;
 import android.widget.ListView;
 
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.fragment.app.Fragment;
+
+import com.cyee.internal.R;
 import com.cyee.internal.view.menu.CyeeContextMenuBuilder;
 import com.cyee.internal.widget.MultiChoiceScrollListener;
+import com.cyee.utils.Log;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Locale;
+
+import cyee.changecolors.ChameleonColorManager;
+import cyee.forcetouch.CyeeForceTouchListView;
+import cyee.forcetouch.CyeeForceTouchListView.CyeeListViewForceTouchClickCallback;
+import cyee.forcetouch.CyeeForceTouchListView.CyeeListViewForceTouchMenuCallback;
+import cyee.forcetouch.CyeeForceTouchListView.CyeeListViewForceTouchPreviewCallback;
+
+// Gionee <gaoj> <2013-9-3> add for CR00882174 end
+// Gionee <gaoj> <2013-9-3> add for CR00882174 begin
 
 public class CyeeListView extends ListView implements
         ActivityLifecycleCallbacks, OnScrollListener {
@@ -540,8 +544,8 @@ public class CyeeListView extends ListView implements
                     menuInfo);
         }
 
-        if (mContext instanceof Activity) {
-            ((Activity) mContext).getApplication()
+        if (mContext instanceof AppCompatActivity) {
+            ((AppCompatActivity) mContext).getApplication()
                     .registerActivityLifecycleCallbacks(this);
         }
         int size = mMenuBuilder.size();
@@ -585,8 +589,8 @@ public class CyeeListView extends ListView implements
             mMenuBuilder.close();
             mMenuBuilder = null;
 
-            if (mContext instanceof Activity) {
-                ((Activity) mContext).getApplication()
+            if (mContext instanceof AppCompatActivity) {
+                ((AppCompatActivity) mContext).getApplication()
                         .unregisterActivityLifecycleCallbacks(this);
             }
         }

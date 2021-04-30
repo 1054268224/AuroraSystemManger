@@ -235,7 +235,7 @@ public class AppDetailActivity extends CyeeActivity implements OnClickListener {
 
         String pkgName = null != mUidDetailProvider ? mUidDetailProvider.getPackageName() : "";
         boolean isDisabledApp = isDisabledApp(pkgName);
-        boolean isInvalidControlApp = isInvalidNetworkControlApp(pkgName);
+        boolean isInvalidControlApp = isInvalidNetworkControlApp(pkgName,mContext);
         sendUiMsg(isDisabledApp, isInvalidControlApp);
     }
 
@@ -269,13 +269,13 @@ public class AppDetailActivity extends CyeeActivity implements OnClickListener {
         }
     }
 
-    private boolean isDisabledApp(String packageName) {
+    public static boolean isDisabledApp(String packageName) {
         NetworkControlXmlFileUtil xmlFileUtil = NetworkControlXmlFileUtil.getInstance();
         List<String> disableApps = xmlFileUtil.getDisabledApps(Constant.MOBILE);
         return disableApps.contains(packageName);
     }
 
-    private boolean isInvalidNetworkControlApp(String packageName) {
+    public static boolean isInvalidNetworkControlApp(String packageName,Context mContext) {
         if (null == packageName) {
             return true;
         }
@@ -284,11 +284,9 @@ public class AppDetailActivity extends CyeeActivity implements OnClickListener {
         if (null == appInfo) {
             return true;
         }
-
         if (appInfo.uid < Constant.SYSTEMID_CONSTANT) {
             return true;
         }
-
         List<ApplicationInfo> launcherApps = TrafficassistantUtil.getLauncherActivityApps(mContext);
         return !(TrafficassistantUtil.isInApplications(launcherApps, appInfo) && TrafficassistantUtil
                 .isUseInternetPermissionApp(mContext, packageName));

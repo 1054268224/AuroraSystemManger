@@ -1,9 +1,13 @@
 package cyee.view;
 
 import android.content.Context;
-import com.cyee.utils.Log;
-import android.view.ActionProvider;
 import android.view.View;
+
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.view.ActionProvider;
+import androidx.fragment.app.Fragment;
+
+import com.cyee.utils.Log;
 
 public abstract class CyeeActionProvider {
 	private static final String TAG = "ActionProvider";
@@ -106,10 +110,10 @@ public abstract class CyeeActionProvider {
 	 * Receiving a call to {@link CyeeMenuItem.OnMenuItemClickListener#onMenuItemClick
 	 * CyeeMenuItem.OnMenuItemClickListener.onMenuItemClick}.</li>
 	 * <li>
-	 * Receiving a call to {@link android.app.Activity#onOptionsItemSelected(CyeeMenuItem)
+	 * Receiving a call to {@link AppCompatActivity#onOptionsItemSelected(CyeeMenuItem)
 	 * Activity.onOptionsItemSelected(CyeeMenuItem)}</li>
 	 * <li>
-	 * Receiving a call to {@link android.app.Fragment#onOptionsItemSelected(CyeeMenuItem)
+	 * Receiving a call to {@link Fragment#onOptionsItemSelected(CyeeMenuItem)
 	 * Fragment.onOptionsItemSelected(CyeeMenuItem)}</li>
 	 * <li>
 	 * Launching the {@link android.content.Intent} set via {@link CyeeMenuItem#setIntent(android.content.Intent)

@@ -45,6 +45,8 @@ import com.cyee.utils.Log;
 import android.view.ViewGroup;
 import android.os.ResultReceiver;
 
+import androidx.appcompat.app.AppCompatActivity;
+
 public class CyeeChooserActivity extends CyeeResolverActivity {
     
     private static final String TAG = "CyeeChooserActivity";
@@ -417,12 +419,12 @@ public class CyeeChooserActivity extends CyeeResolverActivity {
         }
 
         @Override
-        public boolean start(Activity activity, Bundle options) {
+        public boolean start(AppCompatActivity activity, Bundle options) {
             throw new RuntimeException("ChooserTargets should be started as caller.");
         }
 
         @Override
-        public boolean startAsCaller(Activity activity, Bundle options,
+        public boolean startAsCaller(AppCompatActivity activity, Bundle options,
                 int userId) {
             final Intent intent = getBaseIntentToSend();
             if (intent == null) {
@@ -436,7 +438,7 @@ public class CyeeChooserActivity extends CyeeResolverActivity {
         }
 
         @Override
-        public boolean startAsUser(Activity activity, Bundle options, UserHandle user) {
+        public boolean startAsUser(AppCompatActivity activity, Bundle options, UserHandle user) {
             throw new RuntimeException("ChooserTargets should be started as caller.");
         }
 

@@ -20,7 +20,7 @@
                 android:id="@+id/head_title"
                 android:layout_width="match_parent"
                 android:layout_height="@dimen/head_title_height"
-                android:background="?android:attr/listChoiceBackgroundIndicator"
+                android:background="?attr/listChoiceBackgroundIndicator"
                 android:gravity="center_vertical"
                 android:paddingLeft="@dimen/text_margin_left"
                 android:textColor="@color/textcolor_level_one"
@@ -28,6 +28,7 @@
 
             <LinearLayout
                 android:id="@+id/chart_show"
+                android:orientation="horizontal"
                 android:layout_width="match_parent"
                 android:layout_height="@dimen/chart_show_height" />
 

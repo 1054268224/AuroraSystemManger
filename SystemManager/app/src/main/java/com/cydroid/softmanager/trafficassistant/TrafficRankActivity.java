@@ -2,7 +2,6 @@
 package com.cydroid.softmanager.trafficassistant;
 
 import android.app.ActivityManager;
-import android.app.FragmentTransaction;
 import android.app.LoaderManager.LoaderCallbacks;
 import android.content.Context;
 import android.content.Intent;
@@ -26,6 +25,9 @@ import android.widget.ArrayAdapter;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.fragment.app.FragmentTransaction;
+
 import com.cydroid.softmanager.R;
 import com.cydroid.softmanager.common.Consts;
 import com.cydroid.softmanager.trafficassistant.actionBarTab.ActionBarTabs;
@@ -44,6 +46,8 @@ import com.cydroid.softmanager.trafficassistant.utils.TrafficassistantUtil;
 import com.cydroid.softmanager.utils.Log;
 import com.google.android.collect.Lists;
 
+import java.lang.reflect.InvocationTargetException;
+import java.lang.reflect.Method;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
@@ -82,6 +86,9 @@ public class TrafficRankActivity extends ActionBarTabs {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        if (this instanceof AppCompatActivity) {
+           getSupportActionBar().hide();
+        }
         getEntranceFlag(this);
         initActionTabInfo(this);
         super.onCreate(savedInstanceState);
@@ -368,12 +375,11 @@ public class TrafficRankActivity extends ActionBarTabs {
         mListAdapter.get(mPosition).notifyDataSetChanged(appItems, mLargest);
     }
 
-    private ArrayList<AppItem> getAppsUsingMobileData(NetworkStats stats) {
-        ArrayList<AppItem> items = Lists.newArrayList();
+    public static ArrayList<AppItem> getAppsUsingMobileData(NetworkStats stats) {
+        ArrayList<AppItem> items = new ArrayList<>();
         final int currentUserId = ActivityManager.getCurrentUser();
         final SparseArray<AppItem> knownItems = new SparseArray<AppItem>();
         final int size = (stats != null) ? stats.size() : 0;
-        Log.d(TAG, "getAppsUsingMobileData size=" + size + " mSimIndex=" + mSimIndex);
         NetworkStats.Entry entry = null;
         for (int i = 0; i < size; i++) {
             entry = stats.getValues(i, entry);
@@ -405,7 +411,6 @@ public class TrafficRankActivity extends ActionBarTabs {
 
             item.addUid(uid);
             item.total += entry.rxBytes + entry.txBytes;
-            Log.d(TAG, "getAppsUsingMobileData uid=" + uid + " total=" + item.total);
         }
 
         Collections.sort(items, new Comparator<AppItem>() {
@@ -429,7 +434,7 @@ public class TrafficRankActivity extends ActionBarTabs {
 
     }
 
-    private long[] getTimeZone(int position) {
+    public  long[] getTimeZone(int position) {
         long[] timeZone = new long[3];
         int[] timeArray = null;
 

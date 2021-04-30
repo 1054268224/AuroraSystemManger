@@ -1,28 +1,28 @@
 package com.cydroid.softmanager.powersaver.activities;
 
-import java.io.BufferedReader;
-import java.io.File;
-import java.io.FileInputStream;
-import java.io.InputStream;
-import java.io.InputStreamReader;
-import java.io.UnsupportedEncodingException;
-import java.nio.charset.StandardCharsets;
-
-import android.app.Activity;
 import android.os.Bundle;
-import android.os.Environment;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.TextView;
+
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.view.MenuItemCompat;
 
 import com.cydroid.softmanager.R;
 import com.cydroid.softmanager.powersaver.utils.SmartCleanInfoWriter;
 import com.cydroid.softmanager.utils.Log;
 
+import java.io.BufferedReader;
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.InputStream;
+import java.io.InputStreamReader;
+import java.nio.charset.StandardCharsets;
+
 /*
  * 供"拨号*#837504#>系统信息统计>智能内存清理"查看用的界面
  */
-public class SmartCleanDisplayActivity extends Activity {
+public class SmartCleanDisplayActivity extends AppCompatActivity {
     private final static String TAG = "SmartCleanDisplayActivity";
 
     private TextView infoTextView;
@@ -89,7 +89,7 @@ public class SmartCleanDisplayActivity extends Activity {
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
-        menu.add(Menu.NONE, Menu.FIRST, 0, "清空").setShowAsAction(MenuItem.SHOW_AS_ACTION_ALWAYS);
+        MenuItemCompat.setShowAsAction(menu.add(Menu.NONE, Menu.FIRST, 0, "清空"), MenuItem.SHOW_AS_ACTION_ALWAYS);
 
         return super.onCreateOptionsMenu(menu);
     }

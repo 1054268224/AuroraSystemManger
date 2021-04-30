@@ -7,10 +7,11 @@ import android.content.Intent;
 import android.content.SharedPreferences;
 import android.content.pm.ActivityInfo;
 import android.content.pm.PackageManager;
-import android.content.pm.ResolveInfo;
 import android.content.pm.PackageManager.NameNotFoundException;
+import android.content.pm.ResolveInfo;
 import android.content.res.XmlResourceParser;
 import android.os.Bundle;
+
 import com.cyee.utils.Log;
 
 import java.util.ArrayList;
@@ -133,7 +134,7 @@ public class CyeePreferenceManager {
      * This constructor should ONLY be used when getting default values from
      * an XML preference hierarchy.
      * <p>
-     * The {@link PreferenceManager#PreferenceManager(Activity)}
+     * The {@link PreferenceManager#PreferenceManager(AppCompatActivity)}
      * should be used ANY time a preference will be displayed, since some preference
      * types need an Activity for managed queries.
      */
@@ -162,7 +163,7 @@ public class CyeePreferenceManager {
     }
 
     /**
-     * Returns a list of {@link Activity} (indirectly) that match a given
+     * Returns a list of {@link AppCompatActivity} (indirectly) that match a given
      * {@link Intent}.
      * 
      * @param queryIntent The Intent to match.
@@ -176,8 +177,8 @@ public class CyeePreferenceManager {
     
     /**
      * Inflates a preference hierarchy from the preference hierarchies of
-     * {@link Activity Activities} that match the given {@link Intent}. An
-     * {@link Activity} defines its preference hierarchy with meta-data using
+     * {@link AppCompatActivity Activities} that match the given {@link Intent}. An
+     * {@link AppCompatActivity} defines its preference hierarchy with meta-data using
      * the {@link #METADATA_KEY_PREFERENCES} key.
      * <p>
      * If a preference hierarchy is given, the new preference hierarchies will

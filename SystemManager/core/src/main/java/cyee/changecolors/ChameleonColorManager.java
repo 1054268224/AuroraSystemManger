@@ -1,11 +1,5 @@
 package cyee.changecolors;
 
-import java.lang.reflect.InvocationTargetException;
-import java.lang.reflect.Method;
-import java.util.ArrayList;
-
-import cyee.theme.global.CyeeThemeManager;
-import cyee.widget.CyeeWidgetResource;
 import android.app.Activity;
 import android.app.Application;
 import android.content.ContentResolver;
@@ -16,8 +10,17 @@ import android.database.Cursor;
 import android.net.Uri;
 import android.provider.Settings;
 import android.text.TextUtils;
-import com.cyee.utils.Log;
 import android.view.ContextThemeWrapper;
+
+import androidx.appcompat.app.AppCompatActivity;
+
+import com.cyee.utils.Log;
+
+import java.lang.reflect.InvocationTargetException;
+import java.lang.reflect.Method;
+import java.util.ArrayList;
+
+import cyee.theme.global.CyeeThemeManager;
 
 public class ChameleonColorManager implements OnChangeColorListener,
         OnChangeColorListenerWithParams {
@@ -27,9 +30,9 @@ public class ChameleonColorManager implements OnChangeColorListener,
     private Context mContext;
 
     //变色时需要重启的activity列表
-    private final ArrayList<Activity> mActivityList = new ArrayList<Activity>();
+    private final ArrayList<AppCompatActivity> mActivityList = new ArrayList<AppCompatActivity>();
     //变色时不需要变色的activity列表
-    private final ArrayList<Activity> mNoChangeColorActivityList = new ArrayList<Activity>();
+    private final ArrayList<AppCompatActivity> mNoChangeColorActivityList = new ArrayList<AppCompatActivity>();
     
     private final ArrayList<OnChangeColorListener> mOnChangeColorListenerList = new ArrayList<OnChangeColorListener>();
     // Gionee <zhaoyulong> <2015-05-13> add for CR01480269 begin
@@ -144,19 +147,19 @@ public class ChameleonColorManager implements OnChangeColorListener,
         }
     }
 
-    public void registerNoChangeColor(Activity activity) {
+    public void registerNoChangeColor(AppCompatActivity activity) {
         mNoChangeColorActivityList.add(activity);
     }
 
-    public void unregisterNoChangeColor(Activity activity) {
+    public void unregisterNoChangeColor(AppCompatActivity activity) {
         mNoChangeColorActivityList.remove(activity);
     }
     
-    public void onCreate(Activity activity) {
+    public void onCreate(AppCompatActivity activity) {
         mActivityList.add(activity);
     }
 
-    public void onDestroy(Activity activity) {
+    public void onDestroy(AppCompatActivity activity) {
         mActivityList.remove(activity);
     }
 
@@ -487,7 +490,7 @@ public class ChameleonColorManager implements OnChangeColorListener,
     private static Context getBaseContext(Context cxt) {
         Context baseCxt = null;
 
-        if (cxt instanceof Activity) {
+        if (cxt instanceof AppCompatActivity) {
             return cxt;
         } else if (cxt instanceof ContextThemeWrapper) {
             baseCxt = ((ContextThemeWrapper) cxt).getBaseContext();
@@ -500,14 +503,14 @@ public class ChameleonColorManager implements OnChangeColorListener,
     }
 
     private static boolean isInActivityList(Context cxt,
-            ArrayList<Activity> activityList) {
+            ArrayList<AppCompatActivity> activityList) {
         boolean ret = false;
 
-        if (cxt instanceof Activity) {
+        if (cxt instanceof AppCompatActivity) {
             ret = activityList.contains(cxt);
         } else {
             Context baseCxt = getBaseContext(cxt);
-            for (Activity a : activityList) {
+            for (AppCompatActivity a : activityList) {
                 ret = a.equals(baseCxt);
                 if (ret) {
                     break;

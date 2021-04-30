@@ -21,7 +21,8 @@ import android.view.MotionEvent;
 import android.view.View;
 import android.view.ViewConfiguration;
 import android.view.ViewParent;
-import android.widget.ListPopupWindow;
+
+import androidx.appcompat.widget.ListPopupWindow;
 
 /**
  * Abstract class that forwards touch events to a {@link ShowableListMenu}.

@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-
+    <string name="lockpassword_confirm_your_pattern_header">Confirmez votre schéma</string>
+    <string name="gn_lockpattern_recording_intro_header">Dessinez un schéma de déverrouillage :</string>
+    <string name="gn_fingerprint_confirm_your_password_header2">Dessinez un schéma de déverrouillage ou reconnaissance d\'empreintes digitales</string>
+    <string name="gn_fingerprint_confirm_your_password_header">S\'il vous plaît entrez le mot de passe ou l\'empreinte connu</string>
+    <string name="lockpassword_confirm_your_password_header">Confirmez votre mot de passe</string>
+    <string name="gn_confirm_your_password_header">Mot de passe d\'entrée</string>
+    <string name="lockpassword_confirm_your_pin_header">Confirmer votre code PIN</string>
+    <string name="lockpattern_too_many_failed_confirmation_attempts">Trop de tentatives incorrectes. Réessayez dans &amp;lt;xliff:g id = "number"&amp;gt;%d &amp;lt;/xliff:g&amp;gt; secondes.</string>
+    <string name="lockpassword_confirm_your_password_generic">Saisissez le mot de passe de votre appareil pour continuer.</string>
+    <string name="lockpassword_confirm_your_pin_generic">Saisissez le code PIN de votre appareil pour continuer.</string>
     <string name="cancel">Cancel</string>
     <string name="gn_securitypassword_forget">Forget password</string>
     <string name="lockpattern_need_to_unlock_wrong">Wrong pattern</string>
@@ -31,5 +40,9 @@
     <string name="app_lock_clear">1. 将 %s 从应用锁名单中移除，直接启动</string>
     <string name="app_lock_setup">2. 设置安全密码，恢复应用锁功能</string>
     <!-- Chenyee xionghg 20180223 add for app lock end -->
+
+    <string name="lockpassword_confirm_your_pattern_generic">Usar el patrón del dispositivo para continuar</string>
+    <string name="gn_fingerprint_unlock_wrong">La contraseña es incorrecta</string>
+    <string name="applock_verify_fr_input_error_prompt">La verificación de prueba dactilar ha fallado，inténtelo de nuevo después de %1$ss, por favor</string>
 
 </resources>

@@ -16,6 +16,7 @@
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:focusable="true" />
+
     </RelativeLayout>
 
     <LinearLayout
@@ -97,19 +98,19 @@
     <View
     android:layout_width="match_parent"
     android:layout_height="1px"
-    android:background="?android:attr/dividerHorizontal" />
+    android:background="?attr/dividerHorizontal" />
 
     <View
         android:layout_width="match_parent"
         android:layout_height="1px"
-        android:background="?android:attr/dividerHorizontal" />
+        android:background="?attr/dividerHorizontal" />
 
     <include layout="@layout/trafficassistant_network_control_item" android:visibility="gone"/>
 
     <View
         android:layout_width="match_parent"
         android:layout_height="1px"
-        android:background="?android:attr/dividerHorizontal" android:visibility="gone"/>
+        android:background="?attr/dividerHorizontal" android:visibility="gone"/>
 
     <include layout="@layout/trafficassistant_data_save_item" />
 
@@ -117,14 +118,14 @@
     <View
         android:layout_width="match_parent"
         android:layout_height="1px"
-        android:background="?android:attr/dividerHorizontal" />
+        android:background="?attr/dividerHorizontal" />
 
     <include layout="@layout/trafficassistant_detail_flow_item" />
 
     <View
         android:layout_width="match_parent"
         android:layout_height="1px"
-        android:background="?android:attr/dividerHorizontal" />
+        android:background="?attr/dividerHorizontal" />
 </LinearLayout>
 
 </LinearLayout>

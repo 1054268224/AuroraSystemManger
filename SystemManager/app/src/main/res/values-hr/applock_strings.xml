@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="cancel">Odustani</string>
-    <string name="lockpattern_need_to_unlock_wrong">Pogrešan uzorak</string>
-    <string name="gn_securitypassword_retry">Pokušajte ponovo</string>
-    <string name="lockpattern_tutorial_cancel_label">Odustani</string>
-    <string name="lockpattern_tutorial_continue_label">Dalje</string>
-</resources>

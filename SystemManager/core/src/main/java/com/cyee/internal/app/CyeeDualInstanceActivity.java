@@ -20,35 +20,22 @@ import com.cyee.internal.R;
 import com.android.internal.content.PackageMonitor;
 
 import android.app.ActivityManager;
-import android.app.ActivityManagerNative;
-import android.app.AlertDialog;
-import android.content.ComponentName;
 import android.content.Context;
-import android.content.DialogInterface;
 import android.content.Intent;
-import android.content.IntentFilter;
-import android.content.pm.ActivityInfo;
 import android.content.pm.ApplicationInfo;
-import android.content.pm.LabeledIntent;
 import android.content.pm.PackageManager;
 import android.content.pm.PackageManager.NameNotFoundException;
 import android.content.pm.ResolveInfo;
-import android.content.pm.PackageInfo;
-import android.content.res.Resources;
 import android.graphics.drawable.Drawable;
-import android.net.Uri;
 import android.os.Bundle;
-import android.os.PatternMatcher;
-import android.os.Process;
-import android.os.RemoteException;
-import android.os.UserHandle;
+
 import com.cyee.utils.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.BaseAdapter;
-import cyee.app.CyeeAlertDialog;
+
 import cyee.widget.CyeeButton;
 import android.widget.GridView;
 import android.widget.ImageView;
@@ -56,12 +43,8 @@ import cyee.widget.CyeeListView;
 import android.widget.TextView;
 import android.view.KeyEvent;
 import java.util.ArrayList;
-import java.util.Collections;
-import java.util.HashSet;
-import java.util.Iterator;
 import java.util.List;
-import java.util.Set;
-import com.cyee.utils.Log;
+
 import android.content.ContentResolver;
 import java.lang.reflect.Method;
 
@@ -72,7 +55,7 @@ import android.os.SystemProperties;
 //Gionee:zhang_xin 2012-10-23 add for CR00717539 end
 
 // Gionee fengjianyi 2012-12-26 add for CR00751916 start
-import android.text.TextUtils;
+
 //import com.mediatek.common.featureoption.FeatureOption;
 // Gionee fengjianyi 2012-12-26 add for CR00751916 end
 

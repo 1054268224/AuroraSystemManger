@@ -11,8 +11,6 @@ import android.graphics.RectF;
 import android.graphics.Paint.Style;
 import android.util.AttributeSet;
 
-import com.cydroid.softmanager.utils.UnitUtil;
-
 public class OneCleanCircleView extends CommonCircleView {
     private static final int START_ANGLE = 270;
     private final int WHITE_COLOR = Color.WHITE;

@@ -1,7 +1,6 @@
 package com.cydroid.softmanager.powersaver.fuelgauge;
 
 import android.app.Activity;
-import android.app.Fragment;
 import android.content.Context;
 import android.graphics.drawable.Drawable;
 import android.os.Bundle;
@@ -16,6 +15,8 @@ import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.ProgressBar;
 import android.widget.TextView;
+
+import androidx.fragment.app.Fragment;
 
 import com.android.internal.os.BatterySipper;
 import com.cydroid.softmanager.R;
@@ -62,6 +63,7 @@ public class UsageSummaryFragment extends Fragment implements OnItemClickListene
 
     // 安卓O代码优化，不采用直接设置mDataType，因为某些情况下fragment可能被系统回收
     private static final String EXTRA_DATA_TYPE = "com.cydroid.softmanager.data_type";
+
     public static UsageSummaryFragment newInstance(int dataType) {
         Bundle args = new Bundle();
         args.putInt(EXTRA_DATA_TYPE, dataType);
@@ -75,9 +77,7 @@ public class UsageSummaryFragment extends Fragment implements OnItemClickListene
         if (mBatteryUseRankActivity == null) {
             return res;
         }
-        // todo wsj：注掉
-//        return mBatteryUseRankActivity.getExtendedBatterySipperList(type);
-        return res;
+        return mBatteryUseRankActivity.getExtendedBatterySipperList(type);
     }
 
     @Override
@@ -85,8 +85,8 @@ public class UsageSummaryFragment extends Fragment implements OnItemClickListene
         super.onCreate(savedInstanceState);
         //Gionee <jiangsj><20170417> add for 113665 begin
         textLayoutDirection = TextUtils.getLayoutDirectionFromLocale(getResources().getConfiguration().locale);
-        //Gionee <jiangsj><20170417> add for 113665 end
-        mDataType = getArguments().getInt(EXTRA_DATA_TYPE);
+//        //Gionee <jiangsj><20170417> add for 113665 end
+//        mDataType = getArguments().getInt(EXTRA_DATA_TYPE);
         mAdapter = new SummaryAppListAdapter(mContext);
     }
 
@@ -145,11 +145,9 @@ public class UsageSummaryFragment extends Fragment implements OnItemClickListene
                 return;
             }
         }
-        // todo wsj：注掉
-//        NewPowerUsageDetailFragment.startBatteryDetailPage(mContext,
-//                mBatteryUseRankActivity.getBatteryHelper(), mBatteryUseRankActivity.getStatsType(), exSipper,
-//                true);
-        // Gionee <yangxinruo> <2016-3-3> modify for CR01645219 end
+        NewPowerUsageDetailFragment.startBatteryDetailPage(mContext,
+                mBatteryUseRankActivity.getBatteryHelper(), mBatteryUseRankActivity.getStatsType(), exSipper,
+                true);
     }
 
     public class SummaryAppListAdapter extends BaseAdapter {
@@ -300,7 +298,7 @@ public class UsageSummaryFragment extends Fragment implements OnItemClickListene
         }
     };
 
-//    public void setDataType(int position) {
-//        mDataType = position;
-//    }
+    public void setDataType(int position) {
+        mDataType = position;
+    }
 }

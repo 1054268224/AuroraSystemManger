@@ -19,7 +19,6 @@ package com.cydroid.softmanager.powersaver.fuelgauge;
 import android.app.Activity;
 import android.app.ActivityManager;
 import android.app.ApplicationErrorReport;
-import android.app.Fragment;
 import android.app.admin.DevicePolicyManager;
 import android.content.BroadcastReceiver;
 import android.content.ComponentName;
@@ -29,14 +28,12 @@ import android.content.pm.ApplicationInfo;
 import android.content.pm.PackageInfo;
 import android.content.pm.PackageManager;
 import android.content.pm.PackageManager.NameNotFoundException;
-import android.content.res.ColorStateList;
 import android.content.res.Resources;
 import android.graphics.drawable.Drawable;
 import android.net.Uri;
 import android.os.BatteryStats;
 import android.os.Bundle;
 import android.os.Process;
-import android.os.SystemProperties;
 import android.os.UserHandle;
 import android.provider.Settings;
 import android.text.TextUtils;
@@ -46,24 +43,27 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.ProgressBar;
 
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.fragment.app.Fragment;
+
 import com.android.internal.os.BatterySipper;
 import com.android.internal.os.BatteryStatsHelper;
 import com.android.internal.util.FastPrintWriter;
-import com.cydroid.softmanager.common.Consts;
+import com.cydroid.softmanager.R;
 import com.cydroid.softmanager.powersaver.activities.NewPowerUsageDetailActivity;
 import com.cydroid.softmanager.powersaver.utils.PowerConsts;
 import com.cydroid.softmanager.powersaver.utils.PowerModeUtils;
 import com.cydroid.softmanager.utils.HelperUtils;
 import com.cydroid.softmanager.utils.Log;
 import com.cydroid.softmanager.utils.UiUtils;
-import com.cydroid.softmanager.R;
-import cyee.widget.CyeeTextView;
-import cyee.changecolors.ChameleonColorManager;
-import cyee.widget.CyeeButton;
 
 import java.io.PrintWriter;
 import java.io.StringWriter;
 import java.io.Writer;
+
+import cyee.changecolors.ChameleonColorManager;
+import cyee.widget.CyeeButton;
+import cyee.widget.CyeeTextView;
 
 import static com.cydroid.softmanager.common.Consts.cyODMFlag;
 
@@ -72,28 +72,28 @@ public class NewPowerUsageDetailFragment extends Fragment implements CyeeButton.
     private static final String GN_WIFI_SETTINGS_ACTIVITY = "com.android.settings/com.android.settings.wifi.WifiSettingsActivity";
     //guoxt modify for CSW1805A-361 begin
     // Note: Must match the sequence of the DrainType
-//    private static int[] sDrainTypeDesciptions = new int[] {R.string.battery_desc_standby,
-//            R.string.battery_desc_radio, R.string.battery_desc_voice, R.string.battery_desc_wifi,
-//            R.string.battery_desc_bluetooth, R.string.battery_desc_flashlight, R.string.battery_desc_display,
-//            R.string.battery_desc_apps, R.string.battery_desc_users, R.string.battery_desc_unaccounted,
-//            R.string.battery_desc_overcounted,R.string.battery_desc_overcounted,R.string.battery_desc_overcounted};
+    private static int[] sDrainTypeDesciptions = new int[] {R.string.battery_desc_standby,
+            R.string.battery_desc_radio, R.string.battery_desc_voice, R.string.battery_desc_wifi,
+            R.string.battery_desc_bluetooth, R.string.battery_desc_flashlight, R.string.battery_desc_display,
+            R.string.battery_desc_apps, R.string.battery_desc_users, R.string.battery_desc_unaccounted,
+            R.string.battery_desc_overcounted,R.string.battery_desc_overcounted,R.string.battery_desc_overcounted};
 
-//    public enum DrainType {
-//        AMBIENT_DISPLAY,
-//        APP,
-//        BLUETOOTH,
-//        CAMERA,
-//        CELL,
-//        FLASHLIGHT,
-//        IDLE,
-//        MEMORY,
-//        OVERCOUNTED,
-//        PHONE,
-//        SCREEN,
-//        UNACCOUNTED,
-//        USER,
-//        WIFI,
-//    }
+    public enum DrainType {
+        AMBIENT_DISPLAY,
+        APP,
+        BLUETOOTH,
+        CAMERA,
+        CELL,
+        FLASHLIGHT,
+        IDLE,
+        MEMORY,
+        OVERCOUNTED,
+        PHONE,
+        SCREEN,
+        UNACCOUNTED,
+        USER,
+        WIFI,
+    }
     private static final int[] sDrainTypeDesciptions_P = new int[] {
         R.string.battery_desc_standby,
         R.string.battery_desc_apps,
@@ -728,7 +728,7 @@ public class NewPowerUsageDetailFragment extends Fragment implements CyeeButton.
         intent.putExtra(Intent.EXTRA_UID, mUid);
         intent.putExtra(Intent.EXTRA_USER_HANDLE, UserHandle.getUserId(mUid));
         getActivity().sendOrderedBroadcast(intent, null, mCheckKillProcessesReceiver, null,
-                Activity.RESULT_CANCELED, null, null);
+                AppCompatActivity.RESULT_CANCELED, null, null);
     }
 
     private void reportBatteryUse() {

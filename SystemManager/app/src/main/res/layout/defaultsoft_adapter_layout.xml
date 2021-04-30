@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="@dimen/normal_listview_height"
     android:descendantFocusability="blocksDescendants" >
@@ -60,7 +61,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginEnd="@dimen/traffic_menu_arrow_margin_right"
-            android:src="@drawable/right_arrow"/>
+            app:srcCompat="@drawable/right_arrow"/>
     </FrameLayout>
     <!-- Chenyee xionghg 20170921 modify for 219700 end -->
 </RelativeLayout>

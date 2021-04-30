@@ -1377,12 +1377,15 @@ public class CyeeBaseSwitch extends CompoundButton {
     @Override
     protected void drawableStateChanged() {
         super.drawableStateChanged();
+        try {
+//todo....
+
 
         final int[] state = getDrawableState();
         boolean changed = false;
 
         final Drawable thumbDrawable = mThumbDrawable;
-        if (thumbDrawable != null && thumbDrawable.isStateful()) {
+        if (thumbDrawable != null && thumbDrawable.isStateful()&&state!=null) {
             changed |= thumbDrawable.setState(state);
         }
 
@@ -1393,6 +1396,9 @@ public class CyeeBaseSwitch extends CompoundButton {
 
         if (changed) {
             invalidate();
+        }
+        } catch (Exception e) {
+            e.printStackTrace();
         }
     }
 

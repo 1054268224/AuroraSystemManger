@@ -1,7 +1,6 @@
 package com.cydroid.softmanager.powersaver.utils;
 
 import android.app.ActivityManager;
-import android.app.AlertDialog;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.content.DialogInterface.OnClickListener;
@@ -16,6 +15,9 @@ import android.view.KeyEvent;
 import android.view.Window;
 import android.widget.Toast;
 
+import androidx.appcompat.app.AlertDialog;
+
+import com.chenyee.featureoption.ServiceUtil;
 import com.cydroid.softmanager.R;
 import com.cydroid.softmanager.common.Consts;
 import com.cydroid.softmanager.powersaver.activities.SuperModeDetailsActivity;
@@ -27,7 +29,6 @@ import java.lang.reflect.Field;
 
 import cyee.app.CyeeActivity;
 import cyee.app.CyeeAlertDialog;
-import com.chenyee.featureoption.ServiceUtil;
 public class PowerSuperModeDialog extends CyeeActivity {
     private final static String TAG = "PowerSuperModeDialog";
 

@@ -1,12 +1,14 @@
 package cyee.view;
 
-import android.app.Activity;
 import android.content.Intent;
 import android.graphics.drawable.Drawable;
 import android.view.ContextMenu.ContextMenuInfo;
 import android.view.Menu;
 import android.view.View;
 import android.view.View.OnCreateContextMenuListener;
+
+import androidx.appcompat.app.ActionBar;
+import androidx.appcompat.app.AppCompatActivity;
 
 public interface CyeeMenuItem {
 	/*
@@ -38,8 +40,8 @@ public interface CyeeMenuItem {
 	/**
 	 * Interface definition for a callback to be invoked when a menu item is clicked.
 	 * 
-	 * @see Activity#onContextItemSelected(CyeeMenuItem)
-	 * @see Activity#onOptionsItemSelected(CyeeMenuItem)
+	 * @see AppCompatActivity#onContextItemSelected(CyeeMenuItem)
+	 * @see AppCompatActivity#onOptionsItemSelected(CyeeMenuItem)
 	 */
     interface OnMenuItemClickListener {
 		/**
@@ -378,14 +380,14 @@ public interface CyeeMenuItem {
 
 	/**
 	 * Set a custom listener for invocation of this menu item. In most situations, it is more efficient and
-	 * easier to use {@link Activity#onOptionsItemSelected(CyeeMenuItem)} or
-	 * {@link Activity#onContextItemSelected(CyeeMenuItem)}.
+	 * easier to use {@link AppCompatActivity#onOptionsItemSelected(CyeeMenuItem)} or
+	 * {@link AppCompatActivity#onContextItemSelected(CyeeMenuItem)}.
 	 * 
 	 * @param menuItemClickListener
 	 *            The object to receive invokations.
 	 * @return This Item so additional setters can be called.
-	 * @see Activity#onOptionsItemSelected(CyeeMenuItem)
-	 * @see Activity#onContextItemSelected(CyeeMenuItem)
+	 * @see AppCompatActivity#onOptionsItemSelected(CyeeMenuItem)
+	 * @see AppCompatActivity#onContextItemSelected(CyeeMenuItem)
 	 */
     CyeeMenuItem setOnMenuItemClickListener(
             CyeeMenuItem.OnMenuItemClickListener menuItemClickListener);
@@ -412,7 +414,7 @@ public interface CyeeMenuItem {
 	 *            {@link #SHOW_AS_ACTION_IF_ROOM}, or {@link #SHOW_AS_ACTION_NEVER}. SHOW_AS_ACTION_NEVER is
 	 *            the default.
 	 * 
-	 * @see android.app.ActionBar
+	 * @see ActionBar
 	 * @see #setActionView(View)
 	 */
     void setShowAsAction(int actionEnum);
@@ -433,7 +435,7 @@ public interface CyeeMenuItem {
 	 *            {@link #SHOW_AS_ACTION_IF_ROOM}, or {@link #SHOW_AS_ACTION_NEVER}. SHOW_AS_ACTION_NEVER is
 	 *            the default.
 	 * 
-	 * @see android.app.ActionBar
+	 * @see ActionBar
 	 * @see #setActionView(View)
 	 * @return This CyeeMenuItem instance for call chaining.
 	 */

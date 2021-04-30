@@ -12,7 +12,7 @@
     android:ellipsize="marquee"
     android:gravity="center_vertical"
     android:checkMark="?android:attr/listChoiceIndicatorSingle"
-    android:minHeight="?android:attr/listPreferredItemHeightSmall"
+    android:minHeight="?attr/listPreferredItemHeightSmall"
     android:maxLines="2"
     android:paddingStart="20dp"
     android:paddingEnd="16dp" />

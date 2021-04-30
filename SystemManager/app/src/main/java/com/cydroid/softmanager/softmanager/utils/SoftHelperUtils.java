@@ -474,9 +474,9 @@ public class SoftHelperUtils {
         StorageVolume[] storageVolume = storageManager.getVolumeList();
         sStorageCount = storageVolume.length;
         sSystemSDCardMountPointPathList = new File[sStorageCount];
-//        for (int i = 0; i < sStorageCount; i++) {
-//            sSystemSDCardMountPointPathList[i] = new File(storageVolume[i].getPath());
-//        }
+        for (int i = 0; i < sStorageCount; i++) {
+            sSystemSDCardMountPointPathList[i] = new File(storageVolume[i].getPath());
+        }
         updateMountedPointList(storageManager);
         sStorageMountedCount = sSDCardMountPointPathList.length;
         if (sStorageMountedCount >= 2) {
@@ -490,9 +490,9 @@ public class SoftHelperUtils {
     private static void updateMountedPointList(StorageManager storageManager) {
         int mountCount = 0;
         for (int i = 0; i < sSystemSDCardMountPointPathList.length; i++) {
-//            if (checkSDCardMount(storageManager, sSystemSDCardMountPointPathList[i].getAbsolutePath())) {
-//                mountCount++;
-//            }
+            if (checkSDCardMount(storageManager, sSystemSDCardMountPointPathList[i].getAbsolutePath())) {
+                mountCount++;
+            }
         }
         sSDCardMountPointPathList = new File[mountCount];
         if (twoSDCardSwap() && mountCount >= 2) {
@@ -503,9 +503,9 @@ public class SoftHelperUtils {
             }
         } else {
             for (int i = 0, j = 0; i < sSystemSDCardMountPointPathList.length; i++) {
-//                if (checkSDCardMount(storageManager, sSystemSDCardMountPointPathList[i].getAbsolutePath())) {
-//                    sSDCardMountPointPathList[j++] = sSystemSDCardMountPointPathList[i];
-//                }
+                if (checkSDCardMount(storageManager, sSystemSDCardMountPointPathList[i].getAbsolutePath())) {
+                    sSDCardMountPointPathList[j++] = sSystemSDCardMountPointPathList[i];
+                }
             }
         }
     }

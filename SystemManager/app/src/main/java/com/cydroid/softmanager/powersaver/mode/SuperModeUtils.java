@@ -35,7 +35,7 @@ public class SuperModeUtils {
     public static void rebootFromSuperModeException(Context context) {
         PowerModeUtils.setSuperModeExceptionRebootFlag(context);
         PowerManager powerManager = (PowerManager) context.getSystemService(Context.POWER_SERVICE);
-        powerManager.reboot(null);
+//        powerManager.reboot(null);
     }
 
     public static void unFreezeApp(Context context, String pkgName, boolean shouldNotKill) {

@@ -16,10 +16,6 @@
 
 package com.cyee.internal.widget.tabhost;
 //Gionee <zhaoyulong> <2015-06-17> add for CR01490697 begin
-import java.lang.reflect.Method;
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.Comparator;
 
 import android.content.Context;
 import android.content.res.Resources;
@@ -33,7 +29,6 @@ import android.os.Parcel;
 import android.os.Parcelable;
 import android.os.SystemClock;
 import android.util.AttributeSet;
-import com.cyee.utils.Log;
 import android.view.FocusFinder;
 import android.view.Gravity;
 import android.view.KeyEvent;
@@ -48,6 +43,16 @@ import android.view.accessibility.AccessibilityEvent;
 import android.view.animation.Interpolator;
 import android.widget.Scroller;
 
+import androidx.appcompat.app.ActionBar;
+import androidx.fragment.app.Fragment;
+
+import com.cyee.utils.Log;
+
+import java.lang.reflect.Method;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Comparator;
+
 /**
  * Layout manager that allows the user to flip left and right
  * through pages of data.  You supply an implementation of a
@@ -58,12 +63,12 @@ import android.widget.Scroller;
  * the compatibility library, requiring changes to the source code
  * of apps when they are compiled against the newer version.</p>
  *
- * <p>ViewPager is most often used in conjunction with {@link android.app.Fragment},
+ * <p>ViewPager is most often used in conjunction with {@link Fragment},
  * which is a convenient way to supply and manage the lifecycle of each page.
  * There are standard adapters implemented for using fragments with the ViewPager,
  * which cover the most common use cases.  These are
- * {@link android.support.v4.app.FragmentPagerAdapter} and 
- * {@link android.support.v4.app.FragmentStatePagerAdapter}; each of these
+ * {@link androidx.core.app.FragmentPagerAdapter} and
+ * {@link androidx.core.app.FragmentStatePagerAdapter}; each of these
  * classes have simple code showing how to build a full user interface
  * with them.
  *
@@ -72,7 +77,7 @@ import android.widget.Scroller;
  * Tabs</a>.</p>
  *
  * <p>Below is a more complicated example of ViewPager, using it in conjunction
- * with {@link android.app.ActionBar} tabs.  You can find other examples of using
+ * with {@link ActionBar} tabs.  You can find other examples of using
  * ViewPager in the API 4+ Support Demos and API 13+ Support Demos sample code.
  *
  * {@sample development/samples/Support13Demos/src/com/example/android/supportv13/app/ActionBarTabsPager.java

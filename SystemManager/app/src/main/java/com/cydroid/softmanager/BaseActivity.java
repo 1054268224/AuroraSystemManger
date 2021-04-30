@@ -21,7 +21,7 @@ import cyee.app.CyeeActionBar;
 import cyee.app.CyeeActivity;
 import cyee.changecolors.ChameleonColorManager;
 
-public class BaseActivity extends Activity {
+public class BaseActivity extends CyeeActivity {
     private CyeeActionBar mActionBar;
 
     private Class<?> mFirstClass;
@@ -42,26 +42,26 @@ public class BaseActivity extends Activity {
         super.onCreate(savedInstanceState);
         //setTheme(R.style.SystemManagerThemeCustom);
         //guoxt 20180412 modify for CSW1705AC-49 begin
-//        if (UiUtils.isRTLSysLanguage(this)) {
-//            setTheme(R.style.SystemManagerThemeCustomRtL);
-//        } else {
-//            setTheme(R.style.SystemManagerThemeCustom);
-//        }
+        if (UiUtils.isRTLSysLanguage(this)) {
+            setTheme(R.style.SystemManagerThemeCustomRtL);
+        } else {
+            setTheme(R.style.SystemManagerThemeCustom);
+        }
         // guoxt 20180412 modify for CSW1705AC-49 begin
-//        mActionBar = getCyeeActionBar();
-//        mActionBar.setDisplayHomeAsUpEnabled(isDisplayingHomeAsUp());
+        mActionBar = getCyeeActionBar();
+        mActionBar.setDisplayHomeAsUpEnabled(isDisplayingHomeAsUp());
     }
 
     @Override
     protected void onStart() {
         super.onStart();
         if (isShowActionBar()) {
-//            if (isUsingCustomActionBar()) {
-//                mActionBar.setElevation(0);
-//                setCustomActionBarView();
-//            }
+            if (isUsingCustomActionBar()) {
+                mActionBar.setElevation(0);
+                setCustomActionBarView();
+            }
         } else {
-//            mActionBar.hide();
+            mActionBar.hide();
         }
     }
 
@@ -126,7 +126,7 @@ public class BaseActivity extends Activity {
         LinearLayout second = (LinearLayout) group.findViewById(R.id.second_click_field);
         mImg = (ImageView) group.findViewById(R.id.img_actionbar_custom);
         mImg.setImageResource(R.drawable.main_actionbar_setting);
-        mOtherImg = (ImageView) group.findViewById(R.id.img_other_button);
+        mOtherImg = (ImageView) group.findViewById(R.id.img_another_button);
         first.setVisibility(mFirstLayoutVisibility);
         second.setVisibility(mSecondLayoutVisibility);
         mOtherImg.setImageResource(R.drawable.power_summary_icon);
@@ -183,7 +183,7 @@ public class BaseActivity extends Activity {
         //Gionee <jiangsj> <20170410> modify for 105924 begin
         params.gravity = Gravity.END | Gravity.CENTER_VERTICAL;
         //Gionee <jiangsj> <20170410> modify for 105924 end
-        mActionBar.setCustomView(group, params);
+//        mActionBar.setCustomView(group, params);
         mActionBar.setDisplayShowCustomEnabled(true);
     }
 
@@ -192,6 +192,6 @@ public class BaseActivity extends Activity {
     }
 
     public void setActionBarBackgroundColor(ColorDrawable drawable) {
-//        mActionBar.setBackgroundDrawable(drawable);
+        mActionBar.setBackgroundDrawable(drawable);
     }
 }

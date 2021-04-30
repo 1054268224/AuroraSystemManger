@@ -127,25 +127,18 @@ public class PowerManagerMainActivity extends BaseActivity {
         setContentView(R.layout.powermanager_main_activity);
         initClassFields();
         mHandler.setActivity(this);
-        // Gionee <yangxinruo> <2016-4-25> add for CR01684864 begin
+
         initAdapter();
-        // Gionee <yangxinruo> <2016-4-25> add for CR01684864 end
-        // Gionee <yangxinruo> <2016-3-18> add for CR01654969 begin
+
         mContext.bindService(new Intent(mContext, PowerManagerService.class), mConnection,
                 Context.BIND_AUTO_CREATE);
-        // Gionee <yangxinruo> <2016-3-18> add for CR01654969 end
         setSecondClass(PowerManagerSettingsActivity.class);
         setFirstLayoutVisibility(View.GONE);
         setFirstClass(BatteryUseRankActivity.class);
-
-        // Gionee <yangxinruo> <2015-08-18> add for CR01540284 end
         chameleonColorProcess();
-
-        // Gionee <yangxinruo> <2015-10-12> modify for CR01565576 begin
         mShouldDrawAnim = true;
         mIsModeChangeRegistered = false;
-        // onIntoScreenAnimation();
-        // Gionee <yangxinruo> <2015-10-12> modify for CR01565576 end
+
     }
 
     private void chameleonColorProcess() {

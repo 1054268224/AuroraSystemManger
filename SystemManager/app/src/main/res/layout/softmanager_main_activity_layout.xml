@@ -46,7 +46,7 @@
             android:layout_height="wrap_content"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="@dimen/softmanager_phone_img_marginTop"
-            android:src="@drawable/phone_inside" />
+            cusattrs:srcCompat="@drawable/phone_inside" />
 
         <ImageView
             android:id="@+id/sd_img"
@@ -54,7 +54,7 @@
             android:layout_height="wrap_content"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="@dimen/softmanager_sd_img_marginTop"
-            android:src="@drawable/sd_outside" />
+            cusattrs:srcCompat="@drawable/sd_outside" />
 
         <cyee.widget.CyeeTextView
             android:id="@+id/single_progress_title"

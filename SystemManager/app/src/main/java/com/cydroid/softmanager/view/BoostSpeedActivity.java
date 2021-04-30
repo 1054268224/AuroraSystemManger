@@ -67,16 +67,16 @@ public class BoostSpeedActivity extends BaseActivity
         implements RamInfoUpdateCallback, AnimationListener, IMemoryCleanNativeCallback {
     private final static String TAG = "BoostSpeedActivity";
 
-    private final static int STATE_END = 0xffff;
-    private final static int STATE_CHECK_MEMORY = 1;
-    private final static int STATE_CLEAN_MEMORY = 2;
+    public final static int STATE_END = 0xffff;
+    public final static int STATE_CHECK_MEMORY = 1;
+    public final static int STATE_CLEAN_MEMORY = 2;
     // Gionee <yangxinruo> <2015-12-10> add for CR01606964 begin
-    private final static int UPDATE_RAM_UI = 3;
+    public final static int UPDATE_RAM_UI = 3;
     // Gionee <yangxinruo> <2015-12-10> add for CR01606964 end
-    private final static int GET_RUNNING_PROCESS = 4;
-    private final static int STATE_INTO_SCREEN = 8;
-    private final static int SWEEP_ANGLE_CONSTANT = 290;
-    private final static int PERCENT_CONSTANT = 100;
+    public final static int GET_RUNNING_PROCESS = 4;
+    public final static int STATE_INTO_SCREEN = 8;
+    public final static int SWEEP_ANGLE_CONSTANT = 290;
+    public final static int PERCENT_CONSTANT = 100;
 
     private LinearLayout mLayout;
     private Context mContext;
@@ -159,7 +159,8 @@ public class BoostSpeedActivity extends BaseActivity
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
+        registerReceiver(mColorChangedReceiver,
+                new IntentFilter(PowerModeItemDarkTheme.CHAMELEON_CHANGE_COLOR));
         try {
             Configuration config = ActivityManagerNative.getDefault().getConfiguration();
             mFontScale = config.fontScale;
@@ -255,8 +256,7 @@ public class BoostSpeedActivity extends BaseActivity
         mClickListener = new OnClickListener();
         mOneCleanUtil = RamAndMemoryHelper.getInstance(this);
         // Gionee <yangxinruo> <2015-10-19> add for CR01570066 begin
-        registerReceiver(mColorChangedReceiver,
-                new IntentFilter(PowerModeItemDarkTheme.CHAMELEON_CHANGE_COLOR));
+
         // Gionee <yangxinruo> <2015-10-19> add for CR01570066 end
         // Gionee <yangxinruo> <2015-12-10> add for CR01606964 begin
         mUpdateMemoryInfoThread = new HandlerThread("SystemManager/queryMemoryInfo");
@@ -267,7 +267,7 @@ public class BoostSpeedActivity extends BaseActivity
             public void handleMessage(Message msg) {
                 super.handleMessage(msg);
                 switch (msg.what) {
-                    case 1:
+                    case STATE_CHECK_MEMORY:
                         String[] memoryInfo = queryMemoryInfo();
                         Message updateUi = mHandler.obtainMessage(UPDATE_RAM_UI);
                         updateUi.obj = memoryInfo;
@@ -285,7 +285,7 @@ public class BoostSpeedActivity extends BaseActivity
             }
         };
         // Gionee <yangxinruo> <2015-12-10> add for CR01606964 end
-        sendMessageToHandler(1);
+        sendMessageToHandler(STATE_CHECK_MEMORY);
         new Thread(new Runnable() {
             @Override
             public void run() {
@@ -560,7 +560,7 @@ public class BoostSpeedActivity extends BaseActivity
         if (!isUpdateMemory) {
             return;
         }
-        sendMessageToHandler(1);
+        sendMessageToHandler(STATE_CHECK_MEMORY);
     }
 
     private synchronized void sendMessageToHandler(int what) {
@@ -608,7 +608,7 @@ public class BoostSpeedActivity extends BaseActivity
 
     // Chenyee xionghg 20171211 modify for storage conversion begin
     // add = by HZH
-    public long translateCapacity(long capacity) {
+    public static long translateCapacity(long capacity) {
         final long M = 1000 * 1000;
         long result = capacity;
         if (capacity <= 67108864L) {
@@ -964,7 +964,9 @@ public class BoostSpeedActivity extends BaseActivity
         // Gionee <yangxinruo> <2015-10-19> add for CR01570066 begin
         unregisterReceiver(mColorChangedReceiver);
         // Gionee <yangxinruo> <2015-10-19> add for CR01570066 end
-        mUpdateMemoryInfoThread.quit();
+        if (mUpdateMemoryInfoThread != null) {
+            mUpdateMemoryInfoThread.quit();
+        }
         recycleAnimations();
         recycleHandler();
         //chenyee zhaocaili 20180508 add for CSW1707A-845 begin

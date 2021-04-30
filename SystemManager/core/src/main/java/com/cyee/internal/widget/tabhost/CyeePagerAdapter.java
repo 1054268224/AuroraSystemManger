@@ -26,8 +26,8 @@ import android.view.ViewGroup;
  * Base class providing the adapter to populate pages inside of
  * a {@link CyeeViewPager}.  You will most likely want to use a more
  * specific implementation of this, such as
- * {@link android.support.v4.app.FragmentPagerAdapter} or
- * {@link android.support.v4.app.FragmentStatePagerAdapter}.
+ * {@link androidx.core.app.FragmentPagerAdapter} or
+ * {@link androidx.core.app.FragmentStatePagerAdapter}.
  *
  * <p>When you implement a PagerAdapter, you must override the following methods
  * at minimum:</p>

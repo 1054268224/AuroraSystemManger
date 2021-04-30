@@ -10,7 +10,7 @@
         android:layout_width="0dip"
         android:layout_height="fill_parent"
         android:layout_weight="1"
-        android:background="?android:attr/listChoiceBackgroundIndicator" >
+        android:background="?attr/listChoiceBackgroundIndicator" >
 
         <LinearLayout
             android:id="@+id/container_icon"
@@ -68,7 +68,7 @@
             android:layout_height="match_parent"
             android:layout_alignParentRight="true"
             android:layout_gravity="center"
-            android:background="?android:attr/listChoiceBackgroundIndicator"
+            android:background="?attr/listChoiceBackgroundIndicator"
             android:gravity="center"
             android:paddingLeft="16dip"
             android:paddingRight="12dip" >

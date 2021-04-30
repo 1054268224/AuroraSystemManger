@@ -9,12 +9,13 @@
  */
 package com.cydroid.softmanager.applock;
 
-import android.app.Activity;
 import android.content.Intent;
 import android.content.res.Configuration;
 import android.content.res.Resources;
 import android.os.Bundle;
 import android.view.ViewGroup;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 import com.cydroid.softmanager.R;
 import com.cydroid.softmanager.applock.verifier.AppLockController;
@@ -127,8 +128,8 @@ public class AppLockActivity extends CyeeActivity implements OnChangeColorListen
         finishTask(this);
     }
 
-    private void finishTask(Activity activity) {
-        setResult(Activity.RESULT_OK);
+    private void finishTask(AppCompatActivity activity) {
+        setResult(AppCompatActivity.RESULT_OK);
         /*Chenyee guoxt modify for CSW1703CX-693 begin*/
         if(!AppLockActivity.this.isFinishing()) {
             finish();
@@ -143,10 +144,10 @@ public class AppLockActivity extends CyeeActivity implements OnChangeColorListen
         }
     }
 
-    private void unlockedByUser(Activity activity) {
+    private void unlockedByUser(AppCompatActivity activity) {
         Intent data = new Intent();
         data.putExtra("confirm_result", 0);
-        setResult(Activity.RESULT_OK, data);
+        setResult(AppCompatActivity.RESULT_OK, data);
         sendUnlockResult(true);
         // finish();
     }

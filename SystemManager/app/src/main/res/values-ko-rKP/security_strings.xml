@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="security_wallet_title">지불보호</string>
-    <string name="security_wallet_header">보호프로그람</string>
-    <string name="security_wallet_header_on">설정</string>
-    <string name="security_wallet_header_off">해제</string>
-</resources>

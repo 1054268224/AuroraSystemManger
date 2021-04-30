@@ -10,10 +10,9 @@
 package com.cydroid.softmanager.applock;
 
 import android.app.Activity;
-import android.content.Context;
 import android.content.Intent;
 
-import com.android.internal.widget.LockPatternUtils;
+import androidx.appcompat.app.AppCompatActivity;
 
 import com.cydroid.softmanager.utils.Log;
 
@@ -90,17 +89,17 @@ public class AppLockSecurityPasswordUtils {
 //        return false;
 //    }
 
-    public static boolean onActivityResult(Activity activity, int requestCode, int resultCode, Intent data) {
+    public static boolean onActivityResult(AppCompatActivity activity, int requestCode, int resultCode, Intent data) {
         //chenyee zhaocaili modify for CSW1705P-249 begin
         Log.d("AppLockSecurityPasswordUtils", "onActivityResult requestCode:" + requestCode + ",   resultCode:" + resultCode);
         if (requestCode == REQUEST_CODE_CONFIRM_PASSWORD){
-            if (resultCode == Activity.RESULT_OK) {
+            if (resultCode == AppCompatActivity.RESULT_OK) {
                 return true;
             }
             activity.finish();
             return false;
         }else {
-            return resultCode == Activity.RESULT_OK;
+            return resultCode == AppCompatActivity.RESULT_OK;
         }
         //chenyee zhaocaili modify for CSW1705P-249 end
     }

@@ -1,5 +1,6 @@
 <resources>
-
+    <dimen name="deeplyclean_scan_object">14sp</dimen>
+    <dimen name="clean_end_top_height">210dp</dimen>
     <!-- 垃圾清理主界面尺寸 -->
     <dimen name="total_rubbish_textsize">68sp</dimen>
     <dimen name="total_rubbish_unit_textsize">35sp</dimen>

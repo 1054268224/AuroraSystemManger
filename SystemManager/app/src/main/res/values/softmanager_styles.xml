@@ -42,6 +42,7 @@
     <style name="SystemManagerTheme" parent="@style/Theme.Cyee.Light">
         <item name="cyeeactionBarStyle">@style/LightActionBarStyle</item>
         <item name="android:actionBarDivider">@null</item>
+
     </style>
 
     <style name="GNTextAppearance" parent="@android:style/TextAppearance.Inverse">

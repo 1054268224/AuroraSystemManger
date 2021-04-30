@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/rubbishcleaner_expandable_group_all"
     android:layout_width="match_parent"
     android:layout_height="@dimen/rubbish_adapter_group_height"
     android:paddingLeft="@dimen/rubbish_expandable_group_item_paddingleft"
-    android:paddingRight="@dimen/rubbish_adapter_progress_marginright">
+    android:paddingRight="@dimen/rubbish_adapter_progress_marginright" >
 <RelativeLayout
     android:id="@+id/rubbishcleaner_expandable_group"
     android:layout_width="match_parent"

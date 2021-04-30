@@ -38,7 +38,7 @@ public class UsageStatsDataUtils {
 
     public static ConcurrentHashMap<String, SimpleUsageData> getAllPackageUsageStats(Context context,
             String dayTime) {
-        UsageStatsManager mUsageStatsManager = (UsageStatsManager) context.getSystemService("usagestats");
+        UsageStatsManager mUsageStatsManager = (UsageStatsManager) context.getSystemService(Context.USAGE_STATS_SERVICE);
         ConcurrentHashMap<String, SimpleUsageData> resStatsMap = new ConcurrentHashMap<String, SimpleUsageData>();
         try {
             // Gionee <yangxinruo> <2015-10-29> modify for CR01577196 begin

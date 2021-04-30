@@ -1,12 +1,14 @@
 package com.cydroid.softmanager.powersaver.activities;
 
-import android.os.Bundle;
-import android.app.Fragment;
 import android.content.Intent;
-import com.cydroid.softmanager.R;
-import com.cydroid.softmanager.utils.Log;
+import android.os.Bundle;
+
+import androidx.fragment.app.Fragment;
+
 import com.cydroid.softmanager.BaseActivity;
+import com.cydroid.softmanager.R;
 import com.cydroid.softmanager.powersaver.fuelgauge.NewPowerUsageDetailFragment;
+import com.cydroid.softmanager.utils.Log;
 
 public class NewPowerUsageDetailActivity extends BaseActivity {
     private Bundle mBundle;
@@ -24,7 +26,7 @@ public class NewPowerUsageDetailActivity extends BaseActivity {
 
         Fragment usageDetailFragment = new NewPowerUsageDetailFragment();
         usageDetailFragment.setArguments(mBundle);
-        getFragmentManager().beginTransaction().replace(R.id.usage_detail, usageDetailFragment).commit();
+        getSupportFragmentManager().beginTransaction().replace(R.id.usage_detail, usageDetailFragment).commit();
     }
 
     @Override

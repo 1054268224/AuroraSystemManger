@@ -51,6 +51,7 @@ public class ServiceUtil {
                     .setContentTitle(context.getResources().getString(R.string.app_name))
                     .build();
             ((Service) context).startForeground(1, notification);
+
         }
     }
 }

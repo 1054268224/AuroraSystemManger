@@ -104,5 +104,81 @@
         <item>@string/app_lock_setting_item_1</item>
         <item>@string/app_lock_setting_item_2</item>
     </string-array>
+    <string-array name="permission_summary">
+        <item>"Las aplicaciones pueden llamar por teléfono"</item>
+        <item>"Las aplicaciones pueden enviar mensajes de texto"</item>
+        <item>"Las aplicaciones pueden enviar mensajes multimedia"</item>
+        <item>"Las aplicaciones pueden acceder al registro de llamadas"</item>
+        <item>"Las aplicaciones pueden leer mensajes de texto"</item>
+        <item>"Las aplicaciones pueden leer mensajes multimedia"</item>
+        <item>"Las aplicaciones pueden ver la libreta de contactos"</item>
+        <item>"Las aplicaciones pueden obtener su posición por GPS"</item>
+        <item>"Las aplicaciones pueden ver su ubicación de Red"</item>
+        <item>"Las aplicaciones pueden ver el estado de su teléfono"</item>
+        <item>"Las aplicaciones pueden leer/escribir/eliminar mensajes de texto"</item>
+        <item>"Las aplicaciones pueden escribir/eliminar mensajes multimedia"</item>
+        <item>"Las aplicaciones pueden escribir/eliminar contactos"</item>
+        <item>"Las aplicaciones pueden escribir/eliminar el registro de llamadas"</item>
+        <item>"Las aplicaciones pueden grabar sonidos"</item>
+        <item>"Las aplicaciones pueden utilizar la cámara"</item>
+        <item>"Las aplicaciones pueden utilizar la red móvil"</item>
+        <item>"Las aplicaciones pueden utilizar la red WiFi"</item>
+        <item>"Las aplicaciones pueden utilizar el bluetooth"</item>
+        <item>"Las aplicaciones pueden utilizar paridad por bluetooth"</item>
+        <item>"Las aplicaciones pueden utilizar NFC"</item>
+    </string-array>
+
+
+    <!-- SoftManager begin -->
+    <string-array name="title_group_move_package">
+        <item>Aplicaciones internas</item>
+        <item>Aplicaciones en Tarjeta SD</item>
+    </string-array>
+    <string-array name="title_group_move_package1">
+        <item>Aplicaciones en el espacio de sistema</item>
+        <item>Aplicaciones internas</item>
+    </string-array>
+    <string-array name="ui_privacy_policy">
+        <item>Llamada de teléfono</item>
+        <item>Enviar MSG</item>
+        <item>Enviar MMS</item>
+        <item>Registro de llamadas</item>
+        <item>Leer MSG</item>
+        <item>Leer MMS</item>
+        <item>Leer contactos</item>
+        <item>Localización GPS</item>
+        <item>Localización de red</item>
+        <item>Estado del teléfono</item>
+        <item>Escribir/borrar SMS</item>
+        <item>Escribir/borrar MMS</item>
+        <item>Escribir/borrar contactos</item>
+        <item>Escribir/borrar registro de llamadas</item>
+        <item>Grabar sonido</item>
+        <item>Cámara</item>
+        <item>Red móvil</item>
+        <item>Red Wi-Fi</item>
+        <item>Bluetooth</item>
+        <item>Emparejamiento bluetooth</item>
+        <item>NFC</item>
+    </string-array>
+
+    <string-array name="list_summary_soft_manager_activity">
+        <item>Desinstalar aplicación</item>
+        <item>Para y ocultar apps</item>
+        <item>Optimizar espacio del móvil</item>
+        <item>Conjunto de aplicaciones por defecto</item>
+    </string-array>
+    <!-- 默认软件设置 -->
+    <string-array name="ui_def_soft">
+        <item>Método de entrada por defecto</item>
+        <item>Aplicación de internet por defecto</item>
+        <item>Contacto por defecto</item>
+        <item>Ejecutar por defecto</item>
+        <item>Aplicación de cámara por defecto</item>
+        <item>Aplicación de imágenes por defecto</item>
+        <item>Aplicación de música por defecto</item>
+        <item>Aplicación de video por defecto</item>
+        <item>Aplicación de lectura por defecto</item>
+    </string-array>
 
 </resources>

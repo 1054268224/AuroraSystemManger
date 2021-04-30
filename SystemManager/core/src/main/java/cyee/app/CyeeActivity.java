@@ -1,24 +1,7 @@
 package cyee.app;
 
 // Gionee <daizhimin> <2013-07-04> add for CR00833379 begin 
-import java.lang.reflect.Field;
 
-import com.android.internal.view.menu.MenuBuilder;
-import com.cyee.internal.R;
-import cyee.changecolors.ChameleonColorManager;
-import cyee.theme.global.CyeeResources;
-import cyee.theme.global.CyeeThemeManager;
-import cyee.theme.global.ICyeeResource;
-import cyee.widget.CyeeMagicBar;
-import cyee.widget.CyeeMagicBar.OnMagicBarVisibleChangedListener;
-import cyee.widget.CyeeMagicBar.OnTransparentTouchListener;
-import cyee.widget.CyeeMagicBar.onMoreItemSelectedListener;
-import cyee.widget.CyeeMagicBar.onOptionsItemLongClickListener;
-import cyee.widget.CyeeMagicBar.onOptionsItemSelectedListener;
-import cyee.widget.CyeeWidgetResource;
-
-import android.app.ActionBar;
-import android.app.Activity;
 import android.content.DialogInterface;
 import android.content.res.Configuration;
 import android.content.res.Resources;
@@ -33,7 +16,7 @@ import android.graphics.drawable.Drawable;
 import android.graphics.drawable.StateListDrawable;
 import android.os.Bundle;
 import android.os.Handler;
-import com.cyee.utils.Log;
+import android.provider.Settings;
 import android.util.TypedValue;
 import android.view.ActionMode;
 import android.view.KeyEvent;
@@ -45,17 +28,39 @@ import android.view.SubMenu;
 import android.view.View;
 import android.view.ViewGroup;
 import android.view.Window;
-import android.view.WindowManager;
 import android.view.Window.Callback;
+import android.view.WindowManager;
 import android.view.animation.TranslateAnimation;
 import android.widget.FrameLayout;
 import android.widget.LinearLayout;
 import android.widget.RelativeLayout.LayoutParams;
+
+import androidx.appcompat.app.ActionBar;
+import androidx.appcompat.app.AppCompatActivity;
+
+import com.android.internal.view.menu.MenuBuilder;
+import com.cyee.internal.R;
+import com.cyee.utils.Log;
 import com.cyee.utils.LogUtil;
+
+import java.lang.reflect.Field;
+
+import cyee.changecolors.ChameleonColorManager;
+import cyee.theme.global.CyeeResources;
+import cyee.theme.global.CyeeThemeManager;
+import cyee.theme.global.ICyeeResource;
+import cyee.widget.CyeeMagicBar;
+import cyee.widget.CyeeMagicBar.OnMagicBarVisibleChangedListener;
+import cyee.widget.CyeeMagicBar.OnTransparentTouchListener;
+import cyee.widget.CyeeMagicBar.onMoreItemSelectedListener;
+import cyee.widget.CyeeMagicBar.onOptionsItemLongClickListener;
+import cyee.widget.CyeeMagicBar.onOptionsItemSelectedListener;
+
 //chenyee 2017-11-11 hushengsong modify navigation color begin
-import android.provider.Settings;
+
+
 //chenyee 2017-11-11 hushengsong modify navigation color end
-public class CyeeActivity extends Activity implements onOptionsItemSelectedListener,
+public class CyeeActivity extends AppCompatActivity implements onOptionsItemSelectedListener,
 		onMoreItemSelectedListener, OnTransparentTouchListener, onOptionsItemLongClickListener, ICyeeResource {
 	private static final String TAG = "CyeeActivity";
 	private CyeeMagicBar mCyeeMagicBar;
@@ -706,14 +711,13 @@ public class CyeeActivity extends Activity implements onOptionsItemSelectedListe
 
     private void initCyeeActionBar(View actionbarViewGroup) {
         generalScreenLayout();
-        // Gionee <lihq> <2014-6-23> add for CR00873172 begin
+		if (mCyeeActionBar == null) {
+			mCyeeActionBar = new CyeeActionBarImpl(this, actionbarViewGroup);
+			mCyeeActionBar.setActivityContent(mContentLayout);
+		}
+
         if (mFeatureActionBarHide || mThemeActionBarHide) {
             return;
-        }
-        // Gionee <lihq> <2014-6-23> add for CR00873172 end
-        if (mCyeeActionBar == null) {
-            mCyeeActionBar = new CyeeActionBarImpl(this, actionbarViewGroup);
-            mCyeeActionBar.setActivityContent(mContentLayout);
         }
 
         if (isChild() || (mFeatureActionBarHide || mThemeActionBarHide)) {
@@ -732,7 +736,7 @@ public class CyeeActivity extends Activity implements onOptionsItemSelectedListe
 	
 	private void hideOriginalActionBar() {
 		if (mActionBar == null) {
-			mActionBar = getActionBar();
+			mActionBar = getSupportActionBar();
 		}
 		if (mActionBar != null && mActionBar.isShowing()) {
 			mActionBar.hide();
@@ -915,11 +919,6 @@ public class CyeeActivity extends Activity implements onOptionsItemSelectedListe
 	 * @deprecated use new getCyeeActionBar()
 	 * @return The Activity's ActionBar, or null if it does not have one.
 	 */
-	@Deprecated
-	@Override
-	public ActionBar getActionBar() {
-		return super.getActionBar();
-	}
 
 	// Gionee <fenglp> <2013-07-13> add for CR00812456 end
 
