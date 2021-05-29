@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-
-    <declare-styleable name="AnimBallView">
-        <attr name="radius_size" format="float"/>
-        <attr name="ball_color" format="color"/>
-    </declare-styleable>
-</resources>
