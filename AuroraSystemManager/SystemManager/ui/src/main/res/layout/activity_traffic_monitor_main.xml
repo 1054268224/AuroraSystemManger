@@ -4,8 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
     android:background="@color/white"
+    android:orientation="vertical"
     android:theme="@style/Theme.MaterialComponents"
     tools:context=".trafficmonitor.TrafficMonitorMainActivity">
 
@@ -16,14 +16,14 @@
         android:background="@color/common_blue"
         app:tabIndicatorColor="@color/tab_color"
         app:tabSelectedTextColor="@color/tab_select_color"
-        app:tabTextColor="@color/tab_color"/>
+        app:tabTextColor="@color/tab_color" />
 
 
     <androidx.viewpager.widget.ViewPager
         android:id="@+id/traffic_viewpager"
         android:layout_width="match_parent"
         android:layout_height="225dp"
-        android:visibility="gone"/>
+        android:visibility="gone" />
 
     <RelativeLayout
         android:id="@+id/null_simcard_view"
@@ -37,14 +37,11 @@
             android:layout_height="wrap_content"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="30dp"
-            android:src="@drawable/prompt_traffic_settings"/>
+            android:src="@drawable/prompt_traffic_settings" />
 
         <include layout="@layout/traffic_detail_view" />
 
     </RelativeLayout>
-
-
-
 
 
     <RelativeLayout
@@ -55,12 +52,12 @@
             android:id="@+id/traffic_title"
             android:layout_width="match_parent"
             android:layout_height="40dp"
-            android:gravity="bottom"
             android:layout_marginLeft="16dp"
             android:layout_marginBottom="5dp"
-            android:textSize="16sp"
+            android:gravity="bottom"
             android:text="@string/traffic_ranking_list"
-            android:textColor="@color/item_black"/>
+            android:textColor="@color/item_black"
+            android:textSize="16sp" />
 
         <include layout="@layout/btn_act" />
 
@@ -69,8 +66,7 @@
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/traffic_item_view"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"/>
-
+        android:layout_height="match_parent" />
 
 
 </LinearLayout>

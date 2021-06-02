@@ -55,7 +55,7 @@ public class TrafficMonitorTestData implements TrafficMonitorPresent<TrafficMoni
     }
 
     @Override
-    public void onInitData(List<TraRecyBean> list) {
+    public void onInitData(List<TraRecyBean> list,int simindex) {
            this.recyBeans = list;
         for (int i = 0; i < 10; i++) {
             recyData = new TraRecyBean("ss", "软件" + i);

@@ -43,23 +43,18 @@ public class ChartView extends View {
      */
     private List<Info> mInfos;
 
-    {
-        setmInfos(testinfo());
-    }
-
-    private List<Info> testinfo() {
-        List<Info> re = new ArrayList<>();
-        re.add(new Info(0, 0));
-        re.add(new Info(1, 2));
-        re.add(new Info(3, 5));
-        re.add(new Info(4, 10));
-        re.add(new Info(6, 3));
-        re.add(new Info(7, 7));
-        re.add(new Info(8, 2));
-        re.add(new Info(5, 1));
-
-        return re;
-    }
+//    private List<Info> testinfo() {
+//        List<Info> re = new ArrayList<>();
+//        re.add(new Info(0, 0));
+//        re.add(new Info(1, 0));
+//        re.add(new Info(3, 5));
+//        re.add(new Info(4, 10));
+//        re.add(new Info(6, 3));
+//        re.add(new Info(7, 7));
+//        re.add(new Info(8, 2));
+//        re.add(new Info(5, 1));
+//        return re;
+//    }
 
     private boolean noneedrefreshinfo;
 
@@ -70,12 +65,20 @@ public class ChartView extends View {
     public void setMchartConfig(ChartViewConfig mchartConfig) {
         this.mchartConfig = mchartConfig;
         init();
+        noneedrefreshinfo = false;
         if (isAttachedToWindow())
             invalidate();
     }
 
     public void setmInfos(List<Info> mInfos) {
         this.mInfos = mInfos;
+        if (mInfos != null && mInfos.size() == 0) {
+            mInfos.add(new Info(mchartConfig.textFormatter.getDefaultX(), 0));
+        }
+        if (mInfos != null && mInfos.size() == 1) {
+            mInfos.add(new Info(mchartConfig.textFormatter.getDefaultX(), mInfos.get(0).y));
+        }
+        noneedrefreshinfo = false;
         Collections.sort(mInfos, (o1, o2) -> {
             return ((int) (o1.x - o2.x));
         });
@@ -103,6 +106,8 @@ public class ChartView extends View {
         String textYFormatter(long data);
 
         String textXAndYFormatter(long x, long y);
+
+        long getDefaultX();
     }
 
     public static class ChartViewConfig {
@@ -135,6 +140,12 @@ public class ChartView extends View {
             public String textXAndYFormatter(long x, long y) {
                 return "(" + x + "," + Y + ")";
             }
+
+            public long getDefaultX() {
+                return 0;
+            }
+
+            ;
         };
         public boolean isShowExtra = false;
 
@@ -181,11 +192,14 @@ public class ChartView extends View {
         if (mchartConfig != null) {
             textXPaint.setColor(mchartConfig.showXtextColor);
             textXPaint.setTextSize(mchartConfig.showXtextSize);
+            textXPaint.setAntiAlias(true);
             textYPaint.setColor(mchartConfig.showYtextColor);
+            textYPaint.setAntiAlias(true);
             textYPaint.setTextSize(mchartConfig.showYtextSize);
             textYPaint.setTextAlign(Paint.Align.RIGHT);
             linePaint.setColor(mchartConfig.lineColor);
             linePaint.setStrokeWidth(mchartConfig.lineSize);
+            linePaint.setAntiAlias(true);
             extraPaint.setColor(mchartConfig.extraColor);
             extraPaint.setTextSize(mchartConfig.extraSize);
             coordinatePaint.setColor(mchartConfig.coordinateColor);
@@ -228,6 +242,7 @@ public class ChartView extends View {
     private void drawTransGradient(Canvas canvas) {
         int width = realcooywidth;
         int height = realcooyheight;
+        if(realcooyheight==0||realcooywidth==0)return;
         Bitmap curPic = Bitmap.createBitmap(width, height, Bitmap.Config.ARGB_8888);
         for (int i = 0; i < curPic.getWidth(); i++) {
             for (int i1 = 0; i1 < curPic.getHeight(); i1++) {
@@ -263,13 +278,20 @@ public class ChartView extends View {
         }
         ymax = Collections.max(mInfos, (o1, o2) -> ((int) (o1.y - o2.y))).y;
         ymin = Collections.min(mInfos, (o1, o2) -> ((int) (o1.y - o2.y))).y;
-        xmax = Collections.max(mInfos, (o1, o2) -> ((int) (o1.x - o2.x))).x;
-        xmin = Collections.min(mInfos, (o1, o2) -> ((int) (o1.x - o2.x))).x;
+        xmax = Collections.max(mInfos, (o1, o2) -> {
+            return new Long(o1.x).compareTo(o2.x);
+        }).x;
+        xmin = Collections.min(mInfos, (o1, o2) -> {
+            return new Long(o1.x).compareTo(o2.x);
+        }).x;
         if (ymax == ymin) {
-            ymax = DEFALUTY;
+            ymax = 1024 * 1024 * 400;
+        }
+        if (ymax < ymin) {
+            ymax += ymin;
         }
         if (xmax == xmin) {
-            xmax = DEFAULTX;
+            xmax = mchartConfig.textFormatter.getDefaultX();
         }
         long[] py = new long[mchartConfig.showYcount];
         sy = new ArrayList();

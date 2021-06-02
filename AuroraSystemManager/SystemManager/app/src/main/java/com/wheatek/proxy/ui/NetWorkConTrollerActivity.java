@@ -88,7 +88,21 @@ public class NetWorkConTrollerActivity extends BaseWheatekActivity {
     }
 
     private void loadData() {
-        bindService();
+        loadingView();
+        new Thread(new Runnable() {
+            @Override
+            public void run() {
+                bindService();
+            }
+        }).start();
+    }
+
+    private void loadingView() {
+        findViewById(R.id.progress).setVisibility(View.VISIBLE);
+    }
+
+    private void cancelLoadingView() {
+        findViewById(R.id.progress).setVisibility(View.GONE);
     }
 
     private void initView() {
@@ -255,6 +269,7 @@ public class NetWorkConTrollerActivity extends BaseWheatekActivity {
 //            return o1.name.compareTo(o2.name);
         });
         if (mlist2.size() > 15) {
+            mSlideindexbar.setVisibility(View.VISIBLE);
             int pos = 0;
             for (ViewData viewData : mlist2) {
                 if (viewData.name.length() > 0) {
@@ -306,6 +321,7 @@ public class NetWorkConTrollerActivity extends BaseWheatekActivity {
     }
 
     private void refresh() {
+        cancelLoadingView();
         madapter.notifyDataSetChanged();
     }
 

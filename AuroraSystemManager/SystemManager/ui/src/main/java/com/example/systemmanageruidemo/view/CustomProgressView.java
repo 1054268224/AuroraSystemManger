@@ -21,7 +21,7 @@ public class CustomProgressView extends View {
     private int cp_percent_textcolor = 0xff009ACD;
     private int cp_background_color = 0xfff0f0f0;
     private int cp_progress_color = 0xff03C89F;
-    private boolean cp_background_is_stroke = true;
+    private boolean cp_background_is_stroke = false;
     private int cp_rect_round = 3;
     private Paint mPaint;
     private int mCenterX;

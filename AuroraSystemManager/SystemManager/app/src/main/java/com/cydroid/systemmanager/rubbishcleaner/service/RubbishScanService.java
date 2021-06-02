@@ -25,12 +25,6 @@ import com.cleanmaster.sdk.ICacheCallback;
 import com.cleanmaster.sdk.IKSCleaner;
 import com.cleanmaster.sdk.IResidualCallback;
 import com.cydroid.softmanager.R;
-import com.keniu.security.CleanMasterSDK;
-
-import java.io.File;
-import java.io.FileNotFoundException;
-import java.util.Locale;
-
 import com.cydroid.systemmanager.rubbishcleaner.RubbishCleanerMainActivity;
 import com.cydroid.systemmanager.rubbishcleaner.common.CleanTypeConst;
 import com.cydroid.systemmanager.rubbishcleaner.common.MsgConst;
@@ -39,6 +33,10 @@ import com.cydroid.systemmanager.utils.Log;
 import com.cydroid.systemmanager.utils.PreferenceHelper;
 import com.cydroid.systemmanager.utils.ServiceUtil;
 import com.cydroid.systemmanager.utils.UnitUtil;
+import com.keniu.security.CleanMasterSDK;
+
+import java.io.File;
+import java.util.Locale;
 
 public class RubbishScanService extends Service {
     private static final String TAG = "CyeeRubbishCleaner/RubbishCleanerService";
@@ -64,22 +62,29 @@ public class RubbishScanService extends Service {
     public void onCreate() {
         Log.d(DEBUG, TAG, "RubbishScanService onCreate()");
         super.onCreate();
-       try {
+        try {
             CleanMasterSDK.getInstance().Initialize(this);
-        }catch (Exception e){
+        } catch (Exception e) {
             Log.e(TAG, "onCreate err " + e.getMessage());
         }
     }
 
     @Override
     public int onStartCommand(Intent intent, int flags, int startId) {
-        ServiceUtil.handleStartForegroundServices(this);
+        boolean noneedf = false;
+        if (intent != null) {
+            noneedf = intent.getBooleanExtra("noneedforeground", false);
+        }
+        if (!noneedf) {
+            ServiceUtil.handleStartForegroundServices(this);
+        }
+
         startBySystemCheck = intent.getBooleanExtra("startBySystemCheck", false);
         //Chenyee guoxt modify for CSW1703VF-53 begin
         String action = intent.getAction();
-        if(action != null && action.equals("com.cydroid.systemanager.fourclock.clear")){
+        if (action != null && action.equals("com.cydroid.systemanager.fourclock.clear")) {
             onlycacheClean = true;
-        }else {
+        } else {
             onlycacheClean = false;
         }
         mQueryHandler = new BackgroundQueryHandler(getContentResolver());
@@ -87,8 +92,7 @@ public class RubbishScanService extends Service {
         mLanguage = locale.getLanguage();
         mCountry = locale.getCountry();
         bindKSService(intent);
-        ServiceUtil.handleStartForegroundServices(RubbishScanService.this);//xuanyuadd
-       //Chenyee guoxt modify for CSW1703VF-53 end
+        //Chenyee guoxt modify for CSW1703VF-53 end
         return Service.START_NOT_STICKY;
     }
 
@@ -98,7 +102,7 @@ public class RubbishScanService extends Service {
         super.onDestroy();
         try {
             unbindService(mServiceConn);
-        }catch (Exception e){
+        } catch (Exception e) {
             Log.e(TAG, "unbindService err " + e.getMessage());
         }
         mTotalSize = 0;
@@ -128,13 +132,11 @@ public class RubbishScanService extends Service {
     }
 
 
-
-
     private void scanPhoneRubbish() {
         //Chenyee guoxt modify for CSW1703VF-53 begin
-        if (onlycacheClean){
+        if (onlycacheClean) {
             scanCaches();
-        }else{
+        } else {
             scanCaches();
             scanAds();
             scanResiduals();
@@ -179,7 +181,7 @@ public class RubbishScanService extends Service {
                 Log.d(DEBUG, TAG, "cache dirPath" + dirPath + ",size:" + size);
                 sendScanMsg(MsgConst.FIND_ITEM, -1, size);
                 //Chenyee guoxt modify for CSW1703VF-53 begin
-                if(onlycacheClean && MsgConst.cy1703VF) {
+                if (onlycacheClean && MsgConst.cy1703VF) {
                     deleteFileReally(dirPath);
                 }
                 //Chenyee guoxt modify for CSW1703VF-53 end
@@ -330,7 +332,7 @@ public class RubbishScanService extends Service {
                 }
                 Log.d(TAG, "RubbishScanService, onQueryComplete, get apks size");
                 do {
-                    Log.d(DEBUG, TAG, "apk :"  + ",size:" + cursor.getLong(1));
+                    Log.d(DEBUG, TAG, "apk :" + ",size:" + cursor.getLong(1));
                     sendScanMsg(MsgConst.FIND_ITEM, -1, cursor.getLong(1)); // _size
                 } while (cursor.moveToNext());
             } catch (Exception e) {
@@ -351,20 +353,20 @@ public class RubbishScanService extends Service {
             switch (msg.what) {
                 case MsgConst.FIND_ITEM:
                     mTotalSize += Long.valueOf((String) msg.obj);
-                    if (startBySystemCheck && mTotalSize >= 100000000){
+                    if (startBySystemCheck && mTotalSize >= 100000000) {
                         stopServiceAndSendBroadcast();
                     }
                     break;
                 case MsgConst.END:
                     setScanFinishFlag(msg.arg1, true);
                     if (isAllScanFinished()) {
-                        if (startBySystemCheck){
+                        if (startBySystemCheck) {
                             stopServiceAndSendBroadcast();
-                        }else {
+                        } else {
                             //Chenyee guoxt modify for CSW1703VF-53 begin
-                            if (onlycacheClean){
+                            if (onlycacheClean) {
                                 onlycacheClean = false;
-                            }else {
+                            } else {
                                 judgeWhetherPopNotification();
                                 resetScanFlag();
                             }
@@ -438,6 +440,7 @@ public class RubbishScanService extends Service {
         Message msg = mHandler.obtainMessage(what, group, 0, sizeObj);
         mHandler.sendMessage(msg);
     }
+
     //Chenyee guoxt modify for CSW1703VF-53 begin
     // TODO: if file is very large, maybe have some problems(eg:ANR)
     public void deleteFileReally(String path) {
@@ -449,13 +452,13 @@ public class RubbishScanService extends Service {
         }
         FileUtil.recurDelete(new File(path));
         // Gionee <houjie><2015-10-08> add for CR01562723 begin
-        UnitUtil.updateMediaVolume(this,null, path);
+        UnitUtil.updateMediaVolume(this, null, path);
         // Gionee <houjie><2015-10-08> add for CR01562723 end
     }
     //Chenyee guoxt modify for CSW1703VF-53 end
 
-    private void stopServiceAndSendBroadcast(){
-        if (isSendBroadcast){
+    private void stopServiceAndSendBroadcast() {
+        if (isSendBroadcast) {
             return;
         }
         isSendBroadcast = true;
@@ -464,7 +467,7 @@ public class RubbishScanService extends Service {
         sendBroadcast(intent);
         try {
             unbindService(mServiceConn);
-        }catch (Exception e){
+        } catch (Exception e) {
             Log.e(TAG, "unbindService err " + e.getMessage());
         }
         stopSelf();

@@ -1,14 +1,15 @@
 /**
  * Copyright Statement:
- *
+ * <p>
  * Company: Gionee Communication Equipment Limited
- *
+ * <p>
  * Author: mengdw
- *
+ * <p>
  * Date: 2017-04-19 for 81367
  */
 package com.cydroid.softmanager.trafficassistant.utils;
 
+import android.content.Context;
 import android.os.Build;
 import android.os.Environment;
 import android.util.AtomicFile;
@@ -43,30 +44,31 @@ public class NetworkControlXmlFileUtil {
     private static final String WIFI_DISABLE_FILENAME = "wifi_disable_files.xml";
 
     private static NetworkControlXmlFileUtil mNetworkControlXmlFileUtil;
-    
+
     private final AtomicFile mMobileDisableFile;
     private final AtomicFile mWifiDisableFile;
-    
-    public static NetworkControlXmlFileUtil getInstance() {
+
+    public static NetworkControlXmlFileUtil getInstance(Context context) {
         if (null == mNetworkControlXmlFileUtil) {
             synchronized (NetworkControlXmlFileUtil.class) {
                 if (null == mNetworkControlXmlFileUtil) {
-                    mNetworkControlXmlFileUtil = new NetworkControlXmlFileUtil();
+                    mNetworkControlXmlFileUtil = new NetworkControlXmlFileUtil(context.getApplicationContext());
                 }
             }
         }
         return mNetworkControlXmlFileUtil;
     }
-    
-    private NetworkControlXmlFileUtil() {
-        mMobileDisableFile = new AtomicFile(new File(getDisabledFileDir(), MOBILE_DISABLE_FILENAME));
-        mWifiDisableFile = new AtomicFile(new File(getDisabledFileDir(), WIFI_DISABLE_FILENAME));
+
+    private NetworkControlXmlFileUtil(Context context) {
+        mMobileDisableFile = new AtomicFile(new File(getDisabledFileDir(context), MOBILE_DISABLE_FILENAME));
+        mWifiDisableFile = new AtomicFile(new File(getDisabledFileDir(context), WIFI_DISABLE_FILENAME));
     }
-    
-    private File getDisabledFileDir() {
-            return new File(Environment.getDataDirectory(), "misc/msdata");
+
+    private File getDisabledFileDir(Context context) {
+//            return new File(Environment.getDataDirectory(), "misc/msdata");
+        return new File(context.getFilesDir(), "misc/msdata");
     }
-    
+
     public synchronized List<String> getDisabledApps(int netType) {
         if (Constant.MOBILE == netType) {
             return readXmlFile(mMobileDisableFile);
@@ -74,7 +76,7 @@ public class NetworkControlXmlFileUtil {
             return readXmlFile(mWifiDisableFile);
         }
     }
-    
+
     private List<String> readXmlFile(AtomicFile file) {
         List<String> disableApps = new ArrayList<String>();
         FileInputStream in = null;
@@ -103,7 +105,7 @@ public class NetworkControlXmlFileUtil {
         }
         return disableApps;
     }
-    
+
     public synchronized void saveDisabledApps(List<String> apps, int netType) {
         if (Constant.MOBILE == netType) {
             writeXmlFile(mMobileDisableFile, apps);
@@ -111,10 +113,14 @@ public class NetworkControlXmlFileUtil {
             writeXmlFile(mWifiDisableFile, apps);
         }
     }
-    
+
     private void writeXmlFile(AtomicFile file, List<String> disableApps) {
         FileOutputStream fileOut = null;
         try {
+            if (!file.exists()) {
+                file.getBaseFile().getParentFile().mkdirs();
+                file.getBaseFile().createNewFile();
+            }
             fileOut = file.startWrite();
             XmlSerializer xmlOut = new FastXmlSerializer();
             xmlOut.setOutput(fileOut, "utf-8");

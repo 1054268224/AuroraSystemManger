@@ -117,10 +117,12 @@
         <!-- android:theme="@android:style/Theme.Holo.Light.NoActionBar" -->
         <service android:name=".TestService" />
 
+<!--        <activity android:name="com.wheatek.proxy.ui.TestActivity"></activity>-->
         <!-- newui=============start-->
         <activity
             android:name="com.wheatek.proxy.ui.HostMainActicity"
             android:screenOrientation="portrait"
+            android:launchMode="singleTop"
             android:theme="@style/MHostThemeMain">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

@@ -6,12 +6,12 @@ import com.example.systemmanageruidemo.trafficmonitor.bean.TraRecyBean;
 
 import java.util.List;
 
-public interface TrafficMonitorPresent<T extends TrafficMonitorView> extends PresentI<T> {
+public interface TrafficMonitorPresent<T extends  TrafficMonitorView> extends PresentI<T> {
     void onRequestSIM(TraPagerBean object);
 
     void responseSIM(TraPagerBean object);
 
-    void onInitData(List<TraRecyBean> list);
+    void onInitData(List<TraRecyBean> list,int simindex);
 
     void refresh(List<TraRecyBean> list);
 

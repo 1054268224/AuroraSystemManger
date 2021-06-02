@@ -43,4 +43,8 @@
     <color name="gradient_start_chart">#0003C89F</color>
     <color name="gradient_end_chart">#4003C89F</color>
     <!--    wyh-新的的流量管理页面 end-->
+
+    <color name="transparent">#00000000</color>
+    <color name="red_newui">#FF613c</color>
+    <color name="static_newui_tab">#ff8D8D8D</color>
 </resources>

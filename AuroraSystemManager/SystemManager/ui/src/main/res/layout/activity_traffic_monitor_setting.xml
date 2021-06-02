@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".trafficmonitor.TrafficMonitorSettingActivity">
+
+    <RelativeLayout
+        android:id="@+id/rl_flow_start_date"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="@drawable/ripple_gray_with_white_mask">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="28dp"
+            android:gravity="center_vertical|left"
+            android:textSize="16sp"
+            android:textColor="@color/textcolor_main_wyh_traf"
+            android:text="流量统计开始日期"/>
+
+        <TextView
+            android:id="@+id/tv_flow_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="38dp"
+            android:textSize="12sp"
+            android:gravity="center_vertical|right" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/ic_right_detail_wyh" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_flow_total"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rl_flow_start_date"
+        android:background="@drawable/ripple_gray_with_white_mask">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="28dp"
+            android:gravity="center_vertical|left"
+            android:textSize="16sp"
+            android:textColor="@color/textcolor_main_wyh_traf"
+            android:text="套餐总量"/>
+
+        <TextView
+            android:id="@+id/tv_flow_num_total"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="38dp"
+            android:textSize="12sp"
+            android:gravity="center_vertical|right" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/ic_right_detail_wyh" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_flow_used"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        app:layout_constraintTop_toBottomOf="@+id/rl_flow_total"
+        android:background="@drawable/ripple_gray_with_white_mask">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="28dp"
+            android:gravity="center_vertical|left"
+            android:textSize="16sp"
+            android:textColor="@color/textcolor_main_wyh_traf"
+            android:text="套餐已用"/>
+
+        <TextView
+            android:id="@+id/tv_flow_num_used"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="38dp"
+            android:textSize="12sp"
+            android:gravity="center_vertical|right" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/ic_right_detail_wyh" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_flow_limit"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rl_flow_used"
+        android:background="@drawable/ripple_gray_with_white_mask">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="28dp"
+            android:gravity="center_vertical|left"
+            android:textSize="16sp"
+            android:textColor="@color/textcolor_main_wyh_traf"
+            android:text="每日流量上限"/>
+
+        <TextView
+            android:id="@+id/tv_flow_num_limit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="38dp"
+            android:textSize="12sp"
+            android:gravity="center_vertical|right" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/ic_right_detail_wyh" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_flow_alert_value"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rl_flow_limit"
+        android:background="@drawable/ripple_gray_with_white_mask">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="28dp"
+            android:gravity="center_vertical|left"
+            android:textSize="16sp"
+            android:textColor="@color/textcolor_main_wyh_traf"
+            android:text="每月流量提醒警戒值"/>
+
+        <TextView
+            android:id="@+id/tv_flow_num_alert"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="38dp"
+            android:textSize="12sp"
+            android:gravity="center_vertical|right" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/ic_right_detail_wyh" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_flow_none"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rl_flow_alert_value"
+        android:background="@drawable/ripple_gray_with_white_mask">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="28dp"
+            android:gravity="center_vertical|left"
+            android:textSize="16sp"
+            android:textColor="@color/textcolor_main_wyh_traf"
+            android:text="流量用尽"/>
+
+        <TextView
+            android:id="@+id/tv_flow_none"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="38dp"
+            android:textSize="12sp"
+            android:gravity="center_vertical|right" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/ic_right_detail_wyh" />
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

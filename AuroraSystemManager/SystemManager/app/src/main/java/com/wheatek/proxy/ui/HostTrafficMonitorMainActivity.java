@@ -10,11 +10,11 @@ import android.net.NetworkPolicyManager;
 import android.net.NetworkStats;
 import android.net.NetworkTemplate;
 import android.net.TrafficStats;
+import android.os.AsyncTask;
 import android.os.Bundle;
 import android.os.Looper;
 import android.os.RemoteException;
 import android.os.ServiceManager;
-import android.util.Log;
 import android.view.View;
 
 import com.cydroid.softmanager.R;
@@ -22,7 +22,6 @@ import com.cydroid.softmanager.common.MainProcessSettingsProviderHelper;
 import com.cydroid.softmanager.trafficassistant.SIMInfoWrapper;
 import com.cydroid.softmanager.trafficassistant.SIMParame;
 import com.cydroid.softmanager.trafficassistant.controler.TrafficCalibrateControler;
-import com.cydroid.softmanager.trafficassistant.controler.TrafficNetworkController;
 import com.cydroid.softmanager.trafficassistant.net.AppItem;
 import com.cydroid.softmanager.trafficassistant.net.SummaryForAllUidLoader;
 import com.cydroid.softmanager.trafficassistant.net.UidDetail;
@@ -34,14 +33,13 @@ import com.cydroid.softmanager.trafficassistant.utils.TimeFormat;
 import com.cydroid.softmanager.trafficassistant.utils.TrafficassistantUtil;
 import com.example.systemmanageruidemo.actionpresent.TrafficMonitorPresent2;
 import com.example.systemmanageruidemo.actionview.TrafficMonitorView2;
-import com.example.systemmanageruidemo.trafficmonitor.TrafficMonitorMainActivity;
-
-import com.example.systemmanageruidemo.actionview.TrafficMonitorView;
 import com.example.systemmanageruidemo.trafficmonitor.TrafficMonitorMainActivity2;
 import com.example.systemmanageruidemo.trafficmonitor.bean.TraPagerBean;
 import com.example.systemmanageruidemo.trafficmonitor.bean.TraRecyBean;
+import com.example.systemmanageruidemo.view.ChartView;
 
 import java.util.ArrayList;
+import java.util.Calendar;
 import java.util.List;
 
 import static android.net.NetworkPolicyManager.POLICY_REJECT_METERED_BACKGROUND;
@@ -76,9 +74,9 @@ public class HostTrafficMonitorMainActivity extends HostProxyActivity<TrafficMon
     private INetworkStatsService mStatsService;
     private INetworkStatsSession mStatsSession;
     private NetworkPolicyManager mPolicyManager;
-    private NetworkTemplate mTemplate;
+    private NetworkTemplate[] mTemplate;
     private UidDetailProvider mUidDetailProvider;
-    private TrafficNetworkController mTrafficNetworkController;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -107,23 +105,24 @@ public class HostTrafficMonitorMainActivity extends HostProxyActivity<TrafficMon
 
     private void init() {
         mContext = this;
-        TrafficMonitorControlService.processMonitorControlServiceIntent(mContext, true);
+//        TrafficMonitorControlService.processMonitorControlServiceIntent(mContext, true);
         mTrafficCalibrateControler = TrafficCalibrateControler.getInstance(mContext);
-        mTrafficNetworkController = TrafficNetworkController.getInstance(mContext);
-        initNetworkInfo(mContext, 0);
-        mTrafficNetworkController.init();
-    }
-
-    private void initNetworkInfo(Context context, int simIndex) {
-        mTemplate = MobileTemplate.getTemplate(context, simIndex);
-        mUidDetailProvider = new UidDetailProvider(context);
+        mUidDetailProvider = new UidDetailProvider(mContext);
         mStatsService = INetworkStatsService.Stub.asInterface(ServiceManager
                 .getService(Context.NETWORK_STATS_SERVICE));
-        mPolicyManager = NetworkPolicyManager.from(context);
+        mPolicyManager = NetworkPolicyManager.from(mContext);
         try {
             mStatsSession = mStatsService.openSession();
         } catch (RemoteException e) {
             throw new RuntimeException(e);
+        }
+//        initNetworkInfo(mContext, 0);
+    }
+
+    private void initNetworkInfo(Context context, int simIndex) {
+        mTemplate = new NetworkTemplate[data.getList().size()];
+        for (int i = 0; i < data.getList().size(); i++) {
+            mTemplate[i] = MobileTemplate.getTemplate(context, (data.getList().get(i).getSlot()));
         }
     }
 
@@ -152,21 +151,23 @@ public class HostTrafficMonitorMainActivity extends HostProxyActivity<TrafficMon
             String name = simInfo.mDisplayName;
             long id = simInfo.mSimId;
             TraPagerBean.SIMBean bean = new TraPagerBean.SIMBean(id, name);
+            bean.setNumber(simInfo.mNumber);
             bean.setIssetted(mTrafficCalibrateControler.isTafficPackageSetted(mContext, i));
+            bean.setSlot(simInfo.mSlot);
             data.getList().add(bean);
-            int[] todayDate = TimeFormat.getNowTimeArray();
-            long startTime = TimeFormat.getStartTime(todayDate[0], todayDate[1] + 1, todayDate[2], 0, 0, 0);
-            bean.setUsedFlow(TrafficassistantUtil.getTrafficData(mContext, i, startTime, 0, 0));
+//            int[] todayDate = TimeFormat.getNowTimeArray();
+//            long startTime = TimeFormat.getStartTime(todayDate[0], todayDate[1] + 1, todayDate[2], 0, 0, 0);
+//            bean.setUsedFlow(TrafficassistantUtil.getTrafficData(mContext, i, startTime, 0, 0));
+            bean.setUsedFlow(mTrafficCalibrateControler.getCommonUsedTaffic(mContext, i));
             bean.setTraPack(mTrafficCalibrateControler.getCommonTotalTaffic(mContext, i));
             bean.setSurplusFlow(mTrafficCalibrateControler.getCommonLeftTraffic(mContext, i));
         }
         data.setSimCardScount(data.getList().size());
+        initNetworkInfo(mContext, 0);
         responseSIM(data);
-
     }
 
     private final LoaderManager.LoaderCallbacks<NetworkStats> mSummaryCallbacks = new LoaderManager.LoaderCallbacks<NetworkStats>() {
-
 
         @Override
         public Loader<NetworkStats> onCreateLoader(int id, Bundle args) {
@@ -208,10 +209,10 @@ public class HostTrafficMonitorMainActivity extends HostProxyActivity<TrafficMon
             String name = detail.label.toString();
             long size = appItem.total;
             String pkgName = mUidDetailProvider.getPackageName();
-            boolean isDisabledApp = isDisabledApp(pkgName);
+//            boolean isDisabledApp = isDisabledApp(pkgName, mContext);
             boolean isInvalidControlApp = isInvalidNetworkControlApp(pkgName, mContext);
             TraRecyBean bean = new TraRecyBean(pkgName, name);
-            bean.setIslimit(!isDisabledApp);
+//            bean.setIslimit(!isDisabledApp);
             bean.setImageId(detail.icon);
             bean.setUsedTraSize(size);
             bean.setInvalidControlApp(isInvalidControlApp);
@@ -230,15 +231,18 @@ public class HostTrafficMonitorMainActivity extends HostProxyActivity<TrafficMon
     private List<TraRecyBean> mlist;
 
     @Override
-    public void onInitData(List<TraRecyBean> list) {
+    public void onInitData(List<TraRecyBean> list, int simindex) {
         this.mlist = list;
         long[] timeZone = new long[3];
         int[] timeArray = TimeFormat.getNowTimeArray();
-        timeZone[0] = TimeFormat.getStartTime(timeArray[0], timeArray[1], 0, 0, 0, 0);
+//        timeZone[0] = TimeFormat.getStartTime(timeArray[0], timeArray[1]+1, 0, 0, 0, 0);
+        Calendar cl=Calendar.getInstance();
+        cl.set(cl.get(Calendar.YEAR),cl.get(Calendar.MONTH),cl.get(Calendar.DAY_OF_MONTH),0,0,0);
+        timeZone[0]=cl.getTimeInMillis();
         timeZone[1] = System.currentTimeMillis();
         timeZone[2] = System.currentTimeMillis();
         getLoaderManager().restartLoader(Constant.LOADER_SUMMARY,
-                SummaryForAllUidLoader.buildArgs(mTemplate, timeZone[0], timeZone[1]),
+                SummaryForAllUidLoader.buildArgs(mTemplate[simindex], timeZone[0], timeZone[1]),
                 mSummaryCallbacks);
     }
 
@@ -254,12 +258,91 @@ public class HostTrafficMonitorMainActivity extends HostProxyActivity<TrafficMon
 
     @Override
     public void onAppChangeState(TraRecyBean object, boolean ischecked) {
-        if (ischecked) {
-            mTrafficNetworkController.enableMobileNetwork(object.getPackageName());
-        } else {
-            mTrafficNetworkController.disableMobileNetwork(object.getPackageName());
-        }
-
+//        nothing
     }
 
+    List<ChartView.Info>[] mlist2 = new List[2];
+    int currentSim;
+
+    @Override
+    public void onRequestChartData(List<ChartView.Info> list, int currentSim) {
+        this.currentSim = currentSim;
+        if (mlist2[currentSim] == null) {
+            List list2 = new ArrayList<>();
+            mlist2[currentSim] = list2;
+            new MAsyncTask().execute(list2);
+        } else {
+            getWindow().getDecorView().postDelayed(new Runnable() {
+                @Override
+                public void run() {
+                    responseChartData(mlist2[currentSim], currentSim);
+                }
+            }, 250);
+
+        }
+    }
+
+    private class MAsyncTask extends AsyncTask<List<ChartView.Info>, Integer, Boolean> {
+
+        @Override
+        protected Boolean doInBackground(List<ChartView.Info>... lists) {
+            for (List<ChartView.Info> list : lists) {
+                list.clear();
+                List<Long> starts = queryTrafficSplitDay(getStarofDay());
+                if (starts.size() >= 2) {
+                    for (int i = 0; i < starts.size() - 1; i++) {
+                        long xstart = starts.get(i);
+                        long end = starts.get(i + 1);
+                        long y = TrafficassistantUtil.getTrafficData(mContext, ( data.getList().get(currentSim).getSlot()), xstart, end, 0);
+                        list.add(new ChartView.Info(xstart, y));
+                    }
+                }
+            }
+            return true;
+        }
+
+        @Override
+        protected void onPostExecute(Boolean aBoolean) {
+            super.onPostExecute(aBoolean);
+            responseChartData(mlist2[currentSim], currentSim);
+        }
+    }
+
+    private int getStarofDay() {
+        //// TODO: 2021/5/31
+        return 1;
+    }
+
+    public static List<Long> queryTrafficSplitDay(int startofday) {
+        List<Long> starts = new ArrayList<>();
+        Calendar calendar = Calendar.getInstance();
+//        System.out.println(calendar.getTime().toString());
+        int currentday = calendar.get(Calendar.DAY_OF_MONTH);
+        calendar.set(Calendar.HOUR_OF_DAY, 0);
+        calendar.set(Calendar.MINUTE, 0);
+        calendar.set(calendar.SECOND, 0);
+        if (startofday <= currentday) {
+            //本月
+        } else {  //上月
+            calendar.set(Calendar.MONTH, calendar.get(Calendar.MONTH) - 1);
+        }
+        calendar.set(Calendar.DAY_OF_MONTH, startofday);
+
+
+        for (; calendar.getTimeInMillis() < System.currentTimeMillis(); ) {
+            starts.add(new Long(calendar.getTimeInMillis()));
+            calendar.add(Calendar.DAY_OF_MONTH, 1);
+        }
+        starts.add(new Long(System.currentTimeMillis()));
+//        for (Long start : starts) {
+//            calendar.setTimeInMillis(start);
+////            System.out.println(calendar.getTime().toString());
+//        }
+        return starts;
+    }
+
+    @Override
+    public void responseChartData(List<ChartView.Info> list, int currentSim) {
+        viewAvtion.onResponseChartData(list, currentSim);
+    }
 }

@@ -16,14 +16,18 @@
 package com.chenyee.featureoption;
 
 
-import android.app.Service;
-import android.content.Context;
+import android.app.Notification;
 import android.app.NotificationChannel;
 import android.app.NotificationManager;
-import android.app.Notification;
-import android.os.Build;
+import android.app.PendingIntent;
+import android.app.Service;
+import android.content.Context;
 import android.content.Intent;
+import android.os.Build;
+
 import com.cydroid.softmanager.R;
+import com.wheatek.proxy.ui.HostMainActicity;
+
 public class ServiceUtil {
 
     private static final String CHANNEL_ID = "sysmanager_notification_channel";
@@ -37,6 +41,16 @@ public class ServiceUtil {
     }
 
     public static void handleStartForegroundServices(Context context) {
+        handleStartForegroundServices(context, getDefaultPendingIntent(context));
+    }
+
+    private static PendingIntent getDefaultPendingIntent(Context context) {
+        Intent intent = new Intent(context, HostMainActicity.class);
+        PendingIntent pendingIntent = PendingIntent.getActivity(context, 0, intent, 0);
+        return pendingIntent;
+    }
+
+    public static void handleStartForegroundServices(Context context, PendingIntent pendingIntent) {
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
 
             NotificationChannel channel = new NotificationChannel(CHANNEL_ID, "sysm notifications",
@@ -46,7 +60,9 @@ public class ServiceUtil {
             manager.createNotificationChannel(channel);
 
             Notification notification = new Notification.Builder(context.getApplicationContext(), CHANNEL_ID)
-                    .setSmallIcon(R.mipmap.ic_launcher)
+                    .setContentIntent(pendingIntent)
+                    .setSmallIcon(R.drawable.notify)
+                    .setColor(context.getResources().getColor(R.color.notify_icon_text_color))
                     .setContentTitle(context.getResources().getString(R.string.app_name))
                     .build();
             ((Service) context).startForeground(1, notification);

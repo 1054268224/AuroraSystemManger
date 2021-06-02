@@ -14,6 +14,7 @@ import android.os.SystemProperties;
 import android.preference.PreferenceManager;
 
 import com.android.internal.util.MemInfoReader;
+import com.chenyee.featureoption.ServiceUtil;
 import com.cydroid.softmanager.common.Consts;
 import com.cydroid.softmanager.common.Util;
 import com.cydroid.softmanager.greenbackground.GreenBackgroundService;
@@ -28,10 +29,6 @@ import com.cydroid.softmanager.trafficassistant.utils.Constant;
 import com.cydroid.softmanager.trafficassistant.utils.TrafficassistantUtil;
 import com.cydroid.softmanager.update.UpdateService;
 import com.cydroid.softmanager.utils.Log;
-
-import cyee.changecolors.ChameleonColorManager;
-
-import com.chenyee.featureoption.ServiceUtil;
 import com.cydroid.systemmanager.CyeeSystemManagerSDKApp;
 import com.cyee.utils.LogUtil;
 
@@ -62,51 +59,45 @@ public class CyeeSystemManagerApp extends Application {
             if (curProcessName.equals(remoteProcessName)) {
                 startServiceInRemoteProcess(CyeeSystemManagerApp.this);
             } else if (curProcessName.equals(getPackageName())) {
-                startHotSpotService(CyeeSystemManagerApp.this);
-                TrafficResidentService.processTrafficServiceIntent(CyeeSystemManagerApp.this, true);
+                startServiceInLocal(CyeeSystemManagerApp.this);
             }
 
             Log.d(TAG, "CyeeSystemManagerApp is created!(" + curProcessName + ")");
         }).start();
-//        startService(new Intent(this,PowerManagerService.class));
+        startService(new Intent(this, PowerManagerService.class));
         LogUtil.LOGD("Application onCreate end");
+    }
+
+    private void startServiceInLocal(Context context) {
+        startHotSpotService(context);
+        TrafficResidentService.processTrafficServiceIntent(context, true);
+        startServiceInRemoteProcess(context);
     }
 
     Context mContext;
 
     private void startServiceInRemoteProcess(Context context) {
         Log.d(TAG, "enter startRemoteProcessServiceByAppCreate!");
-        //guoxt modfiy begin
-        // scheduleUpdateService(context);
-//        startPowerModeService(context);
-//        startPowerConsumeService(context);
-
-//        startGreenBackgroundService(context);
-
-        //guoxt modify for CSW1702A-514 begin
-        // startAnalysisPowerDataService(context);
-        //guoxt modify for CSW1702A-514 end
-        // Gionee <yangxinruo> <2016-01-4> add for CR01617315 begin
-        // Gionee <houjie> <2015-08-19> add for CR01559020 begin
-//        startCpuMonitorService(context);
-        // Gionee <houjie> <2015-08-19> add for CR01559020 end
-        // Gionee <yangxinruo> <2016-01-4> add for CR01617315 end
-        // Gionee <yangxinruo><2016-1-5> add for CR01618272 begin
-//        startScreenOffCleanService(context);
-        // Gionee <yangxinruo><2016-1-5> add for CR01618272 end
+//        scheduleUpdateService(context);
+        startPowerModeService(context);
+        startPowerConsumeService(context);
+        startGreenBackgroundService(context);
+        startAnalysisPowerDataService(context);
+        startCpuMonitorService(context);
+        startScreenOffCleanService(context);
     }
 
-    @SuppressLint("NewApi")
-    private void scheduleUpdateService(Context context) {
-        Log.d(TAG, "schedule new UpdateService job");
-        JobScheduler jobScheduler = (JobScheduler) context.getSystemService(Context.JOB_SCHEDULER_SERVICE);
-        JobInfo.Builder builder = new JobInfo.Builder(UpdateService.JOB_ID,
-                new ComponentName(context.getPackageName(), UpdateService.class.getName()));
-        builder.setRequiredNetworkType(JobInfo.NETWORK_TYPE_UNMETERED);
-        if (jobScheduler.schedule(builder.build()) <= 0) {
-            Log.d(TAG, "schedule UpdateService failed!");
-        }
-    }
+//    @SuppressLint("NewApi")
+//    private void scheduleUpdateService(Context context) {
+//        Log.d(TAG, "schedule new UpdateService job");
+//        JobScheduler jobScheduler = (JobScheduler) context.getSystemService(Context.JOB_SCHEDULER_SERVICE);
+//        JobInfo.Builder builder = new JobInfo.Builder(UpdateService.JOB_ID,
+//                new ComponentName(context.getPackageName(), UpdateService.class.getName()));
+//        builder.setRequiredNetworkType(JobInfo.NETWORK_TYPE_UNMETERED);
+//        if (jobScheduler.schedule(builder.build()) <= 0) {
+//            Log.d(TAG, "schedule UpdateService failed!");
+//        }
+//    }
 
     // mengdw <2015-10-20> add for CR01571760 begin
     private void startHotSpotService(Context context) {

@@ -50,7 +50,7 @@ public class TrafficMonitorMainActivity extends BaseSupportProxyActivity<Traffic
         setContentView(R.layout.activity_traffic_monitor_main);
         initView();
         requestSIM(data);
-        initData(recyBeanList);
+        initData(recyBeanList,0);
 
     }
 
@@ -109,8 +109,8 @@ public class TrafficMonitorMainActivity extends BaseSupportProxyActivity<Traffic
     }
 
     @Override
-    public void initData(List<TraRecyBean> list) {
-        presenter.onInitData(list);
+    public void initData(List<TraRecyBean> list,int simindex) {
+        presenter.onInitData(list,simindex);
     }
 
     @Override

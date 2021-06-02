@@ -102,7 +102,7 @@ public class TrafficNetworkController implements PackageChangedCallback, LocalCh
     }
     
     private TrafficNetworkControlAppInfo createControlAppInfo(String pkgName, int uid, int netType) {
-        NetworkControlXmlFileUtil xmlFileUtil = NetworkControlXmlFileUtil.getInstance();
+        NetworkControlXmlFileUtil xmlFileUtil = NetworkControlXmlFileUtil.getInstance(mContext);
         List<String> disableApps = xmlFileUtil.getDisabledApps(netType);
         TrafficNetworkControlAppInfo controlAppInfo = new TrafficNetworkControlAppInfo();
         String appName = TrafficassistantUtil.getAppLabel(mContext, pkgName);
@@ -178,7 +178,7 @@ public class TrafficNetworkController implements PackageChangedCallback, LocalCh
         if (apps.isEmpty()) {
             return;
         }
-        NetworkControlXmlFileUtil xmlFileUtil = NetworkControlXmlFileUtil.getInstance();
+        NetworkControlXmlFileUtil xmlFileUtil = NetworkControlXmlFileUtil.getInstance(mContext);
         List<String> disableApps = xmlFileUtil.getDisabledApps(netType);
         for (int i = 0; i < apps.size(); i++) {
             String pkgName = apps.get(i);
@@ -229,7 +229,7 @@ public class TrafficNetworkController implements PackageChangedCallback, LocalCh
         if (apps.isEmpty()) {
             return;
         }
-        NetworkControlXmlFileUtil xmlFileUtil = NetworkControlXmlFileUtil.getInstance();
+        NetworkControlXmlFileUtil xmlFileUtil = NetworkControlXmlFileUtil.getInstance(mContext);
         List<String> disableApps = xmlFileUtil.getDisabledApps(netType);
         for (int i = 0; i < apps.size(); i++) {
             String pkgName = apps.get(i);

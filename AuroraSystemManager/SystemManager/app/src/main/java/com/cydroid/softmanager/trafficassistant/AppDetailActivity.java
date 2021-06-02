@@ -234,7 +234,7 @@ public class AppDetailActivity extends CyeeActivity implements OnClickListener {
         initNetworkControlApp();
 
         String pkgName = null != mUidDetailProvider ? mUidDetailProvider.getPackageName() : "";
-        boolean isDisabledApp = isDisabledApp(pkgName);
+        boolean isDisabledApp = isDisabledApp(pkgName,AppDetailActivity.this);
         boolean isInvalidControlApp = isInvalidNetworkControlApp(pkgName,mContext);
         sendUiMsg(isDisabledApp, isInvalidControlApp);
     }
@@ -269,8 +269,8 @@ public class AppDetailActivity extends CyeeActivity implements OnClickListener {
         }
     }
 
-    public static boolean isDisabledApp(String packageName) {
-        NetworkControlXmlFileUtil xmlFileUtil = NetworkControlXmlFileUtil.getInstance();
+    public static boolean isDisabledApp(String packageName,Context context) {
+        NetworkControlXmlFileUtil xmlFileUtil = NetworkControlXmlFileUtil.getInstance(context);
         List<String> disableApps = xmlFileUtil.getDisabledApps(Constant.MOBILE);
         return disableApps.contains(packageName);
     }

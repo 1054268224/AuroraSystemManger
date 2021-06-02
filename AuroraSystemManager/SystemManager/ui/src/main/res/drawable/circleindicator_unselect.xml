@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="oval">
+    <solid android:color="@color/white_wyh_traf"></solid>
+    <size
+        android:width="6dp"
+        android:height="6dp" />
+    <stroke
+        android:width="1px"
+        android:color="@color/textcolor_hint_wyh_traf" />
+</shape>

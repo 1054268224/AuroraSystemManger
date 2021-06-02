@@ -43,24 +43,28 @@ public class UnitUtil {
     }
 
     /**
-     * @param size
+     * @param size0
      * @return
      */
-    public static String convertStorage(long size) {
+    public static String convertStorage(long size0) {
+        String re = "";
+        String ff = size0 >= 0 ? "" : "-";
+        long size = Math.abs(size0);
         long kb = 1024;
         long mb = kb * 1024;
         long gb = mb * 1024;
         if (size >= gb) {
-            return String.format("%.1fGB", (float) size / gb);
+            re = String.format("%.1fGB", (float) size / gb);
         } else if (size >= mb) {
             float f = (float) size / mb;
-            return String.format(f > 100 ? "%.0fMB" : "%.1fMB", f);
+            re = String.format(f > 100 ? "%.0fMB" : "%.1fMB", f);
         } else if (size >= kb) {
             float f = (float) size / kb;
-            return String.format(f > 100 ? "%.0fKB" : "%.1fKB", f);
+            re = String.format(f > 100 ? "%.0fKB" : "%.1fKB", f);
         } else {
-            return String.format("%dB", size);
+            re = String.format("%dB", size);
         }
+        return ff + re;
     }
 
     /**
@@ -70,17 +74,22 @@ public class UnitUtil {
      * @return
      */
     public static String convertStorage3(float size0) {
-        int size = Math.round(size0);
+        String re = "";
+        int size = Math.round((size0));
+        String ff = size >= 0 ? "" : "-";
+        size = Math.abs(size);
         long kb = 1024;
         long mb = kb * 1024;
         if (size >= mb) {
-            return String.format("%.1fTB", (float) size / mb);
+            re = String.format("%.1fTB", (float) size / mb);
         } else if (size >= kb) {
             float f = (float) size / kb;
-            return String.format(f > 100 ? "%.0fGB" : "%.1fGB", f);
+            re = String.format(f > 100 ? "%.0fGB" : "%.1fGB", f);
         } else {
-            return String.format("%dMB", size);
+            re = String.format("%.1fMB", Math.abs(size0));
         }
+        return ff + re;
+
     }
 
     /**
@@ -94,14 +103,16 @@ public class UnitUtil {
     /**
      * 单位分开
      *
-     * @param size
+     * @param size0
      * @return
      */
-    public static String[] convertStorage2(long size) {
+    public static String[] convertStorage2(long size0) {
         String re[] = new String[2];
         long kb = 1024;
         long mb = kb * 1024;
         long gb = mb * 1024;
+        String ff = size0 >= 0 ? "" : "-";
+        long size = Math.abs(size0);
         if (size >= gb) {
             re[0] = String.format("%.1f", (float) size / gb);
             re[1] = "GB";
@@ -117,6 +128,7 @@ public class UnitUtil {
             re[0] = String.format("%d", size);
             re[1] = "B";
         }
+        re[0] = ff + re[0];
         return re;
     }
 
@@ -126,17 +138,36 @@ public class UnitUtil {
 
 
     public static String[] convertStorage4(float size0) {
-        return convertStorage4(Math.round(size0));
+        String re[] = new String[2];
+        String ff = size0 >= 0 ? "" : "-";
+        long size = Math.abs(Math.round(size0));
+        long Gb = 1024;
+        long tb = Gb * 1024;
+        if (size >= tb) {
+            re[0] = String.format("%.1f", (float) size / tb);
+            re[1] = "TB";
+        } else if (size >= Gb) {
+            float f = (float) size / Gb;
+            re[0] = String.format(f > 100 ? "%.0f" : "%.1f", f);
+            re[1] = "GB";
+        } else {
+            re[0] = String.format("%.1f", Math.abs(size0));
+            re[1] = "MB";
+        }
+        re[0] = ff + re[0];
+        return re;
     }
 
     /**
      * mb最小 单位分开
      *
-     * @param size
+     * @param size0
      * @return
      */
-    public static String[] convertStorage4(long size) {
+    public static String[] convertStorage4(long size0) {
         String re[] = new String[2];
+        String ff = size0 >= 0 ? "" : "-";
+        long size = Math.abs(size0);
         long Gb = 1024;
         long tb = Gb * 1024;
         if (size >= tb) {
@@ -150,6 +181,7 @@ public class UnitUtil {
             re[0] = String.format("%d", size);
             re[1] = "MB";
         }
+        re[0] = ff + re[0];
         return re;
     }
 }

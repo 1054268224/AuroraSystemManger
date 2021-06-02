@@ -31,8 +31,12 @@ public class ServiceUtil {
     public static final String CHANNEL_ID = "sysmanager_notification_channel";
 
     public static void startForegroundService(Context context, Intent intent) {
+        startForegroundService(context, intent, false);
+    }
 
-        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
+    public static void startForegroundService(Context context, Intent intent, boolean noneedforeground) {
+        intent.putExtra("noneedforeground", noneedforeground);
+        if (!noneedforeground&&Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
             context.startForegroundService(intent);
         } else {
             context.startService(intent);
@@ -56,6 +60,5 @@ public class ServiceUtil {
         }
     }
 
-    
 
 }

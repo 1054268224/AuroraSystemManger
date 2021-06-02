@@ -3,8 +3,12 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="144dp"
-    android:layout_margin="12dp"
+    android:layout_height="match_parent"
+    android:layout_marginStart="12dp"
+    android:layout_marginTop="12dp"
+    android:layout_marginEnd="12dp"
+    android:paddingBottom="12dp"
+    android:layout_marginBottom="2dp"
     android:background="@drawable/traffic_doublesim_simcard_container_bg"
     android:paddingStart="30dp"
     android:paddingEnd="20dp">
@@ -43,7 +47,7 @@
         android:id="@+id/phone_number"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="7dp"
         android:text="13854457889"
         android:textColor="@color/textcolor_main_wyh_traf"
         android:textSize="12sp"
@@ -56,18 +60,20 @@
 
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="7dp"
         android:orientation="horizontal"
         android:textColor="@color/textcolor_main_wyh_traf"
         android:textSize="12sp"
-        app:layout_constraintEnd_toEndOf="@+id/phone_number"
+        app:layout_constraintEnd_toEndOf="@+id/linearLayout"
         app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="@+id/phone_number"
+        app:layout_constraintStart_toStartOf="@+id/linearLayout"
         app:layout_constraintTop_toBottomOf="@+id/phone_number">
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:minWidth="70dp"
+            android:gravity="center"
             android:text="32.64"
             android:id="@+id/surplus_flow"
             android:textColor="@color/textcolor_black_wyh_traf"
@@ -77,7 +83,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:layout_marginStart="10dp"
+            android:layout_marginStart="5dp"
 
             android:orientation="vertical">
 
@@ -85,7 +91,6 @@
                 android:id="@+id/unit"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginEnd="10dp"
                 android:text="MB"
                 android:textColor="@color/textcolor_main_wyh_traf"
                 android:textSize="12sp" />
@@ -103,7 +108,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:layout_marginStart="20dp"
+            android:layout_marginStart="10dp"
             android:orientation="vertical">
 
             <TextView

@@ -34,6 +34,24 @@ public class TraPagerBean {
         float usedFlow;
         long traPack;
         boolean issetted;
+        String number;
+        int slot;
+
+        public int getSlot() {
+            return slot;
+        }
+
+        public void setSlot(int slot) {
+            this.slot = slot;
+        }
+
+        public String getNumber() {
+            return number;
+        }
+
+        public void setNumber(String number) {
+            this.number = number;
+        }
 
         public boolean isIssetted() {
             return issetted;

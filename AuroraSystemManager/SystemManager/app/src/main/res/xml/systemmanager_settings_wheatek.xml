@@ -9,7 +9,7 @@
 
         <SwitchPreferenceCompat
             android:defaultValue="false"
-            android:key="net_key"
+            android:key="notficationTrafficInfo"
             android:title="@string/net_monitor_title"
             android:layout="@layout/wheatek_preference_switch_dash" />
 
@@ -19,11 +19,11 @@
             android:title="@string/energy_monitor_title"
             android:layout="@layout/wheatek_preference_switch_dash" />
 
-        <SwitchPreferenceCompat
-            android:defaultValue="false"
-            android:key="apps_key"
-            android:title="@string/apps_monitor_title"
-            android:layout="@layout/wheatek_preference_switch_dash" />
+<!--        <SwitchPreferenceCompat-->
+<!--            android:defaultValue="false"-->
+<!--            android:key="apps_key"-->
+<!--            android:title="@string/apps_monitor_title"-->
+<!--            android:layout="@layout/wheatek_preference_switch_dash" />-->
 
         <SwitchPreferenceCompat
             android:defaultValue="true"

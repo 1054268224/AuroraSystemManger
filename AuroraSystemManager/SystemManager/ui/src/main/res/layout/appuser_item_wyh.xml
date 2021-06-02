@@ -19,7 +19,6 @@
         android:layout_height="32dp"
         app:srcCompat="@drawable/ic_settraffic_wyh" />
 
-
     <LinearLayout
         android:id="@+id/savetraffic_lay"
         android:layout_width="0dp"
@@ -56,6 +55,8 @@
     </LinearLayout>
 
     <ImageView
+        android:id="@+id/listener_right"
+        android:visibility="gone"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="24dp"

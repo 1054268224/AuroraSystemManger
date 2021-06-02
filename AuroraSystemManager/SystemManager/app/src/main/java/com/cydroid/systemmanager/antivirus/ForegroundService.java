@@ -45,6 +45,7 @@ import com.cydroid.systemmanager.utils.UnitUtil;
 /**
  * Foreground service to keep application alive.
  */
+@Deprecated
 public class ForegroundService extends Service
 {
 //    ScanApplication, ScanApplications, ScanInboxMultimediaMessages, ScanInboxTextMessages, ScanMultimediaMessage, ScanMultimediaMessages, ScanPath, ScanTextMessage, ScanTextMessages

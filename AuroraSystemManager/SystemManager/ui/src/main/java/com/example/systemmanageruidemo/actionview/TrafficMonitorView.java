@@ -11,7 +11,7 @@ public interface TrafficMonitorView<T extends  TrafficMonitorPresent>  extends V
 
     void onResponseSIM(TraPagerBean object);
 
-    void initData(List<TraRecyBean> list);
+    void initData(List<TraRecyBean> list,int simindex);
 
     void onRefresh(List<TraRecyBean> list);
 

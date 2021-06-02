@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/more_text"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:paddingStart="28dp"
@@ -8,5 +9,4 @@
     android:paddingBottom="15dp"
     android:text="@string/more_appusertraffic_container"
     android:textColor="@color/textcolor_main_wyh_traf"
-    android:textSize="16sp">
-</TextView>
+    android:textSize="16sp"></TextView>
