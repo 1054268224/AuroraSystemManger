@@ -13,7 +13,7 @@
         android:layout_height="1px"
         android:layout_marginTop="7dp"
         android:layout_marginBottom="7dp"
-        android:background="@color/textcolor_hint_wyh_traf"></View>
+        android:background="@color/textcolor_shade_wyh_traf"></View>
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -26,8 +26,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="20dp"
-            android:layout_marginTop="10dp"
-            android:layout_marginBottom="10dp"
+            android:layout_marginTop="14dp"
+            android:layout_marginBottom="14dp"
             android:layout_weight="1"
             android:gravity="center_vertical"
             android:text="10MB"
@@ -44,8 +44,8 @@
             android:drawableLeft="@drawable/checkboxselected2"
             android:gravity="center"
             android:padding="1dp">
-
         </CheckBox>
+
     </LinearLayout>
 
     <View
@@ -53,5 +53,5 @@
         android:layout_height="1px"
         android:layout_marginTop="7dp"
         android:layout_marginBottom="7dp"
-        android:background="@color/textcolor_hint_wyh_traf"></View>
+        android:background="@color/textcolor_shade_wyh_traf"></View>
 </LinearLayout>

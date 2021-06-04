@@ -50,16 +50,14 @@ public class PowerSaveManagerMainActivity extends BaseSupportProxyActivity<Power
 
         /*省电管理，电池显示百分比；以及可使用时间*/
         batteryLevel = findViewById(R.id.battery_level);
-        batteryTime = findViewById(R.id.power_usedtime);
-        batteryLevel.setText(UnitUtil.getStr(mContext, R.string.battery_level_test));
-        batteryTime.setText(UnitUtil.getStr(mContext, R.string.battery_state) + UnitUtil.getStr(mContext, R.string.normal_mode_flow));
+        batteryTime = findViewById(R.id.power_usedtime);;
 
         /*省电模式*/
         PowerItem.Mode norMode = new PowerItem.Mode(UnitUtil.getStr(mContext, R.string.normal_mode_title), UnitUtil.getStr(mContext, R.string.normal_mode_desc), UnitUtil.getStr(mContext, R.string.normal_mode_detail), false);
         modes.add(norMode);
-        PowerItem.Mode dayilyMode = new PowerItem.Mode(UnitUtil.getStr(mContext, R.string.daily_save_mode_title), UnitUtil.getStr(mContext, R.string.daily_save_mode_desc), UnitUtil.getStr(mContext, R.string.daily_save_mode_detail) + UnitUtil.getStr(mContext, R.string.daily_save_mode_flow), false);
+        PowerItem.Mode dayilyMode = new PowerItem.Mode(UnitUtil.getStr(mContext, R.string.daily_save_mode_title), UnitUtil.getStr(mContext, R.string.daily_save_mode_desc), UnitUtil.getStr(mContext, R.string.daily_save_mode_detail) + "", false);
         modes.add(dayilyMode);
-        PowerItem.Mode ultimateMode = new PowerItem.Mode(UnitUtil.getStr(mContext, R.string.ultimate_save_mode_title), UnitUtil.getStr(mContext, R.string.ultimate_save_mode_desc), UnitUtil.getStr(mContext, R.string.ultimate_save_mode_detail) + UnitUtil.getStr(mContext, R.string.ultimate_save_mode_flow), false);
+        PowerItem.Mode ultimateMode = new PowerItem.Mode(UnitUtil.getStr(mContext, R.string.ultimate_save_mode_title), UnitUtil.getStr(mContext, R.string.ultimate_save_mode_desc), UnitUtil.getStr(mContext, R.string.ultimate_save_mode_detail) + "", false);
         modes.add(ultimateMode);
 
         /*耗电详情*/

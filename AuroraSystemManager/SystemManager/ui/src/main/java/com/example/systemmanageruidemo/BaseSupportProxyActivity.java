@@ -3,6 +3,7 @@ package com.example.systemmanageruidemo;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.content.pm.ApplicationInfo;
 import android.content.res.Resources;
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -329,4 +330,12 @@ public abstract class BaseSupportProxyActivity<D extends PresentI> extends AppCo
         abstract String fifname(String name);
     }
 
+    @Override
+    public ApplicationInfo getApplicationInfo() {
+        if (null != mProxyActivity) {
+            return mProxyActivity.getApplicationInfo();
+        } else {
+            return super.getApplicationInfo();
+        }
+    }
 }

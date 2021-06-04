@@ -10,6 +10,8 @@ public class AppItem implements Parcelable {
     public boolean restricted;
     public SparseBooleanArray uids = new SparseBooleanArray();
     public long total;
+    public long qiantai;
+    public long houtai;
 
     public AppItem(int key) {
         this.key = key;

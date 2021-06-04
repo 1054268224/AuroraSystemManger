@@ -8,7 +8,12 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true">
-        <activity android:name=".trafficmonitor.TrafficMonitorSettingActivity"></activity>
+        <activity android:name=".trafficmonitor.TrafficMonitorSettingActivity" />
+        <activity
+            android:name=".trafficmonitor.SelectSomethingActivity"
+            android:screenOrientation="portrait"
+            android:label="@string/tra_flow_daily_limit"></activity>
+
         <activity
             android:name=".optimise.OptimiseActivity"
             android:launchMode="singleTask"

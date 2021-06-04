@@ -82,6 +82,7 @@ public class TraRecyAdapter2 extends RecyclerView.Adapter<TraRecyAdapter2.VH> {
                 holder.mProgress.setProgressCurrent(((int) (data.getUsedTraSize() * 100 / maxl)));
             }
             holder.mlistenerRight.setVisibility(listener == null ? View.GONE : View.VISIBLE);
+            holder.itemView.setTag(position);
             holder.itemView.setOnClickListener(listener);
         }
     }

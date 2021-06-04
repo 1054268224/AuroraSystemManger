@@ -1,9 +1,10 @@
 package com.wheatek.proxy.ui;
 
+import android.app.ActivityManager;
 import android.app.LoaderManager;
 import android.content.Context;
+import android.content.Intent;
 import android.content.Loader;
-import android.graphics.drawable.ColorDrawable;
 import android.net.INetworkStatsService;
 import android.net.INetworkStatsSession;
 import android.net.NetworkPolicyManager;
@@ -15,9 +16,11 @@ import android.os.Bundle;
 import android.os.Looper;
 import android.os.RemoteException;
 import android.os.ServiceManager;
-import android.view.View;
+import android.os.UserHandle;
+import android.os.UserManager;
+import android.util.SparseArray;
 
-import com.cydroid.softmanager.R;
+
 import com.cydroid.softmanager.common.MainProcessSettingsProviderHelper;
 import com.cydroid.softmanager.trafficassistant.SIMInfoWrapper;
 import com.cydroid.softmanager.trafficassistant.SIMParame;
@@ -26,7 +29,6 @@ import com.cydroid.softmanager.trafficassistant.net.AppItem;
 import com.cydroid.softmanager.trafficassistant.net.SummaryForAllUidLoader;
 import com.cydroid.softmanager.trafficassistant.net.UidDetail;
 import com.cydroid.softmanager.trafficassistant.net.UidDetailProvider;
-import com.cydroid.softmanager.trafficassistant.service.TrafficMonitorControlService;
 import com.cydroid.softmanager.trafficassistant.utils.Constant;
 import com.cydroid.softmanager.trafficassistant.utils.MobileTemplate;
 import com.cydroid.softmanager.trafficassistant.utils.TimeFormat;
@@ -43,7 +45,6 @@ import java.util.Calendar;
 import java.util.List;
 
 import static android.net.NetworkPolicyManager.POLICY_REJECT_METERED_BACKGROUND;
-import static com.cydroid.softmanager.trafficassistant.AppDetailActivity.isDisabledApp;
 import static com.cydroid.softmanager.trafficassistant.AppDetailActivity.isInvalidNetworkControlApp;
 import static com.cydroid.softmanager.trafficassistant.TrafficRankActivity.getAppsUsingMobileData;
 
@@ -83,15 +84,7 @@ public class HostTrafficMonitorMainActivity extends HostProxyActivity<TrafficMon
         init();
         super.onCreate(savedInstanceState);
 //        getSupportActionBar().setTitle(R.string.traffic_control_summary);
-
-        getSupportActionBar().setHomeButtonEnabled(true);
-        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-        getSupportActionBar().setBackgroundDrawable(new ColorDrawable(getColor(R.color.host_bar_bg_white)));
-        getSupportActionBar().setElevation(0.0f);
-        getSupportActionBar().setHomeAsUpIndicator(R.drawable.svg_icon_back_left);
-        getWindow().getDecorView().setSystemUiVisibility(getWindow().getDecorView().getSystemUiVisibility() | View.SYSTEM_UI_FLAG_LIGHT_STATUS_BAR);
-        getWindow().setStatusBarColor(getColor(R.color.cyee_transparent));
-        getWindow().setBackgroundDrawable(new ColorDrawable(getColor(R.color.host_bar_bg_white)));
+        setSimpleSupportABar(this);
     }
 
 
@@ -152,15 +145,16 @@ public class HostTrafficMonitorMainActivity extends HostProxyActivity<TrafficMon
             long id = simInfo.mSimId;
             TraPagerBean.SIMBean bean = new TraPagerBean.SIMBean(id, name);
             bean.setNumber(simInfo.mNumber);
-            bean.setIssetted(mTrafficCalibrateControler.isTafficPackageSetted(mContext, i));
+            bean.setIssetted(mTrafficCalibrateControler.isTafficPackageSetted(mContext, simInfo.mSlot));
             bean.setSlot(simInfo.mSlot);
+            bean.setmICCId(simInfo.mICCId);
             data.getList().add(bean);
 //            int[] todayDate = TimeFormat.getNowTimeArray();
 //            long startTime = TimeFormat.getStartTime(todayDate[0], todayDate[1] + 1, todayDate[2], 0, 0, 0);
 //            bean.setUsedFlow(TrafficassistantUtil.getTrafficData(mContext, i, startTime, 0, 0));
-            bean.setUsedFlow(mTrafficCalibrateControler.getCommonUsedTaffic(mContext, i));
-            bean.setTraPack(mTrafficCalibrateControler.getCommonTotalTaffic(mContext, i));
-            bean.setSurplusFlow(mTrafficCalibrateControler.getCommonLeftTraffic(mContext, i));
+            bean.setUsedFlow(mTrafficCalibrateControler.getCommonUsedTaffic(mContext, simInfo.mSlot));
+            bean.setTraPack(mTrafficCalibrateControler.getCommonTotalTaffic(mContext, simInfo.mSlot));
+            bean.setSurplusFlow(mTrafficCalibrateControler.getCommonLeftTraffic(mContext, simInfo.mSlot));
         }
         data.setSimCardScount(data.getList().size());
         initNetworkInfo(mContext, 0);
@@ -200,10 +194,109 @@ public class HostTrafficMonitorMainActivity extends HostProxyActivity<TrafficMon
             }).start();
         }
     }
+//    /**
+//     * Bind the given {@link NetworkStats}, or {@code null} to clear list.
+//     */
+//    private void bindStats(Context context,NetworkStats stats, int[] restrictedUids) {
+//        mApps.removeAll();
+//        if (stats == null) {
+//            if (LOGD) {
+//                Log.d(TAG, "No network stats data. App list cleared.");
+//            }
+//            return;
+//        }
+//
+//        final ArrayList<AppItem> items = new ArrayList<>();
+//        long largest = 0;
+//
+//        final int currentUserId = ActivityManager.getCurrentUser();
+//        final UserManager userManager = UserManager.get(context);
+//        final List<UserHandle> profiles = userManager.getUserProfiles();
+//        final SparseArray<AppItem> knownItems = new SparseArray<AppItem>();
+//
+//        final android.app.usage.NetworkStats.Bucket bucket = new android.app.usage.NetworkStats.Bucket();
+//        while (stats.hasNextBucket() && stats.getNextBucket(bucket)) {
+//            // Decide how to collapse items together
+//            final int uid = bucket.getUid();
+//            final int collapseKey;
+//            final int category;
+//            final int userId = UserHandle.getUserId(uid);
+//            if (UserHandle.isApp(uid)) {
+//                if (profiles.contains(new UserHandle(userId))) {
+//                    if (userId != currentUserId) {
+//                        // Add to a managed user item.
+//                        final int managedKey = UidDetailProvider.buildKeyForUser(userId);
+//                        largest = accumulate(managedKey, knownItems, bucket,
+//                                AppItem.CATEGORY_USER, items, largest);
+//                    }
+//                    // Add to app item.
+//                    collapseKey = uid;
+//                    category = AppItem.CATEGORY_APP;
+//                } else {
+//                    // If it is a removed user add it to the removed users' key
+//                    final UserInfo info = userManager.getUserInfo(userId);
+//                    if (info == null) {
+//                        collapseKey = UID_REMOVED;
+//                        category = AppItem.CATEGORY_APP;
+//                    } else {
+//                        // Add to other user item.
+//                        collapseKey = UidDetailProvider.buildKeyForUser(userId);
+//                        category = AppItem.CATEGORY_USER;
+//                    }
+//                }
+//            } else if (uid == UID_REMOVED || uid == UID_TETHERING
+//                    || uid == Process.OTA_UPDATE_UID) {
+//                collapseKey = uid;
+//                category = AppItem.CATEGORY_APP;
+//            } else {
+//                collapseKey = android.os.Process.SYSTEM_UID;
+//                category = AppItem.CATEGORY_APP;
+//            }
+//            largest = accumulate(collapseKey, knownItems, bucket, category, items, largest);
+//        }
+//        stats.close();
+//
+//        final int restrictedUidsMax = restrictedUids.length;
+//        for (int i = 0; i < restrictedUidsMax; ++i) {
+//            final int uid = restrictedUids[i];
+//            // Only splice in restricted state for current user or managed users
+//            if (!profiles.contains(new UserHandle(UserHandle.getUserId(uid)))) {
+//                continue;
+//            }
+//
+//            AppItem item = knownItems.get(uid);
+//            if (item == null) {
+//                item = new AppItem(uid);
+//                item.total = -1;
+//                items.add(item);
+//                knownItems.put(item.key, item);
+//            }
+//            item.restricted = true;
+//        }
+//
+//        Collections.sort(items);
+//        for (int i = 0; i < items.size(); i++) {
+//            final int percentTotal = largest != 0 ? (int) (items.get(i).total * 100 / largest) : 0;
+//            final AppDataUsagePreference preference = new AppDataUsagePreference(getContext(),
+//                    items.get(i), percentTotal, mUidDetailProvider);
+//            preference.setOnPreferenceClickListener(new Preference.OnPreferenceClickListener() {
+//                @Override
+//                public boolean onPreferenceClick(Preference preference) {
+//                    AppDataUsagePreference pref = (AppDataUsagePreference) preference;
+//                    AppItem item = pref.getItem();
+//                    startAppDataUsage(item);
+//                    return true;
+//                }
+//            });
+//            mApps.addPreference(preference);
+//        }
+//    }
+
+
 
     private void fun(NetworkStats stats, int[] restrictedUids) {
         mlist.clear();
-        ArrayList<AppItem> appItems = getAppsUsingMobileData(stats);
+        ArrayList<AppItem> appItems = getAppsUsingMobileData(HostTrafficMonitorMainActivity.this,stats);
         for (AppItem appItem : appItems) {
             UidDetail detail = mUidDetailProvider.getUidDetail(appItem.key, true);
             String name = detail.label.toString();
@@ -213,9 +306,18 @@ public class HostTrafficMonitorMainActivity extends HostProxyActivity<TrafficMon
             boolean isInvalidControlApp = isInvalidNetworkControlApp(pkgName, mContext);
             TraRecyBean bean = new TraRecyBean(pkgName, name);
 //            bean.setIslimit(!isDisabledApp);
+            bean.setKey(appItem.key);
             bean.setImageId(detail.icon);
             bean.setUsedTraSize(size);
             bean.setInvalidControlApp(isInvalidControlApp);
+            bean.setQiantai(appItem.qiantai);
+            bean.setHoutai(appItem.houtai);
+            int k=appItem.uids.size();
+            if(appItem.uids!=null){
+                for (int i = 0; i < k; i++) {
+                    bean.setUid(bean.getUid()+appItem.uids.keyAt(i));
+                }
+            }
             mlist.add(bean);
         }
         refresh(mlist);
@@ -236,9 +338,9 @@ public class HostTrafficMonitorMainActivity extends HostProxyActivity<TrafficMon
         long[] timeZone = new long[3];
         int[] timeArray = TimeFormat.getNowTimeArray();
 //        timeZone[0] = TimeFormat.getStartTime(timeArray[0], timeArray[1]+1, 0, 0, 0, 0);
-        Calendar cl=Calendar.getInstance();
-        cl.set(cl.get(Calendar.YEAR),cl.get(Calendar.MONTH),cl.get(Calendar.DAY_OF_MONTH),0,0,0);
-        timeZone[0]=cl.getTimeInMillis();
+        Calendar cl = Calendar.getInstance();
+        cl.set(cl.get(Calendar.YEAR), cl.get(Calendar.MONTH), 1, 0, 0, 0);
+        timeZone[0] = cl.getTimeInMillis();
         timeZone[1] = System.currentTimeMillis();
         timeZone[2] = System.currentTimeMillis();
         getLoaderManager().restartLoader(Constant.LOADER_SUMMARY,
@@ -293,7 +395,7 @@ public class HostTrafficMonitorMainActivity extends HostProxyActivity<TrafficMon
                     for (int i = 0; i < starts.size() - 1; i++) {
                         long xstart = starts.get(i);
                         long end = starts.get(i + 1);
-                        long y = TrafficassistantUtil.getTrafficData(mContext, ( data.getList().get(currentSim).getSlot()), xstart, end, 0);
+                        long y = TrafficassistantUtil.getTrafficData(mContext, (data.getList().get(currentSim).getSlot()), xstart, end, 0);
                         list.add(new ChartView.Info(xstart, y));
                     }
                 }
@@ -344,5 +446,10 @@ public class HostTrafficMonitorMainActivity extends HostProxyActivity<TrafficMon
     @Override
     public void responseChartData(List<ChartView.Info> list, int currentSim) {
         viewAvtion.onResponseChartData(list, currentSim);
+    }
+
+    @Override
+    public void statactivityDetail(int position) {
+        startActivity(TrafficDetailActivity.showIntent(this,mlist.get(position)));
     }
 }

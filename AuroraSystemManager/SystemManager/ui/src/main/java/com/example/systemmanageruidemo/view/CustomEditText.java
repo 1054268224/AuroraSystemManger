@@ -3,6 +3,7 @@ package com.example.systemmanageruidemo.view;
 import android.content.Context;
 import android.graphics.drawable.Drawable;
 import android.text.Editable;
+import android.text.Selection;
 import android.text.TextWatcher;
 import android.util.AttributeSet;
 import android.view.MotionEvent;
@@ -10,6 +11,7 @@ import android.view.View;
 import android.view.animation.Animation;
 import android.view.animation.CycleInterpolator;
 import android.view.animation.TranslateAnimation;
+import android.widget.Toast;
 
 import androidx.appcompat.widget.AppCompatEditText;
 
@@ -18,6 +20,8 @@ import com.example.systemmanageruidemo.trafficmonitor.TraSettingDialog;
 
 public class CustomEditText extends AppCompatEditText implements View.OnFocusChangeListener, TextWatcher {
     private Drawable mDraClear;
+    private Context context;
+    private final static int len = 7;
 
     public CustomEditText(Context context) {
         super(context);
@@ -25,6 +29,7 @@ public class CustomEditText extends AppCompatEditText implements View.OnFocusCha
 
     public CustomEditText(Context context, AttributeSet attrs) {
         super(context, attrs, android.R.attr.editTextStyle);
+        this.context = context;
         initView();
     }
 
@@ -46,7 +51,21 @@ public class CustomEditText extends AppCompatEditText implements View.OnFocusCha
 
     @Override
     public void afterTextChanged(Editable s) {
-        if (onClickListener!=null){
+
+        String inputStr = s.toString().trim();
+        byte[] bytes = inputStr.getBytes();
+        if (bytes.length > len) {
+            Toast.makeText(context, "只能输入这么多了哟~~", Toast.LENGTH_SHORT).show();
+            byte[] newBytes = new byte[len];
+            for (int i = 0; i < len; i++) {
+                newBytes[i] = bytes[i];
+            }
+            String newStr = new String(newBytes);
+            setText(newStr);
+            //将光标定位到最后
+            Selection.setSelection(getEditableText(), newStr.length());
+        }
+        if (onClickListener != null) {
             onClickListener.onClick(s.toString());
         }
     }

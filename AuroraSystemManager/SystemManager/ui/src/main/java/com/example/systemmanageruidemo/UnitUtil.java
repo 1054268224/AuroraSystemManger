@@ -184,4 +184,41 @@ public class UnitUtil {
         re[0] = ff + re[0];
         return re;
     }
+
+    public static long getLongFromMBstr(String str0) {
+        String str = str0.trim();
+        String floatstr = "0";
+        long rate = 1l;
+        if (str.endsWith("KB")) {
+            floatstr = str.substring(0, str.lastIndexOf("KB"));
+            rate = 1024l;
+        } else if (str.endsWith("kb")) {
+            floatstr = str.substring(0, str.lastIndexOf("kb"));
+            rate = 1024l;
+        } else if (str.endsWith("MB")) {
+            floatstr = str.substring(0, str.lastIndexOf("MB"));
+            rate = 1024l * 1024l;
+        } else if (str.endsWith("mb")) {
+            floatstr = str.substring(0, str.lastIndexOf("mb"));
+            rate = 1024l * 1024l;
+        } else if (str.endsWith("GB")) {
+            floatstr = str.substring(0, str.lastIndexOf("GB"));
+            rate = 1024l * 1024l * 1024l;
+        } else if (str.endsWith("gb")) {
+            floatstr = str.substring(0, str.lastIndexOf("gb"));
+            rate = 1024l * 1024l * 1024l;
+        } else if (str.endsWith("TB")) {
+            floatstr = str.substring(0, str.lastIndexOf("TB"));
+            rate = 1024l * 1024l * 1024l * 1024l;
+        } else if (str.endsWith("tb")) {
+            floatstr = str.substring(0, str.lastIndexOf("TB"));
+            rate = 1024l * 1024l * 1024l * 1024l;
+        } else {
+            floatstr = "-1";
+            rate = 1;
+        }
+        Double flo = Double.parseDouble(floatstr);
+        flo *= rate;
+        return flo.longValue();
+    }
 }

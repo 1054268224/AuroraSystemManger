@@ -41,6 +41,7 @@ import android.os.Parcel;
 import android.os.Parcelable;
 
 /** @hide */
+@Deprecated
 public class CheckedPermRecord implements Parcelable {
 
     private final String TAG = "CheckedPermRecord";

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="text">Text</string>
-    <string name="trafficassistant_app_name">Traffic Monitor</string>
+    <string name="trafficassistant_app_name">Data Manager</string>
     <string name="tabbar_name1">Sim Slot 1</string>
     <string name="tabbar_name2">Sim Slot 2</string>
     <string name="remained_flow_string">" Surplus"</string>

@@ -28,7 +28,7 @@
 
     <color name="tab_select_color">#ffffffff</color>
     <color name="tab_color">#ffedecec</color>
-
+    <color name="tra_dialog_gray_white">#E0E0E0</color>
     <color name="tra_line">#ff56a8ff</color>
 
 
@@ -37,6 +37,7 @@
     <color name="textcolor_main_wyh_traf">#333333</color>
     <color name="textcolor_hint3_wyh_traf">#666666</color>
     <color name="textcolor_hint_wyh_traf">#888888</color>
+    <color name="textcolor_line_wyh_traf">#d9d9d9</color>
     <color name="colorPrimary_wyh_traf">#03C89F</color>
     <color name="white_wyh_traf">#ffffff</color>
     <color name="textcolor_shade_wyh_traf">#F2F2F2</color>
@@ -47,4 +48,6 @@
     <color name="transparent">#00000000</color>
     <color name="red_newui">#FF613c</color>
     <color name="static_newui_tab">#ff8D8D8D</color>
+    <color name="wheelview_Gradient_start_color">#C8C8C8</color>
+    <color name="wheelview_Gradient_end_color">#00F0F0F0</color>
 </resources>

@@ -6,6 +6,7 @@ import android.app.LoaderManager.LoaderCallbacks;
 import android.content.Context;
 import android.content.Intent;
 import android.content.Loader;
+import android.content.pm.UserInfo;
 import android.net.INetworkStatsService;
 import android.net.INetworkStatsSession;
 import android.net.NetworkPolicyManager;
@@ -16,6 +17,7 @@ import android.os.Bundle;
 import android.os.RemoteException;
 import android.os.ServiceManager;
 import android.os.UserHandle;
+import android.os.UserManager;
 import android.text.TextUtils;
 import android.util.SparseArray;
 import android.view.View;
@@ -44,10 +46,7 @@ import com.cydroid.softmanager.trafficassistant.utils.MobileTemplate;
 import com.cydroid.softmanager.trafficassistant.utils.TimeFormat;
 import com.cydroid.softmanager.trafficassistant.utils.TrafficassistantUtil;
 import com.cydroid.softmanager.utils.Log;
-import com.google.android.collect.Lists;
 
-import java.lang.reflect.InvocationTargetException;
-import java.lang.reflect.Method;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
@@ -87,7 +86,7 @@ public class TrafficRankActivity extends ActionBarTabs {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         if (this instanceof AppCompatActivity) {
-           getSupportActionBar().hide();
+            getSupportActionBar().hide();
         }
         getEntranceFlag(this);
         initActionTabInfo(this);
@@ -351,22 +350,22 @@ public class TrafficRankActivity extends ActionBarTabs {
             Log.d(TAG, "onLoadFinished call refreshListView");
             //Gionee: mengdw <2015-10-10> add log for CR01538409  end
             final int[] restrictedUids = mPolicyManager.getUidsWithPolicy(POLICY_REJECT_METERED_BACKGROUND);
-            refreshListView(arg1, restrictedUids);
+            refreshListView(TrafficRankActivity.this,arg1, restrictedUids);
         }
 
         @Override
         public void onLoaderReset(Loader<NetworkStats> arg0) {
-            refreshListView(null, new int[0]);
+            refreshListView(TrafficRankActivity.this,null, new int[0]);
         }
     };
 
-    private void refreshListView(NetworkStats stats, int[] restrictedUids) {
+    private void refreshListView(Context context,NetworkStats stats, int[] restrictedUids) {
 		/*mAppItems.clear();
 		mAppItems = getAppsUsingMobileData(stats);
         long mLargest = (mAppItems.size() > 0) ? mAppItems.get(0).total : 0;
         setVisibilityAndText((mLargest == 0) ? false : true);
         mListAdapter.get(mPosition).notifyDataSetChanged(mAppItems, mLargest);*/
-        ArrayList<AppItem> appItems = getAppsUsingMobileData(stats);
+        ArrayList<AppItem> appItems = getAppsUsingMobileData(context,stats);
         long mLargest = (appItems.size() > 0) ? appItems.get(0).total : 0;
         //Gionee: mengdw <2015-10-10> add log for CR01538409  begin
         Log.d(TAG, "refreshListView mLargest=" + mLargest);
@@ -375,15 +374,15 @@ public class TrafficRankActivity extends ActionBarTabs {
         mListAdapter.get(mPosition).notifyDataSetChanged(appItems, mLargest);
     }
 
-    public static ArrayList<AppItem> getAppsUsingMobileData(NetworkStats stats) {
+    public static ArrayList<AppItem> getAppsUsingMobileData(Context context,NetworkStats stats) {
         ArrayList<AppItem> items = new ArrayList<>();
         final int currentUserId = ActivityManager.getCurrentUser();
+        final UserManager userManager = UserManager.get(context);
         final SparseArray<AppItem> knownItems = new SparseArray<AppItem>();
         final int size = (stats != null) ? stats.size() : 0;
         NetworkStats.Entry entry = null;
         for (int i = 0; i < size; i++) {
             entry = stats.getValues(i, entry);
-
             final int uid = entry.uid;
             final int collapseKey;
             /*if (uid < 10000) {
@@ -410,6 +409,11 @@ public class TrafficRankActivity extends ActionBarTabs {
             }
 
             item.addUid(uid);
+            if (entry.set!=0) {
+                item.qiantai += entry.rxBytes + entry.txBytes;
+            } else {
+                item.houtai += entry.rxBytes + entry.txBytes;
+            }
             item.total += entry.rxBytes + entry.txBytes;
         }
 
@@ -434,7 +438,7 @@ public class TrafficRankActivity extends ActionBarTabs {
 
     }
 
-    public  long[] getTimeZone(int position) {
+    public long[] getTimeZone(int position) {
         long[] timeZone = new long[3];
         int[] timeArray = null;
 

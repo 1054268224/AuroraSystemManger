@@ -9,4 +9,6 @@ public interface TrafficMonitorPresent2 extends TrafficMonitorPresent<TrafficMon
     public void onRequestChartData(List<ChartView.Info> list, int currentSim);
 
     public void responseChartData(List<ChartView.Info> list, int currentSim);
+
+    public void statactivityDetail(int position);
 }

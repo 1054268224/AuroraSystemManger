@@ -308,8 +308,8 @@ public class ChartView extends View {
             sx.add(mchartConfig.textFormatter.textXFormatter(px[i]));
         }
 
-        String maxlengthstr = Collections.max(sy, (o1, o2) -> o1.length() - o2.length());
-        String maxlengthstr2 = Collections.max(sx, (o1, o2) -> o1.length() - o2.length());
+        String maxlengthstr = Collections.max(sy, (o1, o2) -> o1.length() - o2.length())+"SS";
+        String maxlengthstr2 = Collections.max(sx, (o1, o2) -> o1.length() - o2.length())+"SS";
         Rect YRect = new Rect();
         Rect XRect = new Rect();
         textYPaint.getTextBounds(maxlengthstr, 0, maxlengthstr.length(), YRect);

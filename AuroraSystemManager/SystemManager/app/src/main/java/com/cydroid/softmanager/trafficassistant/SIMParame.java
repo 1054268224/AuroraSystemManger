@@ -6,5 +6,6 @@ public class SIMParame {
     public int mSlot = 0;
     // Gionee: mengdw <2015-11-11> add for CR01589343 begin
     public String mNumber = "";
+    public String mICCId="";
     // Gionee: mengdw <2015-11-11> add for CR01589343 end
 }

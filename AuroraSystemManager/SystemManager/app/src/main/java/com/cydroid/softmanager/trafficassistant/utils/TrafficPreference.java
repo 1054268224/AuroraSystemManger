@@ -5,6 +5,9 @@ import android.content.Context;
 import android.content.SharedPreferences;
 import android.preference.PreferenceManager;
 
+import com.cydroid.softmanager.trafficassistant.SIMInfoWrapper;
+import com.cydroid.softmanager.trafficassistant.SIMParame;
+
 public class TrafficPreference {
     public static final int DATA_SIZE = 4;
     public static final String KEY_IS_CALIBRATED = "IsCalibrated";
@@ -57,52 +60,78 @@ public class TrafficPreference {
     // Gionee: mengdw <2016-05-04> add for CR01689390 end
     // Gionee: mengdw <2016-07-18> add for CR01639347 begin
     private static final String TRAFFIC_NETWORK_PREFEREENCE = "com.gionee.traffficNetcontrolPreferce_type";
+    public static String KEY_Outofflagnotify="Outofflagnotify";
+    public static String KEY_Limittraffic="Limittraffic";
     // Gionee: mengdw <2016-07-18> add for CR01639347 end
 
     public static void setSimIntPreference(Context context, int simIndex, String key, int value) {
-        String name = TRAFFIC_PREFERENCE + simIndex;
+        String name = TRAFFIC_PREFERENCE + getmiccid(simIndex);
         SharedPreferences info = context.getSharedPreferences(name, Context.MODE_MULTI_PROCESS);
         info.edit().putInt(key, value).commit();
     }
 
     public static int getSimIntPreference(Context context, int simIndex, String key, int def) {
-        String name = TRAFFIC_PREFERENCE + simIndex;
+        String name = TRAFFIC_PREFERENCE + getmiccid(simIndex);
         SharedPreferences info = context.getSharedPreferences(name, Context.MODE_MULTI_PROCESS);
         return info.getInt(key, def);
     }
+    public static void setSimLongPreference(Context context, int simIndex, String key, long value) {
+        String name = TRAFFIC_PREFERENCE + getmiccid(simIndex);
+        SharedPreferences info = context.getSharedPreferences(name, Context.MODE_MULTI_PROCESS);
+        info.edit().putLong(key, value).commit();
+    }
+
+    public static long getSimLongPreference(Context context, int simIndex, String key, long def) {
+        String name = TRAFFIC_PREFERENCE + getmiccid(simIndex);
+        SharedPreferences info = context.getSharedPreferences(name, Context.MODE_MULTI_PROCESS);
+        return info.getLong(key, def);
+    }
 
     public static void setSimFloatPreference(Context context, int simIndex, String key, float value) {
-        String name = TRAFFIC_PREFERENCE + simIndex;
+        String name = TRAFFIC_PREFERENCE + getmiccid(simIndex);
         SharedPreferences info = context.getSharedPreferences(name, Context.MODE_MULTI_PROCESS);
         info.edit().putFloat(key, value).commit();
     }
 
     public static float getSimFloatPreference(Context context, int simIndex, String key, float def) {
-        String name = TRAFFIC_PREFERENCE + simIndex;
+        String name = TRAFFIC_PREFERENCE + getmiccid(simIndex);
         SharedPreferences info = context.getSharedPreferences(name, Context.MODE_MULTI_PROCESS);
         return info.getFloat(key, def);
     }
 
     public static void setSimStringPreference(Context context, int simIndex, String key, String value) {
-        String name = TRAFFIC_PREFERENCE + simIndex;
+        String name = TRAFFIC_PREFERENCE + getmiccid(simIndex);
         SharedPreferences info = context.getSharedPreferences(name, Context.MODE_MULTI_PROCESS);
         info.edit().putString(key, value).commit();
     }
 
     public static String getSimStringPreference(Context context, int simIndex, String key, String def) {
-        String name = TRAFFIC_PREFERENCE + simIndex;
+        String name = TRAFFIC_PREFERENCE + getmiccid(simIndex);
         SharedPreferences info = context.getSharedPreferences(name, Context.MODE_MULTI_PROCESS);
         return info.getString(key, def);
     }
 
     public static void setSimBooleanPreference(Context context, int simIndex, String key, boolean value) {
-        String name = TRAFFIC_PREFERENCE + simIndex;
+        String name = TRAFFIC_PREFERENCE + getmiccid(simIndex);
         SharedPreferences info = context.getSharedPreferences(name, Context.MODE_MULTI_PROCESS);
         info.edit().putBoolean(key, value).commit();
     }
 
+    private static String getmiccid(int simIndex) {
+        if (SIMInfoWrapper.getInsertedSimInfo() != null && SIMInfoWrapper.getInsertedSimInfo().size() > 0) {
+//            for (SIMParame simParame : SIMInfoWrapper.getInsertedSimInfo()) {
+//                if (simParame.mSlot == simIndex) {
+//                    return simParame.mICCId;
+//                }
+//            }
+            return "" + simIndex;
+        } else {
+            return "" + simIndex;
+        }
+    }
+
     public static boolean getSimBooleanPreference(Context context, int simIndex, String key, boolean def) {
-        String name = TRAFFIC_PREFERENCE + simIndex;
+        String name = TRAFFIC_PREFERENCE + getmiccid(simIndex);
         SharedPreferences info = context.getSharedPreferences(name, Context.MODE_MULTI_PROCESS);
         return info.getBoolean(key, def);
     }

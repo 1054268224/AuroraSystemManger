@@ -2,7 +2,6 @@ package com.example.systemmanageruidemo.trafficmonitor;
 
 import android.content.Context;
 import android.content.Intent;
-import android.content.pm.PackageManager;
 import android.net.NetworkPolicyManager;
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -23,6 +22,7 @@ import com.example.systemmanageruidemo.BaseSupportProxyActivity;
 import com.example.systemmanageruidemo.R;
 import com.example.systemmanageruidemo.UnitUtil;
 import com.example.systemmanageruidemo.actionpresent.TrafficMonitorPresent2;
+import com.example.systemmanageruidemo.actionview.TrafficMonitorSettingView;
 import com.example.systemmanageruidemo.actionview.TrafficMonitorView2;
 import com.example.systemmanageruidemo.trafficmonitor.adapter.TraRecyAdapter2;
 import com.example.systemmanageruidemo.trafficmonitor.bean.TraPagerBean;
@@ -33,6 +33,7 @@ import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
+import java.util.Locale;
 
 public class TrafficMonitorMainActivity2 extends BaseSupportProxyActivity<TrafficMonitorPresent2> implements TrafficMonitorView2 {
     TraPagerBean traPagerBean = new TraPagerBean();
@@ -82,6 +83,19 @@ public class TrafficMonitorMainActivity2 extends BaseSupportProxyActivity<Traffi
             super.onPageScrollStateChanged(state);
         }
     };
+    private View.OnClickListener mlistener = new View.OnClickListener() {
+        @Override
+        public void onClick(View v) {
+            int position = ((int) v.getTag());
+            presenter.statactivityDetail(position);
+        }
+    };
+
+    @Override
+    public void onResume() {
+        super.onResume();
+        loaddata();
+    }
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -89,7 +103,6 @@ public class TrafficMonitorMainActivity2 extends BaseSupportProxyActivity<Traffi
         mContext = getRealContext();
         setContentView(R.layout.activity_traffic_monitor_main2);
         initView();
-        loaddata();
     }
 
     private void loaddata() {
@@ -169,7 +182,6 @@ public class TrafficMonitorMainActivity2 extends BaseSupportProxyActivity<Traffi
     public void showNosim() {
         mNosim.setVisibility(View.VISIBLE);
         mHassim.setVisibility(View.GONE);
-        startActivity(new Intent(mContext,TrafficMonitorSettingActivity.class));
     }
 
     private void initView() {
@@ -180,7 +192,14 @@ public class TrafficMonitorMainActivity2 extends BaseSupportProxyActivity<Traffi
         mSinglesim = findViewById(R.id.singlesim);
         mNosettrafficLay = findViewById(R.id.nosettraffic_lay);
         mSettrafficBtn = findViewById(R.id.settraffic_btn);
+        mSettrafficBtn.setOnClickListener((v) -> {
+            toSettingTrafficActivity(false);
+        });
         mSettrafficLay = findViewById(R.id.settraffic_lay);
+        mSettrafficLay.setOnClickListener((v) -> {
+
+            toSettingTrafficActivity(true);
+        });
         mSettextTrafficText = findViewById(R.id.settext_traffic_text);
         mSavetrafficLay = findViewById(R.id.savetraffic_lay);
         mSavetextTrafficText = findViewById(R.id.savetext_traffic_text);
@@ -189,11 +208,10 @@ public class TrafficMonitorMainActivity2 extends BaseSupportProxyActivity<Traffi
         mProtectedtextTrafficText = findViewById(R.id.protectedtext_traffic_text);
         mUsetrafficTextHint = findViewById(R.id.usetraffic_text_hint);
         mCharview = findViewById(R.id.charview);
-        final SimpleDateFormat simpleDateFormat = new SimpleDateFormat("MM月dd日");
         mCharview.getMchartConfig().textFormatter = new ChartView.TextFormatter() {
             @Override
             public String textXFormatter(long data) {
-                return simpleDateFormat.format(new Date(data));
+                return textFormat(data);
             }
 
             @Override
@@ -223,8 +241,24 @@ public class TrafficMonitorMainActivity2 extends BaseSupportProxyActivity<Traffi
             startActivity(intent);
         });
         mRecycleview.setLayoutManager(new LinearLayoutManager(mContext));
-        recyAdapter = new TraRecyAdapter2(mContext, null);
+        recyAdapter = new TraRecyAdapter2(mContext, mlistener);
         mRecycleview.setAdapter(recyAdapter);
+    }
+
+    private String textFormat(long data){
+        String language = Locale.getDefault().getDisplayLanguage();
+        SimpleDateFormat simpleDateFormat;
+        if (language.contains("en")||language.equals("English")){
+            simpleDateFormat = new SimpleDateFormat("MMM d",Locale.ENGLISH);
+        } else {
+            simpleDateFormat = new SimpleDateFormat("MM月dd日", Locale.ENGLISH);
+        }
+        return simpleDateFormat.format(new Date(data));
+    }
+
+    private void toSettingTrafficActivity(boolean issetted) {
+        Intent intent = actionNewActivity(this, TrafficMonitorSettingActivity.class);
+        startActivity(TrafficMonitorSettingActivity.getShowIntent(intent, traPagerBean.getList().get(currentSim).getSlot()));
     }
 
     @Override
@@ -271,14 +305,11 @@ public class TrafficMonitorMainActivity2 extends BaseSupportProxyActivity<Traffi
 
     private void bindSimCard(int position, SimViewHolder holder) {
         TraPagerBean.SIMBean sim = traPagerBean.getList().get(position);
-        if (traPagerBean.getList().size() == 1) {
-            holder.mNameSim.setVisibility(View.GONE);
-        }
-        holder.mNameSim.setText("SIM卡" + (position + 1));
+        holder.mNameSim.setText(getString(R.string.tra_sim_card) + (sim.getSlot() + 1));
         holder.mNameCmc.setText(sim.getName());
         holder.mPhoneNumber.setText(sim.getNumber());
-        holder.mAlltraff.setText("总套餐：" + UnitUtil.convertStorage3(sim.getTraPack()));
-        holder.mUsetraff.setText("套餐已用：" + UnitUtil.convertStorage3(sim.getUsedFlow()));
+        holder.mAlltraff.setText(getString(R.string.tra_pack_total) + UnitUtil.convertStorage3(sim.getTraPack()));
+        holder.mUsetraff.setText(getString(R.string.tra_pack_used) + UnitUtil.convertStorage3(sim.getUsedFlow()));
         String[] us = UnitUtil.convertStorage4(sim.getSurplusFlow());
         holder.mSurplusFlow.setText(us[0]);
         holder.mUnit.setText(us[1]);

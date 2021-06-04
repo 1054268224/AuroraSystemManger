@@ -36,6 +36,15 @@ public class TraPagerBean {
         boolean issetted;
         String number;
         int slot;
+        String mICCId;
+
+        public String getmICCId() {
+            return mICCId;
+        }
+
+        public void setmICCId(String mICCId) {
+            this.mICCId = mICCId;
+        }
 
         public int getSlot() {
             return slot;

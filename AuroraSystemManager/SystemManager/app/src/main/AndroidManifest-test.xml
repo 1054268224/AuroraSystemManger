@@ -168,10 +168,15 @@
         <activity
             android:name="com.wheatek.proxy.ui.HostTrafficMonitorMainActivity"
             android:label="@string/trafficassistant_app_name"
-            android:launchMode="singleTask"
             android:screenOrientation="portrait"
             android:theme="@style/MHostThemeMain">
 
+        </activity>
+        <activity
+            android:name="com.wheatek.proxy.ui.HostTrafficMonitorSettingActivity"
+            android:label="@string/traffic_setting"
+            android:screenOrientation="portrait"
+            android:theme="@style/MHostThemeMain">
         </activity>
         <activity
             android:name="com.wheatek.proxy.ui.HostPowerSaveManagerMainActivity"
@@ -530,7 +535,7 @@
         <activity
             android:name="com.cydroid.softmanager.powersaver.activities.SmartCleanDisplayActivity"
             android:label="@string/auto_clean_title"
-            android:theme="@android:style/Theme.Black">
+            android:theme="@style/ThemeOverlay.AppCompat.Dark">
             <intent-filter>
                 <action android:name="softmanager.intent.action.SHOW_AUTOCLEAN_INFO" />
 
@@ -576,7 +581,7 @@
             android:excludeFromRecents="true"
             android:launchMode="singleInstance"
             android:screenOrientation="portrait"
-            android:theme="@android:style/Theme.DeviceDefault.Light.Dialog.Alert">
+            android:theme="@style/Theme.AppCompat.DayNight.Dialog.Alert">
             <intent-filter>
                 <action android:name="cydroid.intent.action.SUPERMODE_OPEN" />
                 <category android:name="android.intent.category.DEFAULT" />
@@ -589,7 +594,7 @@
             android:excludeFromRecents="true"
             android:launchMode="singleInstance"
             android:screenOrientation="portrait"
-            android:theme="@android:style/Theme.DeviceDefault.Light.Dialog.Alert">
+            android:theme="@style/Theme.AppCompat.DayNight.Dialog.Alert">
             <intent-filter>
                 <action android:name="cydroid.intent.action.NORMALMODE_OPEN" />
                 <category android:name="android.intent.category.DEFAULT" />
@@ -691,13 +696,15 @@
             android:label="@string/usage_detail"
             android:launchMode="singleInstance"
             android:screenOrientation="portrait"
-            android:theme="@android:style/Theme.DeviceDefault.Light.Dialog.Alert"></activity>
+            android:theme="@style/Theme.AppCompat.DayNight.Dialog.Alert"
+            ></activity>
+<!--        android:theme="@android:style/Theme.DeviceDefault.Light.Dialog.Alert"-->
         <activity
             android:name=".monitor.RootWarningWindow"
             android:excludeFromRecents="true"
             android:launchMode="singleInstance"
             android:screenOrientation="portrait"
-            android:theme="@android:style/Theme.DeviceDefault.Light.Dialog.Alert"></activity>
+            android:theme="@style/Theme.AppCompat.DayNight.Dialog.Alert"></activity>
 
         <!-- Gionee <liuyb> <2014-5-12> modify for CR01245505 begin -->
         <!--Chenyee guoxt modify for CSW1705A-2570 begin-->
@@ -860,7 +867,7 @@
             android:launchMode="singleInstance"
             android:screenOrientation="portrait"
             android:taskAffinity="com.cydroid.softmanager.applock.AppLockActivity"
-            android:theme="@android:style/Theme.NoTitleBar">
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
             </intent-filter>
@@ -934,6 +941,18 @@
             android:theme="@style/MHostThemeMain">
             <intent-filter>
                 <action android:name="com.wheatek.security.NETWORK_DATA_CONTROLLER" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.wheatek.proxy.ui.TrafficDetailActivity"
+            android:screenOrientation="portrait"
+            android:label="@string/network_controller_title"
+            android:launchMode="singleTask"
+            android:exported="true"
+            android:theme="@style/MHostThemeMain">
+            <intent-filter>
+                <action android:name="com.wheatek.security.TRAFFICDETAIL_ACTIVITY" />
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>

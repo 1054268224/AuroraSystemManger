@@ -85,6 +85,22 @@ public class TrafficCalibrateControler {
         return TrafficPreference.getSimIntPreference(context, simIndex, TrafficPreference.KEY_START_DATE, 1);
     }
 
+    public void setLimittraffic(Context context, int simIndex, long ind) {
+        TrafficPreference.setSimLongPreference(context, simIndex, TrafficPreference.KEY_Limittraffic,
+                ind);
+    }
+
+    public long getLimittraffic(Context context, int simIndex) {
+        return TrafficPreference.getSimLongPreference(context, simIndex, TrafficPreference.KEY_Limittraffic, 80);
+    }
+    public void setOutofflagnotify(Context context, int simIndex, int ind) {
+        TrafficPreference.setSimIntPreference(context, simIndex, TrafficPreference.KEY_Outofflagnotify,
+                ind);
+    }
+
+    public int getOutofflagnotify(Context context, int simIndex) {
+        return TrafficPreference.getSimIntPreference(context, simIndex, TrafficPreference.KEY_Outofflagnotify, 80);
+    }
     public void setWarnPercent(Context context, int simIndex, int percent) {
         TrafficPreference.setSimIntPreference(context, simIndex, TrafficPreference.KEY_WARNING_PERCENT,
                 percent);

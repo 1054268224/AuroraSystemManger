@@ -19,10 +19,13 @@
 package com.wheatek.proxy.ui;
 
 import android.content.Intent;
+import android.content.pm.ApplicationInfo;
 import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
+import android.view.KeyEvent;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
 import android.view.WindowManager.LayoutParams;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -52,13 +55,24 @@ public abstract class HostProxyActivity<D extends ViewAction> extends AppCompatA
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        mRemoteActivity.onCreate(savedInstanceState);
+        if (mRemoteActivity != null) mRemoteActivity.onCreate(savedInstanceState);
         getSupportActionBar().setHomeButtonEnabled(true);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setBackgroundDrawable(new ColorDrawable(getResources().getColor(R.color.host_bar_bg_blue)));
         getSupportActionBar().setElevation(0.0f);
 //        getSupportActionBar().setHomeAsUpIndicator(R.drawable.app_manager);
 
+    }
+
+    public static void setSimpleSupportABar(AppCompatActivity appCompatActivity) {
+        appCompatActivity.getSupportActionBar().setHomeButtonEnabled(true);
+        appCompatActivity.getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        appCompatActivity.getSupportActionBar().setBackgroundDrawable(new ColorDrawable(appCompatActivity.getColor(R.color.host_bar_bg_white)));
+        appCompatActivity.getSupportActionBar().setElevation(0.0f);
+        appCompatActivity.getSupportActionBar().setHomeAsUpIndicator(R.drawable.svg_icon_back_left);
+        appCompatActivity.getWindow().getDecorView().setSystemUiVisibility(appCompatActivity.getWindow().getDecorView().getSystemUiVisibility() | View.SYSTEM_UI_FLAG_LIGHT_STATUS_BAR);
+        appCompatActivity.getWindow().setStatusBarColor(appCompatActivity.getColor(R.color.transparent));
+        appCompatActivity.getWindow().setBackgroundDrawable(new ColorDrawable(appCompatActivity.getColor(R.color.host_bar_bg_white)));
     }
 
     public void attach(BaseSupportProxyActivity remoteActivity) {
@@ -96,92 +110,103 @@ public abstract class HostProxyActivity<D extends ViewAction> extends AppCompatA
 
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
-        mRemoteActivity.onActivityResult(requestCode, resultCode, data);
+        if (mRemoteActivity != null)
+            mRemoteActivity.onActivityResult(requestCode, resultCode, data);
         super.onActivityResult(requestCode, resultCode, data);
     }
 
     @Override
     protected void onStart() {
-        mRemoteActivity.onStart();
+        if (mRemoteActivity != null) mRemoteActivity.onStart();
         super.onStart();
     }
 
     @Override
     protected void onRestart() {
-        mRemoteActivity.onRestart();
+        if (mRemoteActivity != null) mRemoteActivity.onRestart();
         super.onRestart();
     }
 
     @Override
     protected void onResume() {
-        mRemoteActivity.onResume();
+        if (mRemoteActivity != null) mRemoteActivity.onResume();
         super.onResume();
     }
 
     @Override
     protected void onPause() {
-        mRemoteActivity.onPause();
+        if (mRemoteActivity != null) mRemoteActivity.onPause();
         super.onPause();
     }
 
     @Override
     protected void onStop() {
-        mRemoteActivity.onStop();
+        if (mRemoteActivity != null) mRemoteActivity.onStop();
         super.onStop();
     }
 
     @Override
     protected void onDestroy() {
-        mRemoteActivity.onDestroy();
+        if (mRemoteActivity != null) mRemoteActivity.onDestroy();
         super.onDestroy();
     }
 
     @Override
     protected void onSaveInstanceState(Bundle outState) {
-        mRemoteActivity.onSaveInstanceState(outState);
+        if (mRemoteActivity != null) mRemoteActivity.onSaveInstanceState(outState);
         super.onSaveInstanceState(outState);
     }
 
     @Override
     protected void onRestoreInstanceState(Bundle savedInstanceState) {
-        mRemoteActivity.onRestoreInstanceState(savedInstanceState);
+        if (mRemoteActivity != null) mRemoteActivity.onRestoreInstanceState(savedInstanceState);
         super.onRestoreInstanceState(savedInstanceState);
     }
 
     @Override
     protected void onNewIntent(Intent intent) {
-        mRemoteActivity.onNewIntent(intent);
+        if (mRemoteActivity != null) mRemoteActivity.onNewIntent(intent);
         super.onNewIntent(intent);
     }
 
     @Override
     public void onWindowAttributesChanged(LayoutParams params) {
-        mRemoteActivity.onWindowAttributesChanged(params);
+        if (mRemoteActivity != null) mRemoteActivity.onWindowAttributesChanged(params);
         super.onWindowAttributesChanged(params);
     }
 
     @Override
     public void onWindowFocusChanged(boolean hasFocus) {
-        mRemoteActivity.onWindowFocusChanged(hasFocus);
+        if (mRemoteActivity != null) mRemoteActivity.onWindowFocusChanged(hasFocus);
         super.onWindowFocusChanged(hasFocus);
     }
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
-        mRemoteActivity.onCreateOptionsMenu(menu);
+        if (mRemoteActivity != null) return mRemoteActivity.onCreateOptionsMenu(menu);
         return super.onCreateOptionsMenu(menu);
     }
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
+        if (mRemoteActivity != null && mRemoteActivity.onOptionsItemSelected(item)) return true;
         switch (item.getItemId()) {
             case android.R.id.home:
                 finish();
                 break;
             default:
         }
-        mRemoteActivity.onOptionsItemSelected(item);
         return super.onOptionsItemSelected(item);
     }
 
+    @Override
+    public boolean onKeyDown(int keyCode, KeyEvent event) {
+        if (mRemoteActivity != null) return mRemoteActivity.onKeyDown(keyCode, event);
+        return super.onKeyDown(keyCode, event);
+    }
+
+    @Override
+    public ApplicationInfo getApplicationInfo() {
+        return super.getApplicationInfo();
+    }
 }

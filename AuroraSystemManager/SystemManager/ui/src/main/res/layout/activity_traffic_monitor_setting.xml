@@ -10,10 +10,10 @@
         android:id="@+id/rl_flow_start_date"
         android:layout_width="match_parent"
         android:layout_height="42dp"
+        android:background="?attr/selectableItemBackground"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:background="@drawable/ripple_gray_with_white_mask">
+        app:layout_constraintTop_toTopOf="parent">
 
         <TextView
             android:layout_width="wrap_content"
@@ -21,9 +21,10 @@
             android:layout_centerVertical="true"
             android:layout_marginLeft="28dp"
             android:gravity="center_vertical|left"
-            android:textSize="16sp"
+            android:text="@string/tra_flow_start_date"
             android:textColor="@color/textcolor_main_wyh_traf"
-            android:text="流量统计开始日期"/>
+            android:textSize="16sp"
+            android:maxWidth="200dp"/>
 
         <TextView
             android:id="@+id/tv_flow_date"
@@ -32,8 +33,10 @@
             android:layout_alignParentRight="true"
             android:layout_centerVertical="true"
             android:layout_marginRight="38dp"
-            android:textSize="12sp"
-            android:gravity="center_vertical|right" />
+            android:gravity="center_vertical|right"
+            android:ellipsize="marquee"
+            android:maxWidth="80dp"
+            android:textSize="12sp" />
 
         <ImageView
             android:layout_width="wrap_content"
@@ -49,10 +52,10 @@
         android:id="@+id/rl_flow_total"
         android:layout_width="match_parent"
         android:layout_height="42dp"
+        android:background="?attr/selectableItemBackground"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/rl_flow_start_date"
-        android:background="@drawable/ripple_gray_with_white_mask">
+        app:layout_constraintTop_toBottomOf="@+id/rl_flow_start_date">
 
         <TextView
             android:layout_width="wrap_content"
@@ -60,9 +63,9 @@
             android:layout_centerVertical="true"
             android:layout_marginLeft="28dp"
             android:gravity="center_vertical|left"
-            android:textSize="16sp"
+            android:text="@string/tra_flow_package_total"
             android:textColor="@color/textcolor_main_wyh_traf"
-            android:text="套餐总量"/>
+            android:textSize="16sp" />
 
         <TextView
             android:id="@+id/tv_flow_num_total"
@@ -71,8 +74,8 @@
             android:layout_alignParentRight="true"
             android:layout_centerVertical="true"
             android:layout_marginRight="38dp"
-            android:textSize="12sp"
-            android:gravity="center_vertical|right" />
+            android:gravity="center_vertical|right"
+            android:textSize="12sp" />
 
         <ImageView
             android:layout_width="wrap_content"
@@ -88,8 +91,8 @@
         android:id="@+id/rl_flow_used"
         android:layout_width="match_parent"
         android:layout_height="42dp"
-        app:layout_constraintTop_toBottomOf="@+id/rl_flow_total"
-        android:background="@drawable/ripple_gray_with_white_mask">
+        android:background="?attr/selectableItemBackground"
+        app:layout_constraintTop_toBottomOf="@+id/rl_flow_total">
 
         <TextView
             android:layout_width="wrap_content"
@@ -97,9 +100,9 @@
             android:layout_centerVertical="true"
             android:layout_marginLeft="28dp"
             android:gravity="center_vertical|left"
-            android:textSize="16sp"
+            android:text="@string/tra_flow_used"
             android:textColor="@color/textcolor_main_wyh_traf"
-            android:text="套餐已用"/>
+            android:textSize="16sp" />
 
         <TextView
             android:id="@+id/tv_flow_num_used"
@@ -108,8 +111,8 @@
             android:layout_alignParentRight="true"
             android:layout_centerVertical="true"
             android:layout_marginRight="38dp"
-            android:textSize="12sp"
-            android:gravity="center_vertical|right" />
+            android:gravity="center_vertical|right"
+            android:textSize="12sp" />
 
         <ImageView
             android:layout_width="wrap_content"
@@ -125,10 +128,10 @@
         android:id="@+id/rl_flow_limit"
         android:layout_width="match_parent"
         android:layout_height="42dp"
+        android:background="?attr/selectableItemBackground"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/rl_flow_used"
-        android:background="@drawable/ripple_gray_with_white_mask">
+        app:layout_constraintTop_toBottomOf="@+id/rl_flow_used">
 
         <TextView
             android:layout_width="wrap_content"
@@ -136,9 +139,9 @@
             android:layout_centerVertical="true"
             android:layout_marginLeft="28dp"
             android:gravity="center_vertical|left"
-            android:textSize="16sp"
+            android:text="@string/tra_flow_daily_limit"
             android:textColor="@color/textcolor_main_wyh_traf"
-            android:text="每日流量上限"/>
+            android:textSize="16sp" />
 
         <TextView
             android:id="@+id/tv_flow_num_limit"
@@ -147,8 +150,8 @@
             android:layout_alignParentRight="true"
             android:layout_centerVertical="true"
             android:layout_marginRight="38dp"
-            android:textSize="12sp"
-            android:gravity="center_vertical|right" />
+            android:gravity="center_vertical|right"
+            android:textSize="12sp" />
 
         <ImageView
             android:layout_width="wrap_content"
@@ -164,10 +167,10 @@
         android:id="@+id/rl_flow_alert_value"
         android:layout_width="match_parent"
         android:layout_height="42dp"
+        android:background="?attr/selectableItemBackground"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/rl_flow_limit"
-        android:background="@drawable/ripple_gray_with_white_mask">
+        app:layout_constraintTop_toBottomOf="@+id/rl_flow_limit">
 
         <TextView
             android:layout_width="wrap_content"
@@ -175,9 +178,9 @@
             android:layout_centerVertical="true"
             android:layout_marginLeft="28dp"
             android:gravity="center_vertical|left"
-            android:textSize="16sp"
+            android:text="@string/tra_flow_month_alert_value"
             android:textColor="@color/textcolor_main_wyh_traf"
-            android:text="每月流量提醒警戒值"/>
+            android:textSize="16sp" />
 
         <TextView
             android:id="@+id/tv_flow_num_alert"
@@ -186,8 +189,8 @@
             android:layout_alignParentRight="true"
             android:layout_centerVertical="true"
             android:layout_marginRight="38dp"
-            android:textSize="12sp"
-            android:gravity="center_vertical|right" />
+            android:gravity="center_vertical|right"
+            android:textSize="12sp" />
 
         <ImageView
             android:layout_width="wrap_content"
@@ -203,10 +206,10 @@
         android:id="@+id/rl_flow_none"
         android:layout_width="match_parent"
         android:layout_height="42dp"
+        android:background="?attr/selectableItemBackground"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/rl_flow_alert_value"
-        android:background="@drawable/ripple_gray_with_white_mask">
+        app:layout_constraintTop_toBottomOf="@+id/rl_flow_alert_value">
 
         <TextView
             android:layout_width="wrap_content"
@@ -214,9 +217,10 @@
             android:layout_centerVertical="true"
             android:layout_marginLeft="28dp"
             android:gravity="center_vertical|left"
-            android:textSize="16sp"
+            android:text="@string/tra_flow_none"
             android:textColor="@color/textcolor_main_wyh_traf"
-            android:text="流量用尽"/>
+            android:textSize="16sp"
+            android:maxWidth="170dp"/>
 
         <TextView
             android:id="@+id/tv_flow_none"
@@ -225,8 +229,9 @@
             android:layout_alignParentRight="true"
             android:layout_centerVertical="true"
             android:layout_marginRight="38dp"
+            android:gravity="center_vertical|right"
             android:textSize="12sp"
-            android:gravity="center_vertical|right" />
+            android:maxWidth="130dp" />
 
         <ImageView
             android:layout_width="wrap_content"

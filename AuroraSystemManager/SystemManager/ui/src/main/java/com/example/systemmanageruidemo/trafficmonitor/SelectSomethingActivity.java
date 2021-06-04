@@ -1,8 +1,9 @@
 package com.example.systemmanageruidemo.trafficmonitor;
 
+import android.content.Context;
 import android.content.Intent;
+import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
-import android.os.PersistableBundle;
 import android.view.KeyEvent;
 import android.view.LayoutInflater;
 import android.view.MenuItem;
@@ -13,6 +14,7 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
@@ -37,29 +39,59 @@ public class SelectSomethingActivity extends AppCompatActivity {
     private View.OnClickListener mlistener = new View.OnClickListener() {
         @Override
         public void onClick(View v) {
-            currentIndex = ((int) v.getTag());
-            mAdapter.notifyDataSetChanged();
+            int re = ((int) v.getTag());
+            if (re != currentIndex) {
+                ischanged = true;
+                currentIndex = re;
+                mAdapter.notifyDataSetChanged();
+            }
+
         }
     };
+    private boolean ischanged;
+
+    public static Intent getShowIntent(Context context, int index) {
+        Intent intent = new Intent(context, SelectSomethingActivity.class);
+        intent.putExtra("currentIndex", index);
+        return intent;
+    }
+
+    public static int getIndexfromIntent(Intent data, int def) {
+        return data.getIntExtra("currentIndex", def);
+    }
 
     @Override
-    public void onCreate(Bundle savedInstanceState, PersistableBundle persistentState) {
-        super.onCreate(savedInstanceState, persistentState);
+    protected void onCreate(@Nullable Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
         initdata();
         setContentView(R.layout.selectsomethingactivity);
         initView();
+        setSimpleSupportABar(this);
+
+    }
+
+    public static void setSimpleSupportABar(AppCompatActivity appCompatActivity) {
+        appCompatActivity.getSupportActionBar().setHomeButtonEnabled(true);
+        appCompatActivity.getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        appCompatActivity.getSupportActionBar().setBackgroundDrawable(new ColorDrawable(appCompatActivity.getColor(R.color.white_wyh_traf)));
+        appCompatActivity.getSupportActionBar().setElevation(0.0f);
+        appCompatActivity.getSupportActionBar().setHomeAsUpIndicator(R.drawable.svg_icon_back_left);
+        appCompatActivity.getWindow().getDecorView().setSystemUiVisibility(appCompatActivity.getWindow().getDecorView().getSystemUiVisibility() | View.SYSTEM_UI_FLAG_LIGHT_STATUS_BAR);
+        appCompatActivity.getWindow().setStatusBarColor(appCompatActivity.getColor(R.color.transparent));
+        appCompatActivity.getWindow().setBackgroundDrawable(new ColorDrawable(appCompatActivity.getColor(R.color.white_wyh_traf)));
     }
 
     private void initdata() {
+        ischanged = false;
         Intent intent = getIntent();
         if (intent != null) {
             selectaction = intent.getStringExtra("selectaction");
             title = intent.getStringExtra("title");
             if (title == null) title = getString(R.string.select_traffic_notif_title);
             hint = intent.getStringExtra("hint");
-            if (hint == null) hint = getString(R.string.select_traffic_notif_hint);
+            if (hint == null) hint = getString(R.string.select_traffic_notif_title);
             mlist = intent.getStringArrayListExtra("mlist");
-            if (mlist == null) mlist = getDefaultList();
+            if (mlist == null) mlist = getDefaultList(this);
             supperindex = intent.getIntExtra("supperindex", -1);
             if (supperindex == -1) supperindex = mlist.size() - 1;
             currentIndex = intent.getIntExtra("currentIndex", supperindex);
@@ -70,35 +102,40 @@ public class SelectSomethingActivity extends AppCompatActivity {
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         if (item.getItemId() == android.R.id.home) {
-            Intent result = new Intent();
-            result.putExtra("currentIndex", currentIndex);
-            setResult(RESULT_OK, result);
-            finish();
+            onresultfinish();
             return true;
         }
         return super.onOptionsItemSelected(item);
     }
 
+    private void onresultfinish() {
+        Intent result = new Intent();
+        result.putExtra("currentIndex", currentIndex);
+        setResult(ischanged ? RESULT_OK : RESULT_CANCELED, result);
+        finish();
+    }
+
     @Override
     public boolean onKeyDown(int keyCode, KeyEvent event) {
         if (keyCode == KeyEvent.KEYCODE_BACK) {
-            Intent result = new Intent();
-            result.putExtra("currentIndex", currentIndex);
-            setResult(RESULT_OK, result);
-            finish();
+            onresultfinish();
             return true;
         }
         return super.onKeyDown(keyCode, event);
     }
 
-    private List<String> getDefaultList() {
+    public static String indextoString(Context context, int index) {
+        return getDefaultList(context).get(index);
+    }
+
+    public static List<String> getDefaultList(Context context) {
         List<String> re = new ArrayList<>();
         String str = "10MB 50MB 100MB 200MB 500MB 1GB 5GB 10GB 100GB";
         String[] astr = str.split("\\s+");
         for (String s : astr) {
-            re.add(s);
+            re.add(s.trim());
         }
-        re.add(getResources().getString(R.string.notnotifaction));
+        re.add(context.getResources().getString(R.string.notnotifaction));
         return re;
     }
 
@@ -148,9 +185,9 @@ public class SelectSomethingActivity extends AppCompatActivity {
 
         public VH(@NonNull View itemView) {
             super(itemView);
-            mLay = findViewById(R.id.lay);
-            mName = findViewById(R.id.name);
-            mCheckbox = findViewById(R.id.checkbox);
+            mLay = itemView.findViewById(R.id.lay);
+            mName = itemView.findViewById(R.id.name);
+            mCheckbox = itemView.findViewById(R.id.checkbox);
         }
     }
 

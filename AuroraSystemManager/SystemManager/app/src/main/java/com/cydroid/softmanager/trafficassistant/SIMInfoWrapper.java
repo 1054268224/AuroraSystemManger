@@ -49,6 +49,7 @@ public class SIMInfoWrapper {
             simParame.mSlot = (siminfo.mSlot > 0) ? siminfo.mSlot : 0;
             // Gionee: mengdw <2015-11-11> modify for CR01589343 begin
             simParame.mNumber = siminfo.mNumber;
+            simParame.mICCId = siminfo.mICCId;
             sInsertedSimInfoList.add(simParame);
             Log.d(TAG, "SIMInfoWrapper : " + simParame.mSlot + "," + simParame.mDisplayName + ","
                     + simParame.mSimId + " siminfo.mNumber=" + siminfo.mNumber + " siminfo.mICCId="
@@ -86,7 +87,7 @@ public class SIMInfoWrapper {
         return mInsertedSimCount;
     }
 
-    public List<SIMParame> getInsertedSimInfo() {
+    public static List<SIMParame> getInsertedSimInfo() {
         return sInsertedSimInfoList;
     }
 

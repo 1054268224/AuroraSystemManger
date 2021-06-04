@@ -3,8 +3,11 @@ package com.example.systemmanageruidemo.contrarywind.view;
 import android.content.Context;
 import android.content.res.TypedArray;
 import android.graphics.Canvas;
+import android.graphics.Color;
+import android.graphics.LinearGradient;
 import android.graphics.Paint;
 import android.graphics.Rect;
+import android.graphics.Shader;
 import android.graphics.Typeface;
 import android.os.Handler;
 import android.text.TextUtils;
@@ -90,7 +93,7 @@ public class WheelView extends View {
     private int dividerWidth;
 
     // 条目间距倍数
-    private float lineSpacingMultiplier = 1.6F;
+    private float lineSpacingMultiplier = 3.0F;
     private boolean isLoop;
 
     // 第一条线Y坐标值
@@ -162,7 +165,7 @@ public class WheelView extends View {
             mGravity = a.getInt(R.styleable.pickerview_wheelview_gravity, Gravity.CENTER);
             textColorOut = a.getColor(R.styleable.pickerview_wheelview_textColorOut, 0xFFa8a8a8);
             textColorCenter = a.getColor(R.styleable.pickerview_wheelview_textColorCenter, 0xFF2a2a2a);
-            dividerColor = a.getColor(R.styleable.pickerview_wheelview_dividerColor, 0xFFd5d5d5);
+            dividerColor = a.getColor(R.styleable.pickerview_wheelview_dividerColor, Color.BLACK);
             dividerWidth = a.getDimensionPixelSize(R.styleable.pickerview_wheelview_dividerWidth, 2);
             textSize = a.getDimensionPixelOffset(R.styleable.pickerview_wheelview_textSize, textSize);
             lineSpacingMultiplier = a.getFloat(R.styleable.pickerview_wheelview_lineSpacingMultiplier, lineSpacingMultiplier);
@@ -213,6 +216,8 @@ public class WheelView extends View {
         paintIndicator = new Paint();
         paintIndicator.setColor(dividerColor);
         paintIndicator.setAntiAlias(true);
+        paintIndicator.setStyle(Paint.Style.STROKE);
+        paintIndicator.setStrokeWidth(dividerWidth);
 
         setLayerType(LAYER_TYPE_SOFTWARE, null);
     }
@@ -263,7 +268,7 @@ public class WheelView extends View {
             }
         }
         paintCenterText.getTextBounds("\u661F\u671F", 0, 2, rect); // 星期的字符编码（以它为标准高度）
-        maxTextHeight = rect.height() + 2;
+        maxTextHeight = rect.height()-8;
         itemHeight = lineSpacingMultiplier * maxTextHeight;
     }
 
@@ -409,28 +414,28 @@ public class WheelView extends View {
         //跟滚动流畅度有关，总滑动距离与每个item高度取余，即并不是一格格的滚动，每个item不一定滚到对应Rect里的，这个item对应格子的偏移值
         float itemHeightOffset = (totalScrollY % itemHeight);
 
-
         //绘制中间两条横线
         if (dividerType == DividerType.WRAP) {//横线长度仅包裹内容
             float startX;
             float endX;
-
             if (TextUtils.isEmpty(label)) {//隐藏Label的情况
-                startX = (measuredWidth - maxTextWidth) / 2 - 12;
+                startX = (measuredWidth - maxTextWidth) / 2 - 180;
             } else {
-                startX = (measuredWidth - maxTextWidth) / 4 - 12;
+                startX = (measuredWidth - maxTextWidth) / 4 - 180;
             }
 
             if (startX <= 0) {//如果超过了WheelView的边缘
                 startX = 10;
             }
             endX = measuredWidth - startX;
+            LinearGradient lg = new LinearGradient((endX-(endX-startX)/2), firstLineY, startX, firstLineY,
+                    getResources().getColor(R.color.wheelview_Gradient_start_color,null),
+                    getResources().getColor(R.color.wheelview_Gradient_end_color,null), Shader.TileMode.MIRROR);
+            paintIndicator.setShader(lg);
             canvas.drawLine(startX, firstLineY, endX, firstLineY, paintIndicator);
             canvas.drawLine(startX, secondLineY, endX, secondLineY, paintIndicator);
         } else if (dividerType == DividerType.CIRCLE) {
             //分割线为圆圈形状
-            paintIndicator.setStyle(Paint.Style.STROKE);
-            paintIndicator.setStrokeWidth(dividerWidth);
             float startX;
             float endX;
             if (TextUtils.isEmpty(label)) {//隐藏Label的情况
@@ -510,25 +515,25 @@ public class WheelView extends View {
                     // 条目经过第一条线
                     canvas.save();
                     canvas.clipRect(0, 0, measuredWidth, firstLineY - translateY);
-                    canvas.scale(1.0F, (float) Math.sin(radian) * SCALE_CONTENT);
+//                    canvas.scale(1.0F, (float) Math.sin(radian) * SCALE_CONTENT);
                     setOutPaintStyle(offsetCoefficient, angle);
                     canvas.drawText(contentText, drawOutContentStart, maxTextHeight, paintOuterText);
                     canvas.restore();
                     canvas.save();
                     canvas.clipRect(0, firstLineY - translateY, measuredWidth, (int) (itemHeight));
-                    canvas.scale(1.0F, (float) Math.sin(radian) * 1.0F);
+//                    canvas.scale(1.0F, (float) Math.sin(radian) * SCALE_CONTENT);
                     canvas.drawText(contentText, drawCenterContentStart, maxTextHeight - CENTER_CONTENT_OFFSET, paintCenterText);
                     canvas.restore();
                 } else if (translateY <= secondLineY && maxTextHeight + translateY >= secondLineY) {
                     // 条目经过第二条线
                     canvas.save();
                     canvas.clipRect(0, 0, measuredWidth, secondLineY - translateY);
-                    canvas.scale(1.0F, (float) Math.sin(radian) * 1.0F);
+//                    canvas.scale(1.0F, (float) Math.sin(radian) * SCALE_CONTENT);
                     canvas.drawText(contentText, drawCenterContentStart, maxTextHeight - CENTER_CONTENT_OFFSET, paintCenterText);
                     canvas.restore();
                     canvas.save();
                     canvas.clipRect(0, secondLineY - translateY, measuredWidth, (int) (itemHeight));
-                    canvas.scale(1.0F, (float) Math.sin(radian) * SCALE_CONTENT);
+//                    canvas.scale(1.0F, (float) Math.sin(radian) * SCALE_CONTENT);
                     setOutPaintStyle(offsetCoefficient, angle);
                     canvas.drawText(contentText, drawOutContentStart, maxTextHeight, paintOuterText);
                     canvas.restore();
@@ -544,7 +549,7 @@ public class WheelView extends View {
                     // 其他条目
                     canvas.save();
                     canvas.clipRect(0, 0, measuredWidth, (int) (itemHeight));
-                    canvas.scale(1.0F, (float) Math.sin(radian) * SCALE_CONTENT);
+//                    canvas.scale(1.0F, (float) Math.sin(radian) * SCALE_CONTENT);
                     setOutPaintStyle(offsetCoefficient, angle);
                     // 控制文字水平偏移距离
                     canvas.drawText(contentText, drawOutContentStart + textXOffset * offsetCoefficient, maxTextHeight, paintOuterText);
@@ -838,6 +843,10 @@ public class WheelView extends View {
 
     public float getItemHeight() {
         return itemHeight;
+    }
+
+    public void setItemHeight(float itemHeight) {
+        this.itemHeight = itemHeight;
     }
 
     public int getInitPosition() {

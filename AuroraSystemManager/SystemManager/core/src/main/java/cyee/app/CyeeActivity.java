@@ -115,7 +115,11 @@ public class CyeeActivity extends AppCompatActivity implements onOptionsItemSele
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         LogUtil.LOGE("CyeeActivity onCreate()");
-        getSupportActionBar().hide();
+        try {
+            getSupportActionBar().hide();
+        }catch (Exception e){
+            e.printStackTrace();
+        }
         if (!ChameleonColorManager.isNeedChangeColor(this)) {
             ChameleonColorManager.getInstance().clearDrawableCaches(this);
         }

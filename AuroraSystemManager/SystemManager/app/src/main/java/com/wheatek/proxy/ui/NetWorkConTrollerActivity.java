@@ -247,9 +247,10 @@ public class NetWorkConTrollerActivity extends BaseWheatekActivity {
             Log.d(TAG, "onServiceConnected, ComponentName = " + mNetworkDataControllerBinder);
         }
     };
-    HanziToPinyin hanziToPinyin = HanziToPinyin.getInstance();
+    HanziToPinyin hanziToPinyin;
 
     private void pingjiedata() {
+        hanziToPinyin = HanziToPinyin.getInstance();
         mlist2.clear();
         map.clear();
         for (CheckedPermRecord checkedPermRecord : mlist_o) {
