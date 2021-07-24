@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:gravity="center"
+    android:orientation="vertical">
+
+
+        <com.worain.xproject.PowerAnimView
+            android:id="@+id/restart"
+            android:layout_width="90dp"
+            android:layout_height="90dp"></com.worain.xproject.PowerAnimView>
+
+        <TextView
+            android:id="@+id/restarttext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="restart_newui_power"
+            android:textSize="12sp" />
+</LinearLayout>

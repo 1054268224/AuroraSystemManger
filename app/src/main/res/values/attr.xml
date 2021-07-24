@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="MiuiWeatherView">
+        <attr name="line_intervals" format="dimension" />
+        <attr name="min_point_heights" format="dimension" />
+        <attr name="background_colors" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="HealthChartView">
+        <attr name="line_interval" format="dimension" />
+        <attr name="min_point_height" format="dimension" />
+        <attr name="background_color" format="color" />
+        <attr name="prarallel_num" format="integer" />
+    </declare-styleable>
+
+</resources>
