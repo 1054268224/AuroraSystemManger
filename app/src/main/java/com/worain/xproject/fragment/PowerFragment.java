@@ -32,8 +32,6 @@ public class PowerFragment extends Fragment {
     private TextView mTvOff;
     private TextView mTvRestart;
 
-
-
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {

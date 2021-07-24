@@ -91,17 +91,17 @@ public class HealthChartView extends RelativeLayout {
 
         @Override
         public void isVisible(boolean bool) {
-//            if (bool) {
-//                mIvLeft.setVisibility(VISIBLE);
-//                mIvRight.setVisibility(VISIBLE);
-//            } else {
-//                mIvLeft.postDelayed(() -> {
-//                    mIvLeft.setVisibility(GONE);
-//                }, 3500);
-//                mIvRight.postDelayed(() -> {
-//                    mIvRight.setVisibility(GONE);
-//                }, 3500);
-//            }
+            if (bool) {
+                mIvLeft.setVisibility(VISIBLE);
+                mIvRight.setVisibility(VISIBLE);
+            } else {
+                mIvLeft.postDelayed(() -> {
+                    mIvLeft.setVisibility(GONE);
+                }, 3500);
+                mIvRight.postDelayed(() -> {
+                    mIvRight.setVisibility(GONE);
+                }, 3500);
+            }
         }
     }
 
@@ -201,5 +201,4 @@ public class HealthChartView extends RelativeLayout {
         }
         canvas.restore();
     }
-
 }

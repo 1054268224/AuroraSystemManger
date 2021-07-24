@@ -64,7 +64,7 @@ public class PowerAnimView extends View {
     public long CHANGETIME = 200;// 什么时候开始转圈
     public float dianRadiuOrgin = 2; //点半径。
     public int DIANSHU = 24; // 多少个点
-    public int TIMETIME = 4000;  // 按压多久触发动作
+    public int TIMETIME = 2000;  // 按压多久触发动作
     public int JD = 5;  // 时间精度，
     private int dianRadiu; //2dp 点的半径
     private Paint mpaint;//白点

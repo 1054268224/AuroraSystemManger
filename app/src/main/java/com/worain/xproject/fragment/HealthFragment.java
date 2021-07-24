@@ -36,11 +36,10 @@ public class HealthFragment extends Fragment {
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         context = getContext();
-        view = LayoutInflater.from(context).inflate(R.layout.health_fragmenet, container, false);
+        view = LayoutInflater.from(context).inflate(R.layout.health_fragment, container, false);
         showHealthView();
         return view;
     }
-
 
     private void showHealthView() {
         healthChartView = (HealthChartView) view.findViewById(R.id.health_chart_view);
@@ -56,7 +55,7 @@ public class HealthFragment extends Fragment {
             ParmBean aparmBean = new ParmBean(randoms.nextInt(150), 2, timerBean);
             aparmBeans.add(aparmBean);
         }
-        healthChartView.setDatas(parmBeans,aparmBeans, ParmBean.VIEW_BLOODPRESSURE);
+        healthChartView.setDatas(parmBeans, ParmBean.VIEW_BLOODPRESSURE);
     }
 
 }

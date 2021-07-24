@@ -10,7 +10,6 @@ import android.graphics.Path;
 import android.graphics.PathEffect;
 import android.graphics.PointF;
 import android.util.AttributeSet;
-import android.util.Log;
 import android.util.TypedValue;
 import android.view.MotionEvent;
 import android.view.VelocityTracker;
@@ -20,11 +19,8 @@ import android.widget.Scroller;
 
 import com.worain.xproject.R;
 
-import java.lang.ref.SoftReference;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Map;
-import java.util.concurrent.ConcurrentHashMap;
 
 /**
  * <pre>
@@ -40,7 +36,7 @@ public class ChartView extends View {
     private static final int DEFAULT_GRAY = Color.GRAY;
 
     private final int backgroundColor;
-    private int viewType;
+    private int viewType; //视图种类
     private int minViewHeight; //控件的最低高度
     private final int minLineHeight;//折线最低的高度
     private final int lineInterval; //折线线段长度
@@ -52,7 +48,7 @@ public class ChartView extends View {
     private final int parallelNum;//平行线数量
     private int viewHeight;
     private int viewWidth;
-    private int screenWidth;
+    private int layoutWidth;//布局宽度
     private int screenHeight;
 
     private Paint linePaint; //线画笔
@@ -78,8 +74,6 @@ public class ChartView extends View {
     private Axis axis;
     private Arrow arrow;
 
-    private int[] y;
-
     public ChartView(Context context) {
         this(context, null);
     }
@@ -94,9 +88,9 @@ public class ChartView extends View {
         viewConfiguration = ViewConfiguration.get(context);
         TypedArray ta = context.obtainStyledAttributes(attrs, R.styleable.HealthChartView);
         minLineHeight = (int) ta.getDimension(R.styleable.HealthChartView_min_point_height, dp2pxF(context, 150));
-        lineInterval = (int) (ta.getDimension(R.styleable.HealthChartView_line_interval, dp2pxF(context, 20)));
+        lineInterval = (int) (ta.getDimension(R.styleable.HealthChartView_line_interval, dp2pxF(context, 40)));
         parallelNum = ta.getInt(R.styleable.HealthChartView_prarallel_num, 5);
-        backgroundColor = ta.getColor(R.styleable.HealthChartView_background_color, Color.WHITE);
+        backgroundColor = ta.getColor(R.styleable.HealthChartView_background_color, getResources().getColor(R.color.white, null));
         ta.recycle();
 
         setBackgroundColor(backgroundColor);
@@ -106,62 +100,48 @@ public class ChartView extends View {
         initPaint(context);
     }
 
-    /**
-     * 初始化默认数据
-     */
-    private void initSize(Context c) {
-        horizontalPadding = dp2px(getContext(), 2);
-        verticalPadding = (int) (7 * fontMetricsHeight); //根据x轴每一列字体数量确定乘数
-        minViewHeight = minLineHeight + verticalPadding;
-        pointRadius = dp2pxF(c, 3.5f);
-        textSize = sp2pxF(c, 8);
+    @Override
+    protected void onMeasure(int widthMeasureSpec, int heightMeasureSpec) {
+        super.onMeasure(widthMeasureSpec, heightMeasureSpec);
+
+        int heightSize = MeasureSpec.getSize(heightMeasureSpec);
+        int heightMode = MeasureSpec.getMode(heightMeasureSpec);
+
+        if (heightMode == MeasureSpec.EXACTLY) {
+            viewHeight = Math.max(heightSize, minViewHeight);
+        } else {
+            viewHeight = minViewHeight;
+        }
+        int totalWidth = 0;
+        if (datas.size() > 1) {
+            totalWidth = 2 * horizontalPadding + lineInterval * (datas.size() - 1) + ((int) (pointRadius * 2));
+        }
+        viewWidth = Math.max(layoutWidth, totalWidth);  //默认控件最小宽度为屏幕宽度
+        setMeasuredDimension(viewWidth, viewHeight);
+        calculatePontGap();
     }
 
-    /**
-     * 计算折线单位高度差
-     */
-    private void calculatePontGap() {
-        for (ParmBean bean : datas) {
-            if (bean.getValue() > maxValue) {
-                maxValue = bean.getValue();
-            }
-            if (bean.getValue() < minValue) {
-                minValue = bean.getValue();
-            }
+    int i = 0;
+
+    @Override
+    protected void onDraw(Canvas canvas) {
+        if (i == 0) {
+            layoutWidth = ((View) getParent()).getMeasuredWidth();
+            screenHeight = ((View) getParent()).getMeasuredHeight();
+            i++;
         }
-
-        for (ParmBean bean : anotherDatas) {
-            if (bean.getValue() > maxValue) {
-                maxValue = bean.getValue();
-            }
-            if (bean.getValue() < minValue) {
-                minValue = bean.getValue();
-            }
+        super.onDraw(canvas);
+        if (datas.isEmpty()) {
+            return;
         }
-
-        float gap = (maxValue - minValue) * 1.0f;
-        gap = (gap == 0.0f ? 1.0f : gap);  //保证分母不为0
-        pointGap = (viewHeight - verticalPadding) / (parallelNum) * (parallelNum - 2) / gap;
-    }
-
-    private void initPaint(Context c) {
-        linePaint = new Paint(Paint.ANTI_ALIAS_FLAG);
-        linePaint.setStrokeWidth(dp2px(c, 1));
-
-        textPaint = new Paint(Paint.ANTI_ALIAS_FLAG);
-        textPaint.setTextSize(textSize);
-        textPaint.setColor(Color.BLACK);
-        textPaint.setTextAlign(Paint.Align.CENTER);
-        Paint.FontMetrics fontMetrics = textPaint.getFontMetrics();
-        fontMetricsHeight = fontMetrics.descent - fontMetrics.ascent + 1;
-
-        valuePaint = new Paint(Paint.ANTI_ALIAS_FLAG);
-        valuePaint.setTextSize(textSize);
-        valuePaint.setColor(Color.BLACK);
-        valuePaint.setTextAlign(Paint.Align.CENTER);
-
-        circlePaint = new Paint(Paint.ANTI_ALIAS_FLAG);
-        circlePaint.setStrokeWidth(dp2pxF(c, 1));
+        drawParallel(canvas);
+        drawLine(canvas, datas, lineColor);
+        drawValue(canvas);
+        drawDots(canvas, datas);
+        if (anotherDatas != null) {
+            drawLine(canvas, anotherDatas, getContext().getColor(R.color.circle_purple));
+            drawDots(canvas, anotherDatas);
+        }
     }
 
     @Override
@@ -169,6 +149,63 @@ public class ChartView extends View {
         super.onSizeChanged(w, h, oldw, oldh);
         initSize(getContext());
         calculatePontGap();
+    }
+
+    private float lastX = 0;
+    private float x = 0;
+
+    @Override
+    public boolean onTouchEvent(MotionEvent event) {
+        if (velocityTracker == null) {
+            velocityTracker = VelocityTracker.obtain();
+        }
+        velocityTracker.addMovement(event);
+        switch (event.getAction()) {
+            case MotionEvent.ACTION_DOWN:
+                if (!scroller.isFinished()) {  //fling还没结束
+                    scroller.abortAnimation();
+                }
+                lastX = x = event.getX();
+                pointNum = (int) ((getScrollX() + x) / ((float) lineInterval));
+                pointX = getScrollX() + x;
+                pointY = event.getY();
+                invalidate();
+                return true;
+            case MotionEvent.ACTION_MOVE:
+                x = event.getX();
+                int deltaX = (int) (lastX - x);
+                if (getScrollX() + deltaX < 0) {    //越界恢复
+                    scrollTo(0, 0);
+                    return true;
+                } else if (getScrollX() + deltaX > viewWidth - layoutWidth) {
+                    scrollTo(viewWidth - layoutWidth, 0);
+                    return true;
+                }
+                scrollBy(deltaX, 0);
+                lastX = x;
+                if (Math.abs(deltaX)>2)arrow.isVisible(true);
+                break;
+            case MotionEvent.ACTION_UP:
+                x = event.getX();
+                velocityTracker.computeCurrentVelocity(1000);  //计算1秒内滑动过多少像素
+                int xVelocity = (int) velocityTracker.getXVelocity();
+                if (Math.abs(xVelocity) > viewConfiguration.getScaledMinimumFlingVelocity()) {  //滑动速度可被判定为抛动
+                    scroller.fling(getScrollX(), 0, -xVelocity, 0, 0, viewWidth - layoutWidth, 0, 0);
+                    invalidate();
+                }
+                arrow.isVisible(false);
+                break;
+        }
+        return super.onTouchEvent(event);
+    }
+
+    @Override
+    public void computeScroll() {
+        super.computeScroll();
+        if (scroller.computeScrollOffset()) {
+            scrollTo(scroller.getCurrX(), scroller.getCurrY());
+            invalidate();
+        }
     }
 
     /**
@@ -227,51 +264,63 @@ public class ChartView extends View {
         invalidate();
     }
 
-    @Override
-    protected void onMeasure(int widthMeasureSpec, int heightMeasureSpec) {
-        super.onMeasure(widthMeasureSpec, heightMeasureSpec);
-
-        int heightSize = MeasureSpec.getSize(heightMeasureSpec);
-        int heightMode = MeasureSpec.getMode(heightMeasureSpec);
-
-        if (heightMode == MeasureSpec.EXACTLY) {
-            viewHeight = Math.max(heightSize, minViewHeight);
-        } else {
-            viewHeight = minViewHeight;
-        }
-        int totalWidth = 0;
-        if (datas.size() > 1) {
-            totalWidth = 2 * horizontalPadding + lineInterval * (datas.size() - 1) + ((int) (pointRadius * 2));
-        }
-        viewWidth = Math.max(screenWidth, totalWidth);  //默认控件最小宽度为屏幕宽度
-        setMeasuredDimension(viewWidth, viewHeight);
-        calculatePontGap();
+    /**
+     * 初始化默认数据
+     */
+    private void initSize(Context c) {
+        horizontalPadding = dp2px(getContext(), 8);
+        verticalPadding = (int) (7 * fontMetricsHeight); //根据x轴每一列字体数量确定乘数
+        minViewHeight = minLineHeight + verticalPadding;
+        pointRadius = dp2pxF(c, 3.5f);
+        textSize = sp2pxF(c, 8);
     }
 
-    int i = 0;
-
-    @Override
-    protected void onDraw(Canvas canvas) {
-        if (i == 0) {
-            screenWidth = ((View) getParent()).getMeasuredWidth();
-            screenHeight = ((View) getParent()).getMeasuredHeight();
-            i++;
+    /**
+     * 计算折线单位高度差
+     */
+    private void calculatePontGap() {
+        for (ParmBean bean : datas) {
+            if (bean.getValue() > maxValue) {
+                maxValue = bean.getValue();
+            }
+            if (bean.getValue() < minValue) {
+                minValue = bean.getValue();
+            }
         }
 
-        super.onDraw(canvas);
-        if (datas.isEmpty()) {
-            return;
-        }
-        drawLinesValue(canvas, datas, lineColor);
-        drawDots(canvas, datas);
-        drawParallel(canvas);
-        if (anotherDatas != null) {
-            drawLinesValue(canvas, anotherDatas, getContext().getColor(R.color.circle_purple));
-            drawDots(canvas, anotherDatas);
+        for (ParmBean bean : anotherDatas) {
+            if (bean.getValue() > maxValue) {
+                maxValue = bean.getValue();
+            }
+            if (bean.getValue() < minValue) {
+                minValue = bean.getValue();
+            }
         }
 
+        float gap = (maxValue - minValue) * 1.0f;
+        gap = (gap == 0.0f ? 1.0f : gap);  //保证分母不为0
+        pointGap = (viewHeight - verticalPadding) / (parallelNum) * (parallelNum - 2) / gap;
     }
 
+    private void initPaint(Context c) {
+        linePaint = new Paint(Paint.ANTI_ALIAS_FLAG);
+        linePaint.setStrokeWidth(dp2px(c, 1));
+
+        textPaint = new Paint(Paint.ANTI_ALIAS_FLAG);
+        textPaint.setTextSize(textSize);
+        textPaint.setColor(Color.BLACK);
+        textPaint.setTextAlign(Paint.Align.CENTER);
+        Paint.FontMetrics fontMetrics = textPaint.getFontMetrics();
+        fontMetricsHeight = fontMetrics.descent - fontMetrics.ascent + 1;
+
+        valuePaint = new Paint(Paint.ANTI_ALIAS_FLAG);
+        valuePaint.setTextSize(textSize);
+        valuePaint.setColor(Color.BLACK);
+        valuePaint.setTextAlign(Paint.Align.CENTER);
+
+        circlePaint = new Paint(Paint.ANTI_ALIAS_FLAG);
+        circlePaint.setStrokeWidth(dp2pxF(c, 1));
+    }
 
     /**
      * 画平行线
@@ -300,13 +349,14 @@ public class ChartView extends View {
             tempY[i] = y * (i + 1);
         }
         if (index == 0) {
-            axis.onVertical(tempY, maxValue, (maxValue - minValue) / (parallelNum - 2), viewWidth - screenWidth);
+            axis.onVertical(tempY, maxValue, (maxValue - minValue) / (parallelNum - 2), viewWidth - layoutWidth);
             index++;
         }
         float centerY = viewHeight - verticalPadding;
         float centerX;
         int temp = (int) (fontMetricsHeight / 2);
-//        时间描述
+
+        //时间描述
         for (int i = 0; i < datas.size(); i++) {
             String month = datas.get(i).getTime().getMonth();
             String day = datas.get(i).getTime().getDay();
@@ -323,109 +373,106 @@ public class ChartView extends View {
         canvas.restore();
     }
 
-
     /**
      * 画折线
      *
      * @param canvas
      */
-    private void drawLinesValue(Canvas canvas, List<ParmBean> datas, int lineColor) {
+    private void drawLine(Canvas canvas, List<ParmBean> datas, int lineColor) {
         canvas.save();
-        List<ParmBean> aDatas = null;
-        if (getAnotherDatas() != null && !datas.equals(getAnotherDatas())) {
-            aDatas = getAnotherDatas();
-        }
         linePaint.setColor(lineColor);
         linePaint.setStrokeWidth(dp2pxF(getContext(), 1));
         linePaint.setStyle(Paint.Style.STROKE);
-
         Path linePath = new Path(); //用于绘制折线
         points.clear();
-        int baseHeight = (int) (verticalPadding + (viewHeight - verticalPadding) / parallelNum * 0.5);
         float centerX;
         float centerY;
-        float y = 0;
-
-
         valuePaint.setTextSize(2.5f * textSize); //字体放大一丢丢
 
         for (int i = 0; i < datas.size(); i++) {
-            float tem = datas.get(i).getValue();
-            tem = tem - minValue;
-            centerY = (int) (viewHeight - (baseHeight + tem * pointGap));
+            centerY = calculatePointY(datas.get(i));
             centerX = horizontalPadding + i * lineInterval + ((int) pointRadius);
             points.add(new PointF(centerX, centerY));
-            Paint.FontMetrics metrics = textPaint.getFontMetrics();
+
             if (i == 0) {
                 linePath.moveTo(centerX, centerY);
             } else {
                 linePath.lineTo(centerX, centerY);
-            }
-            if (aDatas != null && aDatas.size() != 0)
-                y = (int) (viewHeight - (baseHeight + (aDatas.get(i).getValue() - minValue) * pointGap));
-
-            if (pointNum != -1 && viewType != ParmBean.VIEW_TIRED && viewType != ParmBean.VIEW_PRESSURE && viewType != ParmBean.VIEW_HEALTH) {
-                if ((Math.abs(pointX - centerX) < lineInterval / 2) && (Math.abs(pointY - centerY) < lineInterval / 2 || Math.abs(pointY - y) < lineInterval / 2)) {
-                    String strValue = "";
-                    if (datas.equals(getDatas())) {
-                        strValue = unit(viewType, datas.get(pointNum).getValue(), 2);
-                    }
-
-                    Log.d("shuaihus", "画值" + i);
-                    int index = datas.size() - pointNum + 1;
-                    if ((index < 5 && index >= 0)&&datas.size()>5) {
-                        canvas.drawText(strValue,
-                                centerX - 90,
-                                centerY - (metrics.ascent + metrics.descent) / 2 - 30,
-                                valuePaint);
-
-                    } else {
-                        canvas.drawText(strValue,
-                                centerX + 80,
-                                centerY - (metrics.ascent + metrics.descent) / 2 - 30,
-                                valuePaint);
-                    }
-
-                    if (aDatas != null && aDatas.size() != 0) {
-                        String aStr = unit(viewType, aDatas.get(pointNum).getValue(), 1);
-                        if ((index < 5 && index >= 0)&&datas.size()>5) {
-                            canvas.drawText(aStr,
-                                    centerX - 90,
-                                    y - (metrics.ascent + metrics.descent) / 2 - 30,
-                                    valuePaint);
-                        } else {
-                            canvas.drawText(aStr,
-                                    centerX + 80,
-                                    y - (metrics.ascent + metrics.descent) / 2 - 30,
-                                    valuePaint);
-                        }
-                    }
-                    canvas.drawLine(centerX, (viewHeight - verticalPadding) / parallelNum, centerX, (viewHeight - verticalPadding), linePaint);
-                }
             }
         }
         canvas.drawPath(linePath, linePaint); //画出折线
         canvas.restore();
     }
 
-    private String unit(int viewType, float value, int index) {
-        if (viewType == ParmBean.VIEW_BLOODPRESSURE) {
-            if (index == 1) {
-                return "收缩压：" + ((int) value);
-            } else {
-                return "舒张压：" + ((int) value);
+    private void drawValue(Canvas canvas) {
+        List<ParmBean> aDatas = null;
+        List<ParmBean> datas = null;
+        float centerX;
+        float centerY;
+        float aDataY = -1;
+        if (getDatas() != null) {
+            datas = getDatas();
+        }
+        if (getAnotherDatas() != null) {
+            aDatas = getAnotherDatas();
+        }
+
+        for (int i = 0; i < datas.size(); i++) {
+            centerX = points.get(i).x;
+            centerY = points.get(i).y;
+            if (aDatas != null && aDatas.size() != 0) {
+                aDataY = calculatePointY(aDatas.get(i));
             }
-        } else if (viewType == ParmBean.VIEW_RATE) {
-            return ((int) value) + "bpm";
-        } else if (viewType == ParmBean.VIEW_SUGAR) {
-            return value + "mmol/L";
-        } else {
-            return "";
+            if (pointNum != -1 && viewType != ParmBean.VIEW_TIRED
+                    && viewType != ParmBean.VIEW_PRESSURE
+                    && viewType != ParmBean.VIEW_HEALTH
+                    && (Math.abs(pointX - centerX) < lineInterval / 2)
+                    && (Math.abs(pointY - centerY) < lineInterval / 2
+                    || Math.abs(pointY - aDataY) < lineInterval / 2)) {
+
+                canvas.drawLine(centerX, (viewHeight - verticalPadding) / parallelNum, centerX, (viewHeight - verticalPadding), linePaint);
+                drawStrValue(datas, pointNum, 2, centerX, centerY, canvas);
+                if (aDatas != null && aDatas.size() != 0) {
+                    drawStrValue(aDatas, pointNum, 1, centerX, aDataY, canvas);
+                }
+
+            }
         }
     }
 
+    private int calculatePointY(ParmBean data) {
+        int baseHeight = (int) (verticalPadding + (viewHeight - verticalPadding) / parallelNum * 0.5);
+        return (int) (viewHeight - (baseHeight + (data.getValue() - minValue) * pointGap));
+    }
+
+    private void drawStrValue(List<ParmBean> datas, int pointNum, int valueType, float x, float y, Canvas canvas) {
+        String str;
+        float value = datas.get(pointNum).getValue();
+        Paint.FontMetrics metrics = textPaint.getFontMetrics();
+        if (viewType == ParmBean.VIEW_BLOODPRESSURE) {
+            if (valueType == 1) {
+                str = "收缩压：" + ((int) value);
+            } else {
+                str = "舒张压：" + ((int) value);
+            }
+        } else if (viewType == ParmBean.VIEW_RATE) {
+            str = ((int) value) + "bpm";
+        } else if (viewType == ParmBean.VIEW_SUGAR) {
+            str = value + "mmol/L";
+        } else {
+            str = "";
+        }
+
+        if ((datas.size() - pointNum) < 4 && datas.size() > 5) {
+            canvas.drawText(str, x - 95, y + (metrics.ascent + metrics.descent) * 3, valuePaint);
+        } else {
+            canvas.drawText(str, x + 95, y + (metrics.ascent + metrics.descent) * 3, valuePaint);
+        }
+
+    }
+
     /**
-     * 画圈和值描述值
+     * 画点
      *
      * @param canvas
      */
@@ -442,7 +489,6 @@ public class ChartView extends View {
         textPaint.setTextSize(textSize);
         canvas.restore();
     }
-
 
     private void setCircleColor(int viewType, int value) {
         int green = R.color.circle_green;
@@ -510,88 +556,6 @@ public class ChartView extends View {
 
     private void color(int res) {
         circlePaint.setColor(getResources().getColor(res, null));
-    }
-
-    private enum PointLoader {
-        INSTANCE;
-        Map<Integer, SoftReference<List<PointF>>> pointCache = new ConcurrentHashMap<>();
-
-        PointLoader() {
-        }
-
-        public List<PointF> loadPointFromCache(int temp, List<PointF> points) {
-            List<PointF> pointTemps = null;
-            if (pointCache.containsKey(temp)) {
-                SoftReference<List<PointF>> softReference = pointCache.get(temp);
-                if (null != softReference && null != softReference.get()) {
-                    pointTemps = softReference.get();
-                } else {
-                    pointCache.put(temp, new SoftReference<>(points));
-                }
-            } else {
-                pointCache.put(temp, new SoftReference<>(points));
-            }
-            return pointTemps;
-        }
-    }
-
-    private float lastX = 0;
-    private float x = 0;
-    int indexs;
-
-    @Override
-    public boolean onTouchEvent(MotionEvent event) {
-        if (velocityTracker == null) {
-            velocityTracker = VelocityTracker.obtain();
-        }
-        velocityTracker.addMovement(event);
-        switch (event.getAction()) {
-            case MotionEvent.ACTION_DOWN:
-                if (!scroller.isFinished()) {  //fling还没结束
-                    scroller.abortAnimation();
-                }
-                arrow.isVisible(true);
-                lastX = x = event.getX();
-                pointNum = (int) ((getScrollX() + x) / ((float) lineInterval));
-                pointX = getScrollX() + x;
-                pointY = event.getY();
-                invalidate();
-//                Toast.makeText(getContext(),indexs+"格数据",Toast.LENGTH_SHORT).show();
-                return true;
-            case MotionEvent.ACTION_MOVE:
-                x = event.getX();
-                int deltaX = (int) (lastX - x);
-                if (getScrollX() + deltaX < 0) {    //越界恢复
-                    scrollTo(0, 0);
-                    return true;
-                } else if (getScrollX() + deltaX > viewWidth - screenWidth) {
-                    scrollTo(viewWidth - screenWidth, 0);
-                    return true;
-                }
-                scrollBy(deltaX, 0);
-                lastX = x;
-                break;
-            case MotionEvent.ACTION_UP:
-                x = event.getX();
-                velocityTracker.computeCurrentVelocity(1000);  //计算1秒内滑动过多少像素
-                int xVelocity = (int) velocityTracker.getXVelocity();
-                if (Math.abs(xVelocity) > viewConfiguration.getScaledMinimumFlingVelocity()) {  //滑动速度可被判定为抛动
-                    scroller.fling(getScrollX(), 0, -xVelocity, 0, 0, viewWidth - screenWidth, 0, 0);
-                    invalidate();
-                }
-                arrow.isVisible(false);
-                break;
-        }
-        return super.onTouchEvent(event);
-    }
-
-    @Override
-    public void computeScroll() {
-        super.computeScroll();
-        if (scroller.computeScrollOffset()) {
-            scrollTo(scroller.getCurrX(), scroller.getCurrY());
-            invalidate();
-        }
     }
 
     //工具类

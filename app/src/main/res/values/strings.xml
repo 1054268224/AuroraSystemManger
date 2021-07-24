@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Xproject</string>
+    <string-array name="list_view_type">
+        <item>HealthChartView</item>
+        <item>PowerAnimView</item>
+    </string-array>
 </resources>
